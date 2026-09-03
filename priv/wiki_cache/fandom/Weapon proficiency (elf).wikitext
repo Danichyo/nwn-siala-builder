@@ -1,0 +1,21 @@
+{{feat
+|type=race
+|prereq=[[elf]]
+|desc=This feat allows the character to use the [[longsword]], [[rapier]], [[longbow]], and [[shortbow]].<br />
+'''Normal:''' A character cannot equip a weapon he is not proficient in.
+|use=All elves start with this feat but can gain other weapon proficiencies as well.
+|icon=ife_weppro_elf.gif
+}}
+
+==Builder notes==
+'''Item feat:''' No, but it can be added with custom content.
+
+==Custom content notes==
+'''Removable:''' yes
+
+'''Reusable:''' yes
+
+'''Script:''' [[baseitems.2da]]
+
+*This feat can be added to [[iprp_feats.2da]] to make it available as an item feat.
+[[Category:Weapon proficiency feats]]

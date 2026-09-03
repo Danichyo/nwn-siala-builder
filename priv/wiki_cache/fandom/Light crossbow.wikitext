@@ -1,0 +1,21 @@
+{{Weapon|imagefile=Light Crossbow.jpg
+  |weaponname=Light [[crossbow]]
+  |weapondescription=The crossbow resembles a [[bow]] laid crosswise on a wood or metal shaft, and is favored for its versatility. The '''light crossbow''' variant is durable and reasonably easy to conceal, but lacks some of the punch of its larger cousin.
+  |weight=6
+  |cost=35
+  |damage=1d8
+  |critical=19-20/x2
+  |damagetype=[[piercing damage|Piercing]]
+  |size=Small
+  |proficiency=[[Weapon proficiency (monk)|Monk]]<br/>&nbsp;[[Weapon proficiency (rogue)|Rogue]]<br/>&nbsp;[[Weapon proficiency (simple)|Simple]]<br/>&nbsp;[[Weapon proficiency (wizard)|Wizard]]
+  |category=[[Category:Ranged weapons]] [[Category:Simple weapons]]
+}}
+
+==Toolset==
+* Light crossbows are listed in the [[crossbow blueprint category]] on the [[item palette]] in the [[toolset]].
+
+==Notes==
+
+*Crossbows only provide one [[attack per round]] no matter the [[creature]]'s [[BAB]]. However, the [[rapid reload]] [[feat]] will allow the same number of attacks per round as allowed by the creatures BAB.  [[Effect]]s that provide additional attacks, such as [[haste]] or the [[divine power]] [[spell]], will still work as intended.
+*A crossbow's damage is unaffected by its wielder's [[strength]] unless given an explicit [[mighty]] property, so characters with less than 10 strength will not have a damage penalty when wielding most crossbows.
+*Crossbows require characters to wield them with two hands regardless of size.

@@ -1,0 +1,1115 @@
+{
+  "fetched": "2026-08-10",
+  "categories": [
+    {
+      "category": "Category:Axes",
+      "members": [
+        {
+          "title": "Axe",
+          "ns": 0,
+          "pageid": 4035
+        },
+        {
+          "title": "Battleaxe",
+          "ns": 0,
+          "pageid": 3924
+        },
+        {
+          "title": "Double axe",
+          "ns": 0,
+          "pageid": 3817
+        },
+        {
+          "title": "Dwarven waraxe",
+          "ns": 0,
+          "pageid": 4077
+        },
+        {
+          "title": "Greataxe",
+          "ns": 0,
+          "pageid": 4033
+        },
+        {
+          "title": "Handaxe",
+          "ns": 0,
+          "pageid": 4078
+        },
+        {
+          "title": "Throwing axe",
+          "ns": 0,
+          "pageid": 3916
+        }
+      ]
+    },
+    {
+      "category": "Category:Bladed weapons",
+      "members": [
+        {
+          "title": "Bastard sword",
+          "ns": 0,
+          "pageid": 3782
+        },
+        {
+          "title": "Bladed weapon",
+          "ns": 0,
+          "pageid": 6592
+        },
+        {
+          "title": "Dagger",
+          "ns": 0,
+          "pageid": 3783
+        },
+        {
+          "title": "Dagger of Chaos",
+          "ns": 0,
+          "pageid": 9741
+        },
+        {
+          "title": "Greatsword",
+          "ns": 0,
+          "pageid": 3784
+        },
+        {
+          "title": "Halberd",
+          "ns": 0,
+          "pageid": 3874
+        },
+        {
+          "title": "Kama",
+          "ns": 0,
+          "pageid": 3826
+        },
+        {
+          "title": "Katana",
+          "ns": 0,
+          "pageid": 4058
+        },
+        {
+          "title": "Kukri",
+          "ns": 0,
+          "pageid": 3827
+        },
+        {
+          "title": "Longsword",
+          "ns": 0,
+          "pageid": 3785
+        },
+        {
+          "title": "Rapier",
+          "ns": 0,
+          "pageid": 4059
+        },
+        {
+          "title": "Scimitar",
+          "ns": 0,
+          "pageid": 4060
+        },
+        {
+          "title": "Scythe",
+          "ns": 0,
+          "pageid": 3910
+        },
+        {
+          "title": "Shortsword",
+          "ns": 0,
+          "pageid": 3786
+        },
+        {
+          "title": "Sickle",
+          "ns": 0,
+          "pageid": 3828
+        },
+        {
+          "title": "Two-bladed sword",
+          "ns": 0,
+          "pageid": 3820
+        }
+      ]
+    },
+    {
+      "category": "Category:Blunt weapons",
+      "members": [
+        {
+          "title": "Club",
+          "ns": 0,
+          "pageid": 3799
+        },
+        {
+          "title": "Dire mace",
+          "ns": 0,
+          "pageid": 3816
+        },
+        {
+          "title": "Flail",
+          "ns": 0,
+          "pageid": 3802
+        },
+        {
+          "title": "Hammer",
+          "ns": 0,
+          "pageid": 3805
+        },
+        {
+          "title": "Heavy flail",
+          "ns": 0,
+          "pageid": 4269
+        },
+        {
+          "title": "Light flail",
+          "ns": 0,
+          "pageid": 4268
+        },
+        {
+          "title": "Light hammer",
+          "ns": 0,
+          "pageid": 4270
+        },
+        {
+          "title": "Mace",
+          "ns": 0,
+          "pageid": 3808
+        },
+        {
+          "title": "Magic staff",
+          "ns": 0,
+          "pageid": 8598
+        },
+        {
+          "title": "Morningstar",
+          "ns": 0,
+          "pageid": 3809
+        },
+        {
+          "title": "Quarterstaff",
+          "ns": 0,
+          "pageid": 3819
+        },
+        {
+          "title": "Unarmed strike",
+          "ns": 0,
+          "pageid": 9527
+        },
+        {
+          "title": "Warhammer",
+          "ns": 0,
+          "pageid": 4271
+        }
+      ]
+    },
+    {
+      "category": "Category:Exotic weapons",
+      "members": [
+        {
+          "title": "Bastard sword",
+          "ns": 0,
+          "pageid": 3782
+        },
+        {
+          "title": "Dire mace",
+          "ns": 0,
+          "pageid": 3816
+        },
+        {
+          "title": "Double axe",
+          "ns": 0,
+          "pageid": 3817
+        },
+        {
+          "title": "Dwarven waraxe",
+          "ns": 0,
+          "pageid": 4077
+        },
+        {
+          "title": "Kama",
+          "ns": 0,
+          "pageid": 3826
+        },
+        {
+          "title": "Katana",
+          "ns": 0,
+          "pageid": 4058
+        },
+        {
+          "title": "Kukri",
+          "ns": 0,
+          "pageid": 3827
+        },
+        {
+          "title": "Scythe",
+          "ns": 0,
+          "pageid": 3910
+        },
+        {
+          "title": "Shuriken",
+          "ns": 0,
+          "pageid": 3915
+        },
+        {
+          "title": "Two-bladed sword",
+          "ns": 0,
+          "pageid": 3820
+        },
+        {
+          "title": "Whip",
+          "ns": 0,
+          "pageid": 3829
+        }
+      ]
+    },
+    {
+      "category": "Category:Martial weapons",
+      "members": [
+        {
+          "title": "Battleaxe",
+          "ns": 0,
+          "pageid": 3924
+        },
+        {
+          "title": "Greataxe",
+          "ns": 0,
+          "pageid": 4033
+        },
+        {
+          "title": "Greatsword",
+          "ns": 0,
+          "pageid": 3784
+        },
+        {
+          "title": "Halberd",
+          "ns": 0,
+          "pageid": 3874
+        },
+        {
+          "title": "Handaxe",
+          "ns": 0,
+          "pageid": 4078
+        },
+        {
+          "title": "Heavy flail",
+          "ns": 0,
+          "pageid": 4269
+        },
+        {
+          "title": "Light flail",
+          "ns": 0,
+          "pageid": 4268
+        },
+        {
+          "title": "Light hammer",
+          "ns": 0,
+          "pageid": 4270
+        },
+        {
+          "title": "Longbow",
+          "ns": 0,
+          "pageid": 3753
+        },
+        {
+          "title": "Longsword",
+          "ns": 0,
+          "pageid": 3785
+        },
+        {
+          "title": "Rapier",
+          "ns": 0,
+          "pageid": 4059
+        },
+        {
+          "title": "Scimitar",
+          "ns": 0,
+          "pageid": 4060
+        },
+        {
+          "title": "Shortbow",
+          "ns": 0,
+          "pageid": 3754
+        },
+        {
+          "title": "Shortsword",
+          "ns": 0,
+          "pageid": 3786
+        },
+        {
+          "title": "Throwing axe",
+          "ns": 0,
+          "pageid": 3916
+        },
+        {
+          "title": "Trident",
+          "ns": 0,
+          "pageid": 8089
+        },
+        {
+          "title": "Warhammer",
+          "ns": 0,
+          "pageid": 4271
+        }
+      ]
+    },
+    {
+      "category": "Category:Polearms",
+      "members": [
+        {
+          "title": "Halberd",
+          "ns": 0,
+          "pageid": 3874
+        },
+        {
+          "title": "Lance",
+          "ns": 0,
+          "pageid": 9986
+        },
+        {
+          "title": "Scythe",
+          "ns": 0,
+          "pageid": 3910
+        },
+        {
+          "title": "Spear",
+          "ns": 0,
+          "pageid": 3914
+        },
+        {
+          "title": "Trident",
+          "ns": 0,
+          "pageid": 8089
+        }
+      ]
+    },
+    {
+      "category": "Category:Races",
+      "members": [
+        {
+          "title": "Aberration",
+          "ns": 0,
+          "pageid": 3215
+        },
+        {
+          "title": "Animal",
+          "ns": 0,
+          "pageid": 3629
+        },
+        {
+          "title": "Beast",
+          "ns": 0,
+          "pageid": 3654
+        },
+        {
+          "title": "Category:Playable races",
+          "ns": 14,
+          "pageid": 10734
+        },
+        {
+          "title": "Construct",
+          "ns": 0,
+          "pageid": 3618
+        },
+        {
+          "title": "Dragon",
+          "ns": 0,
+          "pageid": 3630
+        },
+        {
+          "title": "Dwarf",
+          "ns": 0,
+          "pageid": 1173
+        },
+        {
+          "title": "Elemental",
+          "ns": 0,
+          "pageid": 3631
+        },
+        {
+          "title": "Elf",
+          "ns": 0,
+          "pageid": 1174
+        },
+        {
+          "title": "Fey",
+          "ns": 0,
+          "pageid": 3641
+        },
+        {
+          "title": "Giant",
+          "ns": 0,
+          "pageid": 3642
+        },
+        {
+          "title": "Gnome",
+          "ns": 0,
+          "pageid": 1175
+        },
+        {
+          "title": "Goblinoid",
+          "ns": 0,
+          "pageid": 3643
+        },
+        {
+          "title": "Half-elf",
+          "ns": 0,
+          "pageid": 1176
+        },
+        {
+          "title": "Half-orc",
+          "ns": 0,
+          "pageid": 1178
+        },
+        {
+          "title": "Halfling",
+          "ns": 0,
+          "pageid": 1177
+        },
+        {
+          "title": "Human",
+          "ns": 0,
+          "pageid": 1137
+        },
+        {
+          "title": "Magical beast",
+          "ns": 0,
+          "pageid": 3644
+        },
+        {
+          "title": "Monstrous humanoid",
+          "ns": 0,
+          "pageid": 3645
+        },
+        {
+          "title": "Ooze",
+          "ns": 0,
+          "pageid": 3677
+        },
+        {
+          "title": "Orc",
+          "ns": 0,
+          "pageid": 3678
+        },
+        {
+          "title": "Outsider",
+          "ns": 0,
+          "pageid": 3214
+        },
+        {
+          "title": "Reptilian",
+          "ns": 0,
+          "pageid": 3679
+        },
+        {
+          "title": "Shapechanger",
+          "ns": 0,
+          "pageid": 3680
+        },
+        {
+          "title": "Subrace",
+          "ns": 0,
+          "pageid": 3627
+        },
+        {
+          "title": "Undead",
+          "ns": 0,
+          "pageid": 3225
+        },
+        {
+          "title": "Vermin",
+          "ns": 0,
+          "pageid": 3682
+        }
+      ]
+    },
+    {
+      "category": "Category:Ranged weapons",
+      "members": [
+        {
+          "title": "Bow",
+          "ns": 0,
+          "pageid": 3922
+        },
+        {
+          "title": "Category:Throwing weapons",
+          "ns": 14,
+          "pageid": 7005
+        },
+        {
+          "title": "Crossbow",
+          "ns": 0,
+          "pageid": 3752
+        },
+        {
+          "title": "Heavy crossbow",
+          "ns": 0,
+          "pageid": 3920
+        },
+        {
+          "title": "Light crossbow",
+          "ns": 0,
+          "pageid": 3917
+        },
+        {
+          "title": "Longbow",
+          "ns": 0,
+          "pageid": 3753
+        },
+        {
+          "title": "Shortbow",
+          "ns": 0,
+          "pageid": 3754
+        },
+        {
+          "title": "Sling",
+          "ns": 0,
+          "pageid": 3755
+        }
+      ]
+    },
+    {
+      "category": "Category:Simple weapons",
+      "members": [
+        {
+          "title": "Club",
+          "ns": 0,
+          "pageid": 3799
+        },
+        {
+          "title": "Dagger",
+          "ns": 0,
+          "pageid": 3783
+        },
+        {
+          "title": "Dart",
+          "ns": 0,
+          "pageid": 3846
+        },
+        {
+          "title": "Heavy crossbow",
+          "ns": 0,
+          "pageid": 3920
+        },
+        {
+          "title": "Lance",
+          "ns": 0,
+          "pageid": 9986
+        },
+        {
+          "title": "Light crossbow",
+          "ns": 0,
+          "pageid": 3917
+        },
+        {
+          "title": "Mace",
+          "ns": 0,
+          "pageid": 3808
+        },
+        {
+          "title": "Magic staff",
+          "ns": 0,
+          "pageid": 8598
+        },
+        {
+          "title": "Morningstar",
+          "ns": 0,
+          "pageid": 3809
+        },
+        {
+          "title": "Quarterstaff",
+          "ns": 0,
+          "pageid": 3819
+        },
+        {
+          "title": "Sickle",
+          "ns": 0,
+          "pageid": 3828
+        },
+        {
+          "title": "Sling",
+          "ns": 0,
+          "pageid": 3755
+        },
+        {
+          "title": "Spear",
+          "ns": 0,
+          "pageid": 3914
+        }
+      ]
+    },
+    {
+      "category": "Category:Spell schools",
+      "members": [
+        {
+          "title": "Abjuration",
+          "ns": 0,
+          "pageid": 1066
+        },
+        {
+          "title": "Conjuration",
+          "ns": 0,
+          "pageid": 1076
+        },
+        {
+          "title": "Divination",
+          "ns": 0,
+          "pageid": 1077
+        },
+        {
+          "title": "Enchantment",
+          "ns": 0,
+          "pageid": 1078
+        },
+        {
+          "title": "Evocation",
+          "ns": 0,
+          "pageid": 1634
+        },
+        {
+          "title": "Illusion",
+          "ns": 0,
+          "pageid": 1079
+        },
+        {
+          "title": "Necromancy",
+          "ns": 0,
+          "pageid": 1080
+        },
+        {
+          "title": "Spell school list (bard)",
+          "ns": 0,
+          "pageid": 11360
+        },
+        {
+          "title": "Spell school list (cleric)",
+          "ns": 0,
+          "pageid": 11361
+        },
+        {
+          "title": "Spell school list (druid)",
+          "ns": 0,
+          "pageid": 11362
+        },
+        {
+          "title": "Spell school list (paladin)",
+          "ns": 0,
+          "pageid": 11363
+        },
+        {
+          "title": "Spell school list (ranger)",
+          "ns": 0,
+          "pageid": 11364
+        },
+        {
+          "title": "Spell school list (sorcerer/wizard)",
+          "ns": 0,
+          "pageid": 11365
+        },
+        {
+          "title": "Transmutation",
+          "ns": 0,
+          "pageid": 1081
+        },
+        {
+          "title": "Universal",
+          "ns": 0,
+          "pageid": 1635
+        }
+      ]
+    },
+    {
+      "category": "Category:Throwing weapons",
+      "members": [
+        {
+          "title": "Dart",
+          "ns": 0,
+          "pageid": 3846
+        },
+        {
+          "title": "Shuriken",
+          "ns": 0,
+          "pageid": 3915
+        },
+        {
+          "title": "Sling",
+          "ns": 0,
+          "pageid": 3755
+        },
+        {
+          "title": "Throwing axe",
+          "ns": 0,
+          "pageid": 3916
+        }
+      ]
+    },
+    {
+      "category": "Category:Weapons",
+      "members": [
+        {
+          "title": "Ammunition",
+          "ns": 0,
+          "pageid": 3923
+        },
+        {
+          "title": "Axe",
+          "ns": 0,
+          "pageid": 4035
+        },
+        {
+          "title": "Bastard sword",
+          "ns": 0,
+          "pageid": 3782
+        },
+        {
+          "title": "Battleaxe",
+          "ns": 0,
+          "pageid": 3924
+        },
+        {
+          "title": "Bite item",
+          "ns": 0,
+          "pageid": 8775
+        },
+        {
+          "title": "Bladed weapon",
+          "ns": 0,
+          "pageid": 6592
+        },
+        {
+          "title": "CEP weapon",
+          "ns": 0,
+          "pageid": 10243
+        },
+        {
+          "title": "Category:Ammunition",
+          "ns": 14,
+          "pageid": 3743
+        },
+        {
+          "title": "Category:Axes",
+          "ns": 14,
+          "pageid": 4034
+        },
+        {
+          "title": "Category:Bladed weapons",
+          "ns": 14,
+          "pageid": 7012
+        },
+        {
+          "title": "Category:Blunt weapons",
+          "ns": 14,
+          "pageid": 7011
+        },
+        {
+          "title": "Category:Double-sided weapons",
+          "ns": 14,
+          "pageid": 7010
+        },
+        {
+          "title": "Category:Exotic weapons",
+          "ns": 14,
+          "pageid": 7009
+        },
+        {
+          "title": "Category:Grenade-like weapons",
+          "ns": 14,
+          "pageid": 7063
+        },
+        {
+          "title": "Category:Mage specific",
+          "ns": 14,
+          "pageid": 11715
+        },
+        {
+          "title": "Category:Martial weapons",
+          "ns": 14,
+          "pageid": 7014
+        },
+        {
+          "title": "Category:Polearms",
+          "ns": 14,
+          "pageid": 3873
+        },
+        {
+          "title": "Category:Ranged weapons",
+          "ns": 14,
+          "pageid": 7007
+        },
+        {
+          "title": "Category:Simple weapons",
+          "ns": 14,
+          "pageid": 7013
+        },
+        {
+          "title": "Category:Throwing weapons",
+          "ns": 14,
+          "pageid": 7005
+        },
+        {
+          "title": "Category:Tiny weapons",
+          "ns": 14,
+          "pageid": 7004
+        },
+        {
+          "title": "Claw item",
+          "ns": 0,
+          "pageid": 8776
+        },
+        {
+          "title": "Club",
+          "ns": 0,
+          "pageid": 3799
+        },
+        {
+          "title": "Creature weapon",
+          "ns": 0,
+          "pageid": 12068
+        },
+        {
+          "title": "Dagger",
+          "ns": 0,
+          "pageid": 3783
+        },
+        {
+          "title": "Dart",
+          "ns": 0,
+          "pageid": 3846
+        },
+        {
+          "title": "Dire mace",
+          "ns": 0,
+          "pageid": 3816
+        },
+        {
+          "title": "Double axe",
+          "ns": 0,
+          "pageid": 3817
+        },
+        {
+          "title": "Double-sided weapon",
+          "ns": 0,
+          "pageid": 4284
+        },
+        {
+          "title": "Dwarven waraxe",
+          "ns": 0,
+          "pageid": 4077
+        },
+        {
+          "title": "Flail",
+          "ns": 0,
+          "pageid": 3802
+        },
+        {
+          "title": "Gore item",
+          "ns": 0,
+          "pageid": 8777
+        },
+        {
+          "title": "Greataxe",
+          "ns": 0,
+          "pageid": 4033
+        },
+        {
+          "title": "Greatsword",
+          "ns": 0,
+          "pageid": 3784
+        },
+        {
+          "title": "Grenade-like weapon",
+          "ns": 0,
+          "pageid": 11443
+        },
+        {
+          "title": "Halberd",
+          "ns": 0,
+          "pageid": 3874
+        },
+        {
+          "title": "Handaxe",
+          "ns": 0,
+          "pageid": 4078
+        },
+        {
+          "title": "Heavy crossbow",
+          "ns": 0,
+          "pageid": 3920
+        },
+        {
+          "title": "Heavy flail",
+          "ns": 0,
+          "pageid": 4269
+        },
+        {
+          "title": "Kama",
+          "ns": 0,
+          "pageid": 3826
+        },
+        {
+          "title": "Katana",
+          "ns": 0,
+          "pageid": 4058
+        },
+        {
+          "title": "Kukri",
+          "ns": 0,
+          "pageid": 3827
+        },
+        {
+          "title": "Lance",
+          "ns": 0,
+          "pageid": 9986
+        },
+        {
+          "title": "Light crossbow",
+          "ns": 0,
+          "pageid": 3917
+        },
+        {
+          "title": "Light flail",
+          "ns": 0,
+          "pageid": 4268
+        },
+        {
+          "title": "Light hammer",
+          "ns": 0,
+          "pageid": 4270
+        },
+        {
+          "title": "Longbow",
+          "ns": 0,
+          "pageid": 3753
+        },
+        {
+          "title": "Longsword",
+          "ns": 0,
+          "pageid": 3785
+        },
+        {
+          "title": "Mace",
+          "ns": 0,
+          "pageid": 3808
+        },
+        {
+          "title": "Magic staff",
+          "ns": 0,
+          "pageid": 8598
+        },
+        {
+          "title": "Melee weapon",
+          "ns": 0,
+          "pageid": 3921
+        },
+        {
+          "title": "Morningstar",
+          "ns": 0,
+          "pageid": 3809
+        },
+        {
+          "title": "Quarterstaff",
+          "ns": 0,
+          "pageid": 3819
+        },
+        {
+          "title": "Ranged weapon",
+          "ns": 0,
+          "pageid": 3742
+        },
+        {
+          "title": "Rapier",
+          "ns": 0,
+          "pageid": 4059
+        },
+        {
+          "title": "Scimitar",
+          "ns": 0,
+          "pageid": 4060
+        },
+        {
+          "title": "Scythe",
+          "ns": 0,
+          "pageid": 3910
+        },
+        {
+          "title": "Shortbow",
+          "ns": 0,
+          "pageid": 3754
+        },
+        {
+          "title": "Shortsword",
+          "ns": 0,
+          "pageid": 3786
+        },
+        {
+          "title": "Shuriken",
+          "ns": 0,
+          "pageid": 3915
+        },
+        {
+          "title": "Sickle",
+          "ns": 0,
+          "pageid": 3828
+        },
+        {
+          "title": "Slam item",
+          "ns": 0,
+          "pageid": 8778
+        },
+        {
+          "title": "Sling",
+          "ns": 0,
+          "pageid": 3755
+        },
+        {
+          "title": "Spear",
+          "ns": 0,
+          "pageid": 3914
+        },
+        {
+          "title": "Sword",
+          "ns": 0,
+          "pageid": 4076
+        },
+        {
+          "title": "Throwing axe",
+          "ns": 0,
+          "pageid": 3916
+        },
+        {
+          "title": "Throwing weapon",
+          "ns": 0,
+          "pageid": 3845
+        },
+        {
+          "title": "Trident",
+          "ns": 0,
+          "pageid": 8089
+        },
+        {
+          "title": "Two-bladed sword",
+          "ns": 0,
+          "pageid": 3820
+        },
+        {
+          "title": "Two-handed weapon",
+          "ns": 0,
+          "pageid": 10281
+        },
+        {
+          "title": "Unarmed strike",
+          "ns": 0,
+          "pageid": 9527
+        },
+        {
+          "title": "Warhammer",
+          "ns": 0,
+          "pageid": 4271
+        },
+        {
+          "title": "Weapon size",
+          "ns": 0,
+          "pageid": 2890
+        },
+        {
+          "title": "Whip",
+          "ns": 0,
+          "pageid": 3829
+        }
+      ]
+    }
+  ]
+}

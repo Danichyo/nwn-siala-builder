@@ -1,0 +1,34 @@
+{{spell
+|icon=is_x1bigby3.gif
+|magelevel=7
+|innatelevel=7
+|school=[[evocation]]
+|components=VS
+|range=l
+|area=single
+|save=none
+|spellresistance=yes
+|duration=1 [[round]] / level
+|line=Bigby's hands
+|line5=Bigby's interposing hand
+|line6=Bigby's forceful hand
+|line7=Bigby's grasping hand
+|line8=Bigby's clenched fist
+|line9=Bigby's crushing hand
+|desc=A giant hand appears and attacks the target. If the hand hits and succeeds in a grapple check, the opponent will be held for the duration of the [[spell]].}}
+
+== Notes ==
+*Added in the [[expansion pack]]s.
+*To hit the target, the hand makes a specialized attack roll:
+ 1d20 + [[caster level]] + (casting [[ability modifier]] + 10) - 1 vs.
+ [[target]]'s [[armor class]]
+*To successfully grapple the target after hitting it, the hand must pass a grapple check, with a tie being successful:
+ 1d20 + caster level + (casting ability modifier + 10) + 4 vs.
+ 1d20 + target's [[BAB]] + target's [[strength]] modifier + target's grapple [[size modifier]].
+* For these checks, casters with wizard levels use their [[intelligence]] modifier, and all other characters use [[charisma]].
+* The "held" effect is normally [[paralysis]], but a target that is immune to either paralysis or [[mind-affecting]] spells will be [[immobilize]]d instead. This allows the target to perform actions while held stationary and changes the options for removing this spell.
+** While ''[[remove paralysis]]'', ''[[freedom of movement]]'', and ''[[restoration]]'' will remove paralysis, none of these are effective against immobilization.
+** While [[dispel]]ling can remove any spell, it is particularly effective at removing spells that had inflicted immobilization.
+
+== Custom content notes ==
+*''script:'' <code>x0_s0_bigby3</code>

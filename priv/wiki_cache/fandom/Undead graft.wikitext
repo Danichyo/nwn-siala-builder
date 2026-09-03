@@ -1,0 +1,20 @@
+{{feat
+|type=class
+|prereq=[[pale master]] 6
+|desc=Two times per day a pale master may use their undead arm to [[paralyze]] foes. At level 8 this may be used three times per day.
+|use=selected
+|icon=ife_x2spundgrt1.gif
+|class=pale master
+}}
+
+==Notes==
+[[image:Pale_Master.jpg|thumb=Pale_Master_Arm.jpg|alt=Pale master's arm|A pale master with the skeletal arm from this feat]]
+*Requires [[Hordes of the Underdark]].
+*This ability requires a successful melee [[touch attack]]. If the touch attack fails to hit, no uses per day of this feat are consumed.
+*If the touch attack hits, a [[fortitude]] [[saving throw]] vs. negative energy is allowed to avoid the effects with a [[difficulty class|DC]] of 14 + (pale master level)/2.
+*The paralysis lasts for [[d6]] + 2 [[round]]s.
+*[[Elf|Elves]] are immune to this attack.
+*Upon gaining this feat, the character's arm will by default become skeletal.
+
+== Custom content notes ==
+* ''script:'' <code>X2_S2_UndGraft1</code>

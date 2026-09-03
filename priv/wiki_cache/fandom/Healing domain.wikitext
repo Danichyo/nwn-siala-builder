@@ -1,0 +1,15 @@
+'''Description:''' Clerics who take the Healing domain are able to cure wounds more effectively than their brethren, and they gain access to cure spells at a faster rate.[[Image:Id healing.gif|right|Healing]]
+== Domain special abilities ==
+
+Empower Healing - The following healing spells are cast as if with the [[empower spell]] feat: [[cure minor wounds]], [[cure light wounds]], [[cure moderate wounds]], [[cure serious wounds]], and [[cure critical wounds]].
+
+== Bonus Spells ==
+* Level 2 [[cure serious wounds]]
+* Level 5 [[heal (spell)|heal]]
+
+== Notes ==
+* The stated spells are empowered whenever cast by a character with this domain, regardless of the source of the spell. Most notably, this includes drinking curative [[potion]]s.
+* Clerics with the healing domain will notice that empowered versions of the cure spells will not be twice empowered.
+* A cleric with this domain who casts a [[maximize spell|maximized]] cure spell will have the spell effects maximized before this domain empowers them.
+
+[[category:cleric domains]]

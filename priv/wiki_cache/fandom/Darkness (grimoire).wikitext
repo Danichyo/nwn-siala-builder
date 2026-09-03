@@ -1,0 +1,21 @@
+{{Grimoire spell|imagename=is_darkness.gif
+|spellname=Darkness
+|casterlevel=[[bard]] 2, [[cleric]] 2, [[sorcerer]] / [[wizard]] 2
+|innatelevel=2
+|school=[[evocation]]
+|descriptors=darkness
+|components=V, S
+|range=long
+|immunities=none
+|savingthrow=none
+|spellresistance=yes
+|targettype=huge
+|duration=1 [[round]] / level
+|description=All creatures within the area of effect are shrouded in a haze of darkness which can only be pierced using [[ultravision]].  This spell dispels or removes any lower level light effects in its area.
+}}
+
+==Notes==
+*{{Grimoire spell change|pagename=[[darkness (spell)|darkness]]}}
+{{g_bard}}
+{{g_clr}}
+{{g_sorwiz}}

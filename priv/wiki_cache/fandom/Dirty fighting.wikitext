@@ -1,0 +1,16 @@
+{{feat
+|type=general
+|prereq=[[base attack bonus]] +2
+|desc=The character knows brutal and effective fighting tactics. By sacrificing all other attacks during the [[round]], the character can elect to perform a '''dirty fighting''' move that will deal an extra 1[[d4]] points of damage. This mode cannot be used with [[power attack]].
+|use=combat mode
+|icon=ife_x1dirfig.gif
+}}
+
+== Notes ==
+
+* Added in the [[expansion pack]]s.
+* ''Dirty fighting'' can be useful at low levels, but it rapidly loses its net advantage as the character gains more attacks per round. Most players think this feat is nearly useless and should be avoided.
+* Only normal attacks (including [[off-hand]] attacks) are sacrificed when in this combat mode. Bonus attacks (as from ''[[divine power]]'' or [[cleave]]) are not sacrificed and also receive the damage bonus. (In particular, [[whirlwind attack]] functions normally while in this combat mode.)
+* On a [[critical hit]] the bonus is multiplied after the roll (e.g. 2&times;(1d4) instead of 2d4 when the critical multiplier is x2).
+* This combat mode cannot be used with a [[ranged weapon]].
+* Early in its development, this feat was going to be automatic instead of a combat mode.<sup>[http://nwn.bioware.com/shadows/faq.html#1.13]</sup>

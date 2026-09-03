@@ -1,0 +1,30 @@
+[[Image:Ife_x2autogsln.gif|right|Automatic silent spell III]][[Image:Ife_x2autosln.gif|right|Automatic silent spell II]][[Image:Ife_x2autolsln.gif|right|Automatic silent spell I]]
+{{feat
+|epic=yes
+|type=metamagic
+|prereq=21st level, [[silent spell]], [[spellcraft]] 24, ability to cast 9th level spells
+|desc=This feat allows the character to cast all spells of a given level range without the caster making any sound. This is especially useful if the caster has been [[silence]]d. This feat may be taken multiple times:
+* Automatic silent spell I: Cast any level 0 - 3 spell as a silent spell.
+* Automatic silent spell II: Cast any level 4 - 6 spell as a silent spell.
+* Automatic silent spell III: Cast any level 7 - 9 spell as a silent spell.
+|use=automatic
+|bonus1=champion of Torm
+|bonus2=cleric
+|bonus3=druid
+|bonus4=pale master
+|bonus5=red dragon disciple
+|bonus6=shifter
+|bonus7=sorcerer
+|bonus8=wizard
+}}
+
+==Notes==
+*Requires [[Hordes of the Underdark]].
+* The "ability to cast level 9 spells" may be better understood as the ability to learn level 9 spells (as [[wizard]]s are not required to know spells of the highest level they can cast).
+*This feat can be selected by [[bard]]s. However, a bard cannot achieve the 9th level spell requirement on its own, so 17 levels of [[cleric]], [[druid]], or [[wizard]], or 18 levels of [[sorcerer]], would be needed.
+* Auto silent spell does not add a metamagic icon to the spells it affects. The only indications that this feat is having an effect are the lack of spell failure due to silence and the lack of the vocal casting sound effect.
+
+==Custom content notes==
+*A custom class must have this feat in their feat list, or that class will not be able to select it as a general feat.
+
+[[category:feats restricted by class, epic]]

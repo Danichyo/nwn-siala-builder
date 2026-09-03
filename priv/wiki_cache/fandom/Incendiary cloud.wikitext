@@ -1,0 +1,20 @@
+{{spell
+|icon=is_inccloud.gif
+|magelevel=8
+|innatelevel=8
+|school=[[evocation]]
+|components=VS
+|range=l
+|area=large
+|save=[[reflex]] 1/2
+|spellresistance=yes
+|immunity=fire
+|duration=1 [[round]] / level
+|desc=The caster creates a cloud of smoke and embers that causes 4[[d6]] points of [[fire damage]] each round to all creatures within the [[area of effect]].}}
+
+==Custom content notes==
+
+*''main script:'' <code>NW_S0_IncCloud.nss</code>
+*''OnEnter script:'' <code>NW_S0_IncCloudA.nss</code>
+*''OnExit script:'' <code>NW_S0_IncCloudB.nss</code>
+*''OnHearbeat script:'' <code>NW_S0_IncCloudC.nss</code>

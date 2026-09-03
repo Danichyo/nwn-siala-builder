@@ -1,0 +1,11 @@
+{{feat
+|type=monster
+|prereq=none
+|desc=Using nonvisual senses, such as sensitivity to vibrations, scent, acute hearing, or echolocation, the creature maneuvers and fights as well as a sighted creature. [[Invisibility]] and [[darkness]] are irrelevant. The creature usually does not need to make [[spot]] or [[listen]] checks to notice creatures within the range of its blindsight ability (60 feet).
+|use=automatic
+|icon=ife_x2blindsigh.gif
+}}
+
+== Notes ==
+
+* This feat is only available for [[non-player character|NPCs]] by default.

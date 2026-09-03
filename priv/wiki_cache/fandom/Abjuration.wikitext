@@ -1,0 +1,71 @@
+[[Image:Is abjure.gif|right|Abjuration]]
+
+Spells from the '''abjuration''' [[spell school]] shield the caster from magical and physical attacks.
+
+'''Prohibited school:''' [[conjuration]]<br />
+'''Prohibited to:''' no one
+
+Specializing in this school brings the notable (in multiplayer) consequence of being unable to use ''[[raise dead]]'' and ''[[resurrection]]'' scrolls.
+
+== Spells ==
+
+The abjuration spells are the following, organized by [[innate level]].
+Since [[wizard]]s have a greater interest in spell schools than other classes (because they can specialize in a school), spells that are not wizard spells are ''in italics''.
+
+<u>Level 0</u>
+*[[Resistance]]
+
+<u>Level 1</u>
+*[[Endure elements]]
+*''[[Entropic shield]]''
+*[[Ironguts]]
+*[[Protection from alignment]]
+*''[[Remove fear]]''
+*''[[Sanctuary]]''
+*[[Shield (spell)|Shield]]
+*''[[Shield of faith]]''
+
+<u>Level 2</u>
+*[[Resist elements]]
+*[[Lesser dispel]]
+
+<u>Level 3</u>
+*[[Dispel magic]]
+*''[[Glyph of warding]]''
+*[[Magic circle against alignment]]
+*''[[Negative energy protection]]''
+*[[Protection from elements]]
+*[[Remove curse]]
+*''[[Wounding whispers]]''
+
+<u>Level 4</u>
+*[[Dismissal]]
+*''[[Freedom of movement]]''
+*[[Lesser spell breach]]
+*[[Minor globe of invulnerability]]
+*[[Stoneskin]]
+
+<u>Level 5</u>
+*[[Energy buffer]]
+*[[Greater dispelling]]
+*[[Lesser mind blank]]
+*[[Lesser spell mantle]]
+*''[[Spell resistance (spell)|Spell resistance]]''
+
+<u>Level 6</u>
+*[[Banishment]]
+*[[Globe of invulnerability]]
+*[[Greater spell breach]]
+
+<u>Level 7</u>
+*[[Spell mantle]]
+
+<u>Level 8</u>
+*''[[Aura versus alignment]]''
+*[[Mind blank]]
+
+<u>Level 9</u>
+*[[Greater spell mantle]]
+*[[Mordenkainen's disjunction]]
+*''[[Undeath's eternal foe]]''
+[[Category:Spell schools]]

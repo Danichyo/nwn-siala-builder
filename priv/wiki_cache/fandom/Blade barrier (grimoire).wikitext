@@ -1,0 +1,21 @@
+{{Grimoire spell|imagename=Is bladebar.gif
+|spellname=Blade Barrier
+|casterlevel=[[Cleric]] 6, [[Good domain (grimoire)|Good]] 6, [[Grimoire domains#Domains to be added|Metal]] 6, [[War domain (grimoire)|War]] 6
+|innatelevel=6
+|school=[[Evocation]]
+|descriptors=Force
+|components=V, S
+|range=Medium
+|immunities=None
+|savingthrow=[[Reflex]] half
+|spellresistance=Yes
+|targettype=Wall 30 ft long
+|duration=10 [[turn]]s / level
+|description=''Blade barrier'' brings into being a 30-ft long and 3-ft wide wall of stabbing blades. All those passing through the wall take 1d6 points of damage per [[caster level]] (maximum 15d6).  A successful Reflex save will reduce the damage by half.
+}}
+
+== Notes ==
+*{{Grimoire spell change|pagename=[[Blade barrier]]}}
+{{g_clr}}
+{{g_good}}
+{{g_war}}

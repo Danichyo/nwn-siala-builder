@@ -1,0 +1,13 @@
+'''Type of Feat''': [[Class]]
+
+'''Prerequisite''': [[Iaijutsu master]] level 5 
+
+'''Specifics''': Iaijutsu, the art of drawing the weapon, and attacking in one smooth motion. This attack deals damage equal to a normal attack with bonus damage dependant upon a [[skill check]] of the [[Iaijutsu focus]] skill.
+
+'''Use''': When Unarmed, activate the skill, target an enemy within [[melee]] range and you will draw your blade ([[Katana]]) and attack in one action.
+
+==Notes==
+*Added in the [[PRC Expansion Pack]].
+*This attack requires an unequipped Katana in the [[character]]'s [[inventory]].
+
+[[Category:PRC feats]]

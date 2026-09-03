@@ -1,0 +1,30 @@
+{{spell
+|icon=is_x2deafclng.gif
+|paladinlevel=1
+|innatelevel=1
+|school=[[transmutation]]
+|immunity=weapon enchantment
+|components=VS
+|range=t
+|area=single creature or melee weapon
+|save=none
+|spellresistance=no
+|duration=1 [[round]] / level
+|desc=You empower a weapon with a +1 [[attack bonus (item property)|attack bonus]] and a +3 [[sonic damage]] bonus. Also, the weapon gains the ability to [[deaf]]en the creature that is struck like a [[thunderstone]]. The attack bonus will not [[stack]] with existing [[enhancement bonus]] or [[holy avenger]] properties.}}
+
+== Notes ==
+
+*Requires [[Hordes of the Underdark]].
+* An existing attack bonus (temporary or permanent) will block the addition of the attack bonus from this spell. The damage bonus, on the other hand, will replace an existing temporary damage bonus. In particular, casting this spell on the same weapon before an earlier casting expires will not extend the duration of the attack bonus (nor of the on-hit deafen), but will extend the duration of the damage bonus.
+* When cast on a creature, the spell affects the melee weapon in the creature's [[main hand slot|main hand]] (if there is one).
+* This spell can be cast on seemingly unarmed creatures (such as animals) to target one of their [[natural weapon]]s. The "right" slot is targeted if possible; the "bite" slot otherwise. A creature with only a "left" weapon (e.g. some [[polymorph]]s) will not benefit from this spell.
+* As with a thunderstone, the deafness lasts for five rounds, and there is a DC 15 [[fortitude]] save (versus sonic, unlike thunderstone) to negate the deafness.
+
+== Custom content notes ==
+
+* ''script:'' <code>X2_S0_DeafClng</code>
+* ''on hit deafen script:'' <code>x2_s3_DeafClng</code>
+** The on-hit script is configured to make the duration of the deafness equal to one round per caster level, and the DC equal to 10 + caster level. ''Deafening clang'' causes this [[on-hit: cast spell]] property to have a caster level of 5, hence the DC and duration for this spell.
+** The name of the associated item property states the DC and duration assuming a caster level of 5. Using this item property with a different caster level makes the in-game description inaccurate.
+==External links==
+* {{FRW}}

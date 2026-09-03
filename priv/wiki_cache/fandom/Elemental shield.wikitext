@@ -1,0 +1,21 @@
+{{spell
+|icon=is_fireshld.gif
+|magelevel=4
+|innatelevel=4
+|school=[[evocation]]
+|components=VS
+|range=p
+|area=caster
+|save=none
+|spellresistance=no
+|immunity=cold, fire
+|duration=1 [[round]] / level
+|line=Damage shields
+|line2=death armor
+|line3=wounding whispers
+|line4=elemental shield
+|line5=mestil's acid sheath
+|desc=The caster is surrounded by a ring of fire that damages all opponents who make a successful melee attack on the caster. The [[fire damage|damage]] inflicted is 1[[d6]], +1 point per caster level. The caster also gains 50% [[immunity]] to [[cold damage|cold]] and fire.}}
+
+==Custom content notes==
+*''script:'' <code>NW_S0_FireShld.nss</code>

@@ -1,0 +1,12 @@
+{{feat
+|type=class
+|prereq=[[Harper scout]] 3
+|desc=A Harper scout at third level is able to cast the spell [[cat's grace]] once per day.
+|use=selected
+|icon=ife x1hcat.gif
+|class1=Harper scout
+}}
+
+==Notes==
+*Added in the [[expansion pack]]s.
+*This feat [[stack]]s with the spell [[cat's grace]].

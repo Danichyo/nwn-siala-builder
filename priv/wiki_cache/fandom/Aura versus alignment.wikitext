@@ -1,0 +1,32 @@
+[[image:is_protaura.gif|right|Aura versus alignment]]
+[[image:is_holyaura.gif|right|holy aura]]
+[[image:is_unhaura.gif|right|unholy aura]]
+{{spell
+|clericlevel=8
+|innatelevel=8
+|school=[[abjuration]]
+|components=VS
+|range=p
+|area=caster
+|save=harmless
+|spellresistance=yes*
+|duration=1 [[round]] / level
+|line=Alignment protection
+|line1=protection from alignment
+|line3=magic circle against alignment
+|line8=aura versus alignment
+|desc=When this spell is cast, the caster chooses to be protected from either [[good]] or [[evil]]. He receives a +4 [[deflection bonus]] to [[armor class|AC]], [[immunity]] to [[mind-affecting]] [[spell]]s and spell-like abilities used by [[creature]]s of the chosen [[alignment]], and [[spell resistance]] 25 against spells cast <strike>by creatures of the chosen alignment</strike>. Creatures <strike>of the chosen alignment</strike> also take 6 + 1d8 damage each time they successfully strike the cleric.}}
+
+== Notes ==
+
+* The aura protecting from evil ('''holy aura''') deals [[divine damage]], while the aura protecting from good ('''unholy aura''') deals [[negative energy damage]].
+* Due to a game limitation, the alignment of an attacker does not affect whether or not the attacker is damaged by the aura. Nor does an enemy caster's alignment affect the spell resistance granted.
+* Contrary to the description, opponent spell resistance is never checked by this spell.
+
+== Custom content notes ==
+
+*''Scripts:''
+**Holy aura: <code>NW_S0_HolyAura</code>
+**Unholy aura: <code>NW_S0_UnhAura</code>
+==External links==
+*{{FRW}}

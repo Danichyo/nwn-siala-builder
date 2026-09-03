@@ -1,0 +1,23 @@
+[[Image:Isk olock.gif|right|Open Lock]]
+The '''open lock''' skill allows the character to enter locked rooms and open locked containers.
+*'''Ability:''' [[dexterity]]
+
+*'''Classes:''' [[assassin]], [[rogue]]
+
+*'''[[Cross-class skill]]:''' yes
+
+*'''[[untrained skill check|Requires training]]:''' yes
+
+*'''Check:''' The [[difficulty class]] is determined by the lock's difficulty rating. A successful check opens the lock.
+
+*'''Special:''' [[Thieves' tools]] can be used to provide bonuses to a character's open lock attempt, but are destroyed in the attempt whether successful or not.
+
+*'''Use:''' Select the skill and then target a locked object.
+
+==Notes==
+
+* Allows for a [[take 20]] when the character is not in combat.
+* In many cases, [[bash]]ing can be used in place of this skill, with the notable exceptions of [[plot]] doors and chests.
+* A single [[skill rank|rank]] in this skill can be of benefit to many characters, especially those in a single-player game. In particular, if there is a ready supply of thieves' tools, a character with a single rank in this skill can open surprisingly hard locks &mdash; assuming a (moderate) modified dexterity of 14,<!-- figure heavy armor wearers often go for dex 12, plus at least 2 from cat's grace --> and +10 tools, such a character can open locks with DCs as high as 33. Even higher DCs can be reasonably met for dexterity-based characters and characters with abilities that augment this skill (e.g. [[bard song]] or the [[trickery domain]] power).
+[[Category:Skills]]
+[[Category:Skills that require training]]

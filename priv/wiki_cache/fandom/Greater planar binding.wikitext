@@ -1,0 +1,42 @@
+{{spell
+|icon=is_grplanar.gif
+|magelevel=8
+|innatelevel=8
+|school=[[conjuration]]
+|components=VS
+|range=s
+|area=single creature or point
+|save=[[will]] (-5) negates
+|spellresistance=no
+|duration=1 [[round]] / level
+|line=Planar binding
+|line5=lesser planar binding
+|line6=planar binding
+|line8=greater planar binding
+|desc=This spell has two modes of operation: targeting a single [[outsider]], or summoning a planar ally. Targeted outsiders are [[paralyze]]d for 1 round per 2 caster levels. The type of [[summon]]ed ally is based on the caster's [[alignment]]:}}
+{| class="wikitable" style="text-align: center"
+! alignment !! summon
+|-
+| evil || [[vrock (summon)|vrock]]
+|-
+| neutral || [[death slaad]]
+|-
+| good || [[celestial avenger (summon)|celestial avenger]]
+|}
+
+== Notes ==
+
+*The (-5) in the save description means that this spell has a +5 bonus to [[difficulty class]].
+* The duration of the summoning is much shorter than the [[hour]]s per level duration of other variants of this spell.
+
+== Custom content notes ==
+
+*''script:'' <code>NW_S0_GrPlanar</code>
+
+== See also ==
+
+*[[Lesser planar binding]]
+*[[Planar binding]]
+==External links==
+*{{FRW}}
+[[category:summoning]]

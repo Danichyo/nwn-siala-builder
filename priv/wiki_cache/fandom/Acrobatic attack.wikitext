@@ -1,0 +1,12 @@
+'''Type of feat''': [[Class]]
+
+'''Prerequisite''': [[Duelist]] level 6
+
+'''Specifics''': The Duelist may make a leaping attack at an enemy. If the [[character]] is no closer than 5 ft, and passes a [[jump]] check, then Duelist gains a +2, +4, +6, or +8 bonus to attack and damage for that round.
+
+'''Use''':  Selected
+
+==Notes==
+*Added in the [[PRC Expansion Pack]].
+
+[[Category:PRC feats]]

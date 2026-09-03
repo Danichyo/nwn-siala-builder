@@ -1,0 +1,28 @@
+{{otheruses|the spell|the feat|Improved invisibility (feat)}}
+{{spell
+|icon=is_imprinvis.gif
+|bardlevel=4
+|magelevel=4
+|domain=trickery
+|domainlevel=5
+|innatelevel=4
+|school=[[illusion]]
+|components=VS
+|range=t
+|area=single
+|save=harmless
+|spellresistance=no
+|duration=1 [[turn]] / level
+|counters=<del>[[invisibility purge]]</del>
+|line=Invisibility
+|line2=invisibility (spell)
+|line3=invisibility sphere
+|line4=improved invisibility
+|desc=The target [[creature]] becomes [[invisible]] and impossible to detect using normal vision. After attacking or casting spells the target creature will become partially visible and detectable by enemies, but still retain a 50% [[concealment|cover bonus]].}}
+
+== Notes ==
+*The 50% concealment granted by this spell causes half of all attacks that would normally hit to miss (reduced to one quarter against an opponent with [[blind fight]]ing). This effect is highly valued for its impact on survivability (and its longer duration than [[displacement]]).
+* Due to a .2da bug, ''invisibility purge'' is not an additional [[counterspell]] of this spell.
+
+== Custom content notes ==
+* ''script:'' <code>NW_S0_ImprInvis</code>

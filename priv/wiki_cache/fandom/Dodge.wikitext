@@ -1,0 +1,26 @@
+{{otheruses|the feat|the armor class modifier|Dodge bonus}}
+{{feat
+|icon   = ife_dodge.gif
+|type   = general
+|prereq = [[dexterity]] 13+
+|reqfor = [[mobility]], [[spring attack]], [[whirlwind attack]], [[improved whirlwind attack]], [[dwarven defender]], [[shadowdancer]], [[weapon master]]
+|desc   = The [[character]] gains a +1 dodge bonus to [[armor class|AC]] against attacks from his current target or latest attacker.
+|use    = Automatic, though a condition that negates a [[dexterity]] bonus to AC also negates any dodge bonuses. Multiple dodge bonuses (different [[feat]]s, racial bonuses) are cumulative.
+|bonus1 = champion of Torm
+|bonus2 = fighter
+}}
+
+== Notes ==
+
+* The NWN manual incorrectly states that this feat is required for [[epic dodge]].
+* The AC gained from this feat is "dodge-like" in that it is lost when [[flat-foot]]ed, but it is not subject to a [[stack]]ing cap. Hence it is classified as one of the "[[armor class#Other|other]]" sources of AC.
+
+== Builder notes ==
+'''Item feat:''' yes
+
+== Custom content notes ==
+'''Removable:''' yes
+
+'''Reusable:''' yes
+
+'''Script:''' hardcoded

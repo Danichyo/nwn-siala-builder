@@ -1,0 +1,21 @@
+{{Grimoire spell|imagename=Is dommon.gif
+|spellname=Dominate Monster
+|casterlevel=[[Sorcerer]] / [[Wizard]] 9, [[Tyranny domain (grimoire)|Tyranny]] 9
+|innatelevel=9
+|school=[[Enchantment]] ([[Spell subschool|Compulsion]])
+|descriptors=Mind-Affecting
+|components=V, S
+|range=Medium
+|immunities=Mind-Affecting
+|savingthrow=[[Will]] negates
+|spellresistance=Yes
+|targettype=Single
+|duration=1 day / level
+|description=The target monster temporarily becomes a faithful and loyal servant of the caster.
+}}
+
+== Notes ==
+*{{Grimoire spell change|pagename=[[Dominate monster]]}}
+{{g_sorwiz}}
+{{g_tyranny}}
+{{g_subcom}}

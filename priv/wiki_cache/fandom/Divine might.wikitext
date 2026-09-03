@@ -1,0 +1,25 @@
+{{feat
+|type=general
+|prereq=[[turn undead]], [[charisma]] 13+, [[strength]] 13+, [[power attack]]
+|desc=The character may spend one of his ''turn undead'' attempts to add his [[charisma]] [[ability modifier|bonus]] to all weapon damage for a number of [[round]]s equal to the charisma bonus.
+|use=selected
+|icon=ife_x1divmig.gif
+}}
+
+== Notes ==
+
+*Added in the [[expansion pack]]s.
+*The bonus damage (reported as [[divine damage]]) is from a [[damage increase]] effect, so it ignores both [[damage resistance]] and damage [[immunity]].
+*The bonus damage is capped at 20. Increasing charisma above 51 will only increase the duration, not the damage, of this feat.
+*This feat applies to the character, not to the weapon, and is therefore unaffected by changing weapons. It affects both ranged weapons and melee weapons.
+*Using the feat while its effects are still active will not have an effect.
+*This feat may only be selected when leveling as a [[blackguard]], [[paladin]] or [[cleric]].
+* The bonus divine damage is multiplied by the weapon's critical multiplier in the case of a critical hit.
+* This feat can be used while polymorphed.
+* This feat is available as a [[cast spell]] item property, but using such a property still requires spending a ''turn undead'' attempt.
+
+== Custom content notes ==
+* ''script:'' <code>X0_S2_DivMight</code>
+*A custom class must have this feat in their feat list, or that class will not be able to select it as a [[general feat]].
+[[category:feats restricted by class]]
+[[category:cast spell]]

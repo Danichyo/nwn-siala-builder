@@ -1,0 +1,13 @@
+'''Type of Feat''': [[Class]]
+
+'''Prerequisite''': [[Archmage]] level 1
+
+'''Specifics''': The [[Archmage]] can alter an [[arcane]] spell when cast so that it utilizes a different element from the one it normally uses (using the [[Mastery of elements|Mastery of Elements]] feat). This ability can only alter a spell with the [[Acid damage|acid]], [[Cold damage|cold]], [[Fire damage|fire]], [[Electrical damage|electricity]], or [[Sonic damage|sonic]] descriptor.  '''This [[feat]] sets the damage back to normal.'''
+
+'''Use''': Selected.
+
+==Notes==
+*Added in the [[PRC Expansion Pack]].
+*This feat is only useful if you take another [[Mastery of elements|Mastery of Elements]] feat as it is used to counter the effects.
+
+[[Category:PRC feats]]

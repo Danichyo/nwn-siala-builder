@@ -1,0 +1,20 @@
+{{otheruses|the spell|the monster ability|Drown (monster ability)}}
+{{spell
+|icon=is_x1drown.gif
+|druidlevel=6
+|innatelevel=6
+|school=[[transmutation]]
+|components=VS
+|range=s
+|area=single
+|save=[[fortitude]] negates
+|spellresistance=yes
+|duration=instant
+|desc=The caster creates water in the lungs of a target creature. Any drowned creature takes 90% of its current [[hit point]]s as [[bludgeoning damage]]. Golems and other nonliving creatures cannot be drowned.}}
+
+== Notes ==
+*Added in the [[expansion pack]]s.
+* The "nonliving creatures" that cannot be drowned are any of the [[construct]], [[elemental]], or [[undead]] racial types.
+
+==Custom content notes==
+*''script:'' <code>X0_S0_Drown</code>

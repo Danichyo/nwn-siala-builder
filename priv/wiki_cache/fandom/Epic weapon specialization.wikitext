@@ -1,0 +1,68 @@
+{| border=0 cellpadding=2
+|-
+|[[Image:Ife x2wsbswd.gif|right|Epic weapon specialization (bastard sword)]]
+|[[Image:Ife x2wsbaxe.gif|right|Epic weapon specialization (battleaxe)]]
+|[[Image:Ife x2wsclub.gif|right|Epic weapon specialization (club)]]
+|[[Image:Ife x2wscrea.gif|right|Epic weapon specialization (creature weapon)]]
+|[[Image:Ife x2wsdagg.gif|right|Epic weapon specialization (dagger)]]
+|[[Image:Ife x2wsdart.gif|right|Epic weapon specialization (dart)]]
+|[[Image:Ife x2wsdmac.gif|right|Epic weapon specialization (dire mace)]]
+|[[Image:Ife x2wsdaxe.gif|right|Epic weapon specialization (double axe)]]
+|[[Image:Ife x2ewsdwax.gif|right|Epic weapon specialization (dwarven waraxe)]]
+|-
+|[[Image:Ife x2wsgaxe.gif|right|Epic weapon specialization (greataxe)]]
+|[[Image:Ife x2wsgswd.gif|right|Epic weapon specialization (greatsword)]]
+|[[Image:Ife x2wshalb.gif|right|Epic weapon specialization (halberd)]]
+|[[Image:Ife x2wshaxe.gif|right|Epic weapon specialization (handaxe)]]
+|[[Image:Ife x2wshxb.gif|right|Epic weapon specialization (heavy crossbow)]]
+|[[Image:Ife x2wshfla.gif|right|Epic weapon specialization (heavy flail)]]
+|[[Image:Ife x2wskama.gif|right|Epic weapon specialization (kama)]]
+|[[Image:Ife x2wskatn.gif|right|Epic weapon specialization (katana)]]
+|[[Image:Ife x2wskukr.gif|right|Epic weapon specialization (kukri)]]
+|-
+|[[Image:Ife x2wslxb.gif|right|Epic weapon specialization (light crossbow)]]
+|[[Image:Ife x2wslfla.gif|right|Epic weapon specialization (light flail)]]
+|[[Image:Ife x2wslham.gif|right|Epic weapon specialization (light hammer)]]
+|[[Image:Ife x2wslbow.gif|right|Epic weapon specialization (longbow)]]
+|[[Image:Ife x2wslswd.gif|right|Epic weapon specialization (longsword)]]
+|[[Image:Ife x2wsmace.gif|right|Epic weapon specialization (mace)]]
+|[[Image:Ife x2wsmsta.gif|right|Epic weapon specialization (morningstar)]]
+|[[Image:Ife x2wsqsta.gif|right|Epic weapon specialization (quarterstaff)]]
+|[[Image:Ife x2wsrapr.gif|right|Epic weapon specialization (rapier)]]
+|-
+|[[Image:Ife x2wsscim.gif|right|Epic weapon specialization (scimitar)]]
+|[[Image:Ife x2wsscyt.gif|right|Epic weapon specialization (scythe)]]
+|[[Image:Ife x2wssbow.gif|right|Epic weapon specialization (shortbow)]]
+|[[Image:Ife x2wssswd.gif|right|Epic weapon specialization (shortsword)]]
+|[[Image:Ife x2wsshur.gif|right|Epic weapon specialization (shuriken)]]
+|[[Image:Ife x2wsskle.gif|right|Epic weapon specialization (sickle)]]
+|[[Image:Ife x2wsslng.gif|right|Epic weapon specialization (sling)]]
+|[[Image:Ife x2wsspr.gif|right|Epic weapon specialization (spear)]]
+|[[Image:Ife x2wstaxe.gif|right|Epic weapon specialization (throwing axe)]]
+|-
+|[[Image:Ife x2ewstri.gif|right|Epic weapon specialization (trident)]]
+|[[Image:Ife x2wstswd.gif|right|Epic weapon specialization (two-bladed sword)]]
+|[[Image:Ife x2wsunar.gif|right|Epic weapon specialization (unarmed strike)]]
+|[[Image:Ife x2wswham.gif|right|Epic weapon specialization (warhammer)]]
+|[[Image:Ife x2ewswhip.gif|right|Epic weapon specialization (whip)]]
+|}
+{{feat
+|epic=yes
+|type=combat
+|prereq=21st level; [[weapon focus]], [[epic weapon focus]], and [[weapon specialization]] all in the chosen weapon
+|desc=The character gains a +4 bonus to all damage done by the chosen weapon.
+|use=automatic
+|bonus1=champion of Torm
+|bonus2=fighter
+}}
+
+==Notes==
+
+*Requires [[Hordes of the Underdark]].
+*This feat [[stack]]s with [[weapon specialization]], for a total of +6 bonus to damage.
+* This feat can only be taken on a [[fighter]] or [[champion of Torm]] level.
+* The weapon specialization prerequisite implies that (at least) four fighter levels are required to take this feat. If the fourth fighter level is taken at an epic general feat level (24, 27, etc.) after epic weapon focus is taken, both weapon specialization and epic weapon specialization can be taken at the same time (one would be the general feat, the other the fighter bonus feat &mdash; the usual behavior for feats and prerequisites).
+
+==Custom content notes==
+*A custom class must have this feat in their feat list, or that class will not be able to select it as a general feat.
+[[category:feats restricted by class, epic]]

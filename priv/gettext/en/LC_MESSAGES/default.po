@@ -1,0 +1,1621 @@
+## "msgid"s in this file come from POT (.pot) files.
+###
+### Do not add, change, or remove "msgid"s manually here as
+### they're tied to the ones in the corresponding POT file
+### (with the same domain).
+###
+### Use "mix gettext.extract --merge" or "mix gettext.merge"
+### to merge POT files into PO files.
+msgid ""
+msgstr ""
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: lib/build_calculator_web/components/layouts.ex:325
+#: lib/build_calculator_web/components/layouts.ex:339
+#, elixir-autogen, elixir-format
+msgid "Attempting to reconnect"
+msgstr ""
+
+#: lib/build_calculator_web/components/layouts.ex:331
+#, elixir-autogen, elixir-format
+msgid "Something went wrong!"
+msgstr ""
+
+#: lib/build_calculator_web/components/layouts.ex:317
+#, elixir-autogen, elixir-format
+msgid "We can't find the internet"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:1452
+#: lib/build_calculator_web/builder/labels.ex:1763
+#: lib/build_calculator_web/builder/labels.ex:1786
+#, elixir-autogen, elixir-format
+msgid " and "
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:1383
+#, elixir-autogen, elixir-format
+msgid " or "
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:1428
+#, elixir-autogen, elixir-format
+msgid "%{choice} does not fit here"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2873
+#, elixir-autogen, elixir-format
+msgid "%{class} %{level}: rank «%{feat}» is named by the family's shared name — the wiki has one page for the whole family"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:1583
+#, elixir-autogen, elixir-format
+msgid "%{class} advances a slot table, but whose is not determined: two casters at the same level"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2425
+#, elixir-autogen, elixir-format
+msgid "%{class} advances someone else's slot table, but whose exactly is not determined: two casters at the same level, and the source says «highest»"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:145
+#, elixir-autogen, elixir-format
+msgid "%{class} casts from %{ability} — the final score cannot end below %{minimum}, and the race gives %{racial} — %{base} is bought. Forced spend: %{cost} of %{budget}, %{free} left free."
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:134
+#, elixir-autogen, elixir-format
+msgid "%{class} casts from %{ability} — the final score cannot end below %{minimum}. Forced spend: %{cost} of %{budget}, %{free} left free."
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:1475
+#, elixir-autogen, elixir-format
+msgid "%{class} has no choice on taking a level"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2048
+#, elixir-autogen, elixir-format
+msgid "%{class}'s alignment restriction is not parsed"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2042
+#, elixir-autogen, elixir-format
+msgid "%{class}'s requirements are prose, not parsed by machine"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:1486
+#, elixir-autogen, elixir-format
+msgid "%{class}: %{n} already chosen — drop one first"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2849
+#, elixir-autogen, elixir-format
+msgid "%{class}: the requirements are checked, but we do not check qualifier «%{qualifier}»"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2098
+#, elixir-autogen, elixir-format
+msgid "%{feat} can be taken again — from the player's word, the wiki does not say so"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2135
+#, elixir-autogen, elixir-format
+msgid "%{feat} from an item: the item does not say what it was taken with"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:1624
+#, elixir-autogen, elixir-format
+msgid "%{feat} is already owned from an item — the slot adds nothing"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:1400
+#, elixir-autogen, elixir-format
+msgid "%{feat} is already taken"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:1437
+#, elixir-autogen, elixir-format
+msgid "%{feat} is already taken for every available value (%{domain})"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:1404
+#, elixir-autogen, elixir-format
+msgid "%{feat} is already taken: %{choice}"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:1611
+#, elixir-autogen, elixir-format
+msgid "%{feat} is not chosen on level-up — only from an item"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:1413
+#, elixir-autogen, elixir-format
+msgid "%{feat} is not granted at this level"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2127
+#, elixir-autogen, elixir-format
+msgid "%{feat}'s HP bonus is not counted"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2103
+#, elixir-autogen, elixir-format
+msgid "%{feat}'s bonus is not added to the stats"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:1562
+#, elixir-autogen, elixir-format
+msgid "%{feat}'s requirements are prose — we did not check them"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2112
+#, elixir-autogen, elixir-format
+msgid "%{feat}'s skill bonus is not counted — it is conditional"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2756
+#, elixir-autogen, elixir-format
+msgid "%{feat}: %{what} is on the wiki, but only partly accounted for"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2767
+#, elixir-autogen, elixir-format
+msgid "%{feat}: the requirement is checked, but we do not check the qualifier «%{qualifier}» — the match is on you"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2821
+#, elixir-autogen, elixir-format
+msgid "%{feat}: whether this bonus counts toward %{cap} is not stated on any page — %{side}, we cannot change the number without a source"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2722
+#, elixir-autogen, elixir-format
+msgid "%{group}: the build purity rule is not described on the wiki — we apply the same one as Sagra Warriors (one level of an outside class cancels the group)"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2731
+#, elixir-autogen, elixir-format
+msgid "%{group}: what the group gives is not written on any page, so nothing goes into the count besides membership itself"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3234
+#, elixir-autogen, elixir-format
+msgid "%{name} also give %{benefits} — not counted: these are consumables and armory. The group's racial bonus and its weapon-type bonus are counted."
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3241
+#, elixir-autogen, elixir-format
+msgid "%{name}: what the group gives is not counted"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2904
+#, elixir-autogen, elixir-format
+msgid "%{skill}: %{ranks} r. at level %{level} with a ceiling of %{cap}"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2201
+#, elixir-autogen, elixir-format
+msgid "%{source}'s AC bonus is not counted — it is conditional"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2496
+#, elixir-autogen, elixir-format
+msgid "%{source}'s SR bonus is not counted"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2228
+#, elixir-autogen, elixir-format
+msgid "%{source}'s ability score bonus is not counted — it only applies while the ability is active"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2254
+#, elixir-autogen, elixir-format
+msgid "%{source}'s attack bonus is not counted — it is not permanent (a mode, a one-time ability or a narrow target)"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2241
+#, elixir-autogen, elixir-format
+msgid "%{source}'s saving throw bonus is not counted — it is not always on and not against everything"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2287
+#, elixir-autogen, elixir-format
+msgid "%{source}: not applying attack from %{ability} — needs %{weapon_property} in hand, and no weapon is chosen in «Items»"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2218
+#, elixir-autogen, elixir-format
+msgid "%{source}: the AC bonus is counted, but we do not check its condition"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2803
+#, elixir-autogen, elixir-format
+msgid "%{source}: whether this source counts toward %{cap} is not stated on any page — %{side}, we cannot change the number without a source"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2332
+#, elixir-autogen, elixir-format
+msgid "%{type}: what is entered for items does not stack with the build's own bonus, the larger wins — but an item's own base always stacks and cannot be separated from the entered number, so AC may be underestimated by it"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:1479
+#, elixir-autogen, elixir-format
+msgid "%{value} does not fit %{class}"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:1152
+#, elixir-autogen, elixir-format
+msgid "%{weapon} does not occur on Siala"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:1143
+#, elixir-autogen, elixir-format
+msgid "%{weapon} is not an item, it is a creature attack"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:1139
+#, elixir-autogen, elixir-format
+msgid "%{weapon} is not in the reference data"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:1172
+#, elixir-autogen, elixir-format
+msgid "%{weapon} takes both hands"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2644
+#, elixir-autogen, elixir-format
+msgid "%{weapon}: the page names the bonus «%{kind}», but not its amount — nothing to count, and a number cannot be borrowed from a similar weapon"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2663
+#, elixir-autogen, elixir-format
+msgid "%{weapon}: «the bonus is not modified, it is the same for every build» — we read this as «for a Sagra warrior too», meaning there is no group's one-and-a-half bonus here. Checked in the game: a level 40 Sagra warrior with this weapon"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3370
+#: lib/build_calculator_web/builder/labels.ex:3371
+#: lib/build_calculator_web/builder/labels.ex:3372
+#, elixir-autogen, elixir-format
+msgid "Assumptions"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:956
+#, elixir-autogen, elixir-format
+msgid "Bonus %{class}"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:785
+#, elixir-autogen, elixir-format
+msgid "Choice for class «%{class}»"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3471
+#, elixir-autogen, elixir-format
+msgid "Cleric domains"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3520
+#, elixir-autogen, elixir-format
+msgid "Could not issue a short link (%{reason})."
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3511
+#, elixir-autogen, elixir-format
+msgid "Could not issue a short link. Try again — the long link above works."
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3506
+#, elixir-autogen, elixir-format
+msgid "Could not issue a short link: the build code cannot be read. The long link above works."
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3495
+#, elixir-autogen, elixir-format
+msgid "Could not open the link (%{reason})."
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3373
+#, elixir-autogen, elixir-format
+msgid "Derived, not read"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:778
+#, elixir-autogen, elixir-format
+msgid "Domains"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:108
+#, elixir-autogen, elixir-format
+msgid "First-level class is not chosen yet, so the budget is not final: a caster's key ability cannot end below %{minimum} after everything is applied, and some points will be spent on it by force."
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:947
+#: lib/build_calculator_web/builder/labels.ex:950
+#, elixir-autogen, elixir-format
+msgid "General"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2958
+#, elixir-autogen, elixir-format
+msgid "HP is counted at the hit die maximum for every level"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3362
+#: lib/build_calculator_web/builder/labels.ex:3363
+#, elixir-autogen, elixir-format
+msgid "No data"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3364
+#, elixir-autogen, elixir-format
+msgid "Not modelled"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3375
+#, elixir-autogen, elixir-format
+msgid "Other"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:953
+#, elixir-autogen, elixir-format
+msgid "Race bonus"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2506
+#, elixir-autogen, elixir-format
+msgid "SR from items is not counted — and it does not stack with the monk's: the game counts the larger of the two"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:782
+#, elixir-autogen, elixir-format
+msgid "School of magic"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2744
+#, elixir-autogen, elixir-format
+msgid "Siala's change «%{what}» for %{class} is not applied"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2775
+#, elixir-autogen, elixir-format
+msgid "Siala's change «%{what}» for skill %{skill} is not applied"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3008
+#, elixir-autogen, elixir-format
+msgid "Siala's racial bonus"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3365
+#, elixir-autogen, elixir-format
+msgid "Sources disagree"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3374
+#, elixir-autogen, elixir-format
+msgid "The build breaks a rule"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3483
+#, elixir-autogen, elixir-format
+msgid "The build code is too long. An empty builder is open."
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3480
+#, elixir-autogen, elixir-format
+msgid "The link is broken — the build code cannot be read. An empty builder is open."
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3492
+#, elixir-autogen, elixir-format
+msgid "This link points to a ruleset that no longer exists. An empty builder is open."
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3487
+#, elixir-autogen, elixir-format
+msgid "This link was made by a different encoding version that is not here anymore. An empty builder is open."
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3515
+#, elixir-autogen, elixir-format
+msgid "Too many short links were made in one session. The long link above works and is not going anywhere."
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2537
+#, elixir-autogen, elixir-format
+msgid "Weapon Finesse: no weapon in hand is set — we assume it is suitable. Name a weapon in «Items», and we will check it against the list"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3009
+#, elixir-autogen, elixir-format
+msgid "a bonus from skill ranks"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3319
+#, elixir-autogen, elixir-format
+msgid "a different ability"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3334
+#, elixir-autogen, elixir-format
+msgid "a ranged weapon"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:810
+#, elixir-autogen, elixir-format
+msgid "a school of magic"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3051
+#, elixir-autogen, elixir-format
+msgid "a shard rule in prose"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3330
+#: lib/build_calculator_web/builder/labels.ex:3335
+#, elixir-autogen, elixir-format
+msgid "a suitable weapon"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3054
+#, elixir-autogen, elixir-format
+msgid "a table by level"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3052
+#, elixir-autogen, elixir-format
+msgid "a weapon table by level"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3466
+#, elixir-autogen, elixir-format
+msgid "abilities with no number to show"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2486
+#, elixir-autogen, elixir-format
+msgid "ability score bonuses from feats (Great strength and family) and from class abilities (Red Dragon Disciple) are not counted yet — they are not in the number below"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3433
+#, elixir-autogen, elixir-format
+msgid "ability scores"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3474
+#, elixir-autogen, elixir-format
+msgid "already counted elsewhere"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3007
+#, elixir-autogen, elixir-format
+msgid "an ability bonus from items"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3437
+#, elixir-autogen, elixir-format
+msgid "attack bonus"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3438
+#, elixir-autogen, elixir-format
+msgid "attacks per round"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2932
+#, elixir-autogen, elixir-format
+msgid "base AC is taken as %{value} — confirmed by page %{source}"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2928
+#, elixir-autogen, elixir-format
+msgid "base AC is taken as %{value}: no page on any wiki states this"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:1106
+#, elixir-autogen, elixir-format
+msgid "bonus %{class}"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2476
+#, elixir-autogen, elixir-format
+msgid "bonus slots for a high casting ability are not counted — the data has no «modifier → slots per circle» table"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3010
+#, elixir-autogen, elixir-format
+msgid "bonus «%{other}»"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3462
+#, elixir-autogen, elixir-format
+msgid "buffs (spells and the bard's song)"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:1600
+#, elixir-autogen, elixir-format
+msgid "cannot choose this feat at a %{class} level"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:1501
+#, elixir-autogen, elixir-format
+msgid "cannot take more than %{n} times"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3022
+#, elixir-autogen, elixir-format
+msgid "cap «%{other}»"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2441
+#, elixir-autogen, elixir-format
+msgid "casting advancement rule «%{what}» is recorded in the data but not applied"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:1127
+#, elixir-autogen, elixir-format
+msgid "ceiling %{class}: %{cap}"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2376
+#, elixir-autogen, elixir-format
+msgid "ceiling «%{stat}» is not set in the data — the number is not limited"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3056
+#, elixir-autogen, elixir-format
+msgid "change «%{other}»"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3464
+#, elixir-autogen, elixir-format
+msgid "changed spells"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:1465
+#, elixir-autogen, elixir-format
+msgid "choice (%{domain}) is not checked — no reference data"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:1416
+#, elixir-autogen, elixir-format
+msgid "choose one: %{domain}"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2418
+#, elixir-autogen, elixir-format
+msgid "class %{class} has spell slots, but its casting ability is not named anywhere — we do not check the second half of the requirement"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2988
+#, elixir-autogen, elixir-format
+msgid "class %{class} is not found in the data"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:1577
+#, elixir-autogen, elixir-format
+msgid "class %{class}'s casting ability is not named anywhere"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3527
+#, elixir-autogen, elixir-format
+msgid "class %{name}"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3446
+#, elixir-autogen, elixir-format
+msgid "class availability"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:811
+#, elixir-autogen, elixir-format
+msgid "class choice «%{class}»"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3447
+#, elixir-autogen, elixir-format
+msgid "class groups"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3461
+#, elixir-autogen, elixir-format
+msgid "class items"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2912
+#, elixir-autogen, elixir-format
+msgid "class skills are gathered as the union of the class page and the skill page"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2915
+#, elixir-autogen, elixir-format
+msgid "class skills are taken only from class pages"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2972
+#, elixir-autogen, elixir-format
+msgid "classes have no lists of forbidden feats in the data — the ban is not checked"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3024
+#, elixir-autogen, elixir-format
+msgid "counted INSIDE the cap, as before"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3025
+#, elixir-autogen, elixir-format
+msgid "counted ON TOP OF the cap"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3469
+#, elixir-autogen, elixir-format
+msgid "crafting items and potions"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3449
+#, elixir-autogen, elixir-format
+msgid "damage"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:740
+#, elixir-autogen, elixir-format
+msgid "domain"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:803
+#, elixir-autogen, elixir-format
+msgid "domains"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3454
+#, elixir-autogen, elixir-format
+msgid "effect duration"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3468
+#, elixir-autogen, elixir-format
+msgid "effects from nearby allies"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:758
+#, elixir-autogen, elixir-format
+msgid "element"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3071
+#, elixir-autogen, elixir-format
+msgid "elemental damage resistance"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:968
+#, elixir-autogen, elixir-format
+msgid "epic"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2435
+#, elixir-autogen, elixir-format
+msgid "epic spells carry a different requirement in Fandom's notes than in the requirement line itself: «an epic cleric/druid/sorcerer/wizard or 15 levels of Pale Master». The schema expresses only half of it, so we check what is printed — a refusal on circle 9 for a build with Pale Master may be false"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3457
+#, elixir-autogen, elixir-format
+msgid "familiar"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:748
+#, elixir-autogen, elixir-format
+msgid "favored enemy race"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:1061
+#, elixir-autogen, elixir-format
+msgid "feat %{class}"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:1593
+#, elixir-autogen, elixir-format
+msgid "feat %{feat} is disabled on Siala"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2065
+#, elixir-autogen, elixir-format
+msgid "feat %{feat}'s requirements are prose — we did not check them"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3528
+#, elixir-autogen, elixir-format
+msgid "feat %{name}"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3445
+#, elixir-autogen, elixir-format
+msgid "feat availability"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3538
+#, elixir-autogen, elixir-format
+msgid "feat with a choice %{name}"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2382
+#, elixir-autogen, elixir-format
+msgid "feats that change the attack formula are not described in the data"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:214
+#, elixir-autogen, elixir-format
+msgid "full"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:1063
+#, elixir-autogen, elixir-format
+msgid "general feat"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3463
+#, elixir-autogen, elixir-format
+msgid "healing"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:250
+#, elixir-autogen, elixir-format
+msgid "high save"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2087
+#, elixir-autogen, elixir-format
+msgid "how many times %{feat} can be taken is not derivable from the data"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3455
+#, elixir-autogen, elixir-format
+msgid "immunities and resistances"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3472
+#, elixir-autogen, elixir-format
+msgid "item use thresholds"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3444
+#, elixir-autogen, elixir-format
+msgid "known spells"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2013
+#, elixir-autogen, elixir-format
+msgid "level"
+msgid_plural "levels"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/build_calculator_web/builder/labels.ex:1117
+#, elixir-autogen, elixir-format
+msgid "level cap %{cap}"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:1124
+#, elixir-autogen, elixir-format
+msgid "limit %{n} class"
+msgid_plural "limit %{n} classes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/build_calculator_web/builder/labels.ex:216
+#, elixir-autogen, elixir-format
+msgid "low BAB"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:251
+#, elixir-autogen, elixir-format
+msgid "low save"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:215
+#, elixir-autogen, elixir-format
+msgid "medium BAB"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3467
+#, elixir-autogen, elixir-format
+msgid "mounted combat"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3460
+#, elixir-autogen, elixir-format
+msgid "movement speed"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2363
+#, elixir-autogen, elixir-format
+msgid "no data file %{file}"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2029
+#, elixir-autogen, elixir-format
+msgid "no hit die for %{class} — HP cannot be computed"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2035
+#, elixir-autogen, elixir-format
+msgid "no progression row for %{class} at level %{level}"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2072
+#, elixir-autogen, elixir-format
+msgid "no reference data for «%{domain}» — such feats' choices are not checked"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2372
+#, elixir-autogen, elixir-format
+msgid "no source names an AC ceiling of its own — not limited"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2842
+#, elixir-autogen, elixir-format
+msgid "nowhere is it said whether worn armor takes from skill %{skill} — we cannot show a value, and counting the penalty as zero would be invention"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3465
+#, elixir-autogen, elixir-format
+msgid "number of ability uses"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:1215
+#, elixir-autogen, elixir-format
+msgid "only %{races}"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:1521
+#, elixir-autogen, elixir-format
+msgid "only at a level of %{classes}"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:1363
+#, elixir-autogen, elixir-format
+msgid "only at level 1"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2992
+#, elixir-autogen, elixir-format
+msgid "only on the class page"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2993
+#, elixir-autogen, elixir-format
+msgid "only on the skill page"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:1364
+#, elixir-autogen, elixir-format
+msgid "only up to level %{n}"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2985
+#, elixir-autogen, elixir-format
+msgid "point-buy prices (30 points, 8–18, pricier past 14) do not live in the data"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2385
+#, elixir-autogen, elixir-format
+msgid "point-buy prices are not set in the data"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3458
+#, elixir-autogen, elixir-format
+msgid "poisons"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:1169
+#, elixir-autogen, elixir-format
+msgid "race %{race} does not wear this"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2592
+#, elixir-autogen, elixir-format
+msgid "race %{race}'s bonus grows with level — the exact number will appear at level 40"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:1058
+#: lib/build_calculator_web/builder/labels.ex:1103
+#, elixir-autogen, elixir-format
+msgid "race feat"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2961
+#, elixir-autogen, elixir-format
+msgid "rank ceilings past level 40 continue with the formula «level + 3»"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:1570
+#, elixir-autogen, elixir-format
+msgid "requirement «%{field}» cannot be read by machine"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2858
+#, elixir-autogen, elixir-format
+msgid "requirement «%{field}» is written so it cannot be read by machine — not checked"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:1538
+#, elixir-autogen, elixir-format
+msgid "requirements are not parsed from the wiki"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:1289
+#, elixir-autogen, elixir-format
+msgid "requires %{ability} %{n}"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:1275
+#, elixir-autogen, elixir-format
+msgid "requires %{class} %{n}"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:1451
+#, elixir-autogen, elixir-format
+msgid "requires %{feats} with the same choice first (%{domain})"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:1444
+#, elixir-autogen, elixir-format
+msgid "requires %{feat} with the same choice first (%{domain})"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:1422
+#, elixir-autogen, elixir-format
+msgid "requires %{feat}: %{choice}"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:1272
+#, elixir-autogen, elixir-format
+msgid "requires %{n} r. %{skill}"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:1509
+#, elixir-autogen, elixir-format
+msgid "requires %{n} r. in the chosen skill (%{skill})"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:1348
+#, elixir-autogen, elixir-format
+msgid "requires %{save} +%{n} entering the level"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:1351
+#, elixir-autogen, elixir-format
+msgid "requires %{save} +%{n} entering the level, not counting %{excluded}"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:1391
+#, elixir-autogen, elixir-format
+msgid "requires %{spec}"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:1212
+#, elixir-autogen, elixir-format
+msgid "requires BAB +%{bab}"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:1388
+#, elixir-autogen, elixir-format
+msgid "requires any one skill with %{n} r."
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:1567
+#, elixir-autogen, elixir-format
+msgid "requires caster level %{n}, which we do not compute"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2864
+#, elixir-autogen, elixir-format
+msgid "requires caster level %{n}, which we do not compute: the data has neither the identity «caster level = class level» nor a multiclass rule"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:1367
+#, elixir-autogen, elixir-format
+msgid "requires casting circle %{n} spells"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:1130
+#, elixir-autogen, elixir-format
+msgid "requires character level %{level}"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:1218
+#, elixir-autogen, elixir-format
+msgid "requires feat %{feat}"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:1229
+#, elixir-autogen, elixir-format
+msgid "requires feat %{feat} with one of: %{values}"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3439
+#, elixir-autogen, elixir-format
+msgid "saving throws"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:733
+#, elixir-autogen, elixir-format
+msgid "school of magic"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3069
+#, elixir-autogen, elixir-format
+msgid "shield AC"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:734
+#, elixir-autogen, elixir-format
+msgid "skill"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3529
+#, elixir-autogen, elixir-format
+msgid "skill %{name}"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2059
+#, elixir-autogen, elixir-format
+msgid "skill %{skill} is mentioned by a class but is not in the reference data"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2831
+#, elixir-autogen, elixir-format
+msgid "skill %{skill}'s key ability is not named on any wiki — substituting one would be invention"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3441
+#, elixir-autogen, elixir-format
+msgid "skill points"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2549
+#, elixir-autogen, elixir-format
+msgid "skill points are counted from INT without items: we have no history of when it was worn"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3442
+#, elixir-autogen, elixir-format
+msgid "skill rank ceilings"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3440
+#, elixir-autogen, elixir-format
+msgid "skill values"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3531
+#, elixir-autogen, elixir-format
+msgid "slot %{name}"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2318
+#, elixir-autogen, elixir-format
+msgid "some AC bonuses' type is not named on the wiki — we assume they stack with everything"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2882
+#, elixir-autogen, elixir-format
+msgid "sources disagree on whether %{skill} is a class skill for %{class} (%{where}) — taken as a class skill"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3530
+#, elixir-autogen, elixir-format
+msgid "spell %{name}"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3443
+#, elixir-autogen, elixir-format
+msgid "spell slots per day"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2554
+#, elixir-autogen, elixir-format
+msgid "spells are not counted: the slot progression sits as raw wikitext"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3456
+#, elixir-autogen, elixir-format
+msgid "summons"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2785
+#, elixir-autogen, elixir-format
+msgid "the Spellcraft save bonus is shown flat: in the game it does not work against AOE, and in vanilla it only works against spells"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2402
+#, elixir-autogen, elixir-format
+msgid "the ability minimum for a spell circle (10 + circle) is not set in the data — we only check whether the class table grants slots of that circle"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2945
+#, elixir-autogen, elixir-format
+msgid "the ability modifier is computed as %{formula} — confirmed by page %{source}"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2939
+#, elixir-autogen, elixir-format
+msgid "the ability modifier is computed as %{formula} — the wiki has no formula"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:1544
+#, elixir-autogen, elixir-format
+msgid "the alignment requirement is not parsed"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2361
+#, elixir-autogen, elixir-format
+msgid "the alignment requirement is written as prose outside the dictionary"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:1541
+#, elixir-autogen, elixir-format
+msgid "the alignment restriction is not parsed"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2271
+#, elixir-autogen, elixir-format
+msgid "the attack bonus from %{source}%{amount} is not counted: it only works with a specific weapon, and which one is in hand is not stated"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3020
+#, elixir-autogen, elixir-format
+msgid "the attack cap +20"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2953
+#, elixir-autogen, elixir-format
+msgid "the attacks-per-round table is taken from %{source}, the shard's rules have none"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2393
+#, elixir-autogen, elixir-format
+msgid "the caster's key ability minimum is not set in the data — point-buy has no floor, and a caster will end up several points above what the game gives"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:1549
+#, elixir-autogen, elixir-format
+msgid "the class is not in the data"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:1547
+#: lib/build_calculator_web/builder/labels.ex:2347
+#, elixir-autogen, elixir-format
+msgid "the class limit is not set in the data"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2052
+#, elixir-autogen, elixir-format
+msgid "the core cannot check requirement «%{key}» for %{class}"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3138
+#, elixir-autogen, elixir-format
+msgid "the racial bonus is not counted at its largest of the four variants"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:1555
+#, elixir-autogen, elixir-format
+msgid "the required feat is not in the reference data"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2791
+#, elixir-autogen, elixir-format
+msgid "the save bonus from «%{source}» is shown flat — we do not model its conditions"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3021
+#, elixir-autogen, elixir-format
+msgid "the save cap +20"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3470
+#, elixir-autogen, elixir-format
+msgid "the shard's own systems"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2367
+#, elixir-autogen, elixir-format
+msgid "the skill value ceiling of 127 is not derived into a rule from the wiki — not applied"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3053
+#, elixir-autogen, elixir-format
+msgid "the slots the feat grants"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2307
+#, elixir-autogen, elixir-format
+msgid "the weapon in hand decides the attack roll's ability, and the build has none: melee is counted, from %{default_ability} — %{weapon_property} would count from %{weapon_ability}"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2655
+#, elixir-autogen, elixir-format
+msgid "the weapon-type bonus (%{weapon}) grows with level — the exact number will appear at level 40"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:1533
+#, elixir-autogen, elixir-format
+msgid "this value cannot go into the %{class} bonus — needs a general slot"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3070
+#, elixir-autogen, elixir-format
+msgid "to a skill"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3068
+#, elixir-autogen, elixir-format
+msgid "to attack"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3072
+#, elixir-autogen, elixir-format
+msgid "to damage"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3276
+#, elixir-autogen, elixir-format
+msgid "to skill %{skill}"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:1160
+#, elixir-autogen, elixir-format
+msgid "too large for race %{race}"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:1163
+#, elixir-autogen, elixir-format
+msgid "too small for race %{race}"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3459
+#, elixir-autogen, elixir-format
+msgid "traps"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2344
+#, elixir-autogen, elixir-format
+msgid "we assume a repeated choice must differ — the wiki does not say so for every feat"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2979
+#, elixir-autogen, elixir-format
+msgid "we consider %{feat} disabled on Siala by inference, not by observation: the feat is granted by exactly one class, and a granted feat is not shown in the game's list"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:735
+#, elixir-autogen, elixir-format
+msgid "weapon"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3473
+#, elixir-autogen, elixir-format
+msgid "weapon and armor proficiency"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2189
+#, elixir-autogen, elixir-format
+msgid "weapon and race sizes are not described in the data — two-handedness and small-race bans are not checked"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2634
+#, elixir-autogen, elixir-format
+msgid "weapon «%{name}» gives a bonus on Siala, but it is not in the weapon reference data — it cannot be chosen in «Items», so there is nothing to count the bonus on"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2078
+#, elixir-autogen, elixir-format
+msgid "whether %{feat} can be taken again is not parsed — assumed no"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2179
+#, elixir-autogen, elixir-format
+msgid "whether %{weapon} is one- or two-handed is not stated anywhere — a shield next to it is counted as entered"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2168
+#, elixir-autogen, elixir-format
+msgid "whether %{weapon} requires a proficiency feat is not stated on any wiki — we offer it, but do not check it"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3055
+#, elixir-autogen, elixir-format
+msgid "whether it can be taken again"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2967
+#, elixir-autogen, elixir-format
+msgid "which feats a class does not grant a choice of at its level — the lists are vanilla: the Siala wiki is silent about this"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2157
+#, elixir-autogen, elixir-format
+msgid "which proficiency group %{weapon} belongs to is not stated on the Siala wiki — we assigned it ourselves"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2379
+#, elixir-autogen, elixir-format
+msgid "which spell list each class reads from is not set"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3535
+#, elixir-autogen, elixir-format
+msgid "worn item %{name}"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2356
+#, elixir-autogen, elixir-format
+msgid "«Spirit of Siala» (+20 HP for every character) is not set in the data — not counted"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:1795
+#, elixir-autogen, elixir-format, fuzzy
+msgid " and not "
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:1802
+#: lib/build_calculator_web/builder/labels.ex:1807
+#, elixir-autogen, elixir-format
+msgid "any"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:1785
+#, elixir-autogen, elixir-format
+msgid "any %{words}"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:1794
+#, elixir-autogen, elixir-format
+msgid "not %{words}"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:653
+#, elixir-autogen, elixir-format
+msgid "%{n} spell"
+msgid_plural "%{n} spells"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/build_calculator_web/builder/labels.ex:620
+#, elixir-autogen, elixir-format
+msgid "+%{n} to the slots of every circle"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:627
+#, elixir-autogen, elixir-format
+msgid "+%{n} to the slots of every circle from circle %{min}"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:651
+#, elixir-autogen, elixir-format
+msgid "closes %{school} — %{count} of %{total}"
+msgstr ""
+
+#: lib/build_calculator_web/components/builder_components.ex:683
+#: lib/build_calculator_web/components/builder_components.ex:1203
+#, elixir-autogen, elixir-format
+msgid "Changed on Siala"
+msgstr ""
+
+#: lib/build_calculator_web/components/builder_components.ex:690
+#: lib/build_calculator_web/components/builder_components.ex:1210
+#, elixir-autogen, elixir-format
+msgid "Close"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:451
+#, elixir-autogen, elixir-format
+msgid "Source: %{page} (Fandom)"
+msgstr ""
+
+#: lib/build_calculator_web/components/builder_components.ex:689
+#: lib/build_calculator_web/components/builder_components.ex:1209
+#, elixir-autogen, elixir-format
+msgid "Vanilla description (Fandom)"
+msgstr ""
+
+#: lib/build_calculator_web/components/builder_components.ex:675
+#, elixir-autogen, elixir-format
+msgid "What %{feat} does"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:446
+#, elixir-autogen, elixir-format
+msgid "…and %{n} more note"
+msgid_plural "…and %{n} more notes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/build_calculator_web/components/builder_components.ex:685
+#: lib/build_calculator_web/components/builder_components.ex:1205
+#, elixir-autogen, elixir-format, fuzzy
+msgid "The shard changed this feat's requirements or availability — see this feat's own row for details."
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3453
+#, elixir-autogen, elixir-format
+msgid "concealment"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3450
+#, elixir-autogen, elixir-format
+msgid "critical hits"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3452
+#, elixir-autogen, elixir-format
+msgid "metamagic"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3451
+#, elixir-autogen, elixir-format
+msgid "the target's saving throw DC"
+msgstr ""
+
+#: lib/build_calculator_web/live/build_view_live.ex:538
+#, elixir-autogen, elixir-format
+msgid "What this level's feats give"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:1247
+#, elixir-autogen, elixir-format
+msgid "requires feat %{feat} in a melee weapon"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:1250
+#, elixir-autogen, elixir-format
+msgid "requires feat %{feat} in a ranged weapon"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:1253
+#, elixir-autogen, elixir-format
+msgid "requires feat %{feat} with a suitable value"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3000
+#, elixir-autogen, elixir-format
+msgid "only the category says so"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2999
+#, elixir-autogen, elixir-format
+msgid "only the page label says so"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2896
+#, elixir-autogen, elixir-format
+msgid "sources disagree on whether %{skill} requires training (%{where}) — the page label is taken"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:1265
+#, elixir-autogen, elixir-format
+msgid "requires feat %{feat} with anything but: %{values}"
+msgstr ""
+
+#: lib/build_calculator_web/live/builder_live.html.heex:158
+#, elixir-autogen, elixir-format
+msgid "Reset the build? Levels, ability scores, and gear will be lost with no way to undo it."
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:1992
+#, elixir-autogen, elixir-format
+msgid "alignment not chosen yet (needs %{spec})"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2412
+#, elixir-autogen, elixir-format
+msgid "the data does not say which casters are spontaneous — a Bard or a Sorcerer will be refused a metamagic feat the game does hand him"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2710
+#, elixir-autogen, elixir-format
+msgid "%{feat} works only in light armour, and these rules state no weight class for armour — the bonus is counted as if the armour were light"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:1187
+#, elixir-autogen, elixir-format, fuzzy
+msgid "%{weapon} takes both hands and cannot go in the off hand"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2692
+#, elixir-autogen, elixir-format
+msgid "%{weapon}: it cannot be told whether this is a light weapon, so the −2 a light off hand takes off both hands is not counted"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2674
+#, elixir-autogen, elixir-format
+msgid "both weapons give the same bonus («%{kind}») — we count it once, not twice: the page says «two different weapons give two different bonuses» and says nothing about two weapons of one group"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:1180
+#, elixir-autogen, elixir-format
+msgid "the off hand holds %{weapon}"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:2685
+#, elixir-autogen, elixir-format
+msgid "the rules snapshot carries no two-weapon fighting penalties, so the second weapon costs this build nothing — in the game it costs both hands up to −6 and −10"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:1198
+#, elixir-autogen, elixir-format
+msgid "%{weapon} is a ranged weapon and does not go in the off hand"
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:1208
+#, elixir-autogen, elixir-format
+msgid "the main hand holds %{weapon}, a ranged weapon — no second weapon with it"
+msgstr ""
+
+#: lib/build_calculator_web/live/build_view_live.html.heex:231
+#: lib/build_calculator_web/live/builder_live.html.heex:2712
+#, elixir-autogen, elixir-format
+msgid "Configure items"
+msgstr ""
+
+#: lib/build_calculator_web/live/builder_live.html.heex:3720
+#, elixir-autogen, elixir-format
+msgid "Show feats the class hands over automatically"
+msgstr ""
+
+#: lib/build_calculator_web/live/build_view_live.html.heex:224
+#, elixir-autogen, elixir-format
+msgid "No gear declared yet"
+msgstr ""
+
+#: lib/build_calculator_web/live/build_view_live.html.heex:226
+#, elixir-autogen, elixir-format
+msgid "The numbers below are this build on its own. The final AC, AB, ability scores, saves and skills appear once gear is declared in the constructor."
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3197
+#, elixir-autogen, elixir-format, fuzzy
+msgid "race %{race} bonus %{target}: not counted — the bonus is activated by a weapon in hand, and the hands hold either nothing or a weapon that does not activate it. With a weapon %{base}, for a Sagra warrior %{sagra_warrior}."
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3183
+#, elixir-autogen, elixir-format
+msgid "race %{race} bonus %{target}: the base %{base} is counted — the build is not a Sagra warrior, which would get %{sagra_warrior}."
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3173
+#, elixir-autogen, elixir-format
+msgid "race %{race} bonus %{target}: the build fits a Sagra warrior, so the Sagra warrior variant %{sagra_warrior} is counted, not the base %{base}."
+msgstr ""
+
+#: lib/build_calculator_web/builder/labels.ex:3207
+#, elixir-autogen, elixir-format
+msgid "race %{race} bonus %{target}: variant «%{variant}» %{value} is counted."
+msgstr ""
+
+#: lib/build_calculator_web/live/builder_live.html.heex:277
+#, elixir-autogen, elixir-format
+msgid "Guide mode"
+msgstr ""
+
+#: lib/build_calculator_web/live/builder_live.html.heex:279
+#, elixir-autogen, elixir-format
+msgid "Scrolls the screen to the next unfilled mandatory section on the current level — the kind that can't be postponed.\n\nSkills and spells are optional and the guide skips them; it moves on to the next level by itself only when this is the last level in the build, not one you came back to edit."
+msgstr ""
+
+#: lib/build_calculator_web/builder/export.ex:308
+#, elixir-autogen, elixir-format
+msgid "✦ feat picked · ★ epic feat · ⚔︎ class bonus feat · ▲ +1 to an ability score · ▪ skill · [N] spell circle · ◆ a class's own choice"
+msgstr ""
+
+#: lib/build_calculator_web/builder/export.ex:302
+#, elixir-autogen, elixir-format
+msgid "✦ feat picked · ★ epic feat · ⚔︎ class bonus feat · ○ feat the class hands over · ▲ +1 to an ability score · ▪ skill · [N] spell circle · ◆ a class's own choice"
+msgstr ""
+
+#: lib/build_calculator_web/live/build_view_live.ex:259
+#, elixir-autogen, elixir-format
+msgid "Granted by class"
+msgstr ""

@@ -1,0 +1,49 @@
+{{spell
+|icon=is_lsplanar.gif
+|magelevel=5
+|domain=good
+|domainlevel=5
+|innatelevel=5
+|school=[[conjuration]]
+|components=VS
+|range=s
+|area=single or point
+|save=[[will]] negates
+|spellresistance=no
+|duration=1 [[round]] / 2 levels
+|counters=<del>[[dismissal]]</del>
+|line=Planar binding
+|line5=lesser planar binding
+|line6=planar binding
+|line8=greater planar binding
+|desc=This spell has two modes of operation: targeting a single [[outsider]], or [[summon]]ing a planar ally. Targeted outsiders are [[paralysis|paralyzed]] for 1 round per 2 caster levels. The type of summoned ally is based on the caster's [[alignment]]:}}
+{|class="wikitable" style="text-align:center"
+!alignment
+!summon
+|-
+|evil
+|[[imp (summon)|imp]]
+|-
+|neutral
+|[[red slaad (summon)|red slaad]]
+|-
+|good
+|[[lantern archon (summon)|lantern archon]]
+|}
+
+== Notes ==
+
+* As described, the paralysis lasts 1 round per 2 caster levels. The summoned ally can persist for up to 1 [[hour]] per caster level.
+* Due to a .2da bug, ''dismissal'' is not an additional [[counterspell]] of this spell.
+
+== Custom content notes ==
+
+* ''script:'' <code>NW_S0_LsPlanar</code>
+
+== See also ==
+
+* [[Planar binding]]
+* [[Greater planar binding]]
+==External links==
+*{{FRW}}
+[[category:summoning]]

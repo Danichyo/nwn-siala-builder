@@ -1,0 +1,275 @@
+[[Image:Ir x1 shadow.gif|right|Shadowdancer icon]]
+'''Description''': ([[prestige class|PRESTIGE CLASS]])
+Shadowdancers operate in the border between light and darkness. These nimble artists of deception are never completely trusted but always induce wonder when met. Despite their link with shadows and trickery, shadowdancers are as often good as evil. They may use their incredible abilities as they wish. 
+
+Shadowdancers often work in troupes, never staying in one place too long. Some use their abilities to entertain. Others operate as thieves, using their abilities to infiltrate past defenses and dupe others. All shadowdancer troupes maintain an aura of mystery among the populace, who never know whether to think well or ill of them. 
+
+'''[[Hit dice]]:''' d8
+
+'''Proficiencies:''' [[weapon proficiency (simple)|simple]] weapons, [[Armor Proficiency (Light)|light]] armor 
+
+'''Skill points:''' 6 + [[int]] modifier
+
+'''Skills:''' [[heal (skill)|heal]], [[hide]], [[listen]], [[lore]], [[move silently]], [[persuade]], [[pick pocket]], [[search]], [[spot]], [[tumble]]
+
+'''Unavailable feats:'''
+[[brew potion]], [[craft wand]], [[curse song]], [[divine might]], [[divine shield]], [[extra music]], [[extra turning]], [[lingering song]], [[scribe scroll]], [[spell focus]], [[weapon specialization]]
+<br />These [[general feat]]s cannot be selected when taking a level of shadowdancer.
+
+'''[[Saving throw|Primary saving throw(s)]]:''' [[reflex]]
+
+'''[[Base attack bonus]]:''' +3/4 levels
+
+[[Image:Shadowdancer.jpg|Shadowdancer]]
+
+==Requirements==
+
+To qualify as a shadowdancer, a character must fulfill all of the following criteria:
+
+'''Feats:''' [[dodge]], [[mobility]]
+
+'''Skills:''' [[hide]] 10 [[rank]]s, [[move silently]] 8 ranks, [[tumble]] 5 ranks
+
+==Level progression==
+
+{|border="2" style="background:#efefef; color:#000000; border-collapse:collapse"
+|-style="background:#c0c0c0"
+!rowspan=2|Lvl 
+!rowspan=2|BAB 
+!colspan="3"|Saves 
+!rowspan=2|Feats 
+!rowspan=2|HP range 
+!rowspan="12" style="background:#ffffff"|&nbsp; 
+!colspan="3"|Shadow evade 
+!rowspan="12" style="background:#ffffff"|&nbsp; 
+!rowspan="2"|Shadow <br /> summon
+|-style="background:#c0c0c0"
+!Fort 
+!Ref 
+!Will 
+
+!Dmg red 
+!Conceal 
+!AC bonus
+|-align="center"
+|1st
+| +0
+| +0
+| +2
+| +0
+|align="left"|[[hide in plain sight]]
+|4-8
+| -
+| -
+| -
+|align="left"|
+|-align="center"
+|2nd
+| +1
+| +0
+| +3
+| +0
+|align="left"|[[darkvision]], [[evasion]], [[uncanny dodge]] I
+|8-16
+| -
+| -
+| -
+|align="left"|
+|-align="center"
+|3rd
+| +2
+| +1
+| +3
+| +1
+|align="left"|[[shadow daze]], [[summon shadow]]
+|12-24
+| -
+| -
+| -
+|align="left"|[[shadow]]
+|-align="center"
+|4th
+| +3
+| +1
+| +4
+| +1
+|align="left"|[[shadow evade]]
+|16-32
+|5/+1
+|5%
+| +1
+|align="left"|
+|-align="center"
+|5th
+| +3
+| +1
+| +4
+| +1
+|align="left"|[[defensive roll]], uncanny dodge II
+|20-40
+|5/+1
+|5%
+| +1
+|align="left"|
+|-align="center"
+|6th
+| +4
+| +2
+| +5
+| +2
+|align="left"|
+|24-48
+|5/+2
+|10%
+| +2
+|align="left"|[[shadow fiend (summoned)| shadow fiend]]
+|-align="center"
+|7th
+| +5
+| +2
+| +5
+| +2
+|align="left"|[[slippery mind]]
+|28-56
+|5/+2
+|10%
+| +2
+|align="left"|
+|-align="center"
+|8th
+| +6
+| +2
+| +6
+| +2
+|align="left"|
+|32-64
+|10/+2
+|15%
+| +3
+|align="left"|
+|-align="center"
+|9th
+| +6
+| +3
+| +6
+| +3
+|align="left"|
+|36-72
+|10/+2
+|15%
+| +3
+|align="left"|[[shadow lord (shadowdancer)|shadow lord]]
+|-align="center"
+|10th
+| +7
+| +3
+| +7
+| +3
+|align="left"|[[improved evasion]], uncanny dodge III
+|40-80
+|10/+3
+|20%
+| +4
+|align="left"|
+|}
+
+==Tip: Becoming a shadowdancer==
+
+*[[Rogue]]s, [[bard]]s, and [[monk]]s make excellent shadowdancers.
+*[[Fighter]]s, [[barbarian]]s, [[ranger]]s, and [[paladin]]s also find that shadowdancer abilities allow them to strike at their opponents with surprise and skill.
+*[[Wizard]], [[sorcerer]], [[cleric]], and [[druid]] shadowdancers employ the defensive capabilities inherent in the prestige class to allow them to cast their spells from safety and move away quickly.
+
+[[Image:ife x2epshad.gif|right|Epic shadowdancer]]
+
+==Epic shadowdancer==
+
+An epic shadowdancer has become almost indistinguishable from the darkness that cloaks them. An epic shadowdancer can become as shadow.
+
+'''Hit dice:''' d8
+
+'''Skill points:''' 6 + int modifier
+
+'''Bonus feats:''' The epic shadowdancer gains a bonus feat every three levels. In other words, at levels 13, 16, 19, 22, 25, and 28.
+
+'''Epic bonus feats:''' [[blinding speed]], [[epic skill focus]] (all but [[animal empathy]], [[perform]]), [[epic dodge]], [[epic reflexes]], [[epic shadowlord]], [[improved whirlwind attack]], [[self concealment]], [[superior initiative]]
+
+'''Unavailable epic feats:'''
+[[automatic quicken spell]], [[automatic silent spell]], [[automatic still spell]], [[bane of enemies]],
+[[construct shape]], [[dragon shape]], [[epic spell penetration]],
+[[epic spell: dragon knight]], [[epic spell: epic mage armor]], [[epic spell: epic warding]], [[epic spell: greater ruin]], [[epic spell: hellball]], [[epic spell: mummy dust]],
+[[epic weapon specialization]], [[great smiting]],
+[[improved ki strike 4]], [[improved ki strike 5]], [[improved sneak attack]],
+[[improved spell resistance]], [[improved stunning fist]],
+[[lasting inspiration]], [[mighty rage]], [[outsider shape]],
+[[planar turning]], [[terrifying rage]], [[thundering rage]], [[undead shape]]
+<br />These general [[epic feat]]s cannot be selected when taking a level of shadowdancer.
+
+===Special===
+
+'''Shadow evade''' gains an additional +2 to its damage reduction amount and an additional +1 to its ability to resist magical weapons for every five epic levels (e.g., a 15th level shadowdancer has 12/+4 damage reduction).
+* The ability to resist magical weapons is capped at +5 (achieved at level 20).
+
+===Epic shadowdancer level progression===
+
+{| border=2 style="background:#efefef; color:#000000; border-collapse:collapse"
+|- style="background:#c0c0c0"
+!rowspan=2|&nbsp;Lvl&nbsp;
+!rowspan=2|Feats
+!rowspan=2|HP range
+!rowspan=22 style="background:#ffffff"|&nbsp;
+!colspan=3|Shadow evade
+|- style="background:#c0c0c0"
+!Dmg red
+!Conceal
+!AC bonus
+|- align=center
+|11th ||align=left| ||44-88 ||10/+3 ||20% || +4
+|- align=center
+|12th ||align=left| ||48-96 ||10/+3 ||20% || +4
+|- align=center
+|13th ||align=left|bonus feat ||52-104 ||10/+3 ||20% || +4
+|- align=center
+|14th ||align=left| ||56-112 ||10/+3 ||20% || +4
+|- align=center
+|15th ||align=left| ||60-120 ||12/+4 ||20% || +4
+|- align=center
+|16th ||align=left|bonus feat ||64-128 ||12/+4 ||20% || +4
+|- align=center
+|17th ||align=left| ||68-136 ||12/+4 ||20% || +4
+|- align=center
+|18th ||align=left| ||72-144 ||12/+4 ||20% || +4
+|- align=center
+|19th ||align=left|bonus feat ||76-152 ||12/+4 ||20% || +4
+|- align=center
+|20th ||align=left| ||80-160 ||14/+5 ||20% || +4
+|- align=center
+|21st ||align=left| ||84-168 ||14/+5 ||20% || +4
+|- align=center
+|22nd ||align=left|bonus feat ||88-176 ||14/+5 ||20% || +4
+|- align=center
+|23rd ||align=left| ||92-184 ||14/+5 ||20% || +4
+|- align=center
+|24th ||align=left| ||96-192 ||14/+5 ||20% || +4
+|- align=center
+|25th ||align=left|bonus feat ||100-200 ||16/+5 ||20% || +4
+|- align=center
+|26th ||align=left| ||104-208 ||16/+5 ||20% || +4
+|- align=center
+|27th ||align=left| ||108-216 ||16/+5 ||20% || +4
+|- align=center
+|28th ||align=left|bonus feat &nbsp; ||112-224 ||16/+5 ||20% || +4
+|- align=center
+|29th ||align=left| ||116-232 ||16/+5 ||20% || +4
+|- align=center
+|30th ||align=left| ||120-240 ||18/+5 ||20% || +4
+|}
+
+==Notes==
+
+*Requires [[Shadows of Undrentide]].
+*Often only 1 level of shadowdancer is taken to gain access to the hide in plain sight feat. This has led to many servers imposing minimum-level restrictions for this class.
+*Epic shadowdancers can come into their own, especially multiclass rogue/shadowdancers as they have a number of abilities for supporting [[sneak attack]]s. Summoned shadows can be used for [[flanking]], shadow daze can grant [[flat-foot]]ed conditions and hide in plain sight can grant invisible attacker benefits.
+*Shadowdancer and [[weapon master]] are the only classes lacking the generic class skills [[craft weapon]], [[craft trap]], [[craft armor]] as well as [[concentration]] and [[parry]] (all are [[cross-class skill]]s).
+*The epic shadowlord feat can only be taken as an epic bonus feat.
+[[category:Prestige classes]]
+[[category:Classes]]

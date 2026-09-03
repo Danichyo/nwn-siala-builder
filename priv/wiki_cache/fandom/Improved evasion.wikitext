@@ -1,0 +1,28 @@
+{{feat
+|type=class
+|prereq=[[monk]] 9, [[rogue]] 10, [[shadowdancer]] 10
+|reqfor=[[epic dodge]], [[self concealment]]
+|desc=Whenever a [[reflex]] [[save]] is allowed for half damage, characters with this feat instead take no damage if they succeed at the save. Even if they fail the save, they take only half damage.
+|use=automatic
+|icon=ife_evade.gif
+|class1=monk
+|class2=shadowdancer
+|bonus1=rogue
+}}
+
+==Notes==
+*This does not work in combination with [[defensive roll]].  That is, the reflex save allowed by ''defensive roll'' is still for half damage &mdash; not for no damage &mdash; and full damage is dealt if a ''defensive roll'' save is failed.
+
+==Builder notes==
+'''Item feat:''' No, but it is available as a separate [[item property]].
+
+*In order to respect this feat, [[script]]s for custom [[trap]]s and [[spell]]s should use the function [[GetReflexAdjustedDamage]]() if a reflex save for half damage is allowed.
+
+==Custom content notes==
+'''Removable:''' yes
+
+'''Reusable:''' yes
+
+'''Script:''' Use the function [[GetReflexAdjustedDamage]]() in scripts that allow a save for half damage.
+
+*This feat can be added to [[iprp_feats.2da]] to make it available as an item feat.

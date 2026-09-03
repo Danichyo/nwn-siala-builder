@@ -1,0 +1,108 @@
+[[Image:Isk x1crtrap.gif|right|Craft trap]]
+The character using this skill can combine raw components to form various [[trap]] kits. There is a 10% chance on any failed skill roll that the components are lost, even though a trap was not crafted.
+*'''Ability''': [[intelligence]]
+
+*'''Classes''': [[arcane archer]], [[assassin]], [[barbarian]], [[bard]], [[blackguard]], [[champion of Torm]], [[cleric]], [[druid]], [[dwarven defender]], [[fighter]], [[Harper scout]], [[monk]], [[paladin]], [[pale master]], [[ranger]], [[red dragon disciple]], [[rogue]], [[shifter]], [[sorcerer]], [[wizard]]
+
+*'''[[Cross-Class]]''': yes
+
+*'''[[Untrained skill check|Requires training]]''': no
+
+*'''Check''': The [[difficulty class]] is determined by the type of trap being created. The more powerful the trap, the more difficult it is to build and the more components it requires.
+
+*'''Use''': selected
+
+==Notes==
+
+*Added in the [[expansion pack]]s.
+* To use this skill, a player needs to select "Crafting Skills" from the character's [[radial menu]] (leftmost option &ndash; "Special Abilities" &ndash; then the topmost option). This initiates a [[conversation]] that includes an option for creating a trap.
+* This skill is more useful for a character who is also skilled in [[set trap|setting traps]].
+* Unlike the set trap and disable trap skills, craft trap does not allow the character to take 20.
+* The kits created with this skill are identical to the ones obtained via [[recover trap]]. In both cases, the trap kits are flagged as "stolen", which causes many merchants to not buy them, and those that do usually offer lower prices than normal.
+* One component is needed for minor traps, three for medium traps, five for strong traps and seven for deadly traps (see table).
+*Neither epic traps nor acid blob traps can be crafted.
+*Difficulty classes for crafting trap kits are listed in the following table. The difficulty classes for setting these kits, as well as the difficulty classes for detecting and disarming the resulting traps, are listed in the notes for the [[set trap#Notes|set trap article]]. The effects of the resulting traps are listed in the notes for the [[trap#Notes|trap article]].
+{| class="wikitable"
+|-
+!Trap type
+!Component
+!Minor (1)
+!Average (3)
+!Strong (5)
+!Deadly (7)
+|-
+|acid splash
+|[[acid flask]]
+|15
+|25
+|30
+|35
+|-  
+|electrical
+|[[quartz crystal]]
+|20
+|25
+|30
+|35
+|-
+|fire
+|[[alchemist's fire]]
+|20
+|25
+|30
+|35
+|-  
+|frost
+|[[coldstone]]
+|15
+|20
+|25
+|30
+|- 
+|gas
+|[[choking powder]]
+|30
+|35
+|40
+|45
+|-  
+|holy
+|[[holy water]]
+|15
+|20
+|25
+|30
+|-  
+|negative
+|[[skeleton's knuckle]]
+|15
+|20
+|25
+|30
+|-
+|sonic
+|[[thunderstone]]
+|15
+|20
+|25
+|30
+|- 
+|spike
+|[[caltrops]]
+|5
+|20
+|25
+|35
+|-
+|tangle
+|[[tanglefoot bag]]
+|15
+|20
+|25
+|30
+|}
+
+== Custom content notes ==
+* ''dialogue:'' <code>x0_skill_ctrap</code>
+* A character must be able to use this skill in order to use the crafting radial menu option (which includes changing the appearance of weapons and armor as well as trap crafting). Removing this skill or changing it to require training could prevent players from altering their equipment's appearance.
+[[category:skills]]

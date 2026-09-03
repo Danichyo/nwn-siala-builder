@@ -1,0 +1,23 @@
+{{spell
+|icon=is_x2infstmag.gif
+|druidlevel=3
+|innatelevel=3
+|school=[[necromancy]]
+|components=VS
+|range=t
+|area=creature touched
+|save=[[fortitude]] negates
+|spellresistance=yes
+|immunity=disease
+|duration= <del>1 round / 2 levels</del> 10 [[round]]s + 1 round / level
+|counters=[[remove disease]], [[heal (spell)|heal]]
+|desc=With but a touch, you infect a target with maggot-like creatures. They deal 1[[d4]] points of temporary [[constitution]] damage each round. Each round the subject makes a new fortitude save. The spell ends if the target succeeds at its [[saving throw]].}}
+
+== Notes ==
+*Requires [[Hordes of the Underdark]].
+* Due to a bug, immunity to disease does not make one immune to this spell. In fact, if it does not come from a feat ([[divine health]], [[purity of body]], or [[perfect health]]), then disease immunity causes the saving throws to be automatically failed.
+* If the [[difficulty setting]] is set to "hardcore" or higher, then the round after the target's constitution score reaches 3, the target will be dealt [[magical damage]] equal to 1 more than its hit points (in order to kill it).
+* This spell has no effect on a target currently infected with maggots.
+
+== Custom content notes ==
+* ''script:'' <code>X2_S0_InfestMag</code>

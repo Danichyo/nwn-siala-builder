@@ -1,0 +1,30 @@
+{{spell
+|icon=is_charmmon.gif
+|bardlevel=3
+|magelevel=4
+|innatelevel=3
+|school=[[enchantment]]
+|components=VS
+|range=s
+|area=single
+|save=[[will]] negates
+|line=Charm
+|line1=charm person
+|line2=charm person or animal
+|line3=charm monster
+|line8=mass charm
+|spellresistance=yes
+|immunity=mind-affecting
+|duration=3 [[round]]s + 1 / 2 levels
+|counters=<del>[[clarity]]</del>
+|desc=In the eyes of the target creature, the personal [[reputation]] of the caster is improved by 50%.}}
+
+==Notes==
+
+*When cast against a [[player character]] (PC) or a PC's [[associate]], this spell causes a [[dazed]] effect instead.
+**The duration of the daze effect, if at least 4 rounds and the target is a PC, is halved under the normal game [[difficulty setting]], and quartered under easier settings. 
+*Merchants under the influence of this spell suffer a -10 penalty to their [[appraise]] skill if they make an opposed skill check when opening their store. This means that prices could be adjusted 10% (of the item's value) in the PC's favor. However, this is subject to a minimum skill of 1, so there is no benefit when the merchant has no (or little) ''appraise'' skill in the first place.
+*Due to a .2da bug, ''clarity'' is not an additional [[counterspell]] of this spell.
+
+==Custom content notes==
+*''Script:'' <code>NW_S0_CharmMon.nss</code>

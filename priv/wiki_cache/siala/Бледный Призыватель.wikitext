@@ -1,0 +1,83 @@
+[[Файл:PM_summoner.png|thumb|300px|справа|Статистика персонажа с максимальными характеристиками.]]
+*[[Билды для новичков|Вернуться обратно]]
+==Описание==
+Бледный Призыватель - персонаж-танк, максимально раскрывающий способность призыва нежити у Бледного Мастера.
+
+'''Преимущества''': Высокие показатели брони и спасбросков (причем всех), сильные и разнообразные саммоны, нетребовательность к вещам, простота прокачки, иммуны Бледного Мастера, читает свитки, топовый дух неплохо видит хайдеров.
+
+'''Недостатки''': В атаке зависит от призываемых существ, уязвим к магии, плохо лечится.
+
+== Общее ==
+*Класс брони: 99+ (в своем обкасте)
+*Спасброски: 72 Стойкости / 60 Рефлексов / 67 Воли
+*Читает все свитки
+
+== Билд ==
+'''Раса:''' Карлик (Gnome)
+
+'''Характер''' Хаотично-злой (Chaotic Evil)
+
+'''Характеристики:'''
+*Сила - 12 (+2 от РДД)
+*Ловкость - 8
+*Телосложение - 17 (+1 на прокачке)
+*Интеллект - 14
+*Мудрость - 8
+*Харизма - 16 (+9 на прокачке и +7 от умений)
+
+'''Навыки:'''
+ 
+Прокачиваем на максимум Spellcraft и Heal, по возможности Tumble и Use Magic Device.
+
+Оставшиеся очки навыка - на ваше усмотрение. Обязательные навыки:
+*Для класса Ученик красного дракона требуется 8 очков навыка Lore.
+*Для класса Черный страж требуется 5 очков навыка Hide.
+*Для умений Epic Spell требуется навык Spellcraft.
+
+'''Повышение уровня:'''
+<div style="column-count:2">
+ 
+:1. <span style="color: green;">'''Бард'''</span></p> - Владение клинковым оружием
+:2. <span style="color: green;">'''Бард'''</span></p>
+:3. <span style="color: green;">'''Бард'''</span></p> - Spell Focus (Necromancy) // Навыки: 6 Lore
+:4. <span style="color: blue">'''Бледный мастер'''</span></p>
+:5. <span style="color: blue">'''Бледный мастер'''</span></p> // Навыки: 8 Lore
+:6. <span style="color: red;">'''Ученик красного дракона'''</span></p> - Expertise
+:7. <span style="color: red;">'''Ученик красного дракона'''</span></p>
+:8. <span style="color: blue">'''Бледный мастер'''</span></p>
+:9. <span style="color: blue">'''Бледный мастер'''</span></p> - Power Attack
+:10. <span style="color: blue">'''Бледный мастер'''</span></p>
+:11. <span style="color: blue">'''Бледный мастер'''</span></p>
+:12. <span style="color: blue">'''Бледный мастер'''</span></p> - Cleave // Навыки: 5 Hide
+:13. '''Черный страж'''
+:14. <span style="color: blue">'''Бледный мастер'''</span></p>
+:15. <span style="color: blue">'''Бледный мастер'''</span></p> - Improved Expertise
+:16. <span style="color: blue">'''Бледный мастер'''</span></p>
+:17. '''Черный страж'''
+:18. '''Черный страж''' - Divine Shield
+:19. '''Черный страж'''
+:20. <span style="color: green;">'''Бард'''</span></p> // Навыки: 20 Tumble, 23 Use Magic Device
+:21. <span style="color: blue">'''Бледный мастер'''</span></p> - Great Charisma I
+:22. <span style="color: blue">'''Бледный мастер'''</span></p>
+:23. <span style="color: blue">'''Бледный мастер'''</span></p> - Energy Resistance, Electrical I
+:24. <span style="color: blue">'''Бледный мастер'''</span></p> - Great Charisma II
+:25. <span style="color: blue">'''Бледный мастер'''</span></p>
+:26. <span style="color: blue">'''Бледный мастер'''</span></p> - Epic Spell: Dragon Knight // Навыки: 29 Spellcraft
+:27. <span style="color: blue">'''Бледный мастер'''</span></p> - Great Charisma III
+:28. <span style="color: blue">'''Бледный мастер'''</span></p>
+:29. <span style="color: blue">'''Бледный мастер'''</span></p> - Epic Spell: Epic Mage Armor 
+:30. <span style="color: blue">'''Бледный мастер'''</span></p> - Great Charisma IV
+:31. <span style="color: blue">'''Бледный мастер'''</span></p>
+:32. <span style="color: blue">'''Бледный мастер'''</span></p> - Epic Spell: Mummy Dust
+:33. <span style="color: blue">'''Бледный мастер'''</span></p> - Great Charisma V
+:34. <span style="color: blue">'''Бледный мастер'''</span></p>
+:35. <span style="color: blue">'''Бледный мастер'''</span></p> - Epic Spell: Greater Ruin
+:36. <span style="color: blue">'''Бледный мастер'''</span></p> - Great Charisma VI
+:37. <span style="color: blue">'''Бледный мастер'''</span></p>
+:38. <span style="color: blue">'''Бледный мастер'''</span></p> - Epic Spell: Hellball // Навыки: 32 Spellcraft
+:39. <span style="color: blue">'''Бледный мастер'''</span></p> - Great Charisma VII
+:40. <span style="color: blue">'''Бледный мастер'''</span></p> // Навыки: 43 Spellcraft, 43 Heal. Остальное на ваше усмотрение.
+</div>
+'''Примечание:''' Итоговый расчет для умения Summon Undead: 30(PM) + 17(Charisma) + 1(Focus) = 48, что и требуется для максимальных саммонов.
+Вместо фокуса на некромантию можно взять что-нибудь другое (например, владение топорами), но тогда появляется необходимость иметь этот фокус на вещах.
+Для топового духа желательно иметь некоторые заклинания с вещей (неплохо работает Aura of Vitality + банка истинного зрения + Owls Wisdom на +12 мудрости) - после этого у него будет 120 Обнаружения/Слуха, до максимума в 127 можно поднять свитками Острого слуха/зрения.

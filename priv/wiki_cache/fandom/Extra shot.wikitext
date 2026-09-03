@@ -1,0 +1,12 @@
+'''Type of Feat''': [[Class]]
+
+'''Prerequisite''': [[Archer]] level 2
+
+'''Specifics''': When using a [[bow]], character receives an extra [[attack per round]].
+
+'''Use''': Automatic
+
+==Notes==
+*Added in the [[PRC Expansion Pack]].
+
+[[Category:PRC feats]]

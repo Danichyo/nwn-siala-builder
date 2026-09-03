@@ -1,0 +1,69 @@
+# Продакшен-развёртывание на VPS.
+#
+# ⚠️ Наружу не смотрит НИЧЕГО. Приложение слушает только 127.0.0.1:5000, а TLS
+# и публичный доступ обслуживает уже стоящий на сервере Caddy — он же держит
+# порты 80/443 для VPN-инфраструктуры, и трогать их нельзя. Блок в Caddyfile:
+#
+#     builder.dondryanich.ru {
+#         reverse_proxy 127.0.0.1:5000
+#     }
+#
+# Сертификат Caddy получит сам. Отсюда же следует, что `PORT` внутри контейнера
+# и порт на хосте намеренно разные: 4000 внутри, 5000 снаружи — чтобы случайное
+# совпадение с чем-нибудь на хосте не увело трафик не туда.
+
+# Ротация логов задана обоим сервисам: по умолчанию Docker пишет json-лог без
+# ограничения, и на сервере, который видят боты-сканеры, он растёт неограниченно.
+x-logging: &logging
+  driver: json-file
+  options:
+    max-size: "10m"
+    max-file: "3"
+
+services:
+  db:
+    logging: *logging
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_USER: build_calculator
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?POSTGRES_PASSWORD не задан в .env}
+      POSTGRES_DB: build_calculator_prod
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    # Приложение стартует миграциями, поэтому база обязана быть готова раньше —
+    # без healthcheck `depends_on` дожидается только запуска контейнера, а не
+    # готовности принимать соединения.
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U build_calculator -d build_calculator_prod"]
+      interval: 5s
+      timeout: 5s
+      retries: 12
+    restart: unless-stopped
+
+  app:
+    logging: *logging
+    build: .
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      DATABASE_URL: postgres://build_calculator:${POSTGRES_PASSWORD}@db:5432/build_calculator_prod
+      SECRET_KEY_BASE: ${SECRET_KEY_BASE:?SECRET_KEY_BASE не задан в .env}
+      # ⚠️ Полное имя поддомена. При несовпадении Phoenix отвергнет WebSocket
+      # по `check_origin`: страница отрендерится, а LiveView будет мёртв —
+      # «всё загрузилось, но ничего не нажимается».
+      PHX_HOST: builder.dondryanich.ru
+      # Второй вход для тех, у кого блокируется зона .ru или DNS регистратора.
+      # Имя sslip.io резолвится в IP само, сертификат обычный от Let's Encrypt.
+      # ⚠️ Без этой строки страница по второму имени откроется, а LiveView
+      # молча не подключится — см. комментарий выше.
+      PHX_EXTRA_ORIGINS: https://builder.45-83-105-99.sslip.io
+      PHX_SERVER: "true"
+      PORT: "4000"
+    command: sh -c "/app/bin/migrate && /app/bin/server"
+    ports:
+      - "127.0.0.1:5000:4000"
+    restart: unless-stopped
+
+volumes:
+  pgdata:

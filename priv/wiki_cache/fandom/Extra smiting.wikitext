@@ -1,0 +1,10 @@
+{{feat
+|type=general
+|prereq=[[smite evil]] or [[smite good]]
+|desc=This feat increases the smiting ability to 3 times per day.
+|use=<del>selected</del> ''automatic''
+|icon=ife_x2extrsmit.gif
+}}
+
+==Notes==
+*A character that has both ''smite good'' and ''smite evil'' will have both increased to 3 times per day.

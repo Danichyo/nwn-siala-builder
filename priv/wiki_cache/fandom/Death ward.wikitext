@@ -1,0 +1,23 @@
+{{spell
+|icon=is_deaward.gif
+|clericlevel=4
+|druidlevel=5
+|paladinlevel=4
+|innatelevel=4
+|school=[[necromancy]]
+|components=VS
+|range=t
+|area=single
+|save=harmless
+|spellresistance=none
+|duration=1 [[hour]] / level
+|counters=<del>[[finger of death]]</del>
+|desc=The target creature becomes immune to any [[death magic|death spells]], spell-like abilities, and effects.}}
+
+==Notes==
+* Due to a .2da bug, ''finger of death'' is not an additional [[counterspell]] of this spell.
+
+==Custom content notes==
+* ''script:'' <code>NW_S0_DeaWard</code>
+==External links==
+*{{FRW|Death ward (spell)‎‎}}

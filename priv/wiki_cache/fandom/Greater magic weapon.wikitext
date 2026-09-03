@@ -1,0 +1,45 @@
+{{spell
+|icon=is_x2grmgweap.gif
+|bardlevel=3
+|clericlevel=4
+|paladinlevel=3
+|magelevel=3
+|innatelevel=3
+|school=[[transmutation]]
+|immunity=weapon enchantment
+|components=VS
+|range=t
+|area=creature or melee weapon
+|save=none
+|spellresistance=no
+|duration=1 [[hour]] / level
+|line=Magic weapons
+|line1=magic weapon
+|line3=greater magic weapon
+|desc=You empower the touched weapon with a +1 [[enhancement bonus]] per 3 [[caster level]]s (maximum of +5). You can either directly target the weapon you want to cast this spell on, or you can target a creature, affecting the creature's main hand weapon.}}
+
+{| class="wikitable" style="text-align:center"
+|-
+! caster level
+! enhancement
+|-
+| 5 || +1
+|-
+| 6 || +2
+|-
+| 9 || +3
+|-
+|12 || +4
+|-
+|15+|| +5
+|}
+
+== Notes ==
+
+*Requires [[Hordes of the Underdark]].
+* This spell can be cast on seemingly unarmed creatures (such as animals) to target one of their [[natural weapon]]s (even though the effect will not be reported in the [[character sheet]]). The "right" slot is targeted if possible; the "bite" slot otherwise. A creature with only a "left" weapon (e.g. some [[polymorph]]s) will not benefit from this spell.
+* This will replace any existing temporary enhancement bonus (e.g. from ''[[blackstaff]]'').
+
+== Custom content notes ==
+* ''script:'' <code>X2_S0_GrMagWeap</code>
+* The standard script will not recognize custom base items as weapons.

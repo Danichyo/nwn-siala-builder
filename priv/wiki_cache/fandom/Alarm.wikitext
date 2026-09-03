@@ -1,0 +1,18 @@
+{{Grimoire spell|imagename=Is alarm.jpg
+|spellname=alarm
+|casterlevel=[[bard]] 1, [[ranger]] 1, [[sorcerer]] / [[wizard]] 1
+|innatelevel=1
+|school=[[abjuration]]
+|descriptors=none
+|components=V, S
+|range=short
+|immunities=none
+|savingthrow=none
+|spellresistance=no
+|targettype=20 ft. radius emanation centered on a point in space
+|duration= 2 [[hour]]s/[[caster level|level]]
+|description=''Alarm'' sounds a mental alarm each time a creature of tiny or larger size enters the warded area. A mental alarm alerts you (and only you) so long as you remain within 1 mile of the warded area. You note a single mental "ping" that awakens you from normal sleep but does not otherwise disturb concentration. A silence spell has no effect on a mental alarm.
+}}
+{{g_bard}}
+{{g_rgr}}
+{{g_sorwiz}}

@@ -1,0 +1,118 @@
+{{Weapon|imagefile=Longsword.jpg
+  |weaponname=Longsword
+  |weapondescription=The '''longsword''' is the weapon most commonly associated with knights and their ilk. There are many variations in the blade, but all are approximately 35 to 47 inches in length.
+  |weight=4
+  |cost=15
+  |damage=1d8
+  |critical=19-20/x2
+  |damagetype=[[slashing damage|slashing]]
+  |size=Medium
+  |proficiency=[[weapon proficiency (elf)|elf]]<br/>&nbsp;[[weapon proficiency (martial)|martial]]
+  |category=[[Category:Bladed weapons]] [[Category:Martial weapons]]
+}}
+
+==Toolset==
+* Longswords are listed under the [[bladed blueprint category]] of the [[item palette]] in the [[Toolset]].
+
+== Angurvadal (Flame Tongue) ==
+Blades of this type hail from the workshop of Raegik Hammerhold, a Rashemar smith who refused to reveal the secrets of his craft to any but his chosen apprentice. It is unknown how many Angurvadal blades may exist, but it is certain there are no more being produced. Raegik discovered his student dealing with the Red Wizards of Thay, and is believed to have died in the ensuing battle.
+
+*[[Damage bonus]]: +[[dice|d6]] [[fire damage]]
+*[[Enhancement bonus]]: +2
+*[[Item level restriction|Required level]]: 11
+
+== Aramil's Blade ==
+Aramil the Triumphant was a gladiator famed for his great strength and his brutish lack of grace. Near the end of his career, the fading champion requisitioned the creation of a special sword on the eve of what was to be his final match, even contributing a vial of his own blood so that the weapon's magic would draw upon and amplify his own legendary strength. However, Aramil's scheduled opponent&mdash;Unferth the Cunning&mdash;convinced the wizard crafting the blade to use the blood to imbue the weapon with '''all''' of Aramil's traits, including his oafish clumsiness.<br/>
+An awkward combatant at the best of times, the sword's drawback turned Aramil into a stumbling buffoon and he was easily dispatched by Unferth. The poor performance left an ugly stain on an otherwise glorious career, and Aramil&mdash;along with the magical blade that had been his downfall&mdash;was quickly forgotten.
+
+*[[Ability bonus (item property)|Ability bonus]]: strength (+8)
+*[[Cast spell]]: ''[[call lightning]]'' ([[caster level]] 10, once per [[day]])
+*Decreased ability: -4 [[dexterity]]
+*Enhancement bonus: +6
+*[[Keen]]
+*[[On-hit]]: [[vorpal]] ([[difficulty class|DC]]=14)
+*Required level: 25
+
+'''Note:''' Requires [[Hordes of the Underdark]].
+
+== Astral Blade +1 ==
+This weapon bears the mark of the dwarf [[Marrok]], Master Blacksmith of [[Neverwinter]]'s Shining Knight Arms and Armor. He forged it early in 1373 DR, to aid the heroes who sought to free his quarantined city from the virulent grasp of the so-called [[Wailing Death]].
+
+*Damage bonus: +d4 [[sonic damage]]
+*Enhancement bonus: +1
+*Required level: 6
+
+== Astral Blade +2 ==
+This weapon bears the mark of the dwarf [[Barun Silverblade|Barun]], a Master Blacksmith who worked from a makeshift forge in the [[Uthgardt]] village of Beorunna's Well. He forged it late in 1373 DR, to aid the war effort against [[Aribeth|Lady Aribeth the Betrayer]], who was then marching against the northern city of Neverwinter and the Lords' Alliance.
+
+*Damage bonus: +d10 sonic damage
+*Enhancement bonus: +2
+*Required level: 15
+
+== Astral Blade +8 ==
+On an exploration into the ruins of Northkeep, the bard Leldor claimed to have found and identified this powerful magic longsword; yet he could offer no proof of its existence. According to the fanciful tale he wove, the ghosts of the original defenders came to him whilst he slept and claimed the sword belonged to the Lady of the North. When he asked who this Lady was, a beautiful apparition appeared, and Leldor immediately fell in love and returned her weapon.
+
+*Damage bonus: +2d6 sonic damage
+*Enhancement bonus: +8
+*Required level: 23
+
+'''Note:''' Requires [[Hordes of the Underdark]].
+
+== Blade of the Gladiator ==
+Long ago, the [[formian]]s built great subterranean cities and vast, cavernous empires. Societies of war, they reveled in the blood and glory of the gladiatorial pit, where slaves and prisoners fought for their cruel amusement. One such gladiator was the human Ajan, who stole the blade of his formian master and used it to escape to the surface with Zoe, his love. It is said that all who wield it are bound for greatness.
+
+*Damage bonus: +d6 [[acid damage]]
+*Enhancement bonus: +2
+*Required level: 11
+
+== Blessing of the Daystar ==
+A legacy blade, this Blessing of the Daystar is one of several recovered from the Sons of Light, a group of knights who fought in the latter days of the Weeping War, 713 DR. Their leader, Scottie Torilson, was possessed of the one true Daystar, and through it they received the blessing of [[Torm]] in their last hour. They went to their deaths for a strategically unimportant elven village, because duty demanded nothing less.
+
+*Damage bonus: + d6 fire damage versus [[evil]]
+*Enhancement bonus: +3
+*Enhancement bonus: +5 versus [[undead]]
+*Required level: 16
+
+== Cold Iron Blade ==
+A series of these weapons were constructed for the defense of the library fortress of Candlekeep some 200 years ago. The keep had acquired a tome detailing the imprisonment of the pit fiend Aegatohl, and a score of malevolent creatures came to claim it. A small horde was held at bay by the Knights of the Mailed Fist, along with the unexpected assistance of Devon's Privateers, a group of pirates. The tome was later destroyed.
+
+*Damage bonus: +d6 [[cold damage]]
+*Enhancement bonus: +1
+*Saving throw bonus: +1 [[fortitude]] [[saving throw|saves]]
+*Required level: 10
+
+== Cold Iron Blade ==
+Since the war with the Devil Dragon, these blades are fairly common in [[Cormyr]]. They were manufactured in large numbers to equip the Purple Dragons, for it was only with cold iron that the ghazneths could be harmed.
+
+*Damage bonus: +d4 cold damage versus [[outsider]]s
+*Required level: 1
+
+'''Note:''' Requires [[patch]] 1.69.
+
+== Holy Avenger ==
+The dream of every [[paladin]] is to claim his own holy avenger. These blessed weapons are found only amongst the most elite paladins, whose lives have been fully dedicated to the pursuits of their gods. One famous paladin described his weapon as his best and last friend in every situation. When peace fails, the holy avenger becomes the embodiment of the law.
+
+*Enhancement bonus: +2
+*[[Holy avenger]]
+*Required level: 11
+
+'''Note:''' Requires Hordes of the Underdark. Since the holy avenger property already gives this weapon a +2 enhancement bonus, the explicit enhancement bonus serves no in-game purpose other than making this blade more valuable.
+
+== Soulrazor Minion ==
+A Soulrazor Minion is a shadow of the original Soulrazor sword, duplicated with meticulous effort by Khol of Zhentil Keep. Soulrazor possessed seemingly limitless evil, corrupting all that dared wield it. While unable to name the force behind the first blade, Khol found he could encourage it to infest other weapons in a process he called "bleeding the void." He created a number of Minions but apparently upset some greater balance, and was drawn through to whatever dark place it was that he had tapped.
+
+*Damage bonus: +d6 acid damage versus [[good]]
+*Enhancement bonus: +3
+*[[Regeneration: vampiric]] +2
+*Required level: 14
+
+== The Singing Sword ==
+This blade literally hums with power. The closer a person's hand comes to the pommel, the louder the hum. The blade is supposed to have belonged to the famous swordsman known as the "Laughing Knight". He would ride his charger into battle, laughing loudly while holding the Singing Sword, striking fear into the hearts of his opponents and lifting the moral of his allies.
+
+*Damage bonus: +1 sonic damage
+*Enhancement bonus: +5
+*Light: normal (blue)
+*[[No combat damage]]
+*Required level: 17
+
+'''Note:''' Requires [[Shadows of Undrentide]].

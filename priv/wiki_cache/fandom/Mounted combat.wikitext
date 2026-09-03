@@ -1,0 +1,15 @@
+{{feat
+|type=general
+|prereq=[[ride]] 1 [[skill rank|rank]]
+|reqfor=[[mounted archery]]
+|desc=While [[horse riding|mounted]], once per round you will attempt a [[skill check|ride check]] to increase your [[armor class]] by 1 point for every 5 of the check result.
+|use=automatic
+|icon=ife_x3_mcombat.png
+|bonus1=fighter
+}}
+
+==Notes==
+*Added in the 1.69 [[patch]].
+*The bonus (a [[dodge bonus]]) is only +1 for every 5 of the check result <u>over 10</u> (but there is no penalty if the check result is under 10).
+*This feat only affects [[player character]]s in modules that make use of an [[OnHeartbeat event]] script that was introduced in version 1.69. That is, a player gains no benefit from selecting this feat in a module that does not support horses (such as the [[official campaign]]s).
+*This feat is disabled or modified on some [[server]]s as the effects can be considered overpowered. Common modifications include reducing the bonus by the armor class bonus from [[tumble]] (possibly resulting in a penalty), and reducing the ride check by the dexterity modifier (since that modifier has already contributed to armor class).

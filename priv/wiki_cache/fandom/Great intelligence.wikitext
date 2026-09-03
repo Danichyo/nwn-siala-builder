@@ -1,0 +1,12 @@
+{{feat
+|epic=yes
+|type=general
+|prereq=21st level
+|desc=The character gains +1 to their [[intelligence]]. This may be taken multiple times, to a maximum bonus of +10.
+|use=automatic
+|icon=ife_x2grint1.gif
+|bonus1=wizard
+}}
+
+==Notes==
+*Requires [[Hordes of the Underdark]].

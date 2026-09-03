@@ -1,0 +1,24 @@
+{{feat
+|type=class
+|prereq=[[monk]] 12
+|desc=The monk gains [[spell resistance]] equal to their [[class level]] + 10.
+|use=automatic
+|icon=ife_disoul.gif
+|class1=monk
+}}
+
+== Notes ==
+* The spell resistance granted by this feat cannot be lowered (e.g. by [[breach]]es).
+*This feat means monks will not need to wear items with spell resistance, unless the item confers more spell resistance than this feat (as spell resistance does not [[stack]]).
+
+== Builder notes ==
+'''Item feat:''' No, but it can be added with custom content.
+
+== Custom content notes ==
+'''Removable:''' yes
+
+'''Reusable:''' Yes, but any character without monk levels will only gain spell resistance 10.
+
+'''Script:''' hardcoded
+
+*This feat can be added to [[iprp_feats.2da]] to make it available as an item feat.

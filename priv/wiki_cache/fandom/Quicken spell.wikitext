@@ -1,0 +1,37 @@
+[[Image:Ife quicken.gif|right|Quicken spell]]
+[[Image:Gui_quicken.png|right|Quickened indicator]]
+{{feat
+|type=metamagic
+|prereq=ability to cast 4th-level [[spell]]s
+|reqfor=[[automatic quicken spell]]
+|desc=Quickened spells can be cast instantaneously, making them invulnerable to [[counterspell]]s or interruption. A quickened spell is cast as a free action, and another action can be attempted within the same round, including the casting of another spell. Only one quickened spell can be cast per round.
+|use=Quickened spells occupy [[spell slot]]s four levels higher than normal.
+|bonus1=wizard
+}}
+
+== Notes ==
+* This feat has the same effect on casting time as [[haste]]. Casting a quickened spell while hastened does not further reduce casting time.
+*The in-game description is incorrect in regards to interruption and countering.
+**Quickened spells can be interrupted if damage is received and the [[concentration]] check is failed. However, a quickened spell does not provoke an [[attack of opportunity]], so the chance of receiving damage at the right moment is decreased.
+**Quickened spells can be countered normally, unless the caster is hastened. If the caster is hastened, the counterspeller must also be hastened to successfully counterspell.
+*The following spells cannot be quickened (in addition to all level 6, 7, 8, and 9 spells, which cannot be quickened due to the lack of spell slots above level 9):
+**[[greater shadow conjuration]],
+**[[lesser dispel]],
+**[[shadow conjuration]], and
+**[[ultravision]].
+*This feat can only be selected when gaining a level of [[bard]], [[cleric]], [[red dragon disciple]], [[druid]], [[Harper scout]], [[shadowdancer]], [[sorcerer]], or [[wizard]].
+
+== Builder notes ==
+'''Item feat:''' No, but it can be added with custom content.
+
+== Custom content notes ==
+
+'''Removable:''' yes
+
+'''Reusable:''' yes
+
+'''Script:''' hardcoded
+
+*This feat can be added to [[iprp_feats.2da]] and work as an item feat, but [[wizard]]s and [[divine]] spellcasters will only need to have the item equipped while preparing their [[spellbook]]s and not during [[rest]]ing or casting. [[Spellhook]]ing can be used to verify that the caster has the [[feat]] if it is used as an item feat.
+*A custom class must have this feat in their feat list, or that class will not be able to select it as a general feat.
+[[category:feats restricted by class]]

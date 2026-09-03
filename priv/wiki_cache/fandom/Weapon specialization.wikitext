@@ -1,0 +1,79 @@
+{|border=0 cellspacing=2
+|-
+|[[Image:Ife wepspec bsw.gif|right|Weapon specialization (bastard sword)]]
+|[[Image:Ife wepspec bax.gif|right|Weapon specialization (battleaxe)]]
+|[[Image:Ife wepspec clu.gif|right|Weapon specialization (club)]]
+|[[Image:Ife wepspec cre.gif|right|Weapon specialization (creature)]]
+|[[Image:Ife wepspec dag.gif|right|Weapon specialization (dagger)]]
+|[[Image:Ife wepspec dar.gif|right|Weapon specialization (dart)]]
+|[[Image:Ife wepspec dma.gif|right|Weapon specialization (dire mace)]]
+|[[Image:Ife wepspec dax.gif|right|Weapon specialization (double axe)]]
+|[[Image:Ife x2wsdwax.gif|right|Weapon specialization (dwarven waraxe)]]
+|-
+|[[Image:Ife wepspec gax.gif|right|Weapon specialization (greataxe)]]
+|[[Image:Ife wepspec gsw.gif|right|Weapon specialization (greatsword)]]
+|[[Image:Ife wepspec hal.gif|right|Weapon specialization (halberd)]]
+|[[Image:Ife wepspec hax.gif|right|Weapon specialization (handaxe)]]
+|[[Image:Ife wepspec hxb.gif|right|Weapon specialization (heavy crossbow)]]
+|[[Image:Ife wepspec hfl.gif|right|Weapon specialization (heavy flail)]]
+|[[Image:Ife wepspec kam.gif|right|Weapon specialization (kama)]]
+|[[Image:Ife wepspec kat.gif|right|Weapon specialization (katana)]]
+|[[Image:Ife wepspec kuk.gif|right|Weapon specialization (kukri)]]
+|-
+|[[Image:Ife wepspec lxb.gif|right|Weapon specialization (light crossbow)]]
+|[[Image:Ife wepspec lfl.gif|right|Weapon specialization (light flail)]]
+|[[Image:Ife wepspec lha.gif|right|Weapon specialization (light hammer)]]
+|[[Image:Ife wepspec lbw.gif|right|Weapon specialization (longbow)]]
+|[[Image:Ife wepspec lsw.gif|right|Weapon specialization (longsword)]]
+|[[Image:Ife wepspec lma.gif|right|Weapon specialization (mace)]]
+|[[Image:Ife wepspec mor.gif|right|Weapon specialization (morningstar)]]
+|[[Image:Ife wepspec sta.gif|right|Weapon specialization (quarterstaff)]]
+|[[Image:Ife wepspec rap.gif|right|Weapon specialization (rapier)]]
+|-
+|[[Image:Ife wepspec sci.gif|right|Weapon specialization (scimitar)]]
+|[[Image:Ife wepspec scy.gif|right|Weapon specialization (scythe)]]
+|[[Image:Ife wepspec sbw.gif|right|Weapon specialization (shortbow)]]
+|[[Image:Ife wepspec ssw.gif|right|Weapon specialization (shortsword)]]
+|[[Image:Ife wepspec shu.gif|right|Weapon specialization (shuriken)]]
+|[[Image:Ife wepspec sic.gif|right|Weapon specialization (sickle)]]
+|[[Image:Ife wepspec sli.gif|right|Weapon specialization (sling)]]
+|[[Image:Ife wepspec spe.gif|right|Weapon specialization (spear)]]
+|[[Image:Ife wepspec tax.gif|right|Weapon specialization (throwing axe)]]
+|-
+|[[Image:Ife x2wstri.gif|right|Weapon specialization (trident)]]
+|[[Image:Ife wepspec 2sw.gif|right|Weapon specialization (two-bladed sword)]]
+|[[Image:Ife wepspec una.gif|right|Weapon specialization (unarmed strike)]]
+|[[Image:Ife wepspec wha.gif|right|Weapon specialization (warhammer)]]
+|[[Image:Ife x2wswhip.gif|right|Weapon specialization (whip)]]
+|}
+{{feat
+|type=special
+|prereq=[[fighter]], [[base attack bonus]] +4, [[weapon focus]] (chosen weapon)
+|reqfor=[[epic weapon specialization]]
+|desc=A [[character]] with this [[feat]] has trained especially hard with a specific [[weapon]] type, and gains a +2 damage bonus when using these weapons in combat.
+|use=This feat may be selected multiple times, but the effects do not [[stack]]. It applies to a new weapon in each case.
+|special=[[Halfling]]s and [[gnome]]s are small creatures and as such they can never use the following large weapons: [[dire mace]], [[two-bladed sword]], [[double axe]], [[greataxe]], [[greatsword]], [[halberd]], [[heavy flail]], and [[scythe]].
+|bonus1=fighter
+}}__NOTOC__
+
+==Notes==
+*This feat can only be chosen when gaining a fighter level.
+*Four fighter levels are required to take this feat, not merely being a (multiclassed) fighter with a base attack of 4.
+
+===Previous versions===
+*Prior to version 1.69, only a single fighter level was required to take ''weapon specialization'' in the [[club]].
+
+==Builder notes==
+'''Item feat:''' Only for unarmed, but the others can be added with custom content.
+
+==Custom content notes==
+'''Removable:''' yes
+
+'''Reusable:''' yes
+
+'''Script:''' hardcoded
+
+*These feats can be added to [[iprp_feats.2da]] to make them available as item feats.
+*A custom class must have this feat in their feat list, or that class will not be able to select it as a general feat.
+
+[[category:feats restricted by class]]

@@ -1,0 +1,18 @@
+{{spell
+|icon=ife_rogue.gif
+|innatelevel=3
+|school=[[conjuration]]
+|components=VS
+|range=p
+|area=caster
+|duration=5 [[turn]]s
+|desc=Provides a temporary +5 bonus to [[open lock]]s and +10 bonus to [[search]], [[disable trap]], [[move silently]], [[pick pocket]]s, [[set trap]], and [[hide]].}}
+
+==Notes==
+*This spell is also referred to as the potion of extra thieving.
+
+== Custom content notes ==
+*''script:'' <code>NW_S0_ExtraThf</code>
+*This spell can be assigned to a [[spellbook]] by editing [[spells.2da]].
+
+[[Category:Non-class spells]]

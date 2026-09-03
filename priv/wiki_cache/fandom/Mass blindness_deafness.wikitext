@@ -1,0 +1,24 @@
+{{spell
+|icon=is_massbldf.gif
+|magelevel=8
+|innatelevel=8
+|school=[[illusion]]
+|components=VS
+|range=m
+|area=medium
+|save=[[fortitude]] negates
+|spellresistance=yes
+|duration=1 [[round]] / level
+|counters=<del>[[remove blindness/deafness]]</del>
+|line=Blindness/deafness
+|line2=blindness/deafness
+|line8=mass blindness/deafness
+|desc=All enemies within a 10-ft radius are struck [[blind]] and [[deaf]].}}
+
+==Notes==
+*Due to a .2da bug, ''mass blindness/deafness'' is not an additional [[counterspell]] of ''remove blindness/deafness''.
+
+== Custom content notes ==
+* ''script:'' <code>NW_S0_MassBlDf</code>
+==External links==
+*{{FRW|Mass blindness or deafness}}

@@ -1,0 +1,31 @@
+{{feat
+|type=general
+|prereq=ability to cast first-level [[spell]]s
+|reqfor=[[greater spell focus]], [[arcane defense]]
+|desc=A character with this feat is adept in a certain [[spell school|school of magic]], granting a +2 bonus to spell [[save]] [[DC]] for all spells cast from that school.
+|use=automatic. This feat may be selected multiple times, but the effects do not [[stack]]. It applies to a different school of magic in each case. [[Gnome]]s receive ''spell focus ([[illusion]])'' for free at level 1.
+|icon=ife_foc_spel.gif
+|bonus1=wizard
+}}
+
+== Notes ==
+
+* ''Spell focus'' does not apply to spells that are granted as special abilities.
+* After player chooses ''[[Greater Spell Focus]]'' of the same spell school, the chosen ''Spell Focus'' will be replaced by the greater version and disappear from the Feats list.
+* Spontaneous casters ([[bard]]s and [[sorcerer]]s) can take this feat without being able to cast first level spells as long as their [[class level]] qualifies for at least 0 level one spell slots (that is, even if their casting ability is too low to actually cast a level one spell).
+
+==Builder notes==
+
+'''Item feat:''' Yes, except [[transmutation]] (which can be added with custom content).
+
+==Custom content notes==
+
+'''Removable:''' yes
+
+'''Reusable:''' yes
+
+'''Script:''' hardcoded
+
+*''Spell focus'' in transmutation can be added to [[iprp_feats.2da]] to get the missing spell school as an item property.
+*A custom class must have this feat in their feat list, or that class will not be able to select it as a general feat.
+[[category:feats restricted by class]]

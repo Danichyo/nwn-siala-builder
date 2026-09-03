@@ -1,0 +1,13 @@
+'''Type of Feat''': [[Class]]
+
+'''Prerequisite''': [[Archmage]] level 1
+
+'''Specifics''': This ability increases the [[Archmage|Archmage's]] effective [[caster level]] by +1 (for purposes of determining level-dependent spell variables such as damage dice or range, and [[caster level]] checks only).  
+
+'''Use''': Selected.
+
+==Notes==
+*Added in the [[PRC Expansion Pack]].
+*This feat may be selected multiple times, its effects are cumulative.
+
+[[Category:PRC feats]]

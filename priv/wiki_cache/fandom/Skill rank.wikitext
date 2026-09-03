@@ -1,0 +1,5 @@
+'''Skill ranks''' are a measure of the training a character has in a given [[skill]]. These are acquired solely by spending [[skill point]]s during [[level-up]] (and are generally only seen during level-up; the [[character sheet]] reports total [[skill level]]). Ranks are the base to which other modifiers, such as an [[ability modifier]], are added.
+Ranks are the criteria used when a [[class]] or [[feat]] has a skill prerequisite.
+
+Many skills can be used even if the character has no ranks in them; doing this is called making an [[untrained skill check]].
+[[category:skills| Skill rank]]

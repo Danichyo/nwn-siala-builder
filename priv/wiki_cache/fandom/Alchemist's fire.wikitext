@@ -1,0 +1,15 @@
+[[Image:Alchemistsfire.gif|right|Alchemist's fire icon]]
+'''Alchemist's fire''' is a sticky, adhesive substance that ignites when exposed to air. Anyone hit by it will suffer 1[[dice|d6]] points of [[fire damage]]. It may also be used to coat a weapon so it will gain a 1d4&nbsp;''+ 1'' [[on-hit]] fire damage bonus for 4 [[round]]s.
+
+== Notes ==
+* Introduced in the [[expansion pack]]s.
+* The grenade will not affect friendly creatures nor neutral [[non-player character]]s who are not associates of [[player character]]s (the "standard" hostile targeting scheme).
+* A ranged [[touch attack]] is performed to see if the alchemist's fire hits; damage is doubled on a [[critical hit]].
+* There is additionally "splash damage" of 1 fire damage to each valid target (including the original target) within a {{AoE|huge}} area.
+* The in-game description omits mentioning the "+1" for the damage when this is used to coat a weapon.
+
+==Custom content notes==
+* ''main script:'' <code>X0_S3_Alchem</code>
+* ''on-hit script:'' <code>X2_S3_Flamingd</code> (when applied to weapon)
+[[Category:Grenade-like weapons]]
+[[Category:Item powers]]

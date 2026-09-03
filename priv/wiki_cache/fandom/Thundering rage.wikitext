@@ -1,0 +1,25 @@
+{{feat
+|epic=yes
+|type=general
+|prereq=<del>epic barbarian</del> ''21st level, [[greater rage]] (4x per day)'', [[strength]] 25+
+|desc=Any weapon the [[barbarian]] wields while in a [[barbarian rage|rage]] does an additional 2[[d6]] points of damage on a [[critical hit]]. There is a <del>50%</del> ''25%'' chance for a creature hit by one of the barbarian's weapons to be [[deaf]]ened for 3 [[round]]s.
+|use=automatic
+|icon=ife_rage.gif
+|bonus1=barbarian
+}}
+
+== Notes ==
+
+*Requires [[Hordes of the Underdark]].
+* This feat's description incorrectly lists "epic barbarian" as a prerequisite. Instead of being an epic barbarian (21 barbarian levels), this prerequisite is actually a combination of being an epic character (21 [[character level]]s) and having the feat "greater rage (4x per day)" (obtained at barbarian level 15).
+*There is a [[fortitude]] [[save]] against the deafen effect with a [[difficulty class|DC]] of 20.
+*The in-game description incorrectly lists the chance of deafening at 50% when the chance is actually 25%.
+* The additional damage is implemented as a [[massive critical]] item property, one which will not be applied if the weapon already has such a property. (In particular, it [[stack]]s with [[overwhelming critical]].)
+* This feat will affect (only) the weapon(s) equipped when the rage is started, and the [[off-hand]] weapon (if any) will not be given the ability to deafen.
+
+== Custom content notes ==
+
+* This feat is implemented by the <code>CheckAndApplyThunderingRage()</code> [[function]] located in the [[script]] <code>x2_i0_spells</code>. It is called at the end of the rage scripts via <code>CheckAndApplyEpicRageFeats()</code> (also defined in <code>x2_i0_spells</code>).
+*A custom class must have this feat in their feat list, or that class will not be able to select it as a general feat.
+
+[[category:feats restricted by class, epic]]

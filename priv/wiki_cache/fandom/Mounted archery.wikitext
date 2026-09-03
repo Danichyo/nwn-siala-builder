@@ -1,0 +1,11 @@
+{{feat
+|type=general
+|prereq=[[ride]] 1 [[skill rank|rank]], [[mounted combat]]
+|desc=The [[attack roll|attack]] penalty for using a bow while [[horse riding|mounted]] is reduced from -4 to -2.
+|use=automatic
+|icon=ife_x3_marchery.png
+|bonus1=fighter
+}}
+
+==Notes==
+*Added in the 1.69 [[patch]].

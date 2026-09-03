@@ -1,0 +1,20 @@
+{{spell
+|icon=is_rmvcurse.gif
+|bardlevel=3
+|clericlevel=3
+|magelevel=4
+|innatelevel=3
+|school=[[abjuration]]
+|components=VS
+|range=t
+|area=single
+|save=harmless
+|spellresistance=no
+|duration=instant
+|desc=All [[curse]]s and curse [[effect]]s are removed from the target creature.}}
+
+==Custom content notes==
+*''script:'' <code>NW_S0_RemEffect.nss</code>
+
+==External Links==
+* {{FRW}}

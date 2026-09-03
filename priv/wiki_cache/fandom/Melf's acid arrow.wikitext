@@ -1,0 +1,26 @@
+{{spell
+|icon=is_acidarrow.gif
+|magelevel=2
+|domain=magic
+|domainlevel=2
+|innatelevel=2
+|school=[[conjuration]]
+|components=VS
+|range=l
+|area=single
+|save=none
+|spellresistance=yes
+|immunity=acid
+|duration=1 [[round]] + 1 round / 3 levels
+|desc=The caster targets a single creature with an acid bolt. The initial [[acid damage|damage]] from the spell is 3[[d6]], +1d6 every round until the spell expires.}}
+
+==Notes==
+
+*Despite not having an instant duration, this spell cannot be extended with [[extend spell]].
+* This spell will not affect a target still subject to an earlier ''acid arrow''.
+
+==Custom content notes==
+*''script:'' <code>NW_S0_AcidArrow.nss</code>
+
+==External Links==
+* {{FRW}}

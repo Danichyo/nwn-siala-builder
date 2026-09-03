@@ -1,0 +1,11 @@
+{{feat
+|type=class
+|prereq=[[red dragon disciple]] 10
+|desc=The red dragon disciple gains immunity to [[paralysis]].
+|use=automatic
+|icon=ife_x2immpara.gif
+|class1=red dragon disciple
+}}
+
+==Notes==
+*Requires [[Hordes of the Underdark]].

@@ -1,0 +1,32 @@
+{{otheruses|the spell|the effect|confused}}
+{{spell
+|icon=is_confusion.gif
+|bardlevel=3
+|magelevel=4
+|innatelevel=3
+|school=[[enchantment]]
+|components=VS
+|range=m
+|area=large
+|save=[[will]] negates
+|spellresistance=yes
+|immunity=mind-affecting
+|duration=1 [[round]] / level
+|counters=<del>[[clarity]]</del>
+|desc=Affected creatures either wander randomly, attack a random target, or simply stand still.}}
+
+== Notes ==
+
+* Like most spells with a harmful area of effect, this spell uses the [[area of effect#Targeting|standard hostile]] targeting scheme, meaning it can affect [[party]] members, depending on the [[PvP setting|PvP]] and [[difficulty setting]]s.
+* If the duration is at least 4 rounds, then it is reduced for [[player character]]s to a half when the [[difficulty setting]] is "normal", and to a quarter at easier settings. This is cumulative for each PC affected ''(a bug)''.
+* While this spell can be cast with [[extend spell]], the duration will not be doubled due to a bug in the script.
+** A fix for both bugs is available on the Vault<sup>[http://nwvault.ign.com/View.php?view=Scripts.Detail&id=3739]</sup>
+* Due to a .2da bug, ''clarity'' is not an additional [[counterspell]] of this spell.
+
+==Custom content notes==
+
+*''script:'' <code>NW_S0_Confusion</code>
+*''OnHeartBeat script:'' <code>NW_G0_Confuse</code>
+
+==External Links==
+* {{FRW}}

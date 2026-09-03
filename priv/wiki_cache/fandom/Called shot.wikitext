@@ -1,0 +1,30 @@
+{{feat
+|type=general
+|prereq=[[base attack bonus]] of +1 or higher
+|desc=Grants the ability to make a potentially disabling attack against an opponent's arms or legs. Called shots are made at a -4 penalty, and must overcome the target's [[discipline]] [[skill check]]. A successful called shot against the legs reduces the opponent's movement rate by 20% and gives them a -2 cumulative penalty to their [[dexterity]]. A successful called shot against the arms applies a cumulative -2 penalty to the creature's [[attack roll]]s. 
+|use=selected
+|icon=ife_callshot.gif
+|bonus1=champion of Torm
+|bonus2=fighter
+}}
+
+== Notes ==
+
+*Successful called shots last four [[round]]s.
+* The movement penalty is also cumulative (like the other penalties).
+* The opponent must have arms or legs for those to be hit with a called shot. (This is controlled by [[appearance]].)
+
+==Builder notes==
+
+'''Item feat:''' No, but it can be added with [[custom content]].
+
+==Custom content notes==
+
+'''Removable:''': yes
+
+'''Reusable:''': yes
+
+'''Script:''' hardcoded
+
+*This feat can be added to <code>[[iprp_feats.2da]]</code> without problems. This will make it possible to add the [[feat]] to items.
+* Whether or not a given appearance has arms or legs is governed by the HASLEGS and HASARMS columns of <code>[[appearance.2da]]</code>.

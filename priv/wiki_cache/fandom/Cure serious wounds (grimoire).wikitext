@@ -1,0 +1,27 @@
+{{Grimoire spell|imagename=Is curserw.gif
+|spellname=Cure Serious Wounds
+|casterlevel=[[Bard]] 3, [[Cleric]] 3, [[Druid]] 4, [[Healing domain (grimoire)|Healing]] 3, [[Ranger]] 4, [[Paladin]] 4
+|innatelevel=3
+|school=[[Conjuration]] ([[Spell subschool|Healing]])
+|descriptors=None
+|components=V, S
+|range=[[Touch attack|Touch]]
+|immunities=Positive
+|savingthrow=[[Will]] half
+|spellresistance=Yes
+|targettype=Single living creature
+|duration=Instant
+|description=The target creature is healed for 3d8 points of damage, +1 point per caster level (to a maximum of +15). Healing spells have a reverse effect on [[undead]], harming instead of healing them. A successful touch attack must first be made when this spell is used against undead.
+
+This spell does not work on [[construct]]s.
+}}
+
+== Notes ==
+*{{Grimoire spell change|pagename=[[Cure serious wounds]]}}
+{{g_bard}}
+{{g_clr}}
+{{g_drd}}
+{{g_healing}}
+{{g_rgr}}
+{{g_pal}}
+{{g_subhea}}

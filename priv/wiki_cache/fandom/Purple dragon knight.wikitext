@@ -1,0 +1,83 @@
+[[Image:Ir_pdk.gif|right|Purple dragon knight icon]]
+'''Description:''' ([[prestige class|PRESTIGE CLASS]])
+The famous purple dragons of Cormyr are regarded across [[Faerûn]] as exemplars of disciplined, skilled, loyal soldiers. Their reputation is deserved partly because of the heroic actions of their leaders, the purple dragon knights. Purple dragon knights develop uncanny skills relating to coordinating and leading soldiers. Most are [[fighter]]s, [[ranger]]s or [[paladin]]s, but a few [[bard]]s, [[cleric]]s, and [[rogue]]s have been known to become purple dragon knights. [[Sorcerer]]s and [[wizard]]s tend to join the war wizards, Cormyr's elite brigade of fighting spellcasters, while [[barbarian]]s are too undisciplined, and [[druid]]s too "uncivilized" in Cormyr to enter this career.
+
+'''[[Hit die]]:''' d10
+
+'''Proficiencies:''' No additional proficiencies are gained.
+
+'''Skill points (gained per level up):''' 2 + [[intelligence]] modifier
+
+'''Class Skills:''' [[craft armor]], [[craft trap]], [[craft weapon]], [[discipline]], [[intimidate]], [[lore]], [[persuade]], [[ride]]
+
+'''Unavailable feats:'''
+[[brew potion]], [[craft wand]], [[curse song]], [[divine might]], [[divine shield]], [[extra music]], [[extra turning]], [[lingering song]], [[quicken spell]], [[scribe scroll]], [[spell focus]], [[weapon specialization]]
+<br />These [[general feat]]s cannot be selected when taking a level of purple dragon knight.
+
+'''Primary saving throw(s)''': [[fortitude]]
+
+'''[[Base attack bonus]]:''' +1/level
+
+==Requirements==
+
+To qualify to become a purple dragon knight, a character must fulfill all of the following criteria:
+
+'''Alignment:''' any non-evil and non-chaotic
+
+'''Base attack bonus:''' +4
+
+'''Feats:''' [[mounted combat]] (requires [[ride]] 1)
+
+'''Skills:''' [[intimidate]] 1 [[rank]], [[listen]] 2 ranks, [[persuade]] 1 rank, [[ride]] 2 ranks, [[spot]] 2 ranks
+
+==Level progression==
+
+{| class="compacttable" style="text-align:center; margin-top:1em; margin-left:0em"
+   !rowspan=2|Level 
+   !rowspan=2|BAB 
+   !colspan=3|Saves 
+   !rowspan=2|Feats 
+   !rowspan=2|HP range 
+ |-
+   !Fort 
+   !Ref 
+   !Will 
+ |-
+   |1 ||+1 ||+2 ||+0 ||+0 ||align=left|[[rallying cry]], [[heroic shield]] ||5-10 
+
+ |-
+   |2 ||+2 ||+3 ||+0 ||+0 ||align=left|[[inspire courage]] 1/day ||10-20 
+
+ |-
+   |3 ||+3 ||+3 ||+1 ||+1 ||align=left|[[fear (feat)|fear]] ||15-30
+
+ |-
+   |4 ||+4 ||+4 ||+1 ||+1 ||align=left|inspire courage 2/day, [[oath of wrath]] ||20-40
+
+ |-
+   |5 ||+5 ||+4 ||+1 ||+1 ||align=left|[[final stand]] ||25-50
+|}
+
+==Epic purple dragon knight==
+
+Purple dragon knights are only able to attain five levels and may never become "epic" in the purple dragon knight class. They can, of course, gain epic levels in their other classes.
+
+'''Unavailable epic feats:'''
+[[automatic quicken spell]], [[automatic silent spell]], [[automatic still spell]], [[bane of enemies]],
+[[construct shape]], [[dragon shape]], [[epic spell penetration]],
+[[epic spell: dragon knight]], [[epic spell: epic mage armor]], [[epic spell: epic warding]], [[epic spell: greater ruin]], [[epic spell: hellball]], [[epic spell: mummy dust]],
+[[epic weapon specialization]], [[great smiting]],
+[[improved ki strike 4]], [[improved ki strike 5]], [[improved sneak attack]],
+[[improved spell resistance]], [[improved stunning fist]],
+[[lasting inspiration]], [[mighty rage]], [[outsider shape]],
+[[planar turning]], [[terrifying rage]], [[thundering rage]], [[undead shape]]
+<br />These general [[epic feat]]s cannot be selected when taking a level of purple dragon knight.
+
+== Notes ==
+
+*Requires patch 1.69.
+*This is the only class for which [[heal (skill)|heal]] is a [[cross-class skill]].
+* The prerequisites for this class include cross-class skills for every [[base class]], so no single class is a clear match in terms of game mechanics. The (single) classes that have an easiest time qualifying in terms of [[skill point]]s required are ranger (10 skill points), rogue (10), and barbarian (11). Next easiest are bards, monks, and paladin (13 for each of these), followed by fighters (14). Clerics and druids would have to spend 15 skill points to qualify, while sorcerers and wizards have the hardest time, with all the prerequisites being cross-class for them (giving a cost of 16 skill points).
+* Fighters are aided in qualifying for this class by having the prerequisite feat as a [[bonus feat]].
+[[category:prestige classes]]
+[[category:classes]]

@@ -1,0 +1,12 @@
+'''Type of Feat''': [[Class]]
+
+'''Prerequisite''': [[Iaijutsu master]] level 8 
+
+'''Specifics''': An [[Iaijutsu master]] can make two attacks with a [[katana]] as a standard action. 
+
+'''Use''':  Selected.
+
+==Notes==
+*Added in the [[PRC Expansion Pack]].
+
+[[Category:PRC feats]]

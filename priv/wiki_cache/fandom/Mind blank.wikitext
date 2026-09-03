@@ -1,0 +1,27 @@
+{{spell
+|icon=is_mindblk.gif
+|magelevel=8
+|innatelevel=8
+|school=[[abjuration]]
+|components=VS
+|range=s
+|area=huge
+|save=harmless
+|spellresistance=no
+|line=Mind protection
+|line2=clarity
+|line5=lesser mind blank
+|line8=mind blank
+|duration=1 [[turn]] / level
+|counters=<del>[[mass charm]]</del>
+|desc=This spell renders all allies within the area of effect immune to [[mind-affecting]] [[spell]]s and [[effect]]s. All negative mind-affecting effects are also removed from the target creatures.}}
+
+== Notes ==
+
+* This spell only removes the negative effects that lesser mind blank removes ([[confused]], [[dazed]], [[dominated]], [[charmed]], [[sleep]], and [[stunned]] and the spells [[bane]] and [[feeblemind]]).  It does not remove [[paralysis]] or [[frightened|fear]].
+* Due to a .2da bug, ''mass charm'' is not an additional [[counterspell]] of this spell.
+
+==Custom content notes==
+* ''script:'' <code>NW_S0_MindBlk</code>
+==External links==
+*{{FRW}}

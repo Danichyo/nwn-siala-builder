@@ -1,0 +1,19 @@
+{{feat
+|type=class
+|prereq=[[arcane archer]] 2
+|desc=At second level, an arcane archer gains the ability to summon a magical arrow and fire it at an enemy. If it hits, it explodes as a [[fireball]] spell, doing [[fire damage]] to all hostile creatures in the area of effect.
+|use=selected
+|icon=ife_x1embuarr.gif
+|class1=arcane archer
+}}
+
+== Notes ==
+*Added in the [[expansion pack]]s.
+* This ability can be used three times per [[day]].
+* If the arrow hits the target (using a ranged [[touch attack]]), it deals [[magical damage]] equal to the archer's [[enchant arrow]] bonus and deals [[piercing damage]] equal to the sum of weapon base damage ([[d6]] for a [[shortbow]] or d8 for a [[longbow]]), [[strength]] [[modifier]], [[weapon specialization]] (if applicable), and [[epic weapon specialization]] (if applicable). The piercing damage (only) is tripled in the case of a [[critical hit]].
+** The piercing damage is intended to penetrate [[damage reduction]] according to the arcane archer's [[enchant arrow]] bonus, but a bug in the game (not the script) prevents this.
+*The fireball damage is 10[[d6]] plus 1d6 for every 2 arcane archer (AA) levels above 10; e.g., a 16th level arcane archer would inflict 13d6 damage. This allows a [[reflex]] saving throw for half damage, with a [[difficulty class|DC]] of 10 + AA level + [[dexterity]] [[modifier]]. The fireball occurs even if the arrow misses.
+* The fireball uses "selective hostile" targeting, meaning that it will never damage [[party]] members.
+
+== Custom content notes ==
+* ''impact script:'' <code>X1_S2_ImbueArrow</code>

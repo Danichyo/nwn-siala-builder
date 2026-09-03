@@ -1,0 +1,80 @@
+{
+  "_layer": "vanilla",
+  "_generated_by": "mix wiki.parse",
+  "_note": "The damage types an Epic energy resistance is chosen from. There is no category and no page per type: the set is a sentence, and it is taken from the two feat pages that give it, which must agree. No gate of either kind: both pages name the same five and neither excludes any, so writing `selectable: true` five times would state a rule nobody wrote.",
+  "_chosen_by": {
+    "feat": "epic_energy_resistance",
+    "gate": null,
+    "available": 5,
+    "total": 5,
+    "excluded": [],
+    "quote": "The choices for types of energy are [[acid damage|acid]], [[cold damage|cold]], [[electrical damage|electrical]], [[fire damage|fire]], and [[sonic damage|sonic]].",
+    "source": {
+      "wiki": "fandom",
+      "page": "Resist energy",
+      "revid": 63837,
+      "fetched": "2026-08-01"
+    },
+    "corroborated_by": {
+      "quote": "The character gains [[damage resistance|resistance]] 10 to the selected damage type ([[acid damage|acid]], [[cold damage|cold]], [[electrical damage|electrical]], [[fire damage|fire]], or [[sonic damage|sonic]]).",
+      "source": {
+        "wiki": "fandom",
+        "page": "Epic energy resistance",
+        "revid": 41047,
+        "fetched": "2026-08-01"
+      }
+    }
+  },
+  "types": [
+    {
+      "id": "acid",
+      "name": "Acid",
+      "source": {
+        "wiki": "fandom",
+        "page": "Resist energy",
+        "revid": 63837,
+        "fetched": "2026-08-01"
+      }
+    },
+    {
+      "id": "cold",
+      "name": "Cold",
+      "source": {
+        "wiki": "fandom",
+        "page": "Resist energy",
+        "revid": 63837,
+        "fetched": "2026-08-01"
+      }
+    },
+    {
+      "id": "electrical",
+      "name": "Electrical",
+      "source": {
+        "wiki": "fandom",
+        "page": "Resist energy",
+        "revid": 63837,
+        "fetched": "2026-08-01"
+      }
+    },
+    {
+      "id": "fire",
+      "name": "Fire",
+      "source": {
+        "wiki": "fandom",
+        "page": "Resist energy",
+        "revid": 63837,
+        "fetched": "2026-08-01"
+      }
+    },
+    {
+      "id": "sonic",
+      "name": "Sonic",
+      "source": {
+        "wiki": "fandom",
+        "page": "Resist energy",
+        "revid": 63837,
+        "fetched": "2026-08-01"
+      }
+    }
+  ]
+}

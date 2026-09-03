@@ -1,0 +1,26 @@
+{{spell
+|icon=is_x1bigby1.gif
+|magelevel=5
+|innatelevel=5
+|school=[[evocation]]
+|components=VS
+|range=l
+|area=single
+|save=none
+|spellresistance=yes
+|duration=1 [[round]] / level
+|line=Bigby's hands
+|line5=Bigby's interposing hand
+|line6=Bigby's forceful hand
+|line7=Bigby's grasping hand
+|line8=Bigby's clenched fist
+|line9=Bigby's crushing hand
+|desc=A giant hand appears over the target, making it difficult for
+him to attack. He receives a -10 penalty to all [[attack roll]]s for the duration of the spell.}}
+
+== Notes ==
+*Added in the [[expansion pack]]s.
+* Attack penalties (hence also this spell) can be removed with ''[[lesser restoration]]''.
+
+== Custom content notes ==
+*''Script:'' <code>x0_s0_bigby1</code>

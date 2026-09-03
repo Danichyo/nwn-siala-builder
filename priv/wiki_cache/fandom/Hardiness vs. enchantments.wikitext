@@ -1,0 +1,20 @@
+{{feat
+|type=race
+|prereq=[[elf]], [[half-elf]]
+|desc=This feat grants a +2 bonus on [[saving throw]]s against [[mind-affecting]] spells.
+|use=automatic
+|icon=ife_hardchant.gif
+}}
+
+==Builder notes==
+'''Item feat:''' No, but it can be added with custom content.
+
+==Custom content notes==
+'''Removable:''' yes
+
+'''Reusable:''' yes
+
+'''Script:''' hardcoded
+
+*This feat can be added to [[iprp_feats.2da]] to make it available as an item feat.
+*Does not stack with [[hardiness vs. illusions]], the presence of either gives the +2 benefit.

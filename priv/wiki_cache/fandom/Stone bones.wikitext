@@ -1,0 +1,20 @@
+{{spell
+|icon=is_x2stnbones.gif
+|clericlevel=2
+|magelevel=2
+|innatelevel=2
+|school=[[transmutation]]
+|immunity=magical armor
+|components=VS
+|range=t
+|area=one [[undead]] creature
+|save=harmless
+|spellresistance=no
+|duration=10 minutes / level
+|desc=You cause the target undead to gain a +3 [[natural armor bonus|natural]] [[armor class]] bonus, due to the thickening of its bones.}}
+
+==Notes==
+*Requires [[Hordes of the Underdark]].
+
+==Custom content notes==
+*''script:'' <code>X2_S0_StnBones.nss</code>

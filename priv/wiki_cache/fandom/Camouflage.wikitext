@@ -1,0 +1,29 @@
+{{spell
+|icon=is_x1camo.gif
+|druidlevel=1
+|rangerlevel=1
+|innatelevel=1
+|school=[[transmutation]]
+|components=VS
+|range=p
+|area=caster
+|save=none
+|spellresistance=no
+|duration=10 [[turn]]s / level
+|line=Camouflage
+|line1=camouflage
+|line4=mass camouflage
+|desc=The caster's coloring changes to match the surroundings, gaining a +10 competence bonus to any [[hide]] checks.}}
+
+== Notes ==
+* Added in the [[expansion pack]]s.
+
+=== Previous versions ===
+* Prior to version 1.66, the duration of this spell was 1 turn per level.
+
+== Custom content notes ==
+
+* ''Script:'' <code>x0_s0_camo</code>
+==External links==
+* {{FRW}}
+* {{NWN2W|Camouflage (spell)}}

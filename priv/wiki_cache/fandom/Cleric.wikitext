@@ -1,0 +1,343 @@
+[[Image:Ir cleric.gif|right|Cleric]]
+'''Description:''' Clerics act as intermediaries between the earthly and the divine (or infernal) worlds. A good cleric helps those in need, while an evil cleric seeks to spread his patron's vision of evil across the world. All clerics can heal wounds and bring people back from the brink of death, and powerful clerics can even raise the dead. Likewise, all clerics have authority over undead creatures, and they can turn away or even destroy these creatures. Clerics are trained in the use of simple weapons, and can use all forms of armor and shields without penalty, since armor does not interfere with the casting of [[divine]] spells. In addition to his normal complement of spells, every cleric chooses to focus on two of his deity's [[domain]]s. These domains grant the cleric special powers, and give him access to spells that he might otherwise never learn.
+
+'''Alignment restrictions:''' none
+
+'''[[Hit die]]:''' d8
+
+'''Proficiencies:''' armor ([[Armor Proficiency (Light)|light]], [[Armor Proficiency (Medium)|medium]], [[Armor Proficiency (Heavy)|heavy]]), [[Shield Proficiency|shields]], weapons ([[Weapon proficiency (simple)|simple]])
+
+'''[[Skill point]]s:''' 2 + [[int]] modifier ( (2 + int modifier) * 4 at 1st level)
+
+'''Skills:''' [[concentration]], [[craft armor]], [[craft trap]], [[craft weapon]], [[Heal (skill)|heal]], [[lore]], [[parry]], [[persuade]], [[spellcraft]]
+
+'''Unavailable feats:'''
+[[curse song]], [[extra music]], [[lingering song]], [[weapon specialization]]
+<br />These [[general feat]]s cannot be selected when taking a level of cleric.
+
+'''[[Saving throw|primary saving throw(s)]]:''' [[fortitude]], [[will]]
+
+'''[[Base attack bonus]]:''' +3/4 levels
+
+'''Spellcasting:''' [[Divine]] ([[spell failure]] from armor is ignored), [[wisdom]]-based (a base wisdom score of 10 + the spell's level is required to cast a spell, [[bonus spells]] are based on modified wisdom, and the wisdom modifier affects spell [[difficulty class|DCs]]), and requires preparation (except for "cure" and "inflict" spells, which can be [[spontaneous cast]]).
+
+
+[[Image:Cleric.jpg|Cleric]]
+
+==Special abilities & feats==
+
+*Level 1 , [[turn undead]]
+
+==Domains==
+
+Upon taking her first level of cleric, a character selects 2 [[domain]]s from the following list.
+:[[air domain|air]] - [[animal domain|animal]] - [[death domain|death]] - [[destruction domain|destruction]] - [[earth domain|earth]] - [[evil domain|evil]] - [[fire domain|fire]] - [[good domain|good]] - [[healing domain|healing]] - [[knowledge domain|knowledge]]
+:- [[magic domain|magic]] - [[plant domain|plant]] - [[protection domain|protection]] - [[strength domain|strength]] - [[sun domain|sun]] - [[travel domain|travel]] - [[trickery domain|trickery]] - [[war domain|war]] - [[water domain|water]]
+Each domain gives a cleric access to a special domain power and additional spells. Some domain powers enhance [[turn undead|turning]], some modify certain spells (even if cast from an item or from another class' spell book), some are spell-like abilities, and some are just the availability of more domain spells. A table of the specifics for each domain is in the [[domain]] article.
+
+==Spells==
+
+{| border=2 style="background:#efefef; color:#000000; border-collapse:collapse"
+|- style="background:#c0c0c0"
+!Cantrips
+!1st level spells
+!2nd level spells
+!3rd level spells
+!4th level spells
+|- align=left valign=top
+|
+*[[Cure minor wounds]]
+*[[Inflict minor wounds]]
+*[[Light]]
+*[[Resistance]]
+*[[Virtue]]
+|
+*[[Bane]]
+*[[Bless]]
+*[[Cure light wounds]]
+*[[Divine favor]]
+*[[Doom]]
+*[[Endure elements]]
+*[[Entropic shield]]
+*[[Inflict light wounds]]
+*[[Magic weapon]]
+*[[Protection from alignment]]
+*[[Remove fear]]
+*[[Sanctuary]]
+*[[Scare]]
+*[[Shield of faith]]
+*[[Summon creature I]]
+|
+*[[Aid]]
+*[[Bull's strength]]
+*[[Cure moderate wounds]]
+*[[Darkness (spell)|Darkness]]
+*[[Eagle's splendor]]
+*[[Endurance]]
+*[[Find Traps]]
+*[[Fox's cunning]]
+*[[Hold Person]]
+*[[Inflict moderate wounds]]
+*[[Lesser dispel]]
+*[[Lesser restoration]]
+*[[Negative energy ray]]
+*[[Owl's wisdom]]
+*[[Remove paralysis]]
+*[[Resist elements]]
+*[[Silence (spell)|Silence]]
+*[[Sound burst]]
+*[[Stone bones]]
+*[[Summon creature II]]
+*[[Ultravision]]
+|
+*[[Animate dead]]
+*[[Bestow curse]]
+*[[Blindness/deafness]]
+*[[Clarity]]
+*[[Contagion]]
+*[[Continual flame]]
+*[[Cure serious wounds]]
+*[[Darkfire]]
+*[[Dispel magic]]
+*[[Glyph of warding]]
+*[[Inflict serious wounds]]
+*[[Invisibility purge]]
+*[[Magic circle against alignment]]
+*[[Magic vestment]]
+*[[Negative energy protection]]
+*[[Prayer]]
+*[[Protection from elements]]
+*[[Remove blindness/deafness]]
+*[[Remove curse]]
+*[[Remove disease]]
+*[[Searing light]]
+*[[Summon creature III]]
+|
+*[[Cure critical wounds]]
+*[[Death ward]]
+*[[Dismissal]]
+*[[Divine power]]
+*[[Freedom of movement]]
+*[[Hammer of the gods]]
+*[[Inflict critical wounds]]
+*[[Greater magic weapon]]
+*[[Neutralize poison]]
+*[[Poison (spell)|Poison]]
+*[[Restoration]]
+*[[Summon creature IV]]
+|-style="background:#ffffff"
+!colspan=5|&nbsp;
+|- style="background:#c0c0c0"
+!5th level spells
+!6th level spells
+!7th level spells
+!8th level spells
+!9th level spells
+|-align=left valign=top
+|
+*[[Battletide]]
+*[[Circle of doom]]
+*[[Flame strike]]
+*[[Healing circle]]
+*[[Monstrous regeneration]]
+*[[Raise dead]]
+*[[Slay living]]
+*[[Spell resistance (spell)|Spell resistance]]
+*[[Summon creature V]]
+*[[True seeing (spell)|True seeing]]
+|
+*[[Banishment]]
+*[[Blade barrier]]
+*[[Control undead]]
+*[[Create undead]]
+*[[Greater dispelling]]
+*[[Greater sanctuary]]
+*[[Harm]]
+*[[Heal (spell)|Heal]]
+*[[Planar ally]]
+*[[Summon creature VI]]
+*[[Undeath to death]]
+|
+*[[Destruction]]
+*[[Greater restoration]]
+*[[Regenerate (spell)|Regenerate]]
+*[[Resurrection]]
+*[[Summon creature VII]]
+*[[Word of faith]]
+|
+*[[Aura versus alignment]]
+*[[Earthquake]]
+*[[Create greater undead]]
+*[[Fire storm]]
+*[[Mass heal]]
+*[[Summon creature VIII]]
+*[[Sunbeam]]
+|
+*[[Energy drain]]
+*[[Gate]]
+*[[Implosion]]
+*[[Storm of vengeance]]
+*[[Summon creature IX]]
+*[[Undeath's eternal foe]]
+|}
+
+==Level progression==
+
+{| border=2 style="background:#efefef; color:#000000; border-collapse:collapse"
+|- style="background:#c0c0c0"
+!rowspan=2|Lvl
+!rowspan=2|BAB
+!colspan=3|Saves
+!rowspan=2|Feats
+!rowspan=2|HP range
+!rowspan=22 style="background:#ffffff"|&nbsp;
+!colspan=10|Base spells per day
+|- style="background:#c0c0c0"
+!Fort
+!Ref
+!Will
+
+!0
+!1st
+!2nd
+!3rd
+!4th
+!5th
+!6th
+!7th
+!8th
+!9th
+|- align=center
+|1st || +0 || +2 || +0 || +2 ||[[Turn undead]] ||4-8 ||3 ||2 ||— ||— ||— ||— ||— ||— ||—|| —
+|- align=center
+|2nd || +1 || +3 || +0 || +3 || ||8-16 ||4 ||3 ||— ||— ||— ||— ||— ||— ||— ||—
+|- align=center
+|3rd || +2 || +3 || +1 || +3  || ||12-24 ||4 ||3 ||2 ||— ||— ||— ||— ||— ||— ||—
+|- align=center
+|4th || +3 || +4 || +1 || +4  || ||16-32 ||5 ||4 ||3 ||— ||— ||— ||— ||— ||— ||—
+|- align=center
+|5th || +3 || +4 || +1 || +4  || ||20-40 ||5 ||4 ||3 ||2 ||— ||— ||— ||— ||— ||—
+|- align=center
+|6th || +4 || +5 || +2 || +5  || ||24-48 ||5 ||4 ||4 ||3 ||— ||— ||— ||— ||— ||—
+|- align=center
+|7th || +5 || +5 || +2 || +5  || ||28-56 ||6 ||5 ||4 ||3 ||2 ||— ||— ||— ||— ||—
+|- align=center
+|8th || +6/+1 || +6 || +2 || +6  || ||32-64 ||6 ||5 ||4 ||4 ||3 ||— ||— ||— ||— ||—
+|- align=center
+|9th || +6/+1 || +6 || +3 || +6  || ||36-72 ||6 ||5||5 ||4 ||3 ||2 ||— ||— ||— ||—
+|- align=center
+|10th || +7/+2 || +7 || +3 || +7  || ||40-80 ||6 ||5 ||5 ||4 ||4 ||3 ||— ||— ||— ||—
+|- align=center
+|11th || +8/+3 || +7 || +3 || +7  || ||44-88 ||6 ||6 ||5 ||5 ||4 ||3 ||2 ||— ||— ||—
+|- align=center
+|12th || +9/+4 || +8 || +4 || +8  || ||48-96 ||6 ||6 ||5 ||5 ||4 ||4 ||3 ||— ||— ||—
+|- align=center
+|13th || +9/+4 || +8 || +4 || +8  || ||52-104 ||6 ||6 ||6 ||5 ||5 ||4 ||3 ||2 ||— ||—
+|- align=center
+|14th || +10/+5 || +9 || +4 || +9  || ||56-112 ||6 ||6 ||6 ||5 ||5 ||4 ||4 ||3 ||— ||—
+|- align=center
+|15th || +11/+6/+1 || +9 || +5 || +9  || ||60-120 ||6 ||6 ||6 ||6 ||5 ||5 ||4 ||3 ||2 ||—
+|- align=center
+|16th || +12/+7/+2 || +10 || +5 || +10  || ||64-128 ||6 ||6 ||6 ||6 ||5 ||5 ||4 ||4 ||3 ||—
+|- align=center
+|17th || +12/+7/+2 || +10 || +5 || +10  || ||68-136 ||6 ||6 ||6 ||6 ||6 ||5 ||5 ||4 ||3 ||2
+|- align=center
+|18th || +13/+8/+3 || +11 || +6 || +11  || ||72-144 ||6 ||6 ||6 ||6 ||6 ||5 ||5 ||4 ||4 ||3
+|- align=center
+|19th || +14/+9/+4 || +11 || +6 || +11  || ||76-152 ||6 ||6 ||6 ||6 ||6 ||6 ||5 ||5 ||4 ||4
+|- align=center
+|20th || +15/+10/+5 || +12 || +6 || +12  || ||80-160 ||6 ||6 ||6 ||6 ||6 ||6 ||5 ||5 ||5 ||5
+|}
+
+''Bonus [[spell slot]]s come from items and high wisdom.''
+
+As a rule of thumb, clerics can cast spell levels up to half their class level rounded up.
+
+[[Image:ife x2epcleric.gif|right|Epic cleric]]
+
+==Epic cleric==
+
+The epic cleric is among the most elite of her deity's servants, spreading the word and acting as emissary for the church. The epic cleric commands great power and respect.
+
+'''Hit die:''' d8
+
+'''Skill points:''' 2 + int modifier
+
+'''Bonus feats:''' The epic cleric gains a bonus feat every three levels after 20th. In other words, at levels 23, 26, 29, 32, 35, and 38.
+
+'''Epic cleric bonus feats:''' [[armor skin]], [[automatic quicken spell]], [[automatic silent spell]], [[automatic still spell]], [[epic spell focus]], [[epic spell penetration]], [[great wisdom]], [[greater spell focus]], [[improved combat casting]], [[planar turning]]
+
+'''Unavailable epic feats:'''
+[[bane of enemies]],
+[[construct shape]], [[dragon shape]],
+[[epic spell: epic mage armor]], [[epic spell: epic warding]],
+[[epic weapon specialization]], [[great smiting]],
+[[improved ki strike 4]], [[improved ki strike 5]], [[improved sneak attack]],
+[[improved spell resistance]], [[improved stunning fist]],
+[[lasting inspiration]], [[mighty rage]], [[outsider shape]],
+[[terrifying rage]], [[thundering rage]], [[undead shape]]
+<br />These general [[epic feat]]s cannot be selected when taking a level of cleric.
+
+===Epic cleric level progression===
+
+{| border=2 style="background:#efefef; color:#000000; border-collapse:collapse"
+|- style="background:#c0c0c0"
+!&nbsp; Lvl &nbsp;
+!Feats
+!HP range
+|- align=center
+|21st ||align=left| ||84-168
+|- align=center
+|22nd ||align=left| ||88-176
+|- align=center
+|23rd ||align=left|bonus feat ||92-184
+|- align=center
+|24th ||align=left| ||96-192
+|- align=center
+|25th ||align=left| ||100-200
+|- align=center
+|26th ||align=left|bonus feat ||104-208
+|- align=center
+|27th ||align=left| ||108-216
+|- align=center
+|28th ||align=left| ||112-224
+|- align=center
+|29th ||align=left|bonus feat ||116-232
+|- align=center
+|30th ||align=left| ||120-240
+|- align=center
+|31st ||align=left| ||124-248
+|- align=center
+|32nd ||align=left|bonus feat ||128-256
+|- align=center
+|33rd ||align=left| ||132-264
+|- align=center
+|34th ||align=left| ||136-272
+|- align=center
+|35th ||align=left|bonus feat ||140-280
+|- align=center
+|36th ||align=left| ||144-288
+|- align=center
+|37th ||align=left| ||148-296
+|- align=center
+|38th ||align=left|bonus feat &nbsp; ||152-304
+|- align=center
+|39th ||align=left| ||156-312
+|- align=center
+|40th ||align=left| ||160-320
+|}
+
+==Prestige class tips==
+
+
+*Militant clerics should consider becoming a [[champion of Torm]].
+*Evil clerics make powerful [[blackguard]]s.
+
+==Notes==
+
+
+*[[Outsider]]s have been improved. They get turn resistance equal to their [[spell resistance]] rating (only clerics of the good or evil domains may turn them without the new planar turning feat). If you have the planar turning feat, they are weakened and only have 1/2 their spell resistance as turn resistance.
+
+==External Links==
+* {{FRW}}
+[[category:classes]]

@@ -1,0 +1,25 @@
+{{feat
+|type=general
+|prereq=[[intelligence]] 13+, [[disarm]]
+|desc=A [[character]] with this [[feat]] has learned not to provoke an [[attack of opportunity]] when attempting a disarm. Success knocks the opponent's weapon from his hands. The penalty to make a disarm attempt is reduced to -4.
+|use=selected
+|icon=ife_disarm.gif
+|bonus1=champion of Torm
+|bonus2=fighter
+}}
+
+==Notes==
+
+* All the considerations for regular [[disarm]] attempts apply to ''improved disarm''; the only changes are those stated in the feat description (reduced penalty and no attack of opportunity).
+
+==Builder notes==
+'''Item feat:''' No, but it can be added with custom content.
+
+==Custom content notes==
+'''Removable:''' yes
+
+'''Reusable:''' yes
+
+'''Script:''' hardcoded
+
+*This feat can be added to [[iprp_feats.2da]] to make it available as an item feat, but it will only work if the player has the ''disarm'' feat, otherwise this feat will have no effect.

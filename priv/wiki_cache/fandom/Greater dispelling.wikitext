@@ -1,0 +1,36 @@
+{{spell
+|icon=is_grdispel.gif
+|bardlevel=5
+|clericlevel=6
+|druidlevel=6
+|magelevel=6
+|innatelevel=5
+|school=[[abjuration]]
+|components=VS
+|range=m
+|area=<del>colossal</del> {{AoE|large}}
+|areanote=&nbsp;or single
+|save=none
+|spellresistance=yes*
+|duration=instant
+|line=Dispels
+|line2=lesser dispel
+|line3=dispel magic
+|line6=greater dispelling
+|line9=Mordenkainen's disjunction
+|desc=''Greater dispelling'' attempts to strip all [[magical effect]]s from a single target. It can also target a group of creatures, attempting to remove the most powerful spell effect from each creature. To remove an effect, the caster makes a [[dispel]] check of 1[[d20]] + 1 per [[caster level]] (to a maximum of +15) against a [[difficulty class|DC]] of 11 + the spell effect's caster level.}}__NOTOC__
+
+== Notes ==
+* The area of effect is large; the spell description incorrectly lists it as colossal.
+* The in-game description of this spell erroneously reports that it is affected by spell resistance; ''greater dispelling'' does not check spell resistance.
+* If used as an area of effect, this spell will also attempt to dispel any area of effect spells centered in affected area.
+* Most of the spells of a [[class level|level]] 25 caster are immune to ''greater dispelling'', as the dispeller's best possible roll is 35 (20+15), while the DC is 36 (11+25). The exceptions involve vagaries in determining the effective caster level; see [[dispel]] for details.
+
+=== Previous versions ===
+
+* Prior to NWN EE 1.74, an effect's caster's level had been added to 12, not 11, to get the dispel DC, even though the in-game text has always claimed "11". This meant that the spells of a caster with a level as low as 24 were immune to this spell.
+
+== Custom content notes ==
+* ''script:'' <code>NW_S0_GrDispel</code>
+==External links==
+*{{FRW|Greater dispel magic}}

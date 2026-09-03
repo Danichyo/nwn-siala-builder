@@ -1,0 +1,24 @@
+{{Grimoire spell|imagename=Is aid.gif
+|spellname=Aid
+|casterlevel=[[Cleric]] 2, [[Good domain (grimoire)|Good]] 2, [[Luck domain (grimoire)|Luck]] 2, [[Ranger]] 3, [[Paladin]] 2
+|innatelevel=2
+|school=[[Enchantment]] ([[Spell subschool|Compulsion]])
+|descriptors=Mind-Affecting
+|components=V, S
+|range=Short
+|immunities=Mind-Affecting
+|savingthrow=Harmless
+|spellresistance=No
+|targettype=Single
+|duration=1 [[turn]] / level
+|description=The target gains a +1 bonus to [[attack]] rolls, a +1 bonus on saving throws versus [[fear (effect)|fear]], and 1d8 + 1 per [[caster level]] (maximum +10) [[temporary hit point]]s.
+}}
+
+== Notes ==
+*{{Grimoire spell change|pagename=[[Aid]]}}
+{{g_clr}}
+{{g_good}}
+{{g_luck}}
+{{g_rgr}}
+{{g_pal}}
+{{g_subcom}}

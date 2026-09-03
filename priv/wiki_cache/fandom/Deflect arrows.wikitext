@@ -1,0 +1,39 @@
+{{feat
+|type=general
+|prereq=[[dexterity]] 13+, [[improved unarmed strike]]
+|desc=The [[character]] can attempt to deflect one incoming missile attack per [[round]]. This is treated as a [[reflex]] [[save]] made against [[difficulty class|DC]] 20.
+|use=Automatic if not caught [[flat-foot]]ed. [[Monk]]s receive this feat for free at [[class level|level]] 2.
+|icon=ife_defarrow.gif
+|class1=monk
+|bonus1=champion of Torm
+|bonus2=fighter
+}}
+
+==Notes==
+
+* A "missile attack" is any normal attack performed with a [[ranged weapon]].
+* The round in "per round" is the deflector's combat round, not the attacker's combat round, and not a static six seconds between uses. (From the attacker's perspective, this may seem random as combat rounds for different creatures are not in sync.)
+* A character must have an empty [[main hand slot]] or an empty [[off-hand slot]] in order to ''deflect arrows''.
+** For this feat, the usual definition of a [[two-handed weapon]] is ignored. Instead, all ranged and [[weapon size|large]] weapons are treated as occupying both hands, while medium and smaller melee weapons are treated as one-handed (the size of the wielder does not matter).
+** More precisely, ranged and large weapons in the main hand are treated as occupying both hands, but this distinction is rarely relevant.
+* The character can attempt to deflect one ''successful'' incoming missile attack per round, so it is normally not wasted on misses. However, the game decides whether or not to invoke this feat before factoring in automatic hits/misses for natural [[attack roll]]s of 20 or 1.
+* Most of the time, this feat works only while the deflector's current action (in the [[action queue]]) is "attack", and for six seconds after the deflector has made an attack.
+** The exception to the above is that a creature's first attack within a gaming session can be deflected by anyone who is not flat-footed.
+* The deflected missile is reported as a "parried" attack.
+* [[Arcane archer]]s, [[assassin]]s, and [[blackguard]]s are unable to select this feat.
+
+==Builder notes==
+
+'''Item feat:''' No, but it can be added with custom content.
+
+==Custom content notes==
+
+'''Removable:''' yes
+
+'''Reusable:''' yes
+
+'''Script:''' hardcoded
+
+*This [[feat]] can be added to [[iprp_feats.2da]] without problems. This will grant the ability to add the feat to an item.
+*A custom class must have this feat in their feat list, or that class will not be able to select it as a general feat.
+[[category:Feats restricted by class]]

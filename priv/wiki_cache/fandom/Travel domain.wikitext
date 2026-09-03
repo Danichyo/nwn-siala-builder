@@ -1,0 +1,11 @@
+'''Description:''' Clerics who take the Travel domain gain access to an improved list of bonus spells.[[Image:Id travel.gif|right|Travel]]
+== Bonus spells ==
+* Level 1 [[Entangle (spell)|Entangle]]
+* Level 2 [[Web]]
+* Level 3 [[Freedom of movement]]
+* Level 4 [[Slow (spell)|Slow]]
+* Level 5 [[Haste (spell)|Haste]]
+
+== Notes ==
+* This domain is especially powerful in low-magic worlds, where it may be the only method for a (pure) cleric to get access to the powerful ''haste'' spell.
+[[category:cleric domains]]

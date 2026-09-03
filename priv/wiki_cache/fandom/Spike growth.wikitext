@@ -1,0 +1,28 @@
+{{spell
+|icon=is_x1spigro.gif
+|druidlevel=3
+|innatelevel=3
+|school=[[transmutation]]
+|components=VS
+|range=l
+|area=large
+|save=[[reflex]] partial
+|spellresistance=yes
+|duration=1 [[hour]] / level
+|desc=Covers the terrain with small spikes. Any creature will suffer 1[[d4]] points of [[piercing damage|damage]] each round that they remain within the afflicted area. These spikes can damage the victim's legs, so that even once they are free of the spike growth, their [[movement rate]] is slowed for a [[day]].}}
+
+== Notes ==
+*Added in the [[expansion pack]]s.
+* The negative effects are applied on entry in addition to once per round.
+* A successful saving throw negates (only) the movement rate penalty; there is no save against the damage.
+* The movement rate penalty is 30%, and it is not applied if the target's movement has already been hampered by (this or any other casting of) ''spike growth''.
+
+
+== Custom content notes ==
+* ''main script:'' <code>x0_s0_spikegro</code>
+* ''OnEnter script:'' <code>x0_s0_spikegroEN</code>
+* ''OnHearbeat script:'' <code>x0_s0_spikegroHB</code> 
+* ''OnExit script:'' <code>x0_s0_dirgeEX</code> (script is meant for removing [[dirge]] and thus is rarely meaningful in this spell). This is fixed in the enhanced edition, there is no OnExit script/effect.
+
+==External Links==
+* {{FRW}}

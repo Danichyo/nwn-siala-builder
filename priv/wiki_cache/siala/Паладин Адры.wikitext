@@ -1,0 +1,73 @@
+*[[Билды для новичков|Вернуться обратно]]
+==Описание==
+Паладины, если не отступят от служения Адре, могут использовать ее благословение - им доступны особые зелья, которые можно купить в храмах. Основа силы любого Паладина - уникальное зачарование оружия. Если магии  подвергается оружие ближнего боя, то при ударе с жертвы снимаются магические эффекты благословения, а если дальнего боя - оружие получает возможность убивать ракшасу - особую форму Мастера Превращений. Паладины прирожденные лошадники, потому им не требуется тратить время на обучение лошади. Также они владеют божественной магией, которая усиливает их боевые показатели. Высокий урон делает их желанными товарищами в ПвЕ.
+
+'''Преимущества''': рассеивание заклинаний при ударе, большой урон в ПвП, высокие спасброски против заклинаний, не нужно растить лошадь
+
+'''Недостатки''': денежные затраты на зелья, невысокие параметры защиты, высокая стоимость верховой езды, слабость против скрытных персонажей
+==Билд==
+'''Раса:''' Тёмный Эльф (Elf)
+
+'''Характер''' Законопослушно-добрый (Lawful good)
+
+'''Характеристики:'''
+*Сила - 14 (+10 на прокачке)
+*Ловкость - 10
+*Телосложение - 12
+*Интеллект - 14
+*Мудрость - 14
+*Харизма - 14
+
+Стартовые характеристики персонажа могут подходить также под билд ([[Паладин метатель]])
+
+'''Навыки:'''
+ 
+
+
+'''Повышение уровня:'''
+<div style="column-count:2">
+ 
+:1. <span style="color: blue">'''Паладин'''</span></p> - Blooded
+:2. <span style="color: blue">'''Паладин'''</span></p>
+:3. <span style="color: blue">'''Паладин'''</span></p> - Владение клинковым оружием
+:4. <span style="color: blue">'''Паладин'''</span></p>
+:5. <span style="color: blue">'''Паладин'''</span></p>
+:6. <span style="color: blue">'''Паладин'''</span></p> - Weapon focus (Skimitar)
+:7. <span style="color: blue">'''Паладин'''</span></p>
+:8. <span style="color: blue">'''Паладин'''</span></p>
+:9. <span style="color: blue">'''Паладин'''</span></p> - Power Attack
+:10. <span style="color: blue">'''Паладин'''</span></p>
+:11. <span style="color: blue">'''Паладин'''</span></p>
+:12. <span style="color: blue">'''Паладин'''</span></p> - Divine Shield
+:13. <span style="color: blue">'''Паладин'''</span></p>
+:14. <span style="color: blue">'''Паладин'''</span></p>
+:15. <span style="color: blue">'''Паладин'''</span></p> - Divine Might
+:16. <span style="color: blue">'''Паладин'''</span></p>
+:17. <span style="color: blue">'''Паладин'''</span></p>
+:18. <span style="color: blue">'''Паладин'''</span></p> - Improved Critical (Skimitar)
+:19. <span style="color: blue">'''Паладин'''</span></p>
+:20. <span style="color: blue">'''Паладин'''</span></p>
+:21. <span style="color: blue">'''Паладин'''</span></p> - Epic Skill Focus (Discipnine)
+:22. <span style="color: blue">'''Паладин'''</span></p>
+:23. <span style="color: blue">'''Паладин'''</span></p>    - Epic Weapon Focus (Scimitar)
+:24. <span style="color: blue">'''Паладин'''</span></p> - Blibd Fight
+:25. <span style="color: blue">'''Паладин'''</span></p>
+:26. <span style="color: blue">'''Паладин'''</span></p>    - Armor Skin
+:27. <span style="color: blue">'''Паладин'''</span></p> - Great Strenght I
+:28. <span style="color: blue">'''Паладин'''</span></p>
+:29. <span style="color: blue">'''Паладин'''</span></p>    - Epic Prowess
+:30. <span style="color: blue">'''Паладин'''</span></p> - Great Strenght II
+:31. <span style="color: blue">'''Паладин'''</span></p>
+:32. <span style="color: blue">'''Паладин'''</span></p>    - Epic Toughness II
+:33. <span style="color: blue">'''Паладин'''</span></p> - Al?
+:34. <span style="color: blue">'''Паладин'''</span></p>
+:35. <span style="color: blue">'''Паладин'''</span></p>    - Epic Toughness III
+:36. <span style="color: blue">'''Паладин'''</span></p> - Skill focus (Spot)
+:37. <span style="color: green;">'''Монах'''</span></p> // Заливаем: Tumble 40
+:38. <span style="color: blue">'''Паладин'''</span></p>
+:39. <span style="color: red;">'''Чемпион Торма'''</span></p> - Epic Skill Focus (Spot), Epic Toughness III // Заливаем: Spot
+:40. <span style="color: blue">'''Паладин'''</span></p> // Заливаем: Discipline, Heal
+</div>
+
+==Ссылки==
+*[[Билды для новичков]]

@@ -1,0 +1,43 @@
+{{spell
+|icon=is_negray.gif
+|clericlevel=2
+|magelevel=1
+|domain=evil
+|domainlevel=1
+|innatelevel=1
+|school=[[necromancy]]
+|components=VS
+|range=m
+|area=single
+|save=[[will]] 1/2
+|spellresistance=yes
+|immunity=negative
+|duration=instant
+|line=Negative energy
+|line1=negative energy ray
+|line3=negative energy burst
+|desc=A ray of negative energy slams into the target creature, doing 1[[d6]] points of [[negative energy damage|damage]]. After level 1, the spell does an additional 1d6 points of damage for every 2 caster levels, to a maximum of 5d6 at level 9. Negative energy spells have a reverse effect on [[undead]], healing instead of harming them.}}
+
+{| class="wikitable" style="text-align:center"
+!caster level!!damage
+|-
+|1||1d6
+|-
+|3||2d6
+|-
+|5||3d6
+|-
+|7||4d6
+|-
+|9+||5d6
+|}
+
+== Notes ==
+
+* The standard [[scroll]] for this spell cannot be used by clerics (but can be used by [[bard]]s, even though bards cannot cast this spell). This has the consequence that clerics have been blocked from using this spell in conjunction with [[scribe scroll]] (since otherwise they would obtain a scroll they cannot use).
+
+==Custom content notes==
+
+*''script:'' <code>NW_S0_NegRay</code>
+==External links==
+*{{FRW}}

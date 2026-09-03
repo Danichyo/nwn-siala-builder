@@ -1,0 +1,39 @@
+{{spell
+|icon=is_curlgtw.gif
+|bardlevel=1
+|clericlevel=1
+|druidlevel=1
+|paladinlevel=1
+|rangerlevel=1
+|innatelevel=1
+|school=[[conjuration]]
+|components=VS
+|range=t
+|area=single
+|save=<s>will 1/2</s>
+|spellresistance=yes
+|duration=instant
+|counters=<del>[[ghoul touch]]</del>
+|line=Cure wounds
+|line0=cure minor wounds
+|line1=cure light wounds
+|line2=cure moderate wounds
+|line3=cure serious wounds
+|line4=cure critical wounds
+|line5=healing circle
+|line6=heal (spell)
+|line8=mass heal
+|desc=The target creature is healed for 1[[d8]] points of damage, +1 point per caster level (to a maximum of +5). Healing spells have a reverse effect on [[undead]], harming instead of healing them. A successful [[touch attack]] must first be made when this spell is used against undead.}}
+
+== Notes ==
+
+* On the "normal" [[difficulty setting]] and easier, curative spells cast on a [[player character]] are automatically maximized, or double the constant part (+1 per caster level) if already maximized.
+* This spell inflicts [[positive energy damage]] on a targeted undead, unless the creature is [[PvP setting#Reactions|friendly]] to the caster.
+* Contrary to the in-game description, there is no saving throw.
+* Due to a .2da bug, ''ghoul touch'' is not an additional [[counterspell]] of this spell.
+
+== Custom content notes ==
+
+* ''script:'' <code>nw_s0_CurLgtW</code>
+==External Links==
+*{{FRW|Cure wounds}}

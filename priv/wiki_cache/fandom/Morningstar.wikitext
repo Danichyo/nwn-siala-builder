@@ -1,0 +1,77 @@
+{{Weapon|imagefile=Morningstar.jpg
+  |weaponname=Morningstar
+  |weapondescription=The '''morningstar''' is a derivative of the [[mace]] that includes a chain tether - similar to the [[flail]] - to add velocity when swinging its compact striking surface. Morningstars commonly have at least one formidable spike as an added feature of the head.
+  |weight=8
+  |cost=8
+  |damage=1d8
+  |critical=x2
+  |damagetype=[[bludgeoning-piercing damage|bludgeoning & piercing]]
+  |size=Medium
+  |proficiency=[[weapon proficiency (rogue)|rogue]]<br/>&nbsp;[[weapon proficiency (simple)|simple]]
+  |category=[[Category:Blunt weapons]] [[Category:Simple weapons]]
+}}
+
+==Notes==
+
+* This is the only weapon that causes bludgeoning-piercing damage.
+* Morningstars may not be wielded in the [[off-hand]].
+* The description and depiction of morningstars in ''Neverwinter Nights'' are inaccurate when compared to the historical weapon. The addition of "at least one formidable spike" is the defining characteristic of a morningstar. The addition of a chain tether would not be merely "similar to the flail" but would cause the weapon to '''be''' a flail. Furthermore, the use of a chain longer than the handle, while popular in art, was rare in practice (presumably due to the danger to the wielder).
+
+==Toolset==
+
+* Morningstars are listed under the [[morningstar blueprint category]] of the [[item palette]] in the [[Toolset]].
+
+== Bone Phoenix ==
+These are the hallmark weapons of the fallen Lord Craghand of Unther, and are named for the fate he suffered. Lacking magical talent himself, Craghand employed a cadre of necromancers in an effort to extend his meager legacy. These [[wizard]]s succeeded only in damning his court to an age of undeath. Now his mindless form stalks [[Faerûn]], his ageless skeletal body rising time and again even if destroyed.
+
+*[[Damage bonus]]: +[[dice|d6]] [[fire damage]]
+*[[Enhancement bonus]]: +1
+*[[Item level restriction|Required level]]: 8
+
+== Circling Star ==
+'''Circling Star''' morningstars are the creation of Lord Welther Huntsman, a retiring [[ranger]] who worried for the safety of his patrolled forests. Having amassed a small fortune in his career, he paid an artificer in [[Waterdeep]] to fashion these weapons and gifted them to carefully chosen successors, ensuring a continued reverence for the land.
+
+*Damage bonus: + d6 [[electrical damage]]
+*Enhancement bonus: +2
+*Skill bonus: +4 [[animal empathy]]
+*Required level: 12
+
+== Drone +1 ==
+This weapon bears the mark of the dwarf [[Marrok]], Master Blacksmith of [[Neverwinter]]'s Shining Knight Arms and Armor. He forged it early in 1373 DR, to aid the heroes who sought to free his quarantined city from the virulent grasp of the so-called [[Wailing Death]].
+
+*Enhancement bonus: +1
+*[[On-hit]]: [[slow]] ([[difficulty class|DC]]=14) (50% / 2 [[round]]s)
+*Required level: 7
+
+== Drone +4 ==
+This weapon bears the mark of the dwarf [[Barun Silverblade|Barun]], a Master Blacksmith who worked from a makeshift forge in the [[Uthgardt]] village of Beorunna's Well. He forged it late in 1373 DR, to aid the war effort against [[Aribeth|Lady Aribeth the Betrayer]], who was then marching against the northern city of Neverwinter and the Lords' Alliance.
+
+*Damage bonus: +d6 [[sonic damage]]
+*Enhancement bonus: +4
+*On-hit: slow (DC=14) (50% / 2 rounds)
+*Required level: 18
+
+== Drone +8 ==
+The deaf master, Vondin Clatch, was a ruthless warrior who learned to use his infirmity to his advantage. The glowing, vibrating morningstar he used would create a magical warping of its immediate area to create a sonic burst that could stun enemies it hit. The piercing sound could also cause damage to those around him; a problem that was not fixed until the master's apprentice inherited the weapon. Being unable to use the weapon, he paid a wizard to focus the sonics to only damage those who were hit.
+
+*Damage bonus: +d6 sonic damage
+*Enhancement bonus: +8
+*On-hit: slow (DC=14) (50% / 2 rounds)
+*Required level: 23
+
+'''Note:''' Requires [[Hordes of the Underdark]].
+
+== One of Many ==
+These weapons were first used by Whyte's Legion, a fighting company so disciplined that when they marched, their synchronized front line appeared to be a single entity. When these tight formations met an enemy line, they would seem to fall back, deliberately exposing themselves to attack and naturally drawing the enemy inward. The illusion of enemy progress was shattered when a score of morningstars struck at once, beating them down as the legion closed around them.
+
+*Damage bonus: +1 electrical damage
+*Enhancement bonus: +1
+*Skill bonus: +3 [[discipline]]
+*Required level: 6
+
+== Sleepwalker Kin ==
+These weapons were supposed to be a great breakthrough for the [[orc]]s of [[Amn]]. Clan leaders liked the idea of rendering enemies helpless, but after the efforts of many shamans and several imprisoned human wizards, the project was abandoned. It seemed that in the hands of the orc elite, a hit strong enough to activate the ability often killed the target anyway, and the extra cost was deemed redundant.
+
+*Enhancement bonus: +2
+*On-hit: [[sleep]] (DC=14) (50% / 2 rounds)
+*Required level: 13

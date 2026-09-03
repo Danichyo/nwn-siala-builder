@@ -1,0 +1,23 @@
+{{spell
+|icon=is_firestrm.gif
+|clericlevel=8
+|druidlevel=7
+|innatelevel=7
+|school=[[evocation]]
+|components=VS
+|range=p
+|area=colossal
+|save=[[reflex]] 1/2
+|spellresistance=yes
+|immunity=fire, ''divine''
+|duration=instant
+|desc=All enemies within this spell's area of effect are inundated with a rain of fire and take 1[[d6]] points of damage per caster level <strike>(to a maximum of 20d6)</strike>. Half of the damage is [[divine damage|divine]] and the other half is [[fire damage|fire-based]].}}
+
+== Notes ==
+*There are two saving throws&mdash;one for each damage type. (The in-game description is missing the "divine" descriptor for the first save.)
+*Due to a bug in the script, the damage does not have a cap. (A fix for this is available on the Vault&nbsp;<sup>[http://nwvault.ign.com/View.php?view=Scripts.Detail&id=2701]</sup>.)
+* Half points of damage are lost (not applied). Thus, for example, if rolling 20d6 results in 71, then there will be 35 points of fire damage and 35 points of divine, for a total of 70 damage.
+* If the fire damage is reduced to zero (via [[evasion]]), then no divine damage will be applied either (''probably a bug'').
+
+== Custom content notes ==
+* ''script:'' <code>NW_S0_FireStrm</code>

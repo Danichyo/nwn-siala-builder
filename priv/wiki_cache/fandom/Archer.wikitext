@@ -1,0 +1,43 @@
+'''Alignment restrictions:''' none
+
+'''[[Hit die]]:''' d8
+
+'''Proficiencies:''' armor ([[armor proficiency (light)|light]]. [[armor proficiency (medium)|medium]]), weapons ([[weapon proficiency (martial)|martial]], [[weapon proficiency (simple)|simple]])
+
+'''[[Skill point]]s:''' 3 + [[intelligence]] modifier
+
+'''Skills:''' [[concentration]], [[craft armor]], [[craft weapon]], [[discipline]], [[heal (skill)|heal]], [[hide]], [[intimidate]], [[jump]], [[lore]], [[spot]]
+
+'''Primary saving throw(s):''' fortitude
+
+==Special abilities & feats==
+*Level 1 bow +2, [[point blank shot]]
+*Level 2 [[extra shot]]
+*Level 3 [[archery]] feat
+*Level 4 [[pinpoint accuracy]]
+*Level 5 bow +3
+*Level 7 archery feat
+*Level 8 [[weapon specialization|weapon specialization (ranged weapon)]]
+*Level 10 bow +4
+*Level 11 archery feat
+*Level 15 bow +5, archery feat
+*Level 18 [[ranged disarm]]
+*Level 19 archery feat
+*Level 20 bow +6
+
+*'''Note:''' "Bow +x" indicates that at the specified level, the archer gains x to [[attack roll]]s when wielding any kind of bow.
+
+==Epic archer==
+
+'''Skill points:''' 3 + intelligence modifier
+
+'''Bonus feats:''' n
+
+'''Special:''' Every 5 levels the bow bonus increases by +1.
+
+'''Epic bonus feats:''' [[armor skin]], [[blinding speed]], [[devastating critical|devastating critical (ranged weapon)]], [[epic toughness]], [[epic weapon focus|epic weapon focus (ranged weapon)]], [[epic prowess]], [[great dexterity]], [[overwhelming critical|overwhelming critical (ranged weapon)]], [[superior initiative]]
+
+==Notes==
+*Added in the [[PRC Expansion Pack]].
+
+[[Category:PRC classes]]

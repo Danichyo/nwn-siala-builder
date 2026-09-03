@@ -1,0 +1,27 @@
+{{spell
+|icon=is_holdanim.gif
+|druidlevel=2
+|rangerlevel=2
+|innatelevel=2
+|school=[[enchantment]]
+|components=VS
+|range=m
+|area=single
+|save=[[will]] (-4) negates
+|spellresistance=yes
+|immunity=<s>mind-affecting</s>
+|duration=1 [[round]] / level
+|counters=<del>[[freedom of movement]]</del>
+|line=Hold
+|line2=hold animal
+|line3=hold person
+|line4=hold monster
+|desc=The target [[animal]] is [[paralyze]]d for the duration of the spell.}}
+
+== Notes ==
+* This spell has a +4 bonus to the saving throw [[difficulty class|DC]].
+* Despite the mind-affecting descriptor listed in-game, the saving throw is not made "versus" anything (but the ''effect'' is still [[mind-affecting]]).
+*Due to a .2da bug, ''hold animal'' is not an additional [[counterspell]] of ''freedom of movement''.
+
+== Custom content notes ==
+* ''script:'' <code>nw_S0_HoldAnim</code>

@@ -1,0 +1,27 @@
+{{spell
+|icon=is_knock.gif
+|magelevel=2
+|domain=knowledge
+|domainlevel=2
+|innatelevel=2
+|school=[[transmutation]]
+|components=V
+|range=m
+|area=colossal (''50'' [[meter]] radius) <!-- Not the standard colossal -->
+|save=none
+|spellresistance=no
+|duration=instant
+|desc=This spell will unlock [[door]]s and [[container]]s sealed by conventional locks in a 150ft radius around the caster. Exceptionally complex locking mechanisms or magically sealed doors and containers are beyond the abilities of this spell.}}
+
+== Notes ==
+* This spell will not unlock objects that are flagged [[plot]], nor objects that have been flagged as immune to this spell by the [[module]] creator. (These are the "complex" locks and "magical" seals.)
+
+== Builder notes ==
+
+* Flagging an object as immune to this spell is accomplished by setting a [[local variable]] on the object. The local variable is an integer with the name "X2_FLAG_DOOR_RESIST_KNOCK" (or the symbolic [[constant]] <code>DOOR_FLAG_RESIST_KNOCK</code>, if used in a script that includes <code>x2_inc_switches</code>). If the value of this variable is not zero, the object will be unaffected by this spell. If the value is specifically 1, the caster of this spell will additionally be given the feedback ''"* Failure! - Door unaffected by magic *"'' as floating text.
+
+==Custom content notes==
+* ''script:'' <code>NW_S0_Knock</code>
+
+==External Links==
+* {{FRW}}

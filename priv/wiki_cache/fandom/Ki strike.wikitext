@@ -1,0 +1,24 @@
+{{feat
+|type=class
+|prereq=[[monk]] (10, 13, 16)
+|desc=The monk's unarmed attack counts as a magic weapon against [[creature]]s with [[damage reduction]] (+1 at 10th level, +2 at 13th, +3 at 16th).
+|use=automatic
+|icon=ife_kistrike.gif
+|class=monk
+}}
+
+==Notes==
+*This feat does not provide an [[attack bonus]]; it merely allows an unarmed character to penetrate the indicated levels of damage reduction.
+*Magic [[gloves]] with an attack bonus also allow an unarmed character to penetrate damage reduction, often making this feat superfluous.
+
+==Builder notes==
+'''Item feat:''' No, but it can be added with custom content.
+
+==Custom content notes==
+'''Removable:''' yes
+
+'''Reusable:''' No, it seem as though this is hardcoded to the monk class only.
+
+'''Script:''' hardcoded
+
+*This feat can be added to [[iprp_feats.2da]] to make it available as an item feat. However, it will only work for monks; all other classes will get the feat listed, but not the effects.

@@ -1,0 +1,25 @@
+{{feat
+|type=general
+|prereq=[[strength]] 13+, [[power attack]]
+|desc=This feat allows the character to trade a -10 penalty on his [[attack roll]] to gain a +10 bonus on his damage roll. It is very useful when fighting tough, easy-to-hit opponents.
+|use=combat mode
+|icon=ife_imppowhit.gif
+|bonus1=champion of Torm
+|bonus2=fighter
+}}
+
+==Notes==
+*This feat does not replace ''power attack'', allowing a character with both feats to choose the lesser attack penalty of ''power attack'' instead of the larger damage bonus of ''improved power attack''.
+*This combat mode cannot be used while wielding a [[ranged weapon]].
+
+==Builder notes==
+'''Item feat:''' No, but it can be added with custom content.
+
+==Custom content notes==
+'''Removable:''' yes
+
+'''Reusable:''' yes
+
+'''Script:''' hardcoded
+
+*This feat can be added to [[iprp_feats.2da]] to make it available as an item feat. This feat will then work fine even if the player does not have ''power attack''.

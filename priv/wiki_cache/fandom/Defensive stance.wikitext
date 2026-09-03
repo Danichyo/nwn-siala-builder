@@ -1,0 +1,25 @@
+{{feat
+|type=class
+|prereq=[[dwarven defender]] 1
+|desc=When he needs to, the defender can become a stalwart bastion of defense. In this defensive stance, a defender gains phenomenal strength and durability, but he cannot move from the spot he is defending. He gains the following benefits:
+* +2 [[strength]]
+* +4 [[constitution]]
+* +2 resistance bonus on all [[saving throw|save]]s
+* +4 [[dodge bonus]] on [[armor class|AC]]
+At first level, this ability can be used once per day. Every 2 [[class level|level]]s beyond 1, the dwarven defender gains an additional use per day.
+|use=combat mode
+|icon=ife_x2defstance.gif
+|class1=dwarven defender
+}}
+
+== Notes ==
+
+*Requires [[Hordes of the Underdark]].
+*This feat does not work with ranged weapons.
+*The bonuses granted by this feat are subject to the [[ability cap]] of +12, the dodge AC cap of +20, and the saving throw cap of +20.
+*''Defense stance'' mode automatically drops if the character's current target is removed and all other opponents are out of reach.
+*A character in a ''defensive stance'' may manually target an out-of-reach opponent, but will not move to engage such an opponent.
+*An opponent can back out of reach of a character in a ''defensive stance'' or become [[invisible]]. Since the opponent is not removed, this will not cancel the stance. On the other hand, the character will not move to re-engage this opponent.
+*If a party member comes between a character and his target, the character might drop out of ''defensive stance'' mode, just as when there are no more targets.
+*The ''defensive stance'' mode will often break (keeping the immobility but losing the bonuses) if the character attempts any action other than attacking. ''(This is likely a bug.)''
+* If switched from another combat mode (like [[expertise]]), ''defensive stance'' mode will not add any bonuses but will still consume a daily use. ''(This is likely a bug.)''

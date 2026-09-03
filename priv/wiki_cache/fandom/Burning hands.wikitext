@@ -1,0 +1,22 @@
+{{spell
+|icon=is_burnhands.gif
+|magelevel=1
+|innatelevel=1
+|school=[[transmutation]]
+|components=VS
+|range=s
+|area=spellcone
+|save=[[reflex]] 1/2
+|spellresistance=yes
+|immunity=fire
+|duration=instant
+|line=Damage cones
+|line1=burning hands
+|line3=mestil's acid breath
+|line5=cone of cold
+|desc=A cone of fire shoots forth from the caster's hands, burning
+all those within its [[area of effect]] for 1[[d4]] [[fire damage]] per caster level, up to a maximum of 5d4.}}
+
+==Custom content notes==
+*''script:'' <code>NW_S0_BurnHand.nss</code>
+[[Category:Shifted abilities]]

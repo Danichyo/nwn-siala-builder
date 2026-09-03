@@ -1,0 +1,22 @@
+An '''aquatic elf''' is a [[subrace]] of [[elf]].
+
+The aquatic elves, also known as sea elves, are civilized and good hearted people who inhabit the seas. Most aquatic elves hail from underwater cities but small settlements of this [[race]] can be found in the seas along the coast. Aquatic elves hair is usually stringy and thick, cut short for warriors but otherwise worn long. Sea elves have radiant skin of deep green or blue with irregular thin brown or white stripes and patches. Eye colors for aquatic elves come in blue, green, green and gold shades. 
+
+'''Aquatic elf [[ability]] adjustments''': +2 [[Dex]], -2 [[Int]]
+
+[[Favored class]] ([[Fighter]]): A [[class#Multiclassing|multiclass]] aquatic elf's fighter class does not count when determining whether he suffers an [[multiclass penalty|XP penalty for multiclassing]].
+
+==Special abilities==
+*[[Immunity to Sleep|Sleeplessness]]: [[Immunity|Immune]] to [[spell]]s and effects of the [[sleep]] subtype.
+*[[Hardiness vs. Enchantments]]: +2 racial bonus on [[saving throw]]s against [[mind-affecting]] spells.
+*''Water Breathing:''  Can breath water and is therefore [[immune]] to the effects of [[drown]] and [[mass drown]]. 
+*[[Skill Affinity (Listen)]]: +2 racial bonus to [[listen]] checks.
+*[[Skill Affinity (Search)]]: +2 racial bonus to [[search]] checks.
+*[[Skill Affinity (Spot)]]: +2 racial bonus to [[spot]] checks.
+*[[Keen Sense]]s: Elves make active search checks automatically and with no [[movement penalty|movement penalties]].
+*[[Low-light Vision]]: Allows them to see better than normal in the dark.
+*''Gills:'' Aquatic elves can survive out of the water for 1 hour per point of [[constitution]] (after that, refer to the suffocation rules).
+
+==Notes==
+*Aquatic elves are not implemented in Neverwinter Nights by default, but may be included in some [[hak pak]]s or [[gameworld]]s.
+[[category:custom content races]]

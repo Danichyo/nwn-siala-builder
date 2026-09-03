@@ -1,0 +1,22 @@
+{{Grimoire spell|imagename=Is bescurse.gif
+|spellname=Bestow Curse
+|casterlevel=[[Cleric]] 3, [[Sorcerer]] / [[Wizard (class)|Wizard]] 4
+|innatelevel=3
+|school=[[Necromancy]]
+|descriptors=None
+|components=V, S
+|range=[[touch attack|Touch]]
+|immunities=None
+|savingthrow=[[Will]] negates
+|spellresistance=Yes
+|targettype=Single
+|duration=Permanent
+|description=''Bestow curse'' lowers all of the target creature's [[ability score]]s by 2, and applies a -3 penalty to [[attack]] rolls, saving throws, and [[skill check]]s.<br>
+<br>
+''Bestow curse'' is countered by ''remove curse''.
+}}
+
+== Notes ==
+*{{Grimoire spell change|pagename=[[Bestow curse]]}}
+{{g_clr}}
+{{g_sorwiz}}

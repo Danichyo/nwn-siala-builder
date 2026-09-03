@@ -1,0 +1,18 @@
+{{Weapon|imagefile=Shortsword.jpg
+  |weaponname=Shortsword
+  |weapondescription=One of the first types of [[sword]] to come into existence, the short sword is a double-edged [[weapon]] about two feet long. It is an economical weapon, and a favorite of archers and [[rogue]]s.
+  |weight=3
+  |cost=10
+  |damage=1d6
+  |critical=19-20/x2
+  |damagetype=[[piercing damage|Piercing]]
+  |size=Small
+  |proficiency=[[Weapon proficiency (rogue)|Rogue]]<br/>&nbsp;[[Weapon proficiency (martial)|Martial]]
+  |category=[[Category:Bladed weapons]] [[Category:Martial weapons]]
+}}
+
+==Toolset==
+* Shortswords are listed under the [[bladed blueprint category]] of the [[item palette]] in the [[toolset]].
+
+==Notes==
+* Shortswords benefit from the [[weapon finesse]].

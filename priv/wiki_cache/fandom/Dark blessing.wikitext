@@ -1,0 +1,13 @@
+{{feat
+|type=class
+|prereq=[[blackguard]] 2
+|desc=Blackguards add their [[charisma]] [[ability modifier|bonus]] to all [[saving throw]]s.
+|use=automatic
+|icon=ife_x1spdrkbls.gif
+|class1=blackguard
+}}
+
+==Notes==
+*Added in the [[expansion pack]]s.
+*Unlike [[divine grace]], if the character has a negative charisma modifier, his saving throws are reduced instead of increased.
+*This feat stacks with ''divine grace''.

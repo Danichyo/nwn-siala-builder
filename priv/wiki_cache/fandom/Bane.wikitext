@@ -1,0 +1,26 @@
+{{otheruses|the spell|the Forgotten Realms deity|Bane (deity)}}
+
+{{spell
+|icon=Is_x1bane.gif
+|clericlevel=1
+|innatelevel=1
+|school=[[enchantment]]
+|components=VS
+|range=l
+|area=colossal
+|save=[[will]] negates
+|spellresistance=yes
+|immunity=mind-affecting
+|duration=1 [[turn]] / level
+|counters=[[bless]]
+|desc=Bane fills the caster's enemies with fear and doubt. They suffer a -1 penalty on their [[attack roll]]s and a -1 penalty on [[saving throw]]s against [[fear]].}}
+
+==Notes==
+*Added in the [[expansion pack]]s.
+*This spell is not treated as hostile and thus will not remove effects of invisibility or sanctuary.
+
+==Custom content notes==
+*''script:'' <code>X0_S0_Bane.nss</code>
+
+==External Links==
+* {{FRW|Bane (spell)}}

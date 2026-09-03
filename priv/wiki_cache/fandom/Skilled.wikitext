@@ -1,0 +1,12 @@
+{{feat
+|type=race
+|prereq=[[human]]
+|desc=The [[character]] receives 4 extra [[skill point]]s at first level, plus 1 additional skill point at each following level.
+|use=automatic
+}}
+
+== Notes ==
+[[Image:Humans.jpg|right|Human race selection screenshot]]
+*This is not really a [[feat]] in the game. This article exists because "skilled" is listed as a human attribute in the race selection screen, but there is no corresponding feat defined in <code>[[feat.2da]]</code>, nor is it listed on the [[character sheet]].
+* Similar to [[quick to master]], a human's extra skill points are [[hardcoded]] to line 6 in <code>[[racialtypes.2da]]</code>.
+*Warning: Human [[player character|PC]]s who level-up should do so in their original human forms. If the level-up is done in an alternate shape (e.g. while [[wild shape]]d), the extra skill point from this pseudo-feat is not granted.

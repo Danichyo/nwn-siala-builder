@@ -1,0 +1,19 @@
+{{feat
+|type=class
+|prereq=[[purple dragon knight]] 2
+|desc=Once per day, the purple dragon knight can inspire his troops in combat. All affected creatures gain a +1 bonus to [[attack roll|attack]] and damage, and a +2 bonus against [[mind-affecting]] spells. These bonuses last for 10 [[round]]s.
+|use=selected
+|icon=ife_x3_pdkinsp.gif
+|class=purple dragon knight
+}}
+
+==Notes==
+
+*Added in patch 1.69.
+* This feat can be used twice per day day starting at class level 4.
+*This feat cannot be used when [[silence]]d, nor does it affect silenced or [[deaf]]ened creatures.
+*The creatures affected are all non-hostile creatures in a {{AoE|colossal}} area.
+
+
+==Custom content notes==
+*''script:'' <code>X3_S2_pdk_Inspir.nss</code>

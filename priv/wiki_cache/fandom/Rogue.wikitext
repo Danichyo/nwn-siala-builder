@@ -1,0 +1,179 @@
+[[Image:Ir rogue.gif|right|Rogue]]
+'''Description''': Rogues have little in common with each other. While some - maybe even the majority - are stealthy thieves, many serve as scouts, spies, investigators, diplomats, and simple thugs. Rogues are versatile, adaptable, and skilled at getting what others don't want them to get. While not equal to a fighter in combat, a rogue knows how to hit where it hurts, and a [[sneak attack]] can dish out a lot of damage. Rogues also seem to have a sixth sense when it comes to avoiding danger. Experienced rogues develop nearly magical powers and skills as they master the arts of stealth, evasion, and sneak attacks. In addition, while not capable of casting spells on their own, a rogue can sometimes "fake it" well enough to cast spells from [[scroll]]s, activate wands, and use just about any other magic item.
+
+'''Alignment restrictions''': None
+
+'''[[Hit die]]''': d6
+
+'''Proficiencies''': armor ([[armor proficiency (light)|light]]), weapons ([[weapon proficiency (rogue)|rogue]])
+
+'''[[Skill point]]s''': 8 + [[int]] modifier ( (8 + int modifier) * 4 at 1st level)
+
+'''Skills''': [[appraise]], [[bluff]], [[craft armor]], [[craft trap]], [[craft weapon]], [[disable trap]], [[heal (skill)|heal]], [[hide]], [[intimidate]], [[listen]], [[lore]], [[move silently]], [[open lock]], [[parry]], [[persuade]], [[pick pocket]], [[search]], [[set trap]], [[spot]], [[tumble]], [[use magic device]]
+
+'''Unavailable feats:'''
+[[brew potion]], [[craft wand]], [[curse song]], [[divine might]], [[divine shield]], [[extra music]], [[extra turning]], [[lingering song]], [[quicken spell]], [[scribe scroll]], [[spell focus]], [[weapon specialization]]
+<br />These [[general feat]]s cannot be selected when taking a level of rogue.
+
+'''[[Saving throw|Primary saving throw(s)]]''': [[reflex]]
+
+'''[[Base attack bonus]]''': +3/4 levels
+
+[[Image:Rogue.jpg|Rogue]]
+
+== Level progression ==
+
+{| border=2 style="background:#efefef; color:#000000; border-collapse:collapse"
+|- style="background:#c0c0c0"
+!rowspan=2|Lvl
+!rowspan=2|BAB
+!colspan=3|Saves
+!rowspan=2|Feats
+!rowspan=2|HP range
+!rowspan=22 style="background:#ffffff"|&nbsp;
+!rowspan=2|Sneak<br/ />attack
+
+|- style="background:#c0c0c0"
+!Fort
+!Ref
+!Will
+|- align=center
+|1st ||+0 ||+0 ||+2 ||+0 ||align=left| [[sneak attack]]||3-6 ||1d6
+|- align=center
+|2nd ||+1 ||+0 ||+3 ||+0 ||align=left|[[evasion]] ||6-12 ||1d6
+|- align=center
+|3rd ||+2 ||+1 ||+3 ||+1 ||align=left|[[uncanny dodge]] I ||9-18 ||2d6
+|- align=center
+|4th ||+3 ||+1 ||+4 ||+1 ||align=left| ||12-24 ||2d6
+|- align=center
+|5th ||+3 ||+1 ||+4 ||+1 ||align=left| ||15-30 ||3d6
+|- align=center
+|6th ||+4 ||+2 ||+5 ||+2 ||align=left|uncanny dodge II ||18-36 ||3d6
+|- align=center
+|7th ||+5 ||+2 ||+5 ||+2 ||align=left| ||21-42 ||4d6
+|- align=center
+|8th ||+6/+1 ||+2 ||+6 ||+2 ||align=left| ||24-48 ||4d6
+|- align=center
+|9th ||+6/+1 ||+3 ||+6 ||+3 ||align=left| ||27-54 ||5d6
+|- align=center
+|10th ||+7/+2 ||+3 ||+7 ||+3 ||align=left|special bonus feat ||30-60 ||5d6
+|- align=center
+|11th ||+8/+3 ||+3 ||+7 ||+3 ||align=left|uncanny dodge III ||33-66 ||6d6
+|- align=center
+|12th ||+9/+4 ||+4 ||+8 ||+4 ||align=left| ||36-72 ||6d6
+|- align=center
+|13th ||+9/+4 ||+4 ||+8 ||+4 ||align=left|special bonus feat ||39-78 ||7d6
+|- align=center
+|14th ||+10/+5 ||+4 ||+9 ||+4 ||align=left|uncanny dodge IV ||42-84 ||7d6
+|- align=center
+|15th ||+11/+6/+1 ||+5 ||+9 ||+5 ||align=left| ||45-90 ||8d6
+|- align=center
+|16th ||+12/+7/+2 ||+5 ||+10 ||+5 ||align=left|special bonus feat ||48-96 ||8d6
+|- align=center
+|17th ||+12/+7/+2 ||+5 ||+10 ||+5 ||align=left|uncanny dodge V ||51-102 ||9d6
+|- align=center
+|18th ||+13/+8/+3 ||+6 ||+11 ||+6 ||align=left| ||54-108 ||9d6
+|- align=center
+|19th ||+14/+9/+4 ||+6 ||+11 ||+6 ||align=left|special bonus feat &nbsp; ||57-114 ||10d6
+|- align=center
+|20th ||+15/+10/+5 &nbsp; ||+6 ||+12 &nbsp; ||+6 ||align=left|uncanny dodge VI+ ||60-120 ||10d6
+|}
+
+=== Special bonus feats ===
+
+On achieving 10th level and every three levels thereafter (13th, 16th and 19th), the rogue can choose one of these feats. This is replaced by epic bonus feat progression once the character becomes epic rogue.
+*[[crippling strike]]
+*[[defensive roll]]
+*[[improved evasion]]
+*[[opportunist]]
+*[[skill mastery]]
+*[[slippery mind]]
+
+[[Image:ife x2eprogue.gif|right|Epic rogue]]
+
+== Epic rogue ==
+
+The ultimate thief with legendary skills and many a tale of derring-do, the epic rogue is the master of cunning, deceit, and stealth.
+
+'''Hit die:''' d6
+
+'''Skill points:''' 8 + int modifier
+
+'''Bonus feats:''' the epic rogue gains a bonus feat every four levels after 20th. In other words, at levels 24, 28, 32, 36, and 40.
+
+'''Epic rogue bonus feats:''' [[blinding speed]], [[crippling strike]], [[defensive roll]], [[epic dodge]], [[epic reputation]], [[epic skill focus]] (all but [[animal empathy]], [[perform]], [[use magic device]]), [[improved evasion]], [[improved sneak attack]], [[opportunist]], [[self concealment]], [[skill mastery]], [[slippery mind]], [[superior initiative]]
+
+'''Unavailable epic feats:'''
+[[automatic quicken spell]], [[automatic silent spell]], [[automatic still spell]], [[bane of enemies]],
+[[construct shape]], [[dragon shape]], [[epic spell penetration]],
+[[epic spell: dragon knight]], [[epic spell: epic mage armor]], [[epic spell: epic warding]], [[epic spell: greater ruin]], [[epic spell: hellball]], [[epic spell: mummy dust]],
+[[epic weapon specialization]], [[great smiting]],
+[[improved ki strike 4]], [[improved ki strike 5]],
+[[improved spell resistance]], [[improved stunning fist]],
+[[lasting inspiration]], [[mighty rage]], [[outsider shape]],
+[[planar turning]], [[terrifying rage]], [[thundering rage]], [[undead shape]]
+<br />These general [[epic feat]]s cannot be selected when taking a level of rogue.
+
+=== Epic rogue level progression ===
+
+{| border=2 style="background:#efefef; color:#000000; border-collapse:collapse" 
+|- style="background:#c0c0c0"
+!&nbsp; Lvl &nbsp; 
+!Feats 
+!HP range 
+!rowspan=21 style="background:#ffffff"|&nbsp; 
+!Sneak <br /> attack
+|- align=center
+|21st ||align=left| ||63-126 ||11d6 
+|- align=center
+|22nd ||align=left| ||66-132 ||11d6 
+|- align=center
+|23rd ||align=left| ||69-138 ||12d6 
+|- align=center
+|24th ||align=left|bonus feat ||72-144 ||12d6 
+|- align=center
+|25th ||align=left| ||75-150 ||13d6 
+|- align=center
+|26th ||align=left| ||78-156 ||13d6 
+|- align=center
+|27th ||align=left| ||81-162 ||14d6 
+|- align=center
+|28th ||align=left|bonus feat ||84-168 ||14d6 
+|- align=center
+|29th ||align=left| ||87-174 ||15d6 
+|- align=center
+|30th ||align=left| ||90-180 ||15d6 
+|- align=center
+|31st ||align=left| ||93-186 ||16d6 
+|- align=center
+|32nd ||align=left|bonus feat ||96-192 ||16d6 
+|- align=center
+|33rd ||align=left| ||99-198 ||17d6 
+|- align=center
+|34th ||align=left| ||102-204 ||17d6 
+|- align=center
+|35th ||align=left| ||105-210 ||18d6 
+|- align=center
+|36th ||align=left|bonus feat ||108-216 ||18d6 
+|- align=center
+|37th ||align=left| ||111-222 ||19d6 
+|- align=center
+|38th ||align=left| ||114-228 ||19d6 
+|- align=center
+|39th ||align=left| ||117-234 ||20d6 
+|- align=center
+|40th ||align=left|bonus feat ||120-240 ||20d6 
+|}
+
+
+== Prestige class tips ==
+
+*Rogues make effective [[assassin]]s and [[shadowdancer]]s.
+
+== Notes ==
+
+* When reaching rogue level 10, 13, 16 or 19 at [[epic character]] levels, an epic rogue bonus feat may be chosen.
+
+==External Links==
+* {{FRW}}
+[[Category:Classes]]

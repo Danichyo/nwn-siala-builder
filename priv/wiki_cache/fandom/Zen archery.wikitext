@@ -1,0 +1,12 @@
+{{feat
+|type=general
+|prereq=[[base attack bonus]] +3, [[wisdom]] 13+
+|desc=Wisdom guides the character's ranged attacks, letting them use their wisdom [[ability modifier|modifier]], if it is higher, instead of their [[dexterity]] when firing [[ranged weapon]]s.
+|use=automatic
+|icon=ife_x1zenarc.gif
+}}
+
+==Notes==
+*Added in the [[expansion pack]]s.
+* While the feat's name suggests bows, the description is correct in stating "ranged weapons".
+* With this feat, [[touch attack|ranged touch attacks]] will still use the dexterity modifier, even when the attack might seem to involve a ranged weapon (as with some [[arcane archer]] feats).

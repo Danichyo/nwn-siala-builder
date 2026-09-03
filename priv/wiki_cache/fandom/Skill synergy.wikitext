@@ -1,0 +1,3 @@
+Some skills work very well together. Having 5 or more [[skill rank]]s in one skill will give a +2 '''synergy bonus''' when using another skill with which it has a synergistic relationship. Some feats also impart a synergy bonus to specific skills. The synergetic skills in NWN are [[disable trap]] and [[set trap]]; 5 ranks in either skill will give the synergy bonus to the other.
+[[category:game rules]]
+[[category:skills| Skill synergy]]

@@ -1,0 +1,88 @@
+[[Image:Is conjure.gif|right|Conjuration]]
+
+Spells from the '''conjuration''' [[spell school]] can bring creatures to the caster, normally in the form of summoned allies.
+This is also the school with the primary curative spells, including the spells that cure death.
+
+'''Prohibited school:''' [[transmutation]]<br />
+'''Prohibited to:''' abjurers, evokers, and transmuters
+
+== Spells ==
+
+The conjuration spells are the following, organized by [[innate level]]. 
+Since [[wizard]]s have a greater interest in spell schools than other classes (because they can specialize in a school), spells that are not wizard spells are ''in italics''.
+
+<u>Level 0</u>
+*[[Acid splash]]
+*''[[Cure minor wounds]]''
+*[[Ray of frost]]
+
+<u>Level 1</u>
+* ''[[Vine mine|Camouflage (vine mine)]]''
+*''[[Cure light wounds]]''
+*[[Grease]]
+* ''[[Vine mine|Hamper movement (vine mine)]]''
+*[[Mage armor]]
+*[[Summon creature I]]
+
+<u>Level 2</u>
+*''[[Cure moderate wounds]]''
+*''[[Lesser restoration]]''
+*[[Melf's acid arrow]]
+*''[[Remove paralysis]]''
+*[[Summon creature II]]
+*[[Web]]
+
+<u>Level 3</u>
+*''[[Cure serious wounds]]''
+*[[Flame arrow]]
+*[[Mestil's acid breath]]
+*''[[Neutralize poison]]''
+*''[[Prayer]]''
+*''[[Remove disease]]''
+*[[Stinking cloud]]
+*[[Summon creature III]]
+
+<u>Level 4</u>
+*''[[Cure critical wounds]]''
+*[[Evard's black tentacles]]
+*''[[Restoration]]''
+*[[Summon creature IV]]
+*[[Summon shadow (shadow conjuration)]]
+
+<u>Level 5</u>
+*[[Cloudkill]]
+*''[[Healing circle]]''
+*[[Lesser planar binding]]
+*[[Mestil's acid sheath]]
+*''[[Monstrous regeneration]]''
+*''[[Raise dead]]''
+*[[Summon creature V]]
+*''[[Vine mine]]'' (uses the school of the sub-spell)
+
+<u>Level 6</u>
+*[[Acid fog]]
+*''[[Heal (spell)|Heal]]''
+*''[[Planar ally]]''
+*[[Planar binding]]
+*''[[Stonehold]]''
+*[[Summon creature VI]]
+
+<u>Level 7</u>
+*''[[Creeping doom]]''
+*''[[Regenerate (spell)|Regenerate]]''
+*''[[Resurrection]]''
+*[[Summon creature VII]]
+
+<u>Level 8</u>
+*''[[Bombardment]]''
+*[[Greater planar binding]]
+*''[[Mass heal]]''
+*[[Summon creature VIII]]
+
+<u>Level 9</u>
+*[[Black blade of disaster]]
+*''[[Elemental swarm]]''
+*[[Gate]]
+*''[[Storm of vengeance]]''
+*[[Summon creature IX]]
+[[Category:Spell schools]]

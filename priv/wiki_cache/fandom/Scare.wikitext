@@ -1,0 +1,35 @@
+{{spell
+|icon=is_scare.gif
+|bardlevel=1
+|clericlevel=1
+|magelevel=1
+|innatelevel=1
+|school=[[necromancy]]
+|components=VS
+|range=s
+|area=single
+|save=[[will]] negates
+|spellresistance=yes
+|immunity=fear
+|duration=1[[d4]] [[round]]s
+|counters=<del>[[remove fear]]</del>
+|line=Fear
+|line1=scare
+|line3=fear (spell)
+|desc=A target creature with 5 [[hit dice]] or less is afflicted with
+[[frightened|fear]] and suffers a -2 morale check to [[attack bonus|attack]], damage and [[saving throw|saving]] rolls.}}
+
+== Notes ==
+
+* The "-2 morale check" is applied separately from the frightened status, and consequently is not removed by remove fear, nor blocked by [[mind-affecting]] immunity. Due to a bug, if the target is immune to fear these penalties will be applied automatically without a saving throw.
+* The penalty to saving throws is only for will saves versus mind-affecting, but does not stack with the -2 penalty to all saving throws inherent to the frightened status.
+* The penalty to damage rolls only reduces [[magical damage]]. If the affected creature does not deal magical damage in its attacks, there will be no change to the damage dealt.
+* This spell is actually an implementation of the [[pencil-and-paper]] [[Dungeons & Dragons]] spell ''cause fear''. In pencil-and-paper, ''[[scare (grimoire)|scare]]'' is a second level version of this spell, with an [[area of effect]] affecting multiple targets.
+*Due to a .2da bug, ''scare'' is not an additional [[counterspell]] of ''remove fear''.
+*There is an inconsistent resref/TAG naming anomaly as a spell scroll. ResRef and TAG naming use 2, but wizard/sorcerer spell level is 1. This difference affects on random loot generation, because this spell scroll longer available to HD 10. (Normally wizard/sorcerer spell level 1 available only to HD 8.)
+
+== Custom content notes ==
+
+*''script:'' <code>NW_S0_Scare</code>
+*''ResRef:'' nw_it_sparscr'''2'''10; ''TAG:'' NW_IT_SPARSCR'''2'''10.
+*''script:'' CreateArcaneScroll()

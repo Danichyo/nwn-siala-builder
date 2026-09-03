@@ -1,0 +1,29 @@
+<div style="display:block; float:right">[[Image:Is shades.gif|right|Shades]]<br /><div style="display:block; float:right; text-align:right">
+[[Image:Is conecold.gif|Shades, cone of cold]]
+[[Image:Is fireball.gif|Shades, fireball]]
+[[Image:Is stoneskn.gif|Shades, stoneskin]]
+[[Image:Is wallfire.gif|Shades, wall of fire]]
+[[Image:Is summshad.gif|Shades, summon shadow]]
+</div></div>
+{{spell
+|magelevel=6
+|innatelevel=6 (''special'')
+|school=[[illusion]]
+|components=VS
+|range=special
+|area=special
+|save=special
+|spellresistance=yes
+|duration=special
+|line=Shadow conjuration
+|line4=shadow conjuration
+|line5=greater shadow conjuration
+|line6=shades
+|desc=The caster conjures a shadow variant of one of the following spells: [[cone of cold]], [[fireball]], [[stoneskin]], [[wall of fire]], or [[summon shadow (shadow conjuration)|summon shadow]].}}
+
+== Notes ==
+* "Shadow variant" has no real meaning in Neverwinter Nights; the spells cast via ''shades'' are identical to their "normal" versions, except they have a different [[spell level]]. This includes the spell school with regards to considerations such as [[spell focus]] and [[arcane defense]]. (The subspells that allow a [[saving throw]] are all in the [[evocation]] school.) In particular, the [[innate level]] of each variant is the innate level of the corresponding "normal" spell (5 for ''cone of cold'', 3 for ''fireball'', and 4 for ''stoneskin'', ''wall of fire'', and ''summon shadow'').
+* One advantage of this spell is having five spells combined into one. For sorcerers, this effectively increases the number of spells known. For wizards, this provides the ability to select which spell to cast at the time of casting.
+* The ''stoneskin'' subspell does not remove earlier castings of itself (but will remove an earlier casting of regular ''stoneskin''), so it is possible to have multiple castings of this subspell operate concurrently on a target. (The damage reduction does not [[stack]], and only one instance of the spell will be depleted with each hit.)
+==External links==
+*{{FRW}}

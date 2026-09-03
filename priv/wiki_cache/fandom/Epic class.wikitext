@@ -1,0 +1,29 @@
+[[Image:ife x2eparcher.gif|Epic arcane archer]]
+[[Image:ife x2epasasin.gif|Epic assassin]]
+[[Image:ife x2epbarba.gif|Epic barbarian]]
+[[Image:ife x2epbard.gif|Epic bard]]
+[[Image:ife x2epblkgrd.gif|Epic blackguard]]
+[[Image:ife x2epdivcha.gif|Epic champion of Torm]]
+[[Image:ife x2epcleric.gif|Epic cleric]]
+[[Image:ife x2epdruid.gif|Epic druid]]
+[[Image:ife x2epdwdef.gif|Epic dwarven defender]]
+[[Image:ife x2epfighter.gif|Epic fighter]]
+[[Image:ife x2epmonk.gif|Epic monk]]
+[[Image:ife x2eppal.gif|Epic paladin]]
+[[Image:ife x2eppalema.gif|Epic pale master]]
+[[Image:ife x2epranger.gif|Epic ranger]]
+[[Image:ife x2epdragond.gif|Epic red dragon disciple]]
+[[Image:ife x2eprogue.gif|Epic rogue]]
+[[Image:ife x2epshad.gif|Epic shadowdancer]]
+[[Image:ife x2epshiftr.gif|Epic shifter]]
+[[Image:ife x2epsorc.gif|Epic sorcerer]]
+[[Image:ife x2epwm.gif|Epic weapon master]]
+[[Image:ife x2epwizard.gif|Epic wizard]]
+
+To become epic with a specific [[class]] the character must have 21 levels for a base class, or 11 levels for a [[prestige class]]. However, the 11th level of a prestige class cannot be taken unless the character has a total of 20 levels already.
+
+e.g. A character with 10 [[rogue]], 10 [[barbarian]] and 1 [[assassin]] level has no epic classes, but a character with 21 [[rogue]] and 1 [[assassin]] level is an [[rogue#Epic rogue|epic rogue]].
+
+[[Harper scout]]s and [[purple dragon knight]]s are only able to attain five levels and may never become epic in the Harper scout or purple dragon knight class.
+
+[[category:epic rules|Class]]

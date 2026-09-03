@@ -1,0 +1,33 @@
+{{feat
+|epic=yes
+|type=general
+|prereq=[[epic class|epic]] [[shifter]], [[wisdom]] 27
+|desc=The character can shift into the following [[construct]] forms three times per day: [[iron golem form (shifter)|iron golem]], [[stone golem form|stone golem]], or [[demonflesh golem form|demonflesh golem]].
+|use=selected (After choosing the ability, the character must select the type of construct to change into.)
+|icon=ife_x2conshp.gif
+|bonus1=shifter
+}}
+
+==Notes==
+*Requires [[Hordes of the Underdark]].
+*This form of shapeshifting cannot be [[dispel]]led.
+*This feat does not actually require one to be an epic shifter, as it can be taken on a shifter level as long as the character has the [[greater wildshape IV]] feat (which is obtained at shifter level 10).
+
+==Forms==
+*The following table shows the character's new [[strength]], [[dexterity]], [[constitution]] and [[armor class]] (before applying item bonuses). Note that only the highest AC bonus from items will merge.
+{| class="centertable"
+!Shape!!Str!!Dex!!Con!!HP!!AC!!Attacks!!Special!!Unarmed!!Merge
+|-
+|stone golem  ||31||align=center| -||align=center| -||align=center| +90||align=center| +13 dodge, -1 large size|| slam 2d10+10 (20/x2)||[[damage reduction|DR]] 15/+3<br />DI 25% slashing<br />DI 50% piercing<br />DV 50% [[acid damage|acid]]<br />[[spell resistance|SR]] 22<br />[[hurl rocks]]||yes||armor
+|-
+|demonflesh golem ||29||align=center| -||align=center| -||align=center| +90||align=center| +13 dodge, -1 large size|| slam 2d6+9 (20/x2)<br />slam 2d6+9 (20/x2)<br />claw 2d6+9 (20/x2)||DR 30/+3<br />DR 20/- acid<br />DR 20/- [[cold damage|cold]]<br />DR 20/- [[fire damage|fire]]<br />DI 100% [[electrical damage|elec]]<br />SR 22||yes||armor
+|-
+|iron golem||33||align=center| -||align=center| -||align=center| +90||align=center| +15 dodge, -1 large size|| slam 2d10+11 (20/x2) ||DR 20/+4<br />DV 50% fire<br />DI 90% elec<br />SR 26<br />[[knockdown]]<br />[[power attack]]<br />[[iron golem poison gas|poison gas]]||yes||armor,<br />items
+|}
+
+*All forms gain immunities to: [[critical hit]]s, [[sneak attack]]s, [[death magic]], [[poison]], [[disease]], [[level drain]], [[ability drain]], [[mind-affecting]] spells, and [[paralysis]].
+*[[Off-hand]] weapon and bracer/gauntlet/glove properties never merge.
+
+==Custom content notes==
+*A custom class must have this feat in their feat list, or that class will not be able to select it as a general feat.
+[[category:feats restricted by class, epic]]

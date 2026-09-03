@@ -1,0 +1,32 @@
+{{feat
+|type=class
+|prereq=[[shifter]] 10
+|desc=At tenth level, a shifter may [[polymorph|shift]] into the form of a large [[dire tiger form|dire tiger]], [[medusa form|medusa]], or [[mind flayer form|mindflayer]] three times per day.
+|use=selected
+|icon=ife_x2gwshp4.gif
+|class1=shifter
+}}
+
+== Notes ==
+*Requires [[Hordes of the Underdark]].
+*This form of shapeshifting cannot be [[dispel]]led.
+*At shifter level 16, unlimited uses of this ability are gained via [[infinite greater wildshape]] IV.
+*The mindflayer form has the unusual property of adding a bonus to the character's intelligence and wisdom&mdash;every other shifter shape (except the [[humanoid shape|drow warrior]]'s elven [[racial modifier]] for constitution) overrides any ability score it modifies. The intelligence and wisdom bonuses are subject to the [[ability cap]].
+
+== Forms ==
+*The following table shows the character's adjusted [[ability|abilities]] and [[armor class|AC]] (before applying item bonuses). Note that only the highest AC bonus from items will merge, and that [[off-hand]] weapon and bracer/gauntlet/glove properties never merge.
+{| class="compacttable"
+ |-
+   ! Shape!! Str!! Dex!! Con!! Int!! Wis!! AC!! HP!! To hit!! Attacks!! Special!! Unarmed!! Merge
+ |-
+   | dire tiger||27||17||15||-||-||21 (+8 dodge, +3 dex)||+60||[[BAB]] +8||claw/claw/bite 2d4+8/2d4+8/2d6+8 (20/x2)||-||yes||armor
+ |-
+   | medusa||19||19||-||-||-||24 (+10 dodge, +4 dex)||+35||BAB +4||claw/claw 1d6+4/1d6+4 (20/x2)<br />bite 1d4+4 (20/x2)<br />[[on-hit]]: [[poison]] ([[DC]]=20) 1d2 str ([[medium spider venom]])||[[petrification gaze]],<br />[[weapon finesse]]||yes||armor,<br />items
+ |-
+   | mindflayer||-||19||-||(+8)||(+2)||21 (+7 dodge, +4 dex)||+30||BAB +2||tentacle/tentacle 2d4/2d4 (20/x2)<BR>+2 slashing (+2 attack bonus)||[[illithid mind blast]],<BR> [[psionic inertial barrier]], [[spell resistance|SR]]24, <BR>listen +6, <BR>spot +6, <BR>[[dodge]], <BR>[[darkvision]], <BR>immunity to [[mind-affecting]] spells and effects.||yes||armor,<BR>items
+|}
+* The medusa's petrification gaze is limited to one use per shift, plus one use for every five shifter levels. The mindflayer's mind blast ability is limited to one use per shift, plus one use for every three shifter levels. These limits are imposed via scripting and are not reported in the graphical user interface.
+
+== Custom content notes ==
+
+* ''script:'' <code>X2_S2_GWildShp</code>

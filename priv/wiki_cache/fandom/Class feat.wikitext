@@ -1,0 +1,11 @@
+'''Class feats''' are [[feat]]s that are given or made available to [[player character]]s on the basis of that character's [[class]] and [[class level]]. Some feats are given a '''type''' of "class"; this means the feat is not a [[general feat]], so it is only available to the indicated classes, and only at the designated level(s). Many class feats (e.g. [[sneak attack]]) are automatically gained at certain levels, while others (e.g. [[crippling strike]]) are presented to the players as an option at certain levels. The latter are often called '''bonus feats'''.
+
+Some classes are given general feats at specific levels. These feats (unless part of a bonus feat choice) are no longer treated as general feats for those particular classes, but are still classified as "general" since other classes may still choose them as general feats.
+
+Any feat given automatically at a certain class level is given even if the character does not meet the stated prerequisites. Normally this is only a concern for general feats given out as class feats, as most feats of type "class" have only one prerequisite, specifically the class level at which the feat is given (or is first made available as a bonus feat choice). In contrast, bonus feats are only available if the stated prerequisites are met, and if there are no bonus feats whose prerequisites are met when it is time to choose one, a character will lose that opportunity for a bonus feat.
+
+== See also ==
+
+* [[:Category:Class feats]]
+
+[[category:feats| Class feat]]

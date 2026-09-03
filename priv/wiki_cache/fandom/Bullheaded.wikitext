@@ -1,0 +1,12 @@
+{{feat
+|type=general
+|prereq=Can only take this feat at first level.
+|desc=The character gains a +2 bonus on resisting [[taunt]]s and a +1 bonus on [[will]] [[saving throw]]s.
+|use=automatic
+|icon=ife_x1bull.gif
+}}
+
+==Notes==
+*Added in the [[expansion pack]]s.
+
+[[category:first level feats]]

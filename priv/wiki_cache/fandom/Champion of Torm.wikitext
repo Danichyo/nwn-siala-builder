@@ -1,0 +1,252 @@
+[[Image:Ir divcha.gif|right|Champion of Torm]]
+'''Description''': ([[prestige class|PRESTIGE CLASS]])
+Champions of Torm are mighty warriors who dedicate themselves to [[Torm]]'s cause, defending holy ground, destroying enemies of the church, and slaying mythical beasts. Torm is the patron of [[paladin]]s and an unswerving enemy of corruption and evil.
+
+'''[[Hit die]]:''' d10
+
+'''Proficiencies:''' all [[weapon proficiency (simple)|simple]] and [[weapon proficiency (martial)|martial]] weapons, [[Armor Proficiency (Light)|light]] and [[Armor Proficiency (Medium)|medium]] armor and [[Shield Proficiency|shields]]
+
+'''[[Skill point]]s:''' 2 + [[int]] modifier
+
+'''Skills:''' [[craft armor]], [[craft trap]], [[craft weapon]], [[discipline]], [[heal (skill)|heal]], [[lore]], [[parry]], [[ride]], [[spot]]
+
+'''Unavailable feats:'''
+[[brew potion]], [[craft wand]], [[curse song]], [[divine might]], [[divine shield]], [[extra music]], [[extra turning]], [[lingering song]], [[quicken spell]], [[scribe scroll]], [[spell focus]], [[weapon specialization]]
+<br />These [[general feat]]s cannot be selected when taking a level of champion of Torm.
+
+'''Bonus feats:''' [[ambidexterity]], [[armor proficiency (heavy)]], [[blind fight]], [[called shot]], [[cleave]], [[deflect arrows]], [[disarm]], [[dodge]], [[expertise]], [[great cleave]], [[improved critical]], [[improved disarm]], [[improved expertise]], [[improved knockdown]], [[improved parry]], [[improved power attack]], [[improved two-weapon fighting]], [[improved unarmed strike]], [[knockdown]], [[mobility]], [[point blank shot]], [[power attack]], [[rapid shot]], [[spring attack]], [[stunning fist]], [[two-weapon fighting]], [[weapon finesse]], [[weapon focus]], [[weapon proficiency (exotic)]], [[whirlwind attack]]
+
+'''[[Saving throw|Primary saving throw(s)]]:''' [[fortitude]] and [[reflex]]
+
+'''[[Base attack bonus]]:''' +1/level
+
+[[Image:Champion of Torm.jpg|Champion of Torm]]
+
+== Requirements ==
+To qualify as a champion of Torm, a character must fulfill all of the following criteria:
+
+'''Alignment:''' any non-evil
+
+'''[[Base attack bonus]]:''' +7
+
+'''Feats:''' [[weapon focus]] in a [[melee weapon]]
+
+== Level progression ==
+
+{| border=2 style="background:#efefef; color:#000000; border-collapse:collapse"
+|- style="background:#c0c0c0"
+!rowspan=2|Level
+!rowspan=2|BAB
+!colspan=3|Saves
+!rowspan=2|Feats
+!rowspan=2|HP range
+!rowspan=12 style="background:#ffffff"|&nbsp;
+!rowspan=2|Save<br />bonus
+!rowspan=2|Divine wrath
+|- style="background:#c0c0c0"
+!Fort
+!Ref
+!Will
+|- align=center
+|1st || +1 || +2 || +2 || +0 ||align=left|[[lay on hands]] ||5-10 || +0 || -
+|- align=center
+|2nd || +2 || +3 || +3 || +0 ||align=left|[[:Category:Champion of Torm bonus feats|bonus feat]], [[sacred defense]] (+1) ||10-20 || +1 || -
+|- align=center
+|3rd || +3 || +3 || +3 || +1 ||align=left|[[smite evil]] ||15-30 || +1 || -
+|- align=center
+|4th || +4 || +4 || +4 || +1 ||align=left|bonus feat, sacred defense (+1) ||20-40 || +2 || -
+|- align=center
+|5th || +5 || +4 || +4 || +1 ||align=left|[[divine wrath]] ||25-50 || +2 || +3 5/+1
+|- align=center
+|6th || +6 || +5 || +5 || +2 ||align=left|bonus feat, sacred defense (+1) ||30-60 || +3 || +3 5/+1
+|- align=center
+|7th || +7 || +5 || +5 || +2 ||align=left| ||35-70 || +3 || +3 5/+1
+|- align=center
+|8th || +8 || +6 || +6 || +2 ||align=left|bonus feat, sacred defense (+1) ||40-80 || +4 || +3 5/+1
+|- align=center
+|9th || +9 || +6 || +6 || +3 ||align=left| ||45-90 || +4 || +3 5/+1
+|- align=center
+|10th || +10 || +7 || +7 || +3 ||align=left|bonus feat, sacred defense (+1), divine wrath (+2) ||50-100 || +5 || +5 5/+1
+|}
+
+== Tip: Becoming a champion of Torm ==
+* [[Paladin]]s gain some of the fighter's combat abilities by choosing to become a champion of Torm.
+*Conversely, [[fighter]]s gain paladin-like abilities by playing this prestige class.
+*Militant [[cleric]]s may also find this prestige class appealing.
+*This class should also be very interesting for [[rogue]]s because it gives increased [[saving throw]]s, fighter-like abilities like [[:Category:Champion of Torm bonus feats|bonus feats]], increased [[base attack bonus]] and [[hit point]]s while continuing a high [[reflex]] save.
+*[[Sorcerer]]s have a synergy with this class as a high charisma improves many champion of Torm abilities.
+
+[[Image:ife x2epdivcha.gif|right|Epic champion of Torm]]
+
+== Epic champion of Torm ==
+Torm guides the epic champion of Torm on her life journey. She has ascended through the ranks of holy warriors to become a symbol of Torm's might.
+
+'''Hit die:''' d10
+
+'''Skill points:''' 2 + [[int]] modifier
+
+'''Bonus feats:''' The epic champion of Torm gains a bonus feat every four levels. In other words, at levels 14, 18, 22, 26, and 30.
+
+'''Epic bonus feats:''' [[armor skin]], [[automatic quicken spell]], [[automatic silent spell]], [[automatic still spell]], [[devastating critical]], [[epic damage reduction]], [[epic prowess]], [[epic spell focus]], [[epic spell penetration]], [[epic toughness]], [[epic weapon focus]], [[epic weapon specialization]], [[great smiting]], [[great wisdom]], [[improved combat casting]], [[improved stunning fist]], [[improved whirlwind attack]], [[overwhelming critical]], [[planar turning]], [[superior initiative]]
+
+'''Unavailable epic feats:'''
+[[bane of enemies]],
+[[construct shape]], [[dragon shape]],
+[[epic spell: dragon knight]], [[epic spell: epic mage armor]], [[epic spell: epic warding]], [[epic spell: greater ruin]], [[epic spell: hellball]], [[epic spell: mummy dust]],
+[[improved ki strike 4]], [[improved ki strike 5]], [[improved sneak attack]],
+[[improved spell resistance]],
+[[lasting inspiration]], [[mighty rage]], [[outsider shape]],
+[[terrifying rage]], [[thundering rage]], [[undead shape]]
+<br />These general [[epic feat]]s cannot be selected when taking a level of champion of Torm.
+
+=== Epic champion of Torm level progression ===
+
+{| border=2 style="background:#efefef; color:#000000; border-collapse:collapse"
+|- style="background:#c0c0c0"
+!&nbsp;Lvl&nbsp;
+!Feats
+!HP range
+|rowspan=21 style="background:#ffffff"|&nbsp;
+!Save bonus
+!Divine wrath
+|- align=center
+|11th
+|align=left|
+|55-110
+| +5
+| +5 5/+1
+|- align=center
+|12th
+|align=left|[[sacred defense]] (+1)
+|60-120
+| +6
+| +5 5/+1
+|- align=center
+|13th
+|align=left|
+|65-130
+| +6
+| +5 5/+1
+|- align=center
+|14th
+|align=left|bonus feat, sacred defense (+1)
+|70-140
+| +7
+| +5 5/+1
+|- align=center
+|15th
+|align=left|[[divine wrath]] (+2)
+|75-150
+| +7
+| +7 10/+2
+|- align=center
+|16th
+|align=left|sacred defense (+1)
+|80-160
+| +8
+| +7 10/+2
+|- align=center
+|17th
+|align=left|
+|85-170
+| +8
+| +7 10/+2
+|- align=center
+|18th
+|align=left|bonus feat, sacred defense (+1)
+|90-180
+| +9
+| +7 10/+2
+|- align=center
+|19th
+|align=left|
+|95-190
+| +9
+| +7 10/+2
+|- align=center
+|20th
+|align=left|sacred defense (+1), divine wrath (+2)
+|100-200
+| +10
+| +9 15/+3
+|- align=center
+|21st
+|align=left|
+|105-210
+| +10
+| +9 15/+3
+|- align=center
+|22nd
+|align=left|bonus feat, sacred defense (+1)
+|110-220
+| +11
+| +9 15/+3
+|- align=center
+|23rd
+|align=left|
+|115-230
+| +11
+| +9 15/+3
+|- align=center
+|24th
+|align=left|sacred defense (+1)
+|120-240
+| +12
+| +9 15/+3
+|- align=center
+|25th
+|align=left|divine wrath (+2)
+|125-250
+| +12
+| +11 20/+4
+|- align=center
+|26th
+|align=left|bonus feat, sacred defense (+1)
+|130-260
+| +13
+| +11 20/+4
+|- align=center
+|27th
+|align=left|
+|135-270
+| +13
+| +11 20/+4
+|- align=center
+|28th
+|align=left|sacred defense (+1)
+|140-280
+| +14
+| +11 20/+4
+|- align=center
+|29th
+|align=left|
+|145-290
+| +14
+| +11 20/+4
+|- align=center
+|30th
+|align=left|bonus feat, sacred defense (+1), divine wrath (+2)
+|150-300
+| +15
+| +13 25/+5
+|}
+
+'''Special:'''
+
+'''Sacred defense:''' Saving throws continue to improve by +1 for every 2 epic levels.
+
+'''Divine wrath:''' Every five epic levels the attack, damage, and saving throw bonuses increase by a further +2.
+
+== Notes ==
+*Requires [[Hordes of the Underdark]].
+*If the character is an [[epic character]] before becoming an epic champion of Torm, the available feats include those in the epic champion of Torm bonus list.
+*If weapon specialization has been taken on a [[fighter]] level, epic weapon specialization can be taken as an epic champion of Torm bonus feat.
+
+=== Previous versions ===
+*Prior to version 1.69, epic weapon specialization in the [[dwarven waraxe]] could not be taken on a champion of Torm level.
+*Prior to version 1.69, a champion of Torm could not take [[ambidexterity]] or [[two-weapon fighting]] as bonus feats even though they were on the fighter bonus feat list.
+
+=== Pen & paper notes ===
+* The champion of Torm class is based on the [[pencil-and-paper]] divine champion prestige class. However, there are two notable differences: the divine champion class has a maximum level of 5 (whereas the champion of Torm has no such limit), and the name "divine champion" does not suggest a particular deity. Interestingly, while the name is non-specific, divine champions do have prerequisites regarding their patron deities, while champions of Torm need not have a deity at all, much less be followers of Torm.
+[[category:prestige classes]]
+[[category:classes]]

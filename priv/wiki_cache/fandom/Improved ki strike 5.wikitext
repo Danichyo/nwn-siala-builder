@@ -1,0 +1,20 @@
+{{feat
+|epic=yes
+|type=general
+|prereq=[[monk]], [[improved ki strike 4]]
+|desc=The monk's unarmed attack counts as a +5 magic weapon against creatures with [[damage reduction]].
+|use=automatic
+|icon=ife_x2imkistrk5.gif
+|bonus1=monk
+}}
+
+==Notes==
+*Requires [[Hordes of the Underdark]].
+*This feat does not provide an [[attack bonus]]; it merely allows an unarmed character to penetrate X/+5 damage reduction.
+*Magic [[gloves]] with an attack bonus also allow an unarmed character to penetrate damage reduction, often making this feat superfluous.
+
+==Custom content notes==
+*A custom class must have this feat in their feat list, or that class will not be able to select it as a general feat.
+*The monk class technically is not a prerequisite for this feat, but without custom content it is effectively a prerequisite as that is the only standard way to get ''improved ki strike 4''.
+
+[[category:feats restricted by class, epic]]

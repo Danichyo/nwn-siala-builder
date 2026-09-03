@@ -1,0 +1,266 @@
+[[Image:Ir ranger.gif|right|Ranger]]
+'''Description''': Rangers are skilled stalkers and hunters who make their home in the wilderness. Their martial skill is nearly the equal of the [[fighter]], but they lack the latter's dedication to the craft of fighting. Instead, the ranger focuses his skills and training on a specific enemy - a type of creature he bears a vengeful grudge against and hunts above all others. Rangers often accept the role of protector, aiding those who live in or travel through the woods. His skills allow him to move quietly and stick to the shadows, especially in natural settings, and he also has special knowledge of certain types of creatures. Finally, an experienced ranger has such a tie to nature that he can actually draw on natural power to cast [[divine]] spells, much as a [[druid]] does, and like a druid he is often accompanied by [[animal companion (feat)|animal companions]].
+
+'''Alignment restrictions:''' none
+
+'''[[Hit die]]:''' d10
+
+'''Proficiencies:''' armor ([[armor proficiency (light)|light]], [[armor proficiency (medium)|medium]]), [[shield proficiency|shields]], weapons ([[weapon proficiency (martial)|martial]], [[weapon proficiency (simple)|simple]])
+
+'''[[Skill point]]s:''' 4 + [[int]] modifier ( (4 + int modifier) * 4 at 1st level)
+
+'''Skills:''' [[animal empathy]], [[concentration]], [[craft armor]], [[craft trap]], [[craft weapon]], [[discipline]], [[Heal (skill)|heal]], [[hide]], [[listen]], [[lore]], [[move silently]], [[parry]], [[ride]], [[search]], [[set trap]], [[spot]]
+
+'''Unavailable feats:'''
+[[ambidexterity]], [[curse song]], [[divine might]], [[divine shield]], [[extra music]], [[extra turning]], [[lingering song]], [[quicken spell]], [[two-weapon fighting]], [[weapon specialization]]
+<br />These [[general feat]]s cannot be selected when taking a level of ranger.
+
+'''Bonus feats:''' [[favored enemy]], [[greater spell focus]]
+
+'''[[Saving throw|Primary saving throw(s)]]:''' [[fortitude]]
+
+'''[[Base attack bonus]]:''' +1/level
+
+'''Spellcasting:''' [[Divine]] ([[spell failure]] from armor is ignored), [[wisdom]]-based (a base wisdom score of 10 + the spell's level is required to cast a spell, [[bonus spells]] are based on modified wisdom, and the wisdom modifier affects spell [[difficulty class|DCs]]), and requires preparation.
+
+[[Image:Ranger.jpg|Ranger]]
+
+== Spells ==
+
+{| border=2 style="background:#efefef; color:#000000; border-collapse:collapse"
+|- style="background:#c0c0c0"
+!1st level spells
+!2nd level spells
+!3rd level spells
+!4th level spells
+|- align=left valign=top
+|
+*[[Camouflage]]
+*[[Cure light wounds]]
+*[[Entangle (spell)|Entangle]]
+*[[Grease]]
+*[[Magic fang]]
+*[[Resist elements]]
+*[[Summon creature I]]&nbsp;
+*[[Ultravision]]
+
+|
+*[[Cat's grace]]
+*[[Hold animal]]
+*[[One with the land]]
+*[[Protection from elements]]&nbsp;
+*[[Sleep (spell)|Sleep]]
+*[[Summon creature II]]
+
+|
+*[[Aid]]
+*[[Blade thirst]]
+*[[Cure moderate wounds]]&nbsp;
+*[[Invisibility purge]]
+*[[Greater magic fang]]
+*[[Neutralize poison]]
+*[[Remove disease]]
+*[[Summon creature III]]
+
+|
+*[[Cure serious wounds]]
+*[[Freedom of movement]]&nbsp;
+*[[Mass camouflage]]
+*[[Polymorph self]]
+*[[Summon creature IV]]
+|}
+
+== Level progression ==
+
+The bonuses against favored enemies are bonus damage added to weapon(s), and bonuses to the [[spot]], [[listen]], and [[taunt]] skills.
+
+{| border=2 style="background:#efefef; color:#000000; border-collapse:collapse"
+|- style="background:#c0c0c0"
+!rowspan=2|Level
+!rowspan=2|BAB
+!colspan=3|Saves
+!rowspan=2|Feats
+!rowspan=2|HP range
+!rowspan=22 style="background:#ffffff"|&nbsp;
+!colspan=4|Base spells per day
+!rowspan=22 style="background:#ffffff"|&nbsp;
+!rowspan=2|Bonuses vs.<br />fav. enemy
+|- style="background:#c0c0c0"
+!Fort
+!Ref
+!Will
+
+!1st
+!2nd
+!3rd
+!4th
+|- align=center
+|1st || +1 || +2 || +0 || +0 ||align=left|bonus feat, [[Dual-wield (feat)|dual-wield]], [[trackless step]] &nbsp;
+|5-10 || - || - || - || - || +1
+|- align=center
+|2nd || +2 || +3 || +0 || +0 ||align=left|
+|10-20 || - || - || - || - || +1
+|- align=center
+|3rd || +3 || +3 || +1 || +1 ||align=left|
+|15-30 || - || - || - || - || +1
+|- align=center
+|4th || +4 || +4 || +1 || +1 ||align=left|
+|20-40 ||0 || - || - || - || +1
+|- align=center
+|5th || +5 || +4 || +1 || +1 ||align=left|bonus feat
+|25-50 ||0 || - || - || - || +2
+|- align=center
+|6th || +6/+1 || +5 || +2 || +2 ||align=left|[[Animal Companion (feat)|animal companion]]
+|30-60 ||1 || - || - || - || +2
+|- align=center
+|7th || +7/+2 || +5 || +2 || +2 ||align=left|
+|35-70 ||1 || - || - || - || +2
+|- align=center
+|8th || +8/+3 || +6 || +2 || +2 ||align=left|
+|40-80 ||1 ||0 || - || - || +2
+|- align=center
+|9th || +9/+4 || +6 || +3 || +3 ||align=left|[[improved two-weapon fighting]]
+|45-90 ||1 ||0 || - || - || +2
+|- align=center
+|10th || +10/+5 || +7 || +3 || +3 ||align=left|bonus feat
+|50-100 ||1 ||1 || - || - || +3
+|- align=center
+|11th || +11/+6/+1 || +7 || +3 || +3 ||align=left|
+|55-110 ||1 ||1 ||0 || - || +3
+|- align=center
+|12th || +12/+7/+2 || +8 || +4 || +4 ||align=left|
+|60-120 ||1 ||1 ||1 || - || +3
+|- align=center
+|13th || +13/+8/+3 || +8 || +4 || +4 ||align=left|
+|65-130 ||1 ||1 ||1 || - || +3
+|- align=center
+|14th || +14/+9/+4 || +9 || +4 || +4 ||align=left|
+|70-140 ||1 ||1 ||1 ||0 || +3
+|- align=center
+|15th || +15/+10/+5 || +9 || +5 || +5 ||align=left|bonus feat
+|75-150 ||2 ||1 ||1 ||1 || +4
+|- align=center
+|16th || +16/+11/+6/+1 || +10 || +5 || +5 ||align=left|
+|80-160 ||2 ||2 ||1 ||1 || +4
+|- align=center
+|17th || +17/+12/+7/+2 || +10 || +5 || +5 ||align=left|
+|85-170 ||2 ||2 ||2 ||1 || +4
+|- align=center
+|18th || +18/+13/+8/+3 || +11 || +6 || +6 ||align=left|
+|90-180 ||3 ||2 ||2 ||1 || +4
+|- align=center
+|19th || +19/+14/+9/+4 || +11 || +6 || +6 ||align=left|
+|95-190 ||3 ||3 ||3 ||2 || +4
+|- align=center
+|20th || +20/+15/+10/+5&nbsp; || +12 || +6 || +6 ||align=left|bonus feat
+|100-200 ||3 ||3 ||3 ||3 || +5
+|}
+
+''Being able to cast 0 spells of a certain level per day means the ranger cannot cast spells of that level unless bonus [[spell slot]]s of the appropriate level are granted by a high wisdom.''
+
+[[Image:ife x2epranger.gif|right|Epic ranger]]
+
+== Epic ranger ==
+The epic ranger moves through the natural world with deadly grace and a keen mind. The epic ranger is both a protector and a hunter, and his powers reflect this.
+
+'''Hit die:''' d10
+
+'''Skill points:''' 4 + int modifier
+
+'''Bonus feats:''' The epic ranger gains a bonus feat every three levels and every five levels after the 20th. In other words, at levels 23, 25, 26, 29, 30, 32, 35(two bonus feats), 38, and 40.
+
+'''Epic ranger bonus feats:''' [[bane of enemies]], [[blinding speed]], [[epic prowess]], [[epic spell focus]], [[epic toughness]], [[epic weapon focus]], [[improved combat casting]], [[perfect health]]
+
+'''Epic favored enemy:''' The epic ranger gains a further +1 bonus in weapon damage, spot, listen, and taunt versus favored enemies for every 5 levels after the 20th.
+
+'''Unavailable epic feats:'''
+[[automatic quicken spell]], [[automatic silent spell]], [[automatic still spell]],
+[[construct shape]], [[dragon shape]], [[epic spell penetration]],
+[[epic spell: dragon knight]], [[epic spell: epic mage armor]], [[epic spell: epic warding]], [[epic spell: greater ruin]], [[epic spell: hellball]], [[epic spell: mummy dust]],
+[[epic weapon specialization]], [[great smiting]],
+[[improved ki strike 4]], [[improved ki strike 5]], [[improved sneak attack]],
+[[improved spell resistance]], [[improved stunning fist]],
+[[lasting inspiration]], [[mighty rage]], [[outsider shape]],
+[[planar turning]], [[terrifying rage]], [[thundering rage]], [[undead shape]]
+<br />These general [[epic feat]]s cannot be selected when taking a level of ranger.
+
+=== Epic ranger level progression ===
+
+{| border=2 style="background:#efefef; color:#000000; border-collapse:collapse"
+|- style="background:#c0c0c0"
+!Level
+!Feats
+!HP range
+!rowspan=21 style="background:#ffffff"|&nbsp;
+!Bonuses vs.<br />fav. enemy
+|- align=center
+|21st ||align=left| ||105-210 || +5
+|- align=center
+|22nd ||align=left| ||110-220 || +5
+|- align=center
+|23rd ||align=left|bonus feat ||115-230 || +5
+|- align=center
+|24th ||align=left| ||120-240 || +5
+|- align=center
+|25th ||align=left|bonus feat ||125-250 || +6
+|- align=center
+|26th ||align=left|bonus feat ||130-260 || +6
+|- align=center
+|27th ||align=left| ||135-270 || +6
+|- align=center
+|28th ||align=left| ||140-280 || +6
+|- align=center
+|29th ||align=left|bonus feat ||145-290 || +6
+|- align=center
+|30th ||align=left|bonus feat ||150-300 || +7
+|- align=center
+|31st ||align=left| ||155-310 || +7
+|- align=center
+|32nd ||align=left|bonus feat ||160-320 || +7
+|- align=center
+|33rd ||align=left| ||165-330 || +7
+|- align=center
+|34th ||align=left| ||170-340 || +7
+|- align=center
+|35th ||align=left|2 bonus feats ||175-350 || +8
+|- align=center
+|36th ||align=left| ||180-360  || +8
+|- align=center
+|37th ||align=left| ||185-370  || +8
+|- align=center
+|38th ||align=left|bonus feat ||190-380  || +8
+|- align=center
+|39th ||align=left| ||195-390  || +8
+|- align=center
+|40th ||align=left|bonus feat ||200-400  || +9
+|}
+
+== Prestige class tips ==
+*Combined with [[wizard]] or [[sorcerer]] levels, an elven or half-elven ranger makes the perfect [[arcane archer]].
+*[[Hide]] and [[move silently]] as class skills make it easy for evil rangers to become [[assassin]]s or [[blackguard]]s.
+
+== Notes ==
+
+*Despite popular perception and BioWare's prestige class tip, the ranger is not intrinsically better suited to archery than melee combat. Other than automatic access to ''cat's grace'' but not to ''[[bull's strength]]'' (see [[attack bonus]]), a ranger has no abilities that benefit ranged combat without similar benefits to melee combat (and even that exception fails to meet this criteria if the ranger has [[weapon finesse]]).
+* [[Zen archery]] can be a useful feat to a ranger who prefers ranged to melee combat and wishes to make use of the ranger's [[wisdom]]-based magic.
+* When reaching ranger levels with bonus favored enemy feats at [[epic character]] levels (not just epic ranger levels), a feat may be chosen from the epic ranger bonus feat list instead of the usual favored enemy. For example, a spell caster who meets the prerequisites for [[improved combat casting]] might take a single ranger level in order, among other reasons, to get that feat as a bonus feat (in lieu of a favored enemy).
+*Although a ranger is automatically proficient with medium armor, many rangers prefer light armor as medium armor disables their ''dual-wield'' abilities.
+* The ranger is well-suited for some stealth builds, as ranger and [[arcane archer]] are the only full base attack classes that have hide and move silently as class skills
+* The ranger's ''dual-wield'' feat is particularly useful for characters whose unmodified dexterity is less than 15 (the prerequisite for [[ambidexterity]]), if that character wears light armor and has an interest in using two weapons.
+
+== External resources ==
+*Ranger Guide by DarthMuffin at [http://www.gamefaqs.com/computer/doswin/game/563552.html GameFAQs NWN page]
+*Overview of the ranger class in the Epic Character Builders Guild: [http://nwn.bioware.com/guilds_registry/viewtopic.html?forum=16203&topic=168212&gid=8061 The Ranger Class] (Login required)
+*Hakpak for 3.5 style ranger (one of many) available at [http://nwvault.ign.com/View.php?view=Hakpaks.Detail&id=5646 3.5 Edition]. Changes to the ranger class include:
+**Both fortitude and [[reflex]] as primary saving throws
+**d8 [[hit die]] instead of d10
+**6 [[skill point]]s per level instead of 4
+**No longer given [[Armor Proficiency (Medium)|medium armor proficiency]]
+**[[Dual-wield]] at level 2 instead of at level 1, [[Improved Two-Weapon Fighting]] at level 6 instead of level 9
+**[[Woodland Stride]] at level 7, [[evasion]] at level 9
+**[[Hide in plain sight]] at level 17 (outside only)
+**Improved spell list
+
+==External Links==
+* {{FRW}}
+[[category:classes]]

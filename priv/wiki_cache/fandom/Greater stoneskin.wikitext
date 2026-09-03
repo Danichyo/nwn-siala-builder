@@ -1,0 +1,40 @@
+{{spell
+|icon=is_grstonesk.gif
+|druidlevel=6
+|magelevel=6
+|innatelevel=6
+|school=[[transmutation]]
+|components=VS
+|range=p
+|area=caster
+|save=harmless
+|spellresistance=no
+|duration=1 [[hour]] / level
+|line=Stoneskin
+|line4=stoneskin
+|line6=greater stoneskin
+|line8=premonition
+|line10=epic warding
+|desc=Grants the caster a [[damage reduction]] of 20/+5. The spell absorbs 10 points of melee damage per caster level, to a maximum of 150, before fading.}}
+{| class="wikitable" style="text-align: center"
+!caster level!!damage absorption
+|-
+  |11||110
+|-
+  |12||120
+|-
+  |13||130
+|-
+  |14||140
+|-
+  |15+||150
+|}
+
+== Notes ==
+
+* This spell displaces earlier castings of itself.
+
+== Custom content notes ==
+* ''script:'' <code>NW_S0_GrStoneSk</code>
+==External links==
+*{{FRW}}

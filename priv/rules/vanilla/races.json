@@ -1,0 +1,386 @@
+[
+  {
+    "id": "dwarf",
+    "name": "Dwarf",
+    "ability_modifiers": {
+      "CON": 2,
+      "CHA": -2
+    },
+    "ability_modifiers_raw": "Dwarven [[ability]] adjustments: +2 [[Con]], -2 [[Cha]]",
+    "favored_class": "fighter",
+    "favored_class_any": false,
+    "favored_class_raw": "[[Favored class]] ([[Fighter]]): A [[Class#Multiclassing|multiclass]] dwarf's fighter class does not count when determining whether he suffers an [[Multiclass penalty|XP penalty for multiclassing]].",
+    "favored_enemy": null,
+    "bonus_feats": [
+      "stonecunning",
+      "darkvision",
+      "hardiness_vs_poisons",
+      "hardiness_vs_spells",
+      "battle_training_vs_orcs",
+      "battle_training_vs_goblins",
+      "battle_training_vs_giants",
+      "skill_affinity_lore"
+    ],
+    "extra_feats": null,
+    "bonus_skill_points": null,
+    "skill_bonuses": {
+      "lore": 2
+    },
+    "skill_bonuses_prose": [
+      "*[[Stonecunning]]: +2 racial bonus on [[Search]] checks made in subterranean areas."
+    ],
+    "special_abilities_raw": [
+      "*[[Stonecunning]]: +2 racial bonus on [[Search]] checks made in subterranean areas.",
+      "*[[Darkvision]]: Dwarves are able to see in the dark.",
+      "*[[Hardiness vs. poisons]]: +2 racial bonus on [[saving throw]]s against [[poison]]s.",
+      "*[[Hardiness vs. spells]]: +2 racial bonus on saving throws against [[spell]]s.",
+      "*[[Battle training vs. orcs|Offensive training vs. orcs]]: +1 racial bonus on [[attack roll]]s against [[orc]]s.",
+      "*[[Battle training vs. goblins|Offensive training vs. goblinoids]]: +1 racial bonus on attack rolls against [[goblinoid]]s ([[goblin]]s, [[hobgoblin]]s, and [[bugbear]]s).",
+      "*[[Battle training vs. giants|Defensive training vs. giants]]: +4 dodge bonus to [[armor class|AC]] against [[giant]]s.",
+      "*[[Skill affinity (lore)]]: +2 racial bonus to [[lore]] checks."
+    ],
+    "size": "medium",
+    "size_status": "derived",
+    "size_raw": "'''Example:''' A medium-sized [[human]] may wield a medium-sized [[longsword]] in one hand or a large-sized [[greatsword]] two-handed. However, a small-sized [[halfling]] may not wield a greatsword and may only wield a longsword two-handed.",
+    "size_note": "Ни Dwarf, ни Elf, ни Half-elf, ни Half-orc не называют себя \"medium\" на СВОЕЙ странице; из пяти это делает только Human, в цитате слева. \"medium\" для всех пяти — вывод по остатку: Category:Playable races содержит ровно 7 записей, и prereq фита `Small stature` называет ровно `gnome, halfling` (сверено при сборке, verify_small_stature_races!/2 в mix wiki.parse) — третьего размера у играбельного персонажа ни одна из двух вики не называет. AGENT_QUEUE.md §3.44.",
+    "size_source": {
+      "wiki": "fandom",
+      "page": "Weapon size",
+      "revid": 59292,
+      "fetched": "2026-08-10"
+    },
+    "cannot_use_tower_shields": false,
+    "cannot_use_large_weapons": false,
+    "source": {
+      "wiki": "fandom",
+      "page": "Dwarf",
+      "revid": 68574,
+      "fetched": "2026-08-01"
+    },
+    "status": "parsed"
+  },
+  {
+    "id": "elf",
+    "name": "Elf",
+    "ability_modifiers": {
+      "DEX": 2,
+      "CON": -2
+    },
+    "ability_modifiers_raw": "Elven [[ability]] adjustments: +2 [[Dex]], -2 [[Con]]",
+    "favored_class": "wizard",
+    "favored_class_any": false,
+    "favored_class_raw": "[[Favored class]] ([[Wizard]]): A [[Class#Multiclassing|multiclass]] elf's wizard class does not count when determining whether he suffers an [[Multiclass penalty|XP penalty for multiclassing]].",
+    "favored_enemy": null,
+    "bonus_feats": [
+      "immunity_to_sleep",
+      "hardiness_vs_enchantments",
+      "weapon_proficiency_elf",
+      "skill_affinity_listen",
+      "skill_affinity_search",
+      "skill_affinity_spot",
+      "keen_sense",
+      "low_light_vision"
+    ],
+    "extra_feats": null,
+    "bonus_skill_points": null,
+    "skill_bonuses": {
+      "listen": 2,
+      "search": 2,
+      "spot": 2
+    },
+    "skill_bonuses_prose": [],
+    "special_abilities_raw": [
+      "*[[Immunity to Sleep|Sleeplessness]]: [[Immunity|Immune]] to [[spell]]s and effects of the '[[Sleep]]' subtype.",
+      "*[[Hardiness vs. Enchantments]]: +2 racial bonus on [[saving throw]]s against [[mind-affecting]] spells.",
+      "*[[Weapon Proficiency (Elf)|Bonus Proficiencies]] ([[Longsword]], [[Rapier]], [[Shortbow]], [[Longbow]])",
+      "*[[Skill Affinity (Listen)]]: +2 racial bonus to [[listen]] checks.",
+      "*[[Skill Affinity (Search)]]: +2 racial bonus to [[Search]] checks.",
+      "*[[Skill Affinity (Spot)]]: +2 racial bonus to [[Spot]] checks.",
+      "*[[Keen Sense]]s: Elves make active Search checks automatically and with no [[movement penalty|movement penalties]].",
+      "*[[Low-light Vision]]: Allows them to see better than normal in the dark."
+    ],
+    "size": "medium",
+    "size_status": "derived",
+    "size_raw": "'''Example:''' A medium-sized [[human]] may wield a medium-sized [[longsword]] in one hand or a large-sized [[greatsword]] two-handed. However, a small-sized [[halfling]] may not wield a greatsword and may only wield a longsword two-handed.",
+    "size_note": "Ни Dwarf, ни Elf, ни Half-elf, ни Half-orc не называют себя \"medium\" на СВОЕЙ странице; из пяти это делает только Human, в цитате слева. \"medium\" для всех пяти — вывод по остатку: Category:Playable races содержит ровно 7 записей, и prereq фита `Small stature` называет ровно `gnome, halfling` (сверено при сборке, verify_small_stature_races!/2 в mix wiki.parse) — третьего размера у играбельного персонажа ни одна из двух вики не называет. AGENT_QUEUE.md §3.44.",
+    "size_source": {
+      "wiki": "fandom",
+      "page": "Weapon size",
+      "revid": 59292,
+      "fetched": "2026-08-10"
+    },
+    "cannot_use_tower_shields": false,
+    "cannot_use_large_weapons": false,
+    "source": {
+      "wiki": "fandom",
+      "page": "Elf",
+      "revid": 68748,
+      "fetched": "2026-08-01"
+    },
+    "status": "parsed"
+  },
+  {
+    "id": "gnome",
+    "name": "Gnome",
+    "ability_modifiers": {
+      "CON": 2,
+      "STR": -2
+    },
+    "ability_modifiers_raw": "Gnomish [[ability]] adjustments: +2 [[constitution]], -2 [[strength]]",
+    "favored_class": "wizard",
+    "favored_class_any": false,
+    "favored_class_raw": "[[Favored class]] ([[wizard]]): A [[Class#Multiclassing|multiclass]] gnome's wizard class does not count when determining whether he suffers an [[Multiclass penalty|XP penalty for multiclassing]].",
+    "favored_enemy": null,
+    "bonus_feats": [
+      "hardiness_vs_illusions",
+      "battle_training_vs_reptilians",
+      "battle_training_vs_goblins",
+      "battle_training_vs_giants",
+      "skill_affinity_listen",
+      "skill_affinity_concentration",
+      "spell_focus",
+      "low_light_vision",
+      "small_stature"
+    ],
+    "extra_feats": null,
+    "bonus_skill_points": null,
+    "skill_bonuses": {
+      "listen": 2,
+      "concentration": 2
+    },
+    "skill_bonuses_prose": [
+      "* [[Small stature]]: Gnomes are small creatures, giving them some benefits and drawbacks.\n** +1 [[size modifier]] to [[attack roll]]s.\n** +1 size modifier to [[armor class]].\n** +4 size bonus to standard [[stealth]] and [[detect]]ion checks (modifies [[hide]], [[listen]], [[move silently]], and [[spot]]).\n** Cannot use [[tower shield]]s.\n** Cannot use [[weapon size|large weapons]].\n** At [[character creation]], choosing a [[package]] other than the default may give gnome characters starting [[item|equipment]] or [[weapon]]-related [[feat]]s (at any level) that they cannot use."
+    ],
+    "special_abilities_raw": [
+      "*[[Hardiness vs. illusions]]: +2 racial bonus on [[saving throw]]s against [[mind-affecting]] [[spell]]s.",
+      "*[[Battle training vs. reptilians|Offensive training vs. reptilians]]: +1 racial bonus on attack rolls against reptilian humanoids.",
+      "*[[Battle training vs. goblins|Offensive training vs. goblinoids]]: +1 racial bonus on attack rolls against [[goblinoid]]s ([[goblin]]s, [[hobgoblin]]s, and [[bugbear]]s).",
+      "*[[Battle training vs. giants|Defensive training vs. giants]]: +4 dodge bonus to AC against [[giant]]s.",
+      "*[[Skill affinity (listen)]]: +2 racial bonus to [[listen]] checks.",
+      "*[[Skill affinity (concentration)]]: +2 racial bonus to [[concentration]] checks.",
+      "*[[Spell focus]] ([[illusion]]): Gnomes add +2 [[difficulty class]] to any illusion spells they cast. This counts as the [[feat]] so characters are able to select [[greater spell focus]] ([[illusion]]) at first level.",
+      "*[[Low-light vision]]: Allows them to see better than normal in the dark.",
+      "* [[Small stature]]: Gnomes are small creatures, giving them some benefits and drawbacks.\n** +1 [[size modifier]] to [[attack roll]]s.\n** +1 size modifier to [[armor class]].\n** +4 size bonus to standard [[stealth]] and [[detect]]ion checks (modifies [[hide]], [[listen]], [[move silently]], and [[spot]]).\n** Cannot use [[tower shield]]s.\n** Cannot use [[weapon size|large weapons]].\n** At [[character creation]], choosing a [[package]] other than the default may give gnome characters starting [[item|equipment]] or [[weapon]]-related [[feat]]s (at any level) that they cannot use."
+    ],
+    "size": "small",
+    "size_status": "verified",
+    "size_raw": "* [[Small stature]]: Gnomes are small creatures, giving them some benefits and drawbacks.\n** +1 [[size modifier]] to [[attack roll]]s.\n** +1 size modifier to [[armor class]].\n** +4 size bonus to standard [[stealth]] and [[detect]]ion checks (modifies [[hide]], [[listen]], [[move silently]], and [[spot]]).\n** Cannot use [[tower shield]]s.\n** Cannot use [[weapon size|large weapons]].\n** At [[character creation]], choosing a [[package]] other than the default may give gnome characters starting [[item|equipment]] or [[weapon]]-related [[feat]]s (at any level) that they cannot use.",
+    "size_note": null,
+    "size_source": {
+      "wiki": "fandom",
+      "page": "Gnome",
+      "revid": 65710,
+      "fetched": "2026-08-01"
+    },
+    "cannot_use_tower_shields": true,
+    "cannot_use_large_weapons": true,
+    "source": {
+      "wiki": "fandom",
+      "page": "Gnome",
+      "revid": 65710,
+      "fetched": "2026-08-01"
+    },
+    "status": "parsed"
+  },
+  {
+    "id": "half_elf",
+    "name": "Half-elf",
+    "ability_modifiers": {},
+    "ability_modifiers_raw": null,
+    "favored_class": null,
+    "favored_class_any": true,
+    "favored_class_raw": "[[Favored class]] (Any): When determining whether a [[Class#Multiclassing|multiclass]] half-elf suffers an [[Multiclass penalty|XP penalty]], his highest-level class does not count.",
+    "favored_enemy": null,
+    "bonus_feats": [
+      "immunity_to_sleep",
+      "hardiness_vs_enchantments",
+      "partial_skill_affinity_listen",
+      "partial_skill_affinity_search",
+      "partial_skill_affinity_spot",
+      "low_light_vision"
+    ],
+    "extra_feats": null,
+    "bonus_skill_points": null,
+    "skill_bonuses": {
+      "listen": 1,
+      "search": 1,
+      "spot": 1
+    },
+    "skill_bonuses_prose": [],
+    "special_abilities_raw": [
+      "*[[Immunity to Sleep|Sleeplessness]]: [[Immunity|Immune]] to [[spell]]s and effects of the '[[Sleep]]' subtype.",
+      "*[[Hardiness vs. Enchantments]]: +2 racial bonus on [[saving throw]]s against [[mind-affecting]] spells.",
+      "*[[Partial Skill Affinity (Listen)]]: +1 racial bonus to [[listen]] checks.",
+      "*[[Partial Skill Affinity (Search)]]: +1 racial bonus to [[Search]] checks.",
+      "*[[Partial Skill Affinity (Spot)]]: +1 racial bonus to [[Spot]] checks.",
+      "*[[Low-light Vision]]: Allows them to see better than normal in the dark."
+    ],
+    "size": "medium",
+    "size_status": "derived",
+    "size_raw": "'''Example:''' A medium-sized [[human]] may wield a medium-sized [[longsword]] in one hand or a large-sized [[greatsword]] two-handed. However, a small-sized [[halfling]] may not wield a greatsword and may only wield a longsword two-handed.",
+    "size_note": "Ни Dwarf, ни Elf, ни Half-elf, ни Half-orc не называют себя \"medium\" на СВОЕЙ странице; из пяти это делает только Human, в цитате слева. \"medium\" для всех пяти — вывод по остатку: Category:Playable races содержит ровно 7 записей, и prereq фита `Small stature` называет ровно `gnome, halfling` (сверено при сборке, verify_small_stature_races!/2 в mix wiki.parse) — третьего размера у играбельного персонажа ни одна из двух вики не называет. AGENT_QUEUE.md §3.44.",
+    "size_source": {
+      "wiki": "fandom",
+      "page": "Weapon size",
+      "revid": 59292,
+      "fetched": "2026-08-10"
+    },
+    "cannot_use_tower_shields": false,
+    "cannot_use_large_weapons": false,
+    "source": {
+      "wiki": "fandom",
+      "page": "Half-elf",
+      "revid": 70584,
+      "fetched": "2026-08-01"
+    },
+    "status": "parsed"
+  },
+  {
+    "id": "half_orc",
+    "name": "Half-orc",
+    "ability_modifiers": {
+      "STR": 2,
+      "INT": -2,
+      "CHA": -2
+    },
+    "ability_modifiers_raw": "Orcish [[ability]] adjustments: +2 [[Str]], -2 [[Int]], -2 [[Cha]]",
+    "favored_class": "barbarian",
+    "favored_class_any": false,
+    "favored_class_raw": "[[Favored class]] ([[Barbarian]]): A [[Class#Multiclassing|multiclass]] half-orc's barbarian class does not count when determining whether he suffers an [[Multiclass penalty|XP penalty for multiclassing]].",
+    "favored_enemy": null,
+    "bonus_feats": [
+      "darkvision"
+    ],
+    "extra_feats": null,
+    "bonus_skill_points": null,
+    "skill_bonuses": {},
+    "skill_bonuses_prose": [],
+    "special_abilities_raw": [
+      "*[[Darkvision]]: Half-orcs are able to see in the dark."
+    ],
+    "size": "medium",
+    "size_status": "derived",
+    "size_raw": "'''Example:''' A medium-sized [[human]] may wield a medium-sized [[longsword]] in one hand or a large-sized [[greatsword]] two-handed. However, a small-sized [[halfling]] may not wield a greatsword and may only wield a longsword two-handed.",
+    "size_note": "Ни Dwarf, ни Elf, ни Half-elf, ни Half-orc не называют себя \"medium\" на СВОЕЙ странице; из пяти это делает только Human, в цитате слева. \"medium\" для всех пяти — вывод по остатку: Category:Playable races содержит ровно 7 записей, и prereq фита `Small stature` называет ровно `gnome, halfling` (сверено при сборке, verify_small_stature_races!/2 в mix wiki.parse) — третьего размера у играбельного персонажа ни одна из двух вики не называет. AGENT_QUEUE.md §3.44.",
+    "size_source": {
+      "wiki": "fandom",
+      "page": "Weapon size",
+      "revid": 59292,
+      "fetched": "2026-08-10"
+    },
+    "cannot_use_tower_shields": false,
+    "cannot_use_large_weapons": false,
+    "source": {
+      "wiki": "fandom",
+      "page": "Half-orc",
+      "revid": 68721,
+      "fetched": "2026-08-01"
+    },
+    "status": "parsed"
+  },
+  {
+    "id": "halfling",
+    "name": "Halfling",
+    "ability_modifiers": {
+      "DEX": 2,
+      "STR": -2
+    },
+    "ability_modifiers_raw": "Halfling [[ability]] adjustments: +2 [[Dex]], -2 [[Str]]",
+    "favored_class": "rogue",
+    "favored_class_any": false,
+    "favored_class_raw": "[[Favored class]] ([[Rogue]]): A [[Class#Multiclassing|multiclass]] halfling's rogue class does not count when determining whether he suffers an [[Multiclass penalty|XP penalty for multiclassing]].",
+    "favored_enemy": null,
+    "bonus_feats": [
+      "skill_affinity_move_silently",
+      "skill_affinity_listen",
+      "lucky",
+      "fearless",
+      "good_aim",
+      "small_stature"
+    ],
+    "extra_feats": null,
+    "bonus_skill_points": null,
+    "skill_bonuses": {
+      "move_silently": 2,
+      "listen": 2
+    },
+    "skill_bonuses_prose": [
+      "* [[Small stature]]: Halflings are small creatures, giving them some benefits and drawbacks.\n** +1 [[size modifier]] to [[attack roll]]s.\n** +1 size modifier to [[armor class|AC]].\n** +4 size bonus to standard [[stealth]] and [[detect]]ion checks (modifies [[hide]], [[listen]], [[move silently]], and [[spot]]).\n** Cannot use [[tower shield]]s.\n** Cannot use [[weapon size|large weapons]].\n** At [[character creation]], choosing a [[package]] other than the default may give halfling characters starting [[item|equipment]] or [[weapon]]-related [[feat]]s (at any level) that they cannot use."
+    ],
+    "special_abilities_raw": [
+      "*[[Skill affinity (move silently)]]: +2 racial bonus to [[move silently]] checks.",
+      "*[[Skill affinity (listen)]]: +2 racial bonus to [[listen]] checks.",
+      "*[[Lucky]]: +1 luck bonus to all [[saving throw]]s.",
+      "*[[Fearless]]: +2 morale bonus to saving throws against [[spell]]s and effects of the [[frightened|fear]] subtype.",
+      "*[[Good aim]]: +1 racial bonus to attack rolls made with [[throwing weapon]]s.",
+      "* [[Small stature]]: Halflings are small creatures, giving them some benefits and drawbacks.\n** +1 [[size modifier]] to [[attack roll]]s.\n** +1 size modifier to [[armor class|AC]].\n** +4 size bonus to standard [[stealth]] and [[detect]]ion checks (modifies [[hide]], [[listen]], [[move silently]], and [[spot]]).\n** Cannot use [[tower shield]]s.\n** Cannot use [[weapon size|large weapons]].\n** At [[character creation]], choosing a [[package]] other than the default may give halfling characters starting [[item|equipment]] or [[weapon]]-related [[feat]]s (at any level) that they cannot use."
+    ],
+    "size": "small",
+    "size_status": "verified",
+    "size_raw": "* [[Small stature]]: Halflings are small creatures, giving them some benefits and drawbacks.\n** +1 [[size modifier]] to [[attack roll]]s.\n** +1 size modifier to [[armor class|AC]].\n** +4 size bonus to standard [[stealth]] and [[detect]]ion checks (modifies [[hide]], [[listen]], [[move silently]], and [[spot]]).\n** Cannot use [[tower shield]]s.\n** Cannot use [[weapon size|large weapons]].\n** At [[character creation]], choosing a [[package]] other than the default may give halfling characters starting [[item|equipment]] or [[weapon]]-related [[feat]]s (at any level) that they cannot use.",
+    "size_note": null,
+    "size_source": {
+      "wiki": "fandom",
+      "page": "Halfling",
+      "revid": 71190,
+      "fetched": "2026-08-01"
+    },
+    "cannot_use_tower_shields": true,
+    "cannot_use_large_weapons": true,
+    "source": {
+      "wiki": "fandom",
+      "page": "Halfling",
+      "revid": 71190,
+      "fetched": "2026-08-01"
+    },
+    "status": "parsed"
+  },
+  {
+    "id": "human",
+    "name": "Human",
+    "ability_modifiers": {},
+    "ability_modifiers_raw": null,
+    "favored_class": null,
+    "favored_class_any": true,
+    "favored_class_raw": "*[[Favored class]] (Any): When determining whether a [[Class#Multiclassing|multiclass]] human suffers an [[Multiclass penalty|XP penalty]], his highest-level class does not count.",
+    "favored_enemy": null,
+    "bonus_feats": [
+      "quick_to_master",
+      "skilled"
+    ],
+    "extra_feats": {
+      "level": 1,
+      "count": 1
+    },
+    "bonus_skill_points": {
+      "level": 1,
+      "extra": 4,
+      "per_level": 1
+    },
+    "skill_bonuses": {},
+    "skill_bonuses_prose": [],
+    "special_abilities_raw": [
+      "*[[Quick to Master]]: 1 extra [[feat]] at 1st level.",
+      "*[[Skilled]]: 4 extra [[skill point]]s at 1st level, plus 1 additional skill point at each following level."
+    ],
+    "size": "medium",
+    "size_status": "derived",
+    "size_raw": "'''Example:''' A medium-sized [[human]] may wield a medium-sized [[longsword]] in one hand or a large-sized [[greatsword]] two-handed. However, a small-sized [[halfling]] may not wield a greatsword and may only wield a longsword two-handed.",
+    "size_note": "Ни Dwarf, ни Elf, ни Half-elf, ни Half-orc не называют себя \"medium\" на СВОЕЙ странице; из пяти это делает только Human, в цитате слева. \"medium\" для всех пяти — вывод по остатку: Category:Playable races содержит ровно 7 записей, и prereq фита `Small stature` называет ровно `gnome, halfling` (сверено при сборке, verify_small_stature_races!/2 в mix wiki.parse) — третьего размера у играбельного персонажа ни одна из двух вики не называет. AGENT_QUEUE.md §3.44.",
+    "size_source": {
+      "wiki": "fandom",
+      "page": "Weapon size",
+      "revid": 59292,
+      "fetched": "2026-08-10"
+    },
+    "cannot_use_tower_shields": false,
+    "cannot_use_large_weapons": false,
+    "source": {
+      "wiki": "fandom",
+      "page": "Human",
+      "revid": 70207,
+      "fetched": "2026-08-01"
+    },
+    "status": "parsed"
+  }
+]

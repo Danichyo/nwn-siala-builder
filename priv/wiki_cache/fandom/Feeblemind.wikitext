@@ -1,0 +1,48 @@
+{{spell
+|icon=is_feebmind.gif
+|magelevel=5
+|innatelevel=5
+|school=[[divination]]
+|components=VS
+|range=m
+|area=single
+|save=[[will]] negates
+|spellresistance=yes
+|immunity=mind-affecting
+|duration=1 [[round]] / 2 levels
+|counters=<del>[[heal (spell)|heal]]</del>
+|desc= <strike>With a successful ranged touch attack</strike>, the caster does 1[[d4]] points of [[intelligence]] damage to the creature for every 4 [[caster level]]s.}}
+{|class="wikitable"
+  !caster level!!intelligence loss
+|-
+  |align=center|9||align=center|2d4
+|-
+  |align=center|12||align=center|3d4
+|-
+  |align=center|16||align=center|4d4
+|-
+  |align=center|20||align=center|5d4
+|-
+  |align=center|24||align=center|6d4
+|-
+  |align=center|28||align=center|7d4
+|-
+  |align=center|32||align=center|8d4
+|-
+  |align=center|36||align=center|9d4
+|-
+  |align=center|40||align=center|10d4
+|}
+
+== Notes ==
+* Despite the description, no touch attack is involved.
+* Maximize spell, oddly, multiplies the total damage by 4 after the d4 rolls are made (thus the maximized spell does not always do the same amount of damage each casting and is significantly more powerful than the empowered spell).
+* Since an ability score cannot be reduced to less than 3 (or 30 less than the base score whichever is higher), it is quite likely that the damage will sometimes exceed the amount the score is actually reduced.
+* This is the only spell that the [[divination]] spell focus feats aid.
+* Due to a .2da bug, ''heal'' is not an additional [[counterspell]] of this spell.
+
+==Custom content notes==
+*''script:'' <code>NW_S0_FeebMind.nss</code>
+==External links==
+* {{FRW}}
+* {{NWN2W}}

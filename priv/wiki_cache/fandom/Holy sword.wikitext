@@ -1,0 +1,36 @@
+{{spell
+|icon=is_x2holyswrd.gif
+|paladinlevel=4
+|innatelevel=4
+|school=[[evocation]]
+|immunity=weapon enchantment
+|components=VS
+|range=t
+|area=melee or creature
+|save=none
+|spellresistance=no
+|duration=1 [[round]] / level
+|line=Holy swords
+|line1=bless weapon
+|line4=holy sword
+|desc=This spell transforms the caster's melee weapon into a powerful [[holy avenger]], a specially blessed weapon that, when wielded by paladin, acts like a +5 holy weapon that [[dispel]]s magic [[on-hit]], delivers an additional +1[[d6]] [[divine damage]] against [[evil]] aligned creatures and grants the wielder a [[spell resistance]] of 16.}}
+
+== Notes ==
+
+*Requires [[Hordes of the Underdark]].
+*For details of the dispel check and effects for non-paladins, see the [[holy avenger]] article.
+* An existing ''holy avenger'' property will block the addition of the ''holy avenger'' property from this spell. In particular, a player should wait for this spell to expire before casting it again on the same weapon.
+* The holy avenger property cannot be added to [[creature weapon]]s.
+* If this spell is cast on a weapon with an [[enhancement bonus]] greater than +5, that larger bonus will apply (as expected) for the duration of this spell. However, once ''holy sword'' expires, a bug in the game causes the weapon's enhancement bonus to be effectively reduced to +5 until the weapon is unequipped. (Once the weapon is re-equipped, it will again function as expected.)
+* This spell can be cast with [[extend spell]] if a level 5 paladin [[spell slot]] is obtained (from an [[item property]], which still requires a base [[wisdom]] of 15).
+
+=== Pencil and paper ===
+* In the [[pencil-and-paper]] version the Holy Sword spell, doesn't temporally enchant a weapon to a holy avenger. Instead it becomes +5 holy weapon, which deals 2d6 extra damage against evil opponents and emits a [[magic circle against evil]] (as the spell). Also, it would temporally overwrite any existing enchantments and abilities of a magic weapon and the spell would automatically end, if the weapon was to leave a paladin's hands for 1 round.
+* Clerics with access to the Glory Domain could cast Holy Sword as a 5th Level Spell.
+
+== Custom content notes ==
+
+* ''script:'' <code>X2_S0_HolySwrd</code>
+==External links==
+* {{FRW}}
+* {{NWN2W|Holy Sword}}

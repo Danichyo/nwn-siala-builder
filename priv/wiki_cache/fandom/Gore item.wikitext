@@ -1,0 +1,15 @@
+{{Weapon|imagefile=Gore.JPG
+  |weaponname=Creature pierce weapon
+  |weapondescription=A gore item represents a creature's horns, sting, or tail.
+  |weight=0.1
+  |cost=0
+  |damage=0
+  |critical=20-20/x2
+  |damagetype=[[piercing damage|piercing]]
+  |size=medium
+  |proficiency=[[Weapon proficiency (creature)|creature]]
+  |category=[[Category:creature items]]
+}}
+
+==Toolset==
+* '''Gore item''' are listed under the [[creature item blueprint category]] of the [[item palette]] in the [[toolset]].

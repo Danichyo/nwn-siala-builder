@@ -1,0 +1,25 @@
+{{spell
+|icon=is_identify.gif
+|bardlevel=1
+|magelevel=1
+|domain=knowledge
+|domainlevel=1
+|innatelevel=<del>1</del> ''2''
+|school=[[divination]]
+|components=VS
+|range=p
+|area=caster
+|save=harmless
+|duration=2 [[round]]s
+|line=Lore
+|line1=identify
+|line5=legend lore
+|desc=Over the next two rounds, the caster gains a bonus of 10 +1 per [[caster level]] to their [[lore]] skill.}}
+
+== Notes ==
+* Items can be identified while the game is paused, so pausing the game before this spell expires allows a player to bypass its short duration.
+* The bonus from this spell is always more than the bonus from ''[[legend lore]]'', despite being a much lower level spell. (For example, at caster level 40 ''identify'' gives +50 to lore checks while ''legend lore'' only gives +30.) The advantage of ''legend lore'' is its long duration, which can be important when pausing the game is not an option (as is the case in many multiplayer games) and when lore checks are made in the middle of dialog.
+* This spell incorrectly has an innate level of 2.
+
+== Custom content notes ==
+* ''script:'' <code>NW_S0_Identify</code>

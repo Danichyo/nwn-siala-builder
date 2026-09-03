@@ -1,0 +1,25 @@
+{{otheruses|the spell|the monster ability|Frost cone}}
+
+{{spell
+|icon=is_conecold.gif
+|magelevel=5
+|innatelevel=5
+|school=[[evocation]]
+|components=VS
+|range=s
+|area=spellcone
+|save=[[reflex]] 1/2
+|spellresistance=yes
+|immunity=cold
+|duration=instant
+|line=Damage cones
+|line1=burning hands
+|line3=mestil's acid breath
+|line5=cone of cold
+|desc=A cone of frost and snow shoots forth from the caster's hands, doing 1[[d6]] points of [[cold damage]] per caster level to all those within the [[area of effect]], to a maximum of 15d6.}}
+
+==Custom content notes==
+*''script:'' <code>NW_S0_ConeCold.nss</code>
+==Appendix==
+===External links===
+*{{FRW}}

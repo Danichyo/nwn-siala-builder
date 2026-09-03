@@ -1,0 +1,25 @@
+{{feat
+|type=general
+|prereq=[[intelligence]] 13+
+|desc=The [[character]] gains a +4 competence bonus to his opposed <del>attack</del> roll when using the [[parry]] skill.
+|use=automatic
+|icon=ife_impparry.gif
+|bonus1=champion of Torm
+|bonus2=fighter
+}}
+
+== Notes ==
+* The word "attack" in the official description is incorrect, as the opposed roll is a [[skill check]], not an attack roll.
+* The bonus is added directly to the parry skill, similar to [[skill focus]], but with a slightly larger (and [[stack]]ing) bonus.
+
+==Builder notes==
+'''Item feat:''' No, but it can be added with custom content.
+
+==Custom content notes==
+'''Removable:''' yes
+
+'''Reusable:''' yes
+
+'''Script:''' hardcoded
+
+*This feat can be added to [[iprp_feats.2da]] to make it available as an item feat.

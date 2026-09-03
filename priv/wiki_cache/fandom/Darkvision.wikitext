@@ -1,0 +1,26 @@
+{{feat
+|type=classrace
+|prereq=[[dwarf]], [[half-orc]], [[shadowdancer]] 2, [[pale master]] 3, [[red dragon disciple]] 10
+|desc=This feat grants the ability to see in the dark.
+|use=automatic
+|icon=ife_darkvis.gif
+|class1=pale master
+|class2=red dragon disciple
+|class3=shadowdancer
+}}
+
+== Notes ==
+* ''Darkvision'' does not have the same effect as [[ultravision]]; it does not allow sight in magical [[darkness]]. ''Ultravision'' is needed to see within magical [[darkness]].
+* This ability negates the +5 increase to [[spot]] [[difficulty class|DCs]] at night, even if the spotter does not have a source of light.
+* When the brightness of the area lowering to 15 or below (after dusk), then activated a dynamic glow VFX for this creature, hinting that this is a works the Darkvision. Or also if set the Brightness on 15- in Moon Diffuse Color in area visual properties.
+
+== Builder notes ==
+'''Item feat:''' No, but there is an equivalent item property called "darkvision".
+
+== Custom content notes ==
+'''Removable:''' yes
+
+'''Reusable:''' yes
+
+'''Script:''' [[hardcoded]]
+[[category:item properties]]

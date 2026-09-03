@@ -1,0 +1,22 @@
+{{feat
+|type=class
+|prereq=[[paladin]] 1, [[champion of Torm]] 1
+|desc=With this feat, characters can heal damage equal to their class level multiplied by their [[charisma]] [[ability modifier|modifier]].
+|use=selected. When used against [[undead]] creatures, it is treated as a [[touch attack]] spell that delivers [[divine damage|damage]] instead of healing.
+|icon=ife_layon.gif
+|class1=champion of Torm
+|class2=paladin
+}}
+
+== Notes ==
+
+*This ability is usable once per day (even for characters with both paladin and champion of Torm levels).
+*Paladin and champion of Torm levels [[stack]] for this feat; "class level" means the sum of paladin and champion levels.
+*The minimum amount of healing (or damage) delivered is 1, even if the character has a negative charisma modifier.
+* For this ability, "undead creatures" includes both members of the undead [[racial type]] and creatures with levels in the undead [[monster class]].
+* This ability inflicts [[divine damage]] when used against undead creatures.
+*On a touch attack [[critical hit]] twice the normal damage is inflicted.
+
+== Custom content notes ==
+
+*''impact script:'' <code>NW_S2_LayOnHand</code>

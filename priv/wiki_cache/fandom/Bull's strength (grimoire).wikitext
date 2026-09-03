@@ -1,0 +1,21 @@
+{{Grimoire spell|imagename=Is bullstr.gif
+|spellname=Bull's Strength
+|casterlevel=[[Cleric]] 2, [[Sorcerer]] / [[Wizard (class)|Wizard]] 2, [[Strength domain (grimoire)|Strength]] 2
+|innatelevel=2
+|school=[[Transmutation]]
+|descriptors=None
+|components=V, S
+|range=[[touch attack|Touch]]
+|immunities=None
+|savingthrow=Harmless
+|spellresistance=No
+|targettype=Single
+|duration=1 [[hour]] / level
+|description=The target creature's [[Strength]] is increased by 1d4+1.
+}}
+
+== Notes ==
+*{{Grimoire spell change|pagename=[[Bull's strength]]}}
+{{g_clr}}
+{{g_sorwiz}}
+{{g_strength}}

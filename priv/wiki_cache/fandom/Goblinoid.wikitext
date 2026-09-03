@@ -1,0 +1,11 @@
+'''Goblinoids''' are stealthy [[humanoid]]s who live by hunting and raiding.
+
+Examples include:
+* [[Goblin]]
+* [[Hobgoblin]]
+* [[Gnoll]]
+* [[Bugbear]]
+
+'''See also:''' [[:Category:Goblinoids]]
+
+[[category:races]]

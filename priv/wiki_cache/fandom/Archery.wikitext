@@ -1,0 +1,19 @@
+'''Type of Feat''': [[Class]]
+
+'''Prerequisite''': [[Archer]] Only
+
+'''Specifics''': At Level 3, 7, 11, 15 and 19 the Archer may choose a skill from the following list:
+
+*[[Killing Shot]]
+*[[Many Shot]]
+*[[Perfect Shot]]
+*[[Called Shot]]
+*[[Rapid Shot]]
+*[[Zen Archery]]
+*[[Improved critical]] (Ranged)
+*[[Weapon Focus]] (Ranged)
+
+==Notes==
+*Added in the [[PRC Expansion Pack]].
+
+[[Category:PRC feats]]

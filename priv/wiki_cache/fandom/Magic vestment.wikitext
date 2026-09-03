@@ -1,0 +1,33 @@
+{{spell
+|icon=is_x2magvest.gif
+|clericlevel=3
+|innatelevel=3
+|school=[[transmutation]]
+|immunity=armor enchantment
+|components=VS
+|range=t
+|area=creature, armor, or shield
+|save=none
+|spellresistance=no
+|duration=1 [[hour]] / level
+|desc=You empower the touched armor or shield with a +1 [[armor class|AC]] bonus per 3 caster levels (maximum of +5).}}
+{|class="wikitable" style="text-align:center"
+!caster level!!AC bonus
+|-
+| 5 || +1
+|-
+| 6 || +2
+|-
+| 9 || +3
+|-
+|12 || +4
+|-
+|15+|| +5
+|}
+
+==Notes==
+*Requires [[Hordes of the Underdark]].
+*If targeted on a creature, this spell will affect that creature's armor. To target a shield, the shield must be the direct target of this spell. (If it were not for a bug in the script, the spell would target an equipped shield if the target was a creature not wearing armor.)
+
+==Custom content notes==
+*''script:'' <code>X2_S0_MagcVest.nss</code>

@@ -1,0 +1,27 @@
+[[Image:Isk taunt.gif|right|Taunt]]
+'''Taunt''' is used to provoke an enemy into dropping his guard for a short time.
+
+* '''Ability:''' [[charisma]]
+
+* '''Classes:''' [[barbarian]], [[bard]], [[blackguard]], [[paladin]]
+
+* '''[[Cross-class skill]]:''' yes
+
+* '''[[untrained skill check|Requires training]]:''' no
+
+* '''Check:''' The [[difficulty class]] is a [[concentration]] check made by the target against the character's taunt skill roll. It is considered an attack. If the taunt is successful, the opponent suffers an [[armor class]] [[dodge bonus|penalty]] equal to the difference between the Taunt roll and the defender's roll (to a max of a -6 penalty) for 5 [[round]]s. The target will also suffer a 30% chance of [[spell failure]], if they don't resist the taunt.
+
+* '''Special:''' Taunt penalties are not cumulative.
+
+* '''Use:''' Select skill and then target creature.
+
+== Notes ==
+
+* If the taunt roll equals the concentration roll, the taunt is successful. There is no armor class (AC) reduction in this case, but the spell failure aspect does apply.
+* A taunt can be attempted only once every six seconds, even though each attempt takes less time than that.
+* This skill cannot be used by someone trying to remain unseen (as its use involves being seen). That is, it cannot be used while [[invisible]] or in [[stealth]] mode, even if it becomes clear that the target has seen through the attempt to remain unseen.
+* Reducing an opponent's AC provides similar benefits to increasing the character's [[attack bonus]], but without counting towards the +20 [[attack bonus cap]].
+*Taunt counts as an offensive action but is not an attack per se.
+* A taunting character is [[flat-foot]]ed. This condition lasts for a bit less than a round, so it is possible to taunt a low-level opponent (one with at most one attack per round) without receiving an attack while flat-footed.
+*If a character makes an [[attack of opportunity]] while taunting, the taunt is interrupted. However, unless the character exits combat mode, the next taunt is instant, allowing the character to continue attacking without interruption.
+[[category:skills]]

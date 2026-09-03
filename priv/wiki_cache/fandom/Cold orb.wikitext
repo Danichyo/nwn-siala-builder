@@ -1,0 +1,15 @@
+{{Grimoire spell|imagename=Is coldorb.jpg
+|spellname=cold orb
+|casterlevel=[[sorcerer]] / [[wizard]] 4
+|innatelevel=4
+|school=[[evocation]]
+|descriptors=cold
+|components=V, S
+|range=short
+|immunities=cold
+|savingthrow=[[fortitude]] half
+|spellresistance=yes
+|targettype=single
+|duration=instantaneous
+|description=One orb of cold shoots from the caster's hand at the target.  The caster must succeed at a ranged touch attack to hit the target.  The orb deals 1d6 points of [[cold damage]] per [[caster level]].  A creature struck by the orb becomes [[blind]]ed from the frost for 1 round.  A successful [[fortitude]] save reduces damage by half and negates the blindness.}}
+{{g_sorwiz}}

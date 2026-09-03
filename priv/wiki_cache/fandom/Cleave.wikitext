@@ -1,0 +1,35 @@
+{{feat
+|type=general
+|prereq=[[strength]] 13+, [[power attack]]
+|reqfor=[[great cleave]], [[blackguard]]
+|desc=If the [[character]] kills an opponent, he gets a [[free attack]] against any opponent who is within [[melee]] weapon range.
+|use=automatic
+|special=[[Monk]]s receive this feat at first level.
+|icon=ife_cleave.gif
+|class1=monk
+|bonus1=champion of Torm
+|bonus2=fighter
+}}
+<!-- The above is BioWare text. Please do not edit mercilessly. -->
+
+== Notes ==
+
+* This feat cannot be used while wielding a [[ranged weapon]].
+* The attack signaled as cleave occurs after the killing attack and is merely a regular attack upgraded to full AB (unless it is an off-hand attack). An additional attack is added to the free attack progression (not signaled as cleave) to give the extra attack.
+* Only one cleave attack is allowed in a combat [[round]], even if multiple opponents are killed in that round (due to multiple attacks per round). This limitation is removed with [[great cleave]].
+* The kill must be caused by damage from the weapon itself. Damage from [[on-hit]] properties, such as from [[darkfire]] or [[flame weapon]], will not trigger a cleave when that damage kills an opponent. A kill from something other than damage, such as [[devastating critical]], also does not trigger a cleave.
+* If a [[sneak attack]] is possible, sneak attack damage will be applied to a successful cleave without special mention in the combat log.
+* Characters with many attacks per round (e.g. dual-kama-wielding monks) seem to trigger cleave improperly, finishing their flurry on a single target and not switching to the next target till the next flurry. This most often happens on a target that would be killed by the next attack in the [[flurry]] (turning the cleave into the killing blow).  It can also happen that cleave is a later blow than the killing blow causing the "promoted" status of cleave to be applied to a meaningless attack.
+* In certain situations, a kill does not have to occur in order to trigger a cleave. For instance, damage is not always dealt in the order of the attacks in a flurry, and healing can occur in between the attack and the damage.
+
+==Builder notes==
+
+'''Item feat:''' yes
+
+==Custom content notes==
+
+'''Removable:''' yes
+
+'''Reusable:''' yes
+
+'''Script:''' [[hardcoded]]

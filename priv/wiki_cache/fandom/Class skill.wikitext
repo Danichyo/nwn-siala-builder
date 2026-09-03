@@ -1,0 +1,7 @@
+A '''class skill''' is a [[skill]] that is closely related to the role of a given [[class]], making it easier for that class to learn that skill. (Each class has its own list of class skills.) The opposite of a class skill is a [[cross-class skill]].
+The difference between "class" and "cross-class" is determined based on the class being advanced during [[level-up]].
+
+It takes one [[skill point]] to add a [[rank]] in a class skill. The highest the ranks in a class skill can be raised to is character level plus three.
+
+[[Category:Skills| Class skill]]
+[[Category:Game rules]]

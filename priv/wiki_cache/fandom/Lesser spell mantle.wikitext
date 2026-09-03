@@ -1,0 +1,30 @@
+{{spell
+|icon=is_lsspturn.gif
+|magelevel=5
+|innatelevel=5
+|school=[[abjuration]]
+|components=VS
+|range=p
+|area=caster
+|save=harmless
+|spellresistance=no
+|duration=1 [[round]] / level
+|counters=<del>[[lesser spell breach]]</del>
+|line=Spell mantle
+|line5=lesser spell mantle
+|line7=spell mantle
+|line9=greater spell mantle
+|desc=Creates a barrier around the caster that [[spell level absorption|absorbs]] all incoming spells and spell-like abilities. It can absorb up to 1[[d4]]+6 levels of spells before collapsing.}}
+
+== Notes ==
+
+* Mantles do not absorb all spells, just the ones that check [[spell resistance]].
+* This spell replaces earlier castings of itself, and it also displaces earlier castings of ''spell mantle'' and ''greater spell mantle''.
+*The [[empower spell|empowered]] version of this spell occupies a level 7 [[spell slot]] and absorbs 10-15 spell levels before collapsing, which is similar to what is absorbed by ''[[spell mantle]]''. Mages with the empower spell feat &mdash; particularly [[sorcerer]]s, who have a limited spell selection &mdash; may want to use this spell (empowered) instead of ''spell mantle'', at least until ''spell mantle'' can be empowered.
+* Due to a .2da bug, ''lesser spell breach'' is not an additional [[counterspell]] of this spell.
+
+== Custom content notes ==
+* ''script:'' <code>NW_S0_LsSpMant</code>
+==External links==
+*{{FRW}}
+* {{NWN2W|Spell Mantle, Lesser}}

@@ -1,0 +1,12 @@
+'''Type of Feat''': [[General]]
+
+'''Prerequisites''': [[Base Attack Bonus]] 19, [[Perfect shot]]
+
+'''Specifics''': When you make an attack using [[pinpoint accuracy]], the critical [[threat range]] on the weapon increases by 2.
+
+'''Use''': Automatic
+
+==Notes==
+*Added in the [[PRC Expansion Pack]].
+
+[[Category:PRC feats]]

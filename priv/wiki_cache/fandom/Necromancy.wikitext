@@ -1,0 +1,67 @@
+[[Image:Is necromancy.gif|right|Necromancy]]
+
+Spells from the '''necromancy''' [[spell school]] manipulate, create, or destroy life.
+
+'''Prohibited school:''' [[divination]]<br />
+'''Prohibited to:''' no one
+
+== Spells ==
+
+The necromancy spells are the following, organized by [[innate level]].
+Since [[wizard]]s have a greater interest in spell schools than other classes (because they can specialize in a school), spells that are not wizard spells are ''in italics''.
+
+<u>Level 0</u>
+*''[[Inflict minor wounds]]''
+
+<u>Level 1</u>
+*''[[Inflict light wounds]]''
+*[[Negative energy ray]]
+*[[Ray of enfeeblement]]
+*[[Scare]]
+
+<u>Level 2</u>
+*[[Clarity]] (Bug, meant to be abjuration)
+*[[Death armor]]
+*[[Ghoul touch]]
+*''[[Inflict moderate wounds]]''
+
+<u>Level 3</u>
+*[[Animate dead]]
+*[[Contagion]]
+*[[Fear (spell)|Fear]]
+*''[[Healing sting]]''
+*''[[Infestation of maggots]]''
+*''[[Inflict serious wounds]]''
+*[[Negative energy burst]]
+*''[[Poison (spell)|Poison]]''
+*[[Vampiric touch]]
+
+<u>Level 4</u>
+*''[[Death ward]]''
+*[[Enervation]]
+*''[[Inflict critical wounds]]''
+
+<u>Level 5</u>
+*''[[Circle of doom]]''
+*''[[Slay living]]''
+
+<u>Level 6</u>
+*[[Circle of death]]
+*[[Create undead]]
+*''[[Harm]]''
+*[[Undeath to death]]
+
+<u>Level 7</u>
+*[[Control undead]]
+*''[[Destruction]]''
+*[[Finger of death]]
+*''[[Greater restoration]]''
+
+<u>Level 8</u>
+*''[[Create greater undead]]''
+*[[Horrid wilting]]
+
+<u>Level 9</u>
+*[[Energy drain]]
+*[[Wail of the banshee]]
+[[Category:Spell schools]]

@@ -1,0 +1,13 @@
+'''Type of Feat''': [[Class]]
+
+'''Prerequisite''': [[Iaijutsu master]] level 10
+
+'''Specifics''': An [[Iaijutsu master]] adds her [[Charisma]] modifier to each extra damage die gained from using the [[Iaijutsu attack]]. 
+
+'''Use''': Selected.
+
+
+==Notes==
+*Added in the [[PRC Expansion Pack]].
+
+[[Category:PRC feats]]

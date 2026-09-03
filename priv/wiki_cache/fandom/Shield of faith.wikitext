@@ -1,0 +1,34 @@
+{{spell
+|icon=is_x1shlfat.gif
+|clericlevel=1
+|innatelevel=1
+|school=[[abjuration]]
+|components=VS
+|range=t
+|area=single
+|save=none
+|spellresistance=no
+|duration=1 [[turn]] / level
+|desc=The target gains a +2 [[deflection bonus]] to their [[armor class]], with an additional +1 bonus for every six levels of the caster (maximum of +5).}}
+
+{|class="wikitable" style="text-align:center"
+ !caster level!!defection bonus
+|-
+ |1||+2
+|-
+ |6||+3
+|-
+ |12||+4
+|-
+ |18+||+5
+|}
+
+== Notes ==
+* Added in the [[expansion pack]]s.
+
+== Custom content notes ==
+* ''script:'' <code>x0_s0_ShieldFait</code>
+* In the [[OnSpellCastAt event]], this spell identifies itself as ''[[camouflage]]''.
+
+==External Links==
+* {{FRW}}

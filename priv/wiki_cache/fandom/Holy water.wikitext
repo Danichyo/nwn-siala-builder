@@ -1,0 +1,13 @@
+[[Image:Holywater.gif|left]]
+A vial of '''holy water''' will cause 2[[d4]] points of [[divine damage|damage]] to any [[undead]] splashed by it.
+
+==Notes==
+* Introduced in the [[expansion pack]]s.
+* The grenade will not affect friendly creatures nor neutral [[non-player character]]s who are not associates of [[player character]]s (the "standard" hostile targeting scheme).
+* A ranged [[touch attack]] is performed to see if the holy water hits; damage is doubled on a [[critical hit]].
+* There is additionally "splash damage" of 1 divine damage to each valid undead target (including the original target) within a {{AoE|huge}} area.
+
+==Custom content notes==
+*''script:'' <code>X0_S3_Holy</code>
+[[Category:Grenade-like weapons]]
+[[Category:Item powers]]

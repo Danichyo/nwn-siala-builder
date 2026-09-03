@@ -1,0 +1,117 @@
+[[Категория:Классы]]
+Существует давний спор о том, какой из магов лучше: колдун или [[Волшебник|волшебник]]. Что ж, колдун подойдет тем, кто любит гибко менять свое поведение во время боя, не думаю о тех заклинаниях, которые заготовил или нет. Однако, ограниченный набор заклинаний заставит весьма вдумчиво подойти к их выбору на каждом уровне и, вполне возможно, произвести де-лвл. 
+
+== Изменения в классе на Сиале ==
+Класс колдуна на шарде не изменён сам по себе. Но на него значительно повлияли изменения из раздела [[Магия]].
+
+=== Фамильяры ===
+У колдунов и [[Волшебник|волшебников]] отключено вселение в призванного фамильяра.
+
+== Измененные и новые заклинания ==
+<div style="column-count:5">
+*[[Acid Fog]]
+*[[Animate dead]]
+*[[Balagarn's iron horn]]
+*[[Ball lightning]]
+*[[Bigby's clenched fist]]
+*[[Bigby's crushing hand]]
+*[[Bigby's forceful hand]]
+*[[Bigby's grasping hand]]
+*[[Bigby's interposing hand]]
+*[[Blackstaff]]
+*[[Charm Monster]]
+*[[Charm Person]]
+*[[Circle of death]]
+*[[Clairaudience/clairvoyance]]
+*[[Clarity]]
+*[[Color Spray]]
+*[[Cone of Cold]]
+*[[Contagion]]
+*[[Control undead]]
+*[[Create undead]]
+*[[Darkness]]
+*[[Daze]]
+*[[Death armor]]
+*[[Displacement]]
+*[[Energy drain]]
+*[[Enervation]]
+*[[Evard's Black Tentacles]]
+*[[Expeditious retreat]]
+*[[Fear]]
+*[[Feeblemind]]
+*[[Find Traps]]
+*[[Finger of Death]]
+*[[Fireball]]
+*[[Firebrand]]
+*[[Flame arrow]]
+*[[Flame weapon]]
+*[[Flare]]
+*[[Flesh to Stone]]
+*[[Gate]]
+*[[Gedlee's electric loop]]
+*[[Ghoul touch]]
+*[[Great thunderclap]]
+*[[Greater magic weapon]]
+*[[Gust of wind]]
+*[[Horrid wilting]]
+*[[Incendiary cloud]]
+*[[Ironguts]]
+*[[Ice Dagger]]
+*[[Isaac's Greater Missile Storm]]
+*[[Isaac's lesser missile storm]]
+*[[Light]]
+*[[Lightning bolt]]
+*[[Magic weapon]]
+*[[Mass blindness/deafness]]
+*[[Mass Charm]]
+*[[Meteor swarm]]
+*[[Mind fog]]
+*[[Mordenkainen's disjunction]]
+*[[Negative energy ray]]
+*[[Phantasmal Killer]]
+*[[Power word, kill]]
+*[[Power word, stun]]
+*[[Prismatic spray]]
+*[[Ray of enfeeblement]]
+*[[Ray of Frost]]
+*[[Resistance]]
+*[[Scare]]
+*[[Shades]]
+*[[Sleep]]
+*[[Stone Bones]]
+*[[Stream of Flame]]
+*[[Summon creature I]]
+*[[Summon creature II]]
+*[[Summon creature III]]
+*[[Summon creature IV]]
+*[[Summon creature V]]
+*[[Summon creature VI]]
+*[[Summon creature VII]]
+*[[Summon creature VIII]]
+*[[Summon creature IX]]
+*[[Tasha's hideous laughter]]
+*[[Tenser's transformation]]
+*[[Time stop]]
+*[[True seeing]]
+*[[True strike]]
+*[[Undeath to death]]
+*[[Vampiric touch]]
+*[[Wail of the banshee]]
+*[[Weird]]
+*[[Отражение]]
+</div>
+
+== Стандартные билды ==
+Колдун - сильнейший пвп-класс на шарде, потому обычно стараются взять как можно больше уровней колдуна.
+
+Игроки часто называют колдуна "сорком"; это результат кальки с английского слова "Sorcerer".
+
+* 39 сорк 1 [[Рейнджер|рейнджер]] - персонаж кастер
+
+* 26 сорк 10 [[Тусклый мастер|ПМ]] 4 [[Чёрный страж|БГ]] - персонаж маг-танк
+
+* 36 сорк 4 [[Паладин|пал]] - персонаж кастер с высокими спасами
+
+== Ссылки ==
+
+* [http://nwn.wikia.com/wiki/Sorcerer Сорк в англоязычной википедии]

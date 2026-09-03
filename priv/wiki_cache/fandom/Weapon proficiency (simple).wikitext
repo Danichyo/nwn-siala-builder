@@ -1,0 +1,37 @@
+{{feat
+|type=general
+|desc=This feat allows effective use of all simple weapons, including the [[club]], [[dagger]], [[mace]], [[sickle]], [[spear]], [[morningstar]], [[quarterstaff]], [[light crossbow|light]] and [[heavy crossbow]]s, [[dart]], and [[sling]].<br />
+'''Normal:''' A character cannot equip weapons they are not proficient in.
+|use=All characters except for [[druid]]s, [[monk]]s, [[rogue]]s, and [[wizard]]s are automatically proficient with all simple weapons. <del>The spell ''Tenser's transformation'' gives a wizard a temporary proficiency with all simple weapons.</del>
+|icon=ife_weppro_sim.gif
+|class1=arcane archer
+|class2=assassin
+|class3=barbarian
+|class4=bard
+|class5=blackguard
+|class6=champion of Torm
+|class7=cleric
+|class8=dwarven defender
+|class9=fighter
+|class10=Harper scout
+|class11=paladin
+|class12=ranger
+|class13=shadowdancer
+|class14=sorcerer}}
+
+== Notes ==
+* Until the 1.69 [[patch]], the [[trident]] was a simple weapon. It is now a [[weapon proficiency (martial)|martial weapon]].
+
+==Builder notes==
+'''Item feat:''' yes
+
+==Custom content notes==
+'''Removable:''' yes
+
+'''Reusable:''' yes
+
+'''Script:''' [[baseitems.2da]]
+
+*A custom class must have this feat in their feat list, or that class will not be able to select it as a general feat.
+[[category:Feats restricted by class]]
+[[Category:Weapon proficiency feats]]

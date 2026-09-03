@@ -1,0 +1,15 @@
+'''Description:''' Clerics who take the Sun domain are better able to turn undead than their brethren, and gain spells that are harmful to undead.[[Image:Id sun.gif|right|Sun]]
+== Domain special abilities ==
+
+Exceptional turning - Add <strike>1[[d6]]</strike> 1d4 to all [[turn undead|turning]] checks to determine the maximum [[hit dice]] of [[undead]] turned. Also add <strike>1d4</strike> 1d6 to the number of undead hit dice turned.
+
+== Bonus spells ==
+* Level 2 [[Searing light]]
+* Level 7 [[Sunbeam]]
+
+== Notes ==
+
+* The dice listed in the description are reversed; 1d4 is added to the turning check, while 1d6 is added to "the number of undead turned".
+* For the conversion between turning check and the maximum hit die of an individual undead that can be turned, see the table in the [[turn undead]] article. On average, the sun domain bonus typically adds 1 to the highest level creature that can be turned.
+* This domain affects the turn undead ability, not undead specifically; it applies equally to all races that can be turned (if the ability to turn races other than undead is granted by another domain or the [[planar turning]] feat).
+[[category:cleric domains]]

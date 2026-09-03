@@ -1,0 +1,31 @@
+{{feat
+|type=general
+|reqfor=[[improved knockdown]]
+|desc=A character with this [[feat]] can attempt to knock his [[melee]] opponents to the ground. The character makes an [[attack roll]] at -4, and if successful the defender makes an opposed [[discipline]] [[skill check|check]] against the character's attack roll. If the character wins, the defender is knocked to a [[prone]] position.
+|use=selected. Prone characters cannot attack. Characters receive a +4 bonus to attack prone opponents in melee, but a -4 penalty to attack them with a [[ranged weapon]]. A character can only make a ''knockdown'' attempt on opponents that are one [[size category]] larger than himself, or smaller. The opponent gets a +4 bonus on his opposed check for every size category he is larger than the attacker, or a -4 penalty for every size category he is smaller. [[Monk]]s receive this feat for free at level 6.
+|icon=ife_knockdow.gif
+|class1=monk
+|bonus1=champion of Torm
+|bonus2=fighter
+}}
+
+== Notes ==
+
+* This feat cannot be used while wielding a [[ranged weapon]].
+* The prone state lasts for one [[round]] (minus the [[flurry]] in which the knockdown was made).
+* A knockdown made on an already prone target will not increase the duration of the prone condition.
+* Since monks receive this feat automatically, it cannot be selected when gaining a monk level (even prior to level 6).
+* The combat log will report a knockdown attempt as '''*resisted*''' if the target won the opposed check and as '''*failed*''' if the target is not a valid target for this feat.
+* Due to a bug, knockdown attempts that miss due to [[concealment]] will still deplete ''[[stoneskin]]'', ''[[greater stoneskin]]'' and ''[[premonition]]'', as if the attack had hit. There is no feedback regarding this.
+
+== Builder notes ==
+
+'''Item feat:''' yes
+
+== Custom content notes ==
+
+'''Removable:''' yes
+
+'''Reusable:''' yes
+
+'''Script:''' hardcoded

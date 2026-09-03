@@ -1,0 +1,54 @@
+{{spell
+|icon=is_icestorm.gif
+|bardlevel=6
+|druidlevel=5
+|magelevel=4
+|domain=magic
+|domainlevel=5
+|domain2=water
+|domain2level=5
+|innatelevel=4
+|school=[[evocation]]
+|components=VS
+|range=l
+|area=huge
+|save=none
+|spellresistance=yes
+|duration=instant
+|desc=All creatures in the area of effect take 3[[d6]] points of [[bludgeoning damage]] and 2d6 points of [[cold damage]]. ''Ice storm'' will do an additional 1d6 cold damage per additional 3 caster levels.}}
+{| class="wikitable" style="text-align:center"
+  !caster level!!bludgeon per cast!!cold per cast
+ |-
+  |7||3d6||4d6
+ |-
+  |9||3d6||5d6
+ |-
+  |12||3d6||6d6
+ |-
+  |15||3d6||7d6
+ |-
+  |18||3d6||8d6
+ |-
+  |21||3d6||9d6
+ |-
+  |24||3d6||10d6
+ |-
+  |27||3d6||11d6
+ |-
+  |30||3d6||12d6
+ |-
+  |33||3d6||13d6
+ |-
+  |36||3d6||14d6
+ |-
+  |39||3d6||15d6
+|}
+
+==Notes==
+*This is one of the few evocation spells that allows no reflex save for half damage, making it useful against characters with [[evasion]].
+*When cast as a cleric domain spell, ''ice storm'' counts as a fourth level spell for immunity. Thus, a [[globe of invulnerability]] will block a cleric's ''ice storm''.
+
+==Custom content notes==
+*''script:'' <code>NW_S0_IceStorm.nss</code>
+
+[[Category:Shifted abilities]]

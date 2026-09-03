@@ -1,0 +1,41 @@
+{{Weapon|imagefile=Battleaxe.jpg
+  |weaponname=Battleaxe
+  |weapondescription=The '''battleaxe''' consists of a single blade atop a three- or four-foot shaft. It is a versatile [[weapon]], and remains a useful tool when not in combat.
+  |weight=7
+  |cost=10
+  |damage=1d8
+  |critical=x3
+  |damagetype=[[slashing damage|Slashing]]
+  |size=Medium
+  |proficiency=[[Weapon proficiency (martial)|Martial]]
+  |category=[[Category:Axes]] [[Category:Martial weapons]]
+}}
+
+== Toolset ==
+*Listed incorrectly in the [[Toolset]] as a [[Two-handed axe blueprint category|two-handed axe]].
+
+== Sentinel +1 ==
+This weapon bears the mark of the dwarf [[Marrok]], Master Blacksmith of [[Neverwinter]]'s Shining Knight Arms and Armor. He forged it early in 1373 DR, to aid the heroes who sought to free his quarantined city from the virulent grasp of the so-called [[Wailing Death]].
+
+*[[Enhancement bonus]]: +1
+*[[Light]]: (low, white)
+*[[Skill]] bonus: +2 ([[listen]], [[spot]])
+*[[Item level restriction|Required level]]: 6
+
+== Sentinel +3 ==
+This weapon bears the mark of the dwarf [[Barun Silverblade|Barun]], a Master Blacksmith who worked from a makeshift forge in the Uthgardt village of Beorunna's Well. He forged it late in 1373 DR, to aid the war effort against [[Aribeth|Lady Aribeth the Betrayer]], who was then marching against the northern city of Neverwinter and the Lords' Alliance.
+
+*[[Cast spell]]: [[true seeing]] ([[caster level]] 9, once per [[day]])
+*Enhancement bonus: +2
+*Light: (low, white)
+*Skill bonus: +4 (listen, spot)
+*Required level: 16
+
+== Sentinel +8 ==
+When the heroes of Neverwinter became famous, the dwarven smith of Neverwinter crafted a special axe in honor of their deeds. During the crafting of this weapon, a fever consumed the smith and drove him to work such magical forces as he had never crafted before. Afterwards he claimed that a god had come upon him and blessed his work.  Mysteriously, the weapon disappeared while on display in the Halls of Justice and has never been seen again.
+
+*Cast spell: true seeing (caster level 9, twice per day)
+*Enhancement bonus: +8
+*Light: (low, white)
+*Skill bonus: +6 (listen, spot)
+*Required level: 23

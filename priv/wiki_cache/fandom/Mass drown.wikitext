@@ -1,0 +1,27 @@
+[[Image:Is x1drown.gif|right|Drown]]
+
+'''Caster level:''' [[druid]] 9
+
+'''Innate level:''' 9 
+
+'''School:''' [[transmutation]]
+
+'''Component(s):''' V, S 
+
+'''Range:''' short
+
+'''Save:''' [[fortitude]] negates 
+
+'''Spell resistance:''' yes
+
+'''Area of effect/target:''' huge
+
+'''Duration:''' instant
+
+'''Description:''' The caster creates water in the lungs of the target [[creature]]s. Any drowned creature takes 90% of its current [[hit point]]s as damage. [[Construct|Golems]] and other nonliving creatures cannot be drowned.
+
+==Notes==
+*'''Not implemented in Neverwinter Nights by default.'''
+*Referenced by the [[aquatic elf]] subrace (provided here for completeness).
+
+[[category:custom content spells]]

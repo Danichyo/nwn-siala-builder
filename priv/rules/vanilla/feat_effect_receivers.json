@@ -1,0 +1,306 @@
+{
+  "_layer": "vanilla",
+  "_hand_written": true,
+  "_note": "ЧТО ИМЕННО МЕНЯЕТ ЭФФЕКТ ФИТА — метка получателя, задача 3.93 (25.08.2026).\n\nЧитает её ровно одно место: `Rules.FeatChoices.gaps/3` перед тем, как напечатать {:not_modelled, {:feat_bonus, id}} — «прибавку от этого фита в статы не считаем». Оговорка верна, только если прибавка падает в число, которое мы вообще печатаем (CLAUDE.md §9, решение Dan 10.08.2026: гэп — дырка в нашем ОТВЕТЕ, а не в наших знаниях). Пятнадцать повторяемых фитов из восемнадцати говорили «не считаем» про урон, ДЦ чужого спасброска, метамагию, сопротивления и маскировку — то есть про механики, которых калькулятор не считает и не собирался. Это ложная неопределённость: она пугает игрока тем, чего он и не ждал, и обесценивает соседние строки списка, которые ждать стоит.\n\n🔴 МЕТКА НАЗЫВАЕТ МЕХАНИКУ, А НЕ ВИДИМОСТЬ. `\"affects\": [\"damage\"]`, и никогда `\"shown\": false`. Разница не косметическая: день, когда ядро начнёт считать урон, вернёт эти оговорки САМ, без переразметки шестнадцати записей руками. То же правило и по той же причине, что у фактов классов (`siala_41/classes.json` → changes[].affects, задача 3.28) и у семи файлов разметки прибавок рядом.\n\n⚠️ СЛОВАРЬ ПОЛУЧАТЕЛЕЙ ОДИН НА ВЕСЬ ПРОЕКТ и живёт в `siala_41/classes.json` → `_receivers`. Этот файл своего не заводит и не имеет права завести: два словаря про один вопрос разошлись бы молча. Имя вне словаря роняет сборку (`FactReceivers.verify_bonus_affects!/4`) — опечатка `\"damge\"` иначе тихо означала бы «не показывать», а это единственный исход, который механизм не должен производить по случайности.\n\n⚠️ НЕТ ЗАПИСИ — ЕСТЬ ГЭП. Умолчание ровно то же, что у `changes[].affects`: факт без метки остаётся оговоркой. Забытая запись обязана шуметь, а не исчезать, поэтому файл неполон по построению — в нём только те фиты, чей эффект ПРОЧИТАН, а не все повторяемые.\n\n⚠️ ХВАТАЕТ ОДНОГО НАШЕГО ПОЛУЧАТЕЛЯ, чтобы оговорка осталась (правило объявлено в `_receivers._note` и живёт в `Rules.GapReceivers.ours?/2`). Поэтому запись, называющая наш получатель, законна и просто ничего не гасит: она документирует прочтение. Сегодня таких здесь нет.\n\n⚠️ ПОЧЕМУ ОТДЕЛЬНЫЙ ФАЙЛ, А НЕ ПОЛЕ В `vanilla/feats.json`: тот пишет `mix wiki.parse` и перезапишет целиком — ровно та же причина, по которой рядом живут `feat_requirements.json` и `grant_substitutions.json`.\n\n⚠️ И ПОЧЕМУ НЕ В СЕМИ ФАЙЛАХ РАЗМЕТКИ ПРИБАВОК, где поле `affects` уже есть. Там оно стоит ТОЛЬКО у записей с вердиктом `not_modelled` («прибавка к этому стату есть, посчитать её честно нельзя»), а у наших шестнадцати вердикт другой или записи нет вовсе: у девяти он `not_a_*` («запись вообще не про этот стат»), и такая запись не переживает `BonusMarkup.buckets/1` — читать с неё метку значило бы сломать инвариант тех файлов; у семи (включая `spell_focus` и `greater_spell_focus`) записи нет ни в одном из семи, и заводить её ради метки значило бы объявить ДЦ заклинания прибавкой к спасброску.\n\n⚠️ ФАЙЛ ВАНИЛЬНЫЙ И ВИДЕН ОБОИМ ruleset'ам, потому что факт ванильный: «Weapon specialization даёт урон» — правда про NWN1, а не про правку шарда. Тот же довод, что у семи файлов разметки рядом. У `vanilla` при этом словаря получателей нет вовсе, и там фильтр не работает по общему правилу «нет словаря — нет фильтра» (`Rules.GapReceivers.ours?/2`): ruleset без словаря обязан говорить ЛИШНЕЕ, а не молчать.",
+  "_receivers_used": {
+    "damage": "4 записи: weapon_specialization, epic_weapon_specialization, great_smiting, improved_sneak_attack. Урон, который персонаж НАНОСИТ.",
+    "immunities": "3 записи: resist_energy, epic_energy_resistance, epic_damage_reduction. Сопротивление и снижение ВХОДЯЩЕГО урона.",
+    "save_dc": "4 записи: spell_focus, greater_spell_focus, epic_spell_focus, improved_stunning_fist. НОВОЕ ИМЯ (задача 3.93).",
+    "metamagic": "3 записи: automatic_quicken_spell, automatic_silent_spell, automatic_still_spell. НОВОЕ ИМЯ (задача 3.93).",
+    "critical_hit": "1 запись: improved_critical. НОВОЕ ИМЯ (задача 3.93).",
+    "concealment": "1 запись: self_concealment. НОВОЕ ИМЯ (задача 3.93).",
+    "_new_names_decision": "Четыре имени заведены в `siala_41/classes.json` → `_receivers.not_our` этой же задачей. Словарь сам это разрешает — «список закрыт, но не обязан покрывать всё, что в принципе бывает в NWN — расширяется по факту, а не заранее», — и растягивать вместо этого существующее имя было бы разметкой по догадке: `immunities` не про маскировку (резист снимает часть урона состоявшегося удара, маскировка отменяет удар целиком), `saving_throws` не про ДЦ чужого броска (это НАШ получатель и противоположное направление), `damage` не про крит-диапазон (своего числа урона фит не называет). Оставался общий `special_ability`, и он хуже точного имени по критерию самой задачи: точное имя вернёт оговорку САМО, когда ядро научится считать эту механику, а catch-all останется `not_our` навсегда."
+  },
+  "_scope_note": "Читателя сегодня ровно один, и он спрашивает только про ПОВТОРЯЕМЫЕ фиты (`Rules.FeatChoices.gaps/3` ходит по ним). Поэтому в файле шестнадцать записей, а не триста: остальные фиты этой оговорки не получают вовсе, и метка им сегодня ничего не меняет. Запись для неповторяемого фита не запрещена и не роняет сборку — она просто ничего не сделает, пока читатель один; заводить её «на будущее» без прочитанного источника нельзя по общему правилу проекта.\n\n⚠️ ЗДЕСЬ СТОЯЛО «два повторяемых фита сознательно без записи» — `arcane_defense` и `favored_enemy`. Задача 3.95 (25.08.2026) их решила, и решила ДРУГИМ ключом: записи появились, но метка `affects` у них честная и НАША (`saving_throws` и `skill_values` + `damage`), а оговорку снимает `not_a_gap`. Разница несущая: метка отвечает на «есть ли у нас число, в которое прибавка падает», решение владельца — на «обязаны ли мы признаться, что в него не кладём». Подкрутить первое ради второго значило бы соврать о природе факта ради числа в баннере (то же правило, по которому заведён сам `affects`, CLAUDE.md §9).",
+  "_schema": {
+    "feat": "id из vanilla/feats.json. Несуществующий роняет сборку: метка, ничего не помечающая, — молчаливый no-op в данных, а весь смысл файла в том, чтобы гасить оговорку осознанно. Второй записи про тот же фит быть не может — тоже роняет.",
+    "affects": "НЕПУСТОЙ список имён из ЗАКРЫТОГО словаря `siala_41/classes.json` → `_receivers` (обе половины, `our` и `not_our`). Имя вне словаря роняет сборку. Пустой список или не список — роняет: факт, который ничего не меняет, ничего и не утверждает, и тогда запись надо удалить, а не опустошать.",
+    "why": "Обязательно: почему получатель именно этот. Одна-две фразы для человека, читающего дифф.",
+    "note": "Необязательно: ловушка, соседнее чтение, соседняя запись разметки, сиальская правка.",
+    "quote": "ОБЯЗАТЕЛЬНА и непуста — дословно из источника, посимвольно. Метка — утверждение о механике, и без опоры её ставить нельзя (задача 3.93: «Не расставляй по догадке»). Пустая роняет сборку.",
+    "source": "ОБЯЗАТЕЛЕН. Страница с revid и датой снятия, как у соседних ручных файлов.",
+    "not_a_gap": "Необязательно. Решение ВЛАДЕЛЬЦА о том, что запись пробелом не является, — тот же ключ и тот же сторож (`Loader.NotAGap`), что у фактов класса и у записей разметки прибавок. Обязательные поля: `who`, `why`, `quote` и `basis` из закрытого словаря. `basis: \"feat_description\"` роняет сборку у фита с пустым `description`: довод стоит на том, что описание уже всё сказало, и у фита без описания он не объясняет ничего."
+  },
+  "feats": [
+    {
+      "feat": "arcane_defense",
+      "affects": [
+        "saving_throws"
+      ],
+      "not_a_gap": {
+        "who": "координатор",
+        "date": "2026-08-25",
+        "basis": "feat_description",
+        "quote": "у каждого такого фита описание называет и число, и условие, причём точнее нашей фразы",
+        "why": "Только против заклинаний ВЫБРАННОЙ школы магии. Прибавка реальная, и в постоянные сейвы она не идёт сознательно: условие не выражается свойством билда. Оговорка при этом больше ничего не добавляла — описание фита называет и величину (+2), и условие, и точнее нашей фразы «прибавку от фита в статы не считаем»; видно оно в конструкторе (задача 3.87) и на экране просмотра билда (задача 3.94). ⚠️ Гасятся ОБЕ оговорки про один фит, а не одна: та же правка стоит у его записи в vanilla/feat_save_bonuses.json. Погасить одну значило бы оставить игроку ту же фразу другими словами.",
+        "status": "verified"
+      },
+      "why": "Эффект — собственные спасброски персонажа, то есть НАШ получатель. Запись существует не ради метки, а ради решения рядом: `affects` остаётся честным, а оговорку снимает `not_a_gap` (задача 3.95).",
+      "note": "⚠️ Первая запись файла с НАШИМ получателем — ровно тот случай, который _note объявлял законным («запись, называющая наш получатель, законна и просто ничего не гасит: она документирует прочтение»), с той разницей, что гасит здесь не метка, а решение владельца. Два разных повода не считаться пробелом обязаны и записываться раздельно.",
+      "quote": "The character gains a +2 bonus to [[saving throw]]s versus the chosen school of magic.",
+      "source": {
+        "wiki": "fandom",
+        "page": "Arcane defense",
+        "revid": 62916,
+        "fetched": "2026-08-01"
+      }
+    },
+    {
+      "feat": "automatic_quicken_spell",
+      "affects": [
+        "metamagic"
+      ],
+      "why": "Эффект — скорость каста, то есть метамагия. Ни одного числа, которое печатает панель «Итого», фит не двигает.",
+      "note": "⚠️ Единственное место, где метамагия могла бы задеть НАШЕ число, названо и снято той же страницей: раздел Notes говорит «This feat provides the benefits of [[quicken spell]] without the need to use a [[spell slot]] of a higher level than normal» — то есть расход слотов не меняется вовсе, а таблица слотов в день не меняется и подавно (тот же довод, которым закрыта задача 3.80: «задевается РАСХОД, а не таблица»).",
+      "quote": "This feat allows the character to cast spells with a moment of thought. This feat may be taken multiple times:\n* Automatic quicken spell I: Quicken any level 0 - 3 spells.\n* Automatic quicken spell II: Quicken any level 4 - 6 spells.\n* Automatic quicken spell III: Quicken any level 7 - 9 spells.",
+      "source": {
+        "wiki": "fandom",
+        "page": "Automatic quicken spell",
+        "revid": 65818,
+        "fetched": "2026-08-01"
+      }
+    },
+    {
+      "feat": "automatic_silent_spell",
+      "affects": [
+        "metamagic"
+      ],
+      "why": "Эффект — отсутствие звукового компонента, то есть метамагия. Числа у фита нет вовсе.",
+      "quote": "This feat allows the character to cast all spells of a given level range without the caster making any sound. This is especially useful if the caster has been [[silence]]d. This feat may be taken multiple times:\n* Automatic silent spell I: Cast any level 0 - 3 spell as a silent spell.\n* Automatic silent spell II: Cast any level 4 - 6 spell as a silent spell.\n* Automatic silent spell III: Cast any level 7 - 9 spell as a silent spell.",
+      "source": {
+        "wiki": "fandom",
+        "page": "Automatic silent spell",
+        "revid": 65819,
+        "fetched": "2026-08-01"
+      }
+    },
+    {
+      "feat": "automatic_still_spell",
+      "affects": [
+        "metamagic"
+      ],
+      "why": "Эффект — отсутствие соматического компонента, то есть метамагия: заклинание перестаёт проваливаться из-за доспеха.",
+      "note": "⚠️ ЛОВУШКА, КОТОРУЮ НАДО НАЗВАТЬ: раздел Notes считает AC — «This combination allows the spellcaster to gain up to 11 [[armor class|AC]] (8 from [[full plate]] and 3 from a [[tower shield]])». Это НЕ прибавка фита: AC даёт надетый доспех, который игрок вводит сам, а фит лишь снимает арканный [[spell failure]], которого модель не считает вовсе. Приписать сюда получателя `ac` значило бы обещать одиннадцать очков, которых фит не даёт.",
+      "quote": "This feat allows the character to cast all spells of a given level range as still spells automatically. These spells may be cast while wearing armor. This feat may be taken multiple times:\n* Automatic still spell I: Cast any level 0 - 3 spell as a still spell.\n* Automatic still spell II: Cast any level 4 - 6 spell as a still spell.\n* Automatic still spell III: Cast any level 7 - 9 spell as a still spell.",
+      "source": {
+        "wiki": "fandom",
+        "page": "Automatic still spell",
+        "revid": 70145,
+        "fetched": "2026-08-01"
+      }
+    },
+    {
+      "feat": "epic_damage_reduction",
+      "affects": [
+        "immunities"
+      ],
+      "why": "Снижение ВХОДЯЩЕГО урона за удар — «частичный шанс проигнорировать» из определения получателя. Не `damage`: тот про урон, который персонаж НАНОСИТ.",
+      "note": "⚠️ Обе половины уже прочитаны разметкой с той же стороны и с тем же ответом: `ac_bonuses.json` («Снижение урона за удар, а не класс брони») и `feat_hp_bonuses.json` («Снижение урона за каждый удар, а не запас хитов»). Ни AC, ни HP этот фит не двигает ни на единицу — а третьего нашего числа, куда он мог бы лечь, у нас нет.",
+      "quote": "The character gains [[damage reduction]] 3/-. This feat may be taken up to three times, for damage reduction 6/-, then 9/-.",
+      "source": {
+        "wiki": "fandom",
+        "page": "Epic damage reduction",
+        "revid": 44379,
+        "fetched": "2026-08-01"
+      }
+    },
+    {
+      "feat": "epic_energy_resistance",
+      "affects": [
+        "immunities"
+      ],
+      "why": "Дословный «резист» из определения получателя: сопротивление одному виду урона.",
+      "note": "⚠️ Шард величину переписал (15 и 150 вместо 10 и 100, `siala_41/generated/feats.json`), но ПОЛУЧАТЕЛЬ у неё тот же — сопротивление. Метка про получателя, а не про число, поэтому сиальская правка её не двигает.",
+      "quote": "The character gains [[damage resistance|resistance]] 10 to the selected damage type ([[acid damage|acid]], [[cold damage|cold]], [[electrical damage|electrical]], [[fire damage|fire]], or [[sonic damage|sonic]]). This feat may be taken multiple times, to a maximum of 100 resistance to each damage type.",
+      "source": {
+        "wiki": "fandom",
+        "page": "Epic energy resistance",
+        "revid": 41047,
+        "fetched": "2026-08-01"
+      }
+    },
+    {
+      "feat": "epic_spell_focus",
+      "affects": [
+        "save_dc"
+      ],
+      "why": "ДЦ ЧУЖОГО спасброска, а не собственный сейв персонажа.",
+      "note": "⚠️ Ровно та ловушка, которую `feat_save_bonuses.json` уже назвал у этой же записи: «фраза „saving throws“ есть, но прибавка идёт к DIFFICULTY CLASS заклинаний кастера выбранной школы — то есть чужой сейв становится ТРУДНЕЕ пройти, а не свой легче». Метка `saving_throws` (наш получатель) была бы здесь не осторожностью, а ошибкой в обратную сторону.",
+      "quote": "The character gains a +6 to the [[difficulty class]] for all [[saving throw]]s against spells from the chosen school of magic.",
+      "source": {
+        "wiki": "fandom",
+        "page": "Epic spell focus",
+        "revid": 55113,
+        "fetched": "2026-08-01"
+      }
+    },
+    {
+      "feat": "epic_weapon_specialization",
+      "affects": [
+        "damage"
+      ],
+      "why": "Дословно «all damage done by the chosen weapon» — урон, а не бросок атаки.",
+      "quote": "The character gains a +4 bonus to all damage done by the chosen weapon.",
+      "source": {
+        "wiki": "fandom",
+        "page": "Epic weapon specialization",
+        "revid": 57835,
+        "fetched": "2026-08-01"
+      }
+    },
+    {
+      "feat": "favored_enemy",
+      "affects": [
+        "damage",
+        "skill_values"
+      ],
+      "not_a_gap": {
+        "who": "координатор",
+        "date": "2026-08-25",
+        "basis": "feat_description",
+        "quote": "у каждого такого фита описание называет и число, и условие, причём точнее нашей фразы",
+        "why": "Только против ВЫБРАННОГО типа существ. Из двух получателей урон мы не считаем вовсе, а значение навыка считаем — и вот в него прибавка сознательно не идёт: условие не выражается свойством билда, а число ещё и растёт с уровнем класса. Оговорка при этом больше ничего не добавляла — описание фита называет и величину (+1), и рост («+1 for every 5 levels»), и условие; видно оно в конструкторе (задача 3.87) и на экране просмотра билда (задача 3.94). ⚠️ Гасятся ОБЕ оговорки про один фит: та же правка стоит у его записи в vanilla/feat_skill_bonuses.json, откуда приходит строка «прибавку не считаем» у Listen, Spot и Taunt.",
+        "status": "verified"
+      },
+      "why": "Два получателя, и они разного рода: урон калькулятор не считает вовсе, а значение навыка считает. Хватило бы одного нашего, чтобы оговорка осталась, — поэтому здесь стоит решение, а не подкрученная метка.",
+      "quote": "The character gains a +1 bonus to any damage delivered to his favored enemy. He also receives a +1 bonus on [[listen]], [[spot]], and [[taunt]] checks against the favored enemy.",
+      "source": {
+        "wiki": "fandom",
+        "page": "Favored enemy",
+        "revid": 63601,
+        "fetched": "2026-08-01"
+      }
+    },
+    {
+      "feat": "great_smiting",
+      "affects": [
+        "damage"
+      ],
+      "why": "Урон удара по злому. Характеристику фит не поднимает, хотя имя стоит в семействе `Great …`.",
+      "note": "⚠️ Ловушку имени `feat_ability_bonuses.json` уже назвал: «фит начинается на `great_`, лежит в том же эпическом семействе, берётся так же многократно и с таким же потолком „10“ — а даёт УРОН при ударе по злому, а не характеристику».",
+      "quote": "Whenever the character makes a successful smite attack, it adds two times the character's level to damage. This feat may be taken multiple times, up to a maximum of 10 times &mdash; each time adding additional damage equal to the character's level to the smite attack.",
+      "source": {
+        "wiki": "fandom",
+        "page": "Great smiting",
+        "revid": 42417,
+        "fetched": "2026-08-01"
+      }
+    },
+    {
+      "feat": "greater_spell_focus",
+      "affects": [
+        "save_dc"
+      ],
+      "why": "ДЦ чужого спасброска против заклинаний выбранной школы.",
+      "quote": "A character becomes even more adept with spells of a particular [[spell school|school of magic]]. The character gains a +4 bonus to the spell save [[DC]] for all spells of the chosen school.",
+      "source": {
+        "wiki": "fandom",
+        "page": "Greater spell focus",
+        "revid": 50249,
+        "fetched": "2026-08-01"
+      }
+    },
+    {
+      "feat": "improved_critical",
+      "affects": [
+        "critical_hit"
+      ],
+      "why": "Крит-диапазон оружия. Ни бросок атаки, ни урон — и это чтение уже сделано разметкой атаки: «Попадать персонаж не начинает чаще — чаще выходит критический удар. Ни к AB, ни к урону напрямую».",
+      "note": "⚠️ Метка НЕ `damage`, хотя итог у фита именно урон. Своего числа урона фит не называет вовсе — он удваивает диапазон, который принадлежит оружию, — и `damage` тут значило бы, что день подсчёта урона вернёт эту оговорку. Он её не вернёт: считать урон и считать частоту критов — разные вычисления, и вернуть оговорку обязано именно второе.",
+      "quote": "Combat ability increases the critical [[threat range]] of a selected weapon by a range equal to the item's base threat range. A [[longsword]] that normally threatens a critical on a roll of 19-20 would now threaten a critical on a roll of 17-20.",
+      "source": {
+        "wiki": "fandom",
+        "page": "Improved critical",
+        "revid": 62341,
+        "fetched": "2026-08-01"
+      }
+    },
+    {
+      "feat": "improved_sneak_attack",
+      "affects": [
+        "damage"
+      ],
+      "why": "Дословно «to your sneak attack damage».",
+      "quote": "Add +1[[d6]] to your sneak attack damage. This feat may be taken multiple times, to a maximum of +10d6.",
+      "source": {
+        "wiki": "fandom",
+        "page": "Improved sneak attack",
+        "revid": 71512,
+        "fetched": "2026-08-01"
+      }
+    },
+    {
+      "feat": "improved_stunning_fist",
+      "affects": [
+        "save_dc"
+      ],
+      "why": "ДЦ спасброска ЦЕЛИ оглушающего удара — то же различение, что у семейства Spell focus, и оно уже названо в `feat_attack_bonuses.json`: «Это сложность спасброска ЦЕЛИ, а не бросок атаки персонажа».",
+      "quote": "Adds +2 to the [[difficulty class|DC]] of the character's stunning attack. This feat may be taken multiple times, to a maximum of +20.",
+      "source": {
+        "wiki": "fandom",
+        "page": "Improved stunning fist",
+        "revid": 66557,
+        "fetched": "2026-08-01"
+      }
+    },
+    {
+      "feat": "resist_energy",
+      "affects": [
+        "immunities"
+      ],
+      "why": "Сопротивление одному виду урона — «резист» из определения получателя.",
+      "note": "⚠️ Фит участвует в НАШЕМ ответе с другой стороны — своим ТРЕБОВАНИЕМ по Стойкости (единственный такой в справочнике, кейсы S3 и S6). Но требование — это `feat_availability`, свойство взятия, а метка здесь называет ЭФФЕКТ. Оговорка `{:not_modelled, {:feat_bonus, …}}` говорит именно про эффект («прибавку от фита в статы не считаем»), поэтому требование её не удерживает.",
+      "quote": "The character gains +5 [[damage resistance|resistance]] against the chosen type of energy. (The first 5 points of damage of this type of energy are ignored.)",
+      "source": {
+        "wiki": "fandom",
+        "page": "Resist energy",
+        "revid": 63837,
+        "fetched": "2026-08-01"
+      }
+    },
+    {
+      "feat": "self_concealment",
+      "affects": [
+        "concealment"
+      ],
+      "why": "Маскировка — шанс, что атака по персонажу не состоится. Разметка AC это уже прочитала и развела с классом брони: «AC влияет на то, попадёт ли атака, маскировка — на то, состоится ли бросок вообще».",
+      "note": "⚠️ Метка НЕ `immunities`, хотя определение того получателя («шанс проигнорировать») звучит близко: резист снимает часть урона состоявшегося удара, маскировка отменяет удар целиком. Разные механики, и если ядро научится считать одну, вторая от этого нашей не станет.",
+      "quote": "The character gains a 10% [[concealment]] bonus. This feat may\nbe taken multiple times, to a maximum of 50% concealment.",
+      "source": {
+        "wiki": "fandom",
+        "page": "Self concealment",
+        "revid": 52033,
+        "fetched": "2026-08-01"
+      }
+    },
+    {
+      "feat": "spell_focus",
+      "affects": [
+        "save_dc"
+      ],
+      "why": "ДЦ чужого спасброска против заклинаний выбранной школы.",
+      "note": "⚠️ На Сиале у фокусов есть ВТОРАЯ половина эффекта, и она тоже не наша: страница «Фокусировки на школы магии» перечисляет правки самих заклинаний, и её факт уже помечен `[\"spell_effects\", \"damage\", \"summons\"]` в `siala_41/generated/feats.json`. Две разметки сошлись независимо — здесь по ванильному описанию, там по сиальской странице.",
+      "quote": "A character with this feat is adept in a certain [[spell school|school of magic]], granting a +2 bonus to spell [[save]] [[DC]] for all spells cast from that school.",
+      "source": {
+        "wiki": "fandom",
+        "page": "Spell focus",
+        "revid": 69073,
+        "fetched": "2026-08-01"
+      }
+    },
+    {
+      "feat": "weapon_specialization",
+      "affects": [
+        "damage"
+      ],
+      "why": "Дословно «+2 damage bonus». В разведку атаки фит попал по соседству с `Weapon focus` и получил там вердикт `not_an_attack_bonus`: «к броску атаки отношения не имеет».",
+      "quote": "A [[character]] with this [[feat]] has trained especially hard with a specific [[weapon]] type, and gains a +2 damage bonus when using these weapons in combat.",
+      "source": {
+        "wiki": "fandom",
+        "page": "Weapon specialization",
+        "revid": 41492,
+        "fetched": "2026-08-01"
+      }
+    }
+  ]
+}

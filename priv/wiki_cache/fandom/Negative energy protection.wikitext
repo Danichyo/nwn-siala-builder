@@ -1,0 +1,26 @@
+{{spell
+|icon=is_negprot.gif
+|clericlevel=3
+|innatelevel=3
+|school=[[abjuration]]
+|components=VS
+|range=t
+|area=single
+|save=harmless
+|spellresistance=no
+|duration=1 [[turn]] / level
+|line=Negative protection
+|line3=negative energy protection
+|line9=undeath's eternal foe
+|desc=The target creature is rendered immune to all [[negative energy damage|negative energy]] attacks, including supernatural [[ability damage]] and [[level drain]]s.}}
+
+== Notes ==
+* This spell is most often used to avoid the affects of the [[harm]] spell, however it is very useful in other cases to avoid ability point damage such as that from [[crippling strike]].
+* This spell also prevents ability score decrease from an item if cast before equipping.
+* This spell does not restore levels or ability scores already drained before the cast.
+* This spell makes one immune to ability score decrease from [[poison]] or [[disease]], but not the poison or disease effects themselves.
+
+== Custom content notes ==
+* ''script:'' <code>NW_S0_NegProt</code>
+==External links==
+*{{FRW}}

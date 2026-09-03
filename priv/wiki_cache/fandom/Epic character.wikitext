@@ -1,0 +1,6 @@
+[[Image:Ife x2epicchar.gif|right|Epic character]]
+Characters become epic characters once they have gained 21 levels. At this point any feats can be taken from the [[epic feat]]s list.
+
+e.g. A character with 10 [[rogue]], 10 [[barbarian]] and 1 [[assassin]] level is an epic character.
+
+[[category:epic rules|Character]]

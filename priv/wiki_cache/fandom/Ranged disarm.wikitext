@@ -1,0 +1,12 @@
+'''Type of Feat''': [[Class]]
+
+'''Prerequisite''': [[Archer]] level 18
+
+'''Specifics''': You can attempt to [[disarm]] an opponent while using a [[ranged weapon]].
+
+'''Use''': Selected
+
+==Notes==
+*Added in the [[PRC Expansion Pack]].
+
+[[Category:PRC feats]]

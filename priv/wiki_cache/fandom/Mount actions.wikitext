@@ -1,0 +1,16 @@
+{{feat
+|type=general
+|desc=This series of actions enables players to interact with their mounts.
+|use=selected
+|icon=ife_x3_horse.png
+}}
+
+'''Individual mount:''' Ride on the targeted mount, or command the targeted henchman to ride on a mount.<br />
+'''Individual dismount:''' Targeted creature dismounts.
+
+== Notes ==
+* Added in [[patch]] 1.69.
+* This feat is automatically given to a [[player character]] upon obtaining the first level of a [[base class]]. 
+**Characters created before game version 1.69 will be missing this feat until they gain a new base class. However, a [[module]] can be configured to give this feat to such characters when they enter the module. This will normally only be done by modules that provide horses to be ridden, and may be removed upon entering a new module.
+**Use of the [[summon mount]] feat will give the user (a [[paladin]] under normal circumstances) this feat if needed. Feats granted in this manner are subject to removal upon entering a new module.
+* For information about the mechanics of riding horses, see [[horse menu]].

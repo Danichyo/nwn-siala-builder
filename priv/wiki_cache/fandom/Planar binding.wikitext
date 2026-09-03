@@ -1,0 +1,36 @@
+{{spell
+|icon=is_planar.gif
+|magelevel=6
+|innatelevel=6
+|school=[[conjuration]]
+|components=VS
+|range=s
+|area=single or point
+|save=[[will]] (-2) negates
+|spellresistance=no
+|duration=1 [[hour]] / level
+|line=Planar binding
+|line5=lesser planar binding
+|line6=planar binding
+|line8=greater planar binding
+|desc=This spell has two modes of operation: targeting a single [[outsider]], or [[summon]]ing a planar ally. Targeted outsiders are [[paralyze]]d for 1 [[round]] per 2 caster levels. The type of summoned ally is based on the caster's [[alignment]]:}}
+
+{|class="wikitable" style="text-align:center"
+!alignment!!summon
+|-
+|evil   ||[[succubus (summon)|succubus]]
+|-
+|neutral||[[green slaad (summon)|green slaad]]
+|-
+|good   ||[[hound archon (summon)|hound archon]]
+|}
+
+== Notes ==
+
+*  The (-2) in the save description means that the spell has a +2 bonus to [[difficulty class]].
+
+== Custom content notes ==
+
+*''script:'' <code>NW_S0_Planar</code>
+==External links==
+*{{FRW}}

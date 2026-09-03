@@ -1,0 +1,12 @@
+'''Type of Feat''': [[Class]]
+
+'''Prerequisite''': [[Anti-paladin]] 3, [[Corruptor]] n
+
+'''Specifics''': Gains an evil aura, enemies suffer a -4 against [[fear (effect)|fear]] effects and provides [[immunity]] to fear.
+
+'''Use''': Selected.
+
+==Notes==
+*Added in the [[PRC Expansion Pack]].
+
+[[category:PRC feats]]

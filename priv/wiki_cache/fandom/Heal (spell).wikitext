@@ -1,0 +1,36 @@
+{{spell
+|icon=is_heal.gif
+|clericlevel=6
+|druidlevel=7
+|domain=healing
+|domainlevel=5
+|innatelevel=6
+|school=[[conjuration]]
+|components=VS
+|range=t
+|spellresistance=yes
+|area=single
+|duration=instant
+|counters=<del>[[harm]]</del>
+|line=Cure wounds
+|line0=cure minor wounds
+|line1=cure light wounds
+|line2=cure moderate wounds
+|line3=cure serious wounds
+|line4=cure critical wounds
+|line5=healing circle
+|line6=heal (spell)
+|line8=mass heal
+|desc=The target of ''heal'' is restored to full [[hit point]]s. Healing spells have a reverse effect when used on [[undead]], harming instead of healing them (undead are reduced to 1[[d4]] hit points with this spell). A successful [[touch attack]] must first be made when this spell is used against undead.}}
+
+== Notes ==
+
+* This spell inflicts [[positive energy damage]] on a targeted undead, unless the creature is [[PvP setting#Reactions|friendly]] to the caster.
+* [[Module]] creators sometimes change this spell to provide an amount of healing dependent on [[caster level]]. Similarly, its effectiveness against undead is also sometimes toned down.
+* Due to a .2da bug, ''harm'' is not an additional [[counterspell]] of this spell.
+
+== Custom content notes ==
+* ''script:'' <code>NW_S0_Heal</code>
+
+==External Links==
+* {{FRW|Heal}}

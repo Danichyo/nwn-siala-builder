@@ -1,0 +1,30 @@
+{{spell
+|icon=is_endelem.gif
+|clericlevel=1
+|druidlevel=1
+|paladinlevel=1
+|magelevel=1
+|innatelevel=<del>2</del> ''1''
+|school=[[abjuration]]
+|components=VS
+|range=t
+|area=single
+|save=harmless
+|spellresistance=no
+|duration=24 [[hour]]s
+|line=Elemental Resistance
+|line1=endure elements
+|line2=resist elements
+|line3=protection from elements
+|line5=energy buffer
+|desc=The target creature gains [[damage resistance]] 10/- against all elemental [[damage type|forms of damage]]. The spell ends after absorbing 20 points of damage from any single elemental type.}}
+
+== Notes ==
+*This spell protects against [[sonic damage]] as well as elemental damage.
+*This spell stacks with &mdash; and is applied after &mdash; [[feat]]-based sources of damage resistance.
+* This spell will replace earlier castings of itself.
+* The in-game text incorrectly states that this spell's innate level is 2.
+* While this spell can be cast with [[extend spell]], the duration will not be doubled due to a bug in the script.
+
+== Custom content notes ==
+* ''script:'' <code>NW_S0_EndEle</code>

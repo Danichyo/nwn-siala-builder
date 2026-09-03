@@ -1,0 +1,47 @@
+{{Weapon|imagefile=Kukri.jpg
+  |weaponname=Kukri
+  |weapondescription='''Kukri''' are heavy, curved [[dagger]]s with their sharpened edge on the inside arc of the blade. This type of [[weapon]] has its roots as a tool, but has been heavily adapted to ritual and warfare.
+  |weight=3
+  |cost=8
+  |damage=1d4
+  |critical=18-20/x2
+  |damagetype=[[slashing damage|Slashing]]
+  |size=Tiny
+  |proficiency=[[Weapon proficiency (exotic)|Exotic]]
+  |category=[[Category:Exotic weapons]][[Category:Bladed weapons]] [[Category: Tiny weapons]]
+}}
+
+==Toolset==
+* Kukris are listed under the [[exotic blueprint category]] of the [[item palette]] in the [[toolset]].
+
+== Cutting Star ==
+These blades are occasionally brought to civilization by adventurers, along with tales of ruined temples and the gods of old. Likely this weapon fell under the domain of a sun- or star-worshipping sect, and while possibly far-reaching in their day, no official record detailing their practices has survived.
+
+* [[Damage bonus]]: +d6 [[fire damage]]
+* [[Enhancement bonus]]: +2
+* [[On-hit]]: [[Blind|Blindness]] (DC=14) (25% / 2 Rounds)
+
+Can be found at original campaign at some "boss" chests at [[character level]] 9-12.
+
+== Messenger blade ==
+These assassin's blades may have originated with a single cult, or perhaps were the signature weapons of a guild for a time, but whatever the case, the makers took their work very seriously.
+
+* [[Enhancement bonus]]: +2
+* [[Keen]]
+
+== Sharpshadow Blade ==
+The name suggests a history with the Shadow Thieves of Amn, though it is not documented as some of their other tools are. The organization has many sub-guilds however, and this may have come from one of them.
+
+* [[Enhancement bonus]]: +1
+* Skill bonus: [[Hide]] +2
+* Skill bonus: [[Move silently|Move Silently]] +2
+
+== Neverwinter Kukri ==
+A regional variant of a very exotic blade, Neverwinter Kukri are made by special order of the Calimshan Businessman's Embassy, and are presented to those who best represent their cultural interests within the area. Occasionally they are found on the black market, but never cheaply.
+
+* [[Enhancement bonus]]: +2
+* Improved Saving Throws: [[Fortitude]] +1
+
+==Notes==
+* Kukris benefit from the [[weapon finesse]] [[feat]].
+* Kukris and [[dagger]]s are the only standard [[light weapon]]s for the small races ([[gnome]] and [[halfling]]).

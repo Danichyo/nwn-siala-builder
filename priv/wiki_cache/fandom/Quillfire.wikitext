@@ -1,0 +1,36 @@
+{{spell
+|icon=is_x1quill.gif
+|druidlevel=3
+|innatelevel=3
+|school=[[transmutation]]
+|components=VS
+|range=s
+|area=single
+|save=[[fortitude]] negates ([[poison]] only)
+|spellresistance=no
+|immunity=poison
+|duration=instant
+|desc=The caster throws poisonous quills at a target, doing 1[[d8]] points of [[magical damage|damage]] (+1 per 2 levels of the caster &mdash; max +5), plus inflicting [[large scorpion venom|scorpion venom]] on the target if they fail a fortitude [[saving throw|save]].}}
+
+{|class="wikitable" style="text-align:center"
+  !caster level!!damage per cast
+|-
+  |5||1d8+ 2
+|-
+  |6||1d8+ 3
+|-
+  |8||1d8+ 4
+|-
+  |10+||1d8+ 5
+|}
+
+==Notes==
+*Added in the [[expansion pack]]s.
+*Unlike other spells, [[empower spell|empower]]ing ''quillfire'' increases only the die roll by 50%, not the die roll plus the bonus.
+*The fortitude save to avoid the poison is always 18, the DC for large scorpion venom. Spell focus and ability modifiers have no effect on the DC.
+
+==Custom content notes==
+*''script:'' <code>x0_s0_quillfire.nss</code>
+==External links==
+* {{FRW}}
+* {{NWN2W}}

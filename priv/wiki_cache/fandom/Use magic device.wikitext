@@ -1,0 +1,66 @@
+[[Image:Isk magicdev.gif|right|Use Magic Device]]
+A successful '''use magic device''' check allows a [[character]] to use a magic item as if your character had the required [[class]], [[race]], or [[alignment]].
+*'''Ability:''' [[charisma]]
+
+*'''Classes:''' [[bard]], [[rogue]], [[assassin]]
+
+*'''[[Cross-class skill]]:''' no
+
+*'''[[Untrained skill check|Requires training]]:''' yes
+
+*'''Check''': The base [[difficulty class]] (DC) of this task is determined by the value of the item, and modified by the type of emulation the character is attempting. If the character attempts to emulate a specific race, the DC increases by 5; if he attempts to emulate a specific alignment, the DC increases by 10. Emulating a specific class does not modify the base DC. You must make a DC check of 25 + the [[innate level|level]] of the spell to cast a spell from a [[scroll]] if the [[difficulty setting|difficulty mode]] of the game is set to Hardcore or higher.
+
+*'''Use''': Automatically applied whenever a character attempts to use or equip an item normally unusable by his class, race, or alignment.
+
+== Notes ==
+
+* The special check for using a scroll was added with the [[Hordes of the Underdark]] expansion and does not apply to [[module]]s created before that expansion was released (such as the other [[official campaign]]s). Furthermore, a module builder has the option to turn this check on or off regardless of the difficulty setting.
+*The special check for using a scroll at hardcore difficulty or higher does not apply to scrolls with no class limitations, to characters with at least one [[bard]], [[sorcerer]], or [[wizard]] level, nor to characters who have the spell in question prepared (ready to cast). It does apply to all other characters who have at least one level in [[rogue]], [[shadowdancer]], or [[assassin]], even if that character has a class that is allowed to use the scroll normally.
+*Wizards cannot use this skill to use scrolls of a prohibited [[spell school]].
+* A UMD score of 25 or higher allows full usage of the standard [[holy avenger]] item.
+*Aside from scroll use as mentioned above, skill levels between multiples of 5 do not make a difference in the skill check, i.e., a UMD of 14 is effectively the same as 10. However, these levels could become significant if a character is hit by a skill-reducing effect (e.g. [[curse]], [[curse song]], [[level drain]]).
+* The "check" used for this skill is not a usual skill check in that there is no die roll. Instead, the (fully modified) skill is directly compared to the DC obtained from item value via the following chart (defined by <code>[[skillvsitemcost.2da]]</code>):
+{| class="wikitable" style="text-align:center"
+|-
+! Maximum item value !! Class emulation DC !! Race emulation DC !! Alignment emulation DC
+|-
+|'''1,000''' || 1 || 5 || 10
+|-
+|'''4,800''' || 5 || 10 || 15
+|-
+|'''20,000''' || 10 || 15 || 20
+|-
+|'''100,000''' || 15 || 20 || 25
+|-
+|'''300,000''' || 20 || 25 || 30
+|-
+|'''600,000''' || 25 || 30 || 35
+|-
+|'''1,000,000''' || 30 || 35 || 40
+|-
+|'''1,400,000''' || 35 || 40 || 45
+|-
+|'''1,800,000''' || 40 || 45 || 50
+|-
+|'''2,200,000''' || 45 || 50 || 55
+|-
+|'''2,500,000''' || 50 || 55 || 60
+|-
+|'''3,000,000''' || 55 || 60 || 65
+|-
+|'''5,000,000''' || 60 || 65 || 70
+|-
+|'''6,000,000''' || 70 || 75 || 80
+|-
+|'''9,000,000''' || 80 || 85 || 90
+|-
+|'''9,000,000+''' || impossible || impossible || impossible
+|}
+
+== Builder notes ==
+
+* The scroll check is actually turned on and off by the [[local variable|local integer]] X2_SWITCH_ENABLE_UMD_SCROLLS on the [[module]]. The standard Hordes [[event handler|handler]] for the [[OnModuleLoad event]] (<code>x2_mod_def_load</code>, and also <code>x3_mod_def_load</code>) checks the game difficulty and sets this local variable appropriately (set to TRUE if the difficulty is at least "hardcore").
+* The scroll check itself is implemented in the [[spellhook]], specifically in the [[script]] <code>x2_pc_umdcheck</code>.
+[[category:skills]]
+[[category:skills that require training]]
+[[category:exclusive skills]]

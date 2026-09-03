@@ -1,0 +1,95 @@
+[[File:Rogue1.PNG|thumb|400px|справа|Статистика персонажа с максимальными характеристиками.]]
+*[[Билды для новичков|Вернуться обратно]]
+==Описание==
+Скрытый от глаз, наточивший своё оружие вор - грозный противник для любого воителя, который не следит за тенями. Ударяя в слабые места он способен наносить критические ранения своим противникам. В бою с монстрами он способен наносить существенные повреждения
+
+'''Преимущества''': Скрытное перемещение, слабые ловушки стратегического характера, востребованность в ПвП, простое ПвЕ. Высокий урон
+
+'''Недостатки''': Имеется шанс на провал создания/установки ловушек; Низкие показатели стойкости; Требует довольно высокого уровня контроля ситуации и тратит большие средства на зелья и свитки; Есть более простые персонажи, где не нужно совершать так много телодвижений, чтобы воспользоваться особенностями.
+
+== Общее ==
+*Бонус атаки: +48, 46 если с оружием во второй руке
+*Навыки: 126 Hide, 122 Move Silently, 120 Spot
+*Спасброски: 53 Стойкости / 57 Рефлексов / 44 Воли
+*Изготавливает почти все доступные ловушки, низкая сила ловушек
+*Может скрытыми атаками пробивать иммунитеты монстров и персонажей.
+*Может носить оружие во второй руке с вещью с чертов Improved Two-Weapon Fighting
+*Требователен к вещам: Необходима вещь с умением Weapon finesse, Stealthy
+
+== Билд ==
+'''Раса:''' Тёмный Эльф (Elf)
+
+'''Характер''' Законопослушно-злой (Lawful evil)
+
+'''Характеристики:'''
+*Сила - 10
+*Ловкость - 16 (+10 на прокачке)
+*Телосложение - 14
+*Интеллект - 14
+*Мудрость - 14
+*Харизма - 8
+
+Стартовые характеристики персонажа могут подходить также под билд ([[Мастер Монах]], [[Мастер Ловушек]])
+
+'''Навыки:'''
+ 
+Персонаж имеет в сумме 385 очка навыков к 40 уровню. Обязательные навыки:
+*Hide - 10 (На 7 уровне, чтобы на 8 уровне персонажа можно было взять Теневого Танцора)
+*Move Silently - 8 (На 7 уровне, чтобы на 8 уровне персонажа можно было взять Теневого Танцора)
+*Tumble - 5 (На 7 уровне, чтобы на 8 уровне персонажа можно было взять Теневого Танцора)
+Остальные навыки, наиболее важные для данного персонажа к 40 уровню:
+*Hide - 43
+*Move Silently - 43
+*Spot - 43
+*Discipline - 43 (Доступен только на уровнях рейнджера)
+*Heal - 43
+*Set Trap - 43
+*Craft Trap - 43
+*Search- 43
+*Use Magic Device - 33 (Доступен только на уровнях плута)
+8 очков навыков остаётся у вас на выбор
+
+'''Повышение уровня:'''
+<div style="column-count:2">
+ 
+:1. <span style="color: green;">'''Рейнджер'''</span></p> - Blooded, Владение клинковыми оружиями
+:2. <span style="color: green;">'''Рейнджер'''</span></p> 
+:3. <span style="color: green;">'''Рейнджер'''</span></p> - Dodge
+:4. <span style="color: blue">'''Вор'''</span></p> 
+:5. <span style="color: blue">'''Вор'''</span></p> 
+:6. <span style="color: blue">'''Вор'''</span></p>  - Mobility
+:7. <span style="color: blue">'''Вор'''</span></p> 
+:8. '''Теневой Танцор'''
+:9. '''Теневой Танцор''' - Skill Focus (Hide)
+:10. '''Теневой Танцор'''
+:11. '''Теневой Танцор'''
+:12. <span style="color: blue">'''Вор'''</span></p> - Skill Focus (Spot)
+:13. <span style="color: blue">'''Вор'''</span></p> 
+:14. <span style="color: blue">'''Вор'''</span></p> 
+:15. <span style="color: blue">'''Вор'''</span></p> - Great Fortitude
+:16. <span style="color: blue">'''Вор'''</span></p> 
+:17. <span style="color: blue">'''Вор'''</span></p> - Crippling Strike
+:18. <span style="color: blue">'''Вор'''</span></p> - Alertness
+:19. <span style="color: blue">'''Вор'''</span></p> 
+:20. <span style="color: green;">'''Рейнджер'''</span></p> // Заливаем 23 Discipline
+:21. <span style="color: blue">'''Вор'''</span></p> - Epic Fortitude; Epic Skill Focus (Hide)
+:22. <span style="color: blue">'''Вор'''</span></p> 
+:23. <span style="color: blue">'''Вор'''</span></p> 
+:24. <span style="color: blue">'''Вор'''</span></p> - Weapon Focus (Rapier); Epic Skill Focus (Move Silently)
+:25. <span style="color: blue">'''Вор'''</span></p> 
+:26. <span style="color: blue">'''Вор'''</span></p> 
+:27. <span style="color: blue">'''Вор'''</span></p> - Improved Critical (Rapier); Epic Skill Focus (Spot)
+:28. <span style="color: blue">'''Вор'''</span></p> 
+:29. <span style="color: blue">'''Вор'''</span></p>
+:30. <span style="color: blue">'''Вор'''</span></p> - Weapon Finesse
+:31. <span style="color: blue">'''Вор'''</span></p> 
+:32. <span style="color: blue">'''Вор'''</span></p> - Epic Skill Focus (Discipline)
+:33. <span style="color: blue">'''Вор'''</span></p> - Blind-Fight
+:34. <span style="color: blue">'''Вор'''</span></p> 
+:35. <span style="color: blue">'''Вор'''</span></p> 
+:36. <span style="color: blue">'''Вор'''</span></p> - Stealthy; Defensive roll
+:37. <span style="color: blue">'''Вор'''</span></p> 
+:38. <span style="color: blue">'''Вор'''</span></p> 
+:39. <span style="color: blue">'''Вор'''</span></p> - Epic Dodge
+:40. <span style="color: green;">'''Рейнджер'''</span></p>- Epic Weapon Focus (Rapier) // Заливаем: Hide, Move Silently, Spot, Discipline, Heal/Set trap
+</div>

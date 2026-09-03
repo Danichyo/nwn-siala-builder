@@ -1,0 +1,348 @@
+[[Image:Ir fighter.gif|right|Fighter]]
+'''Description''': Fighters can be many things, from soldiers to criminal enforcers. Some see adventure as a way to get rich, while others use their skills to protect the innocent. Fighters have the best all-around fighting capabilities of the PC classes, and they are trained to use all standard weapons and armor. A fighter's rigorous martial training grants him many bonus feats as he progresses, and high-level fighters have access to special melee maneuvers and exotic weapons not available to any other character.
+
+'''Alignment restrictions''': None
+
+'''[[Hit die]]''': d10
+
+'''Proficiencies''': armor ([[armor proficiency (light)|light]], [[armor proficiency (heavy)|heavy]], [[armor proficiency (medium)|medium]]), [[shield proficiency|shields]], weapons ([[weapon proficiency (martial)|martial]], [[weapon proficiency (simple)|simple]])
+
+'''[[Skill point]]s''': 2 + [[int]] modifier ( (2 + int modifer) * 4 at 1st level)
+
+'''Skills''': [[concentration]], [[craft armor]], [[craft trap]], [[craft weapon]], [[discipline]], [[heal (skill)|heal]], [[lore]], [[parry]], [[ride]]
+
+'''Unavailable feats:'''
+[[brew potion]], [[craft wand]], [[curse song]], [[divine might]], [[divine shield]], [[extra music]], [[extra turning]], [[lingering song]], [[quicken spell]], [[scribe scroll]], [[spell focus]]
+<br />These [[general feat]]s cannot be selected when taking a level of fighter.
+
+'''[[Saving throw|Primary saving throw(s)]]''': [[fortitude]]
+
+'''[[Base attack bonus]]: +1/level'''
+
+[[Image:Fighter.jpg|Fighter]]
+
+== Special abilities &amp; feats ==
+*At class level 1 and at every even level afterwards (2, 4, 6, ...), a fighter gains a bonus feat, chosen from a subset of the entire feat list. This bonus feat is in addition to the feats every character gains for advancing in character level. If the character is an [[epic character]], then the epic fighter bonus feats are also available.
+**'''[[:Category:fighter bonus feats|Fighter bonus feat list]]'''
+
+{|border="2" style="background:#efefef; color:#000000; border-collapse:collapse"
+|-style="background:#c0c0c0"
+!rowspan=2|Lvl 
+!rowspan=2|BAB 
+!colspan="3"|Saves 
+!rowspan=2|Feats 
+!rowspan=2|HP range 
+!rowspan=2|Notes
+|-style="background:#c0c0c0"
+!Fort 
+!Ref 
+!Will 
+|-align="center"
+|1st
+| +1
+| +2
+| +0
+| +0
+|align="left"|bonus feat
+|5-10
+|
+|-align="center"
+|2nd
+| +2
+| +3
+| +0
+| +0
+|align="left"|bonus feat
+|10-20
+|
+|-align="center"
+|3rd
+| +3
+| +3
+| +1
+| +1
+|align="left"|
+|15-30
+|
+|-align="center"
+|4th
+| +4
+| +4
+| +1
+| +1
+|align="left"|bonus feat
+|20-40
+|[[weapon specialization]] first available.
+|-align="center"
+|5th
+| +5
+| +4
+| +1
+| +1
+|align="left"|
+|25-50
+|
+|-align="center"
+|6th
+| +6/+1
+| +5
+| +2
+| +2
+|align="left"|bonus feat
+|30-60
+|
+|-align="center"
+|7th
+| +7/+2
+| +5
+| +2
+| +2
+|align="left"|
+|35-70
+|
+|-align="center"
+|8th
+| +8/+3
+| +6
+| +2
+| +2
+|align="left"|bonus feat
+|40-80
+|
+|-align="center"
+|9th
+| +9/+4
+| +6
+| +3
+| +3
+|align="left"|
+|45-90
+|
+|-align="center"
+|10th
+| +10/+5
+| +7
+| +3
+| +3
+|align="left"|bonus feat
+|50-100
+|
+|-align="center"
+|11th
+| +11/+6/+1
+| +7
+| +3
+| +3
+|align="left"|
+|55-110
+|
+|-align="center"
+|12th
+| +12/+7/+2
+| +8
+| +4
+| +4
+|align="left"|bonus feat
+|60-120
+|
+|-align="center"
+|13th
+| +13/+8/+3
+| +8
+| +4
+| +4
+|align="left"|
+|65-130
+|
+|-align="center"
+|14th
+| +14/+9/+4
+| +9
+| +4
+| +4
+|align="left"|bonus feat
+|70-140
+|
+|-align="center"
+|15th
+| +15/+10/+5
+| +9
+| +5
+| +5
+|align="left"|
+|75-150
+|
+|-align="center"
+|16th
+| +16/+11/+6/+1
+| +10
+| +5
+| +5
+|align="left"|bonus feat
+|80-160
+|
+|-align="center"
+|17th
+| +17/+12/+7/+2
+| +10
+| +5
+| +5
+|align="left"|
+|85-170
+|
+|-align="center"
+|18th
+| +18/+13/+8/+3
+| +11
+| +6
+| +6
+|align="left"|bonus feat
+|90-180
+|
+|-align="center"
+|19th
+| +19/+14/+9/+4
+| +11
+| +6
+| +6
+|align="left"|
+|95-190
+|
+|-align="center"
+|20th
+|  +20/+15/+10/+5
+| +12
+| +6
+| +6
+|align="left"|bonus feat
+|100-200
+|
+|}
+
+
+[[Image:ife x2epfighter.gif|right|Epic fighter]]
+
+== Epic fighter ==
+Having advanced from the ranks of seasoned warriors, the epic fighter is the true master of warfare. More than a mere sword-swinger, the epic fighter knows how to defeat his opponents in any arena. Though his journey to achieve this goal has been long and hard, the epic fighter is just starting out on another path - a fledgling in the realm of gods and other powerful beings.
+
+'''Hit die:''' d10
+
+'''Skill points:''' 2 + int modifier
+
+'''Bonus feats:''' The epic fighter gains a bonus feat every two levels after 20th. In other words, at levels 22, 24, 26, 28, 30, 32, 34, 36, 38, and 40.
+
+'''Epic fighter bonus feats:''' [[armor skin]], [[devastating critical]], [[epic damage reduction]], [[epic prowess]], [[epic toughness]], [[epic weapon focus]], [[epic weapon specialization]], [[improved stunning fist]], [[improved whirlwind attack]], [[overwhelming critical]], [[superior initiative]]
+
+'''Unavailable epic feats:'''
+[[automatic quicken spell]], [[automatic silent spell]], [[automatic still spell]], [[bane of enemies]],
+[[construct shape]], [[dragon shape]], [[epic spell penetration]],
+[[epic spell: dragon knight]], [[epic spell: epic mage armor]], [[epic spell: epic warding]], [[epic spell: greater ruin]], [[epic spell: hellball]], [[epic spell: mummy dust]],
+[[great smiting]],
+[[improved ki strike 4]], [[improved ki strike 5]], [[improved sneak attack]],
+[[improved spell resistance]],
+[[lasting inspiration]], [[mighty rage]], [[outsider shape]],
+[[planar turning]], [[terrifying rage]], [[thundering rage]], [[undead shape]]
+<br />These general [[epic feat]]s cannot be selected when taking a level of fighter.
+
+=== Epic fighter level progression ===
+
+{|border="2" style="background:#efefef; color:#000000; border-collapse:collapse"
+|-style="background:#c0c0c0"
+!  Lvl   
+!Feats 
+!HP range
+|-align="center"
+|21st
+|align="left"|
+|105-210
+|-align="center"
+|22nd
+|align="left"|bonus feat
+|110-220
+|-align="center"
+|23rd
+|align="left"|
+|115-230
+|-align="center"
+|24th
+|align="left"|bonus feat
+|120-240
+|-align="center"
+|25th
+|align="left"|
+|125-250
+|-align="center"
+|26th
+|align="left"|bonus feat
+|130-260
+|-align="center"
+|27th
+|align="left"|
+|135-270
+|-align="center"
+|28th
+|align="left"|bonus feat
+|140-280
+|-align="center"
+|29th
+|align="left"|
+|145-290
+|-align="center"
+|30th
+|align="left"|bonus feat
+|150-300
+|-align="center"
+|31st
+|align="left"|
+|155-310
+|-align="center"
+|32nd
+|align="left"|bonus feat
+|160-320
+|-align="center"
+|33rd
+|align="left"|
+|165-330
+|-align="center"
+|34th
+|align="left"|bonus feat
+|170-340
+|-align="center"
+|35th
+|align="left"|
+|175-350
+|-align="center"
+|36th
+|align="left"|bonus feat
+|180-360
+|-align="center"
+|37th
+|align="left"|
+|185-370
+|-align="center"
+|38th
+|align="left"|bonus feat
+|190-380
+|-align="center"
+|39th
+|align="left"|
+|195-390
+|-align="center"
+|40th
+|align="left"|bonus feat
+|200-400
+|}
+
+== Prestige class tips ==
+*Fighters have many options available to them - [[blackguard]] (evil only), [[dwarven defender]] (lawful dwarven only), or [[weapon master]] are among the best choices.
+*Elf and half-elf fighters who use bows and multiclass as wizards (the elf's favored class), sorcerers, or bards, may want to consider becoming [[arcane archer]]s.
+*Non-evil fighters could consider [[champion of Torm]] since it offers many defensive advantages and little loss of fighter class abilities.
+
+== Notes ==
+* During [[character creation]], the "Recommended" button selects the fighter class.
+* The fighter is the only class that has access to the [[weapon specialization]] feat.
+
+==External Links==
+* {{FRW}}
+
+[[Category:Classes]]

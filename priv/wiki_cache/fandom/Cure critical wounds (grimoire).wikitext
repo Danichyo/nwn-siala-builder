@@ -1,0 +1,24 @@
+{{Grimoire spell|imagename=Is curcrwnds.gif
+|spellname=Cure Critical Wounds
+|casterlevel=[[Bard]] 4, [[Cleric]] 4, [[Druid]] 5, [[Healing domain (grimoire)|Healing]] 4
+|innatelevel=4
+|school=[[Conjuration]] ([[Spell subschool|Healing]])
+|descriptors=None
+|components=V, S
+|range=[[Touch attack|Touch]]
+|immunities=Positive
+|savingthrow=[[Will]] half
+|spellresistance=Yes
+|targettype=Single living creature
+|duration=Instant
+|description=The target creature is healed of 4d8 points of damage, + 1 point per caster level to a maximum of +20. Healing spells have a reverse effect when used on [[undead]], causing the targeted undead to take an amount of damage equal to what the spell normally heals. A successful touch attack must first be made when this spell is used against undead.
+
+This spell has no effect on [[construct]]s.
+}}
+
+== Notes ==
+*{{Grimoire spell change|pagename=[[Cure critical wounds]]}}
+{{g_bard}}
+{{g_clr}}
+{{g_drd}}
+{{g_subhea}}

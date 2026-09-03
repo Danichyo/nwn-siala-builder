@@ -1,0 +1,11 @@
+{{feat
+|type=class
+|prereq=[[paladin]] 2
+|desc=A character with this feat is immune to [[fear]].
+|use=automatic
+|icon=ife_aurabrave.gif
+|class1=paladin
+}}
+
+== Notes ==
+Because this feat does not negate the saving throw versus fear (as other sources of fear immunity would), it is not susceptible to the bugs that result when a non-fear effect is applied with a fear saving throw (e.g. [[terrifying rage]]).

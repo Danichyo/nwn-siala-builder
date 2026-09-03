@@ -1,0 +1,28 @@
+{{spell
+|icon=is_searlght.gif
+|clericlevel=3
+|domain=sun
+|domainlevel=2
+|innatelevel=3
+|school=[[evocation]]
+|components=VS
+|range=m
+|area=single
+|save=none
+|spellresistance=yes
+|duration=instant
+|line=Sunshine
+|line3=searing light
+|line7=sunbeam
+|line8=sunburst
+|desc=The caster directs a beam of white-hot light at a single target. The [[divine damage|damage]] is based on the target's [[race|racial type]]:
+* [[Undead]]: 1[[d8]] per caster level, to a maximum of 10d8
+* [[Construct]]: 1[[d6]] for every 2 caster levels, to a maximum of 5d6
+* Other: 1d8 for per 2 caster levels, to a maximum of 5d8}}
+
+== Notes ==
+*The damage inflicted on undead is (incorrectly) implemented as 1d6 per caster level, not 1d8.
+*The damage inflicted by the spell is [[divine damage]].
+
+== Custom content notes ==
+*''script:'' <code>nw_s0_SearLght</code>

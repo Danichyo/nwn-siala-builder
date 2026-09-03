@@ -1,0 +1,36 @@
+[[Image:Isk x1app.gif|right|Appraise]]
+The higher the [[character]]'s [[skill]], the better the price received when selling or purchasing goods.
+
+*'''Ability''': [[intelligence]]
+
+*'''Classes''': [[assassin]], [[bard]], [[Harper scout]], [[rogue]]
+
+*'''[[Cross-class skill|Cross-class]]''': yes
+
+*'''[[untrained skill check|Requires training]]''': no
+
+*'''Check''': The character makes an opposed roll against the [[merchant]]'s appraise skill. If the merchant wins, the character pays more for the goods in the store. If the character wins, he pays less. The first time the player interacts with a merchant dictates the prices in that store until his appraise skill improves.
+
+*'''Use''': Automatic in stores
+
+==Notes==
+
+*Added in the [[expansion pack]]s.
+*Before the expansion packs were released, store prices were fixed (no die rolls). A [[patch]] added the die rolls to the [[original campaign]], even if neither expansion was installed. (A PC cannot buy ranks in appraise if neither expansion is installed, but [[intelligence]] will still influence the rolls.)
+*Merchants subject to charm or dominate effects are considered easy marks, and have their appraise skill reduced. Reductions are -10 for [[charm person]], [[charm monster]], or [[charm person or animal]]; -15 for [[mass charm]]; and -20 for [[dominate monster]], [[dominate animal]], or [[dominate person]]. (Dominated creatures may be unable to open a store, though, as their normal dialogue will be suppressed.) In the case of multiple effects, the smallest reduction is used.
+*Regardless of skill ranks, intelligence modifier, or dominate/charm effects, the merchant's minimum appraise skill for this skill roll is 1.
+*Unlike other skill rolls, this opposed roll uses a d10 (10-sided die).
+*The prices are adjusted by a percentage equal to the difference in the die rolls, subject to a 30% cap.
+*The merchant's reaction is reported as "favorable", "neutral", or "unfavorable", depending on whether the adjustment favored the PC, was zero, or favored the merchant, respectively.
+*As noted in the description of the check, an appraise roll is not made when re-visiting a store unless the player's appraise skill has ''improved'', not changed. A lowered score does not trigger a new roll. Thus, a character does not need to equip appraise-enhancing items every time a store is visited; wearing them as the store is opened once is enough to gain their benefits for future visits to that store. Similarly, casting [[fox's cunning]] &mdash; or drinking such a potion &mdash; to improve appraise can be done for just the first visit to a merchant.
+*Though the appraise check is only re-rolled when the PC's appraise skill level increases, that does not ensure that the roll itself will be more favorable to the PC, due to the random component of the opposed roll.
+*The roll is connected to the NPC the PC interacts with to open the store, not to the store itself. Thus, a store that may be opened by interaction with more than one NPC may have different appraise adjustments for each of them. This also affects merchants who travel. Depending on how the traveling is implemented within the module, an appraise roll might be made for each appearance of the merchant, as is done for the djinni merchant Volkarion Arsetis in the [[Hordes of the Underdark campaign]].
+*Note that this skill is [[script]] based and it might not work in every community [[module]], especially the really old ones.
+
+==Builders notes==
+
+*For this skill to be used, all stores need to be opened with [[gplotAppraiseOpenStore]]() or [[gplotAppraiseFavOpenStore]](), both found in the [[include file]] <code>nw_i0_plot</code>.
+*The scripts <code>x1_openstore</code> and <code>x1_openstorefav</code> use these functions to open the nearest store object.
+*A module builder has the option to change how the skill works by using module-specific scripts. 
+* Builders should be aware of the appraise check and be wary of setting a merchant's mark up and mark down rates so close (within 60) that a character with a high appraise skill can buy items for less than what the store will pay to buy them back.
+[[category:skills]]

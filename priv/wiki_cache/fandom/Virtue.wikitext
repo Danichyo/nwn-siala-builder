@@ -1,0 +1,24 @@
+{{spell
+|icon=is_virtue.gif
+|clericlevel=0
+|druidlevel=0
+|paladinlevel=1
+|innatelevel=0
+|school=[[transmutation]]
+|components=VS
+|range=t
+|area=single
+|save=harmless
+|spellresistance=no
+|duration=1 [[turn]] / level
+|desc=The target creature gains 1 [[temporary hit point]] above his maximum total.}}
+
+== Notes ==
+* ''Virtue'' does [[stack]] with itself.
+
+== Custom content notes ==
+
+*''script:'' <code>NW_S0_Virtue</code>
+==External links==
+*{{FRW}}
+* {{NWN2W}}

@@ -1,0 +1,79 @@
+{| border=0 cellspacing=2
+|-
+|[[Image:Ife x2critobswd.gif|right|Overwhelming critical (bastard sword)]]
+|[[Image:Ife x2critobaxe.gif|right|Overwhelming critical (battleaxe)]]
+|[[Image:Ife x2critoclub.gif|right|Overwhelming critical (club)]]
+|[[Image:Ife x2critocrea.gif|right|Overwhelming critical (creature weapon)]]
+|[[Image:Ife x2critodagg.gif|right|Overwhelming critical (dagger)]]
+|[[Image:Ife x2critodart.gif|right|Overwhelming critical (dart)]]
+|[[Image:Ife x2critodmac.gif|right|Overwhelming critical (dire mace)]]
+|[[Image:Ife x2critodaxe.gif|right|Overwhelming critical (double axe)]]
+|[[Image:Ife x2ocrtdwax.gif|right|Overwhelming critical (dwarven waraxe)]]
+|-
+|[[Image:Ife x2critogaxe.gif|right|Overwhelming critical (greataxe)]]
+|[[Image:Ife x2critogswd.gif|right|Overwhelming critical (greatsword)]]
+|[[Image:Ife x2critohalb.gif|right|Overwhelming critical (halberd)]]
+|[[Image:Ife x2critohaxe.gif|right|Overwhelming critical (handaxe)]]
+|[[Image:Ife x2critohxb.gif|right|Overwhelming critical (heavy crossbow)]]
+|[[Image:Ife x2critohfla.gif|right|Overwhelming critical (heavy flail)]]
+|[[Image:Ife x2critokama.gif|right|Overwhelming critical (kama)]]
+|[[Image:Ife x2critokatn.gif|right|Overwhelming critical (katana)]]
+|[[Image:Ife x2critokukr.gif|right|Overwhelming critical (kukri)]]
+|-
+|[[Image:Ife x2critolxb.gif|right|Overwhelming critical (light crossbow)]]
+|[[Image:Ife x2critolfla.gif|right|Overwhelming critical (light flail)]]
+|[[Image:Ife x2critolham.gif|right|Overwhelming critical (light hammer)]]
+|[[Image:Ife x2critolbow.gif|right|Overwhelming critical (longbow)]]
+|[[Image:Ife x2critolswd.gif|right|Overwhelming critical (longsword)]]
+|[[Image:Ife x2critomace.gif|right|Overwhelming critical (mace)]]
+|[[Image:Ife x2critomsta.gif|right|Overwhelming critical (morningstar)]]
+|[[Image:Ife x2critoqsta.gif|right|Overwhelming critical (quarterstaff)]]
+|[[Image:Ife x2critorapr.gif|right|Overwhelming critical (rapier)]]
+|-
+|[[Image:Ife x2critoscim.gif|right|Overwhelming critical (scimitar)]]
+|[[Image:Ife x2critoscyt.gif|right|Overwhelming critical (scythe)]]
+|[[Image:Ife x2critosbow.gif|right|Overwhelming critical (shortbow)]]
+|[[Image:Ife x2critosswd.gif|right|Overwhelming critical (shortsword)]]
+|[[Image:Ife x2critoshur.gif|right|Overwhelming critical (shuriken)]]
+|[[Image:Ife x2critoskle.gif|right|Overwhelming critical (sickle)]]
+|[[Image:Ife x2critoslng.gif|right|Overwhelming critical (sling)]]
+|[[Image:Ife x2critospr.gif|right|Overwhelming critical (spear)]]
+|[[Image:Ife x2critotaxe.gif|right|Overwhelming critical (throwing axe)]]
+|-
+|[[Image:Ife x2ocrttri.gif|right|Overwhelming critical (trident)]]
+|[[Image:Ife x2critotswd.gif|right|Overwhelming critical (two-bladed sword)]]
+|[[Image:Ife x2critounar.gif|right|Overwhelming critical (unarmed strike)]]
+|[[Image:Ife x2critowham.gif|right|Overwhelming critical (warhammer)]]
+|[[Image:Ife x2ocrtwhip.gif|right|Overwhelming critical (whip)]]
+|}
+{{feat
+|epic=yes
+|type=combat
+|prereq=21st level, [[strength]] 23+, [[cleave]], [[great cleave]], [[improved critical]] (chosen weapon), [[power attack]]
+|reqfor=[[devastating critical]]
+|desc=When using the weapon chosen, the character deals +1d6 points of damage on a successful [[critical hit]]. If the weapon's [[critical multiplier]] is x3, add +2d6 and if the multiplier is x4, add 3d6.
+|use=automatic
+|bonus1=arcane archer
+|bonus2=barbarian
+|bonus3=blackguard
+|bonus4=champion of Torm
+|bonus5=dwarven defender
+|bonus6=fighter
+|bonus7=paladin
+|bonus8=weapon master
+}}
+
+== Notes ==
+
+*Requires [[Hordes of the Underdark]].
+*Most NWN manuals state that [[weapon focus]] is a prerequisite, but it is not. 
+* This feat [[stack]]s with any [[massive critical]] item property on a weapon (including that obtained from [[thundering rage]]).
+* The number of extra dice rolled does not match the feat's description.
+** There is an additional 1d6 rolled &ndash; this feat adds +2d6 for a x2 multiplier, +3d6 for x3, and +4d6 for x4.
+** Only 1d6 is rolled if [[ki damage]] is used for an attack, regardless of the critical multiplier. This results in less average damage for a critical hit (by 1 for a x2 multiplier, more for higher multipliers). So a [[weapon master]] could average more damage by not using ki damage in situations where critical hits are frequent enough (based on the [[threat range]]).
+* The [[creature weapon]] variant of this feat is non-functional; the [[unarmed strike]] variant is used with creature weapons (or any other [[natural weapon]]).
+*Weapons with the [[no combat damage]] property do not benefit from overwhelming critical.
+
+=== Previous versions ===
+
+* Prior to [[Enhanced Edition]] version 1.89,<!--might have been fixed earlier--> this feat did not account for a weapon master's ''[[increased multiplier]]'' feat; a [[kukri]] (normally a x2 weapon) would still get a +2d6 bonus from this feat, even when it has a x3 multiplier in the hand of a weapon master.

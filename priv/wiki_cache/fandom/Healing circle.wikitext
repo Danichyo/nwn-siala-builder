@@ -1,0 +1,35 @@
+{{spell
+|icon=is_healcirc.gif
+|bardlevel=5
+|clericlevel=5
+|druidlevel=6
+|innatelevel=5
+|school=[[conjuration]]
+|components=VS
+|range=p
+|area=<s>medium</s> ''{{AoE|large}}''
+|save=[[fortitude]] 1/2
+|spellresistance=yes
+|immunity=
+|duration=instant
+|counters=<del>[[circle of doom]]</del>
+|line=Cure wounds
+|line0=cure minor wounds
+|line1=cure light wounds
+|line2=cure moderate wounds
+|line3=cure serious wounds
+|line4=cure critical wounds
+|line5=healing circle
+|line6=heal (spell)
+|line8=mass heal
+|desc=All friendly creatures within the area of effect are healed for 1[[d8]] [[hit point]]s, +1 points per caster level up to a maximum of +20. Healing spells have a reverse effect when used on [[undead]], harming instead of healing them.}}
+
+== Notes ==
+
+* Neutral creatures are also healed.
+* This spell's description lists its area of effect as "medium" when it is in fact "large". It is possible that this is a bug in the implementation; compare with ''[[mass heal]]''.
+* This spell inflicts [[positive energy damage]] on undead in the affected area, unless the creature is [[PvP setting#Reactions|friendly]] to the caster.
+* Due to a .2da bug, ''circle of doom'' is not an additional [[counterspell]] of this spell.
+
+== Custom content notes ==
+* ''script:'' <code>NW_S0_HealCirc</code>

@@ -1,0 +1,24 @@
+{{spell
+|icon=is_x1bombar.gif
+|druidlevel=8
+|innatelevel=8
+|school=[[conjuration]]
+|components=VS
+|range=l
+|area=<del>huge</del> {{AoE|colossal}}
+|save=[[reflex]] 1/2
+|spellresistance=yes
+|duration=instant
+|desc=Rocks fall from the sky, causing 1d8 points of [[bludgeoning damage]] per caster level (to a maximum of 10d8) to all enemies in the area.}}
+
+==Notes==
+*Added in the [[expansion pack]]s.
+*Enemies include neutral [[player character]]s and associates of player characters after considering the [[PvP setting]].
+*Since this is an 8th-level spell (and the minimum level required to cast it is therefore 15), it will always do 10d8 points of damage.
+* The in-game text incorrectly describes the affected area as "huge" when it is actually "colossal".
+
+==Custom content notes==
+*''script:'' <code>X0_S0_Bombard</code>
+==External links==
+* {{FRW}}
+* {{NWN2W}}

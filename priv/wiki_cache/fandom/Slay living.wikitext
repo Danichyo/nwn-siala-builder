@@ -1,0 +1,24 @@
+{{spell
+|icon=is_slaylive.gif
+|clericlevel=5
+|druidlevel=5
+|innatelevel=5
+|school=[[necromancy]]
+|components=VS
+|range=t
+|area=single
+|save=[[fortitude]] negates
+|spellresistance=yes
+|immunity=death, negative
+|duration=instant
+|counters=<del>[[death ward]]</del>
+|desc=The target must make a fortitude save or die. Even if the [[saving throw]] is successful, the target takes 3[[d6]] points of [[negative energy damage]], +1 point per caster level.}}
+
+==Notes==
+* The caster must make a successful melee [[touch attack]] on the target.
+** The touch attack occurs after the spell resistance check, which might consume [[spell mantle]]s needlessly.
+* The save is versus death, but neither descriptor provides immunity to this spell as a whole. Immunity to [[death magic]] applies if the save is failed, while immunity to negative energy damage applies if the save succeeds. Perhaps unintentionally, death-immune targets are better off failing the save.
+* Due to a .2da bug, ''death ward'' is not an additional [[counterspell]] of this spell.
+
+==Custom content notes==
+* ''script:'' <code>NW_S0_SlayLive</code>

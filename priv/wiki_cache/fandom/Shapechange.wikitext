@@ -1,0 +1,66 @@
+<div style="display:block; float:right">[[Image:Is shapechg.gif|right|Shapechange]]<br /><div style="display:block; float:right; text-align:right">
+[[Image:Is shpbalor.gif|Shapechange, balor]]
+[[Image:Is shpslaad.gif|Shapechange, death slaad]]
+[[Image:Is shpgiant.gif|Shapechange, fire giant]]
+[[Image:Is shpgolem.gif|Shapechange, iron golem]]
+[[Image:Is shpdragon.gif|Shapechange, red dragon]]
+</div></div>
+{{spell
+|druidlevel=9
+|magelevel=9
+|innatelevel=9
+|school=[[transmutation]]
+|components=VS
+|range=p
+|area=caster
+|save=harmless
+|spellresistance=no
+|duration=1 [[turn]] / level
+|line=Polymorph
+|line4=polymorph self
+|line9=shapechange
+|desc=The caster is temporarily [[polymorph|transform]]ed into one of several fearsome creatures of destruction. Possible forms include: [[red dragon form|red dragon]], [[fire giant form|fire giant]], [[balor form|balor]], [[death slaad form (shapechange)|death slaad]], or [[iron golem form (shapechange)|iron golem]].}}
+
+== Notes ==
+*The shapes available with this spell are somewhat limited compared to [[shifter]] forms or the actual creatures. For example, the red dragon shape does not have [[fire dragon breath]] nor an [[aura of dragon fear]] (c.f [[adult red dragon]]). This is especially true if you have powerful equipment, as the Shifter forms merge in some equipment to your new form, while these do not - all of your equipment is disabled while polymorphed, and re-enabled once it expires.
+*Casting this spell disables spellcasting and item use except potions; see [[polymorph]] for details.
+*The AC bonus is a [[dodge bonus]].
+
+Details of the forms are in the table below. (The damage column lists [[creature weapon]]s, which are not indicative of the number of attacks per round.)
+
+{| class="centertable" style="text-align:center"
+|+Shape properties
+|-
+!&nbsp;
+!str!!dex!!con!!Size!!AC!!HP
+!damage
+!special
+|-
+!balor
+|24||30||24||large|| +10|| +250
+|align=left|slam:&nbsp;1d6+7<br /><br />critical:&nbsp;20/x2
+|align=left|[[damage reduction]]: 30/+3<br />[[damage resistance]]: acid 20/-, cold 20/-, fire 20/-<br />[[immunity]]: electrical 100%, [[poison]]<br />[[spell resistance]]: 28<br />[[On monster hit|on-hit]]: [[fear]]
+|-
+!death slaad
+|24||36||24||large|| +10|| +225
+|align=left|claw: 3d6+7<br />claw: 3d6+7<br />bite:&nbsp;2d10+7<br /><br />critical: 20/x2
+|align=left|<u>damage reduction</u>: 20/+2<br /><u>damage resistance</u>: acid 5/-, cold 5/-, electrical 5/-, fire 5/-, sonic 5/-<br />[[regeneration]]: +5
+|-
+!fire giant
+|30||30||21||huge|| +10|| +200
+|align=left|slam:&nbsp;2d10+10<br /><br />critical: 20/x2
+|align=left|<u>immunity</u>: fire 100%<br />[[vulnerability]]: cold 50%
+|-
+!iron golem
+|30||20||20||large|| +10|| +300
+|align=left|slam: 2d10+10<br /><br />critical: 20/x2
+|align=left|<u>damage reduction</u>: 30/+3<br /><u>immunity</u>: [[critical hit]], [[death magic]], [[disease]], [[level drain]], [[ability drain]], [[mind-affecting]] spells, [[paralysis]], poison, [[sneak attack]]<br /><u>vulnerability</u>: electrical 50%
+|-
+!red dragon
+|36||30||21||huge|| +10|| +150
+|align=left|claw: 2d6+13<br />claw: 2d6+13<br />bite: 2d8+13<br /><br />critical: 20/x2
+|align=left|<u>damage reduction</u>: 5/+1<br /><u>immunity</u>: fire 100%, mind-affecting spells, paralysis, sneak attack<br /><u>vulnerability</u>: cold 50%<br /><u>spell resistance</u>: 20<br />[[true seeing]]
+|}
+
+== Custom content notes ==
+*''script:'' <code>NW_S0_ShapeChg</code>

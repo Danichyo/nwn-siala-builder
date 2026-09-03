@@ -1,0 +1,23 @@
+{{spell
+|icon=is_timestop.gif
+|magelevel=9
+|innatelevel=9
+|school=[[transmutation]]
+|components=V
+|range=p
+|area=caster
+|save=none
+|spellresistance=no
+|duration=9 seconds
+|desc=The caster is able to defy the sands of time, casting spells, moving about, and attacking normally while the rest of the world appears suspended, as if in stasis.}}
+
+==Notes==
+*Many multiplayer [[server]]s disable or change this spell since it pauses all actions on the server, which many players find disruptive. It is also often modified for reasons of balance, as the spell is commonly thought to be overpowered, due to both its unresistability and its effect.
+*The character sheet might incorrectly report a dexterity of 3 for creatures affected by time stop.  There is, however, no change to the dexterity score and modifier.
+
+===Previous versions===
+*Prior to [[patch]] 1.67, ''time stop'' required a somatic component even though it was not listed in the description.
+
+==Custom content notes==
+
+* ''script:'' <code>NW_S0_TimeStop</code>

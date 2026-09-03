@@ -1,0 +1,21 @@
+{{feat
+|type=class
+|prereq=[[rogue]] 10, [[shadowdancer]] 7
+|desc=Characters failing their [[will]] [[save]] versus [[mind-affecting]] spells get an automatic reroll.
+|use=automatic
+|icon=ife_slippermind.gif
+|class1=shadowdancer
+|bonus1=rogue
+}}
+
+==Builder notes==
+'''Item feat:''' No, but it can be added with custom content.
+
+==Custom content notes==
+'''Removable:''' yes
+
+'''Reusable:''' yes
+
+'''Script:''' hardcoded
+
+*This feat can be added to [[iprp_feats.2da]] to make it available as an item feat.

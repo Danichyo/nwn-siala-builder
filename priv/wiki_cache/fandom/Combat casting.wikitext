@@ -1,0 +1,19 @@
+{{feat
+|type=general
+|reqfor=[[improved combat casting]]
+|prereq=ability to cast first-level spells
+|desc=The [[character]] is adept at casting spells in combat, and does not suffer the standard -4 penalty to [[concentration]] checks when [[defensive casting|casting defensively]] within four [[meter]]s of an enemy.
+|use=automatic
+|icon=ife_combatcast.gif
+|bonus1=wizard
+}}
+
+==Builder notes==
+'''Item feat:''' yes
+
+==Custom content notes==
+'''Removable:''' yes
+
+'''Reusable:''' yes
+
+'''Script:''' hardcoded

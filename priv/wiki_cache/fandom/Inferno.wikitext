@@ -1,0 +1,20 @@
+{{spell
+|icon=is_x1inferno.gif
+|druidlevel=5
+|innatelevel=5
+|school=[[transmutation]]
+|components=VS
+|range=s
+|area=single
+|save=none
+|spellresistance=yes
+|immunity=fire
+|duration=1 [[round]] / level
+|desc=The caster causes a target to ignite into flame. Each round the target will suffer 2[[d6]] points of [[fire damage]].}}
+
+== Notes ==
+*Added in the [[expansion pack]]s.
+* This spell will not affect a target still subject to an earlier ''inferno'' or ''[[combust]]''.
+
+== Custom content notes ==
+* ''script:'' <code>x0_s0_inferno</code>

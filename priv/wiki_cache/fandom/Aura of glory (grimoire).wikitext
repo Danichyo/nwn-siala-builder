@@ -1,0 +1,19 @@
+{{Grimoire spell|imagename=Is x1aurglo.jpg
+|spellname=Aura of Glory
+|casterlevel=[[Paladin]] 2
+|innatelevel=2
+|school=[[Transmutation]]
+|descriptors=None
+|components=V, S
+|range=Personal
+|immunities=None
+|savingthrow=None
+|spellresistance=No
+|targettype=Single
+|duration=1 [[turn]] / level
+|description=The caster channels divine power to gain a +4 bonus to [[Charisma]] and a +2 bonus to their [[Persuade]] skill. All allies near the caster gain a +2 bonus to their saving throws versus [[fear (effect)|fear]], and a number of allies equal to the caster's paladin level are healed 1 hp as if by a ''[[cure minor wounds (grimoire)|cure minor wounds]]'' spell.  These allies must be within 10 ft of you.
+}}
+
+== Notes ==
+*{{Grimoire spell change|pagename=[[Aura of glory]]}}
+{{g_pal}}

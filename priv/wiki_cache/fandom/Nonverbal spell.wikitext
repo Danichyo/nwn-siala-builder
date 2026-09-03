@@ -1,0 +1,19 @@
+A '''nonverbal spell''' is a [[spell]] that lacks a verbal [[component]], so it can be cast while [[silence]]d.
+
+The nonverbal spells included in Neverwinter Nights are
+''[[clarity]]'',
+''[[ethereal visage]]'',
+''[[lesser dispel]]'', and
+''[[ray of enfeeblement]]''.
+
+In addition, any spell cast with the [[silent spell]] (or [[automatic silent spell]]) feat is treated as a nonverbal spell.
+
+== See also ==
+
+* [[Nonsomatic spell]]
+* Nonverbal spell categories:
+** [[:Category:Bard nonverbal spells]]
+** [[:Category:Cleric nonverbal spells]]
+** [[:Category:Druid nonverbal spells]]
+** [[:Category:Sorcerer/wizard nonverbal spells]]
+[[category:spells| Nonverbal spell]]

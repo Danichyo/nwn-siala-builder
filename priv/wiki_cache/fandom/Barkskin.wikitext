@@ -1,0 +1,33 @@
+{{spell
+|icon=Is_barkskin.gif
+|druidlevel=2
+|domain=plant
+|domainlevel=2
+|innatelevel=2
+|school=[[transmutation]]
+|components=VS
+|range=t
+|area=single
+|save=harmless
+|duration=1 [[hour]] / level
+|desc=Barkskin hardens the target creature's skin, granting a
+[[natural armor bonus]] to [[armor class|AC]] based on the caster's level:}}
+{|class="wikitable" style="text-align:center"
+!caster level!!natural bonus
+|-
+|1-6||+3
+|-
+|7-12||+4
+|-
+|13+||+5
+|}
+
+==Notes==
+*The AC bonus from ''barkskin'' is retained when using [[wild shape]] or any of the shifter shapes.
+
+==Custom content notes==
+
+*''Script:'' <code>NW_S0_BarkSkin.nss</code>
+
+==External Links==
+* {{FRW}}

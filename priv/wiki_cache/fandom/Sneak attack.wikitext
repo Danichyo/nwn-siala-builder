@@ -1,0 +1,30 @@
+{{feat
+|type=class
+|prereq=[[rogue]]
+|desc=Whenever the character makes a successful attack against an opponent who is [[flat-foot]]ed, cannot see them, or who is in combat with someone else, the character's blow delivers extra damage. This extra damage is +1[[d6]] at first level and an additional +1d6 every two [[class level|level]]s thereafter. This extra damage is not multiplied in the case of a [[critical hit]].
+|use=automatic. Monsters of the [[construct]] and [[undead]] types are immune to sneak attacks, as are any creatures that are immune to critical hits.
+|icon=ife_sneakhit.gif
+|class=rogue
+}}
+
+==Notes==
+
+*Sneak attacks can be made with ranged weapons if within 30 feet of the target.
+* Since all attacks in a [[flurry]] are essentially resolved simultaneously, either all attacks in a flurry are sneak attacks or none are. (This can, for example, make getting four attacks per round &mdash; hence two in the first flurry &mdash; a priority for some players.)
+*The damage bonus from this feat [[stack]]s with that from the [[sneak attack, blackguard|blackguard's sneak attack]] and [[assassin]]'s [[death attack]].
+* To set up sneak attacks without being hidden, a rogue will sometimes [[entangle]], [[stunned|stun]], [[paralyze]], or [[prone|knock down]] an opponent first. Operating in [[darkness]] is another tactic, often achieved by utilizing the [[use magic device]] skill to cast [[darkness (spell)|darkness]] (and [[ultravision]]) from a [[scroll]].
+*Sneak attacks are a way to get over the [[damage reduction]] or [[damage resistance]] of strong targets (by applying bonus damage in excess of what gets reduced or resisted).
+* Undead and constructs are not intrinsically immune to sneak attacks. Instead, they are typically given that immunity via their [[skin item]], possibly in the form of immunity to critical hits. (For example, the [[wraith spider]] is an undead creature that is susceptible to sneak attacks.)
+* As of Enhanced Edition patch 1.74, [[Uncanny Dodge]] II provides immunity to flanking sneak attacks under certain class level checks between the attacker and defender. See the Uncanny Dodge article for more information.
+
+==Builder notes==
+'''Item feat:''' Only the +1d6, +2d6, +3d6 and +5d6 versions, but the rest can be added with custom content.
+
+==Custom content notes==
+'''Removable:''' yes
+
+'''Reusable:''' yes
+
+'''Script:''' hardcoded
+
+*This feat can be added to [[iprp_feats.2da]] to make it available as an item feat.

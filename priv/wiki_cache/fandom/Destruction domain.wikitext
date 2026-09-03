@@ -1,0 +1,13 @@
+'''Description:''' Clerics who take the Destruction domain are able to damage constructs through force of will and are granted spells that allow them to weaken and destroy their enemies.[[Image:Id destruct.gif|right|Destruction]]
+== Domain Special Abilities ==
+
+Able to damage [[construct]]s while using the [[Turn undead|turn]] ability.  Constructs are not turned, but instead damaged 1d3 per Turn level, e.g. 1d3 to 40d3, to the limit of the hit dice turned. The [[damage type]] is magical.
+
+== Bonus Spells ==
+* Level 3 [[Stinking cloud]]
+* Level 6 [[Acid fog]]
+
+==Notes==
+*[[Sun domain]] improves the strength of turning (which translates into more damage inflicted on constructs).
+
+[[Category:Cleric domains]]

@@ -1,0 +1,83 @@
+[[File:WeaponMaster1.png|thumb|400px|справа|Статистика персонажа с максимальными характеристиками.]]
+*[[Билды для новичков|Вернуться обратно]]
+== Описание ==
+Мастер Оружия - рьяный последователь богини Сагры, стоящий в авангарде любого сражения, орудующий оружием ближнего боя. Тот, кто прорывает первую линию обороны и не даёт прорваться врагам к своим соратникам.
+
+'''Преимущества''': Высокие параметры Атака, Класса Брони и Стойкости в PvP. Простое PvE, не требующее от персонажа лишних телодвижений для боя. Довольно частые критические удары Катаной (9-20).
+
+'''Недостатки''': Требует довольно высокого уровня контроля ситуации во время боя с другими персонажами. Низкий показатель воли делает персонажа уязвимым к эффектам, влияющим на разум (Требуется постоянно контролировать наличии Зелья Ясности). Персонаж зависим от Зелий Сагры, так же требуются затраты на расходники и хорошую экипировку.
+
+== Общее ==
+*Бонус атаки: +71 (Максимум +77). При наличии предметов со свойством Miniset легко достигается максимальный показатель атаки
+*Спасброски: 58 Стойкости / 47 Рефлексов / 41 Воли
+*Может носить щит. Бонус щитов для воинов Сагры составляет 36% к иммунитету от физических уронов
+*Может носить оружие во второй руке. При наличии любого молота в правой руке персонаж получает бонус в виде +9 урона звуком
+
+== Билд ==
+'''Раса:''' Светлый эльф (Half-Elf)
+
+'''Характер''' Хаотично Добрый (Chaotic Good)
+
+'''Характеристики:'''
+*Сила - 16 (+10 на прокачке)
+*Ловкость - 13
+*Телосложение - 16
+*Интеллект - 13
+*Мудрость - 8
+*Харизма - 8
+
+'''Навыки:'''
+ 
+Персонаж имеет в сумме 152 очка навыков к 40 уровню. Обязательные навыки:
+*Intimidate - 4 (На 1 уровне, чтобы на 11 уровне персонажа можно было взять Мастера оружия)
+Остальные навыки, наиболее важные для данного персонажа к 40 уровню:
+*Tumble - 20 (За каждые 5 очков навыка персонаж получает 1 единицу к Классу Брони)
+*Discipline - 43
+*Heal - 43
+На ваше усмотрение остается 22 свободных очка навыка.
+
+'''Повышение уровня:'''
+<div style="column-count:2">
+ 
+:1. '''Варвар''' - Luck of Heroes //влить 4 запугивания
+:2. '''Варвар'''
+:3. <span style="color: red;">'''Воин'''</span></p> - Dodge, Mobility
+:4. <span style="color: red;">'''Воин'''</span></p> - Expertise
+:5. <span style="color: red;">'''Воин'''</span></p>
+:6. <span style="color: red;">'''Воин'''</span></p> -  Spring Attack, Whirlwind Attack
+:7. <span style="color: red;">'''Воин'''</span></p>
+:8. <span style="color: red;">'''Воин'''</span></p> - Владение клинковым оружием
+:9. <span style="color: red;">'''Воин'''</span></p> - Weapon Focus (Katana)
+:10. <span style="color: red;">'''Воин'''</span></p> - Weapon Specialization (Katana)
+:11. <span style="color: blue;">'''Мастер оружия'''</span></p> - Weapon of Choice (Katana)
+:12. <span style="color: blue;">'''Мастер оружия'''</span></p> - Blind-Fight
+:13. <span style="color: blue;">'''Мастер оружия'''</span></p>
+:14. <span style="color: blue;">'''Мастер оружия'''</span></p>
+:15. <span style="color: blue;">'''Мастер оружия'''</span></p> - Improved Critical (Katana)
+:16. <span style="color: blue;">'''Мастер оружия'''</span></p>
+:17. <span style="color: blue;">'''Мастер оружия'''</span></p>
+:18. <span style="color: blue;">'''Мастер оружия'''</span></p> - Great Fortitude
+:19. <span style="color: blue;">'''Мастер оружия'''</span></p>
+:20. <span style="color: blue;">'''Мастер оружия'''</span></p>
+:21. <span style="color: blue;">'''Мастер оружия'''</span></p> - Epic Fortitude
+:22. <span style="color: blue;">'''Мастер оружия'''</span></p>
+:23. <span style="color: blue;">'''Мастер оружия'''</span></p> - Epic Weapon Focus (Katana)
+:24. <span style="color: blue;">'''Мастер оружия'''</span></p> - Great Strenght I
+:25. <span style="color: blue;">'''Мастер оружия'''</span></p>
+:26. <span style="color: blue;">'''Мастер оружия'''</span></p> - Armor Skin
+:27. <span style="color: blue;">'''Мастер оружия'''</span></p> - Great Strenght II
+:28. <span style="color: blue;">'''Мастер оружия'''</span></p>
+:29. <span style="color: blue;">'''Мастер оружия'''</span></p> - Epic Prowess
+:30. <span style="color: blue;">'''Мастер оружия'''</span></p> - Great Strenght III
+:31. <span style="color: blue;">'''Мастер оружия'''</span></p>
+:32. <span style="color: blue;">'''Мастер оружия'''</span></p> - Владение молотами
+:33. <span style="color: blue;">'''Мастер оружия'''</span></p> - Great Strenght IV
+:34. <span style="color: blue;">'''Мастер оружия'''</span></p>
+:35. <span style="color: blue;">'''Мастер оружия'''</span></p> - Epic Toughness II
+:36. <span style="color: blue;">'''Мастер оружия'''</span></p> - Energy Resistance, Fire I
+:37. <span style="color: blue;">'''Мастер оружия'''</span></p>
+:38. <span style="color: red;">'''Воин'''</span></p>
+:39. <span style="color: red;">'''Воин'''</span></p> - Energy Resistance, Fire II, Epic Weapon Specialization (Katana)
+:40. <span style="color: blue;">'''Мастер оружия'''</span></p> // Заливаем Тамбл в 20, дисцу, хил
+
+</div>

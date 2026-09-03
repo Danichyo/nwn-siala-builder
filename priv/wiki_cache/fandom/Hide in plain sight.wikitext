@@ -1,0 +1,15 @@
+{{feat
+|type=class
+|prereq=[[shadowdancer]] 1
+|desc=The shadowdancer is able to use the [[hide]] skill even while being observed.
+<br />Note: This ability will not always be successful in the frenzy of combat, but disengaging from the enemy before attempting to ''hide in plain sight'' will succeed.
+|use=automatic
+|icon=ife_x1hidesight.gif
+|class1=shadowdancer
+}}
+
+==Notes==
+*Added in the [[expansion pack]]s.
+* The benefit of this feat lies in the "while being observed" part. Normally, anyone who sees a character entering [[stealth]] mode continues to see that character. With this feat, a successful [[spot]] roll is required to continue to see the character.
+* The note about being in combat refers to the success of entering stealth mode, not the success of hiding. It is not possible to enter stealth mode while actively attacking someone or something.
+*[[Shifter]]s are given this feat while in [[humanoid shape|kobold commando form]].

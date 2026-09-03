@@ -1,0 +1,34 @@
+{{spell
+|icon=is_x1infmod.gif
+|clericlevel=2
+|innatelevel=2
+|school=[[necromancy]]
+|components=VS
+|range=t
+|area=single
+|save=[[will]] 1/2
+|spellresistance=yes
+|immunity=<s>negative</s>
+|duration=instant
+|counters=<del>[[cure moderate wounds]]</del>
+|line=Inflict wounds
+|line0=inflict minor wounds
+|line1=inflict light wounds
+|line2=inflict moderate wounds
+|line3=inflict serious wounds
+|line4=inflict critical wounds
+|line5=circle of doom
+|line6=harm
+|desc=If the caster succeeds in striking an opponent with a [[touch attack]], the target suffers 2[[d8]] points of [[negative energy damage|damage]], + 1 point per caster level (to a maximum of +10). Inflict spells have a reverse effect when used on [[undead]], causing the targeted undead to take an amount of healing equal to what the spell normally damages.}}
+
+== Notes ==
+
+* Added in the [[expansion pack]]s.
+* The descriptor mentioned in the in-game description is not used by this spell.
+* The type of damage is [[negative energy damage|negative energy]].
+* Empowering this spell will only increase the die roll (2d8) of the damage/healing.
+* Due to a .2da bug, ''cure moderate wounds'' is not an additional [[counterspell]] of this spell.
+
+== Custom content notes ==
+
+* ''script:'' <code>X0_S0_Inflict</code>

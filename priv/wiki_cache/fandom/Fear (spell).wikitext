@@ -1,0 +1,26 @@
+{{spell
+|icon=is_fear.gif
+|bardlevel=3
+|magelevel=4
+|innatelevel=3
+|school=[[necromancy]]
+|components=VS
+|range=m
+|area=large
+|save=[[will]] negates
+|spellresistance=yes
+|immunity=fear
+|duration=1 [[round]] / level
+|counters=<del>[[remove fear]]</del>
+|line=Fear
+|line1=scare
+|line3=fear (spell)
+|desc=Affected creatures are consumed with mind-numbing [[frightened|fear]] that overrides all other actions. The affected creatures run away from all those they do not consider allies.}}
+
+==Notes==
+*Due to a .2da bug, ''fear'' is not an additional [[counterspell]] of ''remove fear''.
+
+== Custom content notes ==
+* ''script:'' <code>NW_S0_Fear</code>
+==External links==
+*{{FRW|Fear}}

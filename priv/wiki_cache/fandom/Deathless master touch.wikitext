@@ -1,0 +1,19 @@
+{{feat
+|type=class
+|prereq=[[pale master]] 10
+|desc=At 10th level a pale master's touch becomes deadly, instantly killing unless a [[difficulty class|DC]] 17 [[fortitude]] [[save]] is made.
+|use=selected
+|icon=ife_x2dthmsttch.gif
+|class1=pale master
+}}
+
+==Notes==
+*Requires [[Hordes of the Underdark]].
+*The DC is raised by 1 for every 2 levels past 10th.
+*This feat may be used three times per day.
+*This attack bypasses friendly PvP settings.
+* A [[module]] can readily set a switch to make [[size modifier|huge]] creatures immune to this attack.
+
+==Custom content notes==
+* ''script:'' <code>X2_S2_DthMstTch</code>
+* The switch to make huge creatures immune is <tt>MODULE_SWITCH_SPELL_CORERULES_DMASTERTOUCH</tt>.

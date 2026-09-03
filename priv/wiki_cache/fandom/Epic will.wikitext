@@ -1,0 +1,13 @@
+{{feat
+|epic=yes
+|type=general
+|prereq=21st level
+|desc=The character gains a +4 bonus to all [[will]] [[save]]s.
+|use=automatic
+|icon=ife_x2epicwill.gif
+|bonus1=bard
+|bonus2=Harper scout
+}}
+
+==Notes==
+*Requires [[Hordes of the Underdark]].

@@ -1,0 +1,21 @@
+{{Weapon|imagefile=Heavy crossbow.jpg
+  |weaponname=Heavy [[crossbow]]
+  |weapondescription=The '''heavy crossbow''' is the largest hand-held launcher of its type, and is favored by militia groups for its durability and ease of use. It is deadlier than its smaller cousin, but also more cumbersome. 
+  |weight=9
+  |cost=50
+  |damage=1d10
+  |critical=19-20/x2
+  |damagetype=[[piercing damage|piercing]]
+  |size=Medium
+  |proficiency=[[weapon proficiency (monk)|monk]]<br/> [[weapon proficiency (rogue)|rogue]]<br/> [[weapon proficiency (simple)|simple]]<br/> [[weapon proficiency (wizard)|wizard]]
+  |category=[[Category:Ranged weapons]] [[Category:Simple weapons]]
+}}
+
+== Toolset ==
+* Heavy crossbows are listed in the [[crossbow blueprint category]] on the [[item palette]] in the [[Toolset]].
+
+== Notes ==
+
+*Crossbows will normally only provide one [[attack per round]] no matter the [[creature]]'s [[BAB]]. However, the [[rapid reload]] [[feat]] will allow the same number of attacks per round as allowed by the creatures BAB. [[Effect]]s that provide additional attacks, such as [[haste]] or the [[divine power]] [[spell]] will still work as intended.
+*A crossbow's damage is unaffected by its wielder's [[strength]] unless given an explicit [[mighty]] property, so characters with less than 10 strength will not have a damage penalty when wielding most crossbows.
+*Crossbows require characters to wield them with two hands regardless of size.

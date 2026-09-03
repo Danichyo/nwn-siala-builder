@@ -1,0 +1,17 @@
+{{feat
+|type=general
+|prereq=[[bard song]]
+|desc=The effects of the [[bard]]'s songs will last an additional five [[round]]s.
+|use=automatic
+|icon=ife_x1lingsong.gif
+|bonus1=bard
+}}
+
+==Notes==
+*Added in the [[expansion pack]]s.
+*This feat stacks with [[lasting inspiration]], but the latter is applied first; so, with both [[feat]]s, the duration is 105 rounds.
+
+==Custom content notes==
+*A custom class must have this feat in their feat list, or that class will not be able to select it as a general feat.
+
+[[category:feats restricted by class]]

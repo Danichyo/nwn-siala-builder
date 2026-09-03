@@ -1,0 +1,11 @@
+{
+  "name": "build_calculator_assets",
+  "private": true,
+  "description": "JS tests for the colocated LiveView hooks. No bundler here — assets/js/app.js ships through esbuild (see mix.exs, assets.build/assets.deploy); this package.json exists only so `node --test` has somewhere to install happy-dom from. Deliberately NO \"type\": \"module\" — esbuild resolves module type from the nearest package.json for EVERY .js file it bundles, including assets/vendor/topbar.js (plain CommonJS), and \"module\" here broke `mix esbuild` for that file. All test files use the .mjs extension instead, which Node always parses as ESM regardless of this field.",
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  },
+  "devDependencies": {
+    "happy-dom": "^20.0.0"
+  }
+}

@@ -1,0 +1,18 @@
+{{spell
+|icon=is_raisdead.gif
+|clericlevel=5
+|innatelevel=5
+|school=[[conjuration]]
+|components=VS
+|range=t
+|area=single
+|save=harmless
+|spellresistance=no
+|duration=instant
+|line=Restoring life
+|line5=raise dead
+|line7=resurrection
+|desc=Returns one target corpse to life. The raised character returns to life with only 1 [[hit point]].}}
+
+==Custom content notes==
+* ''script:'' <code>NW_S0_RaisDead</code>

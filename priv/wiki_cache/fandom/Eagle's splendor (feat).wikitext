@@ -1,0 +1,12 @@
+{{feat
+|type=class
+|prereq=[[Harper scout]] 4
+|desc=A Harper scout at fourth level is able to cast the spell [[eagle's splendor]] once per day.
+|use=selected
+|icon=ife_x1heag.gif
+|class1=Harper scout
+}}
+
+==Notes==
+*Added in the [[expansion pack]]s.
+*This feat [[stack]]s with the eagle's splendor spell.

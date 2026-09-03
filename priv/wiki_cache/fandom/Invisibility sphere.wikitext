@@ -1,0 +1,31 @@
+{{spell
+|icon=is_invsph.gif
+|bardlevel=3
+|magelevel=3
+|domain=trickery
+|domainlevel=3
+|innatelevel=3
+|school=[[illusion]]
+|components=VS
+|range=p
+|area=caster, 15ft radius
+|save=harmless
+|spellresistance=no
+|duration=1 [[turn]] / level
+|counters=<del>[[invisibility purge]]</del>
+|line=Invisibility
+|line2=invisibility (spell)
+|line3=invisibility sphere
+|line4=improved invisibility
+|desc=The caster brings into being a zone of [[invisibility]] that travels with him for the duration of the spell. All allies within the spell's [[area of effect]] are rendered invisible, but not to each other. Those that leave the sphere are visible once more.}}
+
+== Notes ==
+
+* Due to technical limitations, allies affected by this spell are invisible to each other, even though the spell's description says otherwise.
+* This spell is subject to the mobile area of effect bug, in which an area of effect can lag behind the character it is attached to, allowing that character to actually exit the area of effect if moving fast enough. This results in the spell ending prematurely. (A fix for this is available on the Vault<sup>[http://nwvault.ign.com/View.php?view=Scripts.Detail&id=3739]</sup>.)
+* Due to a .2da bug, ''invisibility purge'' is not an additional [[counterspell]] of this spell.
+
+== Custom content notes ==
+* ''main script:'' <code>NW_S0_InvSph</code>
+* ''OnEnter script:'' <code>NW_S0_InvSphA</code>
+* ''OnExit script:'' <code>NW_S0_InvSphB</code>

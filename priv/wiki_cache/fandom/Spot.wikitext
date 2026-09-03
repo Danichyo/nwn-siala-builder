@@ -1,0 +1,39 @@
+[[Image:Isk spot.gif|right|Spot]]
+A successful '''spot''' check reveals a hidden creature.
+*'''Ability''': [[wisdom]]
+
+*'''Classes''': [[arcane archer]], [[assassin]], [[champion of Torm]], [[dwarven defender]], [[red dragon disciple]], [[shadowdancer]], [[ranger]], [[rogue]], [[shifter]], [[weapon master]]
+
+*'''[[Cross-class skill|Cross-class]]''': yes 
+
+*'''[[untrained skill check|Requires training]]''': no
+
+*'''Check''': The [[difficulty class]] is determined by the [[hide]] check of the hidden creature.
+
+*'''Special''': The [[alertness]] feat grants a +2 bonus on spot checks. [[Ranger]]s receive a bonus on spot checks against their [[favored enemy]]. [[Elf|Elves]] gain a +2 bonus on spot checks, and [[half-elf|half-elves]] gain a +1 bonus.
+
+*'''Use''': Spot is part of the [[detect]] modal action. In passive detect mode, checks are made automatically every round. Active detect mode in a modal action reduces the normal movement rate and makes the character perform an active spot, as well as [[search]] and [[listen]] checks.
+
+==Additional modifiers==
+* +10 DC if the spotter is in combat.
+* +5 DC if the target is standing still.
+* -5 DC if the spotter is standing still.
+* Size modifiers (tiny: +8, small: +4, medium: 0, large: -4, huge: -8).
+* Area spot check modifiers.
+* +5 DC for stealthed players (only), if they are in the back arc.
+* +5 DC at night if the spotter does not have a light (or [[darkvision]]).
+* -10 DC at night if the target has a light source on them.
+
+==Notes==
+* Cannot spot [[invisible]] creatures.
+* Cannot spot anything while [[blind]].
+* The feats [[alertness]], [[artist]] and [[blooded]] grant a +2 bonus on spot checks.
+* In [[Shadows of Undrentide]], this skill is used to find tracks hidden in snow.
+* Spot requires line of sight, but once a creature is spotted, it does not become un-spotted unless line of sight is broken or HiPS is invoked. In contrast, listen can go through solid objects, but creatures that are heard one round can become not heard the next.
+* Sight (not hearing) is required to target some spells and to negate sneak attacks due to being attacked from stealth.
+
+==References==
+<!-- * [http://nwn.bioware.com/forums/viewtopic.html?topic=549835&forum=42&sp=15#4836078 Post by Brenon Holmes, BioWare programmer] -->
+* [http://web.archive.org/web/20090211050528/http://nwn.bioware.com/forums/viewtopic.html?topic=549835&forum=42&sp=15 Post by Brenon Holmes, BioWare programmer], preserved by the Wayback Machine.
+* [https://www.tapatalk.com/groups/worldofgreyhawkfr/true-seeing-t3591-s20.html Post by The_Krit on World of Greyhawk tapatalk forum]
+[[Category:skills]]

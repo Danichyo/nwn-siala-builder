@@ -1,0 +1,56 @@
+# The directory Mix will write compiled artifacts to.
+/_build/
+
+# If you run "mix test --cover", coverage assets end up here.
+/cover/
+
+# The directory Mix downloads your dependencies sources to.
+/deps/
+
+# Where 3rd-party dependencies like ExDoc output generated docs.
+/doc/
+
+# Ignore .fetch files in case you like to edit your project deps locally.
+/.fetch
+
+# If the VM crashes, it generates a dump, let's ignore it too.
+erl_crash.dump
+
+# Also ignore archive artifacts (built via "mix archive.build").
+*.ez
+
+# Temporary files, for example, from tests.
+/tmp/
+
+# Ignore package tarball (built via "mix hex.build").
+build_calculator-*.tar
+
+# Ignore assets that are produced by build tools.
+/priv/static/assets/
+
+# Ignore digested assets cache.
+/priv/static/cache_manifest.json
+
+# In case you use Node.js/npm, you want to ignore these.
+npm-debug.log
+/assets/node_modules/
+
+# NOTE: /priv/wiki_cache/ and /priv/rules/ are committed on purpose and must NOT
+# be ignored. The wiki cache is the audit trail behind every game number in the
+# calculator: without it a reviewer cannot tell a parsed value from an invented
+# one, and regenerating the rules would mean hammering the wikis again.
+
+
+# Секреты продакшена: заполняются на сервере из .env.example
+.env
+
+# Python bytecode from tools/
+__pycache__/
+*.pyc
+
+# Сырой GFF-дамп персонажа от администрации шарда (1.8 МБ): внутри рюкзак,
+# координаты в мире и настройки сервера, а корень репозитория уходит
+# в ПУБЛИЧНЫЙ репозиторий целиком (`tools/public/publish.sh`). Ценные ветки
+# из него разобраны в отчёте 03.09.2026; сам файл держать в git незачем,
+# а случайно закоммитить — легко.
+/message.txt

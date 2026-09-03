@@ -1,0 +1,21 @@
+{{feat
+|epic=yes
+|type=general
+|prereq=21st level, [[charisma]] 25+, either [[smite good]] or [[smite evil]]
+|desc=Whenever the character makes a successful smite attack, it adds two times the character's level to damage. This feat may be taken multiple times, up to a maximum of 10 times &mdash; each time adding additional damage equal to the character's level to the smite attack.
+|use=<del>combat mode</del> ''automatic''
+|icon=ife_x2grsmt1.gif
+|bonus1=blackguard
+|bonus2=champion of Torm
+|bonus3=paladin
+}}
+
+==Notes==
+*Requires [[Hordes of the Underdark]].
+*This feat was not described in the original Hordes of the Underdark manual.
+*This feat's description says "character level", but it is in fact the sum of [[champion of Torm]] and [[paladin]] [[class level]]s that is used for ''smite evil'', and [[blackguard]] class level for ''smite good''.
+*As an example, consider a character with 30 paladin and 10 champion of Torm levels. ''Smite evil'' by itself adds 40 damage to a successful smite. For each ''great smiting'' taken, an additional 40 damage is dealt. So if this character had ''great smiting I'', but not ''great smiting II'', a successful smite would deal a total of 80 extra damage. If this character had ''great smiting X'', a successful smite would deal a total of 440 extra damage.
+
+==Custom content notes==
+*A custom class must have this feat in their feat list, or that class will not be able to select it as a general feat.
+[[category:feats restricted by class, epic]]

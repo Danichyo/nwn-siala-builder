@@ -1,0 +1,22 @@
+{{spell
+|icon=is_shadshld.gif
+|magelevel=7
+|innatelevel=7
+|school=[[illusion]]
+|components=VS
+|range=p
+|area=caster
+|save=harmless
+|spellresistance=no
+|duration=1 [[turn]] / level
+|desc=The caster is shrouded in a cloak of shadow that protects them with the following effects:
+* +5 [[natural armor bonus|natural AC bonus]]
+* 10/+3 [[damage reduction]]
+* immunity to [[death magic|instant death effects]]
+* immunity to [[necromancy]] spells
+* immunity to [[negative energy damage]]}}
+
+==Custom content notes==
+*''script:'' <code>NW_S0_ShadShld.nss</code>
+==External links==
+*{{FRW}}

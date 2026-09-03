@@ -1,0 +1,33 @@
+{{spell
+|icon=is_hammgods.gif
+|clericlevel=4
+|innatelevel=4
+|school=[[evocation]]
+|components=VS
+|range=m
+|area=huge
+|save=[[will]] partial
+|spellresistance=yes
+|immunity=''divine''
+|duration=instant
+|desc=The caster smites a group of enemies with divine light for 1[[d8]] points of [[divine damage|damage]] for every two caster levels, to a maximum of 5d8. Enemies that make a will [[save]] take half damage and avoid being [[dazed]] for 1 to 6 [[round]]s.}}
+{| class="wikitable" style="text-align:center"
+  !caster level!!damage per cast
+ |-
+  |7   ||3d8
+ |-
+  |8-9 ||4d8
+ |-
+  |10+ ||5d8
+|}
+
+==Notes==
+* The in-game description is missing the "divine" descriptor.
+* The type of damage is [[divine damage|divine]].
+*The duration of the daze is not affected by [[maximize spell]] or [[empower spell]].
+*This is an often overlooked but good disabling spell when cast with a reasonably high save [[difficulty class|DC]].
+
+== Custom content notes ==
+* ''script:'' <code>NW_S0_HammGods</code>
+==External links==
+*{{FRW}}

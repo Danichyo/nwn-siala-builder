@@ -1,0 +1,11 @@
+{{feat
+|type=class
+|prereq=[[Harper scout]] 2
+|desc=The Harper receives a +2 [[saving throw]] bonus vs. [[trap]]s.
+|use=automatic
+|icon=ife_x1hdenier.gif
+|class1=Harper scout
+}}
+
+==Notes==
+*Added in the [[expansion pack]]s.

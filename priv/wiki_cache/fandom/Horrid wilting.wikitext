@@ -1,0 +1,21 @@
+{{spell
+|icon=is_horrwilt.gif
+|magelevel=8
+|innatelevel=8
+|school=[[necromancy]]
+|components=VS
+|range=l*m
+|area=colossal
+|save=[[fortitude]] 1/2
+|spellresistance=yes
+|duration=instant
+|immunity=<del>death</del>
+|desc=All creatures within the area of effect take 1[[d8]] points of [[magical damage|withering energy damage]] per [[caster level]], to a maximum of 25d8.}}
+
+== Notes ==
+* The "death" descriptor was removed from the implementation (but not the description) in an early patch.
+* This spell will not damage the caster.
+* [[Undead]] and [[construct]]s are unaffected by this spell.
+
+== Custom content notes ==
+*''script:'' <code>NW_S0_HorrWilt</code>

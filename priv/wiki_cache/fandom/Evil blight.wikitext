@@ -1,0 +1,24 @@
+{{spell
+|icon=is_x2evilblight.gif
+|innatelevel=5
+|school=[[transmutation]]
+|components=V
+|range=m
+|area=colossal
+|save=[[will]] negates
+|spellresistance=yes
+|immunity=divine
+|duration=permanent
+|counters=[[remove curse]]
+|desc=All enemies within the [[area of effect]] have a [[curse]] placed on them, lowering all of their [[ability|stat]]s by 3.}}
+
+== Notes ==
+
+*Requires [[Hordes of the Underdark]].
+*''Evil blight'' was originally a level 5 [[cleric]] and level 6 [[sorcerer]] / [[wizard]] spell, but was removed from all spell lists prior to publication. Thus, this spell is only available through items, such as the (standard) ''evil blight'' [[scroll]].
+
+== Custom content notes ==
+*''script:'' <code>x2_s0_EvilBlight</code>
+*This spell can be assigned to a [[spellbook]] by editing [[spells.2da]].
+
+[[Category:Non-class spells]]

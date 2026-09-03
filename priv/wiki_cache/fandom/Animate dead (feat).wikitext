@@ -1,0 +1,27 @@
+{{otheruses|the feat|the spell|Animate dead}}
+{{feat
+|type=class
+|prereq=[[pale master]] 2
+|desc=Once per day a pale master may [[animate dead]] as a spell-like ability.
+|use=selected
+|icon=Ife_x2spanided.gif
+|class1=pale master
+}}
+{|class="wikitable" style="text-align:center"
+! pale master level !! summon
+|- 
+| 1 to 5 || [[tyrantfog zombie]]
+|- 
+| 6 to 9 || [[skeleton warrior (summon)|skeletal warrior]]
+|- 
+| 10+ || [[skeletal chieftain]]
+|}
+
+==Notes==
+*Added in the [[expansion pack]]s.
+*This feat lasts 1 [[day]].
+
+==Custom content notes==
+*Both animate dead spell and feat use this script
+*''script:'' <code>NW_S0_AnimDead.nss</code>
+[[category:summoning]]

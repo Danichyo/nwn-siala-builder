@@ -1,0 +1,19 @@
+{{Grimoire spell|imagename=Is delfireball.gif
+|spellname=Delayed Blast Fireball
+|casterlevel=[[Sorcerer]] / [[Wizard]] 7
+|innatelevel=7
+|school=[[Evocation]]
+|descriptors=Fire
+|components=V, S
+|range=Medium
+|immunities=Fire
+|savingthrow=[[Reflex]] half
+|spellresistance=Yes
+|targettype=Huge
+|duration=Instant, with up to a 5 round delay
+|description=This spell functions like fireball, except that it is more powerful and can detonate up to 5 rounds after the spell is cast. The burst of flame deals 1d6 points of fire damage per caster level (maximum 20d6).  The caster chooses to delay the burst for as many as 5 rounds. The caster selects the amount of delay upon casting the spell, and that time cannot change once it has been set.
+}}
+
+== Notes ==
+*{{Grimoire spell change|pagename=[[Delayed blast fireball]]}}
+{{g_sorwiz}}

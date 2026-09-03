@@ -1,0 +1,572 @@
+<Layouts.app flash={@flash} current_scope={@current_scope}>
+  <header class="top" id="view-header">
+    <div class="brand">
+      <span class="eyebrow">Сиала · NWN</span>
+      <.link navigate={~p"/"}><b>Калькулятор билдов</b></.link>
+    </div>
+
+    <div class="split">
+      <div :if={@code} class="seg" id="mode-switch">
+        <.link class="seg-b" id="mode-edit" navigate={~p"/?b=#{@code}"}>Конструктор</.link>
+        <span class="seg-b" id="mode-view" data-on="1">Просмотр</span>
+      </div>
+    </div>
+
+    <div class="top-right">
+      <Layouts.nav current_scope={@current_scope} />
+      <Layouts.theme_toggle />
+      <Layouts.account current_scope={@current_scope} />
+    </div>
+  </header>
+
+  <%= if @error do %>
+    <div class="view" id="view-error">
+      <h1 class="v-title">Ссылка не открылась</h1>
+      <p class="v-gaps" id="view-error-message"><b>{@error}</b></p>
+      <div class="v-actions">
+        <.link class="btn btn-primary" id="view-error-new" navigate={~p"/"}>
+          Собрать свой билд
+        </.link>
+      </div>
+    </div>
+  <% else %>
+    <div class="view" id="build-view" data-guide={if @guide_first?, do: "first"}>
+      <h1 class="v-title" id="view-title">{(@saved && @saved.name) || @title}</h1>
+
+      <div class="v-sub" id="view-subtitle">
+        <span>
+          {Labels.race_ru(@ruleset, @build.race)} ({Labels.race_en(@ruleset, @build.race)})
+        </span>
+        <span class="eyebrow">·</span>
+        <span>{Labels.alignment_name(@build.alignment) || "мировоззрение не выбрано"}</span>
+        <span class="eyebrow">·</span>
+        <span>{@character_level} / {@ruleset.level_cap} уровень</span>
+        <span :if={@saved} class="eyebrow">·</span>
+        <span :if={@saved && @saved.user} id="saved-author">{@saved.user.email}</span>
+        <span :if={@saved} class="bcard-vis" data-vis={@saved.visibility} id="saved-visibility">
+          {BuildCalculatorWeb.LibraryComponents.visibility_label(@saved)}
+        </span>
+      </div>
+
+      <p :if={@saved && @saved.description not in [nil, ""]} class="v-desc" id="saved-description">
+        {@saved.description}
+      </p>
+
+      <div class="v-actions" id="view-actions">
+        <.link class="btn btn-primary" id="open-in-builder" navigate={~p"/?b=#{@code}"}>
+          Открыть в конструкторе
+        </.link>
+        <.link
+          :if={@saved && Library.can_edit?(@current_scope, @saved)}
+          class="btn"
+          id="edit-saved"
+          navigate={~p"/builds/#{@saved}/edit"}
+        >
+          Править запись
+        </.link>
+        <%!-- ⚠️ Второй вход в личную библиотеку, ровно того же рода, что
+              «Сохранить» в конструкторе, — и постановка §3.23 его не назвала.
+              Спрятан тем же флагом: иначе шапка запуска чиста, а на экране,
+              куда приходят по шаренной ссылке, аккаунт предлагается как ни в чём
+              не бывало. Роут `/builds/new` жив. --%>
+        <.link
+          :if={!@saved && Layouts.accounts_ui?()}
+          class="btn"
+          id="save-this-build"
+          href={~p"/builds/new?b=#{@code}"}
+        >
+          Сохранить у себя
+        </.link>
+        <button
+          type="button"
+          class="btn"
+          id="copy-text"
+          phx-hook=".CopyText"
+          data-target="#export-source"
+        >
+          Скопировать текст
+        </button>
+        <button type="button" class="btn" id="show-text" phx-click="show_text">Показать текст</button>
+      </div>
+
+      <%!-- Источник для «скопировать»: тот же канонический блок, что и в диалоге,
+            только не на виду. Второй генерации текста нет. --%>
+      <textarea id="export-source" class="sr-only" readonly aria-hidden="true" tabindex="-1"><%= @export_text %></textarea>
+
+      <script :type={Phoenix.LiveView.ColocatedHook} name=".CopyText">
+        export default {
+          mounted() {
+            this.el.addEventListener("click", async () => {
+              const src = document.querySelector(this.el.dataset.target)
+              try { await navigator.clipboard.writeText(src.value) }
+              catch (_) { src.select(); document.execCommand("copy") }
+              const was = this.el.textContent
+              this.el.textContent = "Скопировано"
+              setTimeout(() => { this.el.textContent = was }, 1400)
+            })
+          }
+        }
+      </script>
+
+      <%!-- Постоянно и ПЕРЕД блоком о неполноте правил, а не после: ложная
+            легальность — худший тип ошибки по меркам проекта (CLAUDE.md,
+            AGENT_QUEUE §1.3), хуже честного «мы не всё посчитали» ниже.
+            Отдельный блок, а не часть `view-gaps`: тот про непосчитанное
+            (`stats.gaps` — ядро НЕ смогло решить), этот — про решения
+            билда, которые ядро посчитало и уверенно говорит «не
+            выполняются», если проверить лестницу заново
+            (`Rules.illegal_class_levels/2` / `illegal_feats/2`, отдельный
+            от `compute/2` механизм — см. `BuildCalculator.Rules`). --%>
+      <%!-- ⚠️ `div`, а не `p`. Внутри лежит `ul`, а список внутри параграфа —
+            невалидный HTML: браузер закрывает `p` ПЕРЕД `ul`, и список
+            становился соседом блока, а не его содержимым. Проверено в браузере:
+            `#view-illegal-list` был ребёнком `#build-view`, то есть семь строк
+            «Уровень 20: …» выпадали из красной рамки наружу и теряли отступы
+            (`.v-illegal ul` их уже не находил). Дороже всего тут то, что блок
+            честности выглядел сломанным ровно на тех билдах, ради которых он
+            и существует. --%>
+      <div :if={@illegal_count > 0} class="v-illegal" id="view-illegal">
+        <%!-- ⚠️ «На {N} {level_word}» тут была бы неверной формой: после
+              предлога «на» число требует предложного падежа («на 3
+              уровнях»), а `level_word/1` считает счётную форму («3
+              уровня» — как в счётчике конструктора, `#spine-illegal`).
+              Проверено запуском на реальном экспорте (см. отчёт задачи),
+              а не угадано — расхождение нашлось только там. Оборот «у
+              билда N X» тот же счёт терпит без предлога. --%>
+        <b>⚠ У билда {@illegal_count} {Labels.level_word(@illegal_count)} с нарушением правил.</b>
+        Обычно это след правки более раннего решения — снятого фита, смены расы
+        или мировоззрения, — которая не задела уровни, уже стоящие в лестнице.
+        <ul id="view-illegal-list">
+          <li :for={{level, texts} <- @illegal_levels} id={"view-illegal-#{level}"}>
+            <b>Уровень {level}:</b> {Enum.join(texts, "; ")}
+          </li>
+        </ul>
+      </div>
+
+      <%!-- Не по клику, а условно: пришедший по ссылке поверит числам по умолчанию,
+            но молчать блоку тоже не зазорно, когда сказать нечего.
+            `div`, а не `p`, по той же причине, что у `v-illegal` выше: `ul` внутри
+            параграфа выпадал из блока наружу.
+
+            ⚠️ Задача 3.49 (18.08.2026): раньше здесь стоял {@gaps.data_count} —
+            в него попадали и решённые споры источников, и процитированные
+            константы, никакого отношения к «не перенесено» не имеющие
+            (`BuildCalculatorWeb.Builder.Gaps.tier/1`). Теперь число и
+            заголовок — про настоящие дыры (`data_real_count`).
+
+            🔴 Задача 3.88 (24.08.2026, решение Dan) — ПЕРЕСМОТР решения
+            CLAUDE.md §6 «пометка про неполноту правил Сиалы — постоянная,
+            а не по требованию»: «и с экрана просмотра и в экспорте прячем
+            тоже». Раньше здесь была вторая ветка на случай нуля («Числа
+            не окончательные: правила Сиалы известны не целиком» + «В
+            расчёте N допущений и M решённых расхождений» — задача 3.86,
+            тем же днём, что список настоящих дыр впервые опустел). Ветка
+            снята: список решений (споры источников, принятые константы)
+            не нуждается в заголовке про неполноту, полный разбор по трём
+            видам остаётся на /sources. Это ВОРОТА, а не удаление —
+            `> 0` возвращает блок сам, тем же условием, что в конструкторе.
+
+            ⚠️ Задача 3.148 (31.08.2026, Dan): ДВЕ строки блока, жившие тут
+            безусловно («Числа ниже — база билда, без экипировки» и ссылка
+            на «Источники»), сняты — обе устарели: первая по факту (вещи
+            в модели есть с 3.3/3.5/3.41/3.132, и число С вещами она называла
+            бы неверно), вторая как дубль футера (`#footer-sources-link`
+            несёт ту же ссылку и ту же атрибуцию на КАЖДОЙ странице, включая
+            эту, — CLAUDE.md §9 требует не прятать футер, но не требует
+            второго входа рядом). Без них у ДИВА не осталось безусловного
+            содержимого — раньше он был непустым ВСЕГДА именно первой из этих
+            строк, и снять её без гейта значило бы иногда показывать пустую
+            рамку с паддингом. Поэтому у самого `div`'а появился `:if`,
+            которого не было: «есть что сказать про данные ИЛИ про этот
+            билд» — тот же список причин, что и раньше, просто named явно,
+            а не подразумеваемый безусловной строкой. Рекомендация
+            экипировать билд — НЕ здесь: у неё свой смысл («что сделать
+            дальше», а не «чего не хватает правилам») и свой гейт
+            (`#view-gear-hint` ниже, вне этого `:if`, чтобы билд без единой
+            дыры и без единой вещи не остался совсем без подсказки). --%>
+      <div :if={@gaps.data_real_count > 0 or @gaps.build_count > 0} class="v-gaps" id="view-gaps">
+        <b :if={@gaps.data_real_count > 0}>
+          Часть правил Сиалы ещё не в расчёте — {@gaps.data_real_count} пробелов в данных.
+        </b>
+        <span :if={@gaps.data_real_count > 0}>
+          Среди них — заклинания, кастомные системы шарда и часть классовых изменений.
+        </span>
+        <span :if={@gaps.build_count > 0}>
+          Конкретно в этом билде ядро не смогло посчитать {@gaps.build_count}:
+        </span>
+        <ul :if={@gaps.build_count > 0} id="view-gaps-list">
+          <li :for={group <- @gaps.build_groups}>
+            <b>{group.kind}:</b>
+            {Enum.join(group.items, "; ")}
+            <span :if={group.total > length(group.items)} class="more">
+              …и ещё {group.total - length(group.items)}
+            </span>
+          </li>
+        </ul>
+      </div>
+
+      <%!-- Задача 3.148 — заменяет собой снятую строку «Числа ниже — база
+            билда, без экипировки», но не переносит её мысль, а меняет тон
+            (Dan: «предупреждение убрать, вместо него рекомендацию
+            экипировать персонажа»): было признание в неполноте («числа
+            без вещей»), стало предложение действия («задай вещи — получишь
+            больше числа»). Поэтому и гейт другой: НЕ версия ruleset'а
+            и НЕ гэпы, а сам факт «билд ничего не сказал про вещи»
+            (`Gear.any?/1`, та же функция, что решает в конструкторе, рисовать
+            ли каскад «Из этого следует»). У билда С вещами блока нет вовсе —
+            промежуточное «ввёл не всё» не его вопрос, для этого есть
+            собственные гэпы и оговорки у каждого числа ниже.
+
+            Токен — `--accent`, а не `--todo`/`--loss` у соседей `v-illegal`/
+            `v-gaps`: билд без вещей не ошибка и не непосчитанное правило,
+            это состояние, из которого один клик наружу. --%>
+      <div :if={not @gear_entered?} class="v-hint" id="view-gear-hint">
+        <b>{gettext("No gear declared yet")}</b>
+        <span>
+          {gettext(
+            "The numbers below are this build on its own. The final AC, AB, ability scores, saves and skills appear once gear is declared in the constructor."
+          )}
+        </span>
+        <.link navigate={~p"/?b=#{@code}"} class="btn v-hint-cta" id="view-gear-hint-link">
+          {gettext("Configure items")}
+        </.link>
+      </div>
+
+      <%= if @character_level > 0 do %>
+        <%!-- ⚠️ Гид стоит ПЕРВЫМ — решение Dan 10.08.2026 (§3.24): «это должен
+              быть удобный гайд по прокачке в первую очередь… при прокачке
+              итоговые статы уже не интересны, они уже известны». Раньше до гида
+              надо было прокрутить 2 926px на десктопе и 4 569px на телефоне —
+              то есть читатель, пришедший ровно за ним, платил всей страницей.
+              Итоги не спрятаны и не урезаны, они просто вторые (см. флаг
+              `Layouts.guide_first?/0`, там же записан пересмотренный довод). --%>
+        <.guide_section
+          :if={@guide_first?}
+          columns={@guide_columns}
+          wasted?={@wasted?}
+          show_granted?={@view_show_granted?}
+          has_granted?={@has_granted?}
+          filters={@view_filters}
+        />
+
+        <section class="v-sect" id="view-stats">
+          <span class="eyebrow">Итоговые характеристики</span>
+
+          <%!-- Группы классов шарда — те же флажки, что в панели итогов
+                конструктора (запрос Dan 08.08.2026). Стоят ПЕРЕД числами:
+                принадлежность объясняет их (у сагровика расовый бонус
+                больше базового), а не складывается с ними, и человеку,
+                пришедшему по ссылке, состав билда наизусть неизвестен.
+                Флажков может быть два сразу — Fighter входит в обе группы. --%>
+          <div :if={@class_group_flags != []} class="cgroups" id="view-class-groups">
+            <span
+              :for={group <- @class_group_flags}
+              class="cgroup"
+              id={"view-class-group-#{group.id}"}
+              data-assumed={if group.assumed?, do: "1"}
+              title={group.title}
+            >
+              {group.name}<i :if={group.assumed?} aria-hidden="true">?</i>
+            </span>
+          </div>
+
+          <div class="v-stats">
+            <%!-- Каждое число подписано тем, ИЗ ЧЕГО оно собралось: без этого
+                  непонятно, почему у мага 40-го уровня 2 атаки, а у воина 4. --%>
+            <div
+              :for={card <- @stat_cards}
+              class="v-stat"
+              id={"view-stat-#{card.key}"}
+              data-hero={if card.hero?, do: "1"}
+              data-unknown={if card.unknown?, do: "1"}
+            >
+              <span class="k">{card.label}</span>
+              <span class="v">{card.value}</span>
+              <%!-- Разбор СПИСКОМ, а не прозой — просьба Dan 10.08.2026 (§3.24,
+                    дефект 1): «смотрится не очень… может, список использовать,
+                    в конструкторе лучше выглядит». Прозой восемь слагаемых
+                    `Ref` занимали десять строк переноса в карточке 170px,
+                    и слагаемое от слагаемого было не отличить.
+
+                    ⚠️ Разбор остаётся ВИДИМЫМ сразу, а не за кликом: правило
+                    экрана просмотра (CLAUDE.md §6) — здесь ничего не выбирают,
+                    и признание «вот из чего число» не имеет права требовать
+                    действия. Список — это про типографику, а не про то, чтобы
+                    спрятать.
+
+                    Строка `from` печатается там, где разбора нет: у «Атак /
+                    раунд» это не сумма, а поиск по таблице, у «AC в шмоте»
+                    без вещей — вовсе не число. --%>
+              <span :if={card.terms} class="v-terms">
+                <span :for={term <- card.terms} class="t">
+                  <span class="tl">{term.label}</span><span class="tv">{term.value}</span>
+                </span>
+              </span>
+              <span :if={is_nil(card.terms) and card.from} class="from">{card.from}</span>
+            </div>
+          </div>
+
+          <%!-- Задача 3.16: разбор BAB выше называет, у КОГО уровни отброшены
+                («Rogue 0 из 16»), а эта строка — само правило. Появляется
+                только у билдов, которых оно касается: до 20-го уровня она
+                ничего не объясняет и была бы шумом. --%>
+          <p :if={@counted_window_note} class="v-note" id="view-counted-window">
+            {@counted_window_note}
+          </p>
+
+          <%!-- Задача 3.102 (решение Dan 25.08.2026): «посчитан такой-то
+                вариант расового бонуса» — справка к числу, а не пробел билда.
+                Стоит строкой под сеткой, а не внутри карточки: карточки
+                лежат в гриде `auto-fit minmax(196px, …)`, и предложение
+                на три сотни знаков растянуло бы по высоте весь ряд ради
+                одной из них.
+
+                ⚠️ У получателя-навыка (Человек, Discipline) `group` пустой,
+                и строка тогда стоит в секции навыков ниже — тем же
+                `#view-racial-bonus`, потому что отрисоваться может только
+                одна из двух. --%>
+          <p
+            :if={@racial_bonus_note && @racial_bonus_note.group}
+            class="v-note"
+            id="view-racial-bonus"
+          >
+            {@racial_bonus_note.text}
+          </p>
+        </section>
+
+        <section class="v-sect" id="view-abilities">
+          <span class="eyebrow">Характеристики</span>
+          <div class="v-abils">
+            <%!-- Тот же оттенок, что уже красит ▲ в гиде ниже (`Palette.
+                  ability_hue/1`, CLAUDE.md §6) — раньше карточки этой сетки
+                  были единственным местом экрана, где язык цвета ещё не стоял,
+                  хотя сам он уже был «в комнате». --%>
+            <div
+              :for={row <- @ability_rows}
+              class="v-ab"
+              id={"view-ability-#{row.id}"}
+              style={Palette.style(row.hue)}
+            >
+              <div class="k">
+                {row.label}
+                <%!-- Та же плашка капа, что у AB/AC/сейвов панели итогов —
+                      один визуальный язык на «упёрлось в потолок правил
+                      Сиалы», а не текст внутри разбора. --%>
+                <span
+                  :if={row.cap}
+                  class="capped"
+                  title="Число упёрлось в потолок правил Сиалы — дальше не растёт"
+                >
+                  {row.cap}
+                </span>
+              </div>
+              <div class="row">
+                <span class="fin">{row.score}</span>
+                <span class="m">{signed(row.modifier)}</span>
+              </div>
+              <%!-- Разбор — поимённо и всегда на экране, как у остальных
+                    карточек итогов (задача «Разбор характеристик на экране
+                    ПРОСМОТРА», AGENT_QUEUE §7): у Ученика красного дракона
+                    здесь появится «база 12 + Dragon abilities +8» вместо
+                    молчаливого «12 → 20». Строки нет вовсе, если у
+                    характеристики только «база» — единственному слагаемому,
+                    равному числу рядом, нечего объяснять
+                    (`Summary.ability_view_rows/2`). --%>
+              <span :if={row.from} class="from">{row.from}</span>
+            </div>
+          </div>
+        </section>
+
+        <%!-- ⚠️ Секция была «Фиты и навыки», и фитов в ней больше нет — решение
+              Dan 10.08.2026: «перепись фитов можно удалить, будем их в гиде
+              смотреть». Перепись повторяла гид дословно (те же фиты, только
+              с подписью «ур. N» вместо строки уровня) и стоила 477px из 556
+              на десктопе и 1 066px из 1 201 на телефоне.
+
+              🔴 Терять вместе с ней было НЕЛЬЗЯ две вещи, и обе переехали
+              в гид, а не исчезли:
+                * словесную подпись «слот потрачен зря» — в гиде на её месте
+                  стояла пара глифов `✦○` без текста, а правило экрана
+                  просмотра (CLAUDE.md §6) прямо запрещает глиф, который надо
+                  разгадывать;
+                * глиф `★` у эпического фита — гид печатал `✦` всем без
+                  разбора, то есть эпичность фита была видна ТОЛЬКО здесь.
+              Третьего уникального в секции не было: легенда дословно
+              повторяла легенду гида, а «Фиты — N» складывало в одно число
+              выбранное и выданное — то есть считало две разные вещи.
+
+              Навыки остались: их с итоговыми рангами, значением и разбором
+              («ранги (значение) · N р. · STR +N») в гиде нет вовсе, а отвечают
+              они на «что у этого билда по навыкам в итоге» — вопрос второго
+              читателя, ради которого секция и живёт.
+
+              ⚠️ Задача 3.175 (03.09.2026) вернула плоский список фитов
+              обратно на экран — но НЕ сюда и НЕ в прежнем виде: он живёт
+              отдельной секцией `#view-feats` внизу файла, компактнее
+              снятой (одна строка «глиф + имя + уровень» без описания
+              и без выданного классом — см. её собственный комментарий).
+              Довод «третьего уникального в секции не было» тем самым
+              не опровергнут: смешение выбранного и выданного в один
+              список и в один счётчик по-прежнему не возвращено. --%>
+        <%!-- ⚠️ Обёртки `.v-two` (сетка на две равные половины) внутри больше нет:
+              с одним ребёнком `auto-fit` оставлял навыки в левой половине
+              и держал вторую пустой — ровно то, чем секция и болела, только
+              наоборот. Две газетные колонки при большом списке навыков дают
+              правила `#view-skills` в медиа-блоке app.css.
+              Счётчик — в самом заголовке секции, а не строкой под ним: «НАВЫКИ»
+              и «Навыки — 4» друг под другом были двумя строками об одном. --%>
+        <section class="v-sect" id="view-picks">
+          <span class="eyebrow" id="view-skills-count">Навыки — {length(@skill_rows)}</span>
+          <%!-- Два числа в строке — разные вещи, и без подписи это ребус:
+                ранги покупались, а меряется персонаж значением. Порядок тот
+                же, что в каноническом текстовом формате (CLAUDE.md §3). --%>
+          <div :if={@skill_rows != []} class="v-legend" id="view-skills-legend">
+            <span>ранги (значение с модификаторами)</span>
+          </div>
+          <div class="v-list" id="view-skills">
+            <p :if={@skill_rows == []} class="delta-empty">Навыков пока нет.</p>
+            <div
+              :for={skill <- @skill_rows}
+              class="v-li v-sk"
+              id={"view-skill-#{skill.id}"}
+              data-cross={if skill.cross?, do: "1"}
+              data-unknown={if skill.unknown?, do: "1"}
+            >
+              <i aria-hidden="true">▪</i>
+              <span>{skill.name}</span>
+              <span :if={skill.cross?} class="lv-sk-x2">×2</span>
+              <%!-- Второе число — значение навыка. У навыка, чью ключевую
+                    характеристику не назвал никто, его нет: тогда стоит «?»,
+                    а не правдоподобный ноль. ⚠ Сегодня таких навыков в данных
+                    не осталось (последним был `alchemy`, замер Dan 17.08.2026),
+                    но ветка живёт — навык шарда придёт без поля снова. --%>
+              <span class="n">{skill.ranks} ({number(skill.value)})</span>
+              <%!-- Разбор — как у карточек статов выше: значение, которое
+                    не сходится с рангами на глаз, читается как ошибка. --%>
+              <span class="from">{skill.from}</span>
+              <%!-- Справка к посчитанному расовому бонусу, когда он падает
+                    именно в этот навык (задача 3.102). Тем же `id`, что
+                    и строка под сеткой итогов: получатель у бонуса один,
+                    значит и узел на странице ровно один. --%>
+              <span
+                :if={@racial_bonus_note && @racial_bonus_note.skill == skill.id}
+                class="from"
+                data-kind="race"
+                id="view-racial-bonus"
+              >
+                {@racial_bonus_note.text}
+              </span>
+            </div>
+          </div>
+        </section>
+
+        <%!-- Гид ПОСЛЕ итогов — прежний порядок, оставленный на случай «нет»
+              от Dan (`config :build_calculator, :guide_first, false`). Разметка
+              одна и та же, `guide_section/1`; двух копий у неё нет и быть
+              не должно — они разъехались бы через неделю. --%>
+        <.guide_section
+          :if={not @guide_first?}
+          columns={@guide_columns}
+          wasted?={@wasted?}
+          show_granted?={@view_show_granted?}
+          has_granted?={@has_granted?}
+          filters={@view_filters}
+        />
+
+        <%!-- Задача 3.175 (Dan, 03.09.2026): «попросили добавить в просмотре
+              вниз файла добавить просто список берущихся фитов, в целом
+              чекбоксы решат данную проблему, но раз попросили можно и
+              отдельно список фитов добавить». Стоит здесь, ПОСЛЕ обоих
+              возможных положений гида (флаг `guide_first?` двигает гид,
+              а не эту секцию) — так «внизу файла» верно при любом значении
+              флага, а не только при умолчании.
+
+              ⚠️ Не гейтится фильтрами гида выше: это ВТОРОЕ, отдельное
+              решение той же проблемы («в целом чекбоксы решат…, но раз
+              попросили…»), а не зеркало первого — спрятать «Фиты» на гиде
+              не должно опустошать список, ради которого сюда и смотрят.
+
+              ⚠️ Секция «Фиты и навыки» уже существовала на этом экране
+              и была снята 10.08.2026 (задача 3.24, «перепись фитов можно
+              удалить, будем их в гиде смотреть») — та несла и выбранные,
+              и выданные классом фиты одним списком, дословно повторяла
+              гид и весила 1862px, 42% страницы. Эта — компактнее и уже,
+              сознательно: одна строка на фит (уровень + глиф + имя, без
+              описания и без выданного классом), а не карточка. --%>
+        <section class="v-sect" id="view-feats">
+          <span class="eyebrow" id="view-feats-count">Фиты — {length(@feat_list)}</span>
+          <%!-- Та же пара глифов, что в легенде гида выше (`view-guide-legend`)
+                — один и тот же факт, один и тот же символ, просто другой
+                блок (комментарий у самой легенды гида). Показывается только
+                когда есть что подписывать: у билда без единого фита список
+                однороден и легенда была бы шумом. --%>
+          <div :if={@feat_list != []} class="v-legend" id="view-feats-legend">
+            <span><i aria-hidden="true">✦</i> фит выбран</span>
+            <span><i aria-hidden="true">★</i> эпический фит</span>
+            <%!-- Задача 3.176: тот же третий пункт алфавита §6, что и в
+                  легенде гида (комментарий там же) — один факт, один
+                  символ, другой блок. Список читает `feat.glyph` из ТОЙ ЖЕ
+                  аннотированной карты, что и гид (`feat_list/1` — плоский
+                  список из уже annotated `guide_columns`), так что молчать
+                  здесь про `⚔`, показывая его строкой ниже, значило бы
+                  разъехаться легендой с собственным списком. --%>
+            <span><i aria-hidden="true">⚔︎</i> бонусный фит класса</span>
+            <span :if={@wasted?}>
+              <i aria-hidden="true">✦</i><i aria-hidden="true">○</i>
+              взят слотом, но и так вышел бы даром — подписано под строкой
+            </span>
+          </div>
+          <div class="v-list" id="view-feats-list">
+            <p :if={@feat_list == []} class="delta-empty">Фитов пока нет.</p>
+            <%!-- Задача 3.176: `data-bonus` — для верного `title`/тестов и на
+                  будущее, а не для краски. Эта строка не несёт цвета класса
+                  вовсе (ни полосы, ни имени — «уровень + глиф + имя», см.
+                  комментарий у секции выше), в отличие от гида, где решение
+                  красить глиф опирается на уже стоящую рядом полосу. Заводить
+                  цвет здесь значило бы тянуть `row.hue` через `feat_list/1`
+                  ради строки, которая сегодня не красит ничего чужого —
+                  решение сознательно ограничено гидом (`build_view_live.ex`,
+                  комментарий у `.pick`), а глиф `⚔` (не `title`) уже говорит,
+                  что это бонусный слот, и не должен уползать в один цвет
+                  с обычным `✦` только потому, что рядом нет полосы. --%>
+            <div
+              :for={feat <- @feat_list}
+              class="v-li"
+              id={"view-feat-#{feat.level}-#{feat.index}-#{feat.id}"}
+              data-bonus={if feat.kind == :class_bonus, do: "1"}
+              data-wasted={if feat.wasted_text, do: "1"}
+            >
+              <i aria-hidden="true">{feat.glyph}</i>
+              <span>{feat.name}</span>
+              <span class="v-lv">ур. {feat.level}</span>
+              <%!-- Видимый текст, а не только глиф — правило экрана
+                    просмотра (CLAUDE.md §6): значок, который надо
+                    разгадывать, не работает. --%>
+              <span :if={feat.wasted_text} class="v-li-note">{feat.wasted_text}</span>
+            </div>
+          </div>
+        </section>
+      <% end %>
+    </div>
+
+    <div
+      class="scrim"
+      id="text-dialog"
+      hidden={not @text_open?}
+      phx-window-keydown="close_text"
+      phx-key="Escape"
+    >
+      <div class="modal" role="dialog" aria-modal="true" aria-labelledby="text-dialog-title">
+        <div class="modal-head">
+          <h2 id="text-dialog-title">Канонический текст билда</h2>
+          <button type="button" class="btn" id="text-close" phx-click="close_text">Закрыть</button>
+        </div>
+        <pre id="view-export-text" phx-no-curly-interpolation><%= @export_text %></pre>
+        <p class="modal-foot">
+          Формат гильдии Epic Character Builders — его понимают на форумах и в Discord.
+          «?» стоит там, где ядро отказалось считать.
+        </p>
+      </div>
+    </div>
+  <% end %>
+</Layouts.app>

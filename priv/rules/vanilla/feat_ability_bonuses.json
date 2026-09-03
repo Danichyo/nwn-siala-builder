@@ -1,0 +1,537 @@
+{
+  "_layer": "vanilla",
+  "_hand_written": true,
+  "_note": "Что прибавляет к самим ХАРАКТЕРИСТИКАМ (не к тому, что из них считается): фиты и таблицы классов. Связь «умение → характеристика» в корпусе существует только прозой — в описании фита либо в колонке таблицы прогрессии класса; структурного поля про это нет ни у одной из 507 проверенных записей. Поэтому разметка ручная, и у каждой записи дословная цитата плюс source страницы.\n\n⚠️ Файл РУЧНОЙ и лежит рядом с машинными. `mix wiki.parse` его не пишет — он пишет поимённо classes/skills/feats/spells/races/epic и три словаря выбора (creature_types, spell_schools, energy_types), а не всё содержимое папки. Имя выбрано так, чтобы ни с одним из них не совпасть, и то же имя перечислено в Data.Loader.source_files/0 и в @rules_files: первое — чтобы правка файла пересобирала ruleset, второе — чтобы файл не приняли за словарь значений для выбора.\n\n⚠️ Третий файл той же формы (feat_hp_bonuses.json — задача 1.9, ac_bonuses.json — 3.11), и отдельный от них по той же причине: у каждого свой ПОЛУЧАТЕЛЬ. У навыка это список навыков, у AC — тип бонуса (типы складываются по-разному и капаются по-своему), у характеристики — какая именно характеристика И каскад в производные: +2 CON это не «+2 к CON», а +1 к модификатору, то есть +1 HP на КАЖДОМ уровне персонажа. Общее у трёх файлов — механизм (четыре вердикта, обязательная цитата, шапка _sweep, падение сборки на битой записи), и он взят отсюда как есть.\n\n⚠️ Источник прибавки шире, чем фит, и свести его к фиту нельзя — тот же урок, что дала задача 3.11 с колонкой AC монаха. Таблица роста характеристик РДД напечатана ДВАЖДЫ: в описании фита `dragon abilities` (сырым викитекстом) и колонкой «Ability increases» таблицы класса. Числа совпадают строка в строку, но это два независимых источника, поэтому у записи ровно один ключ: feat либо class.",
+  "_verdicts": {
+    "applied": "Число и получатель названы, прибавка постоянная — ядро её считает, кладёт в «голую» характеристику и называет в разборе поимённо.",
+    "counted_elsewhere": "Тот же самый бонус уже описан другой записью этого файла. Считать его здесь значило бы задвоить одно и то же число. Запись остаётся, потому что источник у неё СВОЙ (таблица класса против страницы фита), и совпадение двух независимых источников — это подтверждение, а не дубль.",
+    "not_modelled": "Прибавка к характеристике есть, но в постоянное число её честно не положить: она включается режимом, тратит применение в день или накладывается заклинанием. Ядро её не считает и говорит об этом вслух — {:not_modelled, {:ability_bonus, id}} на билде, который таким умением владеет.",
+    "not_an_ability_bonus": "В прозе есть название характеристики или похожее на прибавку слово, а характеристику ЭТОГО персонажа умение не меняет ничем: это требование, модификатор характеристики, применённый к чему-то другому, урон характеристике противника, смена формулы или замена статов формой. Ложное срабатывание разведки, записано с причиной, чтобы его не искали заново."
+  },
+  "_schema": {
+    "feat | class": "Ровно ОДИН из двух ключей — источник прибавки. feat — id из vanilla/feats.json (владение фитом: взят в слот ИЛИ выдан классом). class — id класса, чья ТАБЛИЦА несёт колонку прибавок к характеристикам. Несуществующий id роняет сборку.",
+    "verdict": "Один из четырёх выше.",
+    "amount": "Величина прибавки. Обязательна у verdict=applied, допустима у not_modelled (материал на случай, если однажды появится показ «в режиме»), запрещена у остальных. Различаются формы полем kind — см. _amount_kinds.",
+    "effect_coverage": "Только у applied. whole_feat — страница не называет у фита НИЧЕГО, кроме этой прибавки, поэтому общий гэп «прибавку от фита в статы не считаем» с билда снимается. abilities_only — фит делает и что-то ещё, общий гэп остаётся. ⚠️ Это суждение читателя страницы, а не поле источника, и загрузчик его не выводит: без явного значения общий гэп остаётся висеть (умолчание в сторону оговорки, а не в сторону тишины).",
+    "why": "Только у not_modelled и not_an_ability_bonus: почему не считаем. Обязательно — вердикт без причины через полгода читается как чей-то недосмотр.",
+    "affects": "Задача про пять файлов прибавок (17.08.2026) — получатель(и) факта из ЗАКРЫТОГО словаря, который живёт ОДИН на весь проект в siala_41/classes.json → `_receivers`, а не здесь. Смысл поля и правило «нет метки — значит гэп» — там же (задача 3.28).\n\n⚠️ Стоит ТОЛЬКО у not_modelled — applied и counted_elsewhere уже идут в число и гэпом не бывают по построению (`Rules.Bonuses.rejected/2` читает только not_modelled), а not_an_ability_bonus не переживает `markup_buckets/1` вовсе, ей нечем стать гэпом.\n\n⚠️ У всех четырёх not_modelled-записей этого файла affects одинаков — `buff` — и это не совпадение получателя, а совпадение ПРИЧИНЫ: все четыре временные, активируемые, ограниченные числом применений в день (Ярость и её усиленная версия, Стойка Гномьего защитника, право кастовать заклинание Bull's strength). Ни одна не про постоянную характеристику — тот же критерий, которым в siala_41/classes.json под баффы ушли Rage/Bull's strength/Shadow Evade (Dan, 10.08.2026).",
+    "owned_by": "Только у counted_elsewhere: id записи, которая этот бонус считает.",
+    "quote": "Дословно из источника, посимвольно. Проверяется глазами по кэшу, не пересказывается.",
+    "source": "Страница с revid и датой снятия."
+  },
+  "_amount_kinds": {
+    "per_take": "+N к названной характеристике за каждое ВЗЯТИЕ фита, суммарно не больше max_total. Семейство Great *. Считается по числу занятых слотов (Build.feat_takes/3); max_total — потолок ЭФФЕКТА со страницы, отдельный от потолка числа взятий в siala_41/feats.json → repeatable.max_takes. Тот же двойной потолок, что у Epic toughness в feat_hp_bonuses.json, и путать их так же нельзя.",
+    "ability_at_class_level": "Ступени по уровням НАЗВАННОГО класса: gains_at_class_level — {уровень класса: {характеристика: сколько}}. ⚠️ Ступени СУММИРУЮТСЯ, а не заменяют друг друга: у РДД «+2 к силе» стоит и на 2-м уровне, и на 4-м, и это +4 суммарно, а не +2. Это ПРОТИВОПОЛОЖНОЕ прочтение тому, что в ac_bonuses.json (ac_at_class_level — итог на ступени), и различие не косметическое: там колонка печатает накопленный итог («AC bonus +1 … +8»), здесь — приращение на этом уровне («Ability increases / Str: +2»). Каждый файл states своё, и оба сверены с таблицей класса.",
+    "_why_not_one_number": "У двух форм разные аргументы (число взятий / уровень класса), и свернуть их в одно число нельзя даже на капе: Great strength даёт от +1 до +10 в зависимости от числа потраченных слотов, dragon abilities — от 0 до +8 к силе в зависимости от того, сколько уровней РДД взято. Одно поле «bonus» здесь было бы враньём в обоих случаях."
+  },
+  "_order_decision": {
+    "question": "Куда фиты и классовые таблицы встают в цепочке «поинт-бай + раса → прибавки уровней → вещи»?",
+    "answer": "В «голое» значение: после прибавок уровней, ДО вещей. Инвариант ядра становится `поинт-бай + раса + уровни + собственные прибавки + вещи == значение`.",
+    "why": "Это не наш выбор порядка, а деление, которое источник делает сам — двумя соседними абзацами. Первый перечисляет, из чего собирается BASE score, и фиты стоят в этом перечислении наравне с поинт-баем, расой и прибавками уровней. Второй начинается со слова «дальше» и говорит про предметы и заклинания отдельно, с собственным потолком. То есть фит — часть голого персонажа, ровно как классовый AC монаха в задаче 3.11: «голым» обязано значить голым, но не «без себя».",
+    "quote": "Player characters are assigned ability scores from 8 to 18, before applying any [[racial modifier]]s, at character creation through a [[point buy]] system. In addition, every four [[character level]]s a single ability score [[level progression|can be increased by one]]. Furthermore, certain feats ([[dragon abilities]] of [[red dragon disciple]]s and the \"great ability\" [[epic feat]]s) can increase base scores.",
+    "quote_2": "Items, spells, etc. (\"magical means\") can further affect ability scores, subject to the +12 [[ability cap]].",
+    "consequence": "⚠️ Прибавка от фита входит в проверку требований по характеристике, а вещевая — нет, и это тоже из источника: «It is this unmodified score (the base score) that matters when meeting the prerequisite of a feat». Персонаж с Great strength ×3 после этой задачи действительно проходит требование STR 19, которое до неё не проходил.",
+    "consequence_correction": "🔴 Здесь стояло «Ядро сравнивает требование с МЕНЬШИМ из голого и одетого значения (Rules.Prereqs.ability_scores/1), то есть с голым» — и про ВЕЩЕВУЮ половину это было неверно с 04.08.2026 по 16.08.2026. Так считался только `casts_spell_level`; ключ `abilities` читал `stats.abilities`, то есть значение ВМЕСТЕ с вещами, и полуорк с базовой силой 18 и поясом +9 получал Thundering rage (сила 25). Строка описывала не поведение ядра, а намерение — и ровно поэтому баг прожил двенадцать дней невидимым: разведка сверялась с этой строкой, а не с кодом. Исправлено 16.08.2026 (`GAME_CHECKS.md` S1, факт от Dan): `Rules.Prereqs` сравнивает `abilities` с `stats.abilities_naked`. Урок: описывать в данных поведение кода можно только тем, что проверено вызовом.",
+    "arithmetic_check": "Та же страница проверяет всю цепочку числом, и оно сходится: «The highest ability score achievable by a player character through normal means is 57 (strength). The highest score achievable without bonuses from feats and race is 40.» 40 = 18 поинт-бай + 10 прибавок уровней + 12 предметов; 57 = те же 40 + 2 расы + 7 (Great strength, сколько эпических общих слотов есть на 40 уровнях) + 8 (dragon abilities). Оба числа получаются ТОЛЬКО при этом порядке и при этих слоях — то есть источник независимо подтверждает и состав слоёв, и то, что фиты капом +12 не режутся.",
+    "source": {
+      "wiki": "fandom",
+      "page": "Ability score",
+      "revid": 71148,
+      "fetched": "2026-08-01"
+    }
+  },
+  "_cap_decision": {
+    "question": "Два потолка стоят рядом и легко путаются: кап +12 и потолок +10 у семейства Great *. Один это или два?",
+    "answer": "Два разных, и они про разное. Кап +12 — потолок на МАГИЧЕСКИЕ прибавки (предметы и заклинания), фиты ему не подчиняются вовсе. Потолок +10 — собственный предел ЭФФЕКТА одного фита семейства Great * («to a maximum of +10»), то есть про сумму взятий этого фита и ни про что больше.",
+    "why": "Источник называет их в разных абзацах и разными словами: «the [[ability cap]] limits magical enhancements to +12» — про magical means; «This may be taken multiple times, to a maximum of +10» — про сам фит. Слить их в одно число значило бы либо срезать законные +10 от фитов, либо пропустить мимо капа предметные бонусы.",
+    "quote_ability_cap": "The game engine allows an ability score to range from 3 to 255 (including bonuses and penalties). However, [[player character]]s are incapable of reaching the maximum through normal means, as starting ability scores are limited to 20, and the [[ability cap]] limits magical enhancements to +12.",
+    "quote_great": "This may be taken multiple times, to a maximum bonus of +10.",
+    "third_ceiling": "⚠️ И третий потолок рядом, который тоже нельзя смешивать: max_takes = 10 (siala_41/feats.json, со слов Dan) — это предел ЧИСЛА ВЗЯТИЙ, а +10 здесь предел ЭФФЕКТА. У семейства Great * они дают одно и то же число только потому, что взятие стоит +1; у Epic toughness та же пара расходится (10 взятий, 200 хитов). В ванильном ruleset'е предела взятий нет вовсе, и билд оттуда честно несёт {:missing_data, {:feat_max_takes, …}} — при этом эффект всё равно не уйдёт выше +10, потому что потолок стоит на нём самом.",
+    "practical_ceiling": "Отдельно от правил: страница Great strength замечает, что взять фит больше семи раз всё равно негде — «Effectively, this feat can only be taken seven times, as there are only seven epic general feats, and no class has this as a [[bonus feat]]». Это следствие числа слотов, а не потолок эффекта, поэтому в amount оно НЕ переносится: слоты считает FeatSlots, и если шард однажды добавит эпических общих фитов, число изменится само.",
+    "source": {
+      "wiki": "fandom",
+      "page": "Ability score",
+      "revid": 71148,
+      "fetched": "2026-08-01"
+    },
+    "source_2": {
+      "wiki": "fandom",
+      "page": "Great strength",
+      "revid": 51385,
+      "fetched": "2026-08-01"
+    }
+  },
+  "_retroactivity_decision": {
+    "question": "Прибавка пришла на 14-м уровне. Пересчитывается ли задним числом то, что считалось на 13-м?",
+    "answer": "Раздельно по получателю, и обе половины из источника. HP от CON — ДА, ретроактивно: значение считается от итогового модификатора и применяется ко всем уровням. Скилл-поинты от INT — НЕТ: очки начисляются на уровне по тому INT, который был на нём, и прошлые уровни не пересчитываются.",
+    "quote_hp": "the constitution increase at level 7 can also provide a significant increase to hit points, +1 per total character level",
+    "why_hp": "«+1 per TOTAL character level» — то есть +2 CON на 7-м уровне РДД дают хиты за весь билд, а не за оставшиеся уровни. Ядро так и считает и до этой задачи: Progression.hit_points/3 берёт итоговый модификатор CON и применяет к каждому уровню. Отдельное подтверждение оттуда же: когда движок один раз перестал давать эти хиты, вики записала это как БАГ («failing to give extra hit points from constitution increases … This has since been fixed»), то есть ретроактивность — ожидаемое поведение.",
+    "quote_skill_points": "The increase to Intelligence ''does'' apply increased skill point gain for the 9th level of Red Dragon Disciple, which if taken as soon as possible (14th Character Level) results in 27 extra skill points as of character level 40.",
+    "why_skill_points": "Арифметика цитаты однозначна и отвечает СРАЗУ НА ДВА вопроса. 27 = 40 − 14 + 1, то есть по одному очку за уровни с 14-го по 40-й включительно. Значит (1) задним числом очки НЕ пересчитываются — иначе их было бы 40; (2) на уровне получения прибавка УЖЕ действует — иначе их было бы 26. Ядро так и считает: Rules.Skills.points_at/3 читает INT через Abilities.scores_at/3, то есть «как он стоял на этом уровне».",
+    "note": "⚠️ Замер GAME_CHECKS.md E4 заводился под первую половину этого вопроса, когда цитата ещё не была найдена. Он остаётся полезным — источник говорит про dragon abilities, а не про Great intelligence, и это формально разные фиты, — но ожидание теперь опирается на источник, а не на «в NWN, кажется, так».",
+    "source": {
+      "wiki": "fandom",
+      "page": "Red dragon disciple",
+      "revid": 71919,
+      "fetched": "2026-08-01"
+    },
+    "source_2": {
+      "wiki": "fandom",
+      "page": "Dragon abilities",
+      "revid": 70475,
+      "fetched": "2026-08-01"
+    }
+  },
+  "_double_counting_check": {
+    "note": "Прибавка к характеристике приходит из четырёх мест, и это пятое. Проверено поимённо, что ни одно не пересекается с этим файлом:",
+    "race": "vanilla/races.json → ability_modifiers. Отдельный слой сборки, читается Abilities.racial_modifiers/2. ⚠️ Проверены и расовые склонности (bonus_feats у всех семи рас, 40 записей): прибавок к характеристикам среди них нет ни одной — там ночное зрение, склонности к навыкам, боевая подготовка против видов и small_stature. То есть форма «расовый фит даёт характеристику», под которую в ac_bonuses.json есть ключ race_feat, здесь пуста, и ключа поэтому нет.",
+    "level_increases": "Build.ability_increases — выбор игрока каждый четвёртый уровень, поле билда, а не ruleset'а. ⚠️ Название колонки таблицы РДД («Ability increases») совпадает с ним дословно и значит совсем другое: там это выдача класса, здесь — потраченный выбор игрока. Единственное место, где их легко перепутать, — разбор в панели итогов, поэтому терм от РДД подписан именем фита, а не словом «уровни».",
+    "gear": "Build.gear.abilities → Rules.Gear.ability_bonuses/2, со своим капом +12. Этот файл в вещи не заглядывает вовсе.",
+    "rdd_table_vs_feat": "Таблица РДД напечатана дважды (страница фита и колонка класса) — вторая запись помечена counted_elsewhere, см. её why."
+  },
+  "_sweep": {
+    "corpus": [
+      "vanilla/feats.json",
+      "siala_41/generated/feats.json",
+      "siala_41/feats.json",
+      "vanilla/classes.json",
+      "siala_41/classes.json",
+      "vanilla/skills.json",
+      "siala_41/skills.json",
+      "vanilla/races.json",
+      "siala_41/races.json"
+    ],
+    "records_checked": 507,
+    "coverage": "сплошная, все записи девяти файлов",
+    "also_read": "Сверх записей просмотрены целиком два документа, у которых записей нет: vanilla/epic.json (правила эпика — там лежит третье, независимое перечисление источников прибавок, см. completeness_check ниже) и siala_41/systems.json (десять кастомных систем шарда — прибавок к характеристикам не даёт ни одна). Ближайшее — мини-сеты: они множат оружейные и расовые бонусы, а трогают hp / movement_speed / ac / attack_bonus / damage, то есть ни одной характеристики (derived_stats_touched у mini_sets, перечислено там дословно). ⚠️ Здесь стояло «и они объявлены out_of_scope решением Dan» — это ОСНОВАНИЕ снято 10.08.2026, вывод нет. Решение 2026-08-01 про оружейные и расовые бонусы пересмотрено дважды (2026-08-03 и 2026-08-08), и расовый бонус теперь СЧИТАЕТСЯ на 40-м и 41-м уровне; действующее решение и его история — в siala_41/races.json → level_scaling._decision. Для этого файла ничего не изменилось и не может: у мини-сетов goes_into_calculator=no по своей причине («чистая экипировка, территория армори»), и характеристик среди того, что они дают, нет вовсе — то есть вывод держится на составе прибавки, а не на чьём-либо решении про другой бонус.",
+    "why_wider_than_feats": "Урок задачи 3.11, и он повторился в точности: таблица роста характеристик РДД — это КОЛОНКА таблицы класса, а не поле фита. Разведка только по фитам нашла бы её лишь косвенно (через сырой викитекст в описании фита) и не заметила бы, что источников два и они сверяются друг с другом.",
+    "method": "Два прохода регулярным выражением по ПОЛНОМУ json каждой записи, а не по одному полю и не по имени. Узкий — «глагол прибавки рядом с названием характеристики» в окне 80 символов, в обе стороны (gain/bonus/increase/add/raise/improve/+N плюс русские получ/прибав/увелич/повыш/бонус), по шести характеристикам и словам ability score / abilities / характеристика / стат: 83 записи. Широкий контрольный — всё, что могло бы быть прибавкой, названной БЕЗ слова характеристики (attribute / stat / score / STR…CHA / might / muscle / agility / potent / prowess / empower плюс русские прирост / мощ / характер): ещё 91 запись, и ни одна из них прибавкой не оказалась — это ключевые характеристики навыков, требования фитов, скилл-поинты от INT и заметки про статы в примечаниях данных.",
+    "not_searched_by_name": "⚠️ Поиск по префиксу имени запрещён и был бы неверен в обе стороны. `great_smiting` начинается на `great_` и даёт УРОН против зла; `ambidexterity` содержит `dexterity` и не трогает ловкость. Обратный случай — `dragon_abilities`, где имя не называет ни одной характеристики, а даёт их пять штук. Читается описание, а не имя.",
+    "found": 24,
+    "by_verdict": {
+      "applied": 7,
+      "counted_elsewhere": 1,
+      "not_modelled": 4,
+      "not_an_ability_bonus": 12
+    },
+    "completeness_check": "⚠️ Третий, независимый от разведки способ убедиться, что applied-записей ровно два семейства: страница `Ability score` перечисляет источники прибавок к базовым характеристикам САМА и называет ровно два — «certain feats ([[dragon abilities]] of [[red dragon disciple]]s and the \"great ability\" [[epic feat]]s)». То же перечисление лежит у нас в vanilla/epic.json → ability_increases.rule_raw с 01.08.2026, то есть оно было в данных всё это время. Совпадение сплошного прохода по 507 записям с прямым утверждением источника — самое сильное подтверждение полноты, какое здесь достижимо без доступа к .2da.",
+    "backlog_check": "Список из бэклога (шесть Great *, dragon_abilities, «32 фита упоминают характеристику в описании») сошёлся полностью — расхождений, в отличие от задач 1.9 и 3.11, не нашлось ни одного. Число 32 подтвердить нечем (в бэклоге не сказано, какой выборкой оно получено), но и опровергать нечего: узкий проход дал 83 записи, из них про характеристики ЭТОГО персонажа — 25.",
+    "shard_layer": "У шарда новых прибавок к характеристикам нет ни одной. В 66 машинных записях (siala_41/generated/feats.json) узкий проход дал 30 попаданий, и все до одной — про другое: модификатор характеристики, применённый к чему-то (харизма к сейвам у Dark Blessing и Divine Grace, харизма к радиусу крика у Fear, мудрость к AC у монаха), штраф характеристике ПРОТИВНИКА (Crippling strike, шард поднял 2 → 3 очка силы; Called shot, −3 ловкости), сила призванных существ и требования фитов. В ручном слое (25 записей) единственное, что относится к делу, — потолок числа взятий у шести Great *, и он уже лежит там как repeatable.max_takes. Про сами прибавки шард молчит, значит по CLAUDE.md §3 действует ваниль.",
+    "shard_classes": "В 23 классах Сиалы прибавок к характеристикам тоже нет — есть три места, где статы упоминаются, и все три уже покрыты гэпами класса, а не этим файлом: ярость варвара (status unclear, чисел шард не назвал), Аура величия паладина («увеличивает бонус к харизме, а также дает бонус к силе, зависящий от уровня паладина» — это ЗАКЛИНАНИЕ, и числа не названы) и стойка Гномьего защитника. Все три уже дают {:not_modelled, {:class_change, …}} на билде, поэтому дублировать их записями здесь не нужно; про варвара и защитника записи всё же заведены — но на ВАНИЛЬНЫЕ фиты, у которых числа есть.",
+    "fetched": "2026-08-04"
+  },
+  "bonuses": [
+    {
+      "feat": "great_strength",
+      "verdict": "applied",
+      "amount": {
+        "kind": "per_take",
+        "ability": "str",
+        "bonus": 1,
+        "max_total": 10
+      },
+      "effect_coverage": "whole_feat",
+      "note": "Самая дорогая прибавка семейства по последствиям: +10 STR это +5 к бонусу атаки и к урону. ⚠️ Каскад важнее самой характеристики, и он ровно тот, ради которого калькулятор существует: игрок, считающий руками, прибавляет 10 к строке STR и забывает про пять очков атаки.",
+      "quote": "The character gains +1 to their [[strength]]. This may be taken multiple times, to a maximum bonus of +10.",
+      "status": "verified",
+      "source": {
+        "wiki": "fandom",
+        "page": "Great strength",
+        "revid": 51385,
+        "fetched": "2026-08-01"
+      }
+    },
+    {
+      "feat": "great_dexterity",
+      "verdict": "applied",
+      "amount": {
+        "kind": "per_take",
+        "ability": "dex",
+        "bonus": 1,
+        "max_total": 10
+      },
+      "effect_coverage": "whole_feat",
+      "note": "Каскад: AC и спасбросок рефлексов, а у билда с Weapon Finesse — ещё и бонус атаки (там формула считается от ловкости, если она выше силы).",
+      "quote": "The character gains +1 to their [[dexterity]]. This may be taken multiple times, to a maximum of +10.",
+      "status": "verified",
+      "source": {
+        "wiki": "fandom",
+        "page": "Great dexterity",
+        "revid": 41426,
+        "fetched": "2026-08-01"
+      }
+    },
+    {
+      "feat": "great_constitution",
+      "verdict": "applied",
+      "amount": {
+        "kind": "per_take",
+        "ability": "con",
+        "bonus": 1,
+        "max_total": 10
+      },
+      "effect_coverage": "whole_feat",
+      "note": "⚠️ Самый крупный каскад в файле по числу: +10 CON это +5 к модификатору, то есть +5 HP на КАЖДОМ уровне персонажа — +205 на капе Сиалы. Плюс спасбросок стойкости. Здесь же виден стык с задачей 1.9: прибавка проходит через тот же поуровневый пол «минимум 1 HP», внутрь которого встают прибавки фитов к хитам, — и складываться с ними должна ОДИН раз, а не дважды (в feat_hp_bonuses.json у great_constitution стоит вердикт not_a_hp_bonus ровно поэтому).",
+      "quote": "The character gains +1 to their [[constitution]]. This may be taken multiple times, to a maximum of +10.",
+      "status": "verified",
+      "source": {
+        "wiki": "fandom",
+        "page": "Great constitution",
+        "revid": 51384,
+        "fetched": "2026-08-01"
+      }
+    },
+    {
+      "feat": "great_intelligence",
+      "verdict": "applied",
+      "amount": {
+        "kind": "per_take",
+        "ability": "int",
+        "bonus": 1,
+        "max_total": 10
+      },
+      "effect_coverage": "whole_feat",
+      "note": "⚠️ Единственная прибавка семейства, у которой каскад зависит от УРОВНЯ, на котором фит взят: скилл-поинты начисляются на уровне по тогдашнему INT и задним числом не пересчитываются (см. _retroactivity_decision). Остальные пять действуют на билд целиком независимо от уровня взятия.",
+      "quote": "The character gains +1 to their [[intelligence]]. This may be taken multiple times, to a maximum bonus of +10.",
+      "status": "verified",
+      "source": {
+        "wiki": "fandom",
+        "page": "Great intelligence",
+        "revid": 41092,
+        "fetched": "2026-08-01"
+      }
+    },
+    {
+      "feat": "great_wisdom",
+      "verdict": "applied",
+      "amount": {
+        "kind": "per_take",
+        "ability": "wis",
+        "bonus": 1,
+        "max_total": 10
+      },
+      "effect_coverage": "whole_feat",
+      "note": "Каскад: спасбросок воли, круг заклинаний у клирика, друида, паладина и рейнджера, а у монаха — ещё и AC (задача 3.11, monk_ac_bonus считает модификатор мудрости целиком).",
+      "quote": "The character gains +1 to their [[wisdom]]. This may be taken multiple times, to a maximum bonus of +10.",
+      "status": "verified",
+      "source": {
+        "wiki": "fandom",
+        "page": "Great wisdom",
+        "revid": 41094,
+        "fetched": "2026-08-01"
+      }
+    },
+    {
+      "feat": "great_charisma",
+      "verdict": "applied",
+      "amount": {
+        "kind": "per_take",
+        "ability": "cha",
+        "bonus": 1,
+        "max_total": 10
+      },
+      "effect_coverage": "whole_feat",
+      "note": "Каскад: круг заклинаний у колдуна и барда, а у паладина и Чёрного стража — все три спасброска (Divine Grace / Dark Blessing прибавляют модификатор харизмы к сейвам; сами эти умения ядром не считаются, поэтому здесь каскад пока обрывается).",
+      "quote": "The character gains +1 to their [[charisma]]. This may be taken multiple times, to a maximum of +10.",
+      "status": "verified",
+      "source": {
+        "wiki": "fandom",
+        "page": "Great charisma",
+        "revid": 41425,
+        "fetched": "2026-08-01"
+      }
+    },
+    {
+      "feat": "dragon_abilities",
+      "verdict": "applied",
+      "amount": {
+        "kind": "ability_at_class_level",
+        "class": "red_dragon_disciple",
+        "gains_at_class_level": {
+          "2": {
+            "str": 2
+          },
+          "4": {
+            "str": 2
+          },
+          "7": {
+            "con": 2
+          },
+          "9": {
+            "int": 2
+          },
+          "10": {
+            "str": 4,
+            "cha": 2
+          }
+        }
+      },
+      "effect_coverage": "whole_feat",
+      "note": "Итог на потолке класса: +8 STR, +2 CON, +2 INT, +2 CHA. Таблица переписана из описания фита (там она лежит сырым викитекстом, разобрать её машинно никто не пытался) и сверена с колонкой «Ability increases» таблицы класса — совпадение строка в строку, второе независимое подтверждение; сама колонка лежит записью ниже с вердиктом counted_elsewhere.\n\n⚠️ Ступени СУММИРУЮТСЯ. «+2 к силе» стоит и на 2-м уровне класса, и на 4-м, и это +4, а не +2 — то есть прочтение обратное тому, что в ac_bonuses.json у Draconic armor рядом (там колонка печатает накопленный итог). Обе таблицы взяты с одной и той же страницы класса и читаются по-разному, потому что печатаются по-разному.\n\n⚠️ Гейт — ВЛАДЕНИЕ фитом, а величина считается от уровней РДД. Это не тавтология: фит выдаётся классом на 2-м уровне, и на первом уровне класса прибавок нет ни по таблице, ни по гейту. Источник подтверждает разделение прямо: «While this feat can be given to another class, the ability increases depend upon levels in red dragon disciple», и там же — что прибавки начисляются ретроактивно, если фит получен позже.\n\n⚠️ Уровни класса ПОСЛЕ 10-го прибавок не дают: эпическая часть таблицы РДД (11+) колонки «Ability increases» не содержит вовсе — только AC, урон дыхания и его ДЦ. Ступени просто кончаются, и продолжать их мы не имеем права.\n\nСтраница Сиалы про РДД эти прибавки не упоминает — «Прибавки к статам, natural AC и иммунитеты РДД по уровням на странице Сиалы не упомянуты — считаем ванильными» (siala_41/classes.json), значит действует ваниль.",
+      "quote": "As the dragon disciple gains [[class level|level]]s in this [[prestige class]], his [[ability]] scores increase by the following table:",
+      "quote_table": "{{!}} 2: {{!}}{{!}} +2 to [[strength]]  {{!}}-    {{!}} 4: {{!}}{{!}} +2 to strength  {{!}}-    {{!}} 7: {{!}}{{!}} +2 to [[constitution]]  {{!}}-    {{!}} 9: {{!}}{{!}} +2 to [[intelligence]]  {{!}}-    {{!}}10: {{!}}{{!}} +4 to strength, +2 to [[charisma]]",
+      "status": "verified",
+      "source": {
+        "wiki": "fandom",
+        "page": "Dragon abilities",
+        "revid": 70475,
+        "fetched": "2026-08-01"
+      }
+    },
+    {
+      "class": "red_dragon_disciple",
+      "verdict": "counted_elsewhere",
+      "owned_by": "dragon_abilities",
+      "why": "Колонка «Ability increases» таблицы класса РДД — та же таблица, что даёт фит Dragon abilities, записанная с другой стороны. Считать обе значило бы задвоить +8 STR на потолке класса. Запись оставлена намеренно: два независимых источника сошлись число в число, и это подтверждение — единственное, что у нас есть вместо доступа к .2da.\n\n⚠️ Колонка у нас УЖЕ разобрана в данные — она лежит в vanilla/classes.json → progression[].extra под шестью ключами «Ability increases / Str» … «/ Cha», по одному на характеристику, со значениями «+2» и «-». То есть в отличие от таблицы AC у монаха, которую задача 3.11 переписывала из вики, здесь машинный разбор уже есть, и он был всё это время; не хватало не данных, а того, чтобы кто-то их прочитал.",
+      "quote": "!colspan=\"6\"|Ability increases",
+      "quote_prose": "The character also gets a level-dependent [[armor class]] (AC) bonus from [[draconic armor]], the ability to [[dragon breath|breathe fire]], and bonuses to certain [[ability|abilities]] at specific levels from [[dragon abilities]].",
+      "status": "verified",
+      "source": {
+        "wiki": "fandom",
+        "page": "Red dragon disciple",
+        "revid": 71919,
+        "fetched": "2026-08-01"
+      }
+    },
+    {
+      "feat": "barbarian_rage",
+      "verdict": "not_modelled",
+      "amount": {
+        "kind": "per_take",
+        "ability": "str",
+        "bonus": 4,
+        "max_total": 4
+      },
+      "why": "Ярость — способность с числом применений в день, а не постоянный стат. То же основание, по которому её −2 к AC не идут в постоянное число (ac_bonuses.json → _conditional_decision): умение по умолчанию ВЫКЛЮЧЕНО. Показывать +4 STR у варвара, который просто стоит, значило бы завысить его атаку и урон на два очка в каждом бою и вне боя.\n\n⚠️ Поле amount здесь неполное и потому обманчивое, если читать его как число: ярость даёт +4 И к силе, И к телосложению (с 15-го уровня +6 к обеим), а форма per_take несёт одну характеристику. Записано так намеренно — форма для условных записей не проверяется загрузчиком и служит материалом, а не расчётом; полный набор виден в цитате.\n\n⚠️ На Сиале ярость переписана целиком, и чисел шард не назвал: siala_41/classes.json несёт факт rage со status unclear. То есть даже +4 сегодня ванильные и на шарде не подтверждены. Билд с варваром уже несёт {:not_modelled, {:class_change, :barbarian, \"rage\"}} — эта запись добавляет к нему второй, более узкий гэп про сами характеристики; формы разные, дубля не будет.",
+      "affects": ["buff"],
+      "quote": "The barbarian may '''rage''', gaining a +4 morale bonus to [[strength]] and [[constitution]] and +2 to all [[will]] [[saving throw]]s, in exchange for a -2 penalty to [[armor class]].",
+      "quote_greater": "At 15th level, the rage ability becomes '''greater rage''', giving the barbarian +6 to strength and constitution and +3 to will saves (the -2 penalty to armor class still applies).",
+      "status": "verified",
+      "source": {
+        "wiki": "fandom",
+        "page": "Barbarian rage",
+        "revid": 71367,
+        "fetched": "2026-08-01"
+      }
+    },
+    {
+      "feat": "mighty_rage",
+      "verdict": "not_modelled",
+      "amount": {
+        "kind": "per_take",
+        "ability": "str",
+        "bonus": 8,
+        "max_total": 8
+      },
+      "why": "То же, что Barbarian rage, только числа больше: +8 к силе и телосложению на время ярости. Записан отдельно, а не «семейством», потому что это самая крупная прибавка к характеристике во всём корпусе — крупнее любой постоянной, — и разведка споткнётся о неё первой. Плюс арифметика: бонусы ярости не складываются, а ЗАМЕНЯЮТ друг друга («These bonuses replace the normal rage bonuses»), то есть даже при желании показать «в ярости» это было бы не сложение трёх записей, а выбор старшей.",
+      "affects": ["buff"],
+      "quote": "When the character rages, they gain +8 to [[strength]] and [[constitution]] and a +4 morale bonus to [[will]] saves. These bonuses replace the [[barbarian rage|normal rage]] bonuses.",
+      "status": "verified",
+      "source": {
+        "wiki": "fandom",
+        "page": "Mighty rage",
+        "revid": 69992,
+        "fetched": "2026-08-01"
+      }
+    },
+    {
+      "feat": "defensive_stance",
+      "verdict": "not_modelled",
+      "amount": {
+        "kind": "per_take",
+        "ability": "con",
+        "bonus": 4,
+        "max_total": 4
+      },
+      "why": "Боевой режим Гномьего защитника: +2 к силе и +4 к телосложению, пока он стоит на месте, столько раз в день, сколько позволяет уровень класса. Ровно тот же вердикт и по той же причине, по которой не считается его же +4 к AC (ac_bonuses.json). Оба числа известны и записаны: если однажды появится показ «в режиме», материал готов.",
+      "affects": ["buff"],
+      "quote": "* +2 [[strength]]\n* +4 [[constitution]]",
+      "status": "verified",
+      "source": {
+        "wiki": "fandom",
+        "page": "Defensive stance",
+        "revid": 68221,
+        "fetched": "2026-08-01"
+      }
+    },
+    {
+      "feat": "bulls_strength_feat",
+      "verdict": "not_modelled",
+      "why": "Фит Чёрного стража, который даёт право КАСТОВАТЬ заклинание Bull's strength. Своего числа у фита нет вовсе — оно у заклинания, а заклинания в постоянные статы не идут по общему правилу («в Итого показываются постоянные статы — то же основание, по которому там нет ни зелий, ни баффов»). Записан представителем всего семейства заклинаний, поднимающих характеристики (bull's strength, cat's grace, eagle's splendor, fox's cunning, owl's wisdom, endurance и их greater-версии): ни одно из них не является прибавкой билда, и разведка будет натыкаться на них постоянно.",
+      "affects": ["buff"],
+      "affects_note": "Это ровно то умение, которое CLAUDE.md §9 называет примером буфа поимённо — «Bull's strength Чёрного стража» — рядом с Rage и Shadow Evade (Dan, 10.08.2026): активируемое классовое умение, поднимающее характеристику, того же вида, что и заклинание.",
+      "quote": "Starting at second level, a blackguard may cast ''[[bull's strength]]''.",
+      "status": "verified",
+      "source": {
+        "wiki": "fandom",
+        "page": "Bull's strength (feat)",
+        "revid": 60707,
+        "fetched": "2026-08-01"
+      }
+    },
+    {
+      "feat": "great_smiting",
+      "verdict": "not_an_ability_bonus",
+      "why": "⚠️ Главная ловушка имени, и бэклог назвал её заранее: фит начинается на `great_`, лежит в том же эпическом семействе, берётся так же многократно и с таким же потолком «10» — а даёт УРОН при ударе по злому, а не характеристику. Ровно тот случай, ради которого поиск по префиксу имени запрещён.",
+      "quote": "Whenever the character makes a successful smite attack, it adds two times the character's level to damage. This feat may be taken multiple times, up to a maximum of 10 times &mdash; each time adding additional damage equal to the character's level to the smite attack.",
+      "status": "verified",
+      "source": {
+        "wiki": "fandom",
+        "page": "Great smiting",
+        "revid": 42417,
+        "fetched": "2026-08-01"
+      }
+    },
+    {
+      "feat": "great_fortitude",
+      "verdict": "not_an_ability_bonus",
+      "why": "Вторая половина той же ловушки: `great_` в имени, +2 к спасброскам стойкости в эффекте. Он уже записан отвергнутым в feat_hp_bonuses.json (там его проза начинается дословно как у Toughness), и здесь отвергается по другой причине — по имени. Один и тот же фит ловит на себе две разные разведки, и обе мимо.",
+      "quote": "A [[character]] with this feat is tougher than normal, gaining a +2 bonus to all [[fortitude]] [[saving throw]]s.",
+      "status": "verified",
+      "source": {
+        "wiki": "fandom",
+        "page": "Great fortitude",
+        "revid": 41091,
+        "fetched": "2026-08-01"
+      }
+    },
+    {
+      "feat": "power_attack",
+      "verdict": "not_an_ability_bonus",
+      "why": "Название характеристики стоит в ТРЕБОВАНИИ («strength 13+»), а не в эффекте. Записан представителем самой большой группы ложных срабатываний разведки: требование по характеристике есть у 30 с лишним фитов (cleave, great cleave, devastating critical, expertise, improved expertise, disarm, improved disarm, improved knockdown, improved parry, dodge, mobility, spring attack, whirlwind attack, improved whirlwind attack, epic dodge, self concealment, blinding speed, stunning fist, improved stunning fist, zen archery, circle kick, deflect arrows, rapid shot, ambidexterity, overwhelming critical, great smiting, epic damage reduction, perfect health, thundering rage, dragon shape, construct shape, outsider shape и другие). Требования ядро уже читает — они лежат в prereqs структурно и проверяются Rules.Prereqs; к прибавкам они отношения не имеют ни у одного из них.",
+      "quote": "[[strength]] 13+",
+      "status": "verified",
+      "source": {
+        "wiki": "fandom",
+        "page": "Power attack",
+        "revid": 70426,
+        "fetched": "2026-08-01"
+      }
+    },
+    {
+      "feat": "ambidexterity",
+      "verdict": "not_an_ability_bonus",
+      "why": "Вторая ловушка имени, обратная `great_smiting`: слово «dexterity» стоит ВНУТРИ имени фита, поэтому он попадается в любой выборке по подстроке. Даёт снижение штрафа за бой двумя оружиями, к ловкости отношения не имеет; ловкость у него — требование.",
+      "quote": "When [[dual-wield|fighting with two weapons]], this [[feat]] reduces the penalty of the [[off-hand]] weapon by 4.",
+      "status": "verified",
+      "source": {
+        "wiki": "fandom",
+        "page": "Ambidexterity",
+        "revid": 68733,
+        "fetched": "2026-08-01"
+      }
+    },
+    {
+      "feat": "weapon_finesse",
+      "verdict": "not_an_ability_bonus",
+      "why": "Смена ФОРМУЛЫ, а не прибавка (CLAUDE.md §6, «фиты третьего вида»): атака начинает считаться от ловкости, если она выше силы. Ни ловкость, ни сила при этом не меняются ни на единицу — меняется то, какая из них попадает в бонус атаки. Ядро это уже умеет (Rules.Attack.ability/5 и поле attack_ability), и путать одно с другим нельзя: прибавка сдвинула бы ВСЕ производные от характеристики, а смена формулы — ровно одну.",
+      "quote": "A character with this feat is adept at using light weapons subtly and effectively, allowing him to make melee attack rolls with his [[dexterity]] [[modifier]] instead of [[strength]] (if his dexterity is higher than his strength).",
+      "status": "verified",
+      "source": {
+        "wiki": "fandom",
+        "page": "Weapon finesse",
+        "revid": 67266,
+        "fetched": "2026-08-01"
+      }
+    },
+    {
+      "feat": "zen_archery",
+      "verdict": "not_an_ability_bonus",
+      "why": "То же самое для стрельбы: мудрость вместо ловкости в дальнобойной атаке. Пара к Weapon Finesse, записана отдельно, потому что ядро её как раз НЕ применяет и говорит об этом ({:not_modelled, :zen_archery}) — то есть по ней легко решить, что «прибавка от мудрости потерялась». Не потерялась: прибавки и нет.",
+      "quote": "Wisdom guides the character's ranged attacks, letting them use their wisdom [[ability modifier|modifier]], if it is higher, instead of their [[dexterity]] when firing [[ranged weapon]]s.",
+      "status": "verified",
+      "source": {
+        "wiki": "fandom",
+        "page": "Zen archery",
+        "revid": 66323,
+        "fetched": "2026-08-01"
+      }
+    },
+    {
+      "feat": "dark_blessing",
+      "verdict": "not_an_ability_bonus",
+      "why": "Модификатор характеристики, применённый к ЧЕМУ-ТО ДРУГОМУ: харизма прибавляется к спасброскам, а сама харизма не растёт. Записан представителем всего семейства (divine_grace — то же у паладина, divine_might — харизма к урону, divine_shield — харизма к AC, divine_wrath, smite_evil и smite_good — харизма к атаке, monk_ac_bonus — мудрость к AC, lay_on_hands — харизма в формулу лечения). ⚠️ Направление здесь противоположно тому, что считает этот файл, и именно поэтому семейство опасно: если такую запись применить, вырастет не то число, и вырастет дважды — характеристика уже входит в спасбросок своим модификатором.",
+      "quote": "Blackguards add their [[charisma]] [[ability modifier|bonus]] to all [[saving throw]]s.",
+      "status": "verified",
+      "source": {
+        "wiki": "fandom",
+        "page": "Dark blessing",
+        "revid": 40991,
+        "fetched": "2026-08-01"
+      }
+    },
+    {
+      "feat": "monk_ac_bonus",
+      "verdict": "not_an_ability_bonus",
+      "why": "Тот же тип, что Dark Blessing, но записан отдельно, потому что он единственный из семейства УЖЕ считается ядром — задачей 3.11, в ac_bonuses.json, с формой ability_modifier. Пара записей про один фит в двух файлах с разными вердиктами выглядит противоречием и им не является: к AC мудрость прибавляется (там applied), к самой мудрости не прибавляется ничего (здесь not_an_ability_bonus).",
+      "quote": "Monks add their [[wisdom]] [[modifier]] to their [[armor class]].",
+      "status": "verified",
+      "source": {
+        "wiki": "fandom",
+        "page": "Monk AC bonus",
+        "revid": 60287,
+        "fetched": "2026-08-01"
+      }
+    },
+    {
+      "feat": "crippling_strike",
+      "verdict": "not_an_ability_bonus",
+      "why": "Урон характеристике ПРОТИВНИКА при скрытой атаке, а не прибавка себе. ⚠️ Шард это число менял (2 → 3 очка силы), то есть запись свежая и заметная, и разведка на неё сядет; получатель от правки не поменялся. Записан представителем пары с Called shot (−3 к ловкости противника при удачной атаке по ногам).",
+      "quote": "The rogue deals an additional 2 points of ability score [[strength]] damage when he makes a successful sneak attack.",
+      "quote_siala": "В случае успешно проведенной Плутом скрытой атаки противник теряет 3 очка Силы.",
+      "status": "verified",
+      "source": {
+        "wiki": "fandom",
+        "page": "Crippling strike",
+        "revid": 71320,
+        "fetched": "2026-08-01"
+      },
+      "source_2": {
+        "wiki": "siala",
+        "kind": "wiki",
+        "page": "Crippling strike",
+        "revid": 17309,
+        "fetched": "2026-08-01"
+      }
+    },
+    {
+      "feat": "epic_prowess",
+      "verdict": "not_an_ability_bonus",
+      "why": "+1 к броску атаки, характеристики не трогает. Попал в широкий контрольный проход по слову «prowess» — то есть по слову, которое звучит как характеристика и ею не является. Ровно та проверка, ради которой второй проход и делается.",
+      "quote": "The character's skill at combat grows and he gains a +1 bonus to all [[attack roll|attacks]].",
+      "status": "verified",
+      "source": {
+        "wiki": "fandom",
+        "page": "Epic prowess",
+        "revid": 68036,
+        "fetched": "2026-08-01"
+      }
+    },
+    {
+      "feat": "wild_shape",
+      "verdict": "not_an_ability_bonus",
+      "why": "Полиморф ЗАМЕНЯЕТ характеристики персонажа характеристиками формы, а не прибавляет к ним, и потому лежит вне вопроса «из чего собрана характеристика билда» целиком — как и AC, атака и урон в форме. Записан представителем всего семейства (greater wildshape I–IV, elemental shape, dragon shape, undead shape, construct shape, outsider shape, humanoid shape). ⚠️ Сознательно НЕ выдаём здесь гэп: страниц форм у нас нет вовсе, но и недосчёта нет — панель итогов описывает персонажа вне формы, а не «максимум по всем состояниям». Гэп «прибавку не считаем» утверждал бы, что она есть и потеряна.",
+      "quote": "The character with this ability can [[polymorph|take the shape of]] an animal at will.",
+      "status": "verified",
+      "source": {
+        "wiki": "fandom",
+        "page": "Wild shape",
+        "revid": 69979,
+        "fetched": "2026-08-01"
+      }
+    },
+    {
+      "feat": "epic_shadowlord",
+      "verdict": "not_an_ability_bonus",
+      "why": "«Making him stronger each time the shadowdancer gains a class level» — «его» это ПРИЗВАННАЯ тень, а не Теневой танцор. Получатель не персонаж. Записан представителем группы призывов, где сила существа растёт от уровня хозяина (summon shadow, epic fiendish servant, а на Сиале ещё и все девять Summon creature, где сила призванного зависит от навыка Animal empathy).",
+      "quote": "Unlike a non-epic shadowlord, an epic shadowlord is a potent fighter, reinforced by his master's lifeforce, making him stronger each time the shadowdancer gains a [[class level|level]].",
+      "status": "verified",
+      "source": {
+        "wiki": "fandom",
+        "page": "Epic shadowlord",
+        "revid": 65848,
+        "fetched": "2026-08-01"
+      }
+    }
+  ]
+}

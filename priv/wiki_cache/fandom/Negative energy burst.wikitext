@@ -1,0 +1,64 @@
+{{spell
+|icon=is_negburst.gif
+|magelevel=3
+|domain=evil
+|domainlevel=3
+|domain2=magic
+|domain2level=3
+|innatelevel=3
+|school=[[necromancy]]
+|components=VS
+|range=m
+|area=huge
+|save=[[will]] 1/2
+|spellresistance=yes
+|immunity=negative
+|duration=instant
+|line=Negative energy
+|line1=negative energy ray
+|line3=negative energy burst
+|counters=<del>[[negative energy protection]]</del>
+|desc=All [[creature]]s caught in the [[area of effect]] take 1[[d8]] points of [[negative energy damage]], +1 per [[caster level]], to a maximum of +20. All creatures caught in the area also [[ability score loss|lose]] 1 point of [[strength]] per 4 caster levels. Negative energy spells have a reverse effect on [[undead]], healing instead of harming them.}}
+
+{| class="wikitable" style="text-align:center"
+|-
+!caster level!!strength damage
+|-
+|  5-7  || -1
+|-
+|  8-11 || -2
+|-
+| 12-15 || -3
+|-
+| 16-19 || -4
+|-
+| 20-23 || -5
+|-
+| 24-27 || -6
+|-
+| 28-31 || -7
+|-
+| 32-35 || -8
+|-
+| 36-39 || -9
+|-
+| 40    || -10
+|}
+
+== Notes ==
+
+* This spell will raise the strength of undead targets in addition to healing them, but it only affects targets that fit the [[area of effect#Targeting|standard hostile targeting scheme]]. This can be useful to buff [[summon]]s or [[shifter]] allies, if the [[PvP setting]] permits targeting them with hostile spells.
+* Passing the saving throw only cuts the damage in half; it does not negate the strength damage.
+* The ability loss (or gain, for undead) is a permanent [[magical effect]], removable through normal means, such as [[rest]]ing, ''[[lesser restoration]]'', or [[dispel]]ling.
+* The saving throw is rolled before the creature type is determined. Thus, undead creatures roll an unneeded save, and passing the save oddly grants reduced benefits (half healing). ''This is probably an oversight.''
+* Due to a .2da bug, ''negative energy protection'' is not an additional [[counterspell]] of this spell.
+
+=== Previous versions ===
+
+*Prior to 1.69, bonus damage was not capped at 20, even though the description said it was.
+
+== Custom content notes ==
+
+*''script:'' <code>NW_S0_NegBurst</code>
+==External links==
+*{{FRW}}

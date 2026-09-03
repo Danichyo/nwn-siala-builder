@@ -1,0 +1,27 @@
+{{spell
+|icon=is_x1trustr.gif
+|magelevel=1
+|innatelevel=1
+|school=[[divination]]
+|components=V-S-
+|range=p
+|area=caster
+|save=none
+|spellresistance=no
+|duration=9 seconds
+|desc=Through magical intuition the caster gains a +20 bonus to [[attack roll]]s.}}
+
+== Notes ==
+
+*Added in the [[expansion pack]]s.
+*Contrary to the spell's description, this spell does not have a somatic component, so it can be cast while wearing full armor and shield, ignoring arcane [[spell failure]].
+*The +20 attack bonus provided by this spell counts towards the +20 [[attack bonus cap]].
+*''True strike'' cannot be extended, even though its duration is neither instantaneous nor permanent.
+*''True strike'' cannot be used with the [[craft wand]] feat.
+
+== Custom content notes ==
+
+*''script:'' <code>x0_s0_truestrike</code>
+
+==External Links==
+* {{FRW}}

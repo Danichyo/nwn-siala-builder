@@ -1,0 +1,28 @@
+{{spell
+|icon=Is_x1banish.gif
+|clericlevel=6
+|magelevel=7
+|innatelevel=6
+|school=[[abjuration]]
+|components=VS
+|range=s
+|area=colossal
+|save=[[will]] negates
+|spellresistance=yes
+|duration=instant
+|line=Unsummoning
+|line4=dismissal
+|line6=banishment
+|desc=The caster is able to cause all [[summon]]ed creatures, [[familiar]]s, [[animal companion]]s, and [[outsider]]s in the [[area of effect]] to be destroyed. A number of creatures equal to twice the caster's level in [[hit dice|HD]] can be banished.}}
+
+== Notes ==
+*Added in the [[expansion pack]]s.
+*The spell may be targeted within the described range and a visual effect will play at the target point, but the actual area of effect is centered on the caster, so creatures more than 10 meters away will not be affected.
+* Creatures who avoid banishment (through a successful save or spell resistance) do not count towards the hit die limit.
+
+== Custom content notes ==
+
+* ''Script:'' <code>x0_s0_banishment</code>
+
+==External Links==
+* {{FRW}}

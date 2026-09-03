@@ -1,0 +1,37 @@
+{{spell
+|icon=is_x1ether.gif
+|clericlevel=6
+|magelevel=8
+|innatelevel=7
+|school=[[transmutation]]
+|components=VS
+|range=p
+|area=caster
+|save=none
+|spellresistance=no
+|duration=1 [[turn]] / level
+|line=Sanctuaries
+|line1=sanctuary
+|line7=greater sanctuary
+|desc=The caster becomes [[ethereal]]. No other creature can detect the caster. Attacking or performing a hostile action will make the etherealness vanish.}}
+
+== Notes ==
+
+* Added in the [[expansion pack]]s.
+* [[Summon]]ing a creature is not considered a hostile action, but a new hostile [[effect]] from a previously-cast spell is.
+* Combining this spell with [[improved invisibility]] allows creatures to ignore the etherealness of ''greater sanctuary''. (''A bug, since at least version 1.68.'') Relogging into a multiplayer server will sometimes fix this bug (but may have other, possibly detrimental, effects).
+*Those affected by greater sanctuary cannot be directly targeted, but are affected by anything with an [[area of effect]]. Even [[Isaac's greater missile storm]], [[manticore spikes]], and [[hail of arrows]] will apply normally even though these areas of effect individually target creatures with their projectiles.
+* This spell allows the caster to simply bypass many enemies without conflict. (Some may find this unbalancing.)
+* This spell is sometimes called "etherealness", particularly in the documentation for certain versions of the game.
+* Creatures with [[True seeing|true sight]] can see a creature under the effects of this spell, but cannot target it directly. 
+
+=== Previous versions ===
+
+*Prior to version 1.69, this spell did not have a somatic [[component]], so it could be cast while wearing full armor and shield, ignoring arcane [[spell failure]].
+*Prior to version 1.64, ethereal creatures were not visible to those with true sight.
+
+== Custom content notes ==
+* ''script:'' <code>x0_s0_ether</code>
+* The [[NWScript]] constant for this spell reflects its pre-release name: SPELL_ETHEREALNESS.
+==External links==
+* {{FRW}}

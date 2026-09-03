@@ -1,0 +1,22 @@
+{{spell
+|icon=is_x1earth.gif
+|clericlevel=8
+|druidlevel=9
+|innatelevel=8
+|school=[[evocation]]
+|components=VS
+|range=p
+|area=colossal
+|save=[[reflex]] 1/2
+|spellresistance=no
+|duration=instant
+|desc=The caster causes a massive earthquake around himself, causing 1[[d6]] points of [[bludgeoning damage|damage]] per [[caster level]] (to a maximum of 10d6) to all creatures in the [[area of effect]]. The caster is not affected by the earthquake.}}
+
+== Notes ==
+*Added in the [[expansion pack]]s.
+*It is unknown why the damage is capped below the minimum level required to cast this spell, but as a result, this spell always inflicts 10d6 damage (under normal circumstances; [[level drain]] not withstanding).
+
+==Custom content notes==
+*''script:'' <code>X0_S0_Earthquake.nss</code>
+==External links==
+*{{FRW}}

@@ -1,0 +1,56 @@
+[[Image:Is enchant.gif|right|Enchantment]]
+
+Spells from the '''enchantment''' [[spell school]] involve gaining control over another creature, or imbuing them with special properties.
+
+'''Prohibited school:''' [[illusion]]<br />
+'''Prohibited to:''' illusionists
+
+== Spells ==
+
+The enchantment spells are the following, organized by [[innate level]].
+Since [[wizard]]s have a greater interest in spell schools than other classes (because they can specialize in a school), spells that are not wizard spells are ''in italics''.
+
+<u>Level 0</u>
+*[[Daze]]
+
+<u>Level 1</u>
+*''[[Bane]]''
+*''[[Bless]]''
+*[[Charm person]]
+*''[[Doom]]''
+*[[Sleep (spell)|Sleep]]
+
+<u>Level 2</u>
+*''[[Aid]]''
+*[[Balagarn's iron horn]]
+*[[Blindness/deafness]]
+*''[[Charm person or animal]]''
+*''[[Hold animal]]''
+*[[Hold person]]
+*[[Tasha's hideous laughter]]
+
+<u>Level 3</u>
+*[[Charm monster]]
+*[[Confusion]]
+*''[[Dominate animal]]''
+
+<u>Level 4</u>
+*[[Dominate person]]
+*[[Hold monster]]
+*''[[War cry]]''
+
+<u>Level 5</u>
+*[[Mind fog]]
+
+<u>Level 6</u>
+*[[Mass haste]]
+
+<u>Level 7</u>
+*[[Protection from spells]]
+
+<u>Level 8</u>
+*[[Mass charm]]
+
+<u>Level 9</u>
+*[[Dominate monster]]
+[[Category:Spell schools]]

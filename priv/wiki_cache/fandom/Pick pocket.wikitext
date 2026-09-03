@@ -1,0 +1,28 @@
+[[Image:Isk pocket.gif|right|Pick pocket]]
+'''Pick pocket''' allows a character to remove items from another's backpack.
+*'''Ability''': [[dexterity]]
+
+*'''Classes''': [[assassin]], [[bard]], [[rogue]], [[shadowdancer]]
+
+*'''[[Cross-class skill|Cross-class]]''': yes
+
+*'''[[untrained skill check|Requires training]]''': yes
+
+*'''Check''': There are two parts to successfully picking a pocket. First the item must be acquired, and then the targeted creature must not notice the theft. Stealing the item is a simple [[skill check|skill test]] against the target's [[difficulty class]]. The base DC for a neutral or tolerant creature is 20, and 30 for a hostile creature. This roll is modified by [[armor check penalty|armor check penalties]]. The targeted creature then makes an [[opposed check|opposed]] [[spot]] check against the character's pick pocket check. Hostile creatures have a +10 bonus to their spot checks in this test. If the targeted creature succeeds at this opposed check, then the target has detected the theft attempt. An [[non-player character|NPC]] who detects the attempt will turn hostile, and a [[player character|PC]] will be informed that the character has attempted to use pick pocket on him. If the character is successful at both checks, then he steals the item without being detected.
+
+*'''Use''': Select skill, then select valid target.
+
+==Notes==
+
+*[[Detect]] mode does not affect the ability of the target to spot the attempt.
+* Contrary to the skill's description, the spot check is resolved before determining the DC of the pick pocket check. That is, a successful spot check can cause the DC to increase to 30 as the target goes hostile.
+* This skill can be used only every six seconds, even though each attempt takes less time than that.
+* "Backpack" is a colloquial reference to a creature's main [[inventory]] (i.e. excluding equipped items).
+* The item is picked randomly, with a stack of items treated as a single item. [[Container]]s will not be picked unless they are empty. (The contents of a container can be picked.) [[Cursed]] items cannot be picked.
+* In lieu of an item, [[gold piece]]s may be acquired (only if the target has any). The number of gold pieces transferred will be the lesser of the pick pocket check and the amount possessed by the victim.
+* If the target possesses neither pickpocketable items nor gold, the would-be thief receives the message "target has no items or gold" upon a successful pick pocket check.
+* By default, items possessed by NPCs are excluded from being picked, while items possessed by PCs are not, as determined by the [[pickpocketable]] flag. (Some multiplayer games clear this flag for PC possessions to reduce the aggravation caused by relentless pickpockets.) This may result in few opportunities for effective pocket picking, depending on the [[module]] being played.
+* A detected pick pocket attempt (regardless of success) will break the pickpocket's [[stealth]] mode, but will not cancel [[invisibility]].
+* Items obtained with this skill are marked as "stolen", reducing their resale value. Furthermore, (stackable) stolen items do not stack with non-stolen items.
+[[Category:Skills]]
+[[Category:Skills that require training]]

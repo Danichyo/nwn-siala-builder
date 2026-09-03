@@ -1,0 +1,14 @@
+{{feat
+|type=race
+|prereq=[[gnome]], [[halfling]]
+|desc=Gnomes and halflings are small creatures. As such, they gain bonuses to their [[attack roll]]s, [[armor class]], and [[hide]] checks when dealing with larger creatures.<br />
+'''Note:''' Because they are so small, they cannot use the following weapons: [[dire mace]], [[two-bladed sword]], [[double axe]], [[greataxe]], [[greatsword]], [[halberd]], [[heavy flail]], [[quarterstaff]], [[scythe]], and [[spear]].
+|use=automatic
+|icon=ife_racial.gif
+}}
+
+==Notes==
+* The list of weapons is not exhaustive. Gnomes and halflings cannot use any large-sized weapon (e.g. [[longbow]]s).
+* Gnomes and halflings are also prohibited from using [[tower shield]]s.
+* All medium-sized weapons are wielded [[Two-handed weapon|two-handed]] by small races.
+* This feat is informative only. The bonuses are due, not to this feat, but to the races' appearances being flagged as small (in [[appearance.2da]]), resulting in the standard [[size modifier]]s being applied.

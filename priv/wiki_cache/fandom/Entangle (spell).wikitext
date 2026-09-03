@@ -1,0 +1,29 @@
+{{spell
+|icon=is_entangle.gif
+|domain=travel
+|domainlevel=1
+|druidlevel=1
+|rangerlevel=1
+|innatelevel=1
+|school=[[transmutation]]
+|components=VS
+|range=l
+|area=large
+|save=[[reflex]], special
+|spellresistance=yes
+|duration=3 + 1 [[round]] / 2 levels
+|desc=Ingame description: A mass of clinging vegetation wraps around all creatures in the [[area of effect]]. Those affected are [[entangle|immobilized]], though still able to fight and cast spells. Victims who make a reflex save still have their movement reduced by half.}}<br>
+'''Full description:'''
+[[Entangle]]d creatures are unable to move and are considered [[flatfooted]]. Entangled creatures receive a -2 penalty on all attack rolls and sets their dexterity to 3. An entangled character who attempts to cast a spell or make use of a spell-like ability must make a concentration check (DC 15) or the attempt will fail. They also suffer a 50% penalty to movement speed. Multiple castings of entangle will stack.
+== Notes ==
+* Creatures with [[woodland stride]] are immune to this spell, 
+* Due to a bug, [[incorporeal]] creatures are not. This is fixed in 1.69 and later versions.
+* Prior to version 1.88.8193.36, the [[dexterity]] of victims is sometimes permanently changed to 3. A fix for earlier game versions is available at the [https://neverwintervault.org/project/nwn1/script/script-spell-fix-compilation vault]
+
+== Custom content notes ==
+* ''script:'' <code>NW_S0_Entangle</code>
+* ''OnExit script:'' <code>NW_S0_EntangleB</code>
+* ''OnHearbeat script:'' <code>NW_S0_EntangleC</code>
+==External links==
+* {{FRW|Entangle}}
+* {{NWN2W|Entangle}}

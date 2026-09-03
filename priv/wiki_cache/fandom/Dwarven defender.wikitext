@@ -1,0 +1,164 @@
+[[Image:Ir dwdef.gif|right|Dwarven defender]]
+'''Description''': ([[prestige class|PRESTIGE CLASS]])
+The defender is a sponsored champion of dwarven cause, a dwarven aristocrat, a dwarven deity or the dwarven way of life. As the name might imply, this character is a skilled combatant trained in the arts of defense. A line of dwarven defenders is a far better defense than a 10-foot-thick wall of stones, and much more dangerous.
+
+'''[[Hit die]]''': d12
+
+'''Proficiencies''': [[weapon proficiency (simple)|simple]] and [[weapon proficiency (martial)|martial]] weapons, all [[armor]], [[shield proficiency|shields]] 
+
+'''[[Skill point]]s''': 2 + [[int]] modifier
+
+'''Skills''': [[concentration]], [[craft armor]], [[craft trap]], [[craft weapon]], [[discipline]], [[heal (skill)|heal]], [[listen]], [[lore]], [[parry]], [[spot]]
+
+'''Unavailable feats:'''
+[[brew potion]], [[craft wand]], [[curse song]], [[divine might]], [[divine shield]], [[extra music]], [[extra turning]], [[lingering song]], [[quicken spell]], [[scribe scroll]], [[spell focus]], [[weapon specialization]]
+<br />These [[general feat]]s cannot be selected when taking a level of dwarven defender.
+
+'''[[Saving throw|Primary saving throw(s)]]''': [[fortitude]], [[will]]
+
+'''[[Base attack bonus]]: +1/level
+
+[[Image:Dwarven Defender.jpg|Dwarven defender]]
+
+==Requirements==
+To qualify as a dwarven defender, a character must fulfill all of the following criteria:
+
+'''Alignment''': any lawful
+
+'''[[Base attack bonus]]''': +7
+
+'''Feats''': [[dodge]], [[toughness]]
+
+'''[[Race]]''': [[dwarf]]
+
+==Level Progression==
+
+{| border=2 style="background:#efefef; color:#000000; border-collapse:collapse" 
+|- style="background:#c0c0c0"
+
+!rowspan=2|Lvl 
+!rowspan=2|BAB 
+!colspan=3|Saves 
+!rowspan=2|Feats 
+!rowspan=2|HP range 
+!rowspan=2|Damage <br> reduction 
+!rowspan=2|Def. stance <br> uses per day 
+
+|- style="background:#c0c0c0"
+
+!Fort 
+!Ref 
+!Will 
+
+|- align=center
+||1st ||+1 ||+2 ||+0 ||+2 ||align=left|[[defensive stance]] ||6-12 ||- ||1 
+|- align=center
+||2nd ||+2 ||+3 ||+0 ||+3 ||align=left|[[defensive awareness]] I ||12-24 ||- ||1 
+|- align=center
+||3rd ||+3 ||+3 ||+1 ||+3 ||align=left| ||18-36 ||- ||2 
+|- align=center
+||4th ||+4 ||+4 ||+1 ||+4 ||align=left| ||24-48 ||- ||2 
+|- align=center
+||5th ||+5 ||+4 ||+1 ||+4 ||align=left|[[defensive awareness]] II ||30-60 ||- ||3 
+|- align=center
+||6th ||+6 ||+5 ||+2 ||+5 ||align=left|[[dwarven defender damage reduction]] ||36-72 ||3/- ||3 
+|- align=center
+||7th ||+7 ||+5 ||+2 ||+5 ||align=left| ||42-84 ||3/- ||4 
+|- align=center
+||8th ||+8 ||+6 ||+2 ||+6 ||align=left| ||48-96 ||3/- ||4 
+|- align=center
+||9th ||+9 ||+6 ||+3 ||+6 ||align=left| ||54-108 ||3/- ||5 
+|- align=center 
+||10th ||+10 ||+7 ||+3 ||+7 ||align=left|[[defensive awareness]] III ||60-120 ||6/- ||5 
+|}
+
+==Tip: Becoming a dwarven defender==
+*A dwarven [[fighter]] can become a very powerful dwarven defender.
+*To gain the dodge prerequisite that the dwarven defender requires, a character will need a [[dexterity]] of 13 or higher.
+
+[[Image:ife x2epdwdef.gif|right|Epic dwarven defender]]
+==Epic dwarven defender==
+The epic dwarven defender has become the very definition of immovable object. He is a stalwart warrior that can stand against virtually any foe imaginable.
+
+'''Hit die:''' d12
+
+'''Skill points:''' 2 + int modifier
+
+'''Bonus feats:''' The epic dwarven defender gains a bonus feat every four levels. In other words, at levels 14, 18, 22, 26, and 30.
+
+'''Epic bonus feats:''' [[armor skin]], [[devastating critical]], [[epic damage reduction]], [[epic energy resistance]], [[epic prowess]], [[epic toughness]], [[epic weapon focus]], [[overwhelming critical]], [[perfect health]], [[two-weapon fighting]]
+
+'''Unavailable epic feats:'''
+[[automatic quicken spell]], [[automatic silent spell]], [[automatic still spell]], [[bane of enemies]],
+[[construct shape]], [[dragon shape]], [[epic spell penetration]],
+[[epic spell: dragon knight]], [[epic spell: epic mage armor]], [[epic spell: epic warding]], [[epic spell: greater ruin]], [[epic spell: hellball]], [[epic spell: mummy dust]],
+[[epic weapon specialization]], [[great smiting]],
+[[improved ki strike 4]], [[improved ki strike 5]], [[improved sneak attack]],
+[[improved spell resistance]], [[improved stunning fist]],
+[[lasting inspiration]], [[mighty rage]], [[outsider shape]],
+[[planar turning]], [[terrifying rage]], [[thundering rage]], [[undead shape]]
+<br />These general [[epic feat]]s cannot be selected when taking a level of dwarven defender.
+
+===Epic dwarven defender level progression===
+
+{| border=2 style="background:#efefef; color:#000000; border-collapse:collapse" 
+|- style="background:#c0c0c0"
+
+!&nbsp; Lvl &nbsp; 
+!Feats 
+!HP range 
+!Damage <br> reduction 
+!Def. stance <br> uses per day 
+
+|- align=center
+||11th ||align=left| ||66-132 ||6/- ||6 
+|- align=center
+||12th ||align=left| ||72-144 ||6/- ||6 
+|- align=center
+||13th ||align=left| ||78-156 ||6/- ||7 
+|- align=center
+||14th ||align=left|bonus feat ||84-168 ||9/- ||7 
+|- align=center
+||15th ||align=left| ||90-180 ||9/- ||8 
+|- align=center
+||16th ||align=left| ||96-192 ||9/- ||8 
+|- align=center
+||17th ||align=left| ||102-204 ||9/- ||9 
+|- align=center
+||18th ||align=left|bonus feat ||108-216 ||12/- ||9 
+|- align=center
+||19th ||align=left| ||114-228 ||12/- ||10 
+|- align=center
+||20th ||align=left| ||120-240 ||12/- ||10 
+|- align=center
+||21st ||align=left| ||126-252 ||12/- ||11 
+|- align=center
+||22nd ||align=left|bonus feat ||132-264 ||15/- ||11 
+|- align=center
+||23rd ||align=left| ||138-276 ||15/- ||12 
+|- align=center
+||24th ||align=left| ||144-288 ||15/- ||12 
+|- align=center
+||25th ||align=left| ||150-300 ||15/- ||13 
+|- align=center
+||26th ||align=left|bonus feat ||156-312 ||18/- ||13 
+|- align=center
+||27th ||align=left| ||162-324 ||18/- ||14 
+|- align=center
+||28th ||align=left| ||168-336 ||18/- ||14 
+|- align=center
+||29th ||align=left| ||174-348 ||18/- ||15 
+|- align=center
+||30th ||align=left|bonus feat &nbsp; ||180-360 ||21/- ||15 
+|}
+
+==Special==
+'''Defensive stance''': An additional use per day is gained for every two levels past 9th.
+
+'''Damage reduction''': The damage reduction increases by 3 points for every four levels above 10th.
+
+==Notes==
+*Requires [[Hordes of the Underdark]].
+*Patch 1.67 altered the way personal space works for player characters. This has the effect of allowing other players or NPCs to move past a player character in doorways and other tight locations so long as there is a minimum of walkable space available. A Dwarven Defender in Defensive Stance could previously "plug" a door or other choke point significantly wider than himself. As of this patch, this is no longer possible.
+[[Category:Prestige classes]]
+[[Category:Classes]]

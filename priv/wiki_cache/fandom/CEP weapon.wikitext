@@ -1,0 +1,97 @@
+The [[weapon]]s included in the [[Community Expansion Pack]] (CEP) offer variety to players, but suffer from the same limitations as other non-[[BioWare]] weapons. These weapons cannot be chosen when selecting a weapon-specific [[feat]] (e.g. [[weapon focus]]), and the [[spell]]s that target weapons (e.g. [[magic weapon]]) need to be modified in order to recognize these new items as weapons (i.e. valid targets). Those latter spell modifications are available on the [http://nwvault.ign.com/View.php?view=Scripts.Detail&id=3503 NWN Vault].
+
+{| class="centertable"
+|+CEP simple weapons
+! Size
+! Name !! Damage type !! Damage !! Criticals !! Other proficiencies
+|-
+|rowspan="2"|tiny
+| assassin dagger || [[piercing damage|piercing]] || 1d4 || 19-20 x2
+| druid, monk, rogue, wizard
+|-
+| katar           || piercing                     || 1d4 ||    20 x3
+| druid, monk, rogue, wizard
+|-
+|small
+| mace 2 || [[bludgeoning damage|bludgeoning]] || 1d6 || 20 x2 || rogue
+|-
+|rowspan="2"|medium
+| heavy mace  || bludgeoning || 1d8 || 20 x2 || rogue
+|-
+| short spear || piercing    || 1d6 || 20 x3 || druid
+|}
+
+
+{| class="centertable"
+|+CEP martial weapons
+! Size
+! Name !! Damage type !! Damage !! Criticals !! Other proficiencies
+|-
+|rowspan="3"|small
+| goad       || piercing    || 1d6 || 20 x2 ||&nbsp;
+|-
+| light pick || piercing    || 1d4 || 20 x4 ||&nbsp;
+|-
+| sap        || bludgeoning || 1d6 || 20 x2 || rogue
+|-
+|rowspan="4"|medium
+| heavy pick  || piercing                     || 1d6 ||    20 x4 ||&nbsp;
+|-
+| longsword 2 || [[slashing damage|slashing]] || 1d8 || 19-20 x2 || elf
+|-
+| maug doublesword    || [[piercing-slashing damage|piercing-slashing]] || 1d8 || 19-20 x2 ||&nbsp;
+|-
+| trident, one-handed || piercing             || 1d8 || 20 x2    ||&nbsp;
+|-
+|rowspan="3"|large
+| falchion   || piercing-slashing || 2d4 || 18-20 x2 ||&nbsp;
+|-
+| falchion 2 || slashing          || 2d4 || 18-20 x2 ||&nbsp;
+|-
+| maul       || bludgeoning       || 1d10||    20 x3 ||&nbsp;
+|}
+
+
+{| class="centertable"
+|+CEP exotic weapons
+! Size
+! Name !! Damage type !! Damage !! Criticals !! Other proficiencies
+|-
+|rowspan="2"|tiny
+| kukri 2 || slashing    || 1d4 || 18-20 x2 ||&nbsp;
+|-
+| sai     || bludgeoning || 1d4 || 19-20 x2 || monk
+|-
+|rowspan="2"|small
+| nunchaku        || bludgeoning || 1d6 ||    20 x2 || monk
+|-
+| wind fire wheel || slashing    || 1d4 || 19-20 x2 || monk
+|-
+|medium
+| mercurial longsword || piercing-slashing || 1d8 || 20 x4 ||&nbsp;
+|-
+|rowspan="2"|large
+| double scimitar      || slashing          || 1d6/1d6 || 18-20 x2 ||&nbsp;
+|-
+| mercurial greatsword || piercing-slashing || 2d6     ||    20 x4 ||&nbsp;
+|}
+
+CEP also provides some items that can be used as weapons, even though they are not normally considered weapons. These items can be equipped by any character, regardless of proficiencies.
+
+{| class="centertable"
+|+CEP improvised weapons
+! Size
+! Name !! Damage type !! Damage !! Criticals
+|-
+|rowspan="2"|tiny
+| beer mug          || piercing    || 1d4 || 20 x2
+|-
+| fashion accessory || bludgeoning || 1d2 || 20 x1
+|-
+|rowspan="2"|medium
+| flowers           || bludgeoning || 1d6 || 20 x2
+|-
+| flowers - crystal || bludgeoning || 1d6 || 20 x2
+|}
+[[category:CEP|Weapon]]
+[[category:weapons| CEP weapon]]

@@ -1,0 +1,14 @@
+'''Type of Feat''': [[General]]
+
+'''Prerequisite''': [[Iaijutsu focus]] 27 ranks
+
+'''Specifics''': The extra damage you inflict when you make an [[Iaijutsu focus]] check no longer has a maximum die cap. The progression of extra damage continues indefinitely, increasing by +1d6 for every 5 points over a result of 10 you receive on the check. For example, an Iaijutsu Focus check of 76 would inflict +14d6 points of damage. 
+
+'''Use''': Automatic.
+
+
+==Notes==
+*Added in the [[PRC Expansion Pack]].
+*An [[Iaijutsu focus]] check is only made in an [[Iaijutsu attack]]
+
+[[Category:PRC feats]]

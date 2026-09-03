@@ -1,0 +1,29 @@
+{{feat
+|type=general
+|prereq=[[dexterity]] 15+
+|reqfor=[[improved two-weapon fighting]]
+|desc=When [[dual-wield|fighting with two weapons]], this [[feat]] reduces the penalty of the [[off-hand]] weapon by 4.
+|use=automatic
+|icon=Ife_ambidex.gif
+|bonus1=champion of Torm
+|bonus2=fighter
+}}
+
+==Notes==
+*[[Ranger]]s are prohibited from selecting this feat (on a ranger level), presumably because they receive the [[dual-wield (feat)|dual-wield]] feat at first level. (The ''dual-wield'' feat combines the effects of ''ambidexterity'' and [[two-weapon fighting]], as long as the ranger is not wearing [[medium armor|medium]] or [[heavy armor]], but does not qualify as a prerequisite for ''improved two-weapon fighting''.)
+
+==Builder notes==
+'''Item feat:''' yes
+
+No special treatment is required by this feat.
+
+==Custom content notes==
+'''Removable:''' yes
+
+'''Reusable:''' yes
+
+'''Script:''' hardcoded
+
+*A custom class must have this feat in their feat list, or that class will not be able to select it as a general feat.
+
+[[category:feats restricted by class]]

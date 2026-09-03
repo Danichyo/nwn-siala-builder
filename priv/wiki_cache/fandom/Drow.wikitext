@@ -1,0 +1,30 @@
+[[Image:Nathyrra.jpg|A drow|right]]
+'''Drow''' is a [[subrace]] of [[elf]] provided by the [[Player Resource Consortium]]. It is implemented as playable [[race]]s rather than using the subrace button.
+
+'''Favored class (Males: [[wizard]], Females: [[cleric]])''': A multiclass drow's classes do not count when determining whether he or she suffers an XP [[multiclass penalty]].
+
+==Special abilities & feats==
+* Ability adjustments: +2 [[Dex]], +2 [[Int]], +2 [[Cha]], -2 [[Con]]
+* [[Darkvision]]: Drow can see in the dark. 
+* [[Immunity to Sleep|Sleeplessness]]: Immune to spells and effects of the [[sleep]] subtype. 
+* [[Hardiness vs. enchantments]]: +2 racial bonus on saving throws against mind-affecting spells. 
+* [[Iron will]]: +2 racial bonus on [[will]] [[saving throw]]s. 
+* [[Skill affinity (listen)]]: +2 racial bonus to [[listen]] checks. 
+* [[Skill affinity (search)]]: +2 racial bonus to [[search]] checks. 
+* [[Skill affinity (spot)]]: +2 racial bonus to [[spot]] checks. 
+* [[Keen sense]]s: Drow make active search checks automatically and with no movement penalties. 
+* [[Spell resistance]]: Innate spell resistance of 11 plus 1 per level. 
+* Light blindness: Abrupt exposure to light blinds a drow for 1 round. In addition, drow suffer a -1 circumstance penalty to [[attack roll]]s, saves and checks while operating in bright light. 
+* Spell ability - [[darkness (spell)|darkness]]: Can cast darkness once per day at third level. 
+* Spell ability - faerie fire: Can cast faerie fire once per day at third level. 
+* Elven: Drow are considered elven for the purpose of spells.
+* Level adjustment: +2 
+
+==Notes==
+*Descended from the original dark-skinned subrace called the Illythiiri, the drow, also known as dark elves, were cursed into their present appearance by the good elven deities for following the goddess Araushnee (now Lolth) down the path to evil and corruption. Descending into the Underdark, they built a matriarchal society based on power and deceit. The drow have black skin that resembles polished obsidian and stark white or pale yellow hair. They commonly have red eyes. Drow are the same size as elves but a bit thinner.
+
+*A traditional Lolth-based drow society is theocratic and matriarchal with females holding all positions of power and responsibility in the government, the military, and the home. In such a society males are often trained as warriors to become soldiers, guards, and servants of females. Those males showing aptitude with magic are trained as Wizards instead.
+
+*Heavily stereotyped: The initial concept of "evil" elves predominates, resulting in drow NPCs with cruel, sadistic personalities. However, a large percentage of drow players create "good" drow (effectively good-evil-elves). This is due to a popular character in associated fiction called "Drizzt Do'urden" who is a "good-aligned, dual-scimitar wielding, rebel drow ranger".
+*Playing a drow with the statistics above is not an option in original NWN. Drow can be added as a player character race through [[custom content]]. The exact implementation of drow varies on different servers.
+[[category:custom content races]]

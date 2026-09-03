@@ -1,0 +1,65 @@
+{{feat
+|type=class
+|prereq=[[shifter]]
+|desc=The character with this ability can [[polymorph|take the shape of]] a [[wyrmling red dragon form|red]], [[wyrmling green dragon form|green]], [[wyrmling black dragon form|black]], [[wyrmling white dragon form|white]], or [[wyrmling blue dragon form|blue]] wyrmling <del>three</del> ''six'' times per [[day]]. He gains the wyrmling's signature ability, its breath weapon. As the shifter rises in [[class level|level]]s, the damage potential of the breath weapon increases.
+|use=selected. After choosing the ability, the character must select which kind of wyrmling he wants to transform into.
+|icon=ife_x2gwshp1.gif
+|class1=shifter
+}}
+
+== Wyrmling forms ==
+
+Wyrmling shapes are [[size modifier|small]] [[polymorph]]s that merge [[item property|properties]] from any [[shield]] in the [[off-hand slot]] and the [[item]]s in the
+[[amulet slot|amulet]],
+[[belt slot|belt]],
+[[boots slot|boots]],
+[[cloak slot|cloak]],
+[[first ring slot|ri]][[second ring slot|ng]],
+[[armor slot|armor]], and
+[[helmet slot]]s.
+Whether or not the merged properties [[stack]] depends on whether or not those properties would stack when placed on the same item. Typically, this means that only [[regeneration]] will stack.
+
+As with many polymorphs, wyrmling shapes can override the character's [[strength]], [[dexterity]], and [[constitution]], as well as provide [[temporary hit point]]s, a new [[armor class]], and [[natural weapon]]s. There are five wyrmling types available through this feat, each associated with an element. This element is reflected in their breath weapon (with unlimited uses) and their damage [[immunity]] and [[vulnerability]].
+{| class="compacttable"
+|-
+ ! Color
+ ! Str !! Dex !! Con !! THP !! AC !! Attack<br />modifier
+ ! Damage !! Breath !! Immunity !! Vulnerability
+|- class="BlackDragon"
+ | Black
+ | 15 || 17 || &nbsp;- || 15 || 19 ||style="text-align:center;"| +3
+ | claw: 1d3+2<br />bite: 1d4+2|| [[acid wyrmling breath|acid]] || [[acid damage|acid]] 100% ||&nbsp;
+|- class="BlueDragon"
+ | Blue
+ | 15 || &nbsp;- || 15 || 15 || 16 + dex ||style="text-align:center;"| +3
+ | claw: 1d4+2<br />bite: 1d6+2 || [[lightning wyrmling breath|lightning]] || [[electrical damage|electrical]] 100% ||&nbsp;
+|- class="GreenDragon"
+ | Green
+ | 15 || &nbsp;- || 16 || 15 || 16 + dex ||style="text-align:center;"| +3
+ | claw: 1d4+2<br />bite: 1d6+2 || [[gas wyrmling breath|acidic gas]] || acid 100% ||&nbsp;
+|- class="RedDragon"
+ | Red
+ | 16 || &nbsp;- || 15 || 15 || 16 + dex ||style="text-align:center;"| +4
+ | claw: 1d6+3<br />bite: 1d8+3 || [[fire wyrmling breath|fire]] || [[fire damage|fire]] 100% || [[cold damage|cold]] 50%
+|- class="WhiteDragon"
+ | White
+ | 15 || 17 || &nbsp;- || 15 || 19 ||style="text-align:center;"| +3
+ | claw: 1d3+2<br />bite: 1d4+2 || [[cold wyrmling breath|cold]] || cold 100% || fire 50%
+|}
+In addition, dragon shapes have [[true seeing]] and immunity to [[paralysis]].
+
+The armor class comes from the standard base (10), plus the [[ability modifier|dexterity modifier]] (when known), a [[dodge bonus]] included in the polymorph (5), and the [[size modifier]] (+1). This will be further modified by the highest bonus from the merged items. The type of the bonus does not matter, as all item bonuses are converted to [[deflection bonus|deflection]] as part of the polymorph. In addition, other modifiers from non-item sources still apply (these are not converted to deflection by the polymorph).
+
+The natural weapons consist of two [[claw item|claws]] and one [[bite item|bite]]; the game randomly chooses one of these weapons for each attack. The listed attack modifier includes the strength modifier (+2 or +3) and the size modifier (+1). This modifier is added to [[attack bonus|the other normal modifiers to attack rolls]]; in the simplest case, these other modifiers consist of just the character's [[base attack bonus]]. A character with [[weapon finesse]] may replace the strength modifier with the dexterity modifier. For the black and white wyrmlings, this would increase the attack bonus by +1; whether or not the other forms would benefit depends on the character's dexterity.
+
+Natural weapons interact inconsistently with weapon-specific feats. Notably, [[improved critical]] (unarmed strike) and [[overwhelming critical]] (unarmed strike) work while using natural weapons. However, [[weapon focus]] (unarmed strike), [[epic weapon focus]] (unarmed strike) and [[devastating critical]] (unarmed strike) do not work.
+
+== Notes ==
+
+*Requires [[Hordes of the Underdark]].
+*This form of shapeshifting cannot be [[dispel]]led.
+* While the description says that shifting is possible three times per day, one can shift six times per day.
+*At shifter level 4, unlimited uses of this ability are gained via [[infinite greater wildshape]] I.
+
+== Custom content notes ==
+* ''script:'' <code>X2_S2_GWildShp</code>

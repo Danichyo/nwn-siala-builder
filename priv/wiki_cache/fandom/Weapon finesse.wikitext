@@ -1,0 +1,83 @@
+{{feat
+|type=general
+|prereq=[[base attack bonus]] +1
+|desc=A character with this feat is adept at using light weapons subtly and effectively, allowing him to make melee attack rolls with his [[dexterity]] [[modifier]] instead of [[strength]] (if his dexterity is higher than his strength).
+|use=Automatic when using any of the following weapons: [[dagger]], [[handaxe]], [[kama]], [[kukri]], [[light hammer]], [[mace]], [[rapier]], [[shortsword]], [[sickle]], [[whip]], and [[unarmed strike]].
+|icon=ife_finesse.gif
+|bonus1=champion of Torm
+|bonus2=fighter
+}}__NOTOC__
+
+{| class="centertable"
+ |+Finessable Weapons Summary
+ ! colspan="3" |&nbsp;
+ ! colspan="2" |Damage
+ ! colspan="2" |&nbsp;
+ |-
+ !Weapon
+ ![[weapon size|Size]]
+ !Type
+ !HP
+ !Type
+ ![[threat range|Threat]]
+ ![[critical multiplier|Multiplier]]
+ |-
+ |[[Dagger]]||tiny||(All)||1d4||[[piercing damage|piercing]]
+ | style="text-align:right;" |19-20||x2
+ |-
+ |[[Handaxe]]||small||[[weapon proficiency (martial)|martial]],<br />[[weapon proficiency (monk)|monk]],<br />[[weapon proficiency (rogue)|rogue]]||1d6||[[slashing damage|slashing]]
+ | style="text-align:right;" |20||x3
+ |-
+ |[[Kama]]||small||[[weapon proficiency (exotic)|exotic]],<br />monk||1d6||slashing
+ | style="text-align:right;" |20||x2
+ |-
+ |[[Kukri]]||tiny||exotic||1d4||slashing
+ | style="text-align:right;" |18-20||x2
+ |-
+ |[[Light hammer]]||small||martial||1d4||[[bludgeoning damage|bludgeoning]]
+ | style="text-align:right;" |20||x2
+ |-
+ |[[Mace]]||small||rogue,<br />[[weapon proficiency (simple)|simple]]||1d6||bludgeoning
+ | style="text-align:right;" |20||x2
+ |-
+ |[[Rapier]]||medium||[[weapon proficiency (elf)|elf]],<br />martial,<br />rogue||1d6||piercing
+ | style="text-align:right;" |18-20||x2
+ |-
+ |[[Shortsword]]||small||martial,<br />rogue||1d6||piercing
+ | style="text-align:right;" |19-20||x2
+ |-
+ |[[Sickle]]||small||simple,
+[[weapon proficiency (druid)|druid]]
+||1d6||slashing
+ | style="text-align:right;" |20||x2
+ |-  
+ |[[Unarmed strike]]||n/a||n/a||1d2<br>1d3||bludgeoning
+ | style="text-align:right;" |20||x2
+ |-
+ |[[Whip]]||small||exotic||1d2||slashing
+ | style="text-align:right;" |20||x2
+|}
+
+== Notes ==
+
+*The finessable weapon list includes all standard small and tiny melee weapons, plus the rapier (which is medium).
+* [[Two-handed weapon]]s cannot be finessed. Thus, small races (e.g. [[gnome]]s and [[halfling]]s) cannot finesse rapiers.
+* [[Creature weapon]]s can be finessed. (They are not listed in the feat's description possibly because [[player character]]s do not normally have access to creature weapons.)
+*Even though the feat description says "light weapons", this should not be confused with [[light weapon]]s in the context of [[dual-wield]]ing. The finessable weapons are exactly the ones listed above, regardless of the size of the weapon and the size of the wielder (with the noted exception that two-handed weapons cannot be finessed).
+*The [[maximum dexterity bonus]] does '''not''' apply in the context of this feat; wearing [[armor]] does not affect attacks made using ''weapon finesse''.
+* Weapon finesse affects only attack rolls. Damage rolls always use the strength modifier (unless no ability modifier is used at all, as in the case of some ranged weapons).
+
+=== Previous versions ===
+
+*Prior to version 1.69, only small and medium creatures could benefit from this feat while using creature weapons.
+*Prior to version 1.67, creature weapons did not benefit from this feat.
+
+== Builder notes ==
+'''Item feat:''' yes
+
+== Custom content notes ==
+'''Removable:''' yes
+
+'''Reusable:''' yes
+
+'''Script:''' hardcoded

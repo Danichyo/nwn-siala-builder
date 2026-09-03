@@ -1,0 +1,44 @@
+{{feat
+|type=class
+|prereq=[[druid]] 16
+|desc=The character with this ability can [[polymorph|take the shape of]] an elemental (a huge elemental at 16th [[class level|level]], and an elder elemental at 20th level). The ability may be used once per day at level 16, twice per day at level 17, and three times per day at level 19. At level 26 the druid is able to shift into elemental shape at will. The transformation has a duration of 1 [[hour]] per class level.
+|use=selected. After choosing the ability, the character must choose one of four elemental types (earth, air, fire, or water) to become.
+|icon=ife_eleshape.gif
+|class1=druid
+}}
+
+== Notes ==
+
+*This form of shapeshifting cannot be [[dispel]]led.
+*Only armor (including shield and helmet) merges into elemental shape.
+*All huge elemental shapes have [[damage reduction]] 10/+2, while the elder elemental shapes have 15/+3.
+*All of these shapes have the usual [[elemental]] immunities to [[critical hit]]s, [[disease]], [[mind-affecting]] spells, [[paralysis]], [[poison]], and [[sneak attack]]s.
+{| class="wikitable"
+|+Huge elemental attributes
+!Shape!!Str!!Dex!!Con!!Size!!Dodge AC!!Total AC!! Damage !!Special
+|-
+|[[Huge fire elemental form|Fire]]      || 19 || 19 || 26 || medium || +5 ||19 || 2d8 + 4 [[bludgeoning damage|bludgeoning]]<br />+d8 [[fire damage|fire]] || 100% fire [[immunity]],<br />50% [[cold damage|cold]] [[vulnerability]]
+|-
+|[[Huge water elemental form|Water]]     || 25 || 22 || 19 || medium || +10 || 26 || 2d10 + 7 bludgeoning || [[drown (monster ability)|drown]],<br />100% fire immunity
+|-
+|[[Huge earth elemental form|Earth]]     || 30 || 10 || 22 || large || +7 || 16 || 2d10 + 10 bludgeoning || none
+|-
+|[[Huge air elemental form|Air]]       || 19 || 30 || 19 || medium || +10 || 30 || 2d8 + 4 bludgeoning || [[whirlwind]]
+|}
+
+{| class="wikitable"
+|+<br />Elder elemental attributes
+!Shape!!Str!!Dex!!Con!!Size!!Dodge AC!!Total AC!! Damage !!Special
+|-
+|[[Elder fire elemental form|Fire]]      || 23 || 19 || 30 || medium || +6 || 20 || 2d8 + 6 bludgeoning<br />+d8 fire || 100% fire [[immunity]],<br />50% cold [[vulnerability]]
+|-
+|[[Elder water elemental form|Water]]     || 29 || 22 || 23 || medium || +10 || 26 || 2d10 + 9 bludgeoning || [[drown (monster ability)|drown]]<br />100% fire immunity
+|-
+|[[Elder earth elemental form|Earth]]     || 34 || 10 || 22 || large  || +10 || 19 || 2d10 + 12 bludgeoning || none
+|-
+|[[Elder air elemental form|Air]]       || 23 || 34 || 19 || huge  ||  +10 || 30 || 2d8 + 6 bludgeoning || [[whirlwind]]
+|}
+
+== Custom content notes ==
+
+* ''script:'' <code>NW_S2_ElemShape</code>

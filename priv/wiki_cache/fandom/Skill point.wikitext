@@ -1,0 +1,11 @@
+'''Skill points''' represent how adept a character has been at learning [[skill]]s, determined by [[class]] and [[intelligence]]. These are used to buy [[skill rank]]s, with ranks in those skills closely related to the character's class (the class being increased, in the case of multiclassed characters) costing fewer points than skills less closely related.
+In this way, class is a significant factor in both the type and quantity of skills a character can possess.
+
+Each class has a number of skill points (from 2 to 8) it receives each [[class level|level]]. To this is added the [[ability modifier|intelligence modifier]], subject to a minimum of 1 skill point, and the sum is quadrupled at [[character level]] 1.
+These points are then available for immediate spending on ranks, or they may be saved and carried over to future [[level-up]]s. The costs and limits for skill ranks depend on the class being acquired, not the class that granted the skill points being spent, so it is not uncommon for players to "skill dump", saving skills from one class to be spent later with another class' costs and limits. (This is permitted by the game, even though the ability to save skill points was likely motivated by a much more limited use, specifically compensation for the inability to buy half ranks in a skill.)
+
+The skills closely related to a class are called "[[class skill]]s"; each rank in a class skill costs one skill point. The other skills are called "[[cross-class skill]]s" (or "unavailable"); each rank in a cross-class skill costs two skill points.
+The maximum number of ranks a class skill can be raised to is character level plus three,
+while the maximum for a cross-class skill is half this number, rounded down.
+(A cross-class skill may be higher than this if it was raised as a class skill earlier, but it cannot be raised higher than this during the current level-up.)
+[[Category:Skills| Skill point]]

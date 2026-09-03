@@ -1,0 +1,18 @@
+{{feat
+|type=class
+|prereq=[[purple dragon knight]] 4
+|desc=Once per day, the purple dragon knight may swear to defeat a single opponent. He gains a +2 bonus to [[attack roll|attack]], damage, [[save]]s, and [[skill]]s vs. that opponent. This lasts for a number of [[round]]s equal to twice his [[class level]].
+|use=selected
+|icon=ife_x3_pdkwrath.gif
+|class=purple dragon knight
+}}
+
+== Notes ==
+*Added in patch 1.69.
+* This is an [[instant feat]].
+* The bonuses granted by this feat apply against all members of the target's [[race]].
+**  As attack and damage bonuses versus a specific race are reported on the character sheet, a player can use this feat to discover the racial type of an opponent.
+*This feat cannot target a friend (including the caster).
+
+== Custom content notes ==
+*''script:'' <code>X3_S2_pdk_Wrath</code>

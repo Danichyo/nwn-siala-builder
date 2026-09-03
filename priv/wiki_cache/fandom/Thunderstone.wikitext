@@ -1,0 +1,14 @@
+[[Image:Thunderstone.gif|right|Thunderstone icon]]
+When striking a hard surface, a '''thunderstone''' creates a deafening bang. Any target who fails a [[fortitude]] save will be [[deaf]] for 5 [[round]]s.
+<!-- The above comes from BioWare. Please do not edit mercilessly. -->
+
+All creatures in a {{AoE|medium}} area are affected, except friends (after accounting for the [[PvP setting]]).
+The [[difficulty class]] of the save is 15.
+
+== Notes ==
+* Introduced in the [[expansion pack]]s.
+
+==Custom content notes==
+* ''script:'' <code>X0_S3_thunder</code>
+[[category:grenade-like weapons]]
+[[Category:Item powers]]

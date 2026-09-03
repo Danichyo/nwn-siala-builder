@@ -1,0 +1,179 @@
+[CHAT WINDOW TEXT] [Wed Aug 26 02:35:18] Command detected: .билд
+[CHAT WINDOW TEXT] [Wed Aug 26 02:35:18] You used chat script
+[CHAT WINDOW TEXT] [Wed Aug 26 02:35:18] Открываю билд окно
+[CHAT WINDOW TEXT] [Wed Aug 26 02:35:18]
+------------------------------------------------
+    CHARACTER BUILD: Брунна *Пылечих*
+    Current: 10 WIZ / 30 PM
+------------------------------------------------
+
+CURRENT ABILITIES: STR 20 DEX 12 CON 26 INT 47 WIS 8 CHA 6
+COMBAT STATS: AB 25 AC 36 Fort 50 Refl 22 Will 28
+SKILLS WITH RANKS:
+  Concentration 43, Heal 43, Hide 43
+  Lore 40, Move Silently 43, Persuade 25
+  Search 21, Spellcraft 42, Tumble 20
+
+(WHITE) ABILITIES: STR 8 DEX 12 CON 18 INT 25 WIS 8 CHA 6
+RACE: Dwarf
+
+------------------------------------------------
+LEVEL 1: WIZARD
+  FEATS: Weapon Proficiency (simple), Stonecunning, Darkvision, Hardiness vs. Poisons, Hardiness vs. Spells, Battle Training vs. Orcs, Battle Training vs. Goblins, Battle Training vs. Giants, Skill Affinity (Lore), Summon Familiar, Дух Сиалы, Scribe Scroll, Luck of Heroes
+------------------------------------------------
+LEVEL 2: WIZARD
+------------------------------------------------
+LEVEL 3: WIZARD
+  FEATS: Expertise
+  SKILLS: Spellcraft +6
+------------------------------------------------
+LEVEL 4: PALE MASTER
+  ABILITY: +1 INT
+  FEATS: Bone Skin
+  SKILLS: Concentration +7, Spellcraft +1
+------------------------------------------------
+LEVEL 5: PALE MASTER
+  FEATS: Animate Dead
+  SKILLS: Concentration +1, Spellcraft +1
+------------------------------------------------
+LEVEL 6: PALE MASTER
+  FEATS: Improved Expertise
+  SKILLS: Concentration +1, Spellcraft +1
+------------------------------------------------
+LEVEL 7: PALE MASTER
+  FEATS: Summon Undead
+  SKILLS: Concentration +1, Spellcraft +1
+------------------------------------------------
+LEVEL 8: PALE MASTER
+  ABILITY: +1 INT
+  FEATS: Deathless Vigor
+  SKILLS: Concentration +1, Spellcraft +1
+------------------------------------------------
+LEVEL 9: WIZARD
+  FEATS: Spell Focus (Necromancy)
+  SKILLS: Concentration +1, Spellcraft +1
+------------------------------------------------
+LEVEL 10: PALE MASTER
+  FEATS: Undead Graft I
+  SKILLS: Concentration +1
+------------------------------------------------
+LEVEL 11: PALE MASTER
+  FEATS: Tough as Bone
+  SKILLS: Concentration +1
+------------------------------------------------
+LEVEL 12: PALE MASTER
+  ABILITY: +1 INT
+  FEATS: Undead Graft II, Greater Spell Focus (Necromancy)
+  SKILLS: Concentration +1, Spellcraft +3
+------------------------------------------------
+LEVEL 13: PALE MASTER
+  FEATS: Summon Greater Undead
+  SKILLS: Concentration +1, Spellcraft +1
+------------------------------------------------
+LEVEL 14: PALE MASTER
+  FEATS: Deathless Mastery, Deathless Master Touch
+  SKILLS: Concentration +1, Spellcraft +1
+------------------------------------------------
+LEVEL 15: WIZARD
+  FEATS: Extend Spell, Shield Proficiency
+  SKILLS: Concentration +1, Heal +18, Spellcraft +1
+------------------------------------------------
+LEVEL 16: WIZARD
+  ABILITY: +1 INT
+  SKILLS: Concentration +1, Heal +1, Search +9, Spellcraft +1
+------------------------------------------------
+LEVEL 17: WIZARD
+  SKILLS: Concentration +1, Heal +1, Spellcraft +1
+------------------------------------------------
+LEVEL 18: WIZARD
+  FEATS: Great Fortitude
+  SKILLS: Concentration +1, Heal +1, Spellcraft +1
+------------------------------------------------
+LEVEL 19: WIZARD
+  SKILLS: Concentration +1, Heal +1, Spellcraft +1
+------------------------------------------------
+LEVEL 20: WIZARD
+  ABILITY: +1 INT
+  FEATS: Teleportation, Silent Spell
+  SKILLS: Concentration +1, Heal +1, Spellcraft +1
+------------------------------------------------
+LEVEL 21: PALE MASTER
+  FEATS: Epic Character, Epic Palemaster, Great Intelligence I
+  SKILLS: Concentration +1, Heal +1, Persuade +20, Spellcraft +1
+------------------------------------------------
+LEVEL 22: PALE MASTER
+  SKILLS: Concentration +1, Heal +1, Spellcraft +1
+------------------------------------------------
+LEVEL 23: PALE MASTER
+  FEATS: Epic Spell Focus (Necromancy)
+  SKILLS: Concentration +1, Heal +1, Spellcraft +1
+------------------------------------------------
+LEVEL 24: PALE MASTER
+  ABILITY: +1 INT
+  FEATS: Great Intelligence II
+  SKILLS: Concentration +1, Heal +1, Spellcraft +1
+------------------------------------------------
+LEVEL 25: PALE MASTER
+  SKILLS: Concentration +1, Heal +1, Persuade +5, Spellcraft +1
+------------------------------------------------
+LEVEL 26: PALE MASTER
+  FEATS: Epic Spell: Dragon Knight
+  SKILLS: Concentration +1, Heal +1, Spellcraft +1
+------------------------------------------------
+LEVEL 27: PALE MASTER
+  FEATS: Great Intelligence III
+  SKILLS: Concentration +1, Heal +1, Spellcraft +1
+------------------------------------------------
+LEVEL 28: PALE MASTER
+  ABILITY: +1 INT
+  SKILLS: Concentration +1, Heal +1, Spellcraft +1
+------------------------------------------------
+LEVEL 29: PALE MASTER
+  FEATS: Epic Spell: Epic Mage Armor
+  SKILLS: Concentration +1, Heal +1, Spellcraft +1
+------------------------------------------------
+LEVEL 30: PALE MASTER
+  FEATS: Great Intelligence IV
+  SKILLS: Concentration +1, Heal +1, Spellcraft +1
+------------------------------------------------
+LEVEL 31: PALE MASTER
+  SKILLS: Concentration +1, Heal +1, Spellcraft +1
+------------------------------------------------
+LEVEL 32: PALE MASTER
+  ABILITY: +1 INT
+  FEATS: Epic Spell: Hellball
+  SKILLS: Concentration +1, Lore +35, Spellcraft +1
+------------------------------------------------
+LEVEL 33: PALE MASTER
+  FEATS: Great Intelligence V
+  SKILLS: Concentration +1, Heal +2, Lore +1, Spellcraft +1
+------------------------------------------------
+LEVEL 34: PALE MASTER
+  SKILLS: Concentration +1, Heal +1, Lore +1, Spellcraft +1
+------------------------------------------------
+LEVEL 35: PALE MASTER
+  FEATS: Epic Spell: Epic Warding
+  SKILLS: Concentration +1, Heal +1, Lore +1, Spellcraft +1
+------------------------------------------------
+LEVEL 36: PALE MASTER
+  ABILITY: +1 INT
+  FEATS: Great Intelligence VI
+  SKILLS: Concentration +1, Heal +1, Lore +1, Spellcraft +1
+------------------------------------------------
+LEVEL 37: PALE MASTER
+  SKILLS: Concentration +1, Heal +1, Lore +1, Spellcraft +1, Tumble +20
+------------------------------------------------
+LEVEL 38: PALE MASTER
+  FEATS: Epic Spell: Greater Ruin
+  SKILLS: Concentration +1, Heal +1, Spellcraft +1
+------------------------------------------------
+LEVEL 39: PALE MASTER
+  FEATS: Great Intelligence VII
+  SKILLS: Concentration +1, Heal +1, Spellcraft +1
+------------------------------------------------
+LEVEL 40: PALE MASTER
+  ABILITY: +1 INT
+  SKILLS: Concentration +1, Heal +1, Hide +43, Move Silently +43, Search +12
+------------------------------------------------
+
+[CHAT WINDOW TEXT] [Wed Aug 26 02:35:18] Build sent to! Брунна *Пылечих*

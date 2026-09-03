@@ -1,0 +1,26 @@
+{{spell
+|icon=is_flmstrike.gif
+|clericlevel=5
+|druidlevel=4
+|innatelevel=4
+|school=[[evocation]]
+|components=VS
+|range=m
+|area=medium
+|save=[[reflex]] 1/2
+|spellresistance=yes
+|immunity=fire, ''divine''
+|duration=instant
+|desc=A pillar of flame engulfs all within the area of effect, inflicting 1[[d6]] points of damage per caster level (to a maximum of 15d6). Half of the damage caused by the spell is [[divine damage|divine]] and the other half is [[fire damage|fire-based]]. Enemies are struck by both damage types, while allies are struck only by the fire damage.}}
+
+== Notes ==
+
+* There are two saving throws&mdash;one for each damage type. (The in-game description is missing the "divine" descriptor for the first save.)
+* Allies are only struck if permitted by the [[PvP setting]]. This spell uses [[area of effect#Targeting|standard hostile targeting]] to determine who is affected by this spell, which takes into account the PvP setting. Then friendly affected creatures (disregarding the PvP setting) are exempted from the divine damage (but still roll both saves).
+* Half points of damage are lost (not applied). Thus, for example, if rolling 10d6 results in 35, then there will be 17 points of divine damage and 17 points of fire, for a total of 34 damage.
+* As allies are struck only by the fire damage, flame strike can be used safely near allied [[red dragon disciple]]s of level 10 or higher because of their [[immunity to fire]].
+
+== Custom content notes ==
+* ''Script:'' <code>NW_S0_FlmStrike</code>
+==External Links==
+* {{FRW}}

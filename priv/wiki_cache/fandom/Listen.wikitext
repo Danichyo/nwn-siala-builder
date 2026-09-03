@@ -1,0 +1,42 @@
+[[Image:Isk listen.gif|right|Listen]]
+'''Listen''' alerts a character to hidden creatures that may be nearby.
+*'''Ability''': [[wisdom]]
+
+*'''Classes''': [[arcane archer]], [[assassin]], [[barbarian]], [[bard]], [[dwarven defender]], [[harper scout]], [[monk]], [[pale master]], [[ranger]], [[red dragon disciple]], [[rogue]], [[shadowdancer]], [[shifter]], [[weapon master]]
+
+*'''[[Cross-Class|Cross-class]]''': yes
+
+*'''[[untrained skill check|Requires training]]''': no
+
+*'''Check''': Listen detects hidden creatures by opposing their [[move silently]] check. A successful check renders the hidden creature visible, and makes it a valid target for the listener.
+
+*'''Special''': Standing still provides a +5 bonus to a listen check. A character with the [[alertness]] feat gains a +2 bonus on listen checks. [[Ranger]]s gain a bonus when listening against a [[favored enemy]]. [[Elf|Elves]], [[gnome]]s, and [[halfling]]s gain a +2 racial bonus to listen checks. [[Half-elf|Half-elves]] receive a +1 racial bonus.
+
+*'''Use''': Listen is part of the [[detect]] modal action. In passive detect mode, checks are made automatically every round. Active detect mode is a modal action that reduces the normal movement rate and makes the character perform an active listen, as well as [[spot]] and [[search]] checks.
+
+==Additional modifiers==
+* +10 DC if the listener is in combat.
+* +5 DC if the target is standing still.
+* -5 DC if the listener is standing still.
+* +1 DC for every 3 meters between listener and target.
+* Size modifiers (tiny: +8, small: +4, medium: 0, large: -4, huge: -8).
+* +5 DC for every 40cm of object (including creatures) between listener and target in outdoor areas.
+* +2 DC in indoor areas if the line of sight is blocked and the target is within 4 tiles.
+* Area listen check modifiers.
+
+==Notes==
+* Cannot hear [[silence]]d creatures.
+* Cannot hear [[sanctuary|sanctuaried]] creatures.
+* Can only hear [[invisible]] creatures within the max attack range.
+* Can only hear creatures within the max attack range when listener is [[blind]].
+* Both silenced or deafened creature can hear others creatures normally however. ''This is probably bug.''
+* Listen can go through solid objects such as walls and doors, but creatures that are heard one round can become not heard the next. In contrast, Spot requires line of sight, but once a creature is spotted, it does not become un-spotted unless line of sight is broken or HiPS is invoked.
+* Against stealthy opponents, Listen might not be sufficient to allow casters to target spells, or avoid sneak attacks from stealth, and Spot is possibly required for this.
+
+==References==
+<!--
+[http://nwn.bioware.com/forums/viewtopic.html?topic=549835&forum=42&sp=15#4836078 Post by Brenon Holmes, BioWare programmer.]
+-->
+* [http://web.archive.org/web/20090211050528/http://nwn.bioware.com/forums/viewtopic.html?topic=549835&forum=42&sp=15 Post by Brenon Holmes, BioWare programmer], preserved by the Wayback Machine.
+* [https://www.tapatalk.com/groups/worldofgreyhawkfr/true-seeing-t3591-s20.html Post by The_Krit on World of Greyhawk tapatalk forum]
+[[Category:skills]]

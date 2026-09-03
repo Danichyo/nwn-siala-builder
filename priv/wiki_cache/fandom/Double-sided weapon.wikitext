@@ -1,0 +1,15 @@
+A '''double-sided weapon''' is a [[weapon]] designed such that both ends can be used to strike opponents.
+Even though these are [[weapon size|large weapons]] and require two hands to wield, they do not get 150% of the [[strength]] [[modifier]] added to the damage inflicted; instead, hits from the main end have the normal (full) strength modifier added to damage, while hits from the [[off-hand]] end get half that amount added to the damage.
+
+Wielding a double-sided weapon automatically causes one to be [[dual-wield]]ing, allowing an extra attack ([[improved two-weapon fighting|or two]]) per combat [[round]] and incurring the standard dual-wielding penalties.
+These penalties are not as severe as possible, as a double-sided weapon's off-hand end counts as a [[light weapon]], and they can be further ameliorated (as usual) with the dual wielding feats ([[ambidexterity]] and [[two-weapon fighting]]).
+
+One advantage of using a double-sided weapon instead of two weapons is that both ends inflict base damage comparable to medium-sized (non-light) weapons, yet the attack penalties are those of using a small (light) weapon in the off-hand.
+Another advantage is that a single spell (such as ''[[magic weapon]]'') can enchant both ends of a double-sided weapon, whereas it takes two spells to enchant two weapons.
+Yet another advantage is that being a single weapon, one only needs to use one feat for weapon focus and/or weapon specialization instead of two, unless using a light weapon in the main hand or suffering the penalties of using a non-light weapon in the off-hand.
+The major disadvantage of double-sided weapons is that they are [[weapon proficiency (exotic)|exotic]], and thus require a [[feat]] investment to wield.
+They also necessitate a weapon switch if a [[shield]] becomes desired in some circumstances, which could affect the applicability of weapon-specific feats (such as [[weapon focus]]).
+
+The double-sided weapons in Neverwinter Nights are the [[dire mace]], [[double axe]], and [[two-bladed sword]].
+[[category:glossary]]
+[[Category:Weapons| Double-sided weapon]]

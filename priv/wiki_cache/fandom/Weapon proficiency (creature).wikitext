@@ -1,0 +1,10 @@
+{{feat
+|type=monster
+|desc=This feat grants proficiency in the [[creature weapon]].
+|use=automatic
+|icon=ife_weppro_cre.gif
+}}
+
+==Notes==
+* This feat is normally not available to [[player character]]s (except via a few [[polymorph]]s that grant it even though polymorphs ignore proficiencies).
+[[Category:Weapon proficiency feats]]

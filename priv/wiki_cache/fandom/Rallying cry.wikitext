@@ -1,0 +1,17 @@
+{{feat
+|type=class
+|prereq=[[purple dragon knight]] 1
+|desc=Three times per day, a purple dragon knight can utter a powerful shout that gives all allies a +1 bonus to [[attack roll|attack]] and a 20% bonus to [[movement rate|land speed]] for one [[round]].
+|use=selected
+|icon=ife_x3_pdkrally.gif
+|class=purple dragon knight
+}}
+
+== Notes ==
+*Added in patch 1.69.
+* This is an [[instant feat]].
+*This feat cannot be used when [[silence]]d, nor does it affect silenced or [[deaf]]ened creatures.
+*"All allies" means all creatures that are not hostile in a {{AoE|colossal}} area.
+
+== Custom content notes ==
+*''script:'' <code>X3_S2_pdk_Rally</code>

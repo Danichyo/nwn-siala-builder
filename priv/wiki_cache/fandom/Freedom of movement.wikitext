@@ -1,0 +1,28 @@
+{{spell
+|icon=is_freemove.gif
+|clericlevel=4
+|druidlevel=4
+|paladinlevel=4
+|rangerlevel=4
+|domain=travel
+|domainlevel=3
+|innatelevel=4
+|school=[[abjuration]]
+|components=VS
+|range=m
+|area=single
+|save=none
+|spellresistance=no
+|duration=1 [[turn]] / level
+|counters=<del>[[web]]</del>
+|desc=The target creature becomes immune to [[paralysis]], [[slow]],
+and [[entangle]]ment spells and effects.}}
+
+== Notes ==
+
+* This spell also protects the target from [[movement speed decrease]]s.
+* In addition to granting immunity (to future effects), this spell also removes pre-existing effects of the types it protects against.
+* Due to a .2da bug, ''web'' is not an additional [[counterspell]] of this spell.
+
+==Custom content notes==
+*''script:'' <code>NW_S0_FreeMove</code>

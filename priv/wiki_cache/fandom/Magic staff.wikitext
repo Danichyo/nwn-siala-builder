@@ -1,0 +1,73 @@
+{{Weapon|imagefile=Magicstaff.JPG
+  |weaponname=Magic staff
+  |weapondescription=The staff is potentially a magically-charged item. Powers and effects vary greatly. 
+  |weight=4
+  |cost=1
+  |damage=1d6
+  |critical=x2
+  |damagetype=[[bludgeoning damage|bludgeoning]]
+  |size=medium
+  |proficiency=none needed
+  |category=[[category:blunt weapons]] [[category:simple weapons]]
+}}
+
+== Notes==
+* A magic staff has a minimum of three properties.
+* Magic staves cannot be wielded in the [[off-hand]] without using a modified [[baseitems.2da]].
+* Most staves are used by [[sorcerer]]s and [[wizard]]s.
+* All standard staves start with 50 [[charge]]s.
+* There are no specific weapon feats ([[Weapon focus|weapon focus]], [[Weapon specialization|weapon specialization]], [[Improved critical|improved critical]], etc.) for the magic staff.
+<!-- * Magic staves are listed under the [[stave blueprint category]] of the [[item palette]] in the [[Toolset]]. -->
+
+== Standard magic staves ==
+
+===Staff of Command===
+*Immunity: [[mind-affecting]] spells
+*Cast spell: ''[[charm monster]]'' (5) 5 charges
+*Cast spell: ''[[charm person]]'' (2) 2 charges
+*Cast spell: ''[[dominate person]]'' (7) 5 charges
+
+===Staff of Defense===
+*Armor class bonus: +2
+*Useable only by sorcerer or wizard
+*Cast spell: ''[[ghostly visage]]'' (3) 2 charges
+*Cast spell: ''[[mage armor]]'' (2) 1 charge
+*Cast spell: ''[[protection from alignment]]'' (5) 3 charges
+
+===Staff of Power===
+*Useable only by sorcerer or wizard
+*Cast spell: ''[[fireball]]'' (5) 3 charges
+*Cast spell: ''[[magic missile]]'' (5) 2 charges
+*Cast spell: ''[[ray of enfeeblement]]'' (2) 1 charge
+
+===Staff of the Holy===
+*Useable only by [[cleric]]s.
+*Cast spell: ''[[aid]]'' (3) 2 charges
+*Cast spell: ''[[cure light wounds]]'' (5) 1 charge
+*Cast spell: ''[[cure moderate wounds]]'' (6) 3 charges
+
+===Staff of the Magi===
+*Enhancement bonus: +1
+*Useable only by sorcerer or wizard
+*On hit: [[dispel magic]] (10 by cap)
+*Cast spell: ''dispel magic'' (5) 1 charge
+*Cast spell: ''fireball'' (10) 2 charges
+*Cast spell: ''[[ice storm]]'' (9) 2 charges
+*Cast spell: ''[[invisibility]]'' (3) 1 charge
+*Cast spell: ''[[light]]'' (1) 0 charges
+*Cast spell: ''[[lightning bolt]]'' (10) 2 charges
+*Cast spell: ''[[mage armor]]'' (2) 0 charges
+
+===Staff of Valmaxian===
+*Armor class bonus: +2
+*Enhancement bonus: +3
+*Usable only by sorcerer or wizard
+*Cast spell: ''[[chain lightning]]'' (11) 5 charges
+*Cast spell: ''[[ethereal visage]]'' (9) 5 charges
+*Cast spell: ''fireball'' (5) 3 charges
+
+===Staff of Meldanen===
+*Bonus Feat: Spell Penetration
+*Light Bright (20m) Red
+*Cast spell: [[Melf's Acid Arrow]] (6) 5 charges
+[[Category:mage specific]]

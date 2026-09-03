@@ -1,0 +1,29 @@
+{{spell
+|icon=is_x1lesmis.gif
+|magelevel=4
+|innatelevel=4
+|school=[[evocation]]
+|components=VS
+|range=l
+|area=gargantuan
+|save=none
+|spellresistance=yes
+|duration=instant
+|line=Missiles
+|line1=magic missile
+|line4=Isaac's lesser missile storm
+|line6=Isaac's greater missile storm
+|desc=A number of energy missiles (one per caster level but to a maximum of 10) appear and randomly target and hit any hostile creature in the area of effect. If there are more creatures than missiles, only the closest targets will be damaged. If there are more missiles than creatures, one of the creatures will be hit with multiple missiles. Each missile does 1[[d6]] points of [[magical damage|damage]].}}
+
+== Notes ==
+
+*Added in the [[expansion pack]]s.
+* Since the caster is (on some level) guiding the missiles to their targets, this spell will only target creatures the caster can see.
+* The spell description is misleading when there are more missiles than targets. The missiles will be distributed evenly among the potential targets until there are fewer missiles than targets, at which point the remainder will be given to the first target. For example, if 8 missiles are fired at three targets, each target will be hit by 2 missiles (accounting for 6 missiles), then the leftover 2 missiles will hit the first target (for a total of 4 hits on the first target).
+
+==Custom content notes==
+
+*''script:'' <code>x0_s0_MissStorm1</code>
+==External links==
+* {{FRW}}
+* {{NWN2W|Isaac's Lesser Missile Storm}}

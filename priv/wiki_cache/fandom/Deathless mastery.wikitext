@@ -1,0 +1,18 @@
+{{feat
+|type=class
+|prereq=[[pale master]] 10
+|desc=At 10th [[class level|level]], a pale master becomes immune to [[critical hit]]s.
+|use=automatic
+|icon=ife_x2dethmast.gif
+|class1=pale master
+}}
+
+==Notes==
+*Requires [[Hordes of the Underdark]].
+
+=== Previous versions ===
+*Prior to version 1.66, this feat did not provide immunity to [[sneak attack]]s, even though that immunity is supposed to be subsumed in immunity to critical hits.
+
+== Custom content note ==
+
+* This feat does not give immunity to [[stunning fist]], (but [[tough as bone]], an earlier pale master feat, does).

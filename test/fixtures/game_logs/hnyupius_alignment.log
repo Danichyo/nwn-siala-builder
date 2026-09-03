@@ -1,0 +1,177 @@
+[CHAT WINDOW TEXT] [Thu Sep  3 13:05:26] Command detected: .билд
+[CHAT WINDOW TEXT] [Thu Sep  3 13:05:26] You used chat script
+[CHAT WINDOW TEXT] [Thu Sep  3 13:05:26] Открываю билд окно
+[CHAT WINDOW TEXT] [Thu Sep  3 13:05:26] 
+------------------------------------------------
+    CHARACTER BUILD: Хнюпиус
+    Current: 10 FTR / 23 DD / 7 WM
+------------------------------------------------
+
+CURRENT ABILITIES: STR 42 DEX 19 CON 28 INT 14 WIS 18 CHA 6
+COMBAT STATS: AB 57 AC 63 Fort 59 Refl 45 Will 48
+SKILLS WITH RANKS:
+  Discipline 43, Heal 43, Search 19
+  Tumble 20, Intimidate 4
+
+(WHITE) ABILITIES: STR 20 DEX 13 CON 16 INT 14 WIS 8 CHA 6
+RACE: Dwarf
+ALIGNMENT: Lawful Good
+
+------------------------------------------------
+LEVEL 1: FIGHTER
+  FEATS: Armor Proficiency (heavy), Armor Proficiency (light), Armor Proficiency (medium), Shield Proficiency, Toughness, Weapon Proficiency (simple), Stonecunning, Darkvision, Hardiness vs. Poisons, Hardiness vs. Spells, Battle Training vs. Orcs, Battle Training vs. Goblins, Battle Training vs. Giants, Skill Affinity (Lore), Дух Сиалы, Dodge, Luck of Heroes
+------------------------------------------------
+LEVEL 2: FIGHTER
+  FEATS: Владение клинковым оружием
+  SKILLS: Discipline +5
+------------------------------------------------
+LEVEL 3: FIGHTER
+  FEATS: Great Fortitude
+  SKILLS: Discipline +1
+------------------------------------------------
+LEVEL 4: FIGHTER
+  ABILITY: +1 STR
+  FEATS: Weapon Focus (bastard sword)
+  SKILLS: Discipline +1
+------------------------------------------------
+LEVEL 5: FIGHTER
+  SKILLS: Discipline +1
+------------------------------------------------
+LEVEL 6: FIGHTER
+  FEATS: Expertise, Mobility
+  SKILLS: Discipline +1
+------------------------------------------------
+LEVEL 7: FIGHTER
+  SKILLS: Discipline +1
+------------------------------------------------
+LEVEL 8: FIGHTER
+  ABILITY: +1 STR
+  FEATS: Spring Attack
+  SKILLS: Discipline +1
+------------------------------------------------
+LEVEL 9: FIGHTER
+  FEATS: Whirlwind Attack
+  SKILLS: Discipline +1
+------------------------------------------------
+LEVEL 10: DWARVEN DEFENDER
+  FEATS: Defensive Stance
+  SKILLS: Discipline +1
+------------------------------------------------
+LEVEL 11: DWARVEN DEFENDER
+  FEATS: Defensive Awareness (1)
+  SKILLS: Discipline +1
+------------------------------------------------
+LEVEL 12: DWARVEN DEFENDER
+  ABILITY: +1 STR
+  FEATS: Blind-Fight
+  SKILLS: Discipline +1
+------------------------------------------------
+LEVEL 13: DWARVEN DEFENDER
+  SKILLS: Discipline +1
+------------------------------------------------
+LEVEL 14: DWARVEN DEFENDER
+  FEATS: Defensive Awareness (2)
+  SKILLS: Discipline +1
+------------------------------------------------
+LEVEL 15: DWARVEN DEFENDER
+  FEATS: Dwarven Defender Damage Reduction, Called Shot
+  SKILLS: Discipline +1
+------------------------------------------------
+LEVEL 16: DWARVEN DEFENDER
+  ABILITY: +1 STR
+  SKILLS: Discipline +1
+------------------------------------------------
+LEVEL 17: DWARVEN DEFENDER
+  SKILLS: Discipline +1
+------------------------------------------------
+LEVEL 18: DWARVEN DEFENDER
+  FEATS: Lightning Reflexes
+  SKILLS: Discipline +1
+------------------------------------------------
+LEVEL 19: DWARVEN DEFENDER
+  FEATS: Defensive Awareness (3)
+  SKILLS: Discipline +1, Intimidate +4
+------------------------------------------------
+LEVEL 20: WEAPON MASTER
+  ABILITY: +1 STR
+  FEATS: Ki Damage, Weapon of Choice (bastard sword)
+  SKILLS: Discipline +1
+------------------------------------------------
+LEVEL 21: FIGHTER
+  FEATS: Epic Character, Epic Fortitude, Improved Critical (bastard sword)
+  SKILLS: Discipline +1
+------------------------------------------------
+LEVEL 22: WEAPON MASTER
+  SKILLS: Discipline +1
+------------------------------------------------
+LEVEL 23: WEAPON MASTER
+  SKILLS: Discipline +1, Heal +26, Tumble +10
+------------------------------------------------
+LEVEL 24: WEAPON MASTER
+  ABILITY: +1 STR
+  FEATS: Epic Reflexes
+  SKILLS: Discipline +1, Heal +1
+------------------------------------------------
+LEVEL 25: WEAPON MASTER
+  FEATS: Increased Multiplier, Superior Weapon Focus
+  SKILLS: Discipline +1, Heal +1
+------------------------------------------------
+LEVEL 26: WEAPON MASTER
+  SKILLS: Discipline +1, Heal +1
+------------------------------------------------
+LEVEL 27: WEAPON MASTER
+  FEATS: Ki Critical, Epic Will
+  SKILLS: Discipline +1, Heal +1, Tumble +5
+------------------------------------------------
+LEVEL 28: DWARVEN DEFENDER
+  ABILITY: +1 STR
+  FEATS: Epic Dwarven Defender
+  SKILLS: Discipline +1, Heal +1
+------------------------------------------------
+LEVEL 29: DWARVEN DEFENDER
+  SKILLS: Discipline +1, Heal +1
+------------------------------------------------
+LEVEL 30: DWARVEN DEFENDER
+  FEATS: Great Strength I
+  SKILLS: Discipline +1, Heal +1
+------------------------------------------------
+LEVEL 31: DWARVEN DEFENDER
+  FEATS: Epic Weapon Focus (bastard sword)
+  SKILLS: Discipline +1, Heal +1
+------------------------------------------------
+LEVEL 32: DWARVEN DEFENDER
+  ABILITY: +1 STR
+  SKILLS: Discipline +1, Heal +1
+------------------------------------------------
+LEVEL 33: DWARVEN DEFENDER
+  FEATS: Great Strength II
+  SKILLS: Discipline +1, Heal +1
+------------------------------------------------
+LEVEL 34: DWARVEN DEFENDER
+  SKILLS: Discipline +1, Heal +1
+------------------------------------------------
+LEVEL 35: DWARVEN DEFENDER
+  FEATS: Armor Skin
+  SKILLS: Discipline +1, Heal +1
+------------------------------------------------
+LEVEL 36: DWARVEN DEFENDER
+  ABILITY: +1 STR
+  FEATS: Great Strength III
+  SKILLS: Discipline +1, Heal +1
+------------------------------------------------
+LEVEL 37: DWARVEN DEFENDER
+  SKILLS: Discipline +1, Heal +1, Tumble +5
+------------------------------------------------
+LEVEL 38: DWARVEN DEFENDER
+  SKILLS: Discipline +1, Heal +1
+------------------------------------------------
+LEVEL 39: DWARVEN DEFENDER
+  FEATS: Energy Resistance, Fire I, Epic Prowess
+  SKILLS: Discipline +1, Heal +1
+------------------------------------------------
+LEVEL 40: DWARVEN DEFENDER
+  ABILITY: +1 STR
+  SKILLS: Discipline +1, Heal +1, Search +19
+------------------------------------------------
+
+[CHAT WINDOW TEXT] [Thu Sep  3 13:05:26] Build sent to! Хнюпиус

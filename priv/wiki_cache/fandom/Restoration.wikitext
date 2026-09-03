@@ -1,0 +1,24 @@
+{{spell
+|icon=is_restore.gif
+|clericlevel=4
+|innatelevel=4
+|school=[[conjuration]]
+|components=VS
+|range=t
+|area=single
+|save=harmless
+|spellresistance=no
+|duration=instant
+|line=Restoration
+|line2=lesser restoration
+|line4=restoration
+|line7=greater restoration
+|desc=Removes all [[magical effect|magical]], [[extraordinary effect|extraordinary]] and [[supernatural effect]]s that apply a penalty to [[ability]] scores, [[armor class]], [[attack bonus|attack]] and damage rolls, [[spell resistance]], [[saving throw]]s and damage [[immunity]]. This spell also removes all [[ability drain]], [[level drain]], [[blind|blindness]] and [[deaf|deafness]] effects. While this spell will not remove a [[curse]] or [[disease]] itself, it will remove ([[supernatural effect|supernatural]]) ability score penalties caused by a disease.}}
+
+== Notes ==
+
+* This spell also removes [[paralyze|paralysis]] and penalties to [[skill]]s.
+* The effects that this spell can remove and that ''[[lesser restoration]]'' cannot are blindness, deafness, paralysis and level drain.
+
+== Custom content notes ==
+* ''script:'' <code>NW_S0_Restore</code>

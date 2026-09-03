@@ -1,0 +1,17 @@
+'''Base classes''' (also called '''core classes''') are those [[class]]es that can be taken at character creation, as opposed to the [[prestige class]]es that have requirements that must be met before they can be taken.
+
+In NWN, the base classes are the following:
+*[[Barbarian]]
+*[[Bard]]
+*[[Cleric]]
+*[[Druid]]
+*[[Fighter]]
+*[[Monk]]
+*[[Paladin]]
+*[[Ranger]]
+*[[Rogue]]
+*[[Sorcerer]]
+*[[Wizard]]
+
+
+[[Category:Classes| Base class]]

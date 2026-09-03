@@ -1,0 +1,14 @@
+{{feat
+|type=class
+|prereq=[[paladin]] 3
+|desc=A character with this feat may [[remove disease]] once per day.
+|use=selected
+|icon=ife_sickoff.gif
+|class=paladin
+}}
+
+==Notes==
+*This also removes all [[ability score loss]].
+
+==Custom content notes==
+*''impact script:'' <code>NW_S0_RemEffect.nss</code>

@@ -1,0 +1,25 @@
+{{feat
+|epic=yes
+|type=general
+|prereq=21st level, [[dexterity]] 25+
+|desc=The character is able to cast [[haste]] on himself once per day. The effect will last 10 [[round]]s.
+|use=selected
+|icon=ife_x2bldspd.gif
+|bonus1=arcane archer
+|bonus2=monk
+|bonus3=ranger
+|bonus4=rogue
+|bonus5=shadowdancer
+|bonus6=weapon master
+}}
+
+== Notes ==
+*Requires [[Hordes of the Underdark]].
+* This feat will displace a single instance of each of ''[[expeditious retreat]]'', ''[[haste]]'', and ''[[mass haste]]'', provided those spells had been cast by the character.
+*This feat cannot be selected when taking a level of [[Harper scout]].
+* The haste effect is subject to [[dispel]]ling. The effective caster level is the character's total [[hit dice]].
+
+== Custom content notes ==
+* A custom class must have this feat in their feat list, or that class will not be able to select it as a general feat.
+* ''script:'' <code>X2_S2_BlindSpd</code>
+[[category:feats restricted by class, epic]]

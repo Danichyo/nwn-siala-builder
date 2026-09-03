@@ -1,0 +1,19 @@
+{{Grimoire spell|imagename=Is anshapes.jpg
+|spellname=Animal Shapes
+|casterlevel=[[Grimoire animal|Animal]] 7, [[Druid]] 8
+|innatelevel=7
+|school=[[Transmutation]]
+|descriptors=None
+|components=V, S
+|range=Short
+|immunities=None
+|savingthrow=None
+|spellresistance=No
+|targettype=Single
+|duration=1 [[hour]]/level
+|description=As polymorph other, except the caster polymorphs one willing creature into an animal of his choice, the spell has no effect on unwilling creatures.  Recipients remain in the animal form until the spell expires.
+}}
+==Notes==
+This spell will have two entries in the spellbook: Animal Shapes (Normal), and Animal Shapes (Dire).  Each spell gives the choices of Badger, Brown Bear, Boar, Panther, or Wolf.
+{{g_animal}}
+{{g_drd}}

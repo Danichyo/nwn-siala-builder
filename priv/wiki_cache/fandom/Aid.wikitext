@@ -1,0 +1,25 @@
+{{spell
+|icon=is_aid.gif
+|clericlevel=2
+|paladinlevel=2
+|rangerlevel=3
+|innatelevel=2
+|school=[[enchantment]]
+|components=VS
+|range=t
+|area=single
+|save=harmless
+|immunity=mind-affecting
+|duration=1 [[turn]] / level
+|counters=<del>[[doom]]</del>
+|desc=The target gains a +1 bonus to [[attack roll]]s, a +1 bonus on [[saving throw]]s versus [[frightened|fear]], and a 1d8 bonus to maximum [[hit point]]s.}}
+
+== Notes ==
+
+*The bonus to attack provided by this spell counts towards the +20 [[attack bonus cap]].
+*The "bonus to maximum hit points" is implemented as [[temporary hit point]]s.
+*The temporary hit points [[stack]] with multiple castings of this spell. (A fix for this is available on the Vault<sup>[http://nwvault.ign.com/View.php?view=Scripts.Detail&id=3739]</sup>).
+*Due to a .2da bug, ''aid'' is not an additional [[counterspell]] of ''doom''.
+
+== Custom content notes ==
+* ''Script:'' <code>NW_S0_Aid</code>

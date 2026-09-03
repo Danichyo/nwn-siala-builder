@@ -1,0 +1,25 @@
+{{otheruses|the spell|the feat|Remove disease (feat)}}
+
+{{spell
+|icon=is_rmvdiseas.gif
+|bardlevel=3
+|clericlevel=3
+|druidlevel=3
+|rangerlevel=3
+|innatelevel=3
+|school=[[conjuration]]
+|components=VS
+|range=t
+|area=single
+|save=harmless
+|spellresistance=no
+|duration=instant
+|counters=<del>[[contagion]]</del>
+|desc=All [[disease]]s and disease [[effect]]s are removed from the target creature.}}
+
+==Notes==
+*All [[ability score loss]] is removed whether or not it corresponds to a disease.  Other effects of diseases are not removed.
+*Due to a .2da bug, ''remove disease'' is not an additional [[counterspell]] of ''contagion''.
+
+==Custom content notes==
+*''script:'' <code>NW_S0_RemEffect.nss</code>

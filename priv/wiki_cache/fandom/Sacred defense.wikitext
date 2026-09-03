@@ -1,0 +1,12 @@
+{{feat
+|type=class
+|prereq=[[champion of Torm]] 2
+|desc=''Sacred defense'' adds a +1 bonus to all [[saving throw]]s for every 2 levels of champion of Torm.
+|use=automatic
+|icon=ife_x2sacrdef1.gif
+|class=champion of Torm
+}}
+
+==Notes==
+*Requires [[Hordes of the Underdark]].
+*This feat counts towards the +20 cap on saving throws from magical items.

@@ -1,0 +1,13 @@
+'''Description:''' Clerics who take the Good domain command power over outsiders and are granted spells that protect themselves and others.[[Image:Id good.gif|right|Good]]
+== Domain Special Abilities ==
+
+Turn Outsiders - Able to [[turn undead|turn]] [[outsider]]s as if they were [[undead]].
+
+== Bonus Spells ==
+* Level 4 [[Stoneskin]]
+* Level 5 [[Lesser planar binding]]
+
+==Notes==
+*The changes from [[Hordes of the Underdark]] give outsiders [[turn resistance]] equal to their [[spell resistance]]. [[Planar turning]] reduces this resistance by 1/2.
+
+[[Category:Cleric domains]]

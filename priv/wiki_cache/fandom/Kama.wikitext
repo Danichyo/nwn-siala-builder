@@ -1,0 +1,20 @@
+{{Weapon|imagefile=Kama.jpg
+  |weaponname=Kama
+  |weapondescription=As with many [[weapon]]s, the '''kama''' was adapted for combat by the peasants that used them as farming implements, often because they were forbidden from owning swords or the like.
+  |weight=1
+  |cost=2
+  |damage=1d6
+  |critical=x2
+  |damagetype=[[slashing damage|Slashing]]
+  |size=Small
+  |proficiency=[[Weapon proficiency (exotic)|Exotic]]<br/>&nbsp;[[Weapon proficiency (monk)|Monk]]
+  |category=[[Category:Exotic weapons]][[Category:Bladed weapons]]
+}}
+
+==Toolset==
+* Kamas are listed under the [[exotic blueprint category]] of the [[item palette]] in the [[toolset]].
+
+==Notes==
+
+* Kamas benefit from the [[weapon finesse]] [[feat]].
+* Kamas are the only weapon in NWN that allow [[monk]]s to retain their special [[unarmed base attack bonus]] and the use of their [[flurry of blows]] feat. (These are the only two instances in which kamas receive special treatment in the hands of monks, though.)

@@ -1,0 +1,14 @@
+'''Ammunition''' refers to [[item]]s that are consumed by [[ranged weapon]]s for every [[attack roll]] that is made. 
+There are three types of ammunition &mdash; [[arrow]]s, [[bolt]]s, and [[bullet]]s &mdash; for [[bow]]s, [[crossbow]]s, and [[sling]]s, respectively. 
+Equipping ammunition replaces an attack roll if done in combat.
+
+If a character tries to use a ranged weapon without appropriate ammunition equipped, the game will automatically equip some, if any is available. (If none is available, the character stays in combat, but stops attacking as long as the ranged weapon is equipped.) This causes the character to lose one attack "action" unless it is the start of combat.
+The automatically-equipped ammunition is chosen somewhat randomly from what the creature possesses, so players may want to keep an eye on their current ammunition (possibly via a [[quickslot]]) so that powerful ammunition is not wasted on weak opponents (or vice versa). 
+This selection can be influenced, as the most recently moved item tends to be picked, but due to vagaries in the game engine, this is not a fully reliable method.
+
+Some ranged weapons have an [[unlimited ammunition]] property. If such a weapon is equipped, no ammunition of the associated type is required to use that weapon. In fact, no such ammunition can even be equipped at the same time as such a weapon.
+
+The [[Toolset]] lists ammunition in the [[ammunition blueprint category]].
+
+'''See also:''' [[:Category:Ammunition]]
+[[Category:Weapons| Ammunition]]

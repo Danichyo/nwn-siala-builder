@@ -1,0 +1,33 @@
+{{Grimoire spell|imagename=Is crgrund.gif
+|spellname=Create Greater Undead
+|casterlevel=[[Cleric]] 8, [[Grimoire domains#Domains to be added|Pestilence]] 8, [[Sorcerer]] / [[Wizard (class)|Wizard]] 8, [[Undeath domain (grimoire)|Undeath]] 8
+|innatelevel=8
+|school=[[Necromancy]]
+|descriptors=Evil
+|components=V, S
+|range=Short
+|immunities=None
+|savingthrow=None
+|spellresistance=No
+|targettype=Single
+|duration=Permanent
+|description=The caster brings a powerful undead creature into being. The type of undead is based upon the caster's level:}}
+{|border="1"
+|'''Caster Level'''||'''Type'''
+|-
+|Under level 15||Mummy
+|-
+|16-17||Spectre
+|-
+|18-19||Vampire
+|-
+|20+||Vampire Mage
+|}
+
+Certain types of undead, such as liches, cannot be created by this spell.  Such undead are created in other, very specific ways.  Created undead are not automatically under the control of their animator.  You may attempt to command the undead as it forms.
+
+== Notes ==
+*{{Grimoire spell change|pagename=[[Create greater undead]]}}
+{{g_clr}}
+{{g_sorwiz}}
+{{g_undeath}}

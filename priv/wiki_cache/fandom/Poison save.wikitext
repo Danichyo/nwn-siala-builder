@@ -1,0 +1,11 @@
+{{feat
+|type=class
+|prereq=[[assassin]] 2
+|desc=Starting at second level, an assassin gains a natural [[saving throw]] bonus to all [[poison]]s of +1 for every 2 [[class level|level]]s.
+|use=automatic
+|icon=ife_x1poissav.gif
+|class=assassin
+}}
+
+==Notes==
+*Added in the [[expansion pack]]s.

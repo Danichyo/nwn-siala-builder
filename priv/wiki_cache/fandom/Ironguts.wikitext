@@ -1,0 +1,21 @@
+{{spell
+|icon=is_x2ironguts.gif
+|magelevel=1
+|innatelevel=1
+|school=[[abjuration]]
+|components=VS
+|range=t
+|area=creature touched
+|save=none
+|spellresistance=no
+|immunity=poison resistance
+|duration=10 minutes / level
+|desc=When touched, the target creature gains a +4 circumstance bonus on [[fortitude]] saves against all [[poison]]s.}}
+
+==Notes==
+*Requires [[Hordes of the Underdark]].
+
+==Custom content notes==
+*''script:'' <code>X2_S0_Ironguts.nss</code>
+==External links==
+* {{FRW}}

@@ -1,0 +1,23 @@
+{{spell
+|icon=is_bless.gif
+|clericlevel=1
+|paladinlevel=1
+|innatelevel=1
+|school=[[enchantment]]
+|components=VS
+|range=l
+|area=colossal
+|save=harmless
+|spellresistance=no
+|immunity=mind-affecting
+|duration=1 [[turn]] / level
+|counters=[[bane]]
+|desc=All allies within the [[area of effect]] gain a +1 bonus to [[attack roll]]s, along with a +1 bonus on [[will]] saves against [[frightened|fear]].}}
+
+== Notes ==
+* When ''bless'' is cast on crossbow [[bolt]]s, it adds a temporary [[blessed bolt]] item property (also known as "on-hit: slay rakshasa"), which will instantly kill any [[rakshasa]] hit by the bolts.
+*The bonus to attack provided by this spell counts towards the +20 [[attack bonus cap]].
+*This spell always targets the caster instead of the selected target. (A fix for this is available on the Vault<sup>[http://nwvault.ign.com/View.php?view=Scripts.Detail&id=3739]</sup>.)
+
+== Custom content notes ==
+*''script:'' <code>NW_S0_Bless</code>

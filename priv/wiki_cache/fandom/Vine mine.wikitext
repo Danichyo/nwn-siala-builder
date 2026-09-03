@@ -1,0 +1,54 @@
+[[Image:Is x2vinemine.gif|right|Vine mine]]
+[[Image:Is x2vinemcam.gif|right|Vine mine, camouflage]]
+[[Image:Is x2vinement.gif|right|Vine mine, entangle]]
+[[Image:Is x2vinemhmp.gif|right|Vine mine, hamper movement]]
+{{spell
+|druidlevel=5
+|innatelevel=5 (''special'')
+|school=[[conjuration]]
+|components=VS
+|range=m
+|area=<strike>huge</strike> large (5 [[meter]] radius)
+|save=yes (entangle)
+|spellresistance=yes
+|immunity=nature
+|duration=1 [[turn]] / level
+|desc=When casting ''vine mine'', the caster must select one of the following effects that will be created in the targeted area:
+* [[entangle]] (as [[entangle (spell)|the spell]])
+* hamper movement (movement speed is halved)
+* camouflage (add +4 competence bonus on [[hide]] checks)
+}}
+
+==Notes==
+*Requires [[Hordes of the Underdark]].
+* Creatures with [[woodland stride]] are protected from all negative effects, but due to a bug, [[incorporeal]] creatures are not.
+* The spell schools for the sub-spells are conjuration for ''camouflage'' and ''hamper movement'' and [[transmutation]] for ''entangle''.
+* While ''vine mine'' officially has an innate level of 5, each of the subspells that can be cast have an innate level of 1.
+* [[Extend spell]] has no effect on any of the sub-spells.
+* The ''entangle'' variant has a duration of one round per caster level.
+** It can cause multiple entangle effects to be applied simultaneously, inhibiting spell-casting more than the normal spell would (''a bug'').
+** Sometimes, the [[dexterity]] is permanently left at 3 after the entangle effects have been removed (''a bug'').
+* The ''camouflage'' variant acts as a 6 meter radius area of effect granting the +4 bonus to any ally that remains in it.
+** The affected region is darkened, allowing all players to know where a hidden creature might prefer to be.
+* The ''hamper movement'' variant's speed decrease is applied on enter and cumulatively each round. However, only one instance of the speed decrease is removed when exiting the area of effect (''a bug'').
+
+==Custom content notes==
+
+'''Vine mine, camouflage:'''
+*''main script:'' <code>X2_S0_VineMCam</code>
+*''OnEnter script:'' <code>X2_S0_VineMCamA</code>
+*''OnExit script:'' <code>X2_S0_VineMCamB</code>
+
+'''Vine mine, entangle:'''
+*''main script:'' <code>X2_S0_VineMEnt</code>
+*''OnExit script:'' <code>X2_S0_VineMEntB</code>
+*''OnHearbeat script:'' <code>X2_S0_VineMEntC</code>
+
+'''Vine mine, hamper movement:'''
+*''main script:'' <code>X2_S0_VineMHmp</code>
+*''OnEnter script:'' <code>X2_S0_VineMHmpA</code>
+*''OnExit script:'' <code>X2_S0_VineMHmpB</code>
+*''OnHearbeat script:'' <code>X2_S0_VineMHmpC</code>
+==External links==
+* {{FRW}}
+* {{NWN2W|Vine Mine}}

@@ -1,0 +1,31 @@
+[[Image:Isk spellcraft.gif|right|Spellcraft]]
+'''Spellcraft''' is used to identify [[spell]]s and to perform [[counterspell]].
+*'''Ability''': [[intelligence]]
+
+*'''Classes''': [[bard]], [[cleric]], [[druid]], [[pale master]], [[red dragon disciple]], [[sorcerer]], [[wizard]]
+
+*'''[[Cross-class skill|Cross-class]]''': yes
+
+*'''[[untrained skill check|Requires training]]''': yes
+
+*'''Check''': A successful check means that your character has identified a spell being cast by an opponent. The [[difficulty class]] of this check is equal to 15 + [[spell level]]. The character also gains a +1 bonus for every 5 [[rank]]s in this skill to all [[saving throw]]s against spells.
+
+*'''Special''': A specialist wizard gets a +2 bonus when dealing with a spell from his specialized [[spell school|school]]. As well, a successful spellcraft check is required before your character can attempt to counterspell. The specialist wizard suffers a -5 penalty when dealing with a spell or effect from a prohibited school.
+
+*'''Use''': Spellcraft checks are automatic whenever a spell is cast nearby.
+
+== Notes ==
+
+* [[Epic spell]]s are automatically identified when they are cast; no spellcraft check is used for them.
+* The maximum useful spellcraft level for identifying spells is nominally 23 (as the maximum DC is 15 + 9 = 24), but it goes up to 28 if dealing with a prohibited school.
+*Unlike with other skills (such as the [[armor class|AC]] bonus from [[tumble]]), the saving throw bonus is based on fully modified ranks (not base ranks). Hence [[epic skill focus]] in spellcraft grants a +2 bonus to all saving throws against spells.
+*A negative spellcraft &ndash; such as when a [[curse song]] lowers your skills &ndash; will provide a penalty for saving throws against spells (-1 for each -5 points). However, since spellcraft [[untrained skill check|requires training]], the penalty will only occur if the player has at least one [[rank]] in spellcraft. For example, if a character who put no [[skill point]]s into spellcraft is cursed for -6 points, they will receive no penalty, since they're not trained in spellcraft and can't use it. If a character that has 1 rank in the skill is cursed for -6 points, they will get -1 saves versus spells.
+* The maximum useful spellcraft level for saving throw bonuses is nominally 100, as the bonus counts toward the +20 cap on saving throw bonuses. (The maximum benefit may be achieved earlier if other bonuses apply.) However, this goes up to 105 if dealing with a prohibited school.
+*The modifier to saving throws against spells does not help against most spells with a duration, such as [[storm of vengeance]], [[grease]], and [[combust]].
+*The modifier to saving throws is used for more than just spells. It also applies against most monster and item abilities (specifically, everything defined in [[spells.2da]]).
+
+== Builder notes ==
+
+* Saves made outside a spell impact script will only use this bonus if the saving throw type is set to SAVING_THROW_TYPE_SPELL.
+[[category:skills]]
+[[category:skills that require training]]

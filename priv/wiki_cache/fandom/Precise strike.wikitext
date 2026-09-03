@@ -1,0 +1,12 @@
+'''Type of feat''': [[Class]]
+
+'''Prerequisite''': [[Duelist]] level 5
+
+'''Specifics''': The Duelist adds +1d4 bonus damage per 5 class levels to any light piercing [[weapon]] wielded in the main hand. 
+
+'''Use''':  Automatic
+
+==Notes==
+*Added in the [[PRC Expansion Pack]].
+
+[[Category:PRC feats]]

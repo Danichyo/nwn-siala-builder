@@ -1,0 +1,29 @@
+{{otheruses|the epic spell|the prerequisite feat|Epic spell: epic mage armor}}
+
+{{spell
+|icon=Ife_x2spmagarm.gif
+|magelevel=epic
+|innatelevel=10
+|school=[[necromancy]]
+|components=VS
+|range=p
+|area=caster
+|duration=1 [[hour]] / level
+|line=Mage armors
+|line1=mage armor
+|line10=epic mage armor
+|desc=The caster gets a +20 [[armor class]] bonus.
+|spellcraft=26}}
+
+== Notes ==
+
+*Requires [[Hordes of the Underdark]].
+*The bonus granted by this spell consists of +5 [[deflection bonus]], +5 [[dodge bonus]], +5 [[armor bonus]], and +5 [[natural armor bonus]]. The deflection, armor, and natural bonuses do not [[stack]] with bonuses of the same type.
+** The sole type of armor class bonus not granted by this spell is a [[shield bonus]].
+* This spell often has no effect other than the +5 dodge bonus, due to epic characters frequently possessing +5 or better equipment. However, a character who [[polymorph]]s after casting this spell usually benefits from the full +20 as item bonuses are lost during arcane polymorphs.
+
+'''See also:''' ''[[epic warding]]'' (the other epic defensive spell)
+
+== Custom content notes ==
+
+*''script:'' <code>X2_S2_EpMageArm</code>

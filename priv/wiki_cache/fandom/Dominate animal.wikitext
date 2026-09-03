@@ -1,0 +1,30 @@
+{{spell
+|icon=is_doman.gif
+|druidlevel=3
+|innatelevel=3
+|school=[[enchantment]]
+|components=VS
+|range=m
+|area=single
+|save=[[will]] negates
+|spellresistance=yes
+|immunity=mind-affecting
+|duration=3 [[round]]s + 1 / level
+|counters=<del>[[clarity]]</del>
+|line=Domination
+|line3=dominate animal
+|line4=dominate person
+|line7=control undead
+|line9=dominate monster
+|desc=The target [[animal]] temporarily becomes a [[dominated|faithful and loyal]] [[associate|servant]] of the caster.}}
+
+== Notes ==
+
+* Animal merchants under the influence of this spell will suffer a -20 penalty to their opposed [[appraise]] check (if they make one) when opening their store. This usually means that prices are adjusted 20% (of the item's value) in the PC's favor.
+* This spell produces the same result (plus the merchant adjustment) as the [[animal empathy]] skill. The main differences lie in range (medium vs. touch), duration (rounds vs. [[turn]]s), and the chance of success ([[saving throw]] vs. [[skill check]]). In addition, the skill can target a wider array of creatures (animals, beasts, and magical beasts), but has a chance of making the target hostile.
+* Dominated creatures increase the [[party size penalty]] for [[experience point]]s.
+*Due to a .2da bug, ''dominate animal'' is not an additional [[counterspell]] of ''clarity''.
+
+== Custom content notes ==
+
+*''script:'' <code>NW_S0_DomAn</code>

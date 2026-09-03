@@ -1,0 +1,30 @@
+{{spell
+|icon=is_masheal.gif
+|clericlevel=8
+|druidlevel=9
+|innatelevel=8
+|school=[[conjuration]]
+|components=VS
+|range=t
+|area=<s>large</s> ''{{AoE|medium}}''
+|save=none
+|spellresistance=yes
+|duration=instant
+|line=Cure wounds
+|line0=cure minor wounds
+|line1=cure light wounds
+|line2=cure moderate wounds
+|line3=cure serious wounds
+|line4=cure critical wounds
+|line5=healing circle
+|line6=heal (spell)
+|line8=mass heal
+|desc=All allies within the area of effect are restored to full [[hit point]]s. Healing spells have a reverse effect on [[undead]], harming instead of healing them (undead are reduced to 1[[d4]] hit points with this spell).}}
+
+== Notes ==
+
+* In order to harm undead, the undead must be not [[PvP setting#Reactions|friendly]] and the caster must succeed with a ranged [[touch attack]]. If the attack succeeds, this spell inflicts [[positive energy damage]].
+* This spell's description lists its area of effect as "large" when it is in fact "medium". It is possible that this is a bug in the implementation; compare with ''[[healing circle]]''.
+
+== Custom content notes ==
+* ''script:'' <code>NW_S0_MasHeal</code>

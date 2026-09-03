@@ -1,0 +1,7 @@
+'''Racial feats''' are [[feat]]s that are given to a [[player character]] at character creation on the basis of that character's [[race]]. Depending on the context, this might or might not include [[spell focus]], for while spell focus in illusion is given to gnomes at character creation, that feat is more commonly a [[general feat]].
+
+== See also ==
+
+* [[:Category:Racial feats]]
+
+[[category:feats| Racial feat]]

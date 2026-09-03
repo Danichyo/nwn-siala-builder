@@ -1,0 +1,17 @@
+{{feat
+|type=class
+|prereq=[[shadowdancer]] 3
+|desc=Once per day the shadowdancer may inflict an illusory [[dazed|daze]] upon a target. This daze lasts for 5 [[round]]s.
+|use=selected
+|icon=ife_x1sdaze.gif
+|class=shadowdancer
+}}
+
+== Notes ==
+* Added in the [[expansion pack]]s.
+* This feat allows a [[will]] [[saving throw]] versus [[Mind-affecting|mind effects]] to negate the effect, with a [[difficulty class|DC]] of 10 + shadowdancer level + Dexterity Modifier.
+*Despite what might be implied by the description, the ability is not an [[illusion]] spell.
+* This ability can be used at {{range|l}} range.
+
+== Custom content notes ==
+*''script:'' <code>x0_S2_Daze</code>

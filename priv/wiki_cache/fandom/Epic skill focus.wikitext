@@ -1,0 +1,63 @@
+{| border= 0 cellpadding=2
+!width=50|
+!width=50|
+!width=50|
+!width=50|
+!width=50|
+!width=50|
+!width=50|
+|-
+|[[Image:Ife x2epskfanem.gif|right|Epic skill focus (animal empathy)]]
+|[[Image:Ife x2epskfappr.gif|right|Epic skill focus (appraise)]]
+|[[Image:Ife x2esfbluf.gif  |right|Epic skill focus (bluff)]]
+|[[Image:Ife x2epskfconc.gif|right|Epic skill focus (concentration)]]
+|[[Image:Ife x2esfcrar.gif  |right|Epic skill focus (craft armor)]]
+|[[Image:Ife x2epskfcrtr.gif|right|Epic skill focus (craft trap)]]
+|[[Image:Ife x2esfcrwp.gif  |right|Epic skill focus (craft weapon)]]
+|-
+|[[Image:Ife x2epskfdstr.gif|right|Epic skill focus (disable trap)]]
+|[[Image:Ife x2epskfdisc.gif|right|Epic skill focus (discipline)]]
+|[[Image:Ife x2epskfheal.gif|right|Epic skill focus (heal)]]
+|[[Image:Ife x2epskfhide.gif|right|Epic skill focus (hide)]]
+|[[Image:Ife x2esfinti.gif  |right|Epic skill focus (intimidate)]]
+|[[Image:Ife x2epskflist.gif|right|Epic skill focus (listen)]]
+|[[Image:Ife x2epskflore.gif|right|Epic skill focus (lore)]]
+|-
+|[[Image:Ife x2epskfmosi.gif|right|Epic skill focus (move silently)]]
+|[[Image:Ife x2epskfoplo.gif|right|Epic skill focus (open lock)]]
+|[[Image:Ife x2epskfparr.gif|right|Epic skill focus (parry)]]
+|[[Image:Ife x2epskfperf.gif|right|Epic skill focus (perform)]]
+|[[Image:Ife x2epskfpers.gif|right|Epic skill focus (persuade)]]
+|[[Image:Ife x2epskfpkpt.gif|right|Epic skill focus (pick pocket)]]
+|[[Image:Ife x2epskfsear.gif|right|Epic skill focus (search)]]
+|-
+|[[Image:Ife x2epskfsttr.gif|right|Epic skill focus (set trap)]]
+|[[Image:Ife x2epskfspcr.gif|right|Epic skill focus (spellcraft)]]
+|[[Image:Ife x2epskfspot.gif|right|Epic skill focus (spot)]]
+|[[Image:Ife x2epskftaun.gif|right|Epic skill focus (taunt)]]
+|[[Image:Ife x2epskftumb.gif|right|Epic skill focus (tumble)]]
+|[[Image:Ife x2epskfusde.gif|right|Epic skill focus (use magic device)]]
+|}
+{{feat
+|epic=yes
+|type=general
+|prereq=21st level, 20 [[skill rank|rank]]s in the chosen skill
+|desc=The character gains a +10 bonus on all [[skill check]]s with the chosen [[skill]].
+|use=automatic
+|bonus1=assassin
+|bonus2=bard
+|bonus3=Harper scout
+|bonus4=rogue
+|bonus5=shadowdancer
+}}
+
+==Notes==
+*Requires [[Hordes of the Underdark]].
+*There is no ''epic skill focus'' in [[ride]].
+*This feat [[stack]]s with [[skill focus]].
+* ''Epic skill focus'' in a skill that is class-restricted (that does not allow [[cross-class skill|cross-class]] training) is also class-restricted, and the restrictions for the feat almost match those for the skill. ''Epic skill focus'' in [[animal empathy]] can be taken only when gaining a [[druid]], [[ranger]], or [[shifter]] level. ''Epic skill focus'' in [[perform]] can be taken only when gaining a [[bard]] level. ''Epic skill focus'' in [[use magic device]] can be taken only when gaining a [[bard]] or [[rogue]], or [[shadowdancer]] level (this would match the class restrictions on this skill if "shadowdancer" was replaced by "[[assassin]]").
+* ''Epic skill focus'' in ''use magic device'' cannot be selected as a rogue [[bonus feat]], but otherwise bonus feat availability matches [[general feat]] availability.
+
+==Custom content notes==
+* The class restrictions on ''epic skill focus'' in ''animal empathy'', ''perform'', and ''use magic device'' are implemented by removing those variants from the general feat list and adding them to the feat lists for the allowed classes. Consequentially, a custom class must have those variants in its feat list in order for them to be available as [[general feat]]s.
+[[category:feats restricted by class, epic]]

@@ -1,0 +1,38 @@
+[[Image:Is divine.gif|right|Divination]]
+
+Spells from the '''divination''' [[spell school]] are capable of looking forward in time to anticipate what will happen next. Although mostly useful for gathering information, several divination spells help the caster in combat situations.
+
+'''Prohibited school:''' [[illusion]]<br />
+'''Prohibited to:''' necromancers
+
+== Spells ==
+
+The divination spells are the following, organized by [[innate level]].
+All of these can be cast by [[wizard]]s (other than necromancers).
+
+<u>Level 1</u>
+*[[True strike]]
+
+<u>Level 2</u>
+*[[Identify]]
+*[[See invisibility]]
+
+<u>Level 3</u>
+*[[Clairaudience/clairvoyance]]
+*[[Find traps]]
+*[[Remove blindness/deafness]]
+
+<u>Level 5</u>
+*[[Feeblemind]]
+*[[Legend lore]]
+*[[True seeing (spell)|True seeing]]
+
+<u>Level 7</u>
+*[[Power word, stun]]
+
+<u>Level 8</u>
+*[[Premonition]]
+
+<u>Level 9</u>
+*[[Power word, kill]]
+[[Category:Spell schools]]

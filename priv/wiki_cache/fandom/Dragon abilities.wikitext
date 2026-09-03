@@ -1,0 +1,31 @@
+{{feat
+|type=class
+|prereq=[[red dragon disciple]] 2
+|desc=As the dragon disciple gains [[class level|level]]s in this [[prestige class]], his [[ability]] scores increase by the following table:
+{{{!}}border=0 style="margin:-2ex 2em 0ex"
+ {{!}}-
+   {{!}} Level {{!}}{{!}}&nbsp;
+ {{!}}-
+   {{!}} 2: {{!}}{{!}} +2 to [[strength]]
+ {{!}}-
+   {{!}} 4: {{!}}{{!}} +2 to strength
+ {{!}}-
+   {{!}} 7: {{!}}{{!}} +2 to [[constitution]]
+ {{!}}-
+   {{!}} 9: {{!}}{{!}} +2 to [[intelligence]]
+ {{!}}-
+   {{!}}10: {{!}}{{!}} +4 to strength, +2 to [[charisma]]
+{{!}}}
+|use=automatic
+|icon=ife x2ddarmor.gif
+|class1=red dragon disciple
+}}
+
+==Notes==
+*Requires [[Hordes of the Underdark]].
+*The increase to Intelligence ''does'' apply increased skill point gain for the 9th level of Red Dragon Disciple, which if taken as soon as possible (14th Character Level) results in 27 extra skill points as of character level 40.
+
+==Custom content notes==
+* While this feat can be given to another class, the ability increases depend upon levels in red dragon disciple.
+* If this feat is denied to red dragon disciples at level 2, the ability increases will be granted retroactively if this feat is obtained later.
+* If this feat is not acquired ''before'' taking a ninth level in red dragon disciple, the character will not be given wings.

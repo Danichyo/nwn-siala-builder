@@ -1,0 +1,13 @@
+{{feat
+|type=general
+|prereq=[[base attack bonus]] +2
+|desc=The character is able to reload so quickly that she gets the same [[attacks per round|number of attack]]s with any [[crossbow]] as she would if she was using a normal [[bow]].
+|use=automatic
+|icon=ife_x1raprel.gif
+}}
+
+== Notes ==
+*Added in the [[expansion pack]]s.
+
+===Previous versions===
+*Prior to version 1.69, this feat gave one extra attack per round (no more and no less), despite the in-game description.

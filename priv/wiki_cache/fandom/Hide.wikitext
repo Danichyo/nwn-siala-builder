@@ -1,0 +1,20 @@
+[[Image:Isk hide.gif|right|Hide]]
+This skill allows a character to hide from enemies.
+* '''Ability''': [[dexterity]]
+
+* '''Classes''': [[arcane archer]], [[assassin]], [[bard]], [[Harper scout]], [[monk]], [[pale master]], [[ranger]], [[rogue]], [[shifter]], [[shadowdancer]]
+
+* '''[[Cross-class skill|Cross-class]]''': yes
+
+* '''[[untrained skill check|Requires training]]''': no
+
+*'''Check''': The character must succeed at an opposed test against a searching creature's [[spot]] check. Success means that the character goes undetected.
+
+* '''Special''': The hide and [[move silently]] skills combine into a single [[stealth]] action. Movement in stealth mode is slower than the normal rate. [[Armor check penalty|Wearing armor]] or using a [[torch]] inhibits this ability, but low light can provide a bonus. A character in stealth mode is harder to spot if standing still, and if his [[small stature|stature is small]].
+
+* '''Use''': Select the stealth action from the Special Abilities [[radial menu|radial]]. Opposed spot and [[listen]] rolls are made once per [[round]], where applicable.
+
+==Notes==
+*Invisible characters do not automatically enter stealth mode.
+* For factors affecting a character's ability to successfully use this skill, see [[spot]]. In brief, hiding is easier when standing still and harder (at night) when carrying a light.
+[[Category:skills]]

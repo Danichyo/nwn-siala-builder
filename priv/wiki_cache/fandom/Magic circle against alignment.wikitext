@@ -1,0 +1,42 @@
+[[image:is_protcircl.gif|right|Magic circle against alignment]]
+[[image:is_circevil.gif|right|Magic circle against evil]]
+[[image:is_circgood.gif|right|Magic circle against good]]
+{{spell
+|bardlevel=3
+|clericlevel=3
+|paladinlevel=3
+|magelevel=3
+|innatelevel=3
+|school=[[abjuration]]
+|components=VS
+|range=t
+|area=medium
+|areanote=, around a single creature
+|save=harmless
+|spellresistance=no
+|duration=1 [[hour]] / level
+|line=Alignment protection
+|line1=protection from alignment
+|line3=magic circle against alignment
+|line8=aura versus alignment
+|desc=When this spell is cast, the caster chooses to be protected from either [[good]] or [[evil]]. The spell target and all allies within 10 feet receive a +2 [[deflection bonus]] to [[armor class]], +2 to all [[saving throw]]s, and immunity to any [[mind-affecting]] spells and spell-like abilities used by creatures of the chosen [[alignment]].}}
+
+== Notes ==
+
+*Clarification: Allies only gain these bonuses as long as they stay within 10 feet of the target. Leaving this area immediately removes the bonuses and reentering the area reapplies them.
+*The bonus granted to saving throws stacks with the bonus granted by [[protection from alignment]].
+*This spell is subject to the mobile area of effect bug, in which an area of effect can lag behind the character it is attached to, allowing that character to actually exit the area of effect if moving fast enough. This results in the spell ending prematurely. (A fix for this is available on the Vault<sup>[http://nwvault.ign.com/View.php?view=Scripts.Detail&id=3739]</sup>.)
+* If a [[potion]] of this spell is made (typically via ''[[brew potion]]''), and if that potion is fed to an [[associate]], then the ''against evil'' variant is automatically chosen.
+
+== Custom content notes ==
+'''Circle against evil:'''
+*''primary script:'' <code>NW_S0_CircEvil</code>
+*''OnEnter script:'' <code>NW_S0_CircEvilA</code>
+*''OnExit script:'' <code>NW_S0_CircEvilB</code>
+
+'''Circle against good:'''
+*''primary script:'' <code>NW_S0_CircGood</code>
+*''OnEnter script:'' <code>NW_S0_CircGoodA</code>
+*''OnExit script:'' <code>NW_S0_CircGoodB</code>
+==External links==
+*{{FRW}}

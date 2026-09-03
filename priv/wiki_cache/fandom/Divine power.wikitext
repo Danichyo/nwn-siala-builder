@@ -1,0 +1,30 @@
+{{spell
+|icon=is_divpower.gif
+|clericlevel=4
+|domain=strength
+|domainlevel=3
+|innatelevel=4
+|school=[[evocation]]
+|components=VS
+|range=p
+|area=caster
+|save=harmless
+|spellresistance=none
+|duration=1 [[round]] / level
+|desc=The caster gains the following bonuses: 1 extra [[hit point]] per caster level, [[strength]] is raised to 18 (if their strength is already 18 or higher, it is not raised further), and [[base attack bonus]] improves to that of a [[fighter]] of the same level.}}
+
+==Notes==
+
+* This spell will remove earlier castings of itself. Re-casting this spell before an earlier casting has expired is ill-advised, as it often results in losing the strength bonus (the current strength is calculated with the earlier casting still in effect; see the next note).
+* The strength bonus is dependent on the current (modified) strength. Thus, it is optimal to cast this spell before increasing strength through other means (e.g. ''[[bull's strength]]'' or items).
+*Base attack bonus improves to that of a fighter of the same ''character'' level; caster level is ignored for this aspect of the spell. For example, this spell grants any level 14 character the base attack bonus of a level 14 fighter (i.e. +14/+9/+4), regardless of that character's classes and class levels.
+* Extra attacks per round can be gained by the increased base attack bonus (BAB). The number of extra attacks is determined by the usual progression based on the improved BAB, but each of the extra attacks will be [[free attack]]s (starting at full base attack). For example, a level 16 cleric (with a normal BAB of +12/+7/+2) will have, upon casting this spell, base attacks of +16/+11/+6/+16. These additional attacks do not show up on the [[character sheet]].
+*The increase in base attack bonus is a simulation, so the increase counts towards the +20 [[attack bonus cap]].
+* The bonus hit points are implemented as [[temporary hit point]]s, and any pre-existing temporary hit points are removed when this spell is cast to prevent [[stack]]ing. (A version of this spell that removes only temporary hit points from earlier castings of ''divine power'' is available on the Vault<sup>[http://nwvault.ign.com/View.php?view=Scripts.Detail&id=3739]</sup>.)
+
+=== Previous versions ===
+
+* Prior to the 1.68 patch, the extra attacks were all at full base attack. In version 1.68 (only), they followed a -5 progression, but started at 5 less than the last normal attack.
+
+== Custom content notes ==
+*''script:'' <code>NW_S0_DivPower</code>

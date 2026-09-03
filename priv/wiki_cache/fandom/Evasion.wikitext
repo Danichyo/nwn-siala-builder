@@ -1,0 +1,24 @@
+{{feat
+|type=class
+|prereq=[[monk]] 1, [[rogue]] 2, [[shadowdancer]] 2
+|desc=Whenever a [[reflex]] [[save]] is allowed for half damage, the character instead takes no damage if he succeeds at the save.
+|use=automatic
+|icon=ife_evade.gif
+|class1=monk
+|class2=rogue
+|class3=shadowdancer
+}}
+
+==Builder notes==
+'''Item feat:''' No, but it can be added with custom content.
+
+*In order to respect this feat, [[script]]s for custom [[trap]]s and [[spell]]s should use the function [[GetReflexAdjustedDamage]]() if a reflex save for half damage is allowed.
+
+==Custom content notes==
+'''Removable:''' yes
+
+'''Reusable:''' yes
+
+'''Script:''' Use the function [[GetReflexAdjustedDamage]]() in scripts that allow a save for half damage.
+
+*This feat can be added to [[iprp_feats.2da]] to make it available as an item feat.

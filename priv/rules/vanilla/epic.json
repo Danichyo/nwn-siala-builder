@@ -1,0 +1,612 @@
+{
+  "ruleset": "vanilla",
+  "epic_starts_at_character_level": 21,
+  "character_level_cap": 40,
+  "status": "parsed",
+  "epic_attack_bonus": {
+    "table": [
+      {
+        "character_level": 21,
+        "bonus": 1
+      },
+      {
+        "character_level": 23,
+        "bonus": 2
+      },
+      {
+        "character_level": 25,
+        "bonus": 3
+      },
+      {
+        "character_level": 27,
+        "bonus": 4
+      },
+      {
+        "character_level": 29,
+        "bonus": 5
+      },
+      {
+        "character_level": 31,
+        "bonus": 6
+      },
+      {
+        "character_level": 33,
+        "bonus": 7
+      },
+      {
+        "character_level": 35,
+        "bonus": 8
+      },
+      {
+        "character_level": 37,
+        "bonus": 9
+      },
+      {
+        "character_level": 39,
+        "bonus": 10
+      }
+    ],
+    "levels": [
+      21,
+      23,
+      25,
+      27,
+      29,
+      31,
+      33,
+      35,
+      37,
+      39
+    ],
+    "level_step": 2,
+    "bonus_step": 1,
+    "parity": "odd",
+    "first_level": 21,
+    "last_level_in_source": 39,
+    "max_bonus_in_source": 10,
+    "added_to_base_attack_at_character_level": 20,
+    "class_levels_after_20_add_base_attack": false,
+    "at_character_level_41": null,
+    "rule_raw": "After level 20, base attack increases at every odd character level regardless of class. (This is similar to how [[base save]]s progress after level 20.) Especially when converting to a base attack bonus, it is useful to think of these increases as an \"epic attack bonus\" that is added to whatever the base attack was at level 20, as epic BAB is the BAB at level 20 plus this same epic attack bonus (with no additional attacks per round granted).",
+    "class_order_raw": "This means that an [[epic character]]'s base attack may depend on the order in which classes were taken. For example, a character taking 20 fighter levels then 20 wizard levels would have a base attack of 30 (and four attacks per round), while a character taking 20 wizard levels then 20 fighter levels would have a base attack of 20 (and two attacks per round).",
+    "note": "Added to the base attack the character had at level 20; it is not a class progression. Fandom's table ends at level 39 because vanilla caps at 40, so what Siala's level 41 grants is unknown.",
+    "sources": [
+      {
+        "wiki": "fandom",
+        "page": "Base attack",
+        "revid": 54725,
+        "fetched": "2026-08-01"
+      }
+    ],
+    "status": "parsed",
+    "conflict_note": null
+  },
+  "epic_save_bonus": {
+    "table": [
+      {
+        "character_level": 22,
+        "bonus": 1
+      },
+      {
+        "character_level": 24,
+        "bonus": 2
+      },
+      {
+        "character_level": 26,
+        "bonus": 3
+      },
+      {
+        "character_level": 28,
+        "bonus": 4
+      },
+      {
+        "character_level": 30,
+        "bonus": 5
+      },
+      {
+        "character_level": 32,
+        "bonus": 6
+      },
+      {
+        "character_level": 34,
+        "bonus": 7
+      },
+      {
+        "character_level": 36,
+        "bonus": 8
+      },
+      {
+        "character_level": 38,
+        "bonus": 9
+      },
+      {
+        "character_level": 40,
+        "bonus": 10
+      }
+    ],
+    "levels": [
+      22,
+      24,
+      26,
+      28,
+      30,
+      32,
+      34,
+      36,
+      38,
+      40
+    ],
+    "level_step": 2,
+    "bonus_step": 1,
+    "parity": "even",
+    "first_level": 22,
+    "last_level_in_source": 40,
+    "max_bonus_in_source": 10,
+    "applies_to": [
+      "fortitude",
+      "reflex",
+      "will"
+    ],
+    "added_to_base_saves_at_character_level": 20,
+    "class_levels_after_20_add_base_saves": false,
+    "at_character_level_41": null,
+    "rule_raw": "After a character reaches (character) level 20, his base saves cease being affected by which classes advance in level. Instead, all three base saves increase +1 at each even ''character'' level (starting at level 22). Thus, an [[epic character]]'s base saves are determined by both his character level and his class levels at level 20. (This is similar to how the [[base attack bonus]] is calculated for epic characters. See also [[epic progression]].)",
+    "multiclass_raw": "To receive the base save benefits of multiclassing, the additional classes must be taken prior to character level 21.",
+    "note": "Added to the base saves the character had at level 20, so an epic character's base saves depend on both character level and the class split at level 20 — including the +2 a class grants at its own first level, which is why a class picked up in the epics adds nothing. Fandom's table ends at level 40, so what Siala's level 41 grants is unknown.",
+    "sources": [
+      {
+        "wiki": "fandom",
+        "page": "Base save",
+        "revid": 51666,
+        "fetched": "2026-08-01"
+      }
+    ],
+    "status": "parsed",
+    "conflict_note": null
+  },
+  "attacks_per_round": {
+    "epic_bonus_adds_attacks": false,
+    "determined_by_bab_at_character_level": 20,
+    "same_for_monk_unarmed": true,
+    "attacks_per_round_raw": "Even though BAB continue to increase at epic levels, a character's maximum number of attacks is determined by his or her BAB at [[character level]] 20.",
+    "base_attack_bonus_raw": "In either case, though, additional attacks are not gained after level 20. The bonuses continue to increase, but the number of bonuses is fixed at what it was at level 20.",
+    "unarmed_raw": "As with the regular BAB, this special UBAB is based upon the base attack achieved at level 20 for [[epic character]]s.",
+    "sources": [
+      {
+        "wiki": "fandom",
+        "page": "Attacks per round",
+        "revid": 52042,
+        "fetched": "2026-08-01"
+      },
+      {
+        "wiki": "fandom",
+        "page": "Base attack bonus",
+        "revid": 55325,
+        "fetched": "2026-08-01"
+      },
+      {
+        "wiki": "fandom",
+        "page": "Unarmed base attack bonus",
+        "revid": 51673,
+        "fetched": "2026-08-01"
+      }
+    ],
+    "status": "parsed",
+    "conflict_note": null
+  },
+  "general_feats": {
+    "pre_epic_levels": [
+      1,
+      3,
+      6,
+      9,
+      12,
+      15,
+      18
+    ],
+    "epic_levels": [
+      21,
+      24,
+      27,
+      30,
+      33,
+      36,
+      39
+    ],
+    "every_n_levels": 3,
+    "continues_pre_epic_cadence": true,
+    "total_by_character_level_40": 14,
+    "at_character_level_41": null,
+    "rule_raw": "The first general feat is chosen at character creation, and additional ones are gained with every three character levels (levels 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, and 39), for a total of 14 general feats. In addition, the choices for a [[human]]'s racial bonus feat are exactly all general feats, so humans effectively get 15 general feats by level 40.",
+    "note": "General feats come from character level and are separate from class bonus feat slots; the one at level 1 comes from character creation, not from the every-three-levels cadence. The source enumerates them only up to level 39.",
+    "sources": [
+      {
+        "wiki": "fandom",
+        "page": "Level progression",
+        "revid": 51665,
+        "fetched": "2026-08-01"
+      },
+      {
+        "wiki": "fandom",
+        "page": "General feat",
+        "revid": 63124,
+        "fetched": "2026-08-01"
+      }
+    ],
+    "status": "parsed",
+    "conflict_note": null
+  },
+  "ability_increases": {
+    "pre_epic_levels": [
+      4,
+      8,
+      12,
+      16,
+      20
+    ],
+    "epic_levels": [
+      24,
+      28,
+      32,
+      36,
+      40
+    ],
+    "every_n_levels": 4,
+    "continues_pre_epic_cadence": true,
+    "total_by_character_level_40": 10,
+    "at_character_level_41": null,
+    "rule_raw": "Player characters are assigned ability scores from 8 to 18, before applying any [[racial modifier]]s, at character creation through a [[point buy]] system. In addition, every four [[character level]]s a single ability score [[level progression|can be increased by one]]. Furthermore, certain feats ([[dragon abilities]] of [[red dragon disciple]]s and the \"great ability\" [[epic feat]]s) can increase base scores.",
+    "note": "The source enumerates ability increases only up to level 40.",
+    "sources": [
+      {
+        "wiki": "fandom",
+        "page": "Level progression",
+        "revid": 51665,
+        "fetched": "2026-08-01"
+      },
+      {
+        "wiki": "fandom",
+        "page": "Ability score",
+        "revid": 71148,
+        "fetched": "2026-08-01"
+      }
+    ],
+    "status": "parsed",
+    "conflict_note": null
+  },
+  "skill_ranks": {
+    "max_rank_formula": "character_level + 3",
+    "cross_class_max_rank_formula": "floor(max_rank / 2)",
+    "unchanged_in_epic": true,
+    "verified_for_character_levels": 40,
+    "at_character_level_41": null,
+    "class_skill_raw": "The maximum number of ranks a class skill can be raised to is character level plus three,",
+    "cross_class_skill_raw": "while the maximum for a cross-class skill is half this number, rounded down.",
+    "note": "Per-level values are in `level_table`. The source tabulates rank caps only up to level 40.",
+    "sources": [
+      {
+        "wiki": "fandom",
+        "page": "Level progression",
+        "revid": 51665,
+        "fetched": "2026-08-01"
+      },
+      {
+        "wiki": "fandom",
+        "page": "Skill point",
+        "revid": 55950,
+        "fetched": "2026-08-01"
+      }
+    ],
+    "status": "parsed",
+    "conflict_note": null
+  },
+  "skill_points": {
+    "per_level_raw": "Each class has a number of skill points (from 2 to 8) it receives each [[class level|level]]. To this is added the [[ability modifier|intelligence modifier]], subject to a minimum of 1 skill point, and the sum is quadrupled at [[character level]] 1.",
+    "epic_override": null,
+    "note": "The page states the per-level formula (class value + intelligence modifier, minimum 1, quadrupled at character level 1) with no level bound and says nothing specific about the epics. No epic-specific statement was found on either wiki, which is not evidence that nothing changes.",
+    "sources": [
+      {
+        "wiki": "fandom",
+        "page": "Skill point",
+        "revid": 55950,
+        "fetched": "2026-08-01"
+      }
+    ],
+    "status": "parsed",
+    "conflict_note": null
+  },
+  "hit_points": {
+    "hit_die_source": "class taken at that level",
+    "epic_override": null,
+    "rule_raw": "[[Player character]]s (PCs) gain hit points whenever gaining a level. These hit points can be divided into \"base\" hit points and bonuses. At [[character level]]s 1 through 3, a PC gains base hit points equal to the maximum possible roll of the [[hit die]] associated with the [[class]] being taken. At higher character levels, the number of base hit points gained is equal to a roll of the hit die, but with the provision that rolls under half the maximum are re-rolled. Thus, if a level 3 PC gains a level of [[fighter]], the PC will gain between 5 and 10 base hit points (inclusive).",
+    "note": "The rule is written per character level with no epic clause, and the epic rows of every class page keep quoting the same hit die range (`epic_progression[].hp_raw` in classes.json), so epic levels appear to roll the ordinary class hit die. No page states that in so many words.",
+    "sources": [
+      {
+        "wiki": "fandom",
+        "page": "Hit point",
+        "revid": 62785,
+        "fetched": "2026-08-01"
+      }
+    ],
+    "status": "parsed",
+    "conflict_note": null
+  },
+  "epic_thresholds": {
+    "epic_character_from_character_level": 21,
+    "epic_base_class_from_class_level": 21,
+    "epic_prestige_class_from_class_level": 11,
+    "prestige_11th_level_requires_character_level": 20,
+    "prestige_max_class_level_through_character_level_20": 10,
+    "prestige_max_class_level_in_epics": null,
+    "never_epic": [
+      "harper_scout",
+      "purple_dragon_knight"
+    ],
+    "never_epic_max_class_level": 5,
+    "epic_character_raw": "Characters become epic characters once they have gained 21 levels. At this point any feats can be taken from the [[epic feat]]s list.",
+    "epic_class_raw": "To become epic with a specific [[class]] the character must have 21 levels for a base class, or 11 levels for a [[prestige class]]. However, the 11th level of a prestige class cannot be taken unless the character has a total of 20 levels already.",
+    "never_epic_raw": "[[Harper scout]]s and [[purple dragon knight]]s are only able to attain five levels and may never become epic in the Harper scout or purple dragon knight class.",
+    "prestige_class_raw": "Prestige classes are limited to 10 [[class level]]s through [[character level]] 20. Starting with character level 21, prestige classes can advance beyond level 10 (at which point they are considered [[epic class]]es) with no further limitations.",
+    "note": "Vanilla puts no cap on prestige levels past character level 20 beyond the character level cap itself, hence the null. Siala differs — `41-ый уровень` says a prestige class may be taken to level 31 — but that is the shard override layer's business, not this file's.",
+    "sources": [
+      {
+        "wiki": "fandom",
+        "page": "Epic character",
+        "revid": 40910,
+        "fetched": "2026-08-01"
+      },
+      {
+        "wiki": "fandom",
+        "page": "Epic class",
+        "revid": 40911,
+        "fetched": "2026-08-01"
+      },
+      {
+        "wiki": "fandom",
+        "page": "Prestige class",
+        "revid": 66794,
+        "fetched": "2026-08-01"
+      }
+    ],
+    "status": "parsed",
+    "conflict_note": null
+  },
+  "class_epic_bonus_feats": {
+    "per_class": "priv/rules/vanilla/classes.json → epic_bonus_feat_levels",
+    "rule_raw": "An '''epic bonus feat''' is a bonus feat choice obtained because of an [[epic class]] level. These are significant in that few classes receive any pre-determined [[class feat]]s at epic levels, while all epic classes gain a choice of bonus feats at regular levels. (This is the reverse of pre-epic levels, when few classes receive a choice of bonus feats, but most do receive pre-determined class feats.)",
+    "note": "Epic bonus feats are the one epic benefit that is class-based, and they are already parsed per class off the class pages, so they are not duplicated here. Mechanically they behave like any other bonus feat and draw on the same single per-class list.",
+    "sources": [
+      {
+        "wiki": "fandom",
+        "page": "Bonus feat",
+        "revid": 51664,
+        "fetched": "2026-08-01"
+      }
+    ],
+    "status": "parsed",
+    "conflict_note": null
+  },
+  "level_table": {
+    "first_character_level": 21,
+    "last_character_level": 40,
+    "rows": [
+      {
+        "character_level": 21,
+        "required_xp": 210000,
+        "epic_attack_bonus": 1,
+        "epic_save_bonus": 0,
+        "max_skill_rank": 24,
+        "cross_class_max_rank": 12,
+        "general_feat": 8,
+        "ability_increase": null
+      },
+      {
+        "character_level": 22,
+        "required_xp": 231000,
+        "epic_attack_bonus": 1,
+        "epic_save_bonus": 1,
+        "max_skill_rank": 25,
+        "cross_class_max_rank": 12,
+        "general_feat": null,
+        "ability_increase": null
+      },
+      {
+        "character_level": 23,
+        "required_xp": 253000,
+        "epic_attack_bonus": 2,
+        "epic_save_bonus": 1,
+        "max_skill_rank": 26,
+        "cross_class_max_rank": 13,
+        "general_feat": null,
+        "ability_increase": null
+      },
+      {
+        "character_level": 24,
+        "required_xp": 276000,
+        "epic_attack_bonus": 2,
+        "epic_save_bonus": 2,
+        "max_skill_rank": 27,
+        "cross_class_max_rank": 13,
+        "general_feat": 9,
+        "ability_increase": 6
+      },
+      {
+        "character_level": 25,
+        "required_xp": 300000,
+        "epic_attack_bonus": 3,
+        "epic_save_bonus": 2,
+        "max_skill_rank": 28,
+        "cross_class_max_rank": 14,
+        "general_feat": null,
+        "ability_increase": null
+      },
+      {
+        "character_level": 26,
+        "required_xp": 325000,
+        "epic_attack_bonus": 3,
+        "epic_save_bonus": 3,
+        "max_skill_rank": 29,
+        "cross_class_max_rank": 14,
+        "general_feat": null,
+        "ability_increase": null
+      },
+      {
+        "character_level": 27,
+        "required_xp": 351000,
+        "epic_attack_bonus": 4,
+        "epic_save_bonus": 3,
+        "max_skill_rank": 30,
+        "cross_class_max_rank": 15,
+        "general_feat": 10,
+        "ability_increase": null
+      },
+      {
+        "character_level": 28,
+        "required_xp": 378000,
+        "epic_attack_bonus": 4,
+        "epic_save_bonus": 4,
+        "max_skill_rank": 31,
+        "cross_class_max_rank": 15,
+        "general_feat": null,
+        "ability_increase": 7
+      },
+      {
+        "character_level": 29,
+        "required_xp": 406000,
+        "epic_attack_bonus": 5,
+        "epic_save_bonus": 4,
+        "max_skill_rank": 32,
+        "cross_class_max_rank": 16,
+        "general_feat": null,
+        "ability_increase": null
+      },
+      {
+        "character_level": 30,
+        "required_xp": 435000,
+        "epic_attack_bonus": 5,
+        "epic_save_bonus": 5,
+        "max_skill_rank": 33,
+        "cross_class_max_rank": 16,
+        "general_feat": 11,
+        "ability_increase": null
+      },
+      {
+        "character_level": 31,
+        "required_xp": 465000,
+        "epic_attack_bonus": 6,
+        "epic_save_bonus": 5,
+        "max_skill_rank": 34,
+        "cross_class_max_rank": 17,
+        "general_feat": null,
+        "ability_increase": null
+      },
+      {
+        "character_level": 32,
+        "required_xp": 496000,
+        "epic_attack_bonus": 6,
+        "epic_save_bonus": 6,
+        "max_skill_rank": 35,
+        "cross_class_max_rank": 17,
+        "general_feat": null,
+        "ability_increase": 8
+      },
+      {
+        "character_level": 33,
+        "required_xp": 528000,
+        "epic_attack_bonus": 7,
+        "epic_save_bonus": 6,
+        "max_skill_rank": 36,
+        "cross_class_max_rank": 18,
+        "general_feat": 12,
+        "ability_increase": null
+      },
+      {
+        "character_level": 34,
+        "required_xp": 561000,
+        "epic_attack_bonus": 7,
+        "epic_save_bonus": 7,
+        "max_skill_rank": 37,
+        "cross_class_max_rank": 18,
+        "general_feat": null,
+        "ability_increase": null
+      },
+      {
+        "character_level": 35,
+        "required_xp": 595000,
+        "epic_attack_bonus": 8,
+        "epic_save_bonus": 7,
+        "max_skill_rank": 38,
+        "cross_class_max_rank": 19,
+        "general_feat": null,
+        "ability_increase": null
+      },
+      {
+        "character_level": 36,
+        "required_xp": 630000,
+        "epic_attack_bonus": 8,
+        "epic_save_bonus": 8,
+        "max_skill_rank": 39,
+        "cross_class_max_rank": 19,
+        "general_feat": 13,
+        "ability_increase": 9
+      },
+      {
+        "character_level": 37,
+        "required_xp": 666000,
+        "epic_attack_bonus": 9,
+        "epic_save_bonus": 8,
+        "max_skill_rank": 40,
+        "cross_class_max_rank": 20,
+        "general_feat": null,
+        "ability_increase": null
+      },
+      {
+        "character_level": 38,
+        "required_xp": 703000,
+        "epic_attack_bonus": 9,
+        "epic_save_bonus": 9,
+        "max_skill_rank": 41,
+        "cross_class_max_rank": 20,
+        "general_feat": null,
+        "ability_increase": null
+      },
+      {
+        "character_level": 39,
+        "required_xp": 741000,
+        "epic_attack_bonus": 10,
+        "epic_save_bonus": 9,
+        "max_skill_rank": 42,
+        "cross_class_max_rank": 21,
+        "general_feat": 14,
+        "ability_increase": null
+      },
+      {
+        "character_level": 40,
+        "required_xp": 780000,
+        "epic_attack_bonus": 10,
+        "epic_save_bonus": 10,
+        "max_skill_rank": 43,
+        "cross_class_max_rank": 21,
+        "general_feat": null,
+        "ability_increase": 10
+      }
+    ],
+    "sources": [
+      {
+        "wiki": "fandom",
+        "page": "Level progression",
+        "revid": 51665,
+        "fetched": "2026-08-01"
+      }
+    ],
+    "status": "parsed",
+    "conflict_note": null
+  },
+  "open_questions": [
+    "Character level 41 — Siala's cap — is outside every Fandom table: whether it grants +1 epic attack bonus, a general feat, an ability increase or a higher skill rank cap is unknown. Only the shard admins or an in-game character sheet can answer it.",
+    "Whether skill points per level change in the epics is stated nowhere on either wiki.",
+    "That epic hit points roll the ordinary class hit die is implied by the class tables but never stated outright.",
+    "Siala's `41-ый уровень` raises the prestige class cap to 31 levels and defines a \"pure\" level-41 caster; those are shard overrides and belong in a siala_41 layer, which does not exist yet.",
+    "Siala's wiki says nothing at all about epic attack, saves, feats, skill or ability progression, so everything in this file is assumed to hold there unchanged."
+  ]
+}

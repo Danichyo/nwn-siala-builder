@@ -1,0 +1,31 @@
+'''Уровень Заклинателя:''' Колдун / Волшебник 4
+
+'''Начальный Уровень:''' 4
+
+'''Школа:''' Некромантия (Necromancy)
+
+'''Дескриптор(ы):''' Негативная энергия
+
+'''Компонент(ы):''' Вербальные, Жестовые
+
+'''Расстояние до Цели:''' Короткое
+
+'''Область Охвата / Цель:''' Одиночная
+
+'''Продолжительность:''' 1 Час / Уровень
+
+'''Спасбросок:''' Стойкость (Fortitude)
+
+'''Сопротивление Заклинанию:''' Да
+
+Пораженное создание временно теряет 1d8 уровня (Больше 8 уровней у цели вытянуть нельзя).
+
+<u>Бледный мастер:</u> Уровень в классе учитывается для определения силы заклинания. Кроме того, дц заклинания увеличивается на количество уровней в классе.
+
+== Общее ==
+*Заклинания: [https:////nwn.fandom.com/wiki/Death_ward Death ward], [https://nwn.fandom.com/wiki/Shadow_shield Shadow shield], [https://nwn.fandom.com/wiki/Undeath's_eternal_foe Undeath's eternal foe], [https://nwn.fandom.com/wiki/Negative_energy_protection Negative energy protection], [https://nwn.fandom.com/wiki/Protection_from_alignment Protection from alignment] - спасают цель от наложения эффекта.
+
+== Ссылки ==
+*[https://nwn.fandom.com/wiki/Enervation Enervation в англоязычной вики]
+
+[[Категория:Заклинания]]

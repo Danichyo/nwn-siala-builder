@@ -1,0 +1,70 @@
+{{Weapon|imagefile=Dire mace.jpg
+  |weaponname=Dire mace
+  |weapondescription=The '''dire mace''' is an attempt to combine the versatility of the [[quarterstaff]] with the striking power of the [[mace]].
+  |weight=20
+  |cost=40
+  |damage=1d8/1d8
+  |critical=x2
+  |damagetype=[[bludgeoning damage|bludgeoning]]
+  |size=large
+  |proficiency=[[weapon proficiency (exotic)|exotic]]
+  |category=[[Category:Double-sided weapons]][[Category:Exotic weapons]][[Category:Blunt weapons]]
+}}
+
+== Notes ==
+* The dire mace is a [[double-sided weapon]]. As such, using it is implicitly [[dual-wield]]ing, with main hand attacks receiving the full strength [[modifier]] added to damage while off-hand attacks get half that.
+
+== Toolset ==
+* Dire maces are listed under the [[double-sided blueprint category]] of the [[item palette]] in the [[Toolset]].
+
+== Ardulia's Fall ==
+Ardulia the Agile was a man whose speed and skill at knife play made him exceptionally lethal in battle, and he repeatedly proved it by leading raids on settlements along the [[Sword Coast]]. He would often challenge the village leader for possession of the town, and with his speed, the duels were always quickly decided in his favor. Ardulia met his match one spring morn however, when he battled the priest Itgan, who wielded this mace. Ardulia seemed to stagger under each blow, slowing his pace to recoup and regain his breath. Without his speed, Ardulia was lost, and fell to the measured attacks of Itgan.
+
+*[[Enhancement bonus]]: +2
+*[[On-hit]]: [[slow]] ([[difficulty class|DC]]=14) (25% / 3 [[round]]s)
+*[[Item level restriction|Required level]]: 10
+
+== Ebon Dire Mace ==
+Coarse tracings of the [[orc]] gods mark these weapons as indelicate, to say the least. They are deeply ridged, viciously effective, and all too common at the forefront of an orc horde. The inclusion of some "blunt magic" makes them debilitating as well as damaging, and a deep muscle bruise from a solid hit can take a fighter to his knees in short measure.
+
+*Enhancement bonus: +1
+*On-hit: [[ability drain]] [[strength]] (DC=14)
+*Required level: 11
+
+== Ironwood Mace +1 ==
+This weapon bears the mark of the dwarf [[Marrok]], Master Blacksmith of [[Neverwinter]]'s Shining Knight Arms and Armor. He forged it early in 1373 DR, to aid the heroes who sought to free his quarantined city from the virulent grasp of the so-called [[Wailing Death]].
+
+*Base item weight reduction: 60%
+*Enhancement bonus: +1
+*Required level: 3
+
+== Ironwood Mace +3 ==
+This weapon bears the mark of the dwarf [[Barun Silverblade|Barun]], a Master Blacksmith who worked from a makeshift forge in the [[Uthgardt]] village of Beorunna's Well. He forged it late in 1373 DR, to aid the war effort against [[Aribeth|Lady Aribeth the Betrayer]], who was then marching against the northern city of Neverwinter and the Lords' Alliance.
+
+*Base item weight reduction: 60%
+*Enhancement bonus: +3
+*Required level: 10
+
+== Ironwood Mace +8 ==
+Legends of this mace being used to crush a dragon’s skull may have been exaggerated by the bard Duss Dorien. According to his "Song of King Ethos", the king was battling a ferocious [[black dragon]] and had lost his spear to the dragon’s thick hide. When the king cried out to [[Torm]], a dire mace appeared in his hands, and Ethos brought it down on the dragon’s head with a very satisfying crunch.
+
+*Base item weight reduction: 60%
+*Enhancement bonus: +8
+*On-hit: [[wounding]] (DC=14)
+*Required level: 23
+
+'''Note:''' Requires [[Hordes of the Underdark]].
+
+== Krotan's Skullcrusher ==
+This mace is permanently bloodstained, a telltale trace of its many years spent bashing heads. The weapon would have been the bane of [[humanoid]]s throughout its history, but those who wielded it seem to have been purposely left out of historic record.
+
+*[[Damage bonus]]: + [[d6]] [[cold damage]] versus [[goblinoid]]s, [[half-orc]]s, and [[orc]]s
+*Enhancement bonus: +1
+*Required level: 7
+
+== Stoutcorps Key ==
+The Stoutcorps mercenary company of Rashemen has a faction that specializes in siege work, though terrain problems in the past have caused them to forego traditional castle-breaching equipment. They prefer muscle power over gadgetry, and boast that three of their finest equipped with these "keys" can breach a wall in moments, though it is by no means a subtle affair. 
+
+*Ability bonus: [[strength]] (+2)
+*Enhancement bonus: +1
+*Required level: 11

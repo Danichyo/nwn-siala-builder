@@ -1,0 +1,2663 @@
+{
+  "_layer": "vanilla",
+  "_generated_by": "mix wiki.parse",
+  "_note": "The 47 weapons a Weapon focus is chosen from — every page in Category:Weapons that carries a {{Weapon}} template. The thirteen that do not (Melee weapon, Weapon size, Sword, Axe, …) are overview articles, and the template is the discriminator instead of a hand-kept list of them. The gate is `selectable`, the domain-wide one: seven feat pages carry an icon strip and all seven name the same 41 variants, so the six weapons outside the strip are outside it for every weapon feat at once, and `Weapon focus` says why in prose («There is no version of this feat for the magic staff or lance»). `weapon_of_choice` carries a NAMED gate on top, because its exclusion is about that one feat: its Notes limit it to melee weapons and exclude four by name. GRIP AS A VANILLA RULE IS DELIBERATELY NOT A FIELD: `Two-handed weapon` defines it as «one category larger than its wielder», so it is a function of two sizes and a per-weapon column would be wrong for gnomes and halflings — the weapon's own `size` is what the wiki states, and the rule sits in `_grip` with its quote. `siala_grip`/`siala_grip_raw` (задача 3.40) are a DIFFERENT fact and ARE fields: Siala's `Система оружия` states a grip outright, for a character of the usual size, for 38 of the 47 — a value the shard's own page prints, not a rule this file derives; see `_siala_grip._note` for the difference and for why it is not the same claim as `_grip`. Damage and critical are recorded because they came off the same template for free (Dan 10.08.2026: «урон … для конструктора не важно, мы это не показываем»); a `threat_range` is filled in only where the field states one, and `damage` only where the value is nothing but NdM.",
+  "_chosen_by": {
+    "feat": "weapon_focus",
+    "gate": "selectable",
+    "available": 41,
+    "total": 47,
+    "excluded": [
+      "bite_item",
+      "claw_item",
+      "gore_item",
+      "lance",
+      "magic_staff",
+      "slam_item"
+    ],
+    "quote": "There is no version of this feat for the [[magic staff]] or [[lance]].",
+    "source": {
+      "wiki": "fandom",
+      "page": "Weapon focus",
+      "revid": 70066,
+      "fetched": "2026-08-01"
+    },
+    "corroborated_by": {
+      "icon_strips": [
+        {
+          "page": "Weapon focus",
+          "variants": 41
+        },
+        {
+          "page": "Weapon specialization",
+          "variants": 41
+        },
+        {
+          "page": "Epic weapon focus",
+          "variants": 41
+        },
+        {
+          "page": "Epic weapon specialization",
+          "variants": 41
+        },
+        {
+          "page": "Improved critical",
+          "variants": 41
+        },
+        {
+          "page": "Overwhelming critical",
+          "variants": 41
+        },
+        {
+          "page": "Devastating critical",
+          "variants": 41
+        }
+      ],
+      "note": "All seven pages name the same 41 variants. `creature` on the four non-epic strips and `creature weapon` on the three epic ones are the same value spelled two ways — the one alias this dictionary carries."
+    }
+  },
+  "_grip": {
+    "_note": "Хват НЕ является свойством оружия и полем записи не сделан сознательно: он функция ДВУХ размеров — оружия и владельца. Длинный меч одноручный у человека и двуручный у карлика, и обе вики говорят это прямо. В записи лежит size (то, что источник утверждает), а правило — здесь, один раз. Считать хват из size и размера расы — дело ядра, как HP считается из хит-дайса и CON, а не лежит числом в данных. ⚠️ Это НЕ единственный факт о хвате в файле: `_siala_grip` ниже — ДРУГОЙ факт, значение (не правило), которое Сиала называет прямо для персонажа обычного размера (задача 3.40). Одно не отменяет другое — см. `_siala_grip._note`. ⚠️ `player_character_sizes` ниже — проза для человека, а НЕ машинный источник: с задачи 3.44 размер расы читается полем `size` в `vanilla/races.json` (small у Карлика и Гоблина, medium у остальных пяти), и эта проза сверяется с ним при каждой сборке (`verify_grip_race_sizes!/1`) — расхождение роняет `mix wiki.parse`, а не расходится молча.\n\n⚠️ `size_order`, `wieldable_steps`, `grip_by_step`, `grip_otherwise` и `grips_using_both_hands` заведены задачей 3.43 — это те же три предложения в машинной форме, ради которой правило и существует: «на одну категорию крупнее» — это ШАГ ПО ПОРЯДКУ, а порядка у четырёх слов нет. Порядок ПРОЧИТАН, а не назначен: это заголовки строк таблицы «Weapons by size and proficiency» сверху вниз (`WeaponPage.size_order/1`), и каждый `size` справочника обязан в нём быть, иначе сборка падает. Ключ `grip_by_step` — смещение по этому порядку (размер оружия минус размер владельца) и хват на нём; `wieldable_steps` — окно, вне которого оружие не взять вовсе.\n\n⚠️ `grip_by_step` отвечает на «сколько рук», а НЕ на «лёгкое ли оно»: лёгкое оружие остаётся одноручным, и это ДВА разных предложения источника, у каждого свой ключ (`grip_by_step` и `light_at_most_step`).\n\n⚠️ Здесь стояло, что `light_when` «осталось прозой — машинной формы у него нет, потому что ядру она не нужна ни для одного числа». Снято задачей 3.132 (28.08.2026): ядру она понадобилась — штраф боя двумя оружиями уменьшается на 2 обеим рукам, если во второй руке лёгкое оружие («Best results are achieved if the off-hand weapon is light», `fandom:Two-weapon fighting`). Это был ПЯТЫЙ случай формы «проза в файле данных правилом не является, пока её кто-нибудь не читает» (CLAUDE.md §9).\n\n⚠️ `light_excludes_property` — вторая половина ТОГО ЖЕ предложения, а не наша оговорка: источник говорит «A **melee** weapon at least one size smaller…», то есть про дальнобойное оружие не утверждает ничего. Свойство названо именем, которое ядро умеет прочитать со справочника (`Rules.Attack.weapon_property_field/1`), и загрузчик роняет сборку на имени, которого оно прочитать не умеет.\n\n⚠️ Оговорка Weapon Finesse `{:assumed, :finessable_weapon}` этим по-прежнему НЕ закрывается, и это не изменилось: справочник не знает «лёгкости для владельца данного размера» в смысле игры — у Finesse оружие перечислено поимённо (`weapon_one_of`), а не выведено из размера.",
+    "two_handed_when": "weapon size is one category larger than the wielder",
+    "light_when": "weapon size is at least one category smaller than the wielder",
+    "light_at_most_step": -1,
+    "light_excludes_property": "ranged",
+    "unwieldable_when": "more than one category larger, or more than two categories smaller, than the wielder",
+    "size_order": [
+      "tiny",
+      "small",
+      "medium",
+      "large"
+    ],
+    "wieldable_steps": {
+      "from": -2,
+      "to": 1
+    },
+    "grip_by_step": {
+      "1": "two_handed"
+    },
+    "grip_otherwise": "one_handed",
+    "grips_using_both_hands": [
+      "two_handed",
+      "double_sided"
+    ],
+    "player_character_sizes": {
+      "medium": "all playable races except gnome and halfling",
+      "small": "gnome and halfling"
+    },
+    "quotes": {
+      "two_handed": "A '''two-handed weapon''' is a [[weapon]] whose [[weapon size]] is one category larger than its wielder.",
+      "two_handed_source": {
+        "wiki": "fandom",
+        "page": "Two-handed weapon",
+        "revid": 64752,
+        "fetched": "2026-08-10"
+      },
+      "grip": "A melee weapon one size larger than the wielder is a [[two-handed weapon]].",
+      "light": "A melee weapon at least one size smaller than the wielder is considered a [[light weapon]].",
+      "wieldable": "A creature can wield any weapon up to one size larger than their own size and down to two sizes smaller than their own size.",
+      "unwieldable": "Weapons more than one size category larger than the wielder are not considered two-handed weapons because they cannot be wielded at all.",
+      "size_source": {
+        "wiki": "fandom",
+        "page": "Weapon size",
+        "revid": 59292,
+        "fetched": "2026-08-10"
+      },
+      "both_hands": "The most significant consequence of this may be the inability to use a [[shield]] while wielding a two-handed weapon.",
+      "double_sided": "They also necessitate a weapon switch if a [[shield]] becomes desired in some circumstances, which could affect the applicability of weapon-specific feats (such as [[weapon focus]]).",
+      "double_sided_source": {
+        "wiki": "fandom",
+        "page": "Double-sided weapon",
+        "revid": 68931,
+        "fetched": "2026-08-10"
+      }
+    }
+  },
+  "_off_hand": {
+    "_note": "В КАКОЙ РУКЕ может оказаться оружие — третий факт этого файла о руках, и он не про размер (задача 3.142). `_grip` отвечает «сколькими руками держат» (функция двух размеров), `_siala_grip` — «что об этом говорит колонка Сиалы»; здесь правило ключуется СВОЙСТВОМ оружия: дальнобойное во вторую руку не кладут, и пока оно в главной — вторая рука для оружия закрыта.\n\n⚠️ Это ДВА независимых запрета в одном предложении, и второй из первого не следует: праща одноручная, вторая рука у неё по хвату свободна. До 30.08.2026 модель разрешала во вторую руку четыре дальнобойных (дротик, сюрикен, пращу, метательный топор), а остальные четыре отбивала двуручностью — то есть совпадением исхода, а не этим правилом. Цена — до +6 бонуса атаки ни за что (+9 у сагровика на 40-м): вторая рука включает свой бонус за тип оружия, и меч с пращой давали щитовой AC и дальнобойный бонус атаки разом.\n\n🔴 `bars_from_off_hand` НЕСЁТ СЛОВО ИСТОЧНИКА, А НЕ НАШЕ ОБОБЩЕНИЕ: «nor can any **weapon** be wielded in the off-hand». Соседнее правило про двуручное оружие та же вики формулирует шире — «they also block equipping **anything** in the off-hand slot» (`fandom:Two-handed weapon`), — и разница между «weapon» и «anything» и есть щит лучника: с пращой он остаётся. Замер Dan 30.08.2026 (`GAME_CHECKS.md` AI2) подтвердил все три половины дословно: «игра дает его надеть только в правую руку. Не смотря на то, что праща — одноручная, взять с ней кинжал либо меч в левую руку нельзя. Но можно взять щит».\n\n⚠️ Занятия второй руки — закрытый список СО СТОРОНЫ ЯДРА (`Rules.Wield.off_hand_occupants/0`): снапшот, назвавший занятие, которое ядро вне второй руки удержать не умеет, роняет сборку. Иначе запрет молча никогда бы не сработал — та самая форма дефекта, ради которой заведена вся эта стража (CLAUDE.md §9).\n\n⚠️ Правило ванильное по источнику и потому действует на ОБА ruleset'а, как и `_grip`. Вики Сиалы о второй руке не говорит ничего; замер показывает, что шард ванильное поведение не трогал.",
+    "property": "ranged",
+    "barred_from_off_hand": true,
+    "bars_from_off_hand": [
+      "weapon"
+    ],
+    "status": "verified",
+    "quotes": {
+      "rule": "No ranged weapon may be wielded in the [[off-hand slot]], nor can any weapon be wielded in the off-hand when a ranged weapon is in the main hand.",
+      "gloss": "That is, [[dual-wield]]ing is not an option with ranged weapons.",
+      "source": {
+        "wiki": "fandom",
+        "page": "Ranged weapon",
+        "revid": 70660,
+        "fetched": "2026-08-10"
+      }
+    },
+    "confirmed_in_game": {
+      "kind": "user",
+      "who": "Dan",
+      "date": "2026-08-30",
+      "case": "AI2",
+      "quote": "игра дает его надеть только в правую руку. Не смотря на то, что праща — одноручная, взять с ней кинжал либо меч в левую руку нельзя. Но можно взять щит"
+    }
+  },
+  "_siala_proficiency": {
+    "_note": "Таксономия ПЯТИ КАТЕГОРИЙ — сиальская, и Fandom на неё не отвечает по построению: Сиала заменила ванильную систему владения оружием целиком. Статус стоит у каждой записи (поле siala_proficiency_group_status). ⚠️ Группу Сиала называет САМА, и дважды: пятью страницами фитов владения и колонкой «Тип оружия» сводной таблицы страницы «Система оружия» — 38 строк, расхождений с нашим назначением ноль. Нашим был только ПЕРЕВОД ИМЕНИ («Полуторные мечи» = Bastard sword), и 16.08.2026 его сверил Dan («Я глянул, вроде перевод подходит»), после чего 30 записей перешли из assumed в verified. verified приходит двумя маршрутами разного качества: ranged (8) — категория Fandom перечисляет тех же восьмерых, то есть таксономии совпали сами; blade/axe/hammer/polearm (30) и lance — сверка Dan, source kind user, перепроверить по ссылке нельзя. null — Сиала не называет оружие ни в одной из пяти категорий; сегодня это ровно пять атак существ, и это находка, а не пустое место.",
+    "taxonomy_correspondence_is_ours": true,
+    "groups": {
+      "axe": {
+        "siala_feat": "siala_axe_proficiency",
+        "weapons_assigned": 6,
+        "weapons_siala_lists": 6,
+        "fandom_category": "Category:Axes",
+        "weapons_in_fandom_category": 6
+      },
+      "blade": {
+        "siala_feat": "siala_blade_proficiency",
+        "weapons_assigned": 9,
+        "weapons_siala_lists": 9,
+        "fandom_category": "Category:Bladed weapons",
+        "weapons_in_fandom_category": 14
+      },
+      "hammer": {
+        "siala_feat": "siala_hammer_proficiency",
+        "weapons_assigned": 7,
+        "weapons_siala_lists": 7,
+        "fandom_category": "Category:Blunt weapons",
+        "weapons_in_fandom_category": 11
+      },
+      "no_proficiency_required": {
+        "siala_feat": null,
+        "weapons_assigned": 4,
+        "weapons_siala_lists": null,
+        "fandom_category": null,
+        "weapons_in_fandom_category": null
+      },
+      "polearm": {
+        "siala_feat": "siala_polearm_proficiency",
+        "weapons_assigned": 8,
+        "weapons_siala_lists": 8,
+        "fandom_category": "Category:Polearms",
+        "weapons_in_fandom_category": 5
+      },
+      "ranged": {
+        "siala_feat": "siala_ranged_proficiency",
+        "weapons_assigned": 8,
+        "weapons_siala_lists": 8,
+        "fandom_category": "Category:Ranged weapons",
+        "weapons_in_fandom_category": 8
+      }
+    },
+    "unassigned": [
+      "bite_item",
+      "claw_item",
+      "creature_weapon",
+      "gore_item",
+      "slam_item"
+    ]
+  },
+  "_siala_grip": {
+    "_note": "«Система оружия»'s sortable table states a grip — одноручное / двуручное / двустороннее, sometimes with a second word after a slash for how it is delivered (метательное \"thrown\", стрелковое \"fired\") — for 38 of the 47 weapons, but ONLY for a character of the usual (medium) size. This is a DIFFERENT fact from `_grip` above: that block is the general vanilla RULE (grip as a function of weapon size against wielder size, with no per-weapon column because a fixed one would be wrong for a gnome or a halfling); this block is what Siala's own page states outright for the common case, as a value rather than a rule. The delivery half of a compound cell (`двуручное/метательное` and the like) is kept verbatim in `siala_grip_raw` but NOT split into a field of its own: it is exactly the `ranged`/`thrown` pair every weapon already carries — checked over all 38 rows by `verify_grip_delivery!/2` (метательное ⇔ ranged and thrown both true, стрелковое ⇔ ranged true and thrown false, no slash at all ⇔ ranged false) — so a second field would only repeat it, and the build fails if it ever stops agreeing. `siala_grip_status` is `assumed` where the Russian row name → our id correspondence is ours, the same convention as `siala_proficiency_group_status`; nine rows are `verified` instead because the same page glosses the English name outright elsewhere on it (§Двуручное оружие, §Комбинированное оружие) — see each weapon's `siala_grip_note`. `null` means the weapon is not on the table at all: a finding (creature items, the club, the lance, the magic staff, the unarmed strike — see `siala_grip_note`), not a gap to fill by resemblance. 1 row — [\"trident\"] — disagree with the matching «Владение …» feat page; each carries `status: \"conflict\"` and both readings in `conflicts`, per CLAUDE.md §3 (a contradiction between two Siala pages is a finding, not a tie to break).",
+    "stated_for_size": "medium",
+    "both_hands_excludes_when": "thrown",
+    "source": {
+      "wiki": "siala",
+      "kind": "wiki",
+      "page": "Система оружия",
+      "revid": 20527,
+      "fetched": "2026-08-01"
+    },
+    "status_counts": {
+      "absent": 9,
+      "assumed": 28,
+      "verified": 10
+    },
+    "conflicts_with_proficiency_pages": [
+      "trident"
+    ],
+    "cross_checked_against": {
+      "pages": [
+        "siala_axe_proficiency",
+        "siala_blade_proficiency",
+        "siala_hammer_proficiency",
+        "siala_polearm_proficiency",
+        "siala_ranged_proficiency"
+      ],
+      "note": "The same 38 grip values, read a second time off the five «Владение …» feat pages `collect_siala_feats/1` already parses, matched weapon-by-weapon and compared by `weapon_grip_lookup!/3` (via `grip_from_proficiency_feats!/2`'s lookup). The build still fails on a STRUCTURAL surprise (a page gone, or the two sources naming a different total count of weapons); a per-weapon VALUE disagreement becomes a `conflict` instead — see `conflicts_with_proficiency_pages`."
+    }
+  },
+  "weapons": [
+    {
+      "id": "bastard_sword",
+      "name": "Bastard sword",
+      "selectable": true,
+      "weapon_of_choice": true,
+      "siala_proficiency_group": "blade",
+      "siala_proficiency_group_status": "verified",
+      "siala_proficiency_group_note": null,
+      "siala_grip": "one_handed",
+      "siala_grip_raw": "одноручное",
+      "siala_grip_status": "assumed",
+      "siala_grip_note": null,
+      "proficiency_category": "exotic",
+      "proficiency_required": true,
+      "proficiency": [
+        "exotic"
+      ],
+      "proficiency_raw": "[[Weapon proficiency (exotic)|exotic]]",
+      "size": "medium",
+      "size_raw": "medium",
+      "size_from_table": "medium",
+      "ranged": false,
+      "thrown": false,
+      "double_sided": false,
+      "damage": {
+        "count": 1,
+        "faces": 10
+      },
+      "damage_raw": "1d10",
+      "threat_range_low": 19,
+      "threat_range_high": 20,
+      "critical_multiplier": 2,
+      "critical_raw": "19-20/x2",
+      "damage_types": [
+        "slashing"
+      ],
+      "damage_type_raw": "[[slashing damage|slashing]]",
+      "categories": [
+        "Category:Bladed weapons",
+        "Category:Exotic weapons",
+        "Category:Weapons"
+      ],
+      "conflicts": [],
+      "status": "parsed",
+      "source": {
+        "wiki": "fandom",
+        "page": "Bastard sword",
+        "revid": 65835,
+        "fetched": "2026-08-10"
+      }
+    },
+    {
+      "id": "battleaxe",
+      "name": "Battleaxe",
+      "selectable": true,
+      "weapon_of_choice": true,
+      "siala_proficiency_group": "axe",
+      "siala_proficiency_group_status": "verified",
+      "siala_proficiency_group_note": null,
+      "siala_grip": "one_handed",
+      "siala_grip_raw": "одноручное",
+      "siala_grip_status": "assumed",
+      "siala_grip_note": null,
+      "proficiency_category": "martial",
+      "proficiency_required": true,
+      "proficiency": [
+        "martial"
+      ],
+      "proficiency_raw": "[[Weapon proficiency (martial)|Martial]]",
+      "size": "medium",
+      "size_raw": "Medium",
+      "size_from_table": "medium",
+      "ranged": false,
+      "thrown": false,
+      "double_sided": false,
+      "damage": {
+        "count": 1,
+        "faces": 8
+      },
+      "damage_raw": "1d8",
+      "threat_range_low": null,
+      "threat_range_high": null,
+      "critical_multiplier": 3,
+      "critical_raw": "x3",
+      "damage_types": [
+        "slashing"
+      ],
+      "damage_type_raw": "[[slashing damage|Slashing]]",
+      "categories": [
+        "Category:Axes",
+        "Category:Martial weapons",
+        "Category:Weapons"
+      ],
+      "conflicts": [],
+      "status": "parsed",
+      "source": {
+        "wiki": "fandom",
+        "page": "Battleaxe",
+        "revid": 58955,
+        "fetched": "2026-08-10"
+      }
+    },
+    {
+      "id": "bite_item",
+      "name": "Bite item",
+      "selectable": false,
+      "weapon_of_choice": false,
+      "siala_proficiency_group": null,
+      "siala_proficiency_group_status": "unknown",
+      "siala_proficiency_group_note": "Creature weapon, not a player's item.",
+      "siala_grip": null,
+      "siala_grip_raw": null,
+      "siala_grip_status": null,
+      "siala_grip_note": "Creature weapon, not a player's item; absent from the table.",
+      "proficiency_category": null,
+      "proficiency_required": true,
+      "proficiency": [
+        "creature"
+      ],
+      "proficiency_raw": "[[Weapon proficiency (creature)|creature]]",
+      "size": "medium",
+      "size_raw": "medium",
+      "size_from_table": null,
+      "ranged": false,
+      "thrown": false,
+      "double_sided": false,
+      "damage": null,
+      "damage_raw": "0",
+      "threat_range_low": 20,
+      "threat_range_high": 20,
+      "critical_multiplier": 2,
+      "critical_raw": "20-20/x2",
+      "damage_types": [
+        "slashing"
+      ],
+      "damage_type_raw": "[[slashing damage|slashing]]",
+      "categories": [
+        "Category:Creature items",
+        "Category:Weapons"
+      ],
+      "conflicts": [],
+      "status": "parsed",
+      "source": {
+        "wiki": "fandom",
+        "page": "Bite item",
+        "revid": 43297,
+        "fetched": "2026-08-10"
+      }
+    },
+    {
+      "id": "claw_item",
+      "name": "Claw item",
+      "selectable": false,
+      "weapon_of_choice": false,
+      "siala_proficiency_group": null,
+      "siala_proficiency_group_status": "unknown",
+      "siala_proficiency_group_note": "Creature weapon, not a player's item.",
+      "siala_grip": null,
+      "siala_grip_raw": null,
+      "siala_grip_status": null,
+      "siala_grip_note": "Creature weapon, not a player's item; absent from the table.",
+      "proficiency_category": null,
+      "proficiency_required": true,
+      "proficiency": [
+        "creature"
+      ],
+      "proficiency_raw": "[[Weapon proficiency (creature)|creature]]",
+      "size": "medium",
+      "size_raw": "medium",
+      "size_from_table": null,
+      "ranged": false,
+      "thrown": false,
+      "double_sided": false,
+      "damage": null,
+      "damage_raw": "0",
+      "threat_range_low": 20,
+      "threat_range_high": 20,
+      "critical_multiplier": 2,
+      "critical_raw": "20-20/x2",
+      "damage_types": [
+        "piercing-slashing"
+      ],
+      "damage_type_raw": "[[piercing-slashing damage|piercing-slashing]]",
+      "categories": [
+        "Category:Creature items",
+        "Category:Weapons"
+      ],
+      "conflicts": [],
+      "status": "parsed",
+      "source": {
+        "wiki": "fandom",
+        "page": "Claw item",
+        "revid": 43299,
+        "fetched": "2026-08-10"
+      }
+    },
+    {
+      "id": "club",
+      "name": "Club",
+      "selectable": true,
+      "weapon_of_choice": true,
+      "siala_proficiency_group": "no_proficiency_required",
+      "siala_proficiency_group_status": "verified",
+      "siala_proficiency_group_note": "⚠️ Siala names the club in NONE of its five proficiency feats — «Владение молотами» lists кнуты, булавы, цепы and молоты and no дубины, and Fandom files it under blunt and simple weapons. That silence read as «unread» until Dan checked the game on 16.08.2026: «club, magic staff и unarmed не требуют фитов, они доступны всем классам на Сиале базово, можно их указывать как доступные без оговорок». The shard's own «Оружие, не требующее фитов» section says the same in prose («это оружие не требует умений»), so the measurement confirms a page nobody had connected to this field.",
+      "siala_grip": null,
+      "siala_grip_raw": null,
+      "siala_grip_status": null,
+      "siala_grip_note": "Absent from the table. «Оружие, не требующее фитов» calls it «среднее оружие» (a SIZE, not a grip) and says it needs no proficiency feat at all — the table states no grip word for it either way.",
+      "proficiency_category": "simple",
+      "proficiency_required": true,
+      "proficiency": [
+        "druid",
+        "monk",
+        "rogue",
+        "simple",
+        "wizard"
+      ],
+      "proficiency_raw": "[[weapon proficiency (druid)|druid]]<br/>&nbsp;[[weapon proficiency (monk)|monk]]<br/>&nbsp;[[weapon proficiency (rogue)|rogue]]<br/>&nbsp;[[weapon proficiency (simple)|simple]]<br/>&nbsp;[[weapon proficiency (wizard)|wizard]]",
+      "size": "medium",
+      "size_raw": "Medium",
+      "size_from_table": "medium",
+      "ranged": false,
+      "thrown": false,
+      "double_sided": false,
+      "damage": {
+        "count": 1,
+        "faces": 6
+      },
+      "damage_raw": "1d6",
+      "threat_range_low": null,
+      "threat_range_high": null,
+      "critical_multiplier": 2,
+      "critical_raw": "x2",
+      "damage_types": [
+        "bludgeoning"
+      ],
+      "damage_type_raw": "[[bludgeoning damage|bludgeoning]]",
+      "categories": [
+        "Category:Blunt weapons",
+        "Category:Simple weapons",
+        "Category:Weapons"
+      ],
+      "conflicts": [],
+      "status": "parsed",
+      "source": {
+        "wiki": "fandom",
+        "page": "Club",
+        "revid": 70967,
+        "fetched": "2026-08-10"
+      }
+    },
+    {
+      "id": "creature_weapon",
+      "name": "Creature weapon",
+      "selectable": true,
+      "weapon_of_choice": false,
+      "siala_proficiency_group": null,
+      "siala_proficiency_group_status": "unknown",
+      "siala_proficiency_group_note": "Creature weapon, not a player's item.",
+      "siala_grip": null,
+      "siala_grip_raw": null,
+      "siala_grip_status": null,
+      "siala_grip_note": "Creature weapon, not a player's item; absent from the table.",
+      "proficiency_category": null,
+      "proficiency_required": true,
+      "proficiency": [
+        "creature"
+      ],
+      "proficiency_raw": "[[Weapon proficiency (creature)|creature]]",
+      "size": null,
+      "size_raw": "n/a",
+      "size_from_table": null,
+      "ranged": false,
+      "thrown": false,
+      "double_sided": false,
+      "damage": null,
+      "damage_raw": "varies",
+      "threat_range_low": 20,
+      "threat_range_high": 20,
+      "critical_multiplier": 2,
+      "critical_raw": "20/x2",
+      "damage_types": [
+        "slashing",
+        "piercing-slashing",
+        "piercing",
+        "bludgeoning"
+      ],
+      "damage_type_raw": "[[slashing damage|slashing]] (bite)<br />\n[[piercing-slashing damage|piercing-slashing]] (claw)<br />\n[[piercing damage|piercing]] (gore)<br />\n[[bludgeoning damage|bludgeoning]] (slam)",
+      "categories": [
+        "Category:Weapons"
+      ],
+      "conflicts": [],
+      "status": "parsed",
+      "source": {
+        "wiki": "fandom",
+        "page": "Creature weapon",
+        "revid": 61391,
+        "fetched": "2026-08-10"
+      }
+    },
+    {
+      "id": "dagger",
+      "name": "Dagger",
+      "selectable": true,
+      "weapon_of_choice": true,
+      "siala_proficiency_group": "blade",
+      "siala_proficiency_group_status": "verified",
+      "siala_proficiency_group_note": null,
+      "siala_grip": "one_handed",
+      "siala_grip_raw": "одноручное",
+      "siala_grip_status": "assumed",
+      "siala_grip_note": null,
+      "proficiency_category": "simple",
+      "proficiency_required": true,
+      "proficiency": [
+        "druid",
+        "monk",
+        "rogue",
+        "simple",
+        "wizard"
+      ],
+      "proficiency_raw": "[[Weapon proficiency (druid)|Druid]]<br/>&nbsp;[[Weapon proficiency (monk)|Monk]]<br/>&nbsp;[[Weapon proficiency (rogue)|Rogue]]<br/>&nbsp;[[Weapon proficiency (simple)|Simple]]<br/>&nbsp;[[Weapon proficiency (wizard)|Wizard]]",
+      "size": "tiny",
+      "size_raw": "Tiny",
+      "size_from_table": "tiny",
+      "ranged": false,
+      "thrown": false,
+      "double_sided": false,
+      "damage": {
+        "count": 1,
+        "faces": 4
+      },
+      "damage_raw": "1d4",
+      "threat_range_low": 19,
+      "threat_range_high": 20,
+      "critical_multiplier": 2,
+      "critical_raw": "19-20/x2",
+      "damage_types": [
+        "piercing"
+      ],
+      "damage_type_raw": "[[piercing damage|Piercing]]",
+      "categories": [
+        "Category:Bladed weapons",
+        "Category:Simple weapons",
+        "Category:Tiny weapons",
+        "Category:Weapons"
+      ],
+      "conflicts": [],
+      "status": "parsed",
+      "source": {
+        "wiki": "fandom",
+        "page": "Dagger",
+        "revid": 67892,
+        "fetched": "2026-08-10"
+      }
+    },
+    {
+      "id": "dart",
+      "name": "Dart",
+      "selectable": true,
+      "weapon_of_choice": false,
+      "siala_proficiency_group": "ranged",
+      "siala_proficiency_group_status": "verified",
+      "siala_proficiency_group_note": null,
+      "siala_grip": "two_handed",
+      "siala_grip_raw": "двуручное/метательное",
+      "siala_grip_status": "assumed",
+      "siala_grip_note": null,
+      "proficiency_category": "simple",
+      "proficiency_required": true,
+      "proficiency": [
+        "druid",
+        "rogue",
+        "simple"
+      ],
+      "proficiency_raw": "[[Weapon proficiency (druid)|Druid]]<br/>&nbsp;[[Weapon proficiency (rogue)|Rogue]]<br/>&nbsp;[[Weapon proficiency (simple)|Simple]]",
+      "size": "tiny",
+      "size_raw": "Tiny",
+      "size_from_table": "tiny",
+      "ranged": true,
+      "thrown": true,
+      "double_sided": false,
+      "damage": {
+        "count": 1,
+        "faces": 4
+      },
+      "damage_raw": "1d4",
+      "threat_range_low": null,
+      "threat_range_high": null,
+      "critical_multiplier": 2,
+      "critical_raw": "x2",
+      "damage_types": [
+        "piercing"
+      ],
+      "damage_type_raw": "[[piercing damage|Piercing]]",
+      "categories": [
+        "Category:Simple weapons",
+        "Category:Throwing weapons",
+        "Category:Tiny weapons",
+        "Category:Weapons"
+      ],
+      "conflicts": [],
+      "status": "parsed",
+      "source": {
+        "wiki": "fandom",
+        "page": "Dart",
+        "revid": 36622,
+        "fetched": "2026-08-10"
+      }
+    },
+    {
+      "id": "dire_mace",
+      "name": "Dire mace",
+      "selectable": true,
+      "weapon_of_choice": true,
+      "siala_proficiency_group": "polearm",
+      "siala_proficiency_group_status": "verified",
+      "siala_proficiency_group_note": "Fandom files it under blunt and double-sided weapons; Siala's «Владение древковым» names двусторонние булавы.",
+      "siala_grip": "double_sided",
+      "siala_grip_raw": "двустороннее",
+      "siala_grip_status": "verified",
+      "siala_grip_note": "«Двусторонняя булава (dire mace)» — раздел «Комбинированное оружие» той же страницы.",
+      "proficiency_category": "exotic",
+      "proficiency_required": true,
+      "proficiency": [
+        "exotic"
+      ],
+      "proficiency_raw": "[[weapon proficiency (exotic)|exotic]]",
+      "size": "large",
+      "size_raw": "large",
+      "size_from_table": "large",
+      "ranged": false,
+      "thrown": false,
+      "double_sided": true,
+      "damage": null,
+      "damage_raw": "1d8/1d8",
+      "threat_range_low": null,
+      "threat_range_high": null,
+      "critical_multiplier": 2,
+      "critical_raw": "x2",
+      "damage_types": [
+        "bludgeoning"
+      ],
+      "damage_type_raw": "[[bludgeoning damage|bludgeoning]]",
+      "categories": [
+        "Category:Blunt weapons",
+        "Category:Double-sided weapons",
+        "Category:Exotic weapons",
+        "Category:Weapons"
+      ],
+      "conflicts": [],
+      "status": "parsed",
+      "source": {
+        "wiki": "fandom",
+        "page": "Dire mace",
+        "revid": 54880,
+        "fetched": "2026-08-10"
+      }
+    },
+    {
+      "id": "double_axe",
+      "name": "Double axe",
+      "selectable": true,
+      "weapon_of_choice": true,
+      "siala_proficiency_group": "polearm",
+      "siala_proficiency_group_status": "verified",
+      "siala_proficiency_group_note": "Fandom files it under axes; Siala's «Владение древковым» names двусторонние топоры.",
+      "siala_grip": "double_sided",
+      "siala_grip_raw": "двустороннее",
+      "siala_grip_status": "verified",
+      "siala_grip_note": "«Двусторонний топор (double axe)» — раздел «Комбинированное оружие» той же страницы.",
+      "proficiency_category": "exotic",
+      "proficiency_required": true,
+      "proficiency": [
+        "exotic"
+      ],
+      "proficiency_raw": "[[weapon proficiency (exotic)|exotic]]",
+      "size": "large",
+      "size_raw": "large",
+      "size_from_table": "large",
+      "ranged": false,
+      "thrown": false,
+      "double_sided": true,
+      "damage": null,
+      "damage_raw": "1d8/1d8",
+      "threat_range_low": null,
+      "threat_range_high": null,
+      "critical_multiplier": 3,
+      "critical_raw": "x3",
+      "damage_types": [
+        "slashing"
+      ],
+      "damage_type_raw": "[[slashing damage|slashing]]",
+      "categories": [
+        "Category:Axes",
+        "Category:Double-sided weapons",
+        "Category:Exotic weapons",
+        "Category:Weapons"
+      ],
+      "conflicts": [],
+      "status": "parsed",
+      "source": {
+        "wiki": "fandom",
+        "page": "Double axe",
+        "revid": 58954,
+        "fetched": "2026-08-10"
+      }
+    },
+    {
+      "id": "dwarven_waraxe",
+      "name": "Dwarven waraxe",
+      "selectable": true,
+      "weapon_of_choice": true,
+      "siala_proficiency_group": "axe",
+      "siala_proficiency_group_status": "verified",
+      "siala_proficiency_group_note": null,
+      "siala_grip": "one_handed",
+      "siala_grip_raw": "одноручное",
+      "siala_grip_status": "assumed",
+      "siala_grip_note": null,
+      "proficiency_category": "exotic",
+      "proficiency_required": true,
+      "proficiency": [
+        "exotic"
+      ],
+      "proficiency_raw": "[[Weapon proficiency (exotic)|Exotic]]",
+      "size": "medium",
+      "size_raw": "Medium",
+      "size_from_table": "medium",
+      "ranged": false,
+      "thrown": false,
+      "double_sided": false,
+      "damage": {
+        "count": 1,
+        "faces": 10
+      },
+      "damage_raw": "1d10",
+      "threat_range_low": null,
+      "threat_range_high": null,
+      "critical_multiplier": 3,
+      "critical_raw": "x3",
+      "damage_types": [
+        "slashing"
+      ],
+      "damage_type_raw": "[[slashing damage|Slashing]]",
+      "categories": [
+        "Category:Axes",
+        "Category:Exotic weapons",
+        "Category:Weapons"
+      ],
+      "conflicts": [],
+      "status": "parsed",
+      "source": {
+        "wiki": "fandom",
+        "page": "Dwarven waraxe",
+        "revid": 49476,
+        "fetched": "2026-08-10"
+      }
+    },
+    {
+      "id": "gore_item",
+      "name": "Gore item",
+      "selectable": false,
+      "weapon_of_choice": false,
+      "siala_proficiency_group": null,
+      "siala_proficiency_group_status": "unknown",
+      "siala_proficiency_group_note": "Creature weapon, not a player's item.",
+      "siala_grip": null,
+      "siala_grip_raw": null,
+      "siala_grip_status": null,
+      "siala_grip_note": "Creature weapon, not a player's item; absent from the table.",
+      "proficiency_category": null,
+      "proficiency_required": true,
+      "proficiency": [
+        "creature"
+      ],
+      "proficiency_raw": "[[Weapon proficiency (creature)|creature]]",
+      "size": "medium",
+      "size_raw": "medium",
+      "size_from_table": null,
+      "ranged": false,
+      "thrown": false,
+      "double_sided": false,
+      "damage": null,
+      "damage_raw": "0",
+      "threat_range_low": 20,
+      "threat_range_high": 20,
+      "critical_multiplier": 2,
+      "critical_raw": "20-20/x2",
+      "damage_types": [
+        "piercing"
+      ],
+      "damage_type_raw": "[[piercing damage|piercing]]",
+      "categories": [
+        "Category:Creature items",
+        "Category:Weapons"
+      ],
+      "conflicts": [],
+      "status": "parsed",
+      "source": {
+        "wiki": "fandom",
+        "page": "Gore item",
+        "revid": 43301,
+        "fetched": "2026-08-10"
+      }
+    },
+    {
+      "id": "greataxe",
+      "name": "Greataxe",
+      "selectable": true,
+      "weapon_of_choice": true,
+      "siala_proficiency_group": "axe",
+      "siala_proficiency_group_status": "verified",
+      "siala_proficiency_group_note": null,
+      "siala_grip": "two_handed",
+      "siala_grip_raw": "двуручное",
+      "siala_grip_status": "verified",
+      "siala_grip_note": "«Великий топор (Greataxe)» — раздел «Двуручное оружие» той же страницы.",
+      "proficiency_category": "martial",
+      "proficiency_required": true,
+      "proficiency": [
+        "martial"
+      ],
+      "proficiency_raw": "[[weapon proficiency (martial)|martial]]",
+      "size": "large",
+      "size_raw": "Large",
+      "size_from_table": "large",
+      "ranged": false,
+      "thrown": false,
+      "double_sided": false,
+      "damage": {
+        "count": 1,
+        "faces": 12
+      },
+      "damage_raw": "1d12",
+      "threat_range_low": null,
+      "threat_range_high": null,
+      "critical_multiplier": 3,
+      "critical_raw": "x3",
+      "damage_types": [
+        "slashing"
+      ],
+      "damage_type_raw": "[[slashing damage|slashing]]",
+      "categories": [
+        "Category:Axes",
+        "Category:Martial weapons",
+        "Category:Weapons"
+      ],
+      "conflicts": [],
+      "status": "parsed",
+      "source": {
+        "wiki": "fandom",
+        "page": "Greataxe",
+        "revid": 54820,
+        "fetched": "2026-08-10"
+      }
+    },
+    {
+      "id": "greatsword",
+      "name": "Greatsword",
+      "selectable": true,
+      "weapon_of_choice": true,
+      "siala_proficiency_group": "blade",
+      "siala_proficiency_group_status": "verified",
+      "siala_proficiency_group_note": null,
+      "siala_grip": "two_handed",
+      "siala_grip_raw": "двуручное",
+      "siala_grip_status": "verified",
+      "siala_grip_note": "«Великий меч (Greatsword)» — раздел «Двуручное оружие» той же страницы.",
+      "proficiency_category": "martial",
+      "proficiency_required": true,
+      "proficiency": [
+        "martial"
+      ],
+      "proficiency_raw": "[[weapon proficiency (martial)|martial]]",
+      "size": "large",
+      "size_raw": "Large",
+      "size_from_table": "large",
+      "ranged": false,
+      "thrown": false,
+      "double_sided": false,
+      "damage": {
+        "count": 2,
+        "faces": 6
+      },
+      "damage_raw": "2d6",
+      "threat_range_low": 19,
+      "threat_range_high": 20,
+      "critical_multiplier": 2,
+      "critical_raw": "19-20/x2",
+      "damage_types": [
+        "slashing"
+      ],
+      "damage_type_raw": "[[slashing damage|slashing]]",
+      "categories": [
+        "Category:Bladed weapons",
+        "Category:Martial weapons",
+        "Category:Weapons"
+      ],
+      "conflicts": [],
+      "status": "parsed",
+      "source": {
+        "wiki": "fandom",
+        "page": "Greatsword",
+        "revid": 66734,
+        "fetched": "2026-08-10"
+      }
+    },
+    {
+      "id": "halberd",
+      "name": "Halberd",
+      "selectable": true,
+      "weapon_of_choice": true,
+      "siala_proficiency_group": "polearm",
+      "siala_proficiency_group_status": "verified",
+      "siala_proficiency_group_note": "Fandom files it under bladed weapons as well as polearms; Siala keeps древковое separate from клинковое.",
+      "siala_grip": "two_handed",
+      "siala_grip_raw": "двуручное",
+      "siala_grip_status": "verified",
+      "siala_grip_note": "«Алебарда (Halberd)» — раздел «Двуручное оружие» той же страницы.",
+      "proficiency_category": "martial",
+      "proficiency_required": true,
+      "proficiency": [
+        "martial"
+      ],
+      "proficiency_raw": "[[Weapon proficiency (martial)|Martial]]",
+      "size": "large",
+      "size_raw": "Large",
+      "size_from_table": "large",
+      "ranged": false,
+      "thrown": false,
+      "double_sided": false,
+      "damage": {
+        "count": 1,
+        "faces": 10
+      },
+      "damage_raw": "1d10",
+      "threat_range_low": null,
+      "threat_range_high": null,
+      "critical_multiplier": 3,
+      "critical_raw": "x3",
+      "damage_types": [
+        "piercing-slashing"
+      ],
+      "damage_type_raw": "[[piercing-slashing damage|Piercing & slashing]]",
+      "categories": [
+        "Category:Bladed weapons",
+        "Category:Martial weapons",
+        "Category:Polearms",
+        "Category:Weapons"
+      ],
+      "conflicts": [],
+      "status": "parsed",
+      "source": {
+        "wiki": "fandom",
+        "page": "Halberd",
+        "revid": 66382,
+        "fetched": "2026-08-10"
+      }
+    },
+    {
+      "id": "handaxe",
+      "name": "Handaxe",
+      "selectable": true,
+      "weapon_of_choice": true,
+      "siala_proficiency_group": "axe",
+      "siala_proficiency_group_status": "verified",
+      "siala_proficiency_group_note": null,
+      "siala_grip": "one_handed",
+      "siala_grip_raw": "одноручное",
+      "siala_grip_status": "assumed",
+      "siala_grip_note": null,
+      "proficiency_category": "martial",
+      "proficiency_required": true,
+      "proficiency": [
+        "martial",
+        "monk",
+        "rogue"
+      ],
+      "proficiency_raw": "[[weapon proficiency (martial)|martial]]<br/> [[weapon proficiency (monk)|monk]]<br/> [[weapon proficiency (rogue)|rogue]]",
+      "size": "small",
+      "size_raw": "Small",
+      "size_from_table": "small",
+      "ranged": false,
+      "thrown": false,
+      "double_sided": false,
+      "damage": {
+        "count": 1,
+        "faces": 6
+      },
+      "damage_raw": "1d6",
+      "threat_range_low": null,
+      "threat_range_high": null,
+      "critical_multiplier": 3,
+      "critical_raw": "x3",
+      "damage_types": [
+        "slashing"
+      ],
+      "damage_type_raw": "[[slashing damage|slashing]]",
+      "categories": [
+        "Category:Axes",
+        "Category:Martial weapons",
+        "Category:Weapons"
+      ],
+      "conflicts": [],
+      "status": "parsed",
+      "source": {
+        "wiki": "fandom",
+        "page": "Handaxe",
+        "revid": 71223,
+        "fetched": "2026-08-10"
+      }
+    },
+    {
+      "id": "heavy_crossbow",
+      "name": "Heavy crossbow",
+      "selectable": true,
+      "weapon_of_choice": false,
+      "siala_proficiency_group": "ranged",
+      "siala_proficiency_group_status": "verified",
+      "siala_proficiency_group_note": null,
+      "siala_grip": "two_handed",
+      "siala_grip_raw": "двуручное/стрелковое",
+      "siala_grip_status": "assumed",
+      "siala_grip_note": null,
+      "proficiency_category": "simple",
+      "proficiency_required": true,
+      "proficiency": [
+        "monk",
+        "rogue",
+        "simple",
+        "wizard"
+      ],
+      "proficiency_raw": "[[weapon proficiency (monk)|monk]]<br/> [[weapon proficiency (rogue)|rogue]]<br/> [[weapon proficiency (simple)|simple]]<br/> [[weapon proficiency (wizard)|wizard]]",
+      "size": "medium",
+      "size_raw": "Medium",
+      "size_from_table": "medium",
+      "ranged": true,
+      "thrown": false,
+      "double_sided": false,
+      "damage": {
+        "count": 1,
+        "faces": 10
+      },
+      "damage_raw": "1d10",
+      "threat_range_low": 19,
+      "threat_range_high": 20,
+      "critical_multiplier": 2,
+      "critical_raw": "19-20/x2",
+      "damage_types": [
+        "piercing"
+      ],
+      "damage_type_raw": "[[piercing damage|piercing]]",
+      "categories": [
+        "Category:Ranged weapons",
+        "Category:Simple weapons",
+        "Category:Weapons"
+      ],
+      "conflicts": [],
+      "status": "parsed",
+      "source": {
+        "wiki": "fandom",
+        "page": "Heavy crossbow",
+        "revid": 50528,
+        "fetched": "2026-08-10"
+      }
+    },
+    {
+      "id": "heavy_flail",
+      "name": "Heavy flail",
+      "selectable": true,
+      "weapon_of_choice": true,
+      "siala_proficiency_group": "hammer",
+      "siala_proficiency_group_status": "verified",
+      "siala_proficiency_group_note": null,
+      "siala_grip": "two_handed",
+      "siala_grip_raw": "двуручное",
+      "siala_grip_status": "verified",
+      "siala_grip_note": "«Тяжелый цеп (Heavy flail)» — раздел «Двуручное оружие» той же страницы.",
+      "proficiency_category": "martial",
+      "proficiency_required": true,
+      "proficiency": [
+        "martial"
+      ],
+      "proficiency_raw": "[[weapon proficiency (martial)|martial]]",
+      "size": "large",
+      "size_raw": "large",
+      "size_from_table": "large",
+      "ranged": false,
+      "thrown": false,
+      "double_sided": false,
+      "damage": {
+        "count": 1,
+        "faces": 10
+      },
+      "damage_raw": "1d10",
+      "threat_range_low": 19,
+      "threat_range_high": 20,
+      "critical_multiplier": 2,
+      "critical_raw": "19-20/x2",
+      "damage_types": [
+        "bludgeoning"
+      ],
+      "damage_type_raw": "[[bludgeoning damage|bludgeoning]]",
+      "categories": [
+        "Category:Blunt weapons",
+        "Category:Martial weapons",
+        "Category:Weapons"
+      ],
+      "conflicts": [],
+      "status": "parsed",
+      "source": {
+        "wiki": "fandom",
+        "page": "Heavy flail",
+        "revid": 66739,
+        "fetched": "2026-08-10"
+      }
+    },
+    {
+      "id": "kama",
+      "name": "Kama",
+      "selectable": true,
+      "weapon_of_choice": true,
+      "siala_proficiency_group": "axe",
+      "siala_proficiency_group_status": "verified",
+      "siala_proficiency_group_note": "Fandom files the kama under bladed and exotic weapons; Siala's «Владение топорами» names камы.",
+      "siala_grip": "one_handed",
+      "siala_grip_raw": "одноручное",
+      "siala_grip_status": "assumed",
+      "siala_grip_note": null,
+      "proficiency_category": "exotic",
+      "proficiency_required": true,
+      "proficiency": [
+        "exotic",
+        "monk"
+      ],
+      "proficiency_raw": "[[Weapon proficiency (exotic)|Exotic]]<br/>&nbsp;[[Weapon proficiency (monk)|Monk]]",
+      "size": "small",
+      "size_raw": "Small",
+      "size_from_table": "small",
+      "ranged": false,
+      "thrown": false,
+      "double_sided": false,
+      "damage": {
+        "count": 1,
+        "faces": 6
+      },
+      "damage_raw": "1d6",
+      "threat_range_low": null,
+      "threat_range_high": null,
+      "critical_multiplier": 2,
+      "critical_raw": "x2",
+      "damage_types": [
+        "slashing"
+      ],
+      "damage_type_raw": "[[slashing damage|Slashing]]",
+      "categories": [
+        "Category:Bladed weapons",
+        "Category:Exotic weapons",
+        "Category:Weapons"
+      ],
+      "conflicts": [],
+      "status": "parsed",
+      "source": {
+        "wiki": "fandom",
+        "page": "Kama",
+        "revid": 68575,
+        "fetched": "2026-08-10"
+      }
+    },
+    {
+      "id": "katana",
+      "name": "Katana",
+      "selectable": true,
+      "weapon_of_choice": true,
+      "siala_proficiency_group": "blade",
+      "siala_proficiency_group_status": "verified",
+      "siala_proficiency_group_note": null,
+      "siala_grip": "one_handed",
+      "siala_grip_raw": "одноручное",
+      "siala_grip_status": "assumed",
+      "siala_grip_note": null,
+      "proficiency_category": "exotic",
+      "proficiency_required": true,
+      "proficiency": [
+        "exotic"
+      ],
+      "proficiency_raw": "[[weapon proficiency (exotic)|exotic]]",
+      "size": "medium",
+      "size_raw": "Medium",
+      "size_from_table": "medium",
+      "ranged": false,
+      "thrown": false,
+      "double_sided": false,
+      "damage": {
+        "count": 1,
+        "faces": 10
+      },
+      "damage_raw": "1d10",
+      "threat_range_low": 19,
+      "threat_range_high": 20,
+      "critical_multiplier": 2,
+      "critical_raw": "19-20/x2",
+      "damage_types": [
+        "slashing"
+      ],
+      "damage_type_raw": "[[slashing damage|slashing]]",
+      "categories": [
+        "Category:Bladed weapons",
+        "Category:Exotic weapons",
+        "Category:Weapons"
+      ],
+      "conflicts": [],
+      "status": "parsed",
+      "source": {
+        "wiki": "fandom",
+        "page": "Katana",
+        "revid": 70933,
+        "fetched": "2026-08-10"
+      }
+    },
+    {
+      "id": "kukri",
+      "name": "Kukri",
+      "selectable": true,
+      "weapon_of_choice": true,
+      "siala_proficiency_group": "blade",
+      "siala_proficiency_group_status": "verified",
+      "siala_proficiency_group_note": null,
+      "siala_grip": "one_handed",
+      "siala_grip_raw": "одноручное",
+      "siala_grip_status": "assumed",
+      "siala_grip_note": null,
+      "proficiency_category": "exotic",
+      "proficiency_required": true,
+      "proficiency": [
+        "exotic"
+      ],
+      "proficiency_raw": "[[Weapon proficiency (exotic)|Exotic]]",
+      "size": "tiny",
+      "size_raw": "Tiny",
+      "size_from_table": "tiny",
+      "ranged": false,
+      "thrown": false,
+      "double_sided": false,
+      "damage": {
+        "count": 1,
+        "faces": 4
+      },
+      "damage_raw": "1d4",
+      "threat_range_low": 18,
+      "threat_range_high": 20,
+      "critical_multiplier": 2,
+      "critical_raw": "18-20/x2",
+      "damage_types": [
+        "slashing"
+      ],
+      "damage_type_raw": "[[slashing damage|Slashing]]",
+      "categories": [
+        "Category:Bladed weapons",
+        "Category:Exotic weapons",
+        "Category:Tiny weapons",
+        "Category:Weapons"
+      ],
+      "conflicts": [],
+      "status": "parsed",
+      "source": {
+        "wiki": "fandom",
+        "page": "Kukri",
+        "revid": 71108,
+        "fetched": "2026-08-10"
+      }
+    },
+    {
+      "id": "lance",
+      "name": "Lance",
+      "selectable": false,
+      "weapon_of_choice": false,
+      "siala_proficiency_group": "no_proficiency_required",
+      "siala_proficiency_group_status": "verified",
+      "siala_proficiency_group_note": "Fandom states `proficiency=none` and «This item is not supported by feats». No Siala page mentions the lance at all — and Dan confirmed on 16.08.2026 that the shard has no such weapon («нет такого на Сиале»), so there is no Siala group to be unread about. `overrides.json` → `weapons.absent_on_shard` keeps it out of the Siala list; the vanilla ruleset still offers it, and there its proficiency answer comes off the Fandom page directly.",
+      "siala_grip": null,
+      "siala_grip_raw": null,
+      "siala_grip_status": null,
+      "siala_grip_note": "Absent from the table; no Siala page names the lance at all.",
+      "proficiency_category": null,
+      "proficiency_required": false,
+      "proficiency": [],
+      "proficiency_raw": "none",
+      "size": "small",
+      "size_raw": "small",
+      "size_from_table": "small",
+      "ranged": false,
+      "thrown": false,
+      "double_sided": false,
+      "damage": {
+        "count": 1,
+        "faces": 0
+      },
+      "damage_raw": "1d0",
+      "threat_range_low": null,
+      "threat_range_high": null,
+      "critical_multiplier": 3,
+      "critical_raw": "<del>x1</del> ''x3''",
+      "damage_types": [
+        "piercing"
+      ],
+      "damage_type_raw": "[[piercing damage|piercing]]",
+      "categories": [
+        "Category:Polearms",
+        "Category:Simple weapons",
+        "Category:Weapons"
+      ],
+      "conflicts": [
+        {
+          "field": "proficiency_category",
+          "from_parameter": null,
+          "from_categories": "simple",
+          "parameter_raw": "none",
+          "note": null
+        }
+      ],
+      "status": "conflict",
+      "source": {
+        "wiki": "fandom",
+        "page": "Lance",
+        "revid": 46855,
+        "fetched": "2026-08-10"
+      }
+    },
+    {
+      "id": "light_crossbow",
+      "name": "Light crossbow",
+      "selectable": true,
+      "weapon_of_choice": false,
+      "siala_proficiency_group": "ranged",
+      "siala_proficiency_group_status": "verified",
+      "siala_proficiency_group_note": null,
+      "siala_grip": "two_handed",
+      "siala_grip_raw": "двуручное/стрелковое",
+      "siala_grip_status": "assumed",
+      "siala_grip_note": null,
+      "proficiency_category": "simple",
+      "proficiency_required": true,
+      "proficiency": [
+        "monk",
+        "rogue",
+        "simple",
+        "wizard"
+      ],
+      "proficiency_raw": "[[Weapon proficiency (monk)|Monk]]<br/>&nbsp;[[Weapon proficiency (rogue)|Rogue]]<br/>&nbsp;[[Weapon proficiency (simple)|Simple]]<br/>&nbsp;[[Weapon proficiency (wizard)|Wizard]]",
+      "size": "small",
+      "size_raw": "Small",
+      "size_from_table": "small",
+      "ranged": true,
+      "thrown": false,
+      "double_sided": false,
+      "damage": {
+        "count": 1,
+        "faces": 8
+      },
+      "damage_raw": "1d8",
+      "threat_range_low": 19,
+      "threat_range_high": 20,
+      "critical_multiplier": 2,
+      "critical_raw": "19-20/x2",
+      "damage_types": [
+        "piercing"
+      ],
+      "damage_type_raw": "[[piercing damage|Piercing]]",
+      "categories": [
+        "Category:Ranged weapons",
+        "Category:Simple weapons",
+        "Category:Weapons"
+      ],
+      "conflicts": [],
+      "status": "parsed",
+      "source": {
+        "wiki": "fandom",
+        "page": "Light crossbow",
+        "revid": 66428,
+        "fetched": "2026-08-10"
+      }
+    },
+    {
+      "id": "light_flail",
+      "name": "Light flail",
+      "selectable": true,
+      "weapon_of_choice": true,
+      "siala_proficiency_group": "hammer",
+      "siala_proficiency_group_status": "verified",
+      "siala_proficiency_group_note": null,
+      "siala_grip": "one_handed",
+      "siala_grip_raw": "одноручное",
+      "siala_grip_status": "assumed",
+      "siala_grip_note": null,
+      "proficiency_category": "martial",
+      "proficiency_required": true,
+      "proficiency": [
+        "martial"
+      ],
+      "proficiency_raw": "[[weapon proficiency (martial)|martial]]",
+      "size": "medium",
+      "size_raw": "Medium",
+      "size_from_table": "medium",
+      "ranged": false,
+      "thrown": false,
+      "double_sided": false,
+      "damage": {
+        "count": 1,
+        "faces": 8
+      },
+      "damage_raw": "1d8",
+      "threat_range_low": null,
+      "threat_range_high": null,
+      "critical_multiplier": 2,
+      "critical_raw": "x2",
+      "damage_types": [
+        "bludgeoning"
+      ],
+      "damage_type_raw": "[[bludgeoning damage|bludgeoning]]",
+      "categories": [
+        "Category:Blunt weapons",
+        "Category:Martial weapons",
+        "Category:Weapons"
+      ],
+      "conflicts": [],
+      "status": "parsed",
+      "source": {
+        "wiki": "fandom",
+        "page": "Light flail",
+        "revid": 54873,
+        "fetched": "2026-08-10"
+      }
+    },
+    {
+      "id": "light_hammer",
+      "name": "Light hammer",
+      "selectable": true,
+      "weapon_of_choice": true,
+      "siala_proficiency_group": "hammer",
+      "siala_proficiency_group_status": "verified",
+      "siala_proficiency_group_note": null,
+      "siala_grip": "one_handed",
+      "siala_grip_raw": "одноручное",
+      "siala_grip_status": "assumed",
+      "siala_grip_note": null,
+      "proficiency_category": "martial",
+      "proficiency_required": true,
+      "proficiency": [
+        "martial"
+      ],
+      "proficiency_raw": "[[weapon proficiency (martial)|martial]]",
+      "size": "small",
+      "size_raw": "Small",
+      "size_from_table": "small",
+      "ranged": false,
+      "thrown": false,
+      "double_sided": false,
+      "damage": {
+        "count": 1,
+        "faces": 4
+      },
+      "damage_raw": "1d4",
+      "threat_range_low": null,
+      "threat_range_high": null,
+      "critical_multiplier": 2,
+      "critical_raw": "x2",
+      "damage_types": [
+        "bludgeoning"
+      ],
+      "damage_type_raw": "[[bludgeoning damage|bludgeoning]]",
+      "categories": [
+        "Category:Blunt weapons",
+        "Category:Martial weapons",
+        "Category:Weapons"
+      ],
+      "conflicts": [],
+      "status": "parsed",
+      "source": {
+        "wiki": "fandom",
+        "page": "Light hammer",
+        "revid": 54881,
+        "fetched": "2026-08-10"
+      }
+    },
+    {
+      "id": "longbow",
+      "name": "Longbow",
+      "selectable": true,
+      "weapon_of_choice": false,
+      "siala_proficiency_group": "ranged",
+      "siala_proficiency_group_status": "verified",
+      "siala_proficiency_group_note": null,
+      "siala_grip": "two_handed",
+      "siala_grip_raw": "двуручное/стрелковое",
+      "siala_grip_status": "assumed",
+      "siala_grip_note": null,
+      "proficiency_category": "martial",
+      "proficiency_required": true,
+      "proficiency": [
+        "elf",
+        "martial"
+      ],
+      "proficiency_raw": "[[Weapon proficiency (elf)|Elf]]<br/>&nbsp;[[Weapon proficiency (martial)|Martial]]",
+      "size": "large",
+      "size_raw": "Large",
+      "size_from_table": "large",
+      "ranged": true,
+      "thrown": false,
+      "double_sided": false,
+      "damage": {
+        "count": 1,
+        "faces": 8
+      },
+      "damage_raw": "1d8",
+      "threat_range_low": null,
+      "threat_range_high": null,
+      "critical_multiplier": 3,
+      "critical_raw": "x3",
+      "damage_types": [
+        "piercing"
+      ],
+      "damage_type_raw": "[[piercing damage|Piercing]]",
+      "categories": [
+        "Category:Martial weapons",
+        "Category:Ranged weapons",
+        "Category:Weapons"
+      ],
+      "conflicts": [],
+      "status": "parsed",
+      "source": {
+        "wiki": "fandom",
+        "page": "Longbow",
+        "revid": 71688,
+        "fetched": "2026-08-10"
+      }
+    },
+    {
+      "id": "longsword",
+      "name": "Longsword",
+      "selectable": true,
+      "weapon_of_choice": true,
+      "siala_proficiency_group": "blade",
+      "siala_proficiency_group_status": "verified",
+      "siala_proficiency_group_note": null,
+      "siala_grip": "one_handed",
+      "siala_grip_raw": "одноручное",
+      "siala_grip_status": "assumed",
+      "siala_grip_note": null,
+      "proficiency_category": "martial",
+      "proficiency_required": true,
+      "proficiency": [
+        "elf",
+        "martial"
+      ],
+      "proficiency_raw": "[[weapon proficiency (elf)|elf]]<br/>&nbsp;[[weapon proficiency (martial)|martial]]",
+      "size": "medium",
+      "size_raw": "Medium",
+      "size_from_table": "medium",
+      "ranged": false,
+      "thrown": false,
+      "double_sided": false,
+      "damage": {
+        "count": 1,
+        "faces": 8
+      },
+      "damage_raw": "1d8",
+      "threat_range_low": 19,
+      "threat_range_high": 20,
+      "critical_multiplier": 2,
+      "critical_raw": "19-20/x2",
+      "damage_types": [
+        "slashing"
+      ],
+      "damage_type_raw": "[[slashing damage|slashing]]",
+      "categories": [
+        "Category:Bladed weapons",
+        "Category:Martial weapons",
+        "Category:Weapons"
+      ],
+      "conflicts": [],
+      "status": "parsed",
+      "source": {
+        "wiki": "fandom",
+        "page": "Longsword",
+        "revid": 55010,
+        "fetched": "2026-08-10"
+      }
+    },
+    {
+      "id": "mace",
+      "name": "Mace",
+      "selectable": true,
+      "weapon_of_choice": true,
+      "siala_proficiency_group": "hammer",
+      "siala_proficiency_group_status": "verified",
+      "siala_proficiency_group_note": null,
+      "siala_grip": "one_handed",
+      "siala_grip_raw": "одноручное",
+      "siala_grip_status": "assumed",
+      "siala_grip_note": null,
+      "proficiency_category": "simple",
+      "proficiency_required": true,
+      "proficiency": [
+        "rogue",
+        "simple"
+      ],
+      "proficiency_raw": "[[weapon proficiency (rogue)|rogue]]<br/>&nbsp;[[weapon proficiency (simple)|simple]]",
+      "size": "small",
+      "size_raw": "Small",
+      "size_from_table": "small",
+      "ranged": false,
+      "thrown": false,
+      "double_sided": false,
+      "damage": {
+        "count": 1,
+        "faces": 6
+      },
+      "damage_raw": "1d6",
+      "threat_range_low": null,
+      "threat_range_high": null,
+      "critical_multiplier": 2,
+      "critical_raw": "x2",
+      "damage_types": [
+        "bludgeoning"
+      ],
+      "damage_type_raw": "[[bludgeoning damage|bludgeoning]]",
+      "categories": [
+        "Category:Blunt weapons",
+        "Category:Simple weapons",
+        "Category:Weapons"
+      ],
+      "conflicts": [],
+      "status": "parsed",
+      "source": {
+        "wiki": "fandom",
+        "page": "Mace",
+        "revid": 54882,
+        "fetched": "2026-08-10"
+      }
+    },
+    {
+      "id": "magic_staff",
+      "name": "Magic staff",
+      "selectable": false,
+      "weapon_of_choice": false,
+      "siala_proficiency_group": "no_proficiency_required",
+      "siala_proficiency_group_status": "verified",
+      "siala_proficiency_group_note": "Fandom states `proficiency=none needed` and that no weapon feat has a magic staff variant; Dan measured the same in game — «некоторые маги могут ничего не брать, бегать с посохом, он не требует владения».",
+      "siala_grip": null,
+      "siala_grip_raw": null,
+      "siala_grip_status": null,
+      "siala_grip_note": "Absent from the table — its row «Посохи» is `quarterstaff`. The separate «Магические посохи» prose (§Оружие, не требующее фитов) states no grip word either.",
+      "proficiency_category": null,
+      "proficiency_required": false,
+      "proficiency": [],
+      "proficiency_raw": "none needed",
+      "size": "medium",
+      "size_raw": "medium",
+      "size_from_table": "medium",
+      "ranged": false,
+      "thrown": false,
+      "double_sided": false,
+      "damage": {
+        "count": 1,
+        "faces": 6
+      },
+      "damage_raw": "1d6",
+      "threat_range_low": null,
+      "threat_range_high": null,
+      "critical_multiplier": 2,
+      "critical_raw": "x2",
+      "damage_types": [
+        "bludgeoning"
+      ],
+      "damage_type_raw": "[[bludgeoning damage|bludgeoning]]",
+      "categories": [
+        "Category:Blunt weapons",
+        "Category:Mage specific",
+        "Category:Simple weapons",
+        "Category:Weapons"
+      ],
+      "conflicts": [
+        {
+          "field": "proficiency_category",
+          "from_parameter": null,
+          "from_categories": "simple",
+          "parameter_raw": "none needed",
+          "note": null
+        }
+      ],
+      "status": "conflict",
+      "source": {
+        "wiki": "fandom",
+        "page": "Magic staff",
+        "revid": 71760,
+        "fetched": "2026-08-10"
+      }
+    },
+    {
+      "id": "morningstar",
+      "name": "Morningstar",
+      "selectable": true,
+      "weapon_of_choice": true,
+      "siala_proficiency_group": "hammer",
+      "siala_proficiency_group_status": "verified",
+      "siala_proficiency_group_note": null,
+      "siala_grip": "one_handed",
+      "siala_grip_raw": "одноручное",
+      "siala_grip_status": "assumed",
+      "siala_grip_note": null,
+      "proficiency_category": "simple",
+      "proficiency_required": true,
+      "proficiency": [
+        "rogue",
+        "simple"
+      ],
+      "proficiency_raw": "[[weapon proficiency (rogue)|rogue]]<br/>&nbsp;[[weapon proficiency (simple)|simple]]",
+      "size": "medium",
+      "size_raw": "Medium",
+      "size_from_table": "medium",
+      "ranged": false,
+      "thrown": false,
+      "double_sided": false,
+      "damage": {
+        "count": 1,
+        "faces": 8
+      },
+      "damage_raw": "1d8",
+      "threat_range_low": null,
+      "threat_range_high": null,
+      "critical_multiplier": 2,
+      "critical_raw": "x2",
+      "damage_types": [
+        "bludgeoning-piercing"
+      ],
+      "damage_type_raw": "[[bludgeoning-piercing damage|bludgeoning & piercing]]",
+      "categories": [
+        "Category:Blunt weapons",
+        "Category:Simple weapons",
+        "Category:Weapons"
+      ],
+      "conflicts": [],
+      "status": "parsed",
+      "source": {
+        "wiki": "fandom",
+        "page": "Morningstar",
+        "revid": 70615,
+        "fetched": "2026-08-10"
+      }
+    },
+    {
+      "id": "quarterstaff",
+      "name": "Quarterstaff",
+      "selectable": true,
+      "weapon_of_choice": true,
+      "siala_proficiency_group": "polearm",
+      "siala_proficiency_group_status": "verified",
+      "siala_proficiency_group_note": "Fandom files it under blunt and simple weapons. ⚠️ NOT the weapon Dan meant by «бегать с посохом»: that is `magic_staff`, which needs no proficiency on both wikis, while Siala's «Владение древковым» names Посохи at its first step.",
+      "siala_grip": "two_handed",
+      "siala_grip_raw": "двуручное",
+      "siala_grip_status": "assumed",
+      "siala_grip_note": null,
+      "proficiency_category": "simple",
+      "proficiency_required": true,
+      "proficiency": [
+        "druid",
+        "monk",
+        "rogue",
+        "simple",
+        "wizard"
+      ],
+      "proficiency_raw": "[[Weapon proficiency (druid)|Druid]]<br/>&nbsp;[[Weapon proficiency (monk)|Monk]]<br/>&nbsp;[[Weapon proficiency (rogue)|Rogue]]<br/>&nbsp;[[Weapon proficiency (simple)|Simple]]<br/>&nbsp;[[Weapon proficiency (wizard)|Wizard]]",
+      "size": "large",
+      "size_raw": "Large",
+      "size_from_table": "large",
+      "ranged": false,
+      "thrown": false,
+      "double_sided": false,
+      "damage": {
+        "count": 1,
+        "faces": 6
+      },
+      "damage_raw": "1d6",
+      "threat_range_low": null,
+      "threat_range_high": null,
+      "critical_multiplier": 2,
+      "critical_raw": "x2",
+      "damage_types": [
+        "bludgeoning"
+      ],
+      "damage_type_raw": "[[bludgeoning damage|Bludgeoning]]",
+      "categories": [
+        "Category:Blunt weapons",
+        "Category:Simple weapons",
+        "Category:Weapons"
+      ],
+      "conflicts": [],
+      "status": "parsed",
+      "source": {
+        "wiki": "fandom",
+        "page": "Quarterstaff",
+        "revid": 66955,
+        "fetched": "2026-08-10"
+      }
+    },
+    {
+      "id": "rapier",
+      "name": "Rapier",
+      "selectable": true,
+      "weapon_of_choice": true,
+      "siala_proficiency_group": "blade",
+      "siala_proficiency_group_status": "verified",
+      "siala_proficiency_group_note": null,
+      "siala_grip": "one_handed",
+      "siala_grip_raw": "одноручное",
+      "siala_grip_status": "assumed",
+      "siala_grip_note": null,
+      "proficiency_category": "martial",
+      "proficiency_required": true,
+      "proficiency": [
+        "elf",
+        "martial",
+        "rogue"
+      ],
+      "proficiency_raw": "[[weapon proficiency (elf)|elf]]<br/>&nbsp;[[weapon proficiency (martial)|martial]]<br/>&nbsp;[[weapon proficiency (rogue)|rogue]]",
+      "size": "medium",
+      "size_raw": "Medium",
+      "size_from_table": "medium",
+      "ranged": false,
+      "thrown": false,
+      "double_sided": false,
+      "damage": {
+        "count": 1,
+        "faces": 6
+      },
+      "damage_raw": "1d6",
+      "threat_range_low": 18,
+      "threat_range_high": 20,
+      "critical_multiplier": 2,
+      "critical_raw": "18-20/x2",
+      "damage_types": [
+        "piercing"
+      ],
+      "damage_type_raw": "[[piercing damage|piercing]]",
+      "categories": [
+        "Category:Bladed weapons",
+        "Category:Martial weapons",
+        "Category:Weapons"
+      ],
+      "conflicts": [],
+      "status": "parsed",
+      "source": {
+        "wiki": "fandom",
+        "page": "Rapier",
+        "revid": 55083,
+        "fetched": "2026-08-10"
+      }
+    },
+    {
+      "id": "scimitar",
+      "name": "Scimitar",
+      "selectable": true,
+      "weapon_of_choice": true,
+      "siala_proficiency_group": "blade",
+      "siala_proficiency_group_status": "verified",
+      "siala_proficiency_group_note": null,
+      "siala_grip": "one_handed",
+      "siala_grip_raw": "одноручное",
+      "siala_grip_status": "assumed",
+      "siala_grip_note": null,
+      "proficiency_category": "martial",
+      "proficiency_required": true,
+      "proficiency": [
+        "druid",
+        "martial"
+      ],
+      "proficiency_raw": "[[weapon proficiency (druid)|druid]]<br/> [[weapon proficiency (martial)|martial]]",
+      "size": "medium",
+      "size_raw": "medium",
+      "size_from_table": "medium",
+      "ranged": false,
+      "thrown": false,
+      "double_sided": false,
+      "damage": {
+        "count": 1,
+        "faces": 6
+      },
+      "damage_raw": "1d6",
+      "threat_range_low": 18,
+      "threat_range_high": 20,
+      "critical_multiplier": 2,
+      "critical_raw": "18-20/x2",
+      "damage_types": [
+        "slashing"
+      ],
+      "damage_type_raw": "[[slashing damage|slashing]]",
+      "categories": [
+        "Category:Bladed weapons",
+        "Category:Martial weapons",
+        "Category:Weapons"
+      ],
+      "conflicts": [],
+      "status": "parsed",
+      "source": {
+        "wiki": "fandom",
+        "page": "Scimitar",
+        "revid": 50065,
+        "fetched": "2026-08-10"
+      }
+    },
+    {
+      "id": "scythe",
+      "name": "Scythe",
+      "selectable": true,
+      "weapon_of_choice": true,
+      "siala_proficiency_group": "polearm",
+      "siala_proficiency_group_status": "verified",
+      "siala_proficiency_group_note": "Fandom files it under bladed and exotic weapons as well as polearms; Siala keeps древковое separate.",
+      "siala_grip": "two_handed",
+      "siala_grip_raw": "двуручное",
+      "siala_grip_status": "verified",
+      "siala_grip_note": "«Коса (Scythe)» — раздел «Двуручное оружие» той же страницы.",
+      "proficiency_category": "exotic",
+      "proficiency_required": true,
+      "proficiency": [
+        "exotic"
+      ],
+      "proficiency_raw": "[[Weapon proficiency (exotic)|Exotic]]",
+      "size": "large",
+      "size_raw": "Large",
+      "size_from_table": "large",
+      "ranged": false,
+      "thrown": false,
+      "double_sided": false,
+      "damage": {
+        "count": 2,
+        "faces": 4
+      },
+      "damage_raw": "2d4",
+      "threat_range_low": null,
+      "threat_range_high": null,
+      "critical_multiplier": 4,
+      "critical_raw": "x4",
+      "damage_types": [
+        "piercing-slashing"
+      ],
+      "damage_type_raw": "[[piercing-slashing damage|Piercing & slashing]]",
+      "categories": [
+        "Category:Bladed weapons",
+        "Category:Exotic weapons",
+        "Category:Polearms",
+        "Category:Weapons"
+      ],
+      "conflicts": [],
+      "status": "parsed",
+      "source": {
+        "wiki": "fandom",
+        "page": "Scythe",
+        "revid": 70927,
+        "fetched": "2026-08-10"
+      }
+    },
+    {
+      "id": "shortbow",
+      "name": "Shortbow",
+      "selectable": true,
+      "weapon_of_choice": false,
+      "siala_proficiency_group": "ranged",
+      "siala_proficiency_group_status": "verified",
+      "siala_proficiency_group_note": null,
+      "siala_grip": "two_handed",
+      "siala_grip_raw": "двуручное/стрелковое",
+      "siala_grip_status": "assumed",
+      "siala_grip_note": null,
+      "proficiency_category": "martial",
+      "proficiency_required": true,
+      "proficiency": [
+        "elf",
+        "martial",
+        "rogue"
+      ],
+      "proficiency_raw": "[[Weapon proficiency (elf)|Elf]]<br/>&nbsp;[[Weapon proficiency (martial)|Martial]]<br/>&nbsp;[[Weapon proficiency (rogue)|Rogue]]",
+      "size": "medium",
+      "size_raw": "Medium",
+      "size_from_table": "medium",
+      "ranged": true,
+      "thrown": false,
+      "double_sided": false,
+      "damage": {
+        "count": 1,
+        "faces": 6
+      },
+      "damage_raw": "1d6",
+      "threat_range_low": null,
+      "threat_range_high": null,
+      "critical_multiplier": 3,
+      "critical_raw": "x3",
+      "damage_types": [
+        "piercing"
+      ],
+      "damage_type_raw": "[[piercing damage|Piercing]]",
+      "categories": [
+        "Category:Martial weapons",
+        "Category:Ranged weapons",
+        "Category:Weapons"
+      ],
+      "conflicts": [],
+      "status": "parsed",
+      "source": {
+        "wiki": "fandom",
+        "page": "Shortbow",
+        "revid": 21676,
+        "fetched": "2026-08-10"
+      }
+    },
+    {
+      "id": "shortsword",
+      "name": "Shortsword",
+      "selectable": true,
+      "weapon_of_choice": true,
+      "siala_proficiency_group": "blade",
+      "siala_proficiency_group_status": "verified",
+      "siala_proficiency_group_note": null,
+      "siala_grip": "one_handed",
+      "siala_grip_raw": "одноручное",
+      "siala_grip_status": "assumed",
+      "siala_grip_note": null,
+      "proficiency_category": "martial",
+      "proficiency_required": true,
+      "proficiency": [
+        "martial",
+        "rogue"
+      ],
+      "proficiency_raw": "[[Weapon proficiency (rogue)|Rogue]]<br/>&nbsp;[[Weapon proficiency (martial)|Martial]]",
+      "size": "small",
+      "size_raw": "Small",
+      "size_from_table": "small",
+      "ranged": false,
+      "thrown": false,
+      "double_sided": false,
+      "damage": {
+        "count": 1,
+        "faces": 6
+      },
+      "damage_raw": "1d6",
+      "threat_range_low": 19,
+      "threat_range_high": 20,
+      "critical_multiplier": 2,
+      "critical_raw": "19-20/x2",
+      "damage_types": [
+        "piercing"
+      ],
+      "damage_type_raw": "[[piercing damage|Piercing]]",
+      "categories": [
+        "Category:Bladed weapons",
+        "Category:Martial weapons",
+        "Category:Weapons"
+      ],
+      "conflicts": [],
+      "status": "parsed",
+      "source": {
+        "wiki": "fandom",
+        "page": "Shortsword",
+        "revid": 21677,
+        "fetched": "2026-08-10"
+      }
+    },
+    {
+      "id": "shuriken",
+      "name": "Shuriken",
+      "selectable": true,
+      "weapon_of_choice": false,
+      "siala_proficiency_group": "ranged",
+      "siala_proficiency_group_status": "verified",
+      "siala_proficiency_group_note": null,
+      "siala_grip": "two_handed",
+      "siala_grip_raw": "двуручное/метательное",
+      "siala_grip_status": "assumed",
+      "siala_grip_note": null,
+      "proficiency_category": "exotic",
+      "proficiency_required": true,
+      "proficiency": [
+        "exotic",
+        "monk"
+      ],
+      "proficiency_raw": "[[Weapon proficiency (exotic)|Exotic]]<br/>&nbsp;[[Weapon proficiency (monk)|Monk]]",
+      "size": "tiny",
+      "size_raw": "Tiny",
+      "size_from_table": "tiny",
+      "ranged": true,
+      "thrown": true,
+      "double_sided": false,
+      "damage": {
+        "count": 1,
+        "faces": 3
+      },
+      "damage_raw": "1d3",
+      "threat_range_low": null,
+      "threat_range_high": null,
+      "critical_multiplier": 2,
+      "critical_raw": "x2",
+      "damage_types": [
+        "piercing"
+      ],
+      "damage_type_raw": "[[piercing damage|Piercing]]",
+      "categories": [
+        "Category:Exotic weapons",
+        "Category:Throwing weapons",
+        "Category:Tiny weapons",
+        "Category:Weapons"
+      ],
+      "conflicts": [],
+      "status": "parsed",
+      "source": {
+        "wiki": "fandom",
+        "page": "Shuriken",
+        "revid": 66854,
+        "fetched": "2026-08-10"
+      }
+    },
+    {
+      "id": "sickle",
+      "name": "Sickle",
+      "selectable": true,
+      "weapon_of_choice": true,
+      "siala_proficiency_group": "axe",
+      "siala_proficiency_group_status": "verified",
+      "siala_proficiency_group_note": "Fandom files the sickle under bladed weapons; Siala's «Владение топорами» names серпы.",
+      "siala_grip": "one_handed",
+      "siala_grip_raw": "одноручное",
+      "siala_grip_status": "assumed",
+      "siala_grip_note": null,
+      "proficiency_category": "simple",
+      "proficiency_required": true,
+      "proficiency": [
+        "druid",
+        "simple"
+      ],
+      "proficiency_raw": "[[Weapon proficiency (druid)|Druid]]<br/>&nbsp;[[Weapon proficiency (simple)|Simple]]",
+      "size": "small",
+      "size_raw": "Small",
+      "size_from_table": "small",
+      "ranged": false,
+      "thrown": false,
+      "double_sided": false,
+      "damage": {
+        "count": 1,
+        "faces": 6
+      },
+      "damage_raw": "1d6",
+      "threat_range_low": null,
+      "threat_range_high": null,
+      "critical_multiplier": 2,
+      "critical_raw": "x2",
+      "damage_types": [
+        "slashing"
+      ],
+      "damage_type_raw": "[[slashing damage|Slashing]]",
+      "categories": [
+        "Category:Bladed weapons",
+        "Category:Simple weapons",
+        "Category:Weapons"
+      ],
+      "conflicts": [],
+      "status": "parsed",
+      "source": {
+        "wiki": "fandom",
+        "page": "Sickle",
+        "revid": 26561,
+        "fetched": "2026-08-10"
+      }
+    },
+    {
+      "id": "slam_item",
+      "name": "Slam item",
+      "selectable": false,
+      "weapon_of_choice": false,
+      "siala_proficiency_group": null,
+      "siala_proficiency_group_status": "unknown",
+      "siala_proficiency_group_note": "Creature weapon, not a player's item.",
+      "siala_grip": null,
+      "siala_grip_raw": null,
+      "siala_grip_status": null,
+      "siala_grip_note": "Creature weapon, not a player's item; absent from the table.",
+      "proficiency_category": null,
+      "proficiency_required": true,
+      "proficiency": [
+        "creature"
+      ],
+      "proficiency_raw": "[[Weapon proficiency (creature)|creature]]",
+      "size": "medium",
+      "size_raw": "medium",
+      "size_from_table": null,
+      "ranged": false,
+      "thrown": false,
+      "double_sided": false,
+      "damage": null,
+      "damage_raw": "0",
+      "threat_range_low": 20,
+      "threat_range_high": 20,
+      "critical_multiplier": 2,
+      "critical_raw": "20-20/x2",
+      "damage_types": [
+        "bludgeoning"
+      ],
+      "damage_type_raw": "[[bludgeoning damage|bludgeoning]]",
+      "categories": [
+        "Category:Creature items",
+        "Category:Weapons"
+      ],
+      "conflicts": [],
+      "status": "parsed",
+      "source": {
+        "wiki": "fandom",
+        "page": "Slam item",
+        "revid": 43303,
+        "fetched": "2026-08-10"
+      }
+    },
+    {
+      "id": "sling",
+      "name": "Sling",
+      "selectable": true,
+      "weapon_of_choice": false,
+      "siala_proficiency_group": "ranged",
+      "siala_proficiency_group_status": "verified",
+      "siala_proficiency_group_note": null,
+      "siala_grip": "one_handed",
+      "siala_grip_raw": "одноручное/метательное",
+      "siala_grip_status": "assumed",
+      "siala_grip_note": null,
+      "proficiency_category": "simple",
+      "proficiency_required": true,
+      "proficiency": [
+        "druid",
+        "monk",
+        "rogue",
+        "simple"
+      ],
+      "proficiency_raw": "[[Weapon proficiency (druid)|Druid]]<br/>&nbsp;[[Weapon proficiency (monk)|Monk]]<br/>&nbsp;[[Weapon proficiency (simple)|Simple]] <br/>&nbsp;[[Weapon proficiency (rogue)|Rogue]]",
+      "size": "small",
+      "size_raw": "Small",
+      "size_from_table": "small",
+      "ranged": true,
+      "thrown": true,
+      "double_sided": false,
+      "damage": {
+        "count": 1,
+        "faces": 4
+      },
+      "damage_raw": "1d4",
+      "threat_range_low": null,
+      "threat_range_high": null,
+      "critical_multiplier": 2,
+      "critical_raw": "x2",
+      "damage_types": [
+        "bludgeoning"
+      ],
+      "damage_type_raw": "[[bludgeoning damage|Bludgeoning]]",
+      "categories": [
+        "Category:Ranged weapons",
+        "Category:Simple weapons",
+        "Category:Throwing weapons",
+        "Category:Weapons"
+      ],
+      "conflicts": [],
+      "status": "parsed",
+      "source": {
+        "wiki": "fandom",
+        "page": "Sling",
+        "revid": 71191,
+        "fetched": "2026-08-10"
+      }
+    },
+    {
+      "id": "spear",
+      "name": "Spear",
+      "selectable": true,
+      "weapon_of_choice": true,
+      "siala_proficiency_group": "polearm",
+      "siala_proficiency_group_status": "verified",
+      "siala_proficiency_group_note": null,
+      "siala_grip": "two_handed",
+      "siala_grip_raw": "двуручное",
+      "siala_grip_status": "verified",
+      "siala_grip_note": "«Копье (Spear)» — раздел «Двуручное оружие» той же страницы.",
+      "proficiency_category": "simple",
+      "proficiency_required": true,
+      "proficiency": [
+        "druid",
+        "simple"
+      ],
+      "proficiency_raw": "[[Weapon proficiency (druid)|Druid]]\n&nbsp;[[Weapon proficiency (simple)|Simple]]",
+      "size": "large",
+      "size_raw": "Large",
+      "size_from_table": "large",
+      "ranged": false,
+      "thrown": false,
+      "double_sided": false,
+      "damage": {
+        "count": 1,
+        "faces": 8
+      },
+      "damage_raw": "1d8",
+      "threat_range_low": null,
+      "threat_range_high": null,
+      "critical_multiplier": 3,
+      "critical_raw": "x3",
+      "damage_types": [
+        "piercing"
+      ],
+      "damage_type_raw": "[[piercing damage|Piercing]]",
+      "categories": [
+        "Category:Polearms",
+        "Category:Simple weapons",
+        "Category:Weapons"
+      ],
+      "conflicts": [],
+      "status": "parsed",
+      "source": {
+        "wiki": "fandom",
+        "page": "Spear",
+        "revid": 26540,
+        "fetched": "2026-08-10"
+      }
+    },
+    {
+      "id": "throwing_axe",
+      "name": "Throwing axe",
+      "selectable": true,
+      "weapon_of_choice": false,
+      "siala_proficiency_group": "ranged",
+      "siala_proficiency_group_status": "verified",
+      "siala_proficiency_group_note": "Fandom files it under axes too; both wikis also call it ranged, and Siala's «Владение оружием дальнего боя» names метательные топоры.",
+      "siala_grip": "one_handed",
+      "siala_grip_raw": "одноручное/метательное",
+      "siala_grip_status": "assumed",
+      "siala_grip_note": null,
+      "proficiency_category": "martial",
+      "proficiency_required": true,
+      "proficiency": [
+        "martial"
+      ],
+      "proficiency_raw": "[[Weapon proficiency (martial)|Martial]]",
+      "size": "small",
+      "size_raw": "Small",
+      "size_from_table": "small",
+      "ranged": true,
+      "thrown": true,
+      "double_sided": false,
+      "damage": {
+        "count": 1,
+        "faces": 6
+      },
+      "damage_raw": "1d6",
+      "threat_range_low": null,
+      "threat_range_high": null,
+      "critical_multiplier": 2,
+      "critical_raw": "x2",
+      "damage_types": [
+        "slashing"
+      ],
+      "damage_type_raw": "[[slashing damage|Slashing]]",
+      "categories": [
+        "Category:Axes",
+        "Category:Martial weapons",
+        "Category:Throwing weapons",
+        "Category:Weapons"
+      ],
+      "conflicts": [],
+      "status": "parsed",
+      "source": {
+        "wiki": "fandom",
+        "page": "Throwing axe",
+        "revid": 65292,
+        "fetched": "2026-08-10"
+      }
+    },
+    {
+      "id": "trident",
+      "name": "Trident",
+      "selectable": true,
+      "weapon_of_choice": true,
+      "siala_proficiency_group": "polearm",
+      "siala_proficiency_group_status": "verified",
+      "siala_proficiency_group_note": null,
+      "siala_grip": "two_handed",
+      "siala_grip_raw": "двуручное",
+      "siala_grip_status": "verified",
+      "siala_grip_note": "⚠️ Конфликт источников Сиалы: «Система оружия» называет «двуручное», а соответствующая страница «Владение …» — «одноручное» (обе цитаты дословны, обе видны в `conflicts`). Значение таблицы (`двуручное`) оставлено здесь как факт задачи 3.40 — не потому, что оно вернее, а потому, что таблица и есть источник, который просила задача; сторона намеренно не выбрана.\n\n✅ РАЗРЕШЁН НАБЛЮДЕНИЕМ Dan 2026-08-16: «на Сиала вики «Система_оружия» странице есть таблица оружия, там есть трезубец и он указан как двуручный. Похоже что всё древковое оружие двуручное? Тогда отмена моего предыдущего высказывания о размере, оставляем трезубец двуручным». Значение здесь — ответ игрока, а не одной из двух страниц: «игрок наблюдал в игре» стоит верхней строкой ранга источников (CLAUDE.md §3), выше обеих. ⚠️ Обе спорящие цитаты ОСТАЛИСЬ в `conflicts` — разрешение это третий источник поверх двух, а не удаление проигравшего: без них следующий читатель решит, что страницы согласны, и «починит» значение обратно. ⚠️ `siala_grip_raw` тоже остался прежним — он цитата таблицы, а не вывод.",
+      "proficiency_category": "martial",
+      "proficiency_required": true,
+      "proficiency": [
+        "martial"
+      ],
+      "proficiency_raw": "[[weapon proficiency (martial)|martial]]",
+      "size": "large",
+      "size_raw": "large",
+      "size_from_table": "large",
+      "ranged": false,
+      "thrown": false,
+      "double_sided": false,
+      "damage": {
+        "count": 1,
+        "faces": 8
+      },
+      "damage_raw": "1d8",
+      "threat_range_low": null,
+      "threat_range_high": null,
+      "critical_multiplier": 2,
+      "critical_raw": "x2",
+      "damage_types": [
+        "piercing"
+      ],
+      "damage_type_raw": "[[piercing damage|piercing]]",
+      "categories": [
+        "Category:Martial weapons",
+        "Category:Polearms",
+        "Category:Weapons"
+      ],
+      "conflicts": [
+        {
+          "field": "siala_grip",
+          "from_parameter": "двуручное",
+          "from_categories": "одноручное",
+          "parameter_raw": "двуручное",
+          "note": "`Система оружия` states `двуручное` for «Трезубцы» (`trident`); the matching «Владение …» feat page states `одноручное` for the same bullet — a genuine disagreement between two Siala pages (checked live against the rendered page), not a parsing gap."
+        }
+      ],
+      "status": "conflict",
+      "source": {
+        "wiki": "fandom",
+        "page": "Trident",
+        "revid": 67427,
+        "fetched": "2026-08-10"
+      }
+    },
+    {
+      "id": "two_bladed_sword",
+      "name": "Two-bladed sword",
+      "selectable": true,
+      "weapon_of_choice": true,
+      "siala_proficiency_group": "polearm",
+      "siala_proficiency_group_status": "verified",
+      "siala_proficiency_group_note": "Fandom files it under bladed and double-sided weapons; Siala's «Владение древковым» names двулезвийные мечи.",
+      "siala_grip": "double_sided",
+      "siala_grip_raw": "двустороннее",
+      "siala_grip_status": "verified",
+      "siala_grip_note": "«Двулезвийный меч (two-bladed sword)» — раздел «Комбинированное оружие» той же страницы.",
+      "proficiency_category": "exotic",
+      "proficiency_required": true,
+      "proficiency": [
+        "exotic"
+      ],
+      "proficiency_raw": "[[weapon proficiency (exotic)|exotic]]",
+      "size": "large",
+      "size_raw": "large",
+      "size_from_table": "large",
+      "ranged": false,
+      "thrown": false,
+      "double_sided": true,
+      "damage": null,
+      "damage_raw": "1d8/1d8",
+      "threat_range_low": 19,
+      "threat_range_high": 20,
+      "critical_multiplier": 2,
+      "critical_raw": "19-20/x2",
+      "damage_types": [
+        "slashing"
+      ],
+      "damage_type_raw": "[[slashing damage|slashing]]",
+      "categories": [
+        "Category:Bladed weapons",
+        "Category:Double-sided weapons",
+        "Category:Exotic weapons",
+        "Category:Weapons"
+      ],
+      "conflicts": [],
+      "status": "parsed",
+      "source": {
+        "wiki": "fandom",
+        "page": "Two-bladed sword",
+        "revid": 63070,
+        "fetched": "2026-08-10"
+      }
+    },
+    {
+      "id": "unarmed_strike",
+      "name": "Unarmed strike",
+      "selectable": true,
+      "weapon_of_choice": false,
+      "siala_proficiency_group": "no_proficiency_required",
+      "siala_proficiency_group_status": "verified",
+      "siala_proficiency_group_note": "Not an item: Fandom states `proficiency=n/a`, and Siala's five feats are about equipment. Selectable for Weapon focus all the same. ⚠️ Was `unknown` until Dan checked the game on 16.08.2026: «club, magic staff и unarmed не требуют фитов, они доступны всем классам на Сиале базово, можно их указывать как доступные без оговорок» — an unarmed character needs no feat to punch, and the field now says so instead of leaving it unread.",
+      "siala_grip": null,
+      "siala_grip_raw": null,
+      "siala_grip_status": null,
+      "siala_grip_note": "Not a weapon item; the table names none of the natural weapons.",
+      "proficiency_category": null,
+      "proficiency_required": null,
+      "proficiency": [],
+      "proficiency_raw": "n/a",
+      "size": null,
+      "size_raw": "n/a",
+      "size_from_table": null,
+      "ranged": false,
+      "thrown": false,
+      "double_sided": false,
+      "damage": null,
+      "damage_raw": "1[[d2]] (small creature) or<br />1d3 (medium creature)<sup>*</sup>",
+      "threat_range_low": null,
+      "threat_range_high": null,
+      "critical_multiplier": 2,
+      "critical_raw": "x2",
+      "damage_types": [
+        "bludgeoning"
+      ],
+      "damage_type_raw": "[[bludgeoning damage]]",
+      "categories": [
+        "Category:Blunt weapons",
+        "Category:Weapons"
+      ],
+      "conflicts": [],
+      "status": "parsed",
+      "source": {
+        "wiki": "fandom",
+        "page": "Unarmed strike",
+        "revid": 66545,
+        "fetched": "2026-08-10"
+      }
+    },
+    {
+      "id": "warhammer",
+      "name": "Warhammer",
+      "selectable": true,
+      "weapon_of_choice": true,
+      "siala_proficiency_group": "hammer",
+      "siala_proficiency_group_status": "verified",
+      "siala_proficiency_group_note": null,
+      "siala_grip": "one_handed",
+      "siala_grip_raw": "одноручное",
+      "siala_grip_status": "assumed",
+      "siala_grip_note": null,
+      "proficiency_category": "martial",
+      "proficiency_required": true,
+      "proficiency": [
+        "martial"
+      ],
+      "proficiency_raw": "[[weapon proficiency (martial)|martial]]",
+      "size": "medium",
+      "size_raw": "Medium",
+      "size_from_table": "medium",
+      "ranged": false,
+      "thrown": false,
+      "double_sided": false,
+      "damage": {
+        "count": 1,
+        "faces": 8
+      },
+      "damage_raw": "1d8",
+      "threat_range_low": null,
+      "threat_range_high": null,
+      "critical_multiplier": 3,
+      "critical_raw": "x3",
+      "damage_types": [
+        "bludgeoning"
+      ],
+      "damage_type_raw": "[[bludgeoning damage|bludgeoning]]",
+      "categories": [
+        "Category:Blunt weapons",
+        "Category:Martial weapons",
+        "Category:Weapons"
+      ],
+      "conflicts": [],
+      "status": "parsed",
+      "source": {
+        "wiki": "fandom",
+        "page": "Warhammer",
+        "revid": 65703,
+        "fetched": "2026-08-10"
+      }
+    },
+    {
+      "id": "whip",
+      "name": "Whip",
+      "selectable": true,
+      "weapon_of_choice": true,
+      "siala_proficiency_group": "hammer",
+      "siala_proficiency_group_status": "verified",
+      "siala_proficiency_group_note": "Fandom files the whip under exotic weapons and its damage is slashing; Siala's «Владение молотами» names кнуты first.",
+      "siala_grip": "one_handed",
+      "siala_grip_raw": "одноручное",
+      "siala_grip_status": "assumed",
+      "siala_grip_note": null,
+      "proficiency_category": "exotic",
+      "proficiency_required": true,
+      "proficiency": [
+        "exotic"
+      ],
+      "proficiency_raw": "[[Weapon proficiency (exotic)|exotic]]",
+      "size": "small",
+      "size_raw": "Small",
+      "size_from_table": "small",
+      "ranged": false,
+      "thrown": false,
+      "double_sided": false,
+      "damage": {
+        "count": 1,
+        "faces": 2
+      },
+      "damage_raw": "1d2",
+      "threat_range_low": null,
+      "threat_range_high": null,
+      "critical_multiplier": 2,
+      "critical_raw": "x2",
+      "damage_types": [
+        "slashing"
+      ],
+      "damage_type_raw": "[[slashing damage|slashing]]",
+      "categories": [
+        "Category:Exotic weapons",
+        "Category:Weapons"
+      ],
+      "conflicts": [],
+      "status": "parsed",
+      "source": {
+        "wiki": "fandom",
+        "page": "Whip",
+        "revid": 54775,
+        "fetched": "2026-08-10"
+      }
+    }
+  ]
+}

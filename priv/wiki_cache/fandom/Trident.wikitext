@@ -1,0 +1,20 @@
+{{Weapon|imagefile=Trident.jpg|
+  |weaponname=Trident
+  |weapondescription=This three-tined variation of a spear is a favored weapon of some undersea humanoids.
+  |weight=5
+  |cost=2
+  |damage=1d8
+  |critical=x2
+  |damagetype=[[piercing damage|piercing]]
+  |size=large
+  |proficiency=[[weapon proficiency (martial)|martial]]
+  |category=[[category:polearms]] [[category:martial weapons]]
+}}
+
+==Notes==
+*Added in [[patch]] 1.67.
+
+===Previous versions===
+*Prior to Neverwinter Nights: Enhanced Edition, [[Weapon focus]] in the trident was ineffective in combat. (The bonus to attack was not used.).
+*Prior to version 1.69, no trident-specific feats (''weapon focus'', [[weapon specialization]], etc.) existed.
+*Prior to version 1.69, the trident was a simple, not martial, weapon.

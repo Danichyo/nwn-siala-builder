@@ -1,0 +1,25 @@
+{{spell
+|icon=is_poison.gif
+|clericlevel=4
+|druidlevel=3
+|domain=water
+|domainlevel=3
+|innatelevel=3
+|school=[[necromancy]]
+|components=VS
+|range=t
+|area=single
+|save=[[fortitude]] negates
+|spellresistance=yes
+|immunity=poison
+|duration=instant
+|counters=<del>[[neutralize poison]]</del>
+|desc=<s>If the caster succeeds at a melee [[touch attack]],</s> the target must make a fortitude [[saving throw|save]] or suffer the effects of [[large scorpion venom]] (1[[d6]] [[strength]] damage on primary and secondary hits).}}
+
+==Notes==
+* Despite the description, no touch attack is involved.
+* The fortitude save to avoid the poison is always 18, the DC for large scorpion venom. Spell focus and ability modifiers have no effect on the DC.
+*Due to a .2da bug, ''poison'' is not an additional [[counterspell]] of ''neutralize poison''.
+
+==Custom content notes==
+*''script:'' <code>NW_S0_Poison</code>

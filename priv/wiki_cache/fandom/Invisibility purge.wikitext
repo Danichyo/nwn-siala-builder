@@ -1,0 +1,26 @@
+{{spell
+|icon=is_invpurge.gif
+|clericlevel=3
+|rangerlevel=3
+|innatelevel=3
+|school=[[evocation]]
+|components=VS
+|range=p
+|area=colossal
+|save=none
+|spellresistance=no
+|duration=1 [[turn]] / level
+|counters=<del>[[invisibility (spell)]]</del>
+|desc=This spell removes the [[invisibility]] from all invisible creatures and items.}}
+
+== Notes ==
+* This spell will strip the [[concealment]] granted by ''[[improved invisibility]]'' even if the subject is no longer under the invisibility aspect of that spell.
+* The purge occurs when a creature transitions from outside the affected area to inside. This includes a creature moving into the affected area, the affected area moving onto a creature, and the affected area coming into existence over a creature. Once inside, a creature can become invisible and remain so as long as the creature does not (exit and) re-enter the affected area.
+* Due to a .2da bug, ''invisibility'' is not an additional [[counterspell]] of this spell.
+
+=== Previous versions ===
+* Prior to version 1.66, this spell did not remove the assassin's ''[[improved invisibility (feat)|improved invisibility]]''.
+
+== Custom content notes ==
+* ''main script:'' <code>NW_S0_InvPurge</code>
+* ''OnEnter script:'' <code>NW_S0_InvPurgeA</code>

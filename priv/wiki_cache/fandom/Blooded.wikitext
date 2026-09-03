@@ -1,0 +1,12 @@
+{{feat
+|type=general
+|prereq=Can only take this feat at 1st-level.
+|desc=The character gains a +2 bonus on [[initiative]] and a +2 bonus on [[spot]] checks.
+|use=automatic
+|icon=ife_x1blood.gif
+}}
+
+==Notes==
+*Added in the [[expansion pack]]s.
+
+[[category:first level feats]]

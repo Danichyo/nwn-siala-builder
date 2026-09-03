@@ -1,0 +1,28 @@
+[[Image:Ife silent.gif|right|Silent spell]]
+[[Image:Gui_silent.png|right|Silenced indicator]]
+{{feat
+|type=metamagic
+|prereq=ability to cast 1st-level spells
+|reqfor=[[automatic silent spell]]
+|desc=Silent [[spell]]s are cast without a verbal [[component]].
+|use=A silenced spell occupies a [[spell slot]] one level higher than normal.
+|bonus1=wizard
+}}
+
+==Notes==
+* Most spells can be cast silenced, even those that normally do not have a verbal component. The only spells that cannot be silenced (in addition to all level 9 spells, which cannot be silenced due to the lack of spell slots above level 9) are the following. There is no correspondence between a spell's components and being on this list.
+**[[Clarity]]
+**[[Knock]]
+**[[Scare]]
+
+==Builder notes==
+'''Item feat:''' No, but it can be added with custom content.
+
+== Custom content notes ==
+'''Removable:''' yes
+
+'''Reusable:''' yes
+
+'''Script:''' hardcoded
+
+*This feat can be added to [[iprp_feats.2da]] and works as an item feat, but [[wizard]]s and [[divine]] spellcasters will only need to have the item equipped while preparing their [[spellbook]]s, not while [[rest]]ing or casting. [[Spellhook]]ing can be used to verify that the caster has the [[feat]] if it is used as an item feat.

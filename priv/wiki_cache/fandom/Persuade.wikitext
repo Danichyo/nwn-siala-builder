@@ -1,0 +1,14 @@
+[[Image:Isk persuade.gif|right|Persuade]]
+A successful '''persuade''' check prompts [[non-player character|NPCs]] to reveal additional information or give bonus treasure in conversation.
+*'''Ability''': [[charisma]]
+
+*'''Classes''': [[bard]], [[blackguard]], [[cleric]], [[druid]], [[Harper scout]], [[monk]], [[paladin]], [[pale master]], [[red dragon disciple]], [[rogue]], [[shadowdancer]], [[shifter]]
+
+*'''[[Cross-class skill|Cross-class]]''': yes
+
+*'''[[untrained skill check|Requires training]]''': no
+
+*'''Check''': The [[difficulty class]] is determined by the NPC being spoken to.
+
+*'''Use''': Used in conversation.
+[[Category:skills]]

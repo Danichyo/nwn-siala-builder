@@ -1,0 +1,31 @@
+{{feat
+|type=general
+|prereq=[[armor proficiency (light)]], [[armor proficiency (medium)]]
+|desc=This feat grants the knowledge to make effective use of [[heavy armor]].
+|use=automatic
+|icon=Ife_armor_h.gif
+|class1=blackguard
+|class2=cleric
+|class3=dwarven defender
+|class4=fighter
+|class5=paladin
+|bonus1=champion of Torm
+}}
+
+==Notes==
+* [[Blackguard]]s, [[cleric]]s, [[dwarven defender]]s, [[fighter]]s and [[paladin]]s receive this feat for free.
+
+==Builder notes==
+'''Item feat:''' yes
+
+*Note adding this feat to [[armor]] is pointless; it will not have an effect. Heavy armor with this feat can only be equipped by a character who already has this feat. Medium and light armor with this feat cannot be equipped simultaneously with heavy armor.
+*Armor with base [[armor class|AC]] from 6 to 8 counts as heavy armor and requires this feat to equip. For different ACs without this feat requirement, [[item property|item properties]] must be used.
+
+==Custom content notes==
+'''Removable:''' yes
+
+'''Reusable:''' yes
+
+'''Script:''' hardcoded
+
+*This requirement for armor cannot be removed. All that can be done is decreasing the AC associated with the armor's chest appearance so the armor becomes a lesser type. Removing this feat from the game will make it impossible to equip heavy armor.

@@ -1,0 +1,16 @@
+'''Description:''' Clerics who take the Strength domain are able to boost their Strength with divine energy, and gain access to spells that make them stronger and more resilient.[[Image:Id strength.gif|right|Strength]]
+== Domain special abilities ==
+
+Divine strength - The [[cleric]] gains a bonus to [[strength]] equal to 2 + 1 per 3 [[class level|cleric levels]]. The effect lasts for 5 [[round]]s + the cleric's [[charisma]] [[modifier]].
+
+== Bonus spells ==
+* Level 3 [[Divine power]]
+* Level 5 [[Stoneskin]]
+
+== Notes ==
+
+* ''Divine strength'' can be used once per [[day]].
+
+==Custom content notes==
+*''script'' <code>NW_S2_DivStr</code>
+[[Category:Cleric domains]]

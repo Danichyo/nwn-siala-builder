@@ -1,0 +1,19 @@
+{{spell
+|icon=is_metswarm.gif
+|magelevel=9
+|innatelevel=9
+|school=[[evocation]]
+|components=VS
+|range=p
+|area=colossal
+|save=[[reflex]] 1/2
+|spellresistance=yes
+|immunity=fire
+|duration=instant
+|desc=The spell causes everything within the area of effect to be pummeled by incoming meteors. All those caught in the destruction take 20[[d6]] points of [[fire damage|[fire] damage]]. All creatures within <del>5</del> <i>6.6</i> feet of the caster are protected from the spell's effect.}}
+
+== Notes ==
+* While the spell description states that the safe zone extends 5 feet, it actually extends 2 [[meter]]s.
+
+==Custom content notes==
+*''script:'' <code>NW_S0_MetSwarm</code>

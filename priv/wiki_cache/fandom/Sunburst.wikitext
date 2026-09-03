@@ -1,0 +1,33 @@
+{{spell
+|icon=is_x1sunbur.gif
+|druidlevel=8
+|magelevel=8
+|innatelevel=8
+|school=[[evocation]]
+|components=VS
+|range=m
+|area=<strike>huge</strike> ''{{AoE|colossal}}''
+|save=[[reflex]]
+|spellresistance=yes
+|duration=instant
+|line=Sunshine
+|line3=searing light
+|line7=sunbeam
+|line8=sunburst
+|desc=A brilliant explosion occurs where the caster directs causing 1[[d6]] points of [[magical damage]] per caster level (to a maximum of 25d6) to all [[undead]]. Non-undead creatures suffer only 6d6 damage. [[Vampire]]s are destroyed instantly if they fail a reflex [[saving throw]]. All enemies in the area of effect must also make a successful reflex saving throw or be [[blind]]ed permanently (the blindness can only be magically removed).}}
+
+== Notes ==
+
+*Added in the [[expansion pack]]s.
+*The spell uses [[Area of effect#Targeting|selective hostile]] targeting, so that only enemies are subject to its effects.
+*For this spell, vampires are all creatures with either a case-insensitive [[subrace]] of "vampire" or a vampire [[appearance]].
+*This spell includes three reflex saving throws.
+*#Vampires make a saving throw or are destroyed by being dealt magical damage equal to their hit points (so [[damage resistance]] and damage [[immunity]] can prevent death).
+*#All except those failing the first save make a saving throw for half damage.
+*#All who are taking damage (see [[evasion]]) except those who failed the first save must make a saving throw to avoid blindness.
+* Vampires tend to have high dexterity and [[lightning reflexes]], hence relatively high reflex saves. So the [[difficulty class|DC]] of the save may be a concern when using this spell against them.
+* The blindness is an ordinary, [[magical effect]], requiring no special methods of removal. Simple [[rest]]ing (of the target or the caster) will remove it and it can be [[dispel]]led, in addition to [[restoration]], [[remove blindness/deafness]], etc.
+
+== Custom content notes ==
+
+* ''script:'' <code>X0_S0_Sunburst</code>

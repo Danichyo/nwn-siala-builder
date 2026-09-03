@@ -1,0 +1,25 @@
+{{spell
+|icon=is_wailbansh.gif
+|magelevel=9
+|innatelevel=9
+|school=[[necromancy]]
+|components=V
+|range=s
+|area=colossal
+|areanote=, 1 creature / level
+|save=[[fortitude]] negates
+|spellresistance=yes
+|immunity=death, <del>sonic</del>
+|duration=instant
+|counters=<del>[[silence (spell)|silence]]</del>
+|desc=All enemies within the area of effect must succeed at a fortitude [[saving throw|save]] or die, to a maximum of 1 enemy per caster level.}}
+
+== Notes ==
+*This spell does not have a somatic [[component]], so arcane [[spell failure]] from the caster's [[armor]] and [[shield]] is ignored when this spell is cast.
+* The "sonic" descriptor mentioned in-game is not used by this spell.
+*When targeted onto a usable, non-[[plot]] object directly, this spell destroys the object as if the fortitude save was failed.
+*Due to a .2da bug, ''wail of the banshee'' is not an additional [[counterspell]] of ''silence''.
+
+== Custom content notes ==
+
+* ''script:'' <code>NW_S0_WailBansh</code>

@@ -1,0 +1,55 @@
+{{spell
+|icon=is_x2persblde.gif
+|magelevel=1
+|innatelevel=1
+|school=[[evocation]]
+|immunity=summoned item
+|components=VS
+|range=s
+|area=point
+|save=none
+|spellresistance=no
+|duration=1 minute / 2 levels
+|line=Weapon summons
+|line1=Shelgarn's persistent blade
+|line7=Mordenkainen's sword
+|line9=Black blade of disaster
+|desc=The caster [[summon]]s a [[Shelgarn's persistent blade (summon)|dagger]] that acts as a faithful and loyal servant.}}
+
+==Notes==
+*Requires [[Hordes of the Underdark]].
+*This spell is quite useful at lower levels as the summon has [[damage reduction]].
+*The blade has an [[attack bonus (item property)|attack bonus]] equal to half the caster's casting [[ability modifier]]. This is the degree of [[damage reduction]] that the blade can penetrate.
+** The ability may sometimes be different than the usual (especially if cast from an item). If the caster has bard or sorcerer levels, [[charisma]] is always used; otherwise if the character has cleric, druid, paladin, or ranger levels, [[wisdom]] is used; otherwise if the caster has wizard levels, [[intelligence]] is used. In the event that the caster has none of these classes, [[strength]] is used.
+** There is a technical cap of +20 on the attack bonus, but the practical cap for [[player character]]s is +10 due to the maximum achievable ability score. The minimum bonus is +1.
+
+{| class="compacttable" style="text-align:center"
+|-
+! ability score
+| &le;17
+| 18-21
+| 22-25
+| 26-29
+| 30-33
+| 34-37
+| 38-41
+| 42-45
+| 46-49
+| 50-52
+|-
+! DR piercing
+| +1
+| +2
+| +3
+| +4
+| +5
+| +6
+| +7
+| +8
+| +9
+| +10
+|}
+
+==Custom content notes==
+*''script'' <code>X2_S0_PersBlde</code>
+[[category:summoning]]

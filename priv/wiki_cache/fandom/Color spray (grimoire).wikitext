@@ -1,0 +1,30 @@
+{{Grimoire spell|imagename=Is colspray.gif
+|spellname=color spray
+|casterlevel=[[illusion domain (grimoire)|illusion]] 1, [[sorcerer]] / [[wizard]] 1
+|innatelevel=1
+|school=[[illusion]] ([[spell subschool|pattern]])
+|descriptors=mind-affecting
+|components=V, S
+|range=cone, 30 ft.
+|immunities=mind-affecting
+|savingthrow=[[will]] negates
+|spellresistance=yes
+|targettype=cone, 30 ft.
+|duration=instantaneous
+|description=''Color spray'' sends forth a dazzling array of lights to confound all creatures within the area of effect. Its effects vary according to the [[hit dice]] of the affected creatures:
+}}
+{|border="1"
+!HD!!Effect
+|-
+|1-2||[[sleep]] for 2d4 [[round]]s, then [[blind]]ed for 1d4 rounds, and [[stunned]] for one more round
+|-
+|3-4||blinded for 1d4 rounds, and stunned for one more round
+|-
+|4+||stunned for 1 round
+|}
+
+== Notes ==
+*{{Grimoire spell change|pagename=[[color spray]]}}
+{{g_illusion}}
+{{g_sorwiz}}
+{{g_subpat}}

@@ -1,0 +1,27 @@
+{{otheruses|the epic spell|the prerequisite feat|Epic spell: epic warding}}
+
+{{spell
+|icon=Ife_x2epicward.gif
+|magelevel=epic
+|innatelevel=10
+|school=[[evocation]]
+|components=VS
+|range=m
+|area=caster
+|duration=1 [[round]] / level
+|line=Stoneskin
+|line4=stoneskin
+|line6=greater stoneskin
+|line8=premonition
+|line10=epic warding
+|desc=This spell conjures a powerful magical ward around the caster protecting against all [[physical damage]]. It grants [[damage reduction]] 50/+20 and absorbs 50 points of damage per caster level before collapsing.
+|spellcraft=34}}
+
+==Notes==
+*Requires [[Hordes of the Underdark]].
+*Due to the relatively short duration of this spell, it is best used in the pitched-battle situations that wizards generally avoid, instead of a general defensive spell.
+
+'''See also:''' ''[[epic mage armor]]'' (the other epic defensive spell)
+
+==Custom content notes==
+* ''script:'' <code>X2_S2_EpicWard</code>

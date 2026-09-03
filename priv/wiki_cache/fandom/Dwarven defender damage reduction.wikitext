@@ -1,0 +1,32 @@
+{{feat
+|type=class
+|prereq=[[dwarven defender]] 6
+|desc=At sixth level, the dwarven defender gains the ability to shrug off 3 points of damage from each blow or attack. At tenth level the [[damage reduction]] increases to 6 points of damage per attack or blow.<br />
+'''Epic progression:''' For each 4 [[class level|level]]s after 10, the damage reduction increases by 3 points.
+|use=automatic
+|icon=ife_damred.gif
+|class1=dwarven defender
+}}
+
+==Notes==
+*Requires [[Hordes of the Underdark]].
+*This damage reduction [[stack]]s with [[damage reduction (barbarian)|barbarian]] and [[epic damage reduction]].
+
+{|class="wikitable" style="text-align:center"
+ |-
+   ! class level !! damage reduction
+ |-
+   |  6 ||  3/-
+ |-
+   | 10 ||  6/-
+ |-
+   | 14 ||  9/-
+ |-
+   | 18 || 12/-
+ |-
+   | 22 || 15/-
+ |-
+   | 26 || 18/-
+ |-
+   | 30 || 21/-
+|}

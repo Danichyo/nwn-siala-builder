@@ -1,0 +1,35 @@
+{{redirect2|PrC|PRC|Player Resource Consortium}}
+
+'''Prestige classes''' are [[class]]es that have requirements (other than [[alignment]] restrictions) that must be met before a [[player character]] can gain levels in the class, as opposed to [[base class]]es, which are open to all player characters of allowed alignments. These powerful classes grant characters unique new abilities unavailable to the base classes. A prestige class cannot be chosen for a starting character; it must be earned through careful advancement. For example, some classes require a certain number of [[rank]]s in one or more [[skill]]s, while others require the ability to cast [[arcane]] spells.
+The requirements for each prestige class are listed in the article for that class.
+
+Prestige classes are limited to 10 [[class level]]s through [[character level]] 20. Starting with character level 21, prestige classes can advance beyond level 10 (at which point they are considered [[epic class]]es) with no further limitations.
+
+A prestige class is not counted for the [[multiclass penalty]].
+
+== In Neverwinter Nights ==
+
+All but one of the prestige classes implemented in Neverwinter Nights were provided by the [[expansion pack]]s, and are among the few things that may require the first expansion pack specifically. (Most other additions &mdash; such as skills and spells &mdash; from the first expansion pack were also included in the second.)
+
+The prestige classes that are available (only) if [[Shadows of Undrentide]] is installed are
+[[arcane archer]],
+[[assassin]],
+[[blackguard]],
+[[Harper scout]], and
+[[shadowdancer]].
+
+The prestige classes that are available (only) if [[Hordes of the Underdark]] is installed are
+[[champion of Torm]],
+[[dwarven defender]],
+[[pale master]],
+[[red dragon disciple]],
+[[shifter]], and
+[[weapon master]].
+
+The final prestige class, [[purple dragon knight]], was made available in [[patch]] 1.69 and is available regardless of which expansions are installed.
+
+== See also ==
+
+* [[:Category:Prestige classes]]
+[[Category:Classes| Prestige class]]
+[[Category:Game rules]]

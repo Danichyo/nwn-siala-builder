@@ -1,0 +1,27 @@
+{{spell
+|icon=is_x2undeath.gif
+|clericlevel=6
+|magelevel=6
+|innatelevel=6
+|school=[[necromancy]]
+|components=VS
+|range=m
+|area=colossal
+|save=[[will]] negates
+|spellresistance=yes
+|duration=instantaneous
+|desc=This spell slays 1[[d4]] [[hit dice|HD]] worth of [[undead]] creatures per [[caster level]] (maximum 20d4). Creatures with the fewest HD are affected first; among creatures with equal HD, those closest to the point of origin of the burst are affected first.}}
+
+== Notes ==
+
+*Requires [[Hordes of the Underdark]].
+* The slaying is done with [[divine damage]] equal to the target's current [[hit point]]s. (Thus divine [[damage resistance]] or [[immunity]] &ndash; rare in general, and more so for undead creatures &ndash; could save a target.)
+* This spell goes through walls, so it can inadvertently kill undead not yet seen by the caster.
+* The number of hit dice affected is actually a single roll of a d4, which is then multiplied by the caster level.
+* The maximized version of this spell is bugged in that it does not cap caster level, allowing a level 40 caster to slay 160 hit dice of undead. (The normal version can affect at most 80 hit dice.)
+*The spell description incorrectly states that it affects the closest undead first; the most distant undead creature in the area of effect is affected first ''(possibly a bug)''.
+* The type of save for this spell (will) happens to be the high save for the [[monster class|undead class]], which is possessed by many of the undead [[race]]. This can make the [[difficulty class|DC]] an important consideration.
+
+== Custom content notes ==
+
+*''script:'' <code>X2_S0_Undeath</code>

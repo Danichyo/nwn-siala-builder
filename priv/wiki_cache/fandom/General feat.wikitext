@@ -1,0 +1,12 @@
+'''General feats''' are the [[feat]]s gained every three [[character level]]s. The term may refer to either the specific feats a certain [[player character]] has chosen or to the feats available for selection at these levels.
+
+The first general feat is chosen at character creation, and additional ones are gained with every three character levels (levels 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, and 39), for a total of 14 general feats. In addition, the choices for a [[human]]'s racial bonus feat are exactly all general feats, so humans effectively get 15 general feats by level 40.
+
+To select a feat, a character must meet its prerequisites, if any. Qualifications may include (most) advances made during the current level-up, but, as with the rest of the level-up process, modifications from spells, items, and the like do not count. Furthermore, '''skill requirements''' refer to [[skill rank]]s, so they even disregard bonuses from feats and [[skill synergy]]. '''Ability requirements''' do include bonuses from feats, but only if those feats were obtained at an earlier level (this is the exception to using the current level-up to qualify for a feat). Another point of confusion is a '''base attack bonus requirement''', as this refers to [[base attack]], not the [[attack bonus]].
+
+A human, for instance, may gain ''[[cleave]]'' on character creation by starting with a strength of at least 13 and selecting ''[[power attack]]'' as his first feat. Similarly, a different character may start with a strength of 12, then increase that to 13 at character level 12 and also select ''power attack'' at that level.
+
+== See also ==
+
+* [[:Category:General feats]]
+[[category:feats| General feat]]

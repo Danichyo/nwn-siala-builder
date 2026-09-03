@@ -1,0 +1,12 @@
+'''Type of Feat''': [[Class]]
+
+'''Prerequisite''': [[Anti-paladin]] 4
+
+'''Specifics''': An Anti-Paladin gains the ability to turn Good [[Outsider]]s and Rebuke the Evil ones. The Anti-Paladin may use this ability 3+ [[Charisma]] [[modifier]] per Day. The Anti-Paladin turns or rebukes as a [[cleric]] of three levels lower would [[Turn undead]].
+
+'''Use''': Selected (Incomplete?)
+
+==Notes==
+*Added in the [[PRC Expansion Pack]].
+
+[[Category:PRC feats]]

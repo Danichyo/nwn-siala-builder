@@ -1,0 +1,71 @@
+{| border=0 cellspacing=2
+|-
+|[[Image:Ife x2critdbswd.gif|right|Devastating critical (bastard sword)]]
+|[[Image:Ife x2critdbaxe.gif|right|Devastating critical (battleaxe)]]
+|[[Image:Ife x2critdclub.gif|right|Devastating critical (club)]]
+|[[Image:Ife x2critdcrea.gif|right|Devastating critical (creature)]]
+|[[Image:Ife x2critddagg.gif|right|Devastating critical (dagger)]]
+|[[Image:Ife x2critddart.gif|right|Devastating critical (dart)]]
+|[[Image:Ife x2critddmac.gif|right|Devastating critical (dire mace)]]
+|[[Image:Ife x2critddaxe.gif|right|Devastating critical (double axe)]]
+|[[Image:Ife x2dcrtdwax.gif|right|Devastating critical (dwarven waraxe)]]
+|-
+|[[Image:Ife x2critdgaxe.gif|right|Devastating critical (greataxe)]]
+|[[Image:Ife x2critdgswd.gif|right|Devastating critical (greatsword)]]
+|[[Image:Ife x2critdhalb.gif|right|Devastating critical (halberd)]]
+|[[Image:Ife x2critdhaxe.gif|right|Devastating critical (handaxe)]]
+|[[Image:Ife x2critdhxb.gif|right|Devastating critical (heavy crossbow)]]
+|[[Image:Ife x2critdhfla.gif|right|Devastating critical (heavy flail)]]
+|[[Image:Ife x2critdkama.gif|right|Devastating critical (kama)]]
+|[[Image:Ife x2critdkatn.gif|right|Devastating critical (katana)]]
+|[[Image:Ife x2critdkukr.gif|right|Devastating critical (kukri)]]
+|-
+|[[Image:Ife x2critdlxb.gif|right|Devastating critical (light crossbow)]]
+|[[Image:Ife x2critdlfla.gif|right|Devastating critical (light flail)]]
+|[[Image:Ife x2critdlham.gif|right|Devastating critical (light hammer)]]
+|[[Image:Ife x2critdlbow.gif|right|Devastating critical (longbow)]]
+|[[Image:Ife x2critdlswd.gif|right|Devastating critical (longsword)]]
+|[[Image:Ife x2critdmace.gif|right|Devastating critical (mace)]]
+|[[Image:Ife x2critdmsta.gif|right|Devastating critical (morningstar)]]
+|[[Image:Ife x2critdqsta.gif|right|Devastating critical (quarterstaff)]]
+|[[Image:Ife x2critdrapr.gif|right|Devastating critical (rapier)]]
+|-
+|[[Image:Ife x2critdscim.gif|right|Devastating critical (scimitar)]]
+|[[Image:Ife x2critdscyt.gif|right|Devastating critical (scythe)]]
+|[[Image:Ife x2critdsbow.gif|right|Devastating critical (shortbow)]]
+|[[Image:Ife x2critdsswd.gif|right|Devastating critical (shortsword)]]
+|[[Image:Ife x2critdshur.gif|right|Devastating critical (shuriken)]]
+|[[Image:Ife x2critdskle.gif|right|Devastating critical (sickle)]]
+|[[Image:Ife x2critdslng.gif|right|Devastating critical (sling)]]
+|[[Image:Ife x2critspr.gif|right|Devastating critical (spear)]]
+|[[Image:Ife x2critdtaxe.gif|right|Devastating critical (throwing axe)]]
+|-
+|[[Image:Ife x2dcrttri.gif|right|Devastating critical (trident)]]
+|[[Image:Ife x2critdtswd.gif|right|Devastating critical (two-bladed sword)]]
+|[[Image:Ife x2critdunar.gif|right|Devastating critical (unarmed strike)]]
+|[[Image:Ife x2critdwham.gif|right|Devastating critical (warhammer)]]
+|[[Image:Ife x2dcrtwhip.gif|right|Devastating critical (whip)]]
+|}
+{{feat
+|epic=yes
+|type=combat
+|prereq=[[strength]] 25+, [[cleave]], [[great cleave]], [[improved critical]] (weapon to be chosen), [[overwhelming critical]] (weapon to be chosen), [[power attack]], <del>[[weapon focus]] (weapon to be chosen)</del>
+|desc=Whenever scoring a [[critical hit]] with the chosen weapon, the character's target must make a [[fortitude]] [[saving throw|save]] or die instantly. Creatures who are immune to critical hits are not affected by this feat.
+|use=automatic
+|bonus1=arcane archer
+|bonus2=barbarian
+|bonus3=blackguard
+|bonus4=champion of Torm
+|bonus5=dwarven defender
+|bonus6=fighter
+|bonus7=paladin
+|bonus8=weapon master
+}}
+
+==Notes==
+
+*Requires [[Hordes of the Underdark]].
+*The in-game description lists ''weapon focus'' as a prerequisite, but it is not one.
+*The [[difficulty class]] of the save is 10 + ½ [[character level]] + [[strength]] [[ability modifier|modifier]].
+*Immunity from [[death magic]] does not protect from this feat.
+*This feat is often banned from online [[persistent world]] [[multiplayer]] servers as some consider it overpowered.

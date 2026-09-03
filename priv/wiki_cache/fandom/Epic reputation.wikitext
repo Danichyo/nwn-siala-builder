@@ -1,0 +1,15 @@
+{{feat
+|epic=yes
+|type=general
+|prereq=21st level
+|desc=The character gains a +4 bonus to all [[bluff]], [[intimidate]], [[persuade|persuasion]] and [[taunt]] checks because they have become very well known.
+|use=automatic
+|icon=ife_x2epicrepu.gif
+|bonus1=blackguard
+|bonus2=paladin
+|bonus3=red dragon disciple
+|bonus4=rogue
+}}
+
+==Notes==
+*Requires [[Hordes of the Underdark]].

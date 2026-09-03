@@ -1,0 +1,41 @@
+'''Description:'''  The Anti-paladin is a loner, she eschews prolonged contact with all forms of society and companionship except on a temporary basis as her desires, needs. 
+
+'''Alignment restriction:''' [[chaotic evil]] only
+
+'''[[Hit die]]:''' d10
+
+'''Proficiencies:''' armor ([[armor proficiency (light)|light]], [[armor proficiency (medium)|medium]], [[armor proficiency (heavy)|heavy]]), [[shield proficiency|shields]], weapons ([[weapon proficiency (martial)|martial]], [[weapon proficiency (simple)|simple]])
+
+'''[[Skill point]]s:''' 2 + [[intelligence]] [[modifier]]
+
+'''Skills:''' [[bluff]], [[concentration]], [[craft armor]], [[craft trap]], [[craft weapon]], [[discipline]], [[hide]], [[intimidate]], [[jump]], [[parry]]
+
+'''[[Saving throw|Primary saving throw(s)]]:''' [[fortitude]]
+
+==Special abilities & feats==
+*Level 1 [[smite good]] (1x/day)
+*Level 2 [[divine grace]]
+*Level 3 [[aura of fear (feat)|aura of fear]], [[death knell]] (1x/day)
+*Level 4 [[turn outsider]]
+*Level 5 smite good (2x/day)
+*Level 6 [[contagion (feat)|contagion]] (1x/day)
+*Level 8 death knell (2x/day)
+*Level 9 contagion (2x/day)
+*Level 10 smite good (3x/day)
+*Level 12 contagion (3x/day)
+*Level 13 death knell (3x/day)
+*Level 15 smite good (4x/day), contagion (4x/day)
+*Level 18 contagion (5x/day), death knell (4x/day)
+*Level 20 smite good (5x/day)
+
+==Spells==
+*Level 1: [[bane]], [[inflict light wounds]], [[protection from good]], [[summon creature I]]
+*Level 2: [[bull's strength]], [[darkness (spell)|darkness]], [[desecrate]], [[summon creature II]]
+*Level 3: [[blindness/deafness]], [[greater magic weapon]], [[inflict moderate wounds]], [[magic circle against good]], [[summon creature III]]
+*Level 4: [[death ward]], [[fear (spell)|fear]], [[inflict serious wounds]], [[poison (spell)|poison]], [[unholy sword]]
+
+==Epic anti-paladin==
+
+==Notes==
+*Requires the [[PRC Expansion Pack]].
+[[category:PRC classes]]

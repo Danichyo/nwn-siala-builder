@@ -1,0 +1,27 @@
+[[Image:Isk distrap.gif|right|Disable trap]]
+This skill allows the character to perform a variety of actions on a [[trap]].
+*'''Ability''': [[intelligence]]
+
+*'''Classes''': [[assassin]], [[rogue]]
+
+*'''[[Cross-class skill|Cross-class]]''': yes
+
+*'''[[untrained skill check|Requires training]]''': yes
+
+*'''Check''': There are four progressively difficult actions that a character may perform on a trap; the base [[difficulty class|DC]] is determined by the difficulty rating of the trap and is modified by the action being performed. Assessing a trap to determine its difficulty modifies the DC by -7. Flagging a trap to make it visible to the rest of the party modifies the DC by -5. Disarming a trap uses the base DC. Recovering a trap modifies the DC by +10.
+
+*'''Special''': [[Rogue]] is the only class capable of disarming traps with a DC of 35 or greater. With 5 or more ranks in the [[set trap]] skill a character gets a +2 [[synergy bonus]] on disable trap checks.
+
+*'''Spectacular failure''': When disarming or recovering a trap, a spectacular failure results in the trap immediately going off if a DC check is failed by 10 or more.
+
+*'''Use''': Assess, flag, recover, and disarm are radial menu options off of a detected trap.
+
+== Notes ==
+*Traps recovered with this skill are considered "stolen" and therefore many merchants will not buy them.
+*This feat allows for a [[take 20]] when the character is not in combat, or if the character has the [[skill mastery]] feat.
+* Typical disarm DCs are listed in the notes for the [[set trap#Notes|set trap article]]. While, strictly speaking, these are the DCs for traps set with the set trap skill, most are also the default DCs for traps created by a module designer. (The exceptions being average tangle at 16, deadly spike at 22, and the epic traps at the DC of the corresponding deadly traps.) These are only defaults, though, and module designers are free to set the DC of their traps to any value. They can also mark a trap as not disarmable, which causes all attempts to disarm or recover that trap to fail (regardless of the skill check).
+*The official description has an error. Any class can disarm a DC 35 trap. Rogue is the only class capable of disarming traps with a DC greater than 35.
+*The special prohibition involving rogues only applies to disarming a trap. Any class can successfully examine, flag, or recover any trap, provided the skill check is passed.
+* Flagging a trap makes it visible to everyone (even though the skill's description mentions only party members in this context).
+[[Category:Skills]]
+[[Category:Skills that require training]]

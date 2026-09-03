@@ -1,0 +1,26 @@
+{{feat
+|type=special
+|prereq=[[turn undead]], exclusive to [[cleric]]s and [[paladin]]s
+|desc=This divine ability allows the [[character]] to turn [[undead]] six additional times per day.
+|use=automatic
+|icon=ife_xturn.gif
+}}
+
+== Notes ==
+
+* At some point during the game's development (never in a released version of ''Neverwinter Nights'', though), this feat was going to be obtainable multiple times, and the results would stack.
+
+==Builder notes==
+
+'''Item feat:''' yes
+
+==Custom content notes==
+
+'''Removable:''' yes
+
+'''Reusable:''' yes
+
+'''Script:''' [[feat.2da]], <code>nw_s2_turndead</code>
+
+*A custom class must have this feat in their feat list, or that class will not be able to select it as a general feat.
+[[category:feats restricted by class]]

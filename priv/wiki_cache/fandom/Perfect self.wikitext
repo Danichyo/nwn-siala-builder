@@ -1,0 +1,28 @@
+{{feat
+|type=class
+|prereq=[[monk]] 20
+|desc=The character gains immunity to all [[mind-affecting]] spells and effects, and [[damage reduction]] 20/+1.
+|use=automatic
+|icon=ife_perfself.gif
+|class=monk
+}}__NOTOC__
+
+==Notes==
+
+* [[Epic damage reduction]] [[stack]]s with this feat, allowing damage from mundane weapons to be reduced by up to 29 points.
+
+=== Previous versions ===
+
+* Prior to [[patch]] 1.68, the mind-affecting immunity was not working in all cases (in particular, versus ''[[phantasmal killer]]''). It worked in even fewer cases prior to patch 1.62.
+
+==Builder notes==
+'''Item feat:''' No, but it can be added with custom content.
+
+==Custom content notes==
+'''Removable:''' yes
+
+'''Reusable:''' yes
+
+'''Script:''' hardcoded
+
+* This feat can be added to [[iprp_feats.2da]] to make it available as an item feat.

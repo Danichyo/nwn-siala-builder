@@ -1,0 +1,19 @@
+{{spell
+|icon=is_x1bldfre.gif
+|druidlevel=2
+|innatelevel=2
+|school=[[transmutation]]
+|components=VS
+|range=p
+|area=caster
+|save=none
+|spellresistance=no
+|duration=1 [[round]] / level
+|desc=The caster enters a rage similar to that of a [[barbarian]]. The caster gains a +2 bonus to [[constitution]] and [[strength]] and a +1 bonus to [[will]] saves, while suffering a -1 penalty to [[armor class]].}}
+
+== Notes ==
+*Added in the [[expansion pack]]s.
+* The armor class penalty is to the [[dodge bonus|dodge category]].
+
+==Custom content notes==
+*''script:'' <code>x0_s0_bldfrenzy.nss</code>

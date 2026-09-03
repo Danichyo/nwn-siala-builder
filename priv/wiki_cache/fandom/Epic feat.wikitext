@@ -1,0 +1,7 @@
+'''Epic feat'''s are [[feat]]s that are only available to [[epic character]]s, those characters with more than 20 [[character level]]s. They are generally more powerful than other feats, but are otherwise quite similar. From a game mechanics point of view, the only distinguishing feature of epic feats is that having more than 20 character levels is one of the prerequisites.
+
+== See also ==
+* [[:Category:Epic feats]] (excludes those that are [[class feat]]s)
+
+[[category:epic rules|Feat]]
+[[category:feats| Epic feat]]

@@ -1,0 +1,26 @@
+{{spell
+|icon=is_x1dirge.gif
+|bardlevel=6
+|innatelevel=6
+|school=[[evocation]]
+|components=VS
+|range=p
+|area=large
+|save=[[fortitude]] negates
+|spellresistance=yes
+|duration=1 [[round]] / level
+|desc=The caster's song draws the energies of death and destruction. Any enemies in the area of effect suffer 2 points of [[strength]] and [[dexterity]] [[ability damage|ability score damage]] each round. If the enemy leaves the area of effect, their strength and dexterity are restored.}}
+
+== Notes ==
+
+* Added in the [[expansion pack]]s.
+* This spell is subject to the mobile area of effect bug, in which an area of effect can lag behind the character it is attached to, allowing that character to actually exit the area of effect if moving fast enough. This results in the spell ending prematurely. (A fix for this is available on the Vault [http://nwvault.ign.com/View.php?view=Scripts.Detail&id=3739]).
+
+== Custom content notes ==
+*''script:'' <code>x0_s0_dirge</code>
+*''OnEnter script:'' <code>x0_s0_dirgeEN</code>
+*''OnExit script:'' <code>x0_s0_dirgeEX</code>
+*''OnHearbeat script:'' <code>x0_s0_dirgeHB</code>
+==External links==
+* {{FRW}}
+* {{NWN2W}}

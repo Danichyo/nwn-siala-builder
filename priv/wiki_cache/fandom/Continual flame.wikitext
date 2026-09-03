@@ -1,0 +1,29 @@
+{{spell
+|icon=is_x1confla.gif
+|clericlevel=3
+|magelevel=2
+|innatelevel=<s>3</s> ''2''
+|school=[[illusion]]
+|components=VS
+|range=t
+|area=single creature or item
+|save=none
+|spellresistance=no
+|duration=permanent
+|line=Light
+|line0=light
+|line2=continual flame
+|desc=This creates a magical flame that burns as bright as a [[torch]] <s>until dispelled</s>. It can be cast on any item that can be equipped to create a permanent source of light.}}
+
+== Notes ==
+
+* Added in the [[expansion pack]]s.
+* The innate level is incorrectly reported as 3 by the in-game description.
+* ''Continual flame'' is not removed by dispelling.
+*When used on an item, this spell increases its price as it adds a permanent [[item property]]. This can be exploited for gold, by casting ''continual flame'' on every item that will be sold to a [[merchant]]. Many [[server]]s disallow this exploit, especially when the item in question was bought solely for the purpose of enchanting then selling at a profit.
+* In [[pen and paper]], ''continual flame'' is in the [[evocation]] spell school, so some consider it a bug that [[BioWare]] has classified this spell as illusion.
+* When cast on a creature, the effect of this spell prevents use of the [[shadowblend]] ability.
+
+== Custom content notes ==
+
+* ''script:'' <code>x0_s0_clight</code>

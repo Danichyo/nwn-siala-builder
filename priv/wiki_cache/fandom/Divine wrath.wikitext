@@ -1,0 +1,34 @@
+{{feat
+|type=class
+|prereq=[[champion of Torm]] 5
+|desc=The champion is able to channel a portion of her deity's power once per day, giving her a +3 bonus on [[attack roll]]s, damage, and [[saving throw]]s for a number of [[round]]s equal to her [[charisma]] [[ability modifier|bonus]]. She also gains [[damage reduction]] of 5/+1. The attack and saving throw bonuses increase by +2 at level 10.
+|use=selected
+|icon=ife_x2diviwrth.gif
+|class1=champion of Torm
+}}
+
+==Notes==
+*Requires [[Hordes of the Underdark]].
+*The bonus damage (reported as [[divine damage]]) is from a [[damage increase]] effect, so it ignores both [[damage resistance]] and damage [[immunity]].
+*The attack, damage, and saving throw bonuses increase by a further +2 every five levels and the damage reduction increases as well.
+
+{|class="wikitable" style="text-align:center"
+!class level !! attack / damage /<br />save bonus !! damage<br />reduction
+ |-
+   | 5||  +3||  5/+1
+ |-
+   |10||  +5||  5/+1
+ |-
+   |15||  +7|| 10/+2
+ |- 
+   |20||  +9|| 15/+3
+ |-
+   |25|| +11|| 20/+4
+ |-
+   |30|| +13|| 25/+5
+|}
+
+* Since ''[[sacred defense]]'' also counts to the +20 cap on saving throws, there is effectively no increase in saving throw bonuses from this feat after level 20. (The cap is reached at level 22, when the +11 bonus from ''sacred defense'', plus the +9 from this feat, hits the cap.)
+
+==Custom content notes==
+*''script:'' <code>X2_S2_DivWrath</code>

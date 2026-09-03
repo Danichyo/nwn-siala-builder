@@ -1,0 +1,20 @@
+{{feat
+|epic=yes
+|type=general
+|prereq=[[ranger]] 21
+|desc=Any weapon the character wields against any of their [[favored enemy|favored enemies]] is treated as a bane weapon for that creature type (+2 to hit and an additional +2d6 damage).
+|use=automatic
+|icon=ife_x2baneenem.gif
+|bonus1=ranger
+}}
+
+==Notes==
+
+* Requires [[Hordes of the Underdark]].
+* The bonus to hit does not count for the purpose of bypassing [[damage reduction]].
+
+==Custom content notes==
+
+*A custom class must have this feat in their feat list, or that class will not be able to select it as a general feat.
+
+[[category:feats restricted by class, epic]]

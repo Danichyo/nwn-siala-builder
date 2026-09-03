@@ -1,0 +1,81 @@
+{{Weapon|imagefile=Light hammer.jpg
+  |weaponname=Light hammer
+  |weapondescription=The '''light hammer''' is derived from commonly used mining tools. It remains small enough to still be used in excavation, unlike the much heavier [[warhammer]].
+  |weight=2
+  |cost=1
+  |damage=1d4
+  |critical=x2
+  |damagetype=[[bludgeoning damage|bludgeoning]]
+  |size=Small
+  |proficiency=[[weapon proficiency (martial)|martial]]
+  |category=[[Category:Blunt weapons]] [[Category:Martial weapons]]
+}}
+
+==Toolset==
+* Light hammers are listed under the [[hammer blueprint category]] of the [[item palette]] in the [[Toolset]].
+
+== Daraz Hammer ==
+Runes identify this fine weapon as having been forged by the [[dwarf|dwarven]] Daraz clan some 500 years ago. Hammers of this type were created for the defense of their homes against encroaching [[goblin]]s and [[orc]]s, and each was wound with mighty spells. Unfortunately, fine weapons and dwarven courage were no match for the sheer number of orc invaders. The clan was extinguished, and their weapons were scattered throughout the known world.
+
+*[[Damage bonus]]: +1 [[sonic damage]]
+*Damage bonus: +[[d8]] sonic damage versus [[goblinoid]]s
+*[[Enhancement bonus]]: +1
+*[[Item level restriction|Required level]]: 7
+
+== Forge Fire ==
+A legacy that Thalantyr the Conjurer has said he would prefer to forget, these weapons are tied to his early adventuring career and a time when he was held captive by a mysterious, powerful creature. He has refused to say how the weapons have retained the heat of the forge they were crafted in, usually ending such inquiries with a frustrated "pray you never find out."
+
+*Damage bonus: +d6 [[fire damage]]
+*Enhancement bonus: +2
+*Required level: 11
+
+== Hammer of Blasting ==
+Though his clan tried to dissuade him, the young dwarf Felirik refused to accept that he wouldn't make an exceptional [[rogue]]&mdash;despite the fact that he couldn't [[open lock|pick a lock]] to save his life. To combat his inadequacies, Felirik commissioned several ''hammers of blasting''. What they lacked in subtlety, they more than made up for in effectiveness, annihilating the locks of chests and doors alike.
+
+*Damage bonus: +d6 [[electrical damage]]
+*Enhancement bonus: +3
+*[[On-hit]]: ''[[knock]]'' ([[difficulty class|DC]]=14)
+*Required level: 16
+
+== Hammer of the Beast ==
+Legends abound of the Beast Lords and their insatiable bloodlust, each claiming that the creatures regularly rampage across the face of [[Faerûn]]. These hammers were supposedly created in battle against such beasts, but specifics are unknown. Usually tales like these can be blamed on an imaginative [[bard]] with a gullible audience, but the story has stuck in lieu of facts.
+
+*Enhancement bonus: +2
+*On-hit: [[slow]] (DC=14) (50% / 2 [[round]]s)
+*Required level: 10
+
+== Izu's Hammer of Fabrication ==
+The blind smith Izu passed away during a particularly brutal winter in the [[Silver Marches]] and it was only after his death that his family discovered his connections with the Harpers. For years Izu toiled on his forge producing weapons and magical equipment for the Harpers. This hammer was given by Izu's heirs to a young Harper scout whom Izu had been fond of. Sadly, the scout disappeared while mapping the upper reaches of the [[Underdark]].
+
+*Enhancement bonus: +6
+*Skill bonus: +15 [[craft armor]], +15 [[craft weapon]], +15 [[lore]]
+*Use limitation: [[Harper scout]]
+*Required level: 22
+
+'''Note:''' Requires [[Hordes of the Underdark]].
+
+== Storm +1 ==
+This weapon bears the mark of the dwarf [[Marrok]], Master Blacksmith of [[Neverwinter]]'s Shining Knight Arms and Armor. He forged it early in 1373 DR, to aid the heroes who sought to free his quarantined city from the virulent grasp of the so-called [[Wailing Death]].
+
+*Damage bonus: +d4 electrical damage
+*Enhancement bonus: +1
+*Required level: 6
+
+== Storm +2 ==
+This weapon bears the mark of the dwarf [[Barun Silverblade|Barun]], a Master Blacksmith who worked from a makeshift forge in the [[Uthgardt]] village of Beorunna's Well. He forged it late in 1373 DR, to aid the war effort against 
+[[Aribeth|Lady Aribeth the Betrayer]], who was then marching against the northern city of Neverwinter and the Lords' Alliance.
+
+*Damage bonus: +d6 electrical damage
+*Damage resistance: 10/- [[damage resistance|electrical resistance]]
+*Enhancement bonus: +2
+*Required level: 14
+
+== Storm +8 ==
+In the city-states of Chessenta, a mythic war hero called Cevalias figures prominently in the rise of the city Cimbar, as the nation’s capital. Legends claim that Cevalias with his sparking war hammer became the champion of the city when he fell in love with the ruler’s daughter, a young woman called Saphia.  Saphia quickly learned to manipulate the champion, and with her father’s guidance, turned him into a tool of destruction who killed over ten thousand warriors of other cities.
+
+*Damage bonus: +d8 electrical damage
+*Damage resistance: 10/- electrical resistance
+*Enhancement bonus: +8
+*Required level: 23
+
+'''Note:''' Requires Hordes of the Underdark.

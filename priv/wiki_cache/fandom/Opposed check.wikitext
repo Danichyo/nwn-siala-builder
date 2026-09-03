@@ -1,0 +1,4 @@
+An '''opposed check''' is a [[skill check]] where the [[difficulty class|DC]] is determined by another character's die roll, most commonly another skill roll or an [[attack roll]]. (It may at times also be more liberally used to mean any instance of the success of one roll being determined by another roll, such as the will save of [[terrifying rage]], even though "opposed roll" is more accurate in this case.) This is in opposition to checks against a fixed DC set by the task being attempted (such as the DC to unlock a door).
+
+An example of an opposed check is a [[taunt]] attempt (opposed by a [[concentration]] roll). The taunt is successful only if the taunt roll (taunt skill + [[d20]]) is at least the target's concentration roll (concentration skill + d20); if the taunt roll is lower, the taunt fails.
+[[category:skills| Opposed check]]

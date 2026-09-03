@@ -1,0 +1,172 @@
+This '''spell school list''' is a quick reference of which [[bard]] [[spell]]s fall into which [[spell school]]s, broken down by [[spell level]].
+
+== Abjuration ==
+
+<u>Level 0</u>
+* [[Resistance]]
+
+<u>Level 1</u> 
+* [[Lesser dispel]]
+* [[Protection from alignment]]
+
+<u>Level 3</u>
+* [[Dispel magic]]
+* [[Magic circle against alignment]]
+* [[Remove curse]]
+* [[Wounding whispers]]
+
+<u>Level 4</u>
+* [[Dismissal]]
+
+<u>Level 5</u>
+* [[Greater dispelling]]
+
+<u>Level 6</u>
+* [[Energy buffer]]
+
+== Conjuration ==
+
+<u>Level 0</u>
+* [[Cure minor wounds]]
+
+<u>Level 1</u>
+* [[Cure light wounds]]
+* [[Grease]]
+* [[Mage armor]]
+* [[Summon creature I]]
+
+<u>Level 2</u>
+* [[Cure moderate wounds]]
+* [[Summon creature II]]
+
+<u>Level 3</u>
+* [[Cure serious wounds]]
+* [[Remove disease]]
+* [[Summon creature III]]
+
+<u>Level 4</u>
+* [[Cure critical wounds]]
+* [[Neutralize poison]]
+* [[Summon creature IV]]
+
+<u>Level 5</u>
+* [[Healing circle]]
+* [[Summon creature V]]
+
+<u>Level 6</u>
+* [[Summon creature VI]]
+
+== Divination ==
+
+<u>Level 1</u>
+* [[Identify]]
+
+<u>Level 2</u>
+* [[See invisibility]]
+
+<u>Level 3</u>
+* [[Clairaudience/clairvoyance]]
+* [[Find traps]]
+
+<u>Level 4</u>
+* [[Legend lore]]
+
+== Enchantment ==
+
+<u>Level 0</u>
+* [[Daze]]
+
+<u>Level 1</u>
+* [[Balagarn's iron horn]] (Bug, meant to be transmutation)
+* [[Charm person]]
+* [[Sleep (spell)|Sleep]]
+
+<u>Level 2</u>
+* [[Blindness/deafness]]
+* [[Hold person]]
+* [[Tasha's hideous laughter]]
+
+<u>Level 3</u>
+* [[Charm monster]]
+* [[Confusion]]
+
+<u>Level 4</u>
+* [[Dominate person]]
+* [[Hold monster]]
+* [[War cry]]
+
+<u>Level 5</u>
+* [[Mind fog]]
+
+<u>Level 6</u>
+* [[Mass haste]]
+
+== Evocation ==
+
+<u>Level 0</u>
+* [[Flare]]
+* [[Light]]
+
+<u>Level 2</u>
+* [[Cloud of bewilderment]]
+* [[Darkness (spell)|Darkness]]
+* [[Sound burst]]
+
+<u>Level 3</u>
+* [[Gust of wind]]
+
+<u>Level 6</u>
+* [[Dirge]]
+* [[Ice storm]]
+
+== Illusion ==
+
+<u>Level 2</u>
+* [[Ghostly visage]]
+* [[Invisibility (spell)|Invisibility]]
+* [[Silence (spell)|Silence]]
+
+<u>Level 3</u>
+* [[Displacement]]
+* [[Invisibility sphere]]
+
+<u>Level 4</u>
+* [[Improved invisibility]]
+
+<u>Level 5</u>
+* [[Ethereal visage]]
+
+== Necromancy ==
+
+<u>Level 1</u>
+* [[Scare]]
+
+<u>Level 2</u>
+* [[Clarity]] (Bug, meant to be abjuration)
+
+<u>Level 3</u>
+* [[Fear (spell)|Fear]]
+
+== Transmutation ==
+
+<u>Level 1</u>
+* [[Amplify]]
+* [[Expeditious retreat]]
+* [[Magic weapon]]
+
+<u>Level 2</u>
+* [[Bull's strength]]
+* [[Cat's grace]]
+* [[Eagle's splendor]]
+* [[Fox's cunning]]
+* [[Owl's wisdom]]
+* [[Ultravision]]
+
+<u>Level 3</u>
+* [[Bestow curse]]
+* [[Greater magic weapon]]
+* [[Haste (spell)|Haste]]
+* [[Keen edge]]
+* [[Slow (spell)|Slow]]
+[[category:spell schools| Spell school list (bard)]]
+[[category:bard spells| Spell school list]]

@@ -1,0 +1,24 @@
+{{spell
+|icon=is_x1aurglo.jpg
+|paladinlevel=2
+|innatelevel=2
+|school=[[transmutation]]
+|components=VS
+|range=p
+|area=colossal
+|immunity=mind-affecting
+|duration=1 [[turn]] / level
+|desc=The caster channels divine power to gain a +4 [[charisma]]
+bonus. All allies near the caster gain a +5 bonus to their [[saving throw]]s
+versus [[fear]].}}
+
+==Notes==
+*Added in the [[expansion pack]]s.
+*Allies also receive 1[[d4]] healing. This healing is rolled once for all allies, not once per ally.
+*The spell description incorrectly reports the area as medium (3.33 meters).
+
+==Custom content notes==
+*''script:'' <code>x0_s0_auraglory.nss</code>
+==External links==
+* {{FRW}}
+* {{NWN2W|Aura of Glory}}

@@ -1,0 +1,741 @@
+{
+  "_layer": "vanilla",
+  "_hand_written": true,
+  "_note": "Факты про КАСТ, у которых нет машиночитаемого дома. Страницы Fandom держат их прозой — в скобках после лейбла Spellcasting, отдельным подзаголовком «Bonus spells» и в разделе «Notes», — а шаблонов там нет вовсе, так что парсер классов до них не дотягивается и дотянуться не может: это предложения, а не поля.\n\n⚠️ Файл РУЧНОЙ и лежит рядом с машинными. `mix wiki.parse` его не пишет — он пишет ПОИМЁННО classes/skills/feats/spells/races/epic и три словаря выбора (creature_types, spell_schools, energy_types), а не всё содержимое папки. Имя выбрано так, чтобы ни с одним из девяти не совпасть (`spellcasting` ≠ `spells`). Загрузчик регистрирует его в `source_files/0` явно: mtime каталога двигается при ДОБАВЛЕНИИ файла, но не при правке, и без явной записи правка данных молча не пересобрала бы ruleset.\n\n`school_specialization` (задача 3.10) — четвёртый раздел, тем же принципом: числовой эффект и запрет, которые `class_choices.json`/`Rules.ClassChoices` (задача 3.14) сознательно не считают, потому что тот механизм отвечает только за САМ ВЫБОР (сколько значений, из какого домена, обязателен ли), а не за то, что выбор даёт. `Spell school` (revid 52118) взята не через `mix wiki.fetch` — страницы «Spell school» (в единственном числе) не было в кэше, `Spell school list` оказался дизамбигом на шесть классовых списков, — а напрямую через `api.php`, тем же приёмом, что и `Point buy` (см. CLAUDE.md §3). В `priv/wiki_cache/` не добавлена: факт разовый, не часть регулярно перевыкачиваемого набора категорий.",
+  "_verdicts": {
+    "applied": "Правило выражено схемой и посчитано ядром.",
+    "not_modelled": "Правило на источнике есть, но честно посчитать его нельзя — схемы под него нет, либо источник называет не всё. Ядро его не считает и говорит об этом вслух гэпом.",
+    "confirmed_absent": "На источнике прямо ПУСТО там, где ожидался бы каст — не отсутствие упоминания у одной сущности, а структурное отличие от сущностей, которые точно кастуют (нет ни лейбла, ни таблицы слотов, форма совпадает с заведомыми некастерами). Ядро уже читает пустые spells_per_day/casting_ability как «не кастер», и это верно — но это чтение вики, а не наблюдение в игре, и заведён кейс на подтверждение."
+  },
+  "casting_ability_minimum": {
+    "verdict": "applied",
+    "base": 10,
+    "per_circle": 1,
+    "applies_to": "base_and_modified",
+    "note": "Вторая половина правила «умеет накладывать заклинания N-го круга». Первая — таблица класса даёт слоты этого круга — уже читается из progression. Без второй половины персонаж с CHA 10 считался бы способным на 9-й круг. Требование к КАЖДОЙ из двух величин: и к базовой характеристике, и к итоговой; вещи у нас только прибавляют, так что связывает базовая, но проверяются обе — иначе будущий штраф от вещей молча пройдёт мимо.",
+    "quotes": [
+      {
+        "text": "In order to prepare or cast a known spell, the caster must have both a ''base'' casting ability score and a modified casting ability score of at least 10 + spell level.",
+        "source": {
+          "wiki": "fandom",
+          "page": "Ability score",
+          "revid": 71148,
+          "fetched": "2026-08-01"
+        }
+      },
+      {
+        "text": "a base charisma score of 10 + the spell's level is required to cast a spell",
+        "note": "Одна и та же формулировка стоит у всех семи кастеров, меняется только имя характеристики: Bard/Sorcerer — charisma, Cleric/Druid/Paladin/Ranger — wisdom, Wizard — intelligence. Само имя лежит в машинном слое (`primary_ability_raw` в classes.json), поэтому здесь только формула.",
+        "source": {
+          "wiki": "fandom",
+          "page": "Sorcerer",
+          "revid": 71586,
+          "fetched": "2026-08-01"
+        }
+      }
+    ],
+    "status": "verified"
+  },
+  "spontaneous_casters": {
+    "verdict": "applied",
+    "classes": [
+      "bard",
+      "sorcerer"
+    ],
+    "feat_prerequisite": "class_row_names_the_circle",
+    "others_require": "castable_circle",
+    "note": "Кто из кастеров СПОНТАННЫЙ — и зачем это ядру. Требование фита «ability to cast N-th level spells» (`casts_spell_level`) у спонтанного кастера спрашивает только СТРОКУ таблицы: есть ли у круга ячейка, причём напечатанный `0` считается, а пустая ячейка нет. Характеристика при этом не спрашивается вовсе. У остальных пяти кастеров требование прежнее и полное: круг должен реально кастоваться, то есть ячейка непустая (после бонусных слотов за характеристику) И характеристика не ниже `casting_ability_minimum` (10 + круг).\n\n⚠️ ЗАПИСЬ ЗАВЕДЕНА ЗАДАЧЕЙ 3.124 (27.08.2026) КАК ПРАВКА ЗАДАЧИ 3.122 ТОГО ЖЕ ДНЯ. 3.122 сняла проверку характеристики у ВСЕХ СЕМИ кастеров, прочитав предложение источника без его первых двух слов. Предложение начинается с «Spontaneous casters (bards and sorcerers)» — то есть исключение названо ровно для двух классов, и растягивать его на семь было ошибкой чтения, а не незнанием источника (цитата лежала в CLAUDE.md целиком). Направление ошибки — ложная ЛЕГАЛЬНОСТЬ: волшебнику 8 с интеллектом 11 мы предлагали `Empower Spell`, которого игра не даёт.\n\n🔴 ЧЕТЫРЕ НАБЛЮДЕНИЯ, И ТОЛЬКО ОДНО ЧТЕНИЕ ОБЪЯСНЯЕТ ВСЕ ЧЕТЫРЕ. (1) Бард 4, харизма 11, ячейка 2-го круга `0` — фит ЕСТЬ (замер Dan, AE1). (2) Бард 3, ячейки нет вовсе — фита НЕТ (замер Dan, AE1). (3) Бард 9, харизма 11, ячейка 2-го круга `3`, то есть НЕНУЛЕВАЯ — фит ЕСТЬ (печать движка: лог `.билд` Aley Blake, `test/fixtures/game_logs/aley.log`, `Empower Spell` взят на 15-м уровне персонажа при 9 уровнях барда). (4) Волшебник 8, интеллект 11, ячейка 2-го круга `3` — фита НЕТ, и самого 2-го круга в игре тоже нет (замер Dan, AE2).\n\n⚠️ КОНКУРИРУЮЩЕЕ ЧТЕНИЕ НАЗВАНО И ОТВЕРГНУТО НАБЛЮДЕНИЕМ, А НЕ ВКУСОМ. Кейс AE2 предсказывал на случай отрицательного ответа формулировку без спонтанности: «ячейка есть И (ячейка нулевая ИЛИ характеристика ≥ 10 + круг)». Она объясняет наблюдения 1, 2 и 4 — и ЛОЖНА на наблюдении 3: у барда 9 ячейка ненулевая, харизма 11 меньше 12, а фит у него есть. Наблюдение 3 — печать самого движка, то есть верхняя строка ранга источников. Значит исключение про спонтанность, а не про нулевую ячейку, ровно как и написано в источнике.\n\n⚠️ СПИСОК ИЗ ДВУХ КЛАССОВ — НЕ ВЫВОД, А ЦИТАТА, и подкреплён он лейблом `Spellcasting:` на страницах самих классов: у Барда и Соркерера там «and [[spontaneous cast]] (no spell preparation required)», у остальных пяти — «and requires preparation».\n\n🔴 ГРЕПАТЬ СЛОВО `spontaneous` ПО СТРАНИЦЕ КЛАССА НЕЛЬЗЯ: у Клирика в том же лейбле стоит «requires preparation (except for \"cure\" and \"inflict\" spells, which can be [[spontaneous cast]])» — он готовит заклинания и в исключение НЕ входит, хотя слово на странице есть. Поэтому список лежит здесь руками, а не выводится парсером из прозы.\n\n⚠️ ПРИЗНАК СОВПАДАЕТ С «НЕПУСТОЙ `spells_known`» — сегодня и ровно у двух классов, — но это ДРУГАЯ ЗАПИСЬ, и выводить одну из другой ядро не должно: источник говорит про подготовку заклинаний, а `spells_known` про каталог известных. Совпадение проверяется тестом (`Data.SpellcastingTest`), чтобы расхождение стало видимым событием, а не тихой правкой смысла.\n\n⚠️ ЗАПИСИ НЕТ ВОВСЕ — исключение не применяется НИ К КОМУ, то есть все семь считаются по полному правилу, и ruleset говорит об этом гэпом `{:missing_data, :spontaneous_casters}`. Умолчание направлено в сторону строгости (ложная нелегальность, которую игрок видит и может оспорить) и в сторону оговорки, а не молчания.",
+    "quotes": [
+      {
+        "text": "Spontaneous casters ([[bard]]s and [[sorcerer]]s) can take this feat without being able to cast first level spells as long as their [[class level]] qualifies for at least 0 level one spell slots (that is, even if their casting ability is too low to actually cast a level one spell).",
+        "where": "Notes",
+        "note": "Само правило. ⚠️ «at least 0» — это НЕ «ровно 0»: ненулевая ячейка тоже «qualifies for at least 0», и наблюдение (3) из note выше показывает, что движок так и считает.",
+        "source": {
+          "wiki": "fandom",
+          "page": "Spell focus",
+          "revid": 69073,
+          "fetched": "2026-08-01"
+        }
+      },
+      {
+        "text": "and [[spontaneous cast]] (no spell preparation required)",
+        "where": "Spellcasting:",
+        "note": "Подтверждение спонтанности у первого из двух классов списка.",
+        "source": {
+          "wiki": "fandom",
+          "page": "Bard",
+          "revid": 71572,
+          "fetched": "2026-08-01"
+        }
+      },
+      {
+        "text": "and [[spontaneous cast]] (no spell preparation required)",
+        "where": "Spellcasting:",
+        "note": "И у второго. Формулировка дословно та же, что у Барда.",
+        "source": {
+          "wiki": "fandom",
+          "page": "Sorcerer",
+          "revid": 71586,
+          "fetched": "2026-08-01"
+        }
+      },
+      {
+        "text": "and requires preparation (except for \"cure\" and \"inflict\" spells, which can be [[spontaneous cast]])",
+        "where": "Spellcasting:",
+        "note": "🔴 КОНТРПРИМЕР, ради которого список и лежит руками: слово `spontaneous` на странице Клирика есть, а классом спонтанного каста он не является. У Волшебника, Друида, Паладина и Рейнджера в том же месте стоит просто «and requires preparation».",
+        "source": {
+          "wiki": "fandom",
+          "page": "Cleric",
+          "revid": 71574,
+          "fetched": "2026-08-01"
+        }
+      }
+    ],
+    "measured": {
+      "who": "Dan",
+      "date": "2026-08-27",
+      "kind": "user",
+      "quotes": [
+        "бард 4 с харизмой 11 дает взять empower spell (AE1)",
+        "у барда 3 empower spell нет… 2 круг у того барда был, просто при 11 харизмы колдовать этот круг не получится, но он как бы «есть» и этого достаточно, чтобы игра предлагала empower (AE1)",
+        "я прокачал волшебника аж до 8 уровня с 11 интеллекта и 2 круг так и не появился. И empower spell так и не появился. Видимо механизм кругов у барда и волшебника разный (AE2)"
+      ],
+      "engine_log": "test/fixtures/game_logs/aley.log — бард 9 (харизма 11, ячейка 2-го круга ненулевая) держит Empower Spell. Не замер, а печать самой игры; именно это наблюдение отвергает конкурирующее чтение.",
+      "note": "⚠️ Третья цитата говорит ещё и то, чего эта запись НЕ применяет: у волшебника с интеллектом 11 в игре не появился САМ 2-й круг, а мы его в панели показываем (3 слота по таблице). Это про ПЕЧАТАЕМЫЕ СЛОТЫ, а не про требование фита, и в эту запись не входит: у неё своя цена (панель кастера) и своё решение владельца. Заведено отдельной задачей — см. `AGENT_QUEUE.md` §3.125 и `GAME_CHECKS.md` AE2."
+    },
+    "status": "verified"
+  },
+  "bonus_spell_slots": {
+    "verdict": "applied",
+    "min_circle": 1,
+    "max_circle": 9,
+    "modifier_source": "modified",
+    "circle_must_be_in_class_row": true,
+    "zero_slots_count": true,
+    "note": "Бонусные слоты за высокую характеристику каста — задача 3.70. Страница `Bonus spells` на Fandom оказалась РЕДИРЕКТОМ на `Ability modifier#Spellcasting`, и самой страницы нет в `priv/wiki_cache/` (`in_cache: false`, тем же приёмом, что `Point buy` и `Ability cap`: разовый факт, не часть регулярно перевыкачиваемого набора категорий).\n\nЧетыре условия правила, каждое из которых теряется первым:\n1. `circle_must_be_in_class_row` — слот даётся, только если у класса УЖЕ есть слот этого круга «by virtue of class level». `zero_slots_count` — напечатанный «0» СЧИТАЕТСЯ, прочерк «-» нет. В машинном слое эти два состояния различены и без нас: у барда 2-го уровня строка несёт `{\"1\": 0}`, а круга 2 в ней нет вовсе (`ClassPageTest`, «a printed 0 is a slot, an empty cell is not»). Именно этот пункт даёт паладину и рейнджеру каст с 4-го уровня класса при мудрости 12+, хотя при мудрости 10 их первый слот приходит только на 6-м.\n2. `min_circle` — заговоры (круг 0) бонуса не получают НИКОГДА, и это сказано прозой прямо, в отличие от специализации волшебника по школе, где то же самое пришлось решать (см. `school_specialization`).\n3. Характеристика — та, которой кастует ЭТОТ класс; имя лежит в машинном слое (`casting_ability`), поэтому здесь его нет.\n4. `modifier_source: modified` — модификатор берётся от ИТОГОВОЙ характеристики, вещи включены. Это не наш вывод: та же самая фраза на страницах всех семи кастеров противопоставляет два значения в одном предложении — «a base charisma score of 10 + the spell's level is required to cast a spell, bonus spells are based on MODIFIED charisma». Требование каста стоит на базовом, бонусные слоты — на итоговом. ⚠️ Не путать с требованиями ФИТОВ, где вещи не считаются (кейсы S1/S2, `fandom:Ability score`): там другое правило и другой вопрос.\n\n⚠️ Продвижение слотов Бледным мастером бонус НЕ ломает и не обходит: бонус считается от строки, которую билд в итоге читает, — уровни престижа тоже классовые уровни, а «by virtue of class level» в источнике противопоставлено не им, а самому бонусу (бонусный слот не открывает круг, которого не дала таблица). Разницы в наборе кругов между строкой до и после продвижения не бывает по построению: продвижение двигает УРОВЕНЬ строки, а не добавляет круги мимо таблицы.",
+    "circles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "by_modifier": {
+      "-4": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "-3": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "-2": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "-1": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "0": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "1": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "2": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "3": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "4": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "5": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "6": [
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "7": [
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "8": [
+        2,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "9": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1
+      ],
+      "10": [
+        3,
+        3,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1
+      ],
+      "11": [
+        3,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1
+      ],
+      "12": [
+        3,
+        3,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2,
+        1
+      ],
+      "13": [
+        4,
+        3,
+        3,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2
+      ],
+      "14": [
+        4,
+        4,
+        3,
+        3,
+        3,
+        3,
+        2,
+        2,
+        2
+      ],
+      "15": [
+        4,
+        4,
+        4,
+        3,
+        3,
+        3,
+        3,
+        2,
+        2
+      ],
+      "16": [
+        4,
+        4,
+        4,
+        4,
+        3,
+        3,
+        3,
+        3,
+        2
+      ],
+      "17": [
+        5,
+        4,
+        4,
+        4,
+        4,
+        3,
+        3,
+        3,
+        3
+      ],
+      "18": [
+        5,
+        5,
+        4,
+        4,
+        4,
+        4,
+        3,
+        3,
+        3
+      ],
+      "19": [
+        5,
+        5,
+        5,
+        4,
+        4,
+        4,
+        4,
+        3,
+        3
+      ],
+      "20": [
+        5,
+        5,
+        5,
+        5,
+        4,
+        4,
+        4,
+        4,
+        3
+      ],
+      "21": [
+        6,
+        5,
+        5,
+        5,
+        5,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    "by_modifier_note": "Таблица `Modifier and spell slots` со страницы-источника, перенесённая машинно (парсер викитекста, а не глазами): ключ — модификатор характеристики, значение — девять чисел по кругам 1..9 в порядке `circles`. Хранится ТАБЛИЦЕЙ, а не формулой, по тому же доводу, что накопительная таблица поинт-бая в `overrides.json`: чтобы её нечего было переизобретать.\n\n⚠️ Строки −4..−1 и часть строки 0 источник печатает не числами, а объединёнными ячейками с прозой («cannot cast spells tied to this ability», «cannot cast these spell levels»), остальные пустые ячейки — прочерком. И то и другое означает ноль бонусных слотов, и перенесено нулём; сама невозможность каста — это соседнее правило `casting_ability_minimum`, а не это.",
+    "formula": {
+      "divisor": 4,
+      "plus": 1,
+      "minimum": 0,
+      "expression": "floor((modifier - circle) / divisor) + plus, minimum"
+    },
+    "formula_note": "Источник называет формулу «as a general rule» рядом с таблицей. Здесь она лежит ПРОВЕРКОЙ: загрузчик прогоняет её по всем 26 строкам × 9 кругам и роняет сборку при первом расхождении (`Data.Loader.Spells.bonus_spell_slots/1`). На 21.08.2026 расхождений ноль — 234 ячейки из 234.\n\n⚠️ Она же — единственный честный ответ ВНЕ таблицы: модификатор выше последней строки (+21) таблица не покрывает, и ядро продолжает счёт формулой источника, а не клипает молча последней строкой. Сегодня это недостижимо: потолок характеристики — 18 поинт-бай + 2 раса + 10 прибавок за уровни (4, 8 … 40) + 10 `Great …` + 2 РДД = 40 базовых, плюс кап вещей +12 = 52, то есть ровно последняя строка таблицы. Ветка живёт на случай, когда шард сдвинет любое из этих слагаемых.",
+    "quotes": [
+      {
+        "text": "Spellcasters receive bonus [[spell slot]]s for high casting abilities. As with most in-game effects of abilities, these bonuses are determined by the modifier for the relevant ability: [[intelligence]] for [[wizard]]s; [[wisdom]] for [[cleric]]s, [[druid]]s, [[paladin]]s, and [[ranger]]s; and [[charisma]] for [[sorcerer]]s and [[bard]]s. In order to receive a bonus spell slot of a given level, the caster must have spell slots of that level by virtue of [[class level]]. For this purpose, having \"0\" spell slots counts (but having \"-\" spell slots does not).",
+        "source": {
+          "wiki": "fandom",
+          "page": "Ability modifier",
+          "section": "Spellcasting",
+          "revid": 71035,
+          "fetched": "2026-08-21",
+          "in_cache": false,
+          "note": "Страница `Bonus spells` — редирект на неё; снята напрямую через `api.php`, как `Point buy` и `Ability cap`."
+        }
+      },
+      {
+        "text": "As a general rule, the number of bonus spell slots of a given level is (modifier &minus; spell level)/4 + 1, rounded down, with a minimum of zero. There are never bonus spell slots for cantrips (level 0 spells).",
+        "source": {
+          "wiki": "fandom",
+          "page": "Ability modifier",
+          "section": "Spellcasting",
+          "revid": 71035,
+          "fetched": "2026-08-21",
+          "in_cache": false
+        }
+      },
+      {
+        "text": "[[intelligence]]-based (a base intelligence score of 10 + the spell's level is required to cast a spell, [[bonus spells]] are based on modified intelligence, and the intelligence modifier affects spell [[difficulty class|DCs]])",
+        "note": "Та же фраза стоит у всех семи кастеров, меняется только имя характеристики: Wizard — intelligence (revid 72067), Cleric (71574) / Druid (71575) / Paladin (71580) / Ranger (71582) — wisdom, Bard (71572) / Sorcerer (71586) — charisma. Именно она противопоставляет БАЗОВОЕ значение (требование каста) ИТОГОВОМУ (бонусные слоты) в одном предложении.",
+        "source": {
+          "wiki": "fandom",
+          "page": "Wizard",
+          "revid": 72067,
+          "fetched": "2026-08-01"
+        }
+      }
+    ],
+    "siala": {
+      "note": "Вики Сиалы про бонусные слоты не говорит ничего: слов «слот» и «заклинаний в день» нет ни на одной из 282 закэшированных страниц (проверено grep 21.08.2026), а страницы семи кастеров описывают только свои изменения. Значит действует ванильное правило и слой ванильный (CLAUDE.md §3).\n\n\u2705 ЗАМЕРЕНО В ИГРЕ Dan 24.08.2026 (кейс V1 в GAME_CHECKS.md) \u2014 правило ванильное, СОШЛОСЬ на двух точках. Колдун 1 с CHA 18: 1-й круг = 4 (3 базовых + 1 бонусный за модификатор +4), заговоры = 5, то есть нулевой круг бонусов не получает \u2014 ровно как у нас. Паладин 4: с WIS 10 не кастует, с WIS 12 имеет 1 слот 1-го круга \u2014 то есть напечатанный в таблице \u00ab0\u00bb это СУЩЕСТВУЮЩИЙ слот, и бонусный превращает его в настоящий (`zero_slots_count: true` подтверждён наблюдением, а не только чтением).\n\n\u26a0\ufe0f Замер меняет не расчёт, а ОПОРУ под ним: правило стояло на одном умолчании \u00abСиала молчит \u2014 считаем ванильным\u00bb, и подпорки не было никакой, потому что молчание источника тут полное. Теперь под ним наблюдение. Цена вопроса была велика: у колдуна 41 с CHA 30 это +17 слотов в день.",
+      "checked": "2026-08-21", "measured": "2026-08-24"
+    },
+    "status": "verified"
+  },
+  "prestige_advancement": [
+    {
+      "class": "pale_master",
+      "verdict": "applied",
+      "advances": "spells_per_day",
+      "does_not_advance": [
+        "spells_known",
+        "caster_level"
+      ],
+      "host_classes": [
+        "bard",
+        "sorcerer",
+        "wizard"
+      ],
+      "host_choice": "highest_class_level",
+      "at_class_levels": "odd",
+      "levels_per_grant": 1,
+      "capped_at": "host_spell_table_max_class_level",
+      "note": "Пример со страницы сходится с правилом «нечётные» ровно: у Соркерера 10 / ПМ 19 нечётных уровней ПМа десять (1,3,…,19), 10 + 10 = 20 — «то же, что у Соркерера 20». Наивное «+1 за каждый уровень ПМа» дало бы 29, что на этом примере упирается в тот же потолок 20 и потому НЕ различается — различие вылезает раньше: Соркерер 10 / ПМ 5 даёт 13, а не 15. Поэтому берём то, что страница говорит прямо и дважды (базовый раздел перечисляет 1,3,5,7,9, эпический — «at every odd pale master level»), а не то, что можно было бы вывести из примера.\n\n⚠️ `does_not_advance` не украшение: страница отдельным предложением говорит, что известных заклинаний ПМ не прибавляет («only knows as many spells as a level 10 sorcerer») и что уровень заклинателя не растёт. Слоты растут — круги, которые в них можно положить, у сорка и барда без метамагии остаются недоступными, и это их проблема, а не наша: мы считаем слоты и круги.\n\n⚠️ `host_classes` — только аркана. Клирик, друид, паладин и рейнджер в списке страницы отсутствуют, и дописывать их «по симметрии» нельзя.",
+      "quotes": [
+        {
+          "text": "Upon reaching pale master levels 1, 3, 5, 7, and 9, the character gains new [[spell slot|spells per day]] as if he had also gained a level in his highest caster class (bard, sorcerer or wizard). He does not learn any new spells through this ability, but for wizards it can allow higher-level spells to be learned through other means (i.e. from scrolls or later leveling as a wizard).",
+          "where": "Level progression → Bonus spells"
+        },
+        {
+          "text": "'''Bonus spells:''' The character continues to gain additional spells per day in his highest caster class at every odd pale master level, up to the maximum spells per day (at caster class level 20).",
+          "where": "Epic pale master"
+        },
+        {
+          "text": "Pale master levels augment spell slots, but otherwise do not affect spellcasting. Thus, a level 10 sorcerer / 19 pale master has the same spells per day as a level 20 sorcerer, but has a [[caster level]] of only 10 and only knows as many spells as a level 10 sorcerer.",
+          "where": "Notes"
+        }
+      ],
+      "status": "verified",
+      "source": {
+        "wiki": "fandom",
+        "page": "Pale master",
+        "revid": 71581,
+        "fetched": "2026-08-01"
+      },
+      "siala": {
+        "note": "Вики Сиалы про слоты Бледного мастера молчит — на его странице только Deathless master touch, лечение, иммунитеты и переписанные призывы. Значит ванильное правило в силе (CLAUDE.md §3), и Дан это подтвердил 02.08.2026.",
+        "source": {
+          "kind": "user",
+          "wiki": "siala",
+          "page": "Бледный мастер",
+          "revid": 16987,
+          "fetched": "2026-08-01"
+        }
+      }
+    }
+  ],
+  "school_specialization": [
+    {
+      "class": "wizard",
+      "verdict": "applied",
+      "bonus_per_circle": 1,
+      "min_circle": 1,
+      "note": "Задача 3.10 (AGENT_QUEUE.md). Механика выбора (одна школа, необязательно, на первом уровне класса) заведена отдельно в `class_choices.json` через общий механизм `Rules.ClassChoices` (задача 3.14) — здесь только ЧИСЛОВОЙ эффект и запрет противоположной школы, которые `ClassChoices` сознательно не считает (см. его moduledoc).",
+      "quotes": [
+        {
+          "text": "A wizard may choose to specialize in a spell school, gaining one additional prepared spell per spell level but losing the ability to cast spells from the opposed spell school, even spells from scrolls. A wizard does not have to specialize, thus keeping access to all spells.",
+          "source": {
+            "wiki": "fandom",
+            "page": "Wizard",
+            "revid": 72067,
+            "fetched": "2026-08-01"
+          }
+        },
+        {
+          "text": "Schools of magic (spell schools) are groups of related spells that work in similar ways. A wizard may choose to specialize in a school of magic, thereby gaining one additional spell slot per spell level while losing the ability to cast spells from an opposed school. This prohibition extends to spells cast from scrolls, but not to spells cast from other kinds of items. In addition, specialist wizards have a bonus (+2) to identifying spells (through spellcraft) from their area of expertise and a penalty (-5) to identifying spells from the opposing school. Alternatively, a wizard may choose to not specialize, thus keeping access to all spells.",
+          "source": {
+            "wiki": "fandom",
+            "page": "Spell school",
+            "revid": 52118,
+            "fetched": "2026-08-04"
+          }
+        }
+      ],
+      "min_circle_note": "✅ ИЗМЕРЕНО В ИГРЕ 09.08.2026 (Dan, тестовый сервер, `source: kind: user`; GAME_CHECKS.md A2). Волшебник 1 с INT 11 и специализацией Conjuration: круг 0 — **3** заклинания, круг 1 — **2**. База таблицы на 1-м уровне 3/1, значит `+1` применился к кругу 1 и НЕ применился к кругу 0. `min_circle: 1` подтверждён замером, оговорка `{:assumed, :wizard_specialization_excludes_cantrips}` снята.\n\n⚠️ Ниже — прежний довод, по которому это было РЕШЕНИЕМ, а не фактом. Сохранён: он показывает, что вывод был сделан по косвенному признаку и мог оказаться неверным.\n\n⚠️ Ни одна из двух цитат не говорит явно, входит ли круг 0 (заговоры/cantrips) в «per spell level»/«per spell level». Единственная строка, которая касается специализации и заговоров прямо, — с той же страницы `Spell school`: «cantrips can be used by any wizard, regardless of school and specialization» — но она про ЗАПРЕТ (доступ к заговорам не теряется при специализации), а не про БОНУС (получает ли специализация лишний заговор). Три соседние страницы (`Brew potion`, `Craft wand`, `Scribe scroll`) явно оговаривают «cantrips (level 0 spells) are treated as level 1 spells for this calculation» ровно там, где круг 0 иначе не подпадал бы под общее правило — то есть на этой вики оговорку про 0-й круг пишут, когда она нужна, а здесь её нет. Это косвенный, а не прямой довод, поэтому решение — не додумывать: бонус применяется к кругам 1..9 (`min_circle: 1`), к кругу 0 не применяется, `Rules.Vocabulary` несёт `{:assumed, :wizard_specialization_excludes_cantrips}`.",
+      "opposed_schools": {
+        "abjuration": "conjuration",
+        "conjuration": "transmutation",
+        "divination": "illusion",
+        "enchantment": "illusion",
+        "evocation": "conjuration",
+        "illusion": "enchantment",
+        "necromancy": "divination",
+        "transmutation": "conjuration"
+      },
+      "opposed_schools_note": "Таблица «по умолчанию, как сделал BioWare» с той же страницы `Spell school` — направленная, НЕ симметричная (Abjuration теряет Conjuration, но Conjuration теряет Transmutation, а не Abjuration). Источник прямо говорит, что она отличается от настольной версии: «The default schools of opposition, as set up by BioWare, are different from those in pencil-and-paper due to the limited selection of spells available in NWN for some schools». Abjuration, Evocation и Necromancy никогда не стоят справа (их не запрещает ни одна специализация) — источник называет это прямо: «the abjuration, evocation, and necromancy schools are not listed as opposition for any other schools. Therefore, spells in these three schools can be used by any wizard, regardless of specialization».",
+      "restriction_modelled": false,
+      "restriction_note": "Сам запрет («losing the ability to cast spells from an opposed school», включая свитки) НЕ проверяется нигде в ядре: заклинания волшебника мы не моделируем вовсе (у него нет `spells_known`, только `spells_per_day`), так что запрету просто не на что опереться численно. Взаимодействие со `Spell Focus` (можно ли фокусироваться на школу, которую специализация запретила) источник не описывает вовсе — ни здесь, ни на страницах `Spell focus`/`Greater spell focus`/`Epic spell focus` — поэтому мы НЕ запрещаем такой выбор (запрет без источника был бы ложной нелегальностью), а несём гэп `{:not_modelled, :wizard_opposed_school}`.\n\n\u2705 ЗАМЕРЕНО Dan 24.08.2026 (кейс W1): ограничения НЕТ. Волшебник со специализацией `necromancy` (противоположная школа `divination`) видит `Spell Focus (Divination)` в списке и берёт его. То есть осторожность оправдалась \u2014 запрет по догадке был бы ложной нелегальностью, и молчание источника здесь означало отсутствие правила, а не пробел в источнике. Подпись гэпа укорочена: её хвост про `Spell Focus` снят, потому что объявлял дырой то, чего в игре нет.\n\n\ud83d\udd34 ГЭП СНЯТ 24.08.2026 (задача 3.86, решение Dan). Здесь стояло: «Сам гэп ОСТАЁТСЯ… прибавку за специализацию мы считаем, а её цену \u2014 потерю каста противоположной школы \u2014 нет. Игрок видит у специализации одну выгоду». Цена теперь НАЗВАНА в том месте, где выбор и делается: `Rules.Spells.specialization_costs/2` считает, сколько заклинаний собственного списка волшебника уносит противоположная школа, и чип школы печатает обе половины \u2014 «+1 к слотам каждого круга» и «закрывает Conjuration \u2014 27 заклинаний из 179».\n\n\u26a0\ufe0f САМ ЗАПРЕТ по-прежнему не проверяется, и это не долг: списка подготовленных заклинаний волшебника в модели нет вовсе, значит ни одного нашего числа он не двигает. Гэп \u2014 дырка в нашем ОТВЕТЕ, а не в наших знаниях (CLAUDE.md \u00a79), и с того момента, как ответ называет цену выбора, дырки в нём не осталось. Поэтому `restriction_modelled: false` рядом остаётся ВЕРНЫМ и снимать его нельзя: смоделирован размер потери, а не запрет.\n\n\u26a0\ufe0f Счёт ПОЖИЗНЕННЫЙ (решение Dan): школа называется один раз и навсегда, поэтому считается весь список волшебника, а не круги, до которых персонаж дорос. И считается СИАЛЬСКАЯ школа: шард переносит восемь заклинаний (шесть из Разрушения в Зачарование), по ванильной колонке цена Иллюзии вышла бы 16 вместо 20.",
+      "status": "verified",
+      "siala": {
+        "note": "Вики Сиалы про специализацию молчит целиком (см. `class_choices.json` → запись `wizard`). Правило ванильное, источник помечен по общему правилу §3 CLAUDE.md.",
+        "source": {
+          "wiki": "siala",
+          "page": "Волшебник",
+          "revid": 20070,
+          "fetched": "2026-08-01"
+        }
+      },
+      "min_circle_status": "verified",
+      "min_circle_source": {
+        "kind": "user",
+        "who": "Dan",
+        "measured": "2026-08-09",
+        "what": "wizard 1, INT 11, specialization conjuration -> circle 0: 3, circle 1: 2",
+        "does_not_cover": "проверен только 1-й уровень класса и только круги 0 и 1; поведение бонуса на кругах 2..9 выведено из той же формулы, но не измерено"
+      }
+    }
+  ],
+  "not_modelled": [],
+  "_applied_elsewhere_note": "Правило, которое читается ЗДЕСЬ, а применяется в другом файле, потому что по форме оно пререквизит фита, а не свойство каста. Гэпа такая запись не порождает — правило посчитано, и печатать про него «не знаем» значило бы пугать сосчитанным (CLAUDE.md §6). Мёртвым текстом она при этом не становится: загрузчик проверяет, что каждый названный фит действительно несёт названный ключ требований, и роняет сборку, если правило из другого файла откатят.",
+  "applied_elsewhere": [
+    {
+      "id": "epic_spell_access",
+      "verdict": "applied",
+      "about": "feat_prerequisites",
+      "applied_in": "vanilla/feat_requirements.json",
+      "requirement_key": "qualifying_class_levels",
+      "feats": [
+        "epic_spell_dragon_knight",
+        "epic_spell_epic_mage_armor",
+        "epic_spell_epic_warding",
+        "epic_spell_greater_ruin",
+        "epic_spell_hellball",
+        "epic_spell_mummy_dust"
+      ],
+      "note": "⚠️ НАХОДКА 03.08.2026, ПРИМЕНЕНА 15.08.2026 (задача 3.31). У всех шести эпических заклинаний в разделе Notes стоит, что напечатанное требование — не настоящее: реальное это «эпический жрец/друид/сорк/маг ЛИБО 15 уровней Бледного мастера», плюс «взять можно только на уровне соответствующего класса». То есть Бард 4 / ПМ 30 («Бледный Призыватель», страница билда Сиалы) эпические заклинания брать ВПРАВЕ, а наши отказы по `casts_spell_level: 9` были наши, а не ошибка страницы.\n\n⚠️ Здесь стояло «не применено сознательно» с доводом: «схема выражает половину („15 уровней ПМа“), вторую — нет: „being an epic cleric/druid/sorcerer/wizard“ не говорит, 21-й ли это уровень класса или персонажа». Обе половины довода закрылись:\n\n1. **Что значит «эпический»** — отвечает отдельная страница, `fandom:Epic class` (revid 40911): «To become epic with a specific class the character must have 21 levels for a base class, or 11 levels for a prestige class». То есть уровень КЛАССА, и вопрос был не «источник молчит», а «мы не открыли ту страницу». ⚠️ У Бледного мастера порог назван прямо в самом правиле и он ВЫШЕ общего престижного — 15, а не 11.\n2. **Разные списки классов у разных фитов** — это не препятствие вовсе, а просто разные значения одного ключа: у четырёх заклинаний пять классов, у `epic_mage_armor`/`epic_warding` три. Записаны по каждой странице отдельно.\n\nЗамер Dan 15.08.2026 (`GAME_CHECKS.md` E3, E3c): на персонаже **Бард 10 / Бледный мастер 15** игра предлагает `Epic spell: mummy dust` — и в бонусном слоте ПМ, и в обычном эпическом. Бард кастует максимум 6-й круг, значит цитата Fandom верна и на Сиале, а `casts_spell_level: 9` был ложной нелегальностью у всей связки «заклинатель + Бледный мастер».\n\n⚠️ ЧТО ЗАМЕРОМ НЕ ПОДТВЕРЖДЕНО и подтвердиться не могло: вторая половина правила — «can only be chosen when gaining a level in the qualifying class». У персонажа Dan ВСЕ эпические уровни — Бледный мастер, поэтому любой слот там «на уровне квалифицирующего класса» по построению. Эта половина взята из источника, и она делает нас СТРОЖЕ игры, если на Сиале её нет: волшебник 21 / клирик 5 на клериковском уровне получит отказ. Направление ошибки названо честно, замер заведён.",
+      "quotes": [
+        {
+          "text": "The actual prerequisite is not the ability to cast level 9 spells, but being an [[epic class|epic]] [[cleric]], [[druid]], [[sorcerer]], or [[wizard]], or having at least 15 [[pale master]] levels. Furthermore, this feat can only be chosen when gaining a level in the qualifying class.",
+          "where": "Notes",
+          "pages": [
+            {
+              "page": "Epic spell: dragon knight",
+              "revid": 57738,
+              "classes": [
+                "cleric",
+                "druid",
+                "sorcerer",
+                "wizard"
+              ]
+            },
+            {
+              "page": "Epic spell: greater ruin",
+              "revid": 70281,
+              "classes": [
+                "cleric",
+                "druid",
+                "sorcerer",
+                "wizard"
+              ]
+            },
+            {
+              "page": "Epic spell: hellball",
+              "revid": 63687,
+              "classes": [
+                "cleric",
+                "druid",
+                "sorcerer",
+                "wizard"
+              ]
+            },
+            {
+              "page": "Epic spell: mummy dust",
+              "revid": 62570,
+              "classes": [
+                "cleric",
+                "druid",
+                "sorcerer",
+                "wizard"
+              ]
+            },
+            {
+              "page": "Epic spell: epic mage armor",
+              "revid": 64605,
+              "classes": [
+                "sorcerer",
+                "wizard"
+              ]
+            },
+            {
+              "page": "Epic spell: epic warding",
+              "revid": 70464,
+              "classes": [
+                "sorcerer",
+                "wizard"
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Pale masters can take [[epic spell]]s at level 15, regardless of spell casting ability, provided they meet the [[spellcraft]] requirements. (This may be of particular note to [[bard]]s, who can fulfill the requirements for this class, but who cannot on their own qualify for epic spells.) The duration of the spells chosen while leveling as a pale master will be based on pale master levels.",
+          "where": "Notes",
+          "pages": [
+            {
+              "page": "Pale master",
+              "revid": 71581
+            }
+          ]
+        }
+      ],
+      "status": "verified",
+      "fetched": "2026-08-01",
+      "measured": {
+        "kind": "user",
+        "who": "Dan",
+        "measured": "2026-08-15",
+        "what": "бард 10 / бледный мастер 15, Spellcraft в потолок — игра предлагает `Epic spell: mummy dust` и в бонусном слоте Бледного мастера, и в обычном эпическом",
+        "does_not_cover": "вторую половину правила («только на уровне квалифицирующего класса»): у измеренного персонажа ВСЕ эпические уровни — Бледный мастер, поэтому любой слот там подходит по построению. Также не покрыт порог «эпический клирик/друид/сорк/маг 21» — измерялась только ветка Бледного мастера.",
+        "case": "GAME_CHECKS.md E3, E3c"
+      },
+      "open_question": "⚠️ Здесь стояло: «Сиала про это молчит на обеих сторонах… вопрос админам шарда — работает ли доступ через 15 уровней ПМа, и считается ли «эпический маг» по уровню класса или персонажа». ОБА вопроса закрыты 15.08.2026: первый — замером Dan (см. `measured`), второй — страницей `fandom:Epic class` (уровень КЛАССА, 21 для базового и 11 для престижного; у Бледного мастера это правило называет свой порог 15). Сиала по-прежнему молчит про механику целиком, то есть правило применено как ванильное по общему правилу §3 CLAUDE.md — но ветка Бледного мастера теперь подтверждена в игре, а не только на Fandom."
+    }
+  ],
+  "no_innate_casting": [
+    {
+      "_note": "Заведено 14.08.2026 (data-miner) после разбора CLAUDE.md §9 п.4 («у assassin/blackguard нет ни spells_per_day, ни casting_ability, хотя в ванили оба кастуют»). Вторая половина фразы источником не подтверждена — вот эти две записи и объясняют, почему. Не путать с `not_modelled`: там правило ЕСТЬ на источнике и посчитать его нельзя, здесь источник (структурно, встречным чтением обеих вики) говорит, что правила нет вовсе. `mix wiki.parse` эти два id не трогает — `spells_per_day`/`primary_ability_raw` у обоих классов и так уже `null`/`{}`, это дословное совпадение с источником, менять в classes.json нечего."
+    },
+    {
+      "class": "assassin",
+      "verdict": "confirmed_absent",
+      "about": "spells_per_day_and_casting_ability",
+      "note": "Fandom `Assassin` (проверено api.php живьём 14.08.2026, revid не изменился) не содержит ни лейбла '''Spellcasting:''', ни колонки Spells per day ни в одной из двух таблиц прогрессии (1–10 и 11–30) — та же форма, что у всех остальных 10 престиж-классов, ни у одного из которых нет своей таблицы спелл-слотов; у семи настоящих кастеров (Bard/Cleric/Druid/Paladin/Ranger/Sorcerer/Wizard) лейбл и таблица есть всегда. `primary_ability_raw`/`spellcasting_raw` в vanilla/classes.json пусты у assassin, что дословно совпадает с источником, а не является пробелом парсера (lib/build_calculator/wiki/class_page.ex, moduledoc: 'that is the page saying \"not a caster\", not a parsing gap'). Способности, похожие на заклинания (Darkness, Invisibility, Improved Invisibility, Ghostly Visage), стоят в колонке Feats таблицы прогрессии с суффиксом '(feat)' в имени и уже разобраны как granted_feats, не как spells_per_day.",
+      "status": "verified",
+      "source": {
+        "wiki": "fandom",
+        "page": "Assassin",
+        "revid": 71570,
+        "fetched": "2026-08-14"
+      },
+      "siala": {
+        "note": "Страница «Убийца» о касте/заклинаниях не говорит ни слова — только яды, ловушки и маскировка.",
+        "source": {
+          "wiki": "siala",
+          "page": "Убийца",
+          "revid": 20400,
+          "fetched": "2026-08-14"
+        }
+      },
+      "not_covered": "Подтверждено чтением обеих вики и структурным сравнением с остальными 22 классами (все spells_per_day/primary_ability_raw в vanilla/classes.json), а не наблюдением в игре. Кейс на подтверждение — GAME_CHECKS.md, заход O, кейс O1 (Rogue 8 → Assassin 1 → Blackguard 1, смотреть, появляется ли спеллбук в интерфейсе вообще)."
+    },
+    {
+      "class": "blackguard",
+      "verdict": "confirmed_absent",
+      "about": "spells_per_day_and_casting_ability",
+      "note": "Тот же структурный аргумент, что у assassin (см. соседнюю запись) — Fandom `Blackguard` не содержит ни лейбла Spellcasting, ни колонки Spells per day. Дополнительно подтверждено цитатой самой Сиалы: способность, внешне похожая на заклинание, прямо названа НЕ заклинанием, а его аналогом, реализованным как классовое умение.",
+      "quotes": [
+        {
+          "text": "способность \"Сила быка\", которое было аналогом заклинания, поднимающего характеристику силы, переработана и зависит от уровня к классе",
+          "where": "Изменения в классе на Сиале, пункт про особые умения",
+          "source": {
+            "wiki": "siala",
+            "page": "Чёрный страж",
+            "revid": 18232,
+            "fetched": "2026-08-14"
+          }
+        }
+      ],
+      "status": "verified",
+      "source": {
+        "wiki": "fandom",
+        "page": "Blackguard",
+        "revid": 71895,
+        "fetched": "2026-08-14"
+      },
+      "not_covered": "Та же граница, что у assassin: чтение вики, не наблюдение. Тот же кейс O1 в GAME_CHECKS.md закрывает оба класса одним персонажем."
+    }
+  ],
+  "external_corroboration_not_a_source": {
+    "_note": "Не входит в ранг источников CLAUDE.md §3 (только wiki.siala.kiev.ua и nwn.fandom.com) — записано ИСКЛЮЧИТЕЛЬНО как подкрепление находки выше, а не как основание для неё. Ни одно число отсюда в данные не попало.",
+    "what": "Обсуждения комьюнити NWN1 (Steam, форумы модов «Prestige Spellbook Pack») сходятся, что в оригинальной игре (в отличие от настольных правил D&D 3.5) Blackguard получал не полноценный каст, а набор способностей-заменителей (spell-like abilities); правило то же для Assassin. Полноценный спеллбук для этих классов существует в фанатских модах, которые прямо заявляют, что ДОБАВЛЯЮТ его — то есть в базовой игре его нет.",
+    "retrieved_at": "2026-08-14"
+  }
+}
