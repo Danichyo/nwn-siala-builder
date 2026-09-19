@@ -1,0 +1,5 @@
+An '''untrained skill check''' occurs when a character uses a [[skill]] in which the character has no [[rank]]s. Not all skills allowed untrained checks; those that do not are marked as either "Requires Training: Yes" or "Untrained: No". (NWNWiki uses the former.)
+
+Buying a rank in a skill that requires training can be useful, even in [[cross-class skill]]s. For example, a character with 16 [[dexterity]] and no ranks in [[open lock]] is unable to pick a lock. If the same character buys a single rank in open lock, the character is able to attempt to pick locks with a +4 modifier (+1 from the rank and +3 from dexterity), and is able to use [[Thieves' Tools]].
+
+[[category:skills| Untrained skill check]]

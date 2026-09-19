@@ -1,0 +1,38 @@
+A '''hammer''' is a [[melee]] [[weapon]] used specifically as a [[bludgeoning damage|bludgeoning]] weapon. It differs from a [[club]] in that the bludeoning surface is usually a large mass of metal.
+
+{| border="1" cellspacing="0" cellpadding="2"
+ |- style="background-color:#CCCCCC"
+  |&nbsp;
+  |'''Name'''
+  |'''Cost (gp)'''
+  |'''Damage'''
+  |'''Critical'''
+  |'''Weight'''
+  |'''Type'''
+  |'''Size'''
+  |'''Proficiency'''
+ |-
+  |[[Image: Light hammer.jpg|Light hammer]]
+  |Hammer, light
+  |1
+  |1d4
+  |x2
+  |2
+  |Bludgeoning
+  |Small
+  |[[Weapon proficiency (martial)|Martial]]
+ |-
+  |[[Image: Warhammer.jpg|Warhammer]]
+  |Hammer, war
+  |12
+  |1d8
+  |x3
+  |8
+  |Bludgeoning
+  |Medium
+  |[[Weapon proficiency (martial)|Martial]]
+|}
+
+==Notes==
+* Light Hammers benefit from the [[weapon finesse]] [[feat]].
+[[Category:Blunt weapons]]

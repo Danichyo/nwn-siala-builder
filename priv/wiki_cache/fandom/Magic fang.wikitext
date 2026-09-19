@@ -1,0 +1,26 @@
+{{spell
+|icon=is_x1magfan.gif
+|druidlevel=1
+|rangerlevel=1
+|innatelevel=1
+|school=[[transmutation]]
+|components=VS
+|range=p
+|area=caster
+|save=none
+|spellresistance=no
+|duration=1 [[turn]] / level
+|line=Magic fangs
+|line1=magic fang
+|line3=greater magic fang
+|desc=This spell strengthens the caster's [[animal companion]], giving it +1 [[attack bonus|to hit]] and +1 to damage. It also grants the creature the ability to strike as if it were a +1 weapon (so it can bypass other creatures' [[damage reduction]]).}}
+
+== Notes ==
+
+* Added in the [[expansion pack]]s.
+* The bonus damage (reported as [[magical damage]]) is from a [[damage increase]] effect, so it ignores both [[damage resistance]] and damage [[immunity]].
+* In addition to the stated benefits, the animal companion gets 1/+1 damage reduction.
+* This spell displaces earlier castings of itself and of ''[[greater magic fang]]''.
+
+== Custom content notes ==
+* ''script:'' <code>x0_s0_magicfang</code>

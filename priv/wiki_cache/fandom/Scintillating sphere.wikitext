@@ -1,0 +1,20 @@
+{{spell
+|icon=is_x2scntsphere.gif
+|magelevel=3
+|innatelevel=3
+|school=[[evocation]]
+|components=VS
+|range=m
+|area=huge
+|save=[[reflex]] 1/2
+|spellresistance=yes
+|immunity=electricity
+|duration=instantaneous
+|desc=The caster unleashes a crackling electric projectile that explodes upon all within the area of effect for 1[[d6]] points of [[electrical damage]] per caster level, to a maximum of 10d6.}}
+
+== Notes ==
+*Requires [[Hordes of the Underdark]].
+* This spell is similar to [[fireball]], differing only in range and [[damage type]].
+
+== Custom content notes ==
+* ''script:'' <code>X2_S0_ScntSphere</code>

@@ -1,0 +1,32 @@
+{{spell
+|icon=is_x1wouwhis.gif
+|bardlevel=3
+|innatelevel=3
+|school=[[abjuration]]
+|components=VS
+|range=p
+|area=caster
+|save=none
+|spellresistance=no
+|immunity=sonic
+|duration=1 [[round]] / [[caster level|level]]
+|line=Damage shields
+|line2=death armor
+|line3=wounding whispers
+|line4=elemental shield
+|line5=mestil's acid sheath
+|desc=The caster is surrounded with whispers that injure any creature that hits the caster for 1[[d6]]+1/level points of [[sonic damage]].}}
+
+== Notes ==
+
+* Added in the [[expansion pack]]s.
+* As with the other damage shields, only [[melee]] hits trigger the spell's damage.
+* Unlike the other damage shields, damage is rolled once when the spell is cast, not per hit.
+* This spell can be used with both [[empower spell]] and [[maximize spell]], but doing so does not affect the damage dealt (or any other aspect of this spell).
+* If cast multiple times, only the last casting has an effect (earlier castings are replaced).
+
+== Custom content notes ==
+
+*''script:'' <code>x0_s0_WoundWhis</code>
+==External links==
+* {{FRW}}

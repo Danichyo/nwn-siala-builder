@@ -1,0 +1,31 @@
+{{otheruses|the spell|the feat|Bull's strength (feat)}}
+{{spell
+|icon=is_bullstr.gif
+|bardlevel=2
+|clericlevel=2
+|druidlevel=2
+|paladinlevel=2
+|magelevel=2
+|innatelevel=2
+|school=[[transmutation]]
+|components=VS
+|range=t
+|area=single
+|save=harmless
+|spellresistance=no
+|duration=1 [[hour]] / [[caster level|level]]
+|counters=<del>[[ray of enfeeblement]]</del>
+|line=Bull's strengths
+|line2=Bull's strength
+|line6=Greater bull's strength
+|desc=The target creature's [[strength]] is increased by 1[[d4]] + 1.}}
+
+== Notes ==
+
+* This spell stacks with the [[blackguard]]'s [[bull's strength (feat)|bull's strength]] feat.
+* If the maximum strength increase is not achieved, the spell can be cast again for a chance at a higher die roll (up to +5 regularly or +7 [[empower spell|empowered]]). The recast will not lower the ability score.
+*Due to a .2da bug, ''bull's strength'' is not an additional [[counterspell]] of ''ray of enfeeblement''.
+
+== Custom content notes ==
+
+*''script:'' <code>nw_s0_bullstr</code>

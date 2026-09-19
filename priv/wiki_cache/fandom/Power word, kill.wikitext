@@ -1,0 +1,27 @@
+{{spell
+|icon=is_pwkill.gif
+|magelevel=9
+|innatelevel=9
+|school=[[divination]]
+|components=V
+|range=s
+|area=large
+|areanote=, single
+|save=none
+|spellresistance=yes
+|immunity=death
+|duration=instant
+|counters=<del>[[death ward]]</del>
+|line=Power words
+|line7=power word, stun
+|line9=power word, kill
+|desc=This spell may be cast on a single creature or as an area effect. A targeted creature of up to 100 [[hit point]]s is killed instantly. As an area effect, this spell will kill all creatures with fewer than 20 hit points, to a maximum total of 200 hit points.}}
+
+== Notes ==
+*Whether or not a creature is affected by this spell depends on the creature's current, not maximum, hit points.
+*This spell does not have a somatic [[component]], so it can be cast while wearing full armor and shield, ignoring arcane [[spell failure]].
+*In area effect mode, the spell targets creatures in ascending order of current hit points.
+*Due to a .2da bug, ''death ward'' is not an additional [[counterspell]] of this spell.
+
+== Custom content notes ==
+* ''script:'' <code>NW_S0_PWKill</code>

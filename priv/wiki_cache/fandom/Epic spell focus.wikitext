@@ -1,0 +1,26 @@
+<p align=center>[[Image:Ife x2epspfabjr.gif|Epic spell focus (abjuration)]] [[Image:Ife x2epspfconj.gif|Epic spell focus (conjuration)]] [[Image:Ife x2epspfdivi.gif|Epic spell focus (divination)]] [[Image:Ife x2epspfench.gif|Epic spell focus (enchantment)]] [[Image:Ife x2epspfevoc.gif|Epic spell focus (evocation)]] [[Image:Ife x2epspfillu.gif|Epic spell focus (illusion)]] [[Image:Ife x2epspfnecr.gif|Epic spell focus (necromancy)]] [[Image:Ife x2epspftran.gif|Epic spell focus (transmutation)]]</p>
+{{feat
+|epic=yes
+|type=spell
+|prereq=21st level, [[spell focus]] and [[greater spell focus]] in the chosen [[spell school|school]], ability to cast 9th level spells
+|desc=The character gains a +6 to the [[difficulty class]] for all [[saving throw]]s against spells from the chosen school of magic.
+|use=automatic
+|bonus1=bard
+|bonus2=champion of Torm
+|bonus3=cleric
+|bonus4=druid
+|bonus5=paladin
+|bonus6=pale master
+|bonus7=ranger
+|bonus8=red dragon disciple
+|bonus9=shifter
+|bonus10=sorcerer
+|bonus11=wizard
+}}
+
+==Notes==
+
+*Requires [[Hordes of the Underdark]].
+* The "ability to cast level 9 spells" may be better understood as the ability to learn level 9 spells (as [[wizard]]s are not required to know spells of the highest level they can cast).
+* ''Epic spell focus'' does not apply to spells that are granted as special abilities.
+* ''Epic spell focus'' does not stack with [[spell focus]] or [[greater spell focus]]; it replaces the previous two feats' benefits.

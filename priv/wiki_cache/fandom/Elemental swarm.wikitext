@@ -1,0 +1,21 @@
+{{spell
+|icon=is_eleswarm.gif
+|druidlevel=9
+|innatelevel=9
+|school=[[conjuration]]
+|components=VS
+|range=m
+|area=point
+|save=none
+|spellresistance=no
+|duration=24 [[hour]]s
+|counters=<del>[[dismissal]]</del>
+|immunity=air, earth, fire, water
+|desc=The caster summons a 21 [[hit die]] [[greater air elemental]] to act as a loyal servant until it dies or until the spell expires. If the air elemental dies before the spell ends, a 21 hit die [[greater water elemental]] is automatically summoned to replace it. This process continues with a [[greater earth elemental]] and [[greater fire elemental]] until the spell expires. After the fire elemental, no more are summoned.}}
+
+==Notes==
+*Due to a .2da bug, ''elemental swarm'' is not an additional [[counterspell]] of ''dismissal''.
+
+==Custom content notes==
+*''script:'' <code>NW_S0_EleSwarm</code>
+[[Category:Summoning]]

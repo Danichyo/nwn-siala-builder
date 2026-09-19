@@ -1,0 +1,32 @@
+{{spell
+|icon=is_summon1.gif
+|bardlevel=1
+|clericlevel=1
+|druidlevel=1
+|rangerlevel=1
+|magelevel=1
+|innatelevel=1
+|school=[[conjuration]]
+|components=VS
+|range=s
+|area=point
+|save=none
+|spellresistance=no
+|duration=24 [[hour]]s
+|line=Summon creature
+|line1=summon creature I
+|line2=summon creature II
+|line3=summon creature III
+|line4=summon creature IV
+|line5=summon creature V
+|line6=summon creature VI
+|line7=summon creature VII
+|line8=summon creature VIII
+|line9=summon creature IX
+|desc=The caster [[summon]]s a [[dire badger]] to be a faithful and loyal servant.}}
+
+== Custom content notes ==
+
+* ''script:'' <code>NW_S0_Summon</code>
+
+[[category:summoning]]

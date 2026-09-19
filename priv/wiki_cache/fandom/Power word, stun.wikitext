@@ -1,0 +1,34 @@
+{{spell
+|icon=is_pwstun.gif
+|magelevel=7
+|innatelevel=7
+|school=[[divination]]
+|components=V
+|range=s
+|area=single
+|save=none
+|spellresistance=yes
+|immunity=mind-affecting
+|duration=instant
+|counters=<del>[[clarity]]</del>
+|line=Power words
+|line7=power word, stun
+|line9=power word, kill
+|desc=Automatically [[stunned|stun]]s a single target for a duration based on the target's [[hit point]]s:}}
+
+{|class="wikitable" style="text-align:center"
+!hit points!!duration
+|-
+|under 50||4[[d4]] [[round]]s
+|-
+|51-100  ||2d4 rounds
+|-
+|101-150 ||1d4 rounds
+|}
+
+== Notes ==
+* The duration of the stun depends on the target's current, not maximum, hit points.
+*Due to a .2da bug, ''power word, stun'' is not an additional [[counterspell]] of ''clarity''.
+
+== Custom content notes ==
+* ''script:'' <code>NW_S0_PWStun</code>

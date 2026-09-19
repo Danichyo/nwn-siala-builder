@@ -1,0 +1,23 @@
+{{spell
+|icon=is_x1displace.jpg
+|bardlevel=3
+|magelevel=3
+|innatelevel=3
+|school=[[illusion]]
+|components=V
+|range=t
+|area=single
+|save=none
+|spellresistance=no
+|duration=1 [[round]] / level
+|desc=The target gains 50% [[concealment]], displacing the caster's image several feet to the side, similar to the abilities of a displacer beast.}}
+
+== Notes ==
+*Added in the [[expansion pack]]s.
+*This spell does not have a somatic [[component]], so it can be cast while wearing full [[armor]] and [[shield]], ignoring arcane [[spell failure]].
+* This spell is quickly superseded by ''[[improved invisibility]]'' as the latter grants all the benefits of the former (plus invisibility) for a longer duration (turns instead of rounds). The one advantage of ''displacement'' is that it is not removed by ''[[invisibility purge]]'' (which can be used to one's advantage, using ''displacement'' in combination with ''invisibility purge'' against an opponent using ''improved invisibility'').
+
+== Custom content notes ==
+*''script:'' <code>x0_s0_displace</code>
+==External links==
+* {{FRW}}

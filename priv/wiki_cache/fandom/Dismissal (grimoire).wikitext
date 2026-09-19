@@ -1,0 +1,21 @@
+{{Grimoire spell|imagename=Is dismissal.gif
+|spellname=Dismissal
+|casterlevel=[[Bard]] 4, [[Cleric]] 4, [[Sorcerer]] / [[Wizard]] 5
+|innatelevel=4
+|school=[[Abjuration]]
+|descriptors=None
+|components=V, S
+|range=Short
+|immunities=None
+|savingthrow=[[Will]] negates
+|spellresistance=Yes
+|targettype=Colossal
+|duration=Instant
+|description=This spell forces an extraplanar creature back to its proper plane.  Add the creature's [[hit dice]] to its saving throw and subtract the caster's level as well.  If the spell is successful, the creature is instantly whisked away.
+}}
+
+== Notes ==
+*{{Grimoire spell change|pagename=[[Dismissal]]}}
+{{g_bard}}
+{{g_clr}}
+{{g_sorwiz}}

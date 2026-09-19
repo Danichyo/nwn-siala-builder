@@ -1,0 +1,33 @@
+{{spell
+|icon=is_curcrwnds.gif
+|bardlevel=4
+|clericlevel=4
+|druidlevel=5
+|innatelevel=4
+|school=[[conjuration]]
+|components=VS
+|range=t
+|area=single
+|save=<s>will for 1/2</s>
+|spellresistance=yes
+|duration=instant
+|line=Cure wounds
+|line0=cure minor wounds
+|line1=cure light wounds
+|line2=cure moderate wounds
+|line3=cure serious wounds
+|line4=cure critical wounds
+|line5=healing circle
+|line6=heal (spell)
+|line8=mass heal
+|desc=The target creature is healed of 4[[d8]] points of damage, + 1 point per caster level to a maximum of +20. Healing spells have a reverse effect when used on [[undead]], causing the targeted undead to take an amount of [[positive energy damage|damage]] equal to what the spell normally heals. A successful [[touch attack]] must first be made when this spell is used against undead.}}
+
+== Notes ==
+
+* On the "normal" [[difficulty setting]] and easier, curative spells cast on a [[player character]] are automatically maximized, or double the constant part (+1 per caster level) if already maximized.
+* This spell inflicts [[positive energy damage]] on a targeted undead, unless the creature is [[PvP setting#Reactions|friendly]] to the caster.
+* Contrary to the in-game description, there is no saving throw.
+
+== Custom content notes ==
+
+* ''script:'' <code>NW_S0_CurCrWn</code>

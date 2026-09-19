@@ -1,0 +1,25 @@
+{{feat
+|type=class
+|prereq=[[red dragon disciple]]
+|desc=The character becomes more draconic in appearance. His skin develops tiny iridescent scales, nearly invisible. This provides increasing natural armor bonuses to his base [[armor class]].
+{{{!}}class="wikitable" style="text-align:center"
+ {{!}}-
+   ! class level
+   {{!}}  1 {{!}}{{!}}  5 {{!}}{{!}}  8 {{!}}{{!}} 10
+   {{!}} 15 {{!}}{{!}} 20 {{!}}{{!}} 25 {{!}}{{!}} 30
+ {{!}}-
+   ! AC bonus
+   {{!}} +1 {{!}}{{!}} +2 {{!}}{{!}} +3 {{!}}{{!}} +4
+   {{!}} +5 {{!}}{{!}} +6 {{!}}{{!}} +7 {{!}}{{!}} +8
+{{!}}}
+|use=automatic
+|icon=ife_x2ddarmor.gif
+|class1=red dragon disciple
+}}
+
+==Notes==
+*Requires [[Hordes of the Underdark]].
+*The bonus is described as a "natural armor bonus", but it is actually an "[[armor class#Other|other bonus]]", which [[stack]]s with true [[Armor class#Natural bonus|natural bonuses]] to armor class.
+
+==Custom content notes==
+* While this feat can be given to another class, the armor bonus is always based on levels in red dragon disciple.

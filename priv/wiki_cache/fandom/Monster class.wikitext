@@ -1,0 +1,42 @@
+'''Monster classes''' are [[class]]es available to monsters, but not to [[player character]]s.  Many monsters will take a class with the same name as their [[race]], but monsters can also take other classes, including player classes.  While the monster's ability scores, skill points, feats, hit points, and special abilities are subject to editing in the [[Toolset]], the [[base save]] and [[base attack]] progressions cannot be changed without editing <code>[[classes.2da]]</code>. (A bonus to saves that does not count against the +20 cap can, however, be easily added to the creature's properties.) The table below shows these unalterable class properties that all creature [[blueprint]]s share.
+
+{| class="centertable" style="text-align:center" 
+!Monster class
+!Primary saving throws
+!BAB progression
+|-
+| aberration || [[will]] || +3/4
+|-
+| animal || [[fortitude]], [[reflex]] || +3/4
+|-
+| beast || fortitude, reflex || +3/4
+|-
+| commoner || none || +1/2
+|-
+| construct || none || +3/4
+|-
+| dragon || fortitude, reflex, will || +1/1
+|-
+| elemental || will || +3/4
+|-
+| fey || reflex, will || +1/2
+|-
+| giant || fortitude || +3/4
+|-
+| humanoid || fortitude || +3/4
+|-
+| magical beast || fortitude, reflex || +1/1
+|-
+| monstrous || reflex, will || +1/1
+|-
+| ooze || fortitude, will || +3/4
+|-
+| outsider || fortitude, reflex, will || +1/1
+|-
+| shapechanger || fortitude, reflex, will || +3/4
+|-
+| undead || will || +1/2
+|-
+| vermin || fortitude || +3/4
+|}
+[[Category:Classes| Monster class]]

@@ -1,0 +1,19 @@
+{{feat
+|epic=yes
+|type=general
+|prereq=21st level, [[constitution]] 21+
+|desc=The character gains [[damage reduction]] 3/-. This feat may be taken up to three times, for damage reduction 6/-, then 9/-.
+|use=automatic
+|icon=ife_x2damrd1.gif
+|bonus1=barbarian
+|bonus2=champion of Torm
+|bonus3=dwarven defender
+|bonus4=fighter
+|bonus5=monk
+|bonus6=red dragon disciple
+|bonus7=weapon master
+}}
+
+==Notes==
+*Requires [[Hordes of the Underdark]].
+*This [[feat]] [[stack]]s with [[damage reduction (barbarian)|barbarian]] and [[dwarven defender damage reduction]] and separately with monk damage reduction from [[perfect self]], but it does not stack with other sources of damage reduction. It does stack with [[damage resistance]].

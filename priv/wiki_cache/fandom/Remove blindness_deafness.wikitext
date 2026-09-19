@@ -1,0 +1,23 @@
+{{spell
+|icon=is_rmvblddef.gif
+|clericlevel=3
+|paladinlevel=3
+|magelevel=4
+|innatelevel=3
+|school=[[divination]]
+|components=VS
+|range=s
+|area=medium
+|save=harmless
+|spellresistance=no
+|duration=instant
+|counters=<del>[[blindness/deafness]]</del>
+|desc=All allies within the area of effect are cured of [[blind]]ness and [[deaf]]ness.}}
+
+==Notes==
+*Due to a .2da bug, ''remove blindness/deafness'' is not an additional [[counterspell]] of ''blindness/deafness''.
+
+==Custom content notes==
+*''script:'' <code>NW_S0_RemEffect.nss</code>
+==External links==
+*{{FRW|Remove blindness or deafness}}

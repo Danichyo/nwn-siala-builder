@@ -1,0 +1,20 @@
+{{feat
+|type=class
+|prereq=[[monk]] 11
+|desc=The monk gains immunity to all [[poison]]s.
+|use=automatic
+|icon=ife_dibod.gif
+|class1=monk
+}}
+
+==Builder notes==
+'''Item feat:''' no
+
+==Custom content notes==
+'''Removable:''' yes
+
+'''Reusable:''' yes
+
+'''Script:''' hardcoded
+
+*This feat cannot be added to [[iprp_feats.2da]]; it will default back to [[alertness]]. Use [[venom immunity]] or the [[item property]] "Immunity: miscellaneous: poison".

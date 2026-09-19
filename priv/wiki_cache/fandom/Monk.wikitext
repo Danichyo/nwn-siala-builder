@@ -1,0 +1,534 @@
+[[Image:Ir monk.gif|right|Monk icon]]
+'''Description''': Monks are versatile warriors skilled at fighting without weapons or armor. Good-aligned monks serve as protectors of the people, while evil monks make ideal spies and assassins. Though they don't cast spells, monks channel a subtle energy, called [[ki]]. This energy allows them to perform amazing feats, such as healing themselves, catching arrows in flight, and dodging blows with lightning speed. Their mundane and ki-based abilities grow with experience, granting them more power over themselves and their environment. Monks suffer unique penalties to their abilities if they wear armor, as doing so violates their rigid oaths. Monks wearing armor lose their wisdom and level based armor class bonuses, their movement speed, and their additional unarmed attacks per round.
+
+'''Alignment restrictions:''' any lawful
+
+'''[[Hit die]]:''' d8
+
+'''Proficiencies:''' armor (robes), weapons ([[weapon proficiency (monk)|monk]])
+
+'''[[Skill point]]s:''' 4 + [[int]] modifier ( (4 + int modifier) * 4 at 1st level)
+
+'''Skills:''' [[concentration]], [[craft armor]], [[craft trap]], [[craft weapon]], [[discipline]], [[heal (skill)|heal]], [[hide]], [[listen]], [[lore]], [[move silently]], [[parry]], [[persuade]], [[tumble]]
+
+'''Unavailable feats:'''
+[[brew potion]], [[craft wand]], [[curse song]], [[divine might]], [[divine shield]], [[extra music]], [[extra turning]], [[lingering song]], [[quicken spell]], [[scribe scroll]], [[spell focus]], [[weapon specialization]]
+<br />These [[general feat]]s cannot be selected when taking a level of monk.
+
+'''[[Saving throw|Primary saving throw(s)]]''': [[fortitude]], [[reflex]], [[will]]
+
+'''[[Base attack bonus]]:''' +3/4 levels
+
+'''Specialty weapon:''' The monk retains his [[unarmed base attack bonus]] when fighting with a [[kama]].
+Kamas are also permitted when using (the monk-specific feat) [[flurry of blows]].
+(These are the only two instances in which kamas receive special treatment in the hands of monks, though.)
+
+[[Image:Monk.jpg|Monk]]
+
+== Level progression ==
+
+{|border="2" style="background:#efefef; color:#000000; border-collapse:collapse"
+|-style="background:#c0c0c0"
+!rowspan=2|Lvl
+!rowspan=2|BAB
+!colspan="3"|Saves
+!rowspan=2|Feats
+!rowspan=2|HP range
+!style="background:#ffffff" rowspan="22"|&nbsp;
+!rowspan=2|Unarmed AB
+!rowspan=2|Flurry of blows AB
+!colspan="2"|Unarmed damage
+!rowspan=2|AC bonus
+!rowspan=2|Speed bonus
+|-style="background:#c0c0c0"
+!Fort
+!Ref
+!Will
+
+!Medium
+!Small
+|-valign="top" align="center"
+|1st
+| +0
+| +2
+| +2
+| +2
+|align="left"|[[cleave]], [[monk AC bonus]], [[stunning fist]],[[evasion]],<br />[[flurry of blows]], [[improved unarmed strike]]
+|4-8
+| +0
+| -2/-2
+|1d6
+|1d4
+| -
+| -
+|-align="center"
+|2nd
+| +1
+| +3
+| +3
+| +3
+|align="left"|[[deflect arrows]]
+|8-16
+| +1
+| -1/-1
+|1d6
+|1d4
+| -
+| -
+|-align="center"
+|3rd
+| +2
+| +3
+| +3
+| +3
+|align="left"|[[monk speed]], [[still mind]]
+|12-24
+| +2
+| +0/+0
+|1d6
+|1d4
+| -
+| +10%
+|-align="center"
+|4th
+| +3
+| +4
+| +4
+| +4
+|align="left"|
+|16-32
+| +3
+| +1/+1
+|1d8
+|1d6
+| -
+| +10%
+|-align="center"
+|5th
+| +3
+| +4
+| +4
+| +4
+|align="left"|[[purity of body]]
+|20-40
+| +3
+| +1/+1
+|1d8
+|1d6
+| +1
+| +10%
+|-align="center"
+|6th
+| +4
+| +5
+| +5
+| +5
+|align="left"|[[knockdown]], [[improved knockdown]]
+|24-48
+| +4/+1
+| +2/-1/+2
+|1d8
+|1d6
+| +1
+| +20%
+|-align="center"
+|7th
+| +5
+| +5
+| +5
+| +5
+|align="left"|[[wholeness of body]]
+|28-56
+| +5/+2
+| +3/+0/+3
+|1d8
+|1d6
+| +1
+| +20%
+|-align="center"
+|8th
+| +6/+1
+| +6
+| +6
+| +6
+|align="left"|
+|32-64
+| +6/+3
+| +4/+1/+4
+|1d10
+|1d8
+| +1
+| +20%
+|-align="center"
+|9th
+| +6/+1
+| +6
+| +6
+| +6
+|align="left"|[[improved evasion]]
+|36-72
+| +6/+3
+| +4/+1/+4
+|1d10
+|1d8
+| +1
+| +30%
+|-align="center"
+|10th
+| +7/+2
+| +7
+| +7
+| +7
+|align="left"|[[ki strike]] +1
+|40-80
+| +7/+4/+1
+| +5/+2/-1/+5
+|1d10
+|1d8
+| +2
+| +30%
+|-align="center"
+|11th
+| +8/+3
+| +7
+| +7
+| +7
+|align="left"|[[diamond body]]
+|44-88
+| +8/+5/+2
+| +6/+3/+0/+6
+|1d10
+|1d8
+| +2
+| +30%
+|-align="center"
+|12th
+| +9/+4
+| +8
+| +8
+| +8
+|align="left"|[[diamond soul]]
+|48-96
+| +9/+6/+3
+| +7/+4/+1/+7
+|1d12
+|1d10
+| +2
+| +40%
+|-align="center"
+|13th
+| +9/+4
+| +8
+| +8
+| +8
+|align="left"|ki strike +2
+|52-104
+| +9/+6/+3
+| +7/+4/+1/+7
+|1d12
+|1d10
+| +2
+| +40%
+|-align="center"
+|14th
+| +10/+5
+| +9
+| +9
+| +9
+|align="left"|
+|56-112
+| +10/+7/+4/+1
+| +8/+5/+2/-1/+8
+|1d12
+|1d10
+| +2
+| +40%
+|-align="center"
+|15th
+| +11/+6/+1
+| +9
+| +9
+| +9
+|align="left"|[[quivering palm]]
+|60-120
+| +11/+8/+5/+2
+| +9/+6/+3/+0/+9
+|1d12
+|1d10
+| +3
+| +50%
+|-align="center"
+|16th
+| +12/+7/+2
+| +10
+| +10
+| +10
+|align="left"|ki strike +3
+|64-128
+| +12/+9/+6/+3
+| +10/+7/+4/+1/+10
+|1d20
+|2d6
+| +3
+| +50%
+|-align="center"
+|17th
+| +12/+7/+2
+| +10
+| +10
+| +10
+|align="left"|
+|68-136
+| +12/+9/+6/+3
+| +10/+7/+4/+1/+10
+|1d20
+|2d6
+| +3
+| +50%
+|-align="center"
+|18th
+| +13/+8/+3
+| +11
+| +11
+| +11
+|align="left"|[[empty body]]
+|72-144
+| +13/+10/+7/+4/+1
+| +11/+8/+5/+2/-1/+11
+|1d20
+|2d6
+| +3
+| +60%
+|-align="center"
+|19th
+| +14/+9/+4
+| +11
+| +11
+| +11
+|align="left"|
+|76-152
+| +14/+11/+8/+5/+2
+| +12/+9/+6/+3/+0/+12
+|1d20
+|2d6
+| +3
+| +60%
+|-align="center"
+|20th
+| +15/+10/+5
+| +12
+| +12
+| +12
+|align="left"|[[perfect self]]
+|80-160
+| +15/+12/+9/+6/+3
+| +13/+10/+7/+4/+1/+13
+|1d20
+|2d6
+| +4
+| +60%
+|}
+
+*A monk's [[unarmed base attack bonus]] (UBAB) is still affected by multiclassing. Characters may gain additional attacks by taking a higher [[BAB]] progression class (e.g. [[fighter]] levels), or reduced attacks from taking a lower BAB progression class (e.g. [[wizard]] levels).
+*A monk's UBAB, [[armor class]] bonuses (from wisdom and every 5 levels), and speed are all negated when the monk wears armor other than clothing or uses a shield.
+* Large monks use the same unarmed damage as medium monks.
+
+[[Image:ife x2epmonk.gif|right|Epic monk]]
+
+== Epic monk ==
+
+An epic monk's speed, power, grace, and force of will are unmatched by mortal beings. His powers continue to multiply as he steps away from the mortal shell and accepts an inner tranquility that lesser characters cannot even dream of.
+
+'''Hit die:''' d8
+
+'''Skill points:''' 4 + int modifier
+
+'''Bonus feats:''' the epic monk gains a bonus feat every five levels after 20th. In other words, at levels 25, 30, 35, and 40.
+
+'''Special:''' every 3 levels, the monk's movement speed will increase by an additional 10%.
+
+'''Special AC bonus:''' every 5 levels from 20, the monk's AC will increase by an additional + 1.
+
+'''Epic monk bonus feats:''' [[armor skin]], [[blinding speed]], [[epic damage reduction]], [[epic energy resistance]], [[epic toughness]], [[improved ki strike 4]], [[improved ki strike 5]], [[improved spell resistance]], [[improved stunning fist]], [[self concealment]]
+
+'''Unavailable epic feats:'''
+[[automatic quicken spell]], [[automatic silent spell]], [[automatic still spell]], [[bane of enemies]],
+[[construct shape]], [[dragon shape]], [[epic spell penetration]],
+[[epic spell: dragon knight]], [[epic spell: epic mage armor]], [[epic spell: epic warding]], [[epic spell: greater ruin]], [[epic spell: hellball]], [[epic spell: mummy dust]],
+[[epic weapon specialization]], [[great smiting]],
+[[improved sneak attack]],
+[[lasting inspiration]], [[mighty rage]], [[outsider shape]],
+[[planar turning]], [[terrifying rage]], [[thundering rage]], [[undead shape]]
+<br />These general [[epic feat]]s cannot be selected when taking a level of monk.
+
+=== Epic monk level progression ===
+
+{|border="2" style="background:#efefef; color:#000000; border-collapse:collapse"
+|-style="background:#c0c0c0"
+!&nbsp; Lvl &nbsp;
+!Feats
+!HP range
+!AC bonus
+!Speed bonus
+|-align="center"
+|21st
+|align="left"|
+|84-168
+| +4
+| +70%
+|-align="center"
+|22nd
+|align="left"|
+|88-176
+| +4
+| +70%
+|-align="center"
+|23rd
+|align="left"|
+|92-184
+| +4
+| +70%
+|-align="center"
+|24th
+|align="left"|
+|96-192
+| +4
+| +80%
+|-align="center"
+|25th
+|align="left"|bonus feat
+|100-200
+| +5
+| +80%
+|-align="center"
+|26th
+|align="left"|
+|104-208
+| +5
+| +80%
+|-align="center"
+|27th
+|align="left"|
+|108-216
+| +5
+| +90%
+|-align="center"
+|28th
+|align="left"|
+|112-224
+| +5
+| +90%
+|-align="center"
+|29th
+|align="left"|
+|116-232
+| +5
+| +90%
+|-align="center"
+|30th
+|align="left"|bonus feat
+|120-240
+| +6
+| +100%
+|-align="center"
+|31st
+|align="left"|
+|124-248
+| +6
+| +100%
+|-align="center"
+|32nd
+|align="left"|
+|128-256
+| +6
+| +100%
+|-align="center"
+|33rd
+|align="left"|
+|132-264
+| +6
+| +110%
+|-align="center"
+|34th
+|align="left"|
+|136-272
+| +6
+| +110%
+|-align="center"
+|35th
+|align="left"|bonus feat
+|140-280
+| +7
+| +110%
+|-align="center"
+|36th
+|align="left"|
+|144-288
+| +7
+| +120%
+|-align="center"
+|37th
+|align="left"|
+|148-296
+| +7
+| +120%
+|-align="center"
+|38th
+|align="left"|
+|152-304
+| +7
+| +120%
+|-align="center"
+|39th
+|align="left"|
+|156-312
+| +7
+| +130%
+|-align="center"
+|40th
+|align="left"|bonus feat &nbsp;
+|160-320
+| +8
+| +130%
+|}
+
+== Prestige class tips ==
+
+* [[Shadowdancer]] is a good choice for a stealthy monk.
+* Pious monks may want to consider the [[champion of Torm]].
+*[[Red dragon disciple]] provides useful ability score boosts. In addition, the base class (sorcerer or bard) used to qualify for this prestige class opens the use of arcane [[scroll]]s. Bard requires an alignment change, however, although it would bring some additional benefits (e.g. [[bard song]] and [[use magic device]]).
+* [[Weapon master]] levels will add significant damage due to an increased critical range while using kamas.
+* A monk's unarmed attack bonuses work with the [[shifter]]'s (and [[druid]]'s) unarmed shapes. While in default form, a druid can also cast spells based on Wisdom, which is an ability score that monks benefit from as well.
+* [[Assassin]] is a great choice for evil monks in servers where the AI of the enemies allows for re-hiding. This allows the monk/assassin to repeatedly death-attack his/her target and run and re-hide. 
+
+== Notes ==
+
+*At level 20, monks receive glowing eyes. The color of the glow depends on the character's [[alignment]]: [[good]] glows blue, [[evil]] glows red, and [[neutral]] glows purple. This occurs because in [[pencil-and-paper]], 20th-level monks become [[outsider]]s; however, in NWN, their race does not change.
+*Only [[class#multiclassing|multiclass]] monks with at least 4 pre-[[epic character|epic]] levels in a class with maximum [[base attack bonus|BAB]] can max out the number of [[attacks per round]]. (Both [[fighter]] and [[ranger]] are particularly useful for this, given their bonus feats.) To do this, a multiclass monk will need [[two-weapon fighting]], [[improved two-weapon fighting]], [[haste]], [[flurry of blows]] and wield a [[kama]] in each hand. This will give 10 attacks per round, the most anyone can achieve:
+** 16 BAB at level 20 gives 4 main hand attacks per round (at least 4 levels of a full BAB progression class are required before level 20).
+** Monk's [[Unarmed Base Attack Bonus|unarmed attack bonus]] with lower requirement for extra attacks adds 2 main hand attacks per round.
+** An [[off-hand]] kama adds 1 off-hand attack per round.
+** Improved two-weapon fighting adds 1 off-hand attack per round.
+** Flurry of blows adds 1 attack per round.
+** Haste adds 1 attack per round.
+*The cleric spell [[divine power]] raises the character's base attack bonus to that of a fighter of the same level, and grants extra attacks per round as appropriate. This would mean that a monk who had sufficient clerical levels to cast this spell and who was dual wielding kamas could also reach 10 attacks per round.
+*While unarmed monks lack the two off-hand attacks of a dual-wielder, they can effectively reach 9 attacks per round by taking the [[circle kick]] feat. However, circle kick has some problems, as noted in its article.
+*Due to the inclusion of AC-enhancing monk-only equipment (like ''robes of the shining hand'' and ''boots of the sun soul''), the [[tumble]] AC bonus, and the monk AC bonuses, monks without armor have a much higher AC than others, putting them on par with warriors.
+*NWN has various standard "monk" [[gloves|glove/gauntlet]] items with attack bonuses often coupled with damage bonuses, allowing unarmed attacks combat advantages similar to those available to those wielding [[weapon]]s. However, a monk will notice item-related disadvantages to unarmed combat. Among them:
+**Fewer attacks per round are possible than would be wielding kamas (no two-weapon fighting).
+**Standard spells which apply enhancements to a weapon (e.g. [[Bless Weapon|bless weapon]], [[Darkfire|darkfire]]) do not apply them to gloves (although some modules alter such spells to allow this).
+**Unarmed attackers equip fewer total items, and it is usually more difficult to acquire the same number of desirable item properties on fewer items.
+* When larger than the bonus from [[ki strike]], the attack bonus of gloves usable by monks also defines the enchantment level of the unarmed attack in terms of bypassing [[damage reduction (effect)|damage reduction]]. So, for example, while wearing +10 AB gloves, a monk's unarmed attack will ignore X/+10 damage reduction.
+*Monks can function as anti-casters. They can dodge spells, resist spells, and kill people who have low fortitude saves with one hit. They move quickly, reducing the distance between themselves and their target. Their stunning fist stops casters from being able to cast spells for three rounds in the original edition, 1 round in the Beamdog version.
+*Monks who also have [[stealth]] can move much faster than [[rogue]]s when in stealth mode. [[Elf|Elven]] monks, with their automatic active [[search]] checks, make for excellent forward scouts.
+*There is a tendency among players to confuse "specialty weapon" with "equivalent to unarmed attacks". However, the only special treatment kamas receive is what is stated above: a monk retains his unarmed attack bonus when fighting with a kama. No other unarmed-only ability can be used while fighting with a kama. This includes stunning fist, quivering palm, and ki strike. (Note that the flurry of blows description specifically states that it applies to both unarmed attacks and kamas, so it is not "unarmed-only".)
+* Wisdom-based tends to work well for unarmed monks, as it increases the DC of attacks such as quivering palm and stunning fist, though they suffer from lower attack bonuses. The dexterity-based monk tends to work well with a kama as they do not rely on the wisdom-based special attacks. High dexterity in combination with [[weapon finesse]] allows the dexterity-based monk to achieve high attack bonuses (with either kamas or unarmed attacks). The down-side is that single-classed monks are not granted any [[uncanny dodge]] feats. This leaves them vulnerable when caught [[flat-foot]]ed.
+* Monks that equip armor or a shield also lose access to their increased unarmed strike damage.
+
+=== Previous versions ===
+
+*Prior to version 1.69, a monk could activate ''flurry of blows'' as long as the primary hand was using a kama (even if the off-hand held a different weapon).
+[[category:classes]]
+
+==External Links==
+* {{FRW}}

@@ -1,0 +1,17 @@
+{{feat
+|type=class
+|prereq=[[assassin]] 9
+|desc=Starting at ninth level, an assassin gains the ability to cast [[improved invisibility]].
+|use=selected
+|icon=is_imprinvis.gif
+|class1=assassin
+}}
+
+==Notes==
+*Added in the [[expansion pack]]s.
+*This feat is usable once per [[day]].
+*The caster level for this spell is the assassin's [[class level]].
+
+==Custom content notes==
+*''script:'' <code>NW_S0_ImprInvis.nss</code>
+** This is also the script used by the spell of the same name.

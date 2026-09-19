@@ -1,0 +1,23 @@
+A '''giant''' is a large [[humanoid]], usually with great strength.
+Giants occur in differing shapes and sizes, resulting in a different [[challenge rating]]s. Giants are usually colloquially classified according to their size, interpreted in the game as their [[hit dice]].
+
+The [[Aurora Toolset]] classifies giants:
+* Common 
+** [[Ettin]]
+** [[Hill giant]]
+** [[Mountain giant]]
+* Noble: 
+** [[Fire giant]]
+** [[Frost giant]]
+* Ogres
+** [[Ogre]]
+** [[Ogre berserker]]
+** [[Ogre mage]]
+* Trolls
+** [[Troll]]
+** [[Troll berserker]]
+** [[Troll shaman]]
+
+'''See also:''' [[:Category:Giants]]
+
+[[category:races]]

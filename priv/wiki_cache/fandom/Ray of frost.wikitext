@@ -1,0 +1,21 @@
+{{otheruses|the spell|the monster ability|Frost ray}}
+
+{{spell
+|icon=is_rayfrost.gif
+|magelevel=0
+|innatelevel=0
+|school=[[conjuration]]
+|components=VS
+|range=m
+|area=single
+|save=none
+|spellresistance=yes
+|immunity=cold
+|duration=instant
+|desc=Does 1[[d4]] + 1 [[cold damage]] to a single target creature.}}
+
+== Custom content notes ==
+*''script:'' <code>NW_S0_RayFrost</code>
+
+==External Links==
+* {{FRW}}

@@ -1,0 +1,28 @@
+{{spell
+|icon=is_holdpers.gif
+|bardlevel=2
+|clericlevel=2
+|magelevel=3
+|innatelevel=2
+|school=[[enchantment]]
+|components=VS
+|range=m
+|area=single
+|save=[[will]] negates
+|spellresistance=yes
+|duration=1 [[round]] / level
+|counters=<del>[[freedom of movement]]</del>
+|line=Hold
+|line2=hold animal
+|line3=hold person
+|line4=hold monster
+|desc=The target [[humanoid]] is [[paralyze]]d for the duration of the spell.}}
+
+==Notes==
+*Due to a .2da bug, ''hold person'' is not an additional [[counterspell]] of ''freedom of movement''.
+
+== Custom content notes ==
+* ''script:'' <code>NW_S0_HoldPers</code>
+==External links==
+* {{FRW}}
+* {{NWN2W|Hold Person}}

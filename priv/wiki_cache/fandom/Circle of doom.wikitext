@@ -1,0 +1,33 @@
+{{spell
+|icon=is_circdoom.gif
+|clericlevel=5
+|innatelevel=5
+|school=[[necromancy]]
+|components=VS
+|range=m
+|area=huge
+|save=[[fortitude]] 1/2
+|spellresistance=yes
+|immunity=negative
+|duration=instant
+|counters=<del>[[healing circle]]</del>
+|line=Inflict wounds
+|line0=inflict minor wounds
+|line1=inflict light wounds
+|line2=inflict moderate wounds
+|line3=inflict serious wounds
+|line4=inflict critical wounds
+|line5=circle of doom
+|line6=harm
+|desc=All enemies within the area of effect are struck with negative energy that causes 1[[d8]] points of [[negative energy damage]], +1 point per caster level. Negative energy spells have a reverse effect on [[undead]], healing them instead of harming them.}}
+
+==Notes==
+
+* Added in the [[expansion pack]]s.
+* The caster level is capped at 20.
+* When [[empower spell|empowered]], the caster level is added to the damage twice &mdash; once before increasing the damage 50% and once after ''(a bug)''. (A fix for this is available on the Vault<sup>[http://nwvault.ign.com/View.php?view=Scripts.Detail&id=3739]</sup>.)
+* Due to a .2da bug, ''healing circle'' is not an additional [[counterspell]] of this spell.
+* Although the spell description specifies 'all enemies', a bug causes the spell to damage the caster as well, if the caster is within the area of effect.
+
+==Custom content notes==
+*''script:'' <code>NW_S0_CircDoom</code>

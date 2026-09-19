@@ -1,0 +1,33 @@
+{{feat
+|type=class
+|prereq=[[monk]] 1
+|desc=Monks receive an [[extra attack]] per [[round]] when fighting with [[unarmed strike|unarmed attack]]s or a [[kama]]. However, all attacks in that round suffer a -2 [[attack roll|attack]] penalty.
+|use=combat mode
+|icon=ife_flurry.gif
+|class1=monk
+}}__NOTOC__
+
+== Notes ==
+
+*Monks lose some abilities while wearing [[armor]] or using a [[shield]], but ''flurry of blows'' is not one of them; it works with armor and shield.
+*This feat can be used with [[druid]] shapes that do not use [[weapon]]s.
+*When dual-wielding, both weapons must be kamas in order to activate this feat.
+* Unlike other combat modes, ''flurry of blows'' activates instantly (in the middle of a combat round). However, only the penalties are applied immediately; the extra attack only occurs when an entire round elapses with this mode active.
+
+=== Previous versions ===
+
+*Prior to version 1.69, this feat could be used when wielding a weapon other than a kama in the off-hand, as long as the main-hand weapon was a kama.
+
+==Builder notes==
+
+'''Item feat:''' No, but it can be added with custom content.
+
+==Custom content notes==
+
+'''Removable:''' yes
+
+'''Reusable:''' No. The interface is hardcoded to the monk class alone, so the other classes cannot reach it.
+
+'''Script:''' hardcoded
+
+*This feat can be added to [[iprp_feats.2da]] to make it available as an item feat. But this is pointless if the feat acquirement list for monks is not changed.

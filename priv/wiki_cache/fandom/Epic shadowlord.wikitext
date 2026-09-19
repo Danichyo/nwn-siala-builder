@@ -1,0 +1,181 @@
+{{feat
+|epic=yes
+|type=class
+|prereq=[[epic class|epic]] [[shadowdancer]]
+|desc=The character's [[summon shadow]] ability is reinforced, allowing him to call an [[epic shadowlord (summon)|epic shadowlord]] to his side. Unlike a non-epic shadowlord, an epic shadowlord is a potent fighter, reinforced by his master's lifeforce, making him stronger each time the shadowdancer gains a [[class level|level]].
+|use=automatic
+|icon=ife_x1sshad.gif
+|bonus1=shadowdancer
+}}
+
+==Notes==
+*Requires [[Hordes of the Underdark]].
+*The epic shadowlord has the same abilities and immunities as the pre-epic variety and is a fighter a level lower than the shadowdancer's level.
+*This feat is only available as a shadowdancer [[epic bonus feat]], not as a [[general feat]].
+
+===Previous versions===
+*Prior to version 1.69, the epic shadowlord lacked [[concealment]], making it less effective at lower levels than its pre-epic counterpart.
+
+==Epic shadowlord stats==
+
+'''Damage:''' 1-8/1-8/2-12 (critical: 20 / x2)
+
+Trained [[skill|skills]] at shadowdancer level 13: [[discipline]] (19), [[hide]] (10), [[listen]] (3), [[parry]] (19), [[taunt]] (8) 
+
+Feats at shadowdancer level 13: [[called shot]], [[cleave]], [[darkvision]], [[disarm]], [[dodge]], [[great cleave]], [[great fortitude]], [[Improved critical|improved critical (creature)]], [[iron will]], [[knockdown]], [[mobility]], [[power attack]], [[spring attack]], [[toughness]], [[weapon proficiency (creature)]], [[Weapon specialization|weapon specialization (creature)]]
+
+{| style="text-align:center" class="centertable"
+ |-
+   !Shadowdancer<br>level
+   !Shadowlord<br>level
+   !AC
+   !HP
+   !AB
+   !Damage bonus
+   !Feats gained
+ |-
+   | 13
+   | 12
+   | 22
+   | 132
+   | +16/+11/+6
+   | +6
+   |
+ |-
+   | 14
+   | 13
+   | 22
+   | 143
+   | +17/+12/+7
+   | +6
+   |
+ |-
+   | 15
+   | 14
+   | 22
+   | 154
+   | +18/+13/+8
+   | +6
+   | [[Expertise]]
+ |-
+   | 16
+   | 15
+   | 22
+   | 165
+   | +19/+14/+9
+   | +6
+   | [[Whirlwind attack]]
+ |-
+   | 17
+   | 16
+   | 22
+   | 176
+   | +21/+16/+11/+6
+   | +7
+   | [[Blind Fight]]
+ |-
+   | 18
+   | 17
+   | 22
+   | 187
+   | +22/+17/+12/+7
+   | +7
+   |
+ |-
+   | 19
+   | 18
+   | 22
+   | 198
+   | +23/+18/+13/+8
+   | +7
+   | [[Dirty Fighting]], [[Lightning reflexes]]
+ |-
+   | 20
+   | 19
+   | 22
+   | 209
+   | +24/+19/+14/+9
+   | +7
+   |
+ |-
+   | 21
+   | 20
+   | 22
+   | 220
+   | +25/+20/+15/+10
+   | +7
+   | [[Point Blank Shot]]
+ |-
+   | 22
+   | 21
+   | 22
+   | 231
+   | +26/+21/+16/+11
+   | +7
+   | [[Rapid Shot]]
+ |-
+   | 23
+   | 22
+   | 22
+   | 242
+   | +27/+22/+17/+12
+   | +7
+   | [[Epic Prowess]]
+ |-
+   | 24
+   | 23
+   | 22
+   | 253
+   | +28/+23/+18/+13
+   | +7
+   |
+ |-
+   | 25
+   | 24
+   | 24
+   | 264
+   | +29/+24/+19/+14
+   | +8
+   | [[great strength|Great Strength I]], [[Armor Skin]]
+ |-
+   | 26
+   | 25
+   | 24
+   | 275
+   | +30/+25/+20/+15
+   | +8
+   |
+ |-
+   | 27
+   | 26
+   | 24
+   | 306
+   | +30/+25/+20/+15
+   | +8
+   | [[epic toughness|Epic Toughness I]]
+ |-
+   | 28
+   | 27
+   | 24
+   | 317
+   | +32/+27/+22/+17
+   | +9
+   | Great Strength II
+ |-
+   | 29
+   | 28
+   | 24
+   | 348
+   | +32/+27/+22/+17
+   | +9
+   | Epic Toughness II
+ |-
+   | 30
+   | 29
+   | 24
+   | 359
+   | +33/+28/+23/+18
+   | +9
+   |
+ |-
+|}

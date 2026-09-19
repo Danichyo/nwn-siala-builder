@@ -1,0 +1,20 @@
+{{Weapon|imagefile=Halberd.jpg
+  |weaponname=Halberd
+  |weapondescription=The '''halberd''' is the most common polearm, and could be called a cross between a [[spear]] and an [[axe]]. Such [[weapon]]s are often mass-produced for militia, and serve well when defending against marauders. 
+  |weight=15
+  |cost=10
+  |damage=1d10
+  |critical=x3
+  |damagetype=[[piercing-slashing damage|Piercing & slashing]]
+  |size=Large
+  |proficiency=[[Weapon proficiency (martial)|Martial]]
+  |category=[[Category:Polearms]][[Category:Bladed weapons]][[Category:Martial weapons]]
+}}
+
+== Notes ==
+
+* The appearances available for halberds in NWN more closely resemble bardiches and voulges than halberds.
+
+==Toolset==
+
+*Halberds are listed in the [[polearm blueprint category]] of the [[item palette]] in the [[toolset]].

@@ -1,0 +1,38 @@
+{{Grimoire spell|imagename=Is blasphem.jpg
+|spellname=Blasphemy
+|casterlevel=[[cleric]] 7, [[Grimoire evil|evil]] 7
+|innatelevel=7
+|school=[[evocation]]
+|descriptors=evil, sonic
+|components=verbal
+|range=short
+|immunities=none
+|savingthrow=none or [[will]] negates (see text)
+|spellresistance=yes
+|targettype=non-evil creatures in a 40 ft radius spread centered on the caster
+|duration=instantaneous
+|description=Any non-evil creature within the area of a blasphemy spell suffers the following ill effects.
+}}
+{| {{Grimoire domain table}}
+!HD!!Effect
+|-
+|Equal to caster level||dazed
+|-
+|Up to caster level &minus;1||weakened, dazed
+|-
+|Up to caster level &minus;5||paralyzed, weakened, dazed
+|-
+|Up to caster level &minus;10||killed, paralyzed, weakened, dazed
+|}
+
+The effects are cumulative and concurrent.  No saving throw is allowed against these effects.<br>
+<br>
+'''Dazed''': The creature can take no actions for 1 round, though it defends itself normally.<br>
+'''Weakened''': The creature's [[strength]] score decreases by 2[[d6]] points for 2d4 rounds.<br>
+'''Paralyzed''': The creature is paralyzed and helpless for 1d10 minutes.<br>
+'''Killed''': Living creatures die. Undead creatures are destroyed.<br>
+
+Furthermore, if you are on your home plane when you cast this spell, non-evil extraplanar creatures within the area are instantly banished back to their home planes. Creatures so banished cannot return for at least 24 hours. This effect takes place regardless of whether the creatures hear the blasphemy. The banishment effect allows a will save (at a &minus;4 penalty) to negate.
+
+{{g_clr}}
+{{g_evil}}

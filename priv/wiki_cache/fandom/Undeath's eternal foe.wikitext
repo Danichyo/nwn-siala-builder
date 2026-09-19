@@ -1,0 +1,29 @@
+{{spell
+|icon=is_x1undfoe.gif
+|clericlevel=9
+|innatelevel=9
+|school=[[abjuration]]
+|components=VS
+|range=l
+|area=medium
+|save=none
+|spellresistance=no
+|duration=1 [[round]] / level
+|line=Negative protection
+|line3=negative energy protection
+|line9=undeath's eternal foe
+|desc=All allies in the area of effect will receive the following bonuses: immunity to [[negative energy damage]], immunity to [[level drain|level/energy drain]], immunity to [[ability score loss|ability score decreases]], immunity to [[poison]]s, immunity to [[disease]]s and a +4 [[deflection bonus]] to [[armor class|AC]].}}
+
+== Notes ==
+*Added in the [[expansion pack]]s.
+* The bonuses not given by ''negative energy protection'' are immunity to poison and disease and the bonus to AC. (The former are often superfluous, though, as the effects of most poisons and diseases are already blocked by immunity to ability decreases.)
+* This spell cannot be [[breach]]ed (unlike ''negative energy protection'').
+
+=== Previous versions ===
+*Prior to 1.69, this spell granted a [[dodge bonus]] to AC (rather than a deflection bonus), allowing multiple castings of this spell to increase the target's AC up to the +20 dodge AC cap.
+
+== Custom content notes ==
+
+* ''script:'' <code>x0_s0_udetfoe</code>
+==External links==
+*{{FRW}}

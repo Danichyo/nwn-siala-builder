@@ -1,0 +1,42 @@
+{{spell
+|icon=is_morddisj.gif
+|magelevel=9
+|innatelevel=9
+|school=[[abjuration]]
+|components=V
+|range=m
+|area=colossal
+|areanote=&nbsp;or single
+|save=none
+|spellresistance=no
+|duration=instant
+|line=Dispels
+|line2=lesser dispel
+|line3=dispel magic
+|line6=greater dispelling
+|line9=Mordenkainen's disjunction
+|linebreach=yes
+|desc=''Mordenkainen's disjunction'' attempts to strip all [[magical effect]]s from a single target. It can also target a group of creatures, attempting to remove the two most powerful spell effects from each creature. To remove an effect, the caster makes a [[dispel]] check of 1[[d20]], +1 per [[caster level]] (to a maximum of +40) against a [[difficulty class|DC]] of 11 + the spell effect's caster level. In addition to its ability to dispel effects, this spell also [[breach|strip]]s a single enemy of up to 6 magical defenses or a group of enemies of two spell protections each. Finally, the spell will lower the [[spell resistance|SR]] of all creatures within the area of effect by 10.
+
+Affected spells include: [[spell mantle]]s, [[globe of invulnerability|globes of invulnerability]], [[stoneskin]]s, [[premonition]], [[protection from elements]], [[ghostly visage|ghostly]] and [[ethereal visage]], [[mage armor]], [[shadow shield]] and [[elemental shield]].}}
+
+==Notes==
+*The area of effect is large; the spell description incorrectly lists it as colossal.
+*This spell combines the [[dispel]] and [[breach]] lines of spells.
+**The breach aspect occurs first, with either two (for the area of effect) or six (for the single target) spells' effects removed automatically, plus the reduction in spell resistance. There is no check for this aspect. See [[breach]] for the full list of spells that can be stripped in this manner, and the order in which they are removed. This aspect is skipped if the target is friendly (after accounting for the [[PvP setting]]).
+**The dispelling aspect of this spell occurs second, and has the potential to remove all remaining spell effects. While the dispelling aspect is not limited in how many spell effects can be removed, there is a dispel check made for each spell effect. This aspect applies to any target, regardless of reaction type.
+* The reduced spell resistance lasts for ten [[round]]s, and it is an [[extraordinary effect]], so it cannot be dispelled.
+* There are some vagaries in the determination of the effective caster level. See [[dispel]] for details.
+*[[Monk]] spell resistance gained from the [[diamond soul]] ability cannot be lowered by this spell.
+* If used as an area of effect, this spell will also attempt to dispel any area of effect spells centered in affected area.
+*This spell does not have a somatic [[component]], so it can be cast while wearing full armor and shield, ignoring arcane [[spell failure]].
+*Contrary to the description there is no cap on maximal caster level. While player character normally cannot reach more than level 40, npcs can.
+
+===Previous versions===
+*Prior to version 1.66, this spell capped the caster level at 20.
+*Prior to NWN EE 1.74, an effect's caster's level had been added to 12, not 11, to get the dispel DC, even though the in-game text has always claimed "11".
+
+==Custom content notes==
+*''script:'' <code>NW_S0_MordDisj</code>
+==External links==
+*{{FRW}}

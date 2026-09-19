@@ -1,0 +1,20 @@
+{{feat
+|type=class
+|prereq=[[Harper scout]] 3
+|desc=Once per day, the Harper or a [[target]] receives a +2 [[saving throw]] bonus on all saving throws for 5 [[turn]]s.
+|use=selected
+|icon=ife_x1htym.gif
+|class=Harper scout
+}}
+
+==Notes==
+*Added in the [[expansion pack]]s.
+*This feat would give an additional +2 bonus for every 3 Harper scout levels past third, if it was possible to go beyond 5 Harper scout levels. (For the significance of this, see the previous version notes below.)
+*The bonus is subject to the +20 [[saving throw]] cap.
+*The saving throw bonus is subject to [[dispel|dispelling]]. The effective caster level is the Harper's [[character level]].
+
+===Previous versions===
+*Prior to version 1.69, this feat gave an additional +2 saving throw bonus for every 3 levels past third of ''[[champion of Torm]]'' (not Harper scout).
+
+==Custom content notes==
+*''script:'' <code>x0_s2_HarpSmile.nss</code>

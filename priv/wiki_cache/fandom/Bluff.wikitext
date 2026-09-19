@@ -1,0 +1,20 @@
+[[Image:Isk x2bluff.gif|right|Bluff]]
+The character can make the outrageous or the untrue seem plausible. The skill encompasses acting, conning, fast talking, misdirection and misleading body language.
+
+* '''Ability''': [[charisma]]
+
+* '''Classes''': [[assassin]], [[bard]], [[Harper scout]], [[rogue]]
+
+*'''[[Cross-class skill|Cross-class]]''': yes
+
+* '''[[untrained skill check|Requires training]]''': no
+
+* '''Check''': The more difficult the con, the more difficult the check
+
+* '''Use''': Selected in dialog
+
+==Notes==
+*Requires [[Hordes of the Underdark]].
+*Module designers tend to use [[persuade]] more frequently than bluff.
+
+[[Category:Skills]]

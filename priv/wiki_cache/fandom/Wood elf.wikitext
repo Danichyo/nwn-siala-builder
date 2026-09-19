@@ -1,0 +1,22 @@
+A '''wood elf''' is a [[subrace]] of [[elf]].
+
+The wood elves do not view their homelands as a land apart. They understand better than their kindred that, for better or for worse, their fates are bound up with the fates of the [[human]]s, [[dwarf|dwarves]] and [[halfling]]s of the land. Also known as copper or sylvan elves, these people have coppery skin tinged with green, and brown, green or hazel eyes. Hair is usually brown or black, occasionally blond or coppery-red.  
+
+'''Wood elf [[ability]] adjustments''': +2 [[Str]], +2 [[Dex]], -2 [[Int]], -2 [[Cha]], -2 [[Con]]
+
+[[Favored class]] ([[Ranger]]): A [[Class#Multiclassing|multiclass]] Wood elf's ranger class does not count when determining whether he suffers an [[Multiclass penalty|XP penalty for multiclassing]].
+
+==Special abilities==
+*[[Immunity to Sleep|Sleeplessness]]: [[Immunity|Immune]] to [[spell]]s and effects of the [[Sleep]] subtype.
+*[[Hardiness vs. Enchantments]]: +2 racial bonus on [[saving throw]]s against [[mind-affecting]] spells.
+*[[Weapon Proficiency (Elf)|Bonus Proficiencies]] ([[Longsword]], [[Rapier]], [[Shortbow]], [[Longbow]])
+*[[Skill Affinity (Listen)]]: +2 racial bonus to [[listen]] checks.
+*[[Skill Affinity (Search)]]: +2 racial bonus to [[Search]] checks.
+*[[Skill Affinity (Spot)]]: +2 racial bonus to [[Spot]] checks.
+*[[Keen Sense]]s: Elves make active Search checks automatically and with no [[movement penalty|movement penalties]].
+*[[Low-light Vision]]: Allows them to see better than normal in the dark.
+
+==Notes==
+*Wood elves are not implemented in Neverwinter Nights by default, but may be including in some [[hak pak]]s or [[gameworld]]s.
+
+[[Category:Custom content races]]

@@ -1,0 +1,12 @@
+{{feat
+|type=class
+|prereq=[[red dragon disciple]] 10
+|desc=The character gains [[immunity]] to [[fire damage|fire]].
+|use=automatic
+|icon=ife_x2immfire.gif
+|class1=red dragon disciple
+}}
+
+== Notes ==
+* Requires [[Hordes of the Underdark]].
+* This feat overrides all other immunity and [[vulnerability]] considerations (for fire damage); a character with this feat always has 100% fire immunity.

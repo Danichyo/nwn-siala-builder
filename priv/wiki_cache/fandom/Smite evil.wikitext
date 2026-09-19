@@ -1,0 +1,23 @@
+{{feat
+|type=class
+|prereq=[[paladin]] 2, [[champion of Torm]] 3
+|desc=This feat allows the character to make a special attack against [[evil]] creatures. The character applies their [[charisma]] [[modifier]] to their [[attack roll]], and their [[class level]] to the damage delivered. ''Smite evil'' may be used once per day.
+|use=selected. ''Smite evil'' only affects evil creatures.
+|icon=ife_hitevil.gif
+|class1=champion of Torm
+|class2=paladin}}
+
+==Notes==
+*This feat cannot be used with [[ranged weapon]]s.
+*The attack bonus does not count towards the +20 [[attack bonus cap]].
+*[[Champion of Torm]] and [[paladin]] levels are added together to determine the bonus damage.
+*A character can take the [[extra smiting]] feat to increase the smiting ability to 3 times per day.
+*A character can take the [[great smiting]] feats to increase the damage.
+*When used against a creature that is not evil (hostile creatures are not necessarily evil), ''smite evil'' is wasted. This is reported to the player as "failed" (as opposed to "hit" or "miss").
+
+==Custom content notes==
+'''Removable:''' yes
+
+'''Reusable:''' yes
+
+'''Script:''' hardcoded

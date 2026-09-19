@@ -1,0 +1,24 @@
+{{feat
+|type=class
+|prereq=[[rogue]] 10
+|desc=The rogue gains a +4 competence bonus to [[attack roll]]s when making [[attack of opportunity|attacks of opportunity]].
+|use=automatic
+|icon=ife_opportunist.gif
+|bonus=rogue
+}}
+
+==Notes==
+*The bonus from this feat does not count towards the +20 [[attack bonus cap]].
+*This feat is a reasonable counter to [[mobility]].
+
+==Builder notes==
+'''Item feat:''' No, but it can be added with custom content.
+
+==Custom content notes==
+'''Removable:''' yes
+
+'''Reusable:''' yes
+
+'''Script:''' hardcoded
+
+*This feat can be added to [[iprp_feats.2da]] to make it available as an item feat.

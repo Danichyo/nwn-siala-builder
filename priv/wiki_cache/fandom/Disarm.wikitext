@@ -1,0 +1,33 @@
+{{otheruses|the feat}}
+
+{{feat
+|type=general
+|prereq=[[intelligence]] 13+
+|reqfor=[[improved disarm]]
+|desc=The [[character]] can attempt to disarm an opponent in [[melee]] combat. Attempting a disarm applies a -6 penalty to the character's [[attack roll]], and the combatant with the larger weapon gains a +4 bonus per [[weapon size|size category]] of difference. A successful hit deals normal damage, and if the opponent fails a [[discipline]] [[skill check|check]] then the weapon flies from the opponent's hands.
+|use=selected. A disarm attempt provokes an [[attack of opportunity]].
+|icon=ife_disarm.gif
+|bonus1=champion of Torm
+|bonus2=fighter
+}}
+
+==Notes==
+
+* Not all creatures can be disarmed. [[Natural weapon]]s cannot be disarmed, nor can [[cursed]] weapons. In addition, a creature cannot be disarmed while [[polymorph]]ed, and many [[non-player character]]s are flagged as not disarmable (possibly for balance or module-economy, possibly because that is the default setting in the [[Toolset]]).
+* If a non-player character is wielding a non-[[droppable]] weapon when successfully disarmed, the weapon is destroyed instead of being placed on the ground.
+*The bonus due to weapon size affects the actual attack roll, making it possible to have a higher attack bonus with disarm than without. This makes ''disarm'' particularly useful to those wielding the largest weapons possible (i.e. [[two-handed weapon]]s).
+*During a disarm if either target or attacker is unarmed or using a creature weapon (no main-hand weapon), a disarm attempt will count both weapons as equal size. Therefore, the attack modifier is -6, regardless of the other weapon.
+*Only the weapon held by the attacker in its main hand is used in the weapon size comparison to calculate the attack modifier, not their off-hand weapon. Similarly, only the target's main weapon is used and only their main weapon can be disarmed.
+*A monk using [[circle kick]] and [[flurry of blows]] can disarm two opponents in the same round, if they are adjacent. When the first opponent is hit, ''circle kick'' will target the other enemy for the next attack. During that same [[round]], on the next [[flurry]] of attacks, a disarm will hit the opponent targeted by ''circle kick''.
+*In [[PvP]] situations, people often consider it good manners to allow a disarmed player to retrieve their weapon after they've been defeated. Some [[server]]s use a [[script]] that automatically returns the disarmed weapon to the disarmed player's inventory (with the side-effect of clearing any [[quickslot]]s containing the weapon, as the weapon is removed from the inventory an instant before the script fires). Taking someone else's disarmed weapon can lead to [[ban]]ning on some servers.
+* The '''disarm (whip)''' feat is functionally equivalent to the disarm feat. While disarm (whip) is usually given by an item property on whips, it can work with any weapon just the same as disarm.
+
+==Builder notes==
+'''Item feat:''' yes
+
+==Custom content notes==
+'''Removable:''' yes
+
+'''Reusable:''' yes
+
+'''Script:''' hardcoded

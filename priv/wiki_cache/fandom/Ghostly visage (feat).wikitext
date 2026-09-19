@@ -1,0 +1,17 @@
+{{feat
+|type=class
+|prereq=[[assassin]] 2
+|desc=Starting at second level, an assassin gains the ability to cast [[ghostly visage]].
+|use=selected
+|icon=is_ghostvis.gif
+|class1=assassin
+}}
+
+== Notes ==
+* Added in the [[expansion pack]]s.
+* This feat is usable once per [[day]].
+* The [[caster level]] is the assassin [[class level]].
+
+== Custom content notes ==
+*''script:'' <code>NW_S0_GhostVis</code>
+** This is also the script used by the spell of the same name.

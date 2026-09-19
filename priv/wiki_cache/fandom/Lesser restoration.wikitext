@@ -1,0 +1,25 @@
+{{spell
+|icon=is_lsrestor.gif
+|clericlevel=2
+|druidlevel=2
+|innatelevel=2
+|school=[[conjuration]]
+|components=VS
+|range=t
+|area=single
+|save=harmless
+|spellresistance=no
+|duration=instant
+|counters=<del>[[ghoul touch]]</del>
+|line=Restoration
+|line2=lesser restoration
+|line4=restoration
+|line7=greater restoration
+|desc=Removes all [[magical effect|magical]], [[extraordinary effect|extraordinary]], and [[supernatural effect]]s that apply a penalty to [[ability]] scores, [[armor class]], [[attack bonus|attack]] and damage rolls, [[spell resistance]], and [[saving throw]]s. This spell will not remove the effects of a [[curse]] or a [[disease]].}}
+
+== Notes ==
+* This spell also removes penalties to damage [[immunity]] and [[skill]]s.
+*Due to a .2da bug, ''lesser restoration'' is not an additional [[counterspell]] of ''ghoul touch''.
+
+== Custom content notes ==
+* ''script:'' <code>NW_S0_LsRestor</code>

@@ -1,0 +1,11 @@
+{{delete}} <!-- Too small a topic, and not really a NWN term. -->
+A '''bladed weapon''' is any [[weapon]] which has a sharp edge designed to either [[slashing damage|slash]] or [[piercing damage|pierce]] an opponent.
+
+==Notes==
+* The geometry of the blade makes certain weapons more effective at [[piercing damage|piercing]] opponents.
+** These include [[rapier]]s and [[shortsword]]s
+* Other bladed weapons are capable of dealing [[piercing-slashing damage|piercing and slashing]] damage with a single attack.
+** These include [[halberd]]s and [[scythe]]s
+
+[[Category:Weapons]]
+[[Category:Bladed weapons| Bladed weapons]]

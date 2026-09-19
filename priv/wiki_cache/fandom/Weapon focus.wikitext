@@ -1,0 +1,78 @@
+{|border=0 cellspacing=2
+|-
+|[[Image:Ife wepfoc bsw.gif|right|Weapon focus (bastard sword)]]
+|[[Image:Ife wepfoc bax.gif|right|Weapon focus (battleaxe)]]
+|[[Image:Ife wepfoc clu.gif|right|Weapon focus (club)]]
+|[[Image:Ife wepfoc cre.gif|right|Weapon focus (creature)]]
+|[[Image:Ife wepfoc dag.gif|right|Weapon focus (dagger)]]
+|[[Image:Ife wepfoc dar.gif|right|Weapon focus (dart)]]
+|[[Image:Ife wepfoc dma.gif|right|Weapon focus (dire mace)]]
+|[[Image:Ife wepfoc dax.gif|right|Weapon focus (double axe)]]
+|[[Image:Ife x2wfdwax.gif|right|Weapon focus (dwarven waraxe)]]
+|-
+|[[Image:Ife wepfoc gax.gif|right|Weapon focus (greataxe)]]
+|[[Image:Ife wepfoc gsw.gif|right|Weapon focus (greatsword)]]
+|[[Image:Ife wepfoc hal.gif|right|Weapon focus (halberd)]]
+|[[Image:Ife wepfoc hax.gif|right|Weapon focus (handaxe)]]
+|[[Image:Ife wepfoc hxb.gif|right|Weapon focus (heavy crossbow)]]
+|[[Image:Ife wepfoc hfl.gif|right|Weapon focus (heavy flail)]]
+|[[Image:Ife wepfoc kam.gif|right|Weapon focus (kama)]]
+|[[Image:Ife wepfoc kat.gif|right|Weapon focus (katana)]]
+|[[Image:Ife wepfoc kuk.gif|right|Weapon focus (kukri)]]
+|-
+|[[Image:Ife wepfoc lxb.gif|right|Weapon focus (light crossbow)]]
+|[[Image:Ife wepfoc lfl.gif|right|Weapon focus (light flail)]]
+|[[Image:Ife wepfoc lha.gif|right|Weapon focus (light hammer)]]
+|[[Image:Ife wepfoc lbw.gif|right|Weapon focus (longbow)]]
+|[[Image:Ife wepfoc lsw.gif|right|Weapon focus (longsword)]]
+|[[Image:Ife wepfoc lma.gif|right|Weapon focus (mace)]]
+|[[Image:Ife wepfoc mor.gif|right|Weapon focus (morningstar)]]
+|[[Image:Ife wepfoc sta.gif|right|Weapon focus (quarterstaff)]]
+|[[Image:Ife wepfoc rap.gif|right|Weapon focus (rapier)]]
+|-
+|[[Image:Ife wepfoc sci.gif|right|Weapon focus (scimitar)]]
+|[[Image:Ife wepfoc scy.gif|right|Weapon focus (scythe)]]
+|[[Image:Ife wepfoc sbw.gif|right|Weapon focus (shortbow)]]
+|[[Image:Ife wepfoc ssw.gif|right|Weapon focus (shortsword)]]
+|[[Image:Ife wepfoc shu.gif|right|Weapon focus (shuriken)]]
+|[[Image:Ife wepfoc sic.gif|right|Weapon focus (sickle)]]
+|[[Image:Ife wepfoc sli.gif|right|Weapon focus (sling)]]
+|[[Image:Ife wepfoc spe.gif|right|Weapon focus (spear)]]
+|[[Image:Ife wepfoc tax.gif|right|Weapon focus (throwing axe)]]
+|-
+|[[Image:Ife x2wftri.gif|right|Weapon focus (trident)]]
+|[[Image:Ife wepfoc 2sw.gif|right|Weapon focus (two-bladed sword)]]
+|[[Image:Ife wepfoc una.gif|right|Weapon focus (unarmed strike)]]
+|[[Image:Ife wepfoc wha.gif|right|Weapon focus (warhammer)]]
+|[[Image:Ife x2wfwhip.gif|right|Weapon focus (whip)]]
+|}
+{{feat
+|type=general
+|prereq=proficiency with the chosen weapon, [[base attack bonus]] +1
+|reqfor=[[weapon specialization]], [[epic weapon focus]], [[arcane archer]], [[champion of Torm]], [[weapon master]]
+|impliedfor=[[epic weapon specialization]]
+|desc=A character with this feat is particularly skilled with a specific weapon, gaining a +1 [[attack roll|attack]] bonus with it.
+|use=automatic. This feat may be selected multiple times, but the effects do not [[stack]]. It applies to a new weapon in each case.
+|bonus1=champion of Torm
+|bonus2=fighter
+}}
+
+== Notes ==
+
+* Prior to Neverwinter Nights: Enhanced Edition, [[Weapon focus]] in the trident was ineffective in combat. (The bonus to attack was not used).
+* There is no version of this feat for the [[magic staff]] or [[lance]].
+* This feat is commonly used to influence the type of weapon generated as loot in specially designated containers. (The assumption is that a player will not focus in a weapon that the player would rather not acquire.)
+
+==Builder notes==
+
+'''Item feat:''' No, but it can be added with custom content.
+
+==Custom content notes==
+
+'''Removable:''' yes
+
+'''Reusable:''' yes
+
+'''Script:''' hardcoded
+
+*This feat can be added to [[iprp_feats.2da]] to make it available as an item feat.

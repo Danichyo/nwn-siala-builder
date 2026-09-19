@@ -1,0 +1,63 @@
+{{feat
+|type=class
+|prereq=[[cleric]] 1, [[paladin]] 3, [[blackguard]] 3
+|reqfor=[[divine might]], [[divine shield]], [[extra turning]]
+|desc=With this feat, the character can force [[undead]] to [[turned|flee in terror]]. This ability may be activated three times per day, plus the character's [[charisma]] [[modifier]]. The character's level and charisma are used to determine how many undead are turned.
+|use=selected. If the character has twice as many levels as the undead have [[hit dice]], the undead are instantly destroyed.
+|icon=ife_turn.gif
+|class1=blackguard
+|class2=cleric
+|class3=paladin}}
+
+== Notes ==
+
+* The affected area has a radius of 20 [[meter]]s, centered on the turner. Creatures are affected from nearest to furthest, with friendly creatures exempt. Creatures must be seen to be affected.
+* The total hit dice of all affected creatures is limited to 2[[d6]] plus the turner's charisma modifier and level. This is increased by another d6 if the caster has the [[sun domain]].
+* The duration of the forced flight is 5 [[round]]s, plus one round per the turner's level.
+* The "level" used by this feat for all purposes listed so far (total hit dice affected, destroying instead of turning, and duration) is the turner's cleric level plus the higher of (paladin level&minus;2) and (blackguard level&minus;2) if either is positive.
+* For the purpose of determining the highest level (hit dice) creature that can be turned, the turner's level is modified (from &minus;4 to +4) by a turn check, and no creature with more hit dice than the modified level can be turned. The turn check is a die roll: d20&nbsp;+ charisma modifier, plus another d4 if the turner has the sun domain.
+{|class="wikitable" style="text-align:center"
+! turn check
+! level modifier
+|-
+| 0 or less
+| &minus;4
+|-
+| 1 to 3
+| &minus;3
+|-
+| 4 to 6
+| &minus;2
+|-
+| 7 to 9
+| &minus;1
+|-
+| 10 to 12
+| +0
+|-
+| 13 to 15
+| +1
+|-
+| 16 to 18
+| +2
+|-
+| 19 to 21
+| +3
+|-
+| 22 or higher
+| +4
+|}
+* [[Turn resistance]] is added to a creature's hit dice when determining if, and how, that creature is affected by this feat. This makes the creature harder to turn and harder to "instantly destroy", and if the creature is turned, it takes a bigger bite out of the total hit dice that can be affected.
+* Whether or not a creature is affected by ''turn undead'' is determined by that creature's [[racial type]] (which can change under the influence of a [[polymorph]], with [[undead shape]] being of particular note). Undead are always affected (unless friendly), while additional races may be affected based on clerical [[domain]]s and the [[planar turning]] feat.
+** [[Construct]]s can be affected (damaged, not turned) via the [[destruction domain]].
+** [[Elemental]]s can be turned via the [[air domain|air]], [[earth domain|earth]], [[fire domain|fire]], and [[water domain|water]] domains.
+** [[Outsider]]s can be turned via the [[good domain|good]] and [[evil domain|evil]] domains, or via the planar turning feat.
+** [[Vermin]] can be turned via the [[plant domain]].
+** Any creature possessing an item with the [[tag]] "x2_gauntletlich" can be turned by a creature with a similarly-tagged item equipped in the [[gloves or bracers slot]]. (No such item exists in the default game, but the tag's prefix suggests it was planned for the [[Hordes of the Underdark]] expansion, and comments in the script suggest its name was to be "Gauntlets of the Lich".)
+* An affected creature cannot be cured with the [[restoration]] or [[clarity|mind protection]] lines of spells. However, the effect may be [[dispel|dispelled]], with the turner's hit dice as the effective caster level of the turn effect.
+* Outsiders get a bonus to their turn resistance equal to their [[spell resistance]], unless the turner has ''[[planar turning]]'' in which case the bonus is half that amount. The spell-resistance-based turn resistance stacks with any normal turn resistance the outsider may have.
+* Constructs, if affected by a turning attempt, are not forced to flee, nor are they destroyed if the turner's level is twice theirs. Instead, constructs receive 1d3 points of [[magical damage]] per the modified level used to determine the highest level creature that can be turned.
+
+== Custom content notes ==
+
+*''script:'' <code>NW_S2_TurnDead</code>

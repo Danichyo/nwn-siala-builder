@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="csrf-token" content={get_csrf_token()} />
+    <.live_title default="BuildCalculator" suffix=" · Phoenix Framework" phx-no-format>{assigns[:page_title]}</.live_title>
+    <link phx-track-static rel="stylesheet" href={~p"/assets/css/app.css"} />
+    <script defer phx-track-static type="text/javascript" src={~p"/assets/js/app.js"}>
+    </script>
+    <script>
+      (() => {
+        // Задача 3.165 (Dan, 02.09.2026): «тёмная тема должна быть включена
+        // по дефолту, только если юзер сам себе поставит светлую мы её
+        // сохраняем». Пересмотр решения 3.23 — там дефолтом была системная
+        // тема (matchMedia), обе палитры объявлены равноправными. Довод про
+        // равноправие ПАЛИТР остаётся верным (CLAUDE.md §6, ни одна не хуже
+        // другой) — меняется только УМОЛЧАНИЕ, и система в нём больше не
+        // участвует вовсе: ни при первой отрисовке, ни на лету при смене
+        // темы ОС. Поэтому здесь больше нет ни `systemTheme()`, ни
+        // слушателя `matchMedia(...).addEventListener("change", …)` — с
+        // фиксированным дефолтом ему нечего было бы делать.
+        //
+        // applyTheme() красит DOM и НИЧЕГО не пишет в localStorage — это
+        // и есть половина просьбы Dan: сохраняется только то, что выбрал
+        // сам игрок. Явный выбор идёт через chooseTheme(), у неё запись —
+        // единственное место, которое трогает `phx:theme`.
+        const applyTheme = (theme, source) => {
+          document.documentElement.setAttribute("data-theme", theme);
+          document.documentElement.setAttribute("data-theme-source", source);
+        };
+
+        const chooseTheme = (theme) => {
+          localStorage.setItem("phx:theme", theme);
+          applyTheme(theme, "user");
+        };
+
+        if (!document.documentElement.hasAttribute("data-theme")) {
+          const saved = localStorage.getItem("phx:theme");
+          applyTheme(saved || "dark", saved ? "user" : "default");
+        }
+
+        // Синхронизация между вкладками: другая вкладка ЭТОГО ЖЕ браузера
+        // уже записала (или стёрла) `phx:theme` в общее хранилище — здесь
+        // только применяем то, что там уже лежит, второй раз не пишем.
+        window.addEventListener("storage", (e) => {
+          if (e.key === "phx:theme") applyTheme(e.newValue || "dark", e.newValue ? "user" : "default");
+        });
+        window.addEventListener("phx:set-theme", (e) => chooseTheme(e.target.dataset.phxTheme));
+      })();
+    </script>
+  </head>
+  <body>
+    {@inner_content}
+  </body>
+</html>

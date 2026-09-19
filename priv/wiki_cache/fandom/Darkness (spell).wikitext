@@ -1,0 +1,33 @@
+{{spell
+|icon=is_darkness.gif
+|bardlevel=2
+|clericlevel=2
+|magelevel=2
+|innatelevel=2
+|school=[[evocation]]
+|immunity=darkness
+|components=V
+|range=l
+|area=huge
+|save=none
+|spellresistance=yes*
+|duration=1 [[round]] / level
+|counters=<del>[[light]]</del>
+|desc=All creatures within the [[area of effect]] are shrouded in a haze of [[darkness]] which can only be pierced using [[ultravision]].}}
+
+==Notes==
+
+* This spell does not have a somatic [[component]], so it can be cast while wearing full armor and shield, ignoring arcane [[spell failure]].
+* The in-game description of the spell incorrectly omits [[true seeing]] as an effect which can pierce darkness.
+* True seeing and ultravision do not remove the darkness visual for a character. Rather, they allow a character to target items and creatures normally without being hindered by blindness or the target's invisibility. A player can use the &lt;tab&gt; key to highlight enemies when he/she has one of these effects active in darkness.
+*[[Non-player character]]s who do not have true seeing or ultravision tend to just stand still when in darkness unless they are in melee weapon range of an enemy, in which case they will attack.
+* A character may see a message stating a spell resistance check was performed. However, these checks do nothing as they do not fulfill their intended purpose.
+* Due to a .2da bug, ''light'' is not an additional [[counterspell]] of this spell.
+
+==Custom content notes==
+*''script:'' <code>NW_S0_Darkness.nss</code>
+*''OnEnter script:'' <code>NW_S0_DarknessA.nss</code>
+*''OnExit script:'' <code>NW_S0_DarknessB.nss</code>
+
+==External Links==
+* {{FRW|Darkness}}

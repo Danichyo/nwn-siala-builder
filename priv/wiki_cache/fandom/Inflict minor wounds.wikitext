@@ -1,0 +1,33 @@
+{{spell
+|icon=is_x1infmin.gif
+|clericlevel=0
+|innatelevel=0
+|school=[[necromancy]]
+|components=VS
+|range=t
+|area=single
+|save=[[will]] 1/2
+|spellresistance=yes
+|immunity=<s>negative</s>
+|duration=instant
+|counters=<del>[[cure minor wounds]]</del>
+|line=Inflict wounds
+|line0=inflict minor wounds
+|line1=inflict light wounds
+|line2=inflict moderate wounds
+|line3=inflict serious wounds
+|line4=inflict critical wounds
+|line5=circle of doom
+|line6=harm
+|desc=If the caster succeeds in striking an opponent with a [[touch attack]], the target suffers 1 point of [[negative energy damage|damage]]. Inflict spells have a reverse effect when used on [[undead]], causing the targeted undead to take an amount of healing equal to what the spell normally damages.}}
+
+== Notes ==
+
+* Added in the [[expansion pack]]s.
+* The descriptor mentioned in the in-game description is not used by this spell.
+* The type of damage is [[negative energy damage|negative energy]].
+* Due to a .2da bug, ''cure minor wounds'' is not an additional [[counterspell]] of this spell.
+
+== Custom content notes ==
+
+* ''script:'' <code>X0_S0_Inflict</code>

@@ -1,0 +1,7 @@
+{{feat
+|type=race
+|prereq=[[elf]], [[half-elf]], [[gnome]]
+|desc=''Low-light vision'' grants the ability to see in the dark, but not as far as [[darkvision]].
+|use=automatic
+|icon=ife_lowlight.gif
+}}

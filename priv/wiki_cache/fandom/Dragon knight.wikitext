@@ -1,0 +1,25 @@
+{{otheruses|the epic spell|the prerequisite feat|Epic spell: dragon knight}}
+
+{{spell
+|icon=ife_x2spdraknt.gif
+|clericlevel=epic
+|druidlevel=epic
+|magelevel=epic
+|innatelevel=10
+|school=[[conjuration]]
+|components=VS
+|range=s
+|area=point
+|duration=20 [[round]]s
+|desc=The caster summons [[red dragon (summon)|a powerful adult red dragon]] to the
+targeted location to fight on his side.
+|spellcraft=22}}
+
+==Notes==
+*Requires [[Hordes of the Underdark]].
+
+'''See also:''' ''[[mummy dust]]'' (the other epic summoning spell)
+
+==Custom content notes==
+*''script:'' <code>X2_S2_DragKnght</code>
+[[category:summoning]]

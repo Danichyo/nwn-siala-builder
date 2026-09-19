@@ -1,0 +1,23 @@
+A '''dragon''' is a reptile-like [[creature]], usually winged, with magical or unusual abilities. Newly-hatched dragons are referred to as [[wyrmling]]s, while the eldest dragons are called wyrms.
+The youngest dragons are [[size modifier|small creatures]], while the eldest are huge.
+The dragon's physical coloring is an indication of the energy immunities (and vulnerabilities) and is retained as the dragon develops 
+from wyrmling to its ancient form. For instance, a red dragon wyrmling and an ancient red dragon both possess immunity to fire and vulnerability to cold.
+
+Being an under-developed dragon form, a wyrmling possesses 
+only a subset of the full racial features of dragons: [[true seeing]], immunity to [[paralysis]], and one or more energy immunities. 
+As a dragon continues to mature, its scales begin to harden ([[damage reduction]]), its ability to shrug off magical attack increases 
+([[spell resistance]] & immunity to [[mind-affecting]] spells), it gains an uncanny sense of awareness towards concealed hostile presence (immunity to [[sneak attack]]), 
+and it sports a characteristic [[aura of dragon fear]].
+
+Dragons that transform themselves into [[undead]] can become [[dracolich]]es retaining all the racial features of their 
+dragon heritage and gaining those of all undead creatures. 
+Metallic dragons (e.g. [[silver dragon]]s) tend to be [[good]], while the chromatic dragons (e.g. [[white dragon]]s) and [[shadow dragon]]s tend to be [[evil]].  
+The [[prismatic dragon]] (an epic dragon) is one of the rare exceptions and tend to be [[true neutral]]. 
+
+Dragons have a proclivity towards procreation outside their species. The half-dragon offspring of these matings tend to resemble their non-draconic parent, with the addition of wings, enhanced [[ability|abilities]], and some of the immunities typical of dragons. (The standard half-dragon creatures include a [[half-dragon sorcerer|sorcerer]] and a [[half-dragon cleric|cleric]].)
+It is rumored that draconic ancestors are the source of the magical powers present in [[sorcerer]]s and [[bard]]s, and those who seek to tap into the full potential of their heritage can enter the [[red dragon disciple]] class and eventually become half-dragons themselves. ([[BioWare]] only implemented red dragon disciples, even though the lore states that dragon disciples can be descendants of any color dragon.)
+
+{{dragon list}}
+
+'''See also:''' [[:Category:Dragons]]
+[[category:races]]

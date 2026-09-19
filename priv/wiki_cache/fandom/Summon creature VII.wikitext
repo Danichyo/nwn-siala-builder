@@ -1,0 +1,34 @@
+{{spell
+|icon=is_summon7.gif
+|clericlevel=7
+|druidlevel=7
+|magelevel=7
+|innatelevel=7
+|school=[[conjuration]]
+|components=VS
+|range=s
+|area=point
+|save=none
+|spellresistance=no
+|duration=24 [[hour]]s
+|line=Summon creature
+|line1=summon creature I
+|line2=summon creature II
+|line3=summon creature III
+|line4=summon creature IV
+|line5=summon creature V
+|line6=summon creature VI
+|line7=summon creature VII
+|line8=summon creature VIII
+|line9=summon creature IX
+|desc=The caster summons a random huge [[huge air elemental|air]], [[huge fire elemental|fire]] or [[huge water elemental|water]] elemental to be a faithful and loyal servant.}}
+
+== Notes ==
+
+* This spell used to include [[huge earth elemental]]s as a possible summons, but their large size often caused problems navigating dungeons.
+
+== Custom content notes ==
+
+* ''script:'' <code>NW_S0_Summon</code>
+
+[[category:summoning]]

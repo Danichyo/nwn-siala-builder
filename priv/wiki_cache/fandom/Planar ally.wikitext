@@ -1,0 +1,30 @@
+{{spell
+|icon=is_x1plaall.gif
+|clericlevel=6
+|innatelevel=6
+|school=[[conjuration]]
+|components=VS
+|range=s
+|area=caster
+|save=none
+|spellresistance=no
+|duration=1 [[hour]] / level
+|desc=An [[outsider]] is [[summon]]ed to assist the caster. The type of outsider varies with the caster's [[alignment]].}}
+
+{|class="wikitable" style="text-align:center"
+!alignment!!summon
+|-
+  |evil   ||[[succubus (summon)|succubus]]
+|-
+  |neutral||[[green slaad (summon)|green slaad]]
+|-
+  |good   ||[[hound archon (summon)|hound archon]]
+|}
+
+== Notes ==
+
+* Added in the [[expansion pack]]s.
+
+== Custom content notes ==
+
+* ''script:'' <code>X0_S0_Planar</code>

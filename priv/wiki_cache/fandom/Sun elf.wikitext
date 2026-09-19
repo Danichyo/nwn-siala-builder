@@ -1,0 +1,22 @@
+A '''sun elf''' is a [[subrace]] of [[elf]].
+
+Sun elves, or gold elves, are famed for their command of both [[arcane]] and [[divine]] magic, which exceeds that of any other living race. Works of elven high magic thousands of years old still survive in the hidden refuges of sun elves. Sun elves have bronze skin, hair of golden blond, copper or black, and eyes of green or gold. They favor contemplation, lore and study over the quick games and light-hearted songs of other elves, but seem to embody the unearthly beauty, grace and presence of elven folk. 
+
+'''Sun elf [[ability]] adjustments''': +2 [[Int]], -2 [[Con]]
+
+[[Favored class]] ([[Wizard]]): A [[Class#Multiclassing|multiclass]] Sun elf's wizard class does not count when determining whether he suffers an [[Multiclass penalty|XP penalty for multiclassing]].
+
+==Special abilities==
+*[[Immunity to Sleep|Sleeplessness]]: [[Immunity|Immune]] to [[spell]]s and effects of the [[Sleep]] subtype.
+*[[Hardiness vs. Enchantments]]: +2 racial bonus on [[saving throw]]s against [[mind-affecting]] spells.
+*[[Weapon Proficiency (Elf)|Bonus Proficiencies]] ([[Longsword]], [[Rapier]], [[Shortbow]], [[Longbow]])
+*[[Skill Affinity (Listen)]]: +2 racial bonus to [[listen]] checks.
+*[[Skill Affinity (Search)]]: +2 racial bonus to [[Search]] checks.
+*[[Skill Affinity (Spot)]]: +2 racial bonus to [[Spot]] checks.
+*[[Keen Sense]]s: Elves make active Search checks automatically and with no [[movement penalty|movement penalties]].
+*[[Low-light Vision]]: Allows them to see better than normal in the dark.
+
+==Notes==
+*Sun elves are not implemented in Neverwinter Nights by default, but may be including in some [[hak pak]]s or [[gameworld]]s. It is featured in the [[Player Resource Consortium]].
+
+[[Category:Custom content races]]

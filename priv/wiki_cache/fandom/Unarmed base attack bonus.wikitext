@@ -1,0 +1,66 @@
+A special '''unarmed base attack bonus''' ('''UBAB''') replaces the normal [[BAB]] for [[monk]]s (and only monks) who fight unarmed or with a [[kama]] (if also not wearing [[armor]] nor using a [[shield]]).
+This progression gives extra attacks at -3 off the previous attack, rather than the normal -5, with up to six attacks per [[round]] possible from this progression. (While the pattern indicates a seventh attack should be possible, the game does not allow it.)
+As with the regular BAB, this special UBAB is based upon the base attack achieved at level 20 for [[epic character]]s.
+
+There is no level requirement; merely having a single monk level gives a character access to this progression.
+However, monk levels are listed in the following table as a reference for those playing characters with only monk levels.
+
+{| border=0 cellpadding=10 style="margin:auto" <!-- two tables, side-by-side -->
+|+ Unarmed attack progression
+|
+{| class="centertable" style="text-align:center"
+! base attack !! UBAB !! monk level
+|-
+|0|| +0 || 1
+|-
+|1|| +1 || 2
+|-
+|2|| +2 || 3
+|-
+|3|| +3 || 4-5
+|-
+|4|| +4/+1 || 6
+|-
+|5|| +5/+2 || 7
+|-
+|6|| +6/+3 || 8-9
+|-
+|7|| +7/+4/+1 || 10
+|-
+|8|| +8/+5/+2 || 11
+|-
+|9|| +9/+6/+3 || 12-13
+|-
+|10|| +10/+7/+4/+1 || 14
+|}
+|
+{| class="centertable" style="text-align:center"
+! base attack !! UBAB !! monk level
+|-
+|11|| +11/+8/+5/+2 || 15
+|-
+|12|| +12/+9/+6/+3 || 16-17
+|-
+|13|| +13/+10/+7/+4/+1 || 18
+|-
+|14|| +14/+11/+8/+5/+2 || 19
+|-
+|15|| +15/+12/+9/+6/+3 || 20
+|-
+|16|| +16/+13/+10/+7/+4/+1 || -
+|-
+|17|| +17/+14/+11/+8/+5/+2 || -
+|-
+|18|| +18/+15/+12/+9/+6/+3 || -
+|-
+|19|| +19/+16/+13/+10/+7/+4 || -
+|-
+|20|| +20/+17/+14/+11/+8/+5 || -
+|-
+|epic|| add to row for level 20 BA || -
+|}
+|}
+
+Base attacks above 15 (hence also the sixth attack per round) are not possible for a monk without multiclassing.
+[[Category:Game rules]]
+[[category:character development|Base attack bonus, unarmed]]

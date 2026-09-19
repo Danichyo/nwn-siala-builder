@@ -1,0 +1,15 @@
+{{feat
+|type=class
+|prereq=[[blackguard]] 5
+|desc=Starting at fifth level, a blackguard may [[summon]] a [[succubus (summon)|succubus]]. At ninth level this ability improves and grants the power to summon a [[vrock (summon)|vrock]].
+|use=selected
+|icon=is_lsplanar.gif
+|class=blackguard
+}}
+
+==Notes==
+*Added in the [[expansion pack]]s.
+*This feat lasts 1 [[hour]] per level.
+
+==Custom content notes==
+*''script:'' <code>X0_S2_Fiend</code>

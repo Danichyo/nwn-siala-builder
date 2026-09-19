@@ -1,0 +1,31 @@
+{{spell
+|icon=is_x2blssweap.gif
+|paladinlevel=1
+|innatelevel=1
+|school=[[transmutation]]
+|immunity=weapon enchantment
+|components=VS
+|range=t
+|area=creature or melee weapon
+|save=none
+|spellresistance=no
+|duration=<del>1</del> ''2'' minutes / level
+|line=Holy swords
+|line1=bless weapon
+|line4=holy sword
+|desc=You empower the touched [[melee weapon]] with a +1 [[enhancement bonus]], and a 2d6 [[divine damage]] bonus vs. [[undead]]. You can also target another creature to enchant its worn melee weapon.}}
+
+== Notes ==
+
+*Requires [[Hordes of the Underdark]].
+* When ''bless weapon'' is cast on crossbow [[bolt]]s, it adds a temporary [[blessed bolt]] item property (also known as "on-hit: slay rakshasa"), which will instantly kill any [[rakshasa]] hit by the bolts
+* Contrary to the spell's description, this spell lasts for two [[round]]s per level when cast on bolts and two [[turn]]s per level when cast on melee weapons.
+* This spell can be cast on seemingly unarmed creatures (such as animals) to target one of their [[natural weapon]]s. The "right" slot is targeted if possible; the "bite" slot otherwise. A creature with only a "left" weapon (e.g. some [[polymorph]]s) will not benefit from this spell.
+* An existing enhancement bonus (temporary or permanent) will block the addition of the enhancement bonus from this spell. The damage bonus, on the other hand, will replace an existing temporary damage bonus vs. undead. In particular, casting this spell on the same weapon before an earlier casting expires will not extend the duration of the enhancement bonus, but will extend the duration of the damage bonus.
+
+== Custom content notes ==
+
+*''script:'' <code>X2_S0_BlssWeap</code>
+==External links==
+*{{FRW}}
+* {{NWN2W|Bless Weapon}}

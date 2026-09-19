@@ -1,0 +1,15 @@
+{{Weapon|imagefile=Bite.JPG
+  |weaponname=Creature slash weapon
+  |weapondescription=A bite item represents a creature's bite.
+  |weight=0.1
+  |cost=0
+  |damage=0
+  |critical=20-20/x2
+  |damagetype=[[slashing damage|slashing]]
+  |size=medium
+  |proficiency=[[Weapon proficiency (creature)|creature]]
+  |category=[[Category:creature items]]
+}}
+
+==Toolset==
+* '''Bite item''' are listed under the [[creature item blueprint category]] of the [[item palette]] in the [[toolset]].

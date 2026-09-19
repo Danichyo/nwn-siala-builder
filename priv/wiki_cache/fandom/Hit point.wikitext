@@ -1,0 +1,13 @@
+'''Hit points (HP)''' measure the amount of damage a creature can sustain before dying. This is one measure of health, but is not exactly synonymous with "health" as a creature could be [[disease]]d or [[poison]]ed (hence be in poor health), yet still have full hit points. Death (or "dying" in the case of player characters) occurs when a creature's remaining hit points drops to (or below) 0.
+
+[[Player character]]s (PCs) gain hit points whenever gaining a level. These hit points can be divided into "base" hit points and bonuses. At [[character level]]s 1 through 3, a PC gains base hit points equal to the maximum possible roll of the [[hit die]] associated with the [[class]] being taken. At higher character levels, the number of base hit points gained is equal to a roll of the hit die, but with the provision that rolls under half the maximum are re-rolled. Thus, if a level 3 PC gains a level of [[fighter]], the PC will gain between 5 and 10 base hit points (inclusive).
+
+In addition to base hit points, PCs receive bonus hit points from [[constitution]], [[toughness]], and [[epic toughness]]. These bonuses are dynamic in the sense that they instantly adapt to changes. That is, if a PC's constitution [[modifier]] changes, or if one of the feats is gained or lost, bonus hit points are immediately gained or lost as a result. (Losing a feat is possible if it was obtained via an [[item property]].) There is a minimum of 1 hit point for each level, though, after combining the base and bonus hit points associated with that level. (Negative bonus hit points can result from a negative constitution modifier.)
+
+The number of hit points reported as gained in the "level up summary" window includes both base and bonus hit points that were not present before leveling, except those obtained from [[epic toughness]] or indirectly as a result of [[great constitution]] or attaining [[red dragon disciple]] level 7. (As always, the leveling process ignores all item properties and [[effect]]s, and this report is no exception.)
+
+[[Non-player character]]s follow the same rules for bonus hit points, but their base hit points can be set to (almost) any value by a module creator, subject to the same 1 hit point per level minimum. Typically, NPCs will have around 4 to 10 base hit points per level, but this is only a rough guideline and not dependent on their classes.
+
+See also [[temporary hit point]].
+[[Category:Game rules]]
+[[category:Character development]]

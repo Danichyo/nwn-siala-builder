@@ -1,0 +1,25 @@
+{{otheruses|the feat|spell details|Mummy dust}}
+
+{{feat
+|epic=yes
+|type=[[epic spell]]
+|prereq=21st level, the ability to cast 9th level spells, [[spellcraft]] 15
+|desc=[[mummy dust|The caster summons a powerful mummy warrior to do their bidding]].
+|use=cast
+|icon=ife_x2spmumdst.gif
+|bonus1=pale master
+|bonus2=sorcerer
+|bonus3=wizard
+}}
+
+==Notes==
+
+*Requires [[Hordes of the Underdark]].
+*The actual prerequisite is not the ability to cast level 9 spells, but being an [[epic class|epic]] [[cleric]], [[druid]], [[sorcerer]], or [[wizard]], or having at least 15 [[pale master]] levels. Furthermore, this feat can only be chosen when gaining a level in the qualifying class.
+*As with all epic spells, this feat can be used once per day.
+
+==Custom content notes==
+
+*A custom class must have this feat in their feat list, or that class will not be able to select it as a general feat.
+
+[[category:feats restricted by class, epic]]

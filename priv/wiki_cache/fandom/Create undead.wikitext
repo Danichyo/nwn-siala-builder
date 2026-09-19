@@ -1,0 +1,46 @@
+{{otheruses|the spell|the feat|Create undead (feat)}}
+'''See also:''' [[summon undead]]
+{{spell
+|icon=is_crundead.gif
+|clericlevel=6
+|magelevel=8
+|innatelevel=6
+|school=[[necromancy]]
+|immunity=evil
+|components=VS
+|range=s
+|area=point
+|save=none
+|spellresistance=none
+|duration=24 [[hour]]s
+|counters=<del>[[sunbeam]]</del>
+|line=Undead summoning
+|line3=animate dead
+|line6=create undead
+|line8=create greater undead
+|line10=mummy dust
+|desc=The caster [[summon|brings]] an [[undead]] creature into being. The type of undead is based upon the caster's level.}}
+{|class="wikitable"
+!caster level!!summon
+|-
+|align=center|Under 12
+|align=center|[[ghoul (summon)|ghoul]]
+|-
+|align=center|12-13
+|align=center|[[ghast (summon)|ghast]]
+|-
+|align=center|14-15
+|align=center|[[wight]]
+|-
+|align=center|16+
+|align=center|[[spectre (summon)|spectre]]
+|}
+
+==Notes==
+*Due to a .2da bug, ''create undead'' is not an additional [[counterspell]] of ''sunbeam''.
+
+==Custom content notes==
+*''script:'' <code>NW_S0_CrUndead.nss</code>
+==External Links==
+* {{FRW}}
+[[category:summoning]]

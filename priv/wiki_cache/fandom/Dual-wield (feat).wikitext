@@ -1,0 +1,14 @@
+{{feat
+|type=class
+|prereq=[[ranger]] 1
+|desc=Rangers, when wearing [[light armor]], get all the benefits of having the [[ambidexterity]] and [[two-weapon fighting]] feats. While wearing [[medium armor|medium]] or [[heavy armor]] they lose these benefits.
+|use=automatic
+|icon=ife ambidex.gif
+|class1=ranger
+}}
+
+==Notes==
+
+* This feat does not qualify a character to take [[improved two-weapon fighting]] as a [[general feat]] selection. However, if nine levels of ranger are taken, ''improved two-weapon fighting'' will be granted automatically.
+* Wearing robes or no armor qualifies as "wearing light armor" for the purposes of this feat.
+* This feat serves only to inform the player; the benefits are hardcoded to the ranger class.

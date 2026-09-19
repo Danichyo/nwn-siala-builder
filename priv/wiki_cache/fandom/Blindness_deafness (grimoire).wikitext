@@ -1,0 +1,22 @@
+{{Grimoire spell|imagename=Is blinddeaf.gif
+|spellname=Blindness/Deafness
+|casterlevel=[[Bard]] 2, [[Cleric]] 3, [[Darkness domain (grimoire)|Darkness]] 2, [[Sorcerer]] / [[Wizard (class)|Wizard]] 2
+|innatelevel=
+|school=[[Transmutation]]
+|descriptors=None
+|components=V, S
+|range=Medium
+|immunities=None
+|savingthrow=[[Fortitude]] negates
+|spellresistance=Yes
+|targettype=Single
+|duration=1 [[round]] / level
+|description=The target creature is struck blind or deaf, as the caster chooses.
+}}
+
+== Notes ==
+*{{Grimoire spell change|pagename=[[Blindness/deafness]]}}
+{{g_bard}}
+{{g_clr}}
+{{g_darkness}}
+{{g_sorwiz}}

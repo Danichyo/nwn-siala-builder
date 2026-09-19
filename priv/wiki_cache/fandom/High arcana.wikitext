@@ -1,0 +1,17 @@
+'''Type of Feat''': [[Class]]
+
+'''Prerequisite''': [[Archmage]] levels 1, 2, 3, 4, 5
+
+'''Specifics''': Upon gaining a new level in [[Archmage]], the character gets to select a High Arcana feat from the following list:
+
+*[[Arcane fire|Arcane Fire]]
+*[[Mastery of elements|Mastery of Elements]]
+*[[Mastery of shapes|Mastery of Shapes]]
+*[[Spell-like ability (archmage)|Spell-Like ability]]
+*[[Spell power|Spell Power]]
+
+
+==Notes==
+*Added in the [[PRC Expansion Pack]].
+
+[[Category:PRC feats]]

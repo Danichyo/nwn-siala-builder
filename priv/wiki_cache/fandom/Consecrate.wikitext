@@ -1,0 +1,18 @@
+{{Grimoire spell|imagename=Is consecrate.jpg
+|spellname=Consecrate
+|casterlevel=[[cleric]] 2
+|innatelevel=2
+|school=[[evocation]]
+|descriptors=good
+|components=V, S
+|range=short
+|immunities=none
+|savingthrow=none
+|spellresistance=no
+|targettype=20 ft. radius emanation
+|duration=2 [[hour]]s/level
+|description=This spell blesses an area with positive energy. Each [[charisma]] check made to [[turn undead]] within this area gains a +3 sacred bonus. Every undead creature entering a consecrated area suffers minor disruption, giving it a &minus;1 penalty on attack rolls, damage rolls, and saves. Undead cannot be created within or summoned into a consecrated area.
+
+''Consecrate'' counters and dispels ''[[desecrate]]''.
+}}
+{{g_clr}}

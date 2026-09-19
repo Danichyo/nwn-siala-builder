@@ -1,0 +1,19 @@
+{{feat
+|type=race
+|prereq=[[halfling]]
+|desc=This feat grants a +2 racial bonus to [[move silently]] checks.
+|use=automatic
+|icon=ife_racial.gif
+}}
+
+==Builder notes==
+'''Item feat:''' No, but it can be added with custom content.
+
+==Custom content notes==
+'''Removable:''' yes
+
+'''Reusable:''' yes
+
+'''Script:''' hardcoded
+
+*This feat can be added to [[iprp_feats.2da]] to make it available as an item feat.

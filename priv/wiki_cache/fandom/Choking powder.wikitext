@@ -1,0 +1,13 @@
+[[Image:Chokingpowder.gif|left]]
+'''Choking powder''' is made from various herbs and causes uncontrollable coughing fits. A pack of choking powder can create a small [[stinking cloud]] that will last for 5 [[round]]s. The cloud forces anyone within it to make a [[fortitude]] [[saving throw]] versus poison ([[DC]] 16) or become [[dazed]] for 2 rounds. [[Spell resistance]] does not apply.
+
+== Notes ==
+* Introduced in the [[expansion pack]]s.
+
+==Custom content notes==
+*''OnImpact script:'' <code>X0_S3_Choke</code>
+:*''OnEnter script:'' <code>X0_S3_ChokeEn</code>
+:*''OnHeartbeat script:'' <code>X0_S3_ChokeHB</code>
+
+[[Category:Grenade-like weapons]]
+[[Category:Item powers]]

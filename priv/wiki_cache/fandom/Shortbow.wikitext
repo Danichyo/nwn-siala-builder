@@ -1,0 +1,15 @@
+{{Weapon|imagefile=Shortbow.jpg
+  |weaponname=Shortbow
+  |weapondescription=A '''shortbow''' has a stave portion of about five feet in length. The shortbow was the first of such launchers to be developed, and it remains an effective [[weapon]]. 
+  |weight=2
+  |cost=30
+  |damage=1d6
+  |critical=x3
+  |damagetype=[[piercing damage|Piercing]]
+  |size=Medium
+  |proficiency=[[Weapon proficiency (elf)|Elf]]<br/>&nbsp;[[Weapon proficiency (martial)|Martial]]<br/>&nbsp;[[Weapon proficiency (rogue)|Rogue]]
+  |category=[[Category:Ranged weapons]] [[Category:Martial weapons]]
+}}
+
+==Toolset==
+* Shortbows are listed in the [[shortbow blueprint category]] on the [[item palette]] in the [[toolset]].

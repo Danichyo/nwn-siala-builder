@@ -1,0 +1,70 @@
+{{Weapon|imagefile=Rapier.jpg
+  |weaponname=Rapier
+  |weapondescription=The '''rapier''' is a light, thrusting [[sword]] popular among nobles and swashbucklers. Often associated with dueling and sport fighting, rapiers are nonetheless deadly in trained hands.
+  |weight=3
+  |cost=20
+  |damage=1d6
+  |critical=18-20/x2
+  |damagetype=[[piercing damage|piercing]]
+  |size=Medium
+  |proficiency=[[weapon proficiency (elf)|elf]]<br/>&nbsp;[[weapon proficiency (martial)|martial]]<br/>&nbsp;[[weapon proficiency (rogue)|rogue]]
+  |category=[[Category:Bladed weapons]] [[Category:Martial weapons]]
+}}
+
+== Notes ==
+
+* Rapiers are the only medium-sized weapons that benefit from [[weapon finesse]]. Small characters ([[gnome]]s and [[halfling]]s) may not finesse rapiers though, since they wield rapiers with both hands.
+
+== Toolset ==
+
+* Rapiers are listed under the [[exotic blueprint category]] of the [[item palette]] in the [[Toolset]].
+
+== Black rider quill ==
+'''Black rider quills''' take their name from a celebrated epic repeated in any bardic college worth its salt. The subject of the tale is dark, encouraging one to "dance around in your bones," but it is referenced here solely to stimulate the muse. These blades were likely forged in tribute, and were probably not present for the events of the original story. It is not known if they were commissioned together or individually.
+
+*[[Enhancement bonus]]: +1
+*Skill bonus: +4 [[lore]], +4 [[perform]]
+*[[Item level restriction|Required level]]: 7
+
+== Bleederkin ==
+In recent years, a number of thieves' guilds reported losing members to these blades, the weapons left as gruesome signatures impaled in the victims' chests. The craftsman behind them was unknown, but the intent of the group using them was clear enough: to destabilize existing groups to facilitate their own expansion. It has been some time since the last killing, however, suggesting that the incursion was either abandoned or succeeded through less violent means. Members of the underground community have not been forthcoming with information.
+
+*Enhancement bonus: +2
+*[[On-hit]]: [[wounding]] ([[difficulty class|DC]]=14)
+*Required level: 13
+
+== Mercykiller blade ==
+A series of runes claim these blades are designed for the "quick eradication of evil, that they will suffer no longer as creatures at odds with all that is good." A sweeping proclamation, one that suggests the involvement of a radical group no longer giving second thought to deadly force where villains are concerned. Certainly an unpopular stance in some quarters, though probably welcomed in others.
+
+*[[Damage bonus]]: +[[dice|d6]] [[fire damage]] versus [[evil]]
+*Enhancement bonus: +2
+*Required level: 9
+
+== Namarra (neversleep) +1 ==
+This weapon bears the mark of the dwarf [[Marrok]], Master Blacksmith of [[Neverwinter]]'s Shining Knight Arms and Armor. He forged it early in 1373 DR, to aid the heroes who sought to free his quarantined city from the virulent grasp of the so-called [[Wailing Death]].
+
+*Enhancement bonus: +1
+*On-hit: [[daze]] (DC=14; 75% / 1 [[round]])
+*Required level: 6
+
+== Namarra (neversleep) +2 ==
+This weapon bears the mark of the dwarf [[Barun Silverblade|Barun]], a Master Blacksmith who worked from a makeshift forge in the [[Uthgardt]] village of Beorunna's Well. He forged it late in 1373 DR, to aid the war effort against [[Aribeth|Lady Aribeth the Betrayer]], who was then marching against the northern city of Neverwinter and the Lords' Alliance.
+
+*Enhancement bonus: +2
+*On-hit: [[sleep]] (DC=14; 50% / 2 rounds)
+*Required level: 13
+
+== Namarra (neversleep) +8 ==
+Feckle Raspude was considered one of the most unusual [[gnome]]s of his generation. A swashbuckler with a flair for attracting attention, Feckle drove the young, gnomish ladies wild, with his lopsided grin and impudent behavior. Many a young glory-hunting gnome challenged Feckle to a duel, but the magic of his rapier quickly dispatched his naysayers into gentle slumber. A consummate prankster, Feckle humbled his opponents with practical jokes that were simply unbeatable.
+
+*Enhancement bonus: +8
+*On-hit: sleep (DC=16; 50% / 2 rounds)
+*Required level: 23
+
+== Rapier of the high road ==
+Bandits who prey on honest travelers have need of weapons that are light and easily concealed&mdash;weapons such as this one. It is certain that, whatever its origin, this deadly rapier was not meant for honest purposes. Merely holding it in the hand produces a larcenous gleam in the eye, and thoughts of fat merchants with fatter purses spring to mind unbidden. This weapon is a boon for thieves and a bane of honest men.
+
+*Damage bonus: +d6 [[acid damage]]
+*Enhancement bonus: +1
+*[[Keen]]
+*Required level: 11

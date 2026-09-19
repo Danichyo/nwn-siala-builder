@@ -1,0 +1,148 @@
+<Layouts.app flash={@flash} current_scope={@current_scope}>
+  <Layouts.site_header current_scope={@current_scope} active={nav_active(@live_action)} />
+
+  <div class="page" id="library-page">
+    <h1 class="page-title" id="library-title">
+      {section_title(@live_action)}<span :if={@group}> · {@group.name}</span>
+    </h1>
+    <p class="page-sub">
+      Сохранённый билд — это тот же код, что и в ссылке. Открывается в конструкторе и правится дальше.
+    </p>
+
+    <div class="seg" id="library-sections">
+      <.link
+        class="seg-b"
+        id="section-public"
+        navigate={~p"/library"}
+        data-on={if @live_action == :public, do: "1"}
+      >
+        Публичные
+      </.link>
+      <.link
+        :if={@current_scope.user}
+        class="seg-b"
+        id="section-mine"
+        navigate={~p"/library/mine"}
+        data-on={if @live_action == :mine, do: "1"}
+      >
+        Мои
+      </.link>
+      <.link
+        :for={group <- @groups}
+        class="seg-b"
+        id={"section-group-#{group.id}"}
+        navigate={~p"/library/group/#{group}"}
+        data-on={if @group && @group.id == group.id, do: "1"}
+      >
+        {group.name}
+      </.link>
+    </div>
+
+    <.form
+      for={@filter_form}
+      id="library-filters"
+      class="filters"
+      phx-change="filter"
+      phx-submit="filter"
+    >
+      <.input
+        field={@filter_form[:q]}
+        type="search"
+        label="Имя билда"
+        placeholder="часть названия"
+        phx-debounce="300"
+        autocomplete="off"
+      />
+      <.input
+        field={@filter_form[:class]}
+        type="select"
+        label="Класс"
+        options={@class_options}
+        prompt="любой"
+      />
+      <.input
+        field={@filter_form[:lmin]}
+        type="number"
+        label="Уровней от"
+        min="1"
+        max="41"
+        phx-debounce="300"
+      />
+      <.input
+        field={@filter_form[:lmax]}
+        type="number"
+        label="до"
+        min="1"
+        max="41"
+        phx-debounce="300"
+      />
+      <.input
+        field={@filter_form[:race]}
+        type="select"
+        label="Раса"
+        options={@race_options}
+        prompt="любая"
+      />
+      <%!-- Автор задаётся кликом по имени в карточке, а не полем ввода:
+            поиск людей по почте — это оракул для перебора адресов. --%>
+      <input type="hidden" name="author" value={@filters["author"]} />
+      <button type="button" class="btn" id="clear-filters" phx-click="clear_filters">
+        Сбросить
+      </button>
+    </.form>
+
+    <p class="filters-hint" id="filters-hint">
+      <%= if @filters["class"] do %>
+        «от / до» считает уровни выбранного класса — так ищут билды на вики.
+      <% else %>
+        «от / до» считает уровни персонажа; выберите класс, чтобы считать его уровни.
+      <% end %>
+      <span :if={@filters["author"]}>
+        · Показан один автор.
+        <.link patch={feed_path(assigns, Map.delete(@filters, "author"), nil)} id="clear-author">
+          показать всех
+        </.link>
+      </span>
+    </p>
+
+    <p :if={@list_error} class="v-gaps" id="library-error"><b>{@list_error}</b></p>
+
+    <p :if={@count == 0 && !@list_error} class="empty-row" id="builds-empty">
+      Здесь пусто. {empty_hint(@live_action)}
+    </p>
+
+    <div class="bcards" id="builds" phx-update="stream">
+      <.build_card
+        :for={{dom_id, build} <- @streams.builds}
+        id={dom_id}
+        build={build}
+        show_author={@live_action != :mine}
+      />
+    </div>
+
+    <%!-- Фильтры едут в каждую ссылку страницы: курсор и фильтр — одно
+          состояние. Курсор, снятый с отфильтрованной ленты, на неотфильтрованной
+          показал бы другое место. --%>
+    <div class="pager" id="library-pager">
+      <.link :if={@cursor} patch={feed_path(assigns, @filters, nil)} class="btn" id="first-page">
+        ⇤ В начало
+      </.link>
+      <.link
+        :if={@previous_cursor}
+        patch={feed_path(assigns, @filters, @previous_cursor)}
+        class="btn"
+        id="prev-page"
+      >
+        ← Назад
+      </.link>
+      <.link
+        :if={@next_cursor}
+        patch={feed_path(assigns, @filters, @next_cursor)}
+        class="btn btn-primary"
+        id="next-page"
+      >
+        Дальше →
+      </.link>
+    </div>
+  </div>
+</Layouts.app>

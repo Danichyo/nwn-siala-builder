@@ -1,0 +1,28 @@
+A '''nonsomatic spell''' is a [[spell]] that lacks a somatic [[component]], so it can be cast while wearing full [[armor]] and [[shield]], ignoring the chance of [[arcane spell failure]] due to armor penalties. This classification is only of interest with regards to [[arcane]] spells; [[divine]] spells receive no special treatment for being nonsomatic.
+
+The nonsomatic arcane spells included in Neverwinter Nights are
+''[[blindness/deafness]]'',
+''[[darkness (spell)|darkness]]'',
+''[[displacement]]'',
+''[[flare]]'',
+''[[knock]]'',
+''[[light]]'',
+''[[mass charm]]'',
+''[[Mordenkainen's disjunction]]'',
+''[[polymorph self]]'',
+''[[power word, kill]]'',
+''[[power word, stun]]'',
+''[[time stop]]'',
+''[[true strike]]'', and
+''[[wail of the banshee]]''.
+
+In addition, any spell cast with the [[still spell]] (or [[automatic still spell]]) feat is treated as a nonsomatic spell.
+Furthermore, [[epic spell]]s are not considered to be arcane by the game engine, so are not subject to arcane spell failure, even if cast by an arcane caster.
+
+== See also ==
+
+* [[Nonverbal spell]]
+* Nonsomatic spell categories:
+** [[:Category:Bard nonsomatic spells]]
+** [[:Category:Sorcerer/wizard nonsomatic spells]]
+[[category:spells| Nonsomatic spell]]

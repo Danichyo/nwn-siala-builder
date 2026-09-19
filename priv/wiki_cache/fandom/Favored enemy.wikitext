@@ -1,0 +1,41 @@
+{{feat
+|type=class
+|prereq=[[ranger]], [[Harper scout]] 1
+|desc=The character gains a +1 bonus to any damage delivered to his favored enemy. He also receives a +1 bonus on [[listen]], [[spot]], and [[taunt]] checks against the favored enemy. These bonuses improve by +1 for every 5 levels that the ranger gains, but they do <strike>not</strike> improve for the Harper.
+|use=automatic. The ranger may choose additional favored enemies every 5 levels. A Harper scout only chooses one more at level 5.
+|icon=ife_racehate.gif
+|class1=ranger
+|class2=Harper scout
+|bonus1=Harper scout
+|bonus2=ranger
+}}
+
+{|class="centertable" style="text-align:center"
+ |-
+   ! class level
+   |  1 ||  5 || 10 || 15 || 20 || 25 || 30 || 35 || 40
+ |-
+   ! bonus
+   | +1 || +2 || +3 || +4 || +5 || +6 || +7 || +8 || +9
+|}
+
+== Notes ==
+* When a favored enemy is gained, the player selects a [[race]] to be that favored enemy. There are 24 favored enemy races available; of the 25 standard races, only [[ooze]] cannot be selected.
+** '''See also''' [[:Category:Creatures]] for a breakdown of standard creatures by racial type.
+* Favored enemies are implemented as [[bonus feat]]s. Thus a favored enemy can be chosen whenever the class in question gets a bonus feat, and any bonus feat (whose prerequisites are met) can be chosen whenever a class is said to choose an additional favored enemy. (However, the non-epic alternatives consist solely of [[curse song]] for the Harper scout and [[greater spell focus]] for the ranger.)
+* The bonuses are independent of the number of favored enemies. The bonus improves by +1 every fifth level, not for every favored enemy feat. Class levels do not stack for this; the bonus against favored enemies chosen on ranger levels depends on ranger level, while the bonus against favored enemies chosen on Harper levels depends on Harper level. (Similarly for other classes, should custom content make this feat available to them.)
+** Harper scout bonuses do improve to +2 at Harper scout level 5, despite the feat's description.
+** [[Non-player character]]s will use their full [[hit dice]] to determine the bonus, rather than a particular class level.
+* In the [[pen and paper]] (3.0) version, any creature immune to [[critical hit]]s is also immune to the damage bonus from this feat. However, NWN does not have this limitation.
+
+==Builder notes==
+'''Item feat:''' no
+
+==Custom content notes==
+'''Removable:''' yes
+
+'''Reusable:''' yes
+
+'''Script:''' hardcoded
+
+* This feat only works for player characters when added during level-up, as it is linked to a certain class. However, it does work for any class that is given this feat as an option.

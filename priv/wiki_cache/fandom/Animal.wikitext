@@ -1,0 +1,7 @@
+An '''animal''' is a living, nonhuman creature, usually a vertebrate with no magical abilities and no innate capacity for language or culture.
+
+In [[pencil-and-paper]], animals have an [[intelligence]] of one or two, but the minimum [[ability score]] in ''Neverwinter Nights'' is three.
+
+'''See also:''' [[:Category:Animals]]
+
+[[Category:Races]]

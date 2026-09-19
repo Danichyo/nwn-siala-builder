@@ -1,0 +1,16 @@
+{{Weapon|imagefile=Bastard sword.jpg
+  |weaponname=Bastard sword
+  |weapondescription='''Bastard swords''' are also known as hand-and-a-half [[sword]]s, falling between the [[longsword]] and [[greatsword]] in length.
+  |weight=10
+  |cost=35
+  |damage=1d10
+  |critical=19-20/x2
+  |damagetype=[[slashing damage|slashing]]
+  |size=medium
+  |proficiency=[[Weapon proficiency (exotic)|exotic]]
+  |category=[[Category:Bladed weapons]] [[Category:Exotic weapons]]
+}}
+
+
+==Toolset==
+* Bastard swords are listed under the [[bastard sword blueprint category]] of the [[item palette]] in the [[Toolset]].

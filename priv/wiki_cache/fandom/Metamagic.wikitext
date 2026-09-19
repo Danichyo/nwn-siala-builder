@@ -1,0 +1,1102 @@
+[[Image:Ir metamagic.gif|right|Metamagic]]
+As a spellcaster's knowledge of magic grows, she can learn to cast spells in ways slightly different from the ways in which the spells were originally designed or learned. Preparing and casting a spell in such a way is harder than normal but, thanks to '''metamagic feats''', at least it is possible. Spells modified by a metamagic feat use a [[spell slot]] higher than normal. This does not change the level of the spell, so the [[difficulty class]] for [[saving throw]]s against it does not go up.
+
+'''Wizards and divine spellcasters:''' [[Wizard]]s and [[divine]] spellcasters must prepare their spells in advance. During preparation, the character chooses which spells to prepare with metamagic feats (and thus which ones take up higher-level spell slots than normal).
+
+'''Sorcerers and bards:''' [[Sorcerer]]s and [[bard]]s choose spells as they cast them. They can choose when they cast their spells whether to apply their metamagic feats to improve them. As with other spellcasters, the improved spell uses up a higher-level spell slot. But because the sorcerer or bard has not prepared the spell in a metamagic form in advance, he must apply the metamagic feat on the spot.
+
+'''Effects of metamagic feats on a spell:''' In all ways, a metamagic spell operates at its original spell level, even though it is prepared and cast as a higher-level spell. Saving throw modifications are not changed unless stated otherwise in the feat description.
+
+The modifications made by these feats only apply to spells cast directly by the feat user. A spellcaster cannot use a metamagic feat to alter a spell being cast from a wand, [[scroll]], or other device.
+
+Metamagic feats cannot be used with all spells. See the specific feat descriptions for the spells that a particular feat cannot modify.
+
+'''Multiple metamagic feats on a spell:''' A spellcaster cannot normally apply more than one metamagic at a time to a spell. However at epic levels, a caster may select the automatic [[automatic silent spell|silent]]/[[automatic still spell|still]]/[[automatic quicken spell|quicken]] spell feats. While these epic feats apply metamagic effects, they do not count toward the one metamagic per spell limit (e.g. it is possible to create a stilled, quickened, silent, and empowered spell by empowering a spell that is then affected by the automatic still, quicken, and silent spell feats). One cannot apply the same metamagic feat more than once to a single spell (a quickened spell subject to automatic quicken spell is not cast faster than other quickened spells).
+
+Each of the automatic metamagic feats is a sequence of three feats (numbered I, II, and III), which automatically apply the corresponding metamagic to spells cast from spell slots of level 1&ndash;3, 4&ndash;6, and 7&ndash;9. For example, assume a caster has the [[extend spell]] and [[automatic still spell]] I feats, but not automatic still spell II. If she casts a third level spell without metamagic, it will be auto-stilled, but if she casts it extended (which uses a level 4 spell slot), it will not be stilled. A level 2 spell, on the other hand, will be stilled whether cast without metamagic (using a level 2 slot) or extended (using a level 3 spell slot).
+
+'''Counterspelling metamagic spells:''' Whether or not a spell has been enhanced by a metamagic feat does not affect its vulnerability to [[counterspell]]ing or its ability to counterspell another spell.
+
+'''Shifted use:''' Some [[shifted ability|shifted abilities]] can be used with a [[quickslot]]ted use of the same spell preserving all meta-magic feats given to the quickslot.
+
+== See also ==
+
+* [[:Category:Metamagic feats]]
+
+== Tables ==
+
+{| class="compacttable sortable mw-collapsible mw-collapsed"
+|+Bard metamagic
+! Name !! Level !! Empower (+2) !! Extend (+1) !! Maximize (+3) !! Quicken (+4) !! Silent (+1) !! Still (+1)
+|-
+| Cure minor wounds || 0 || no || no || no || yes || yes || yes
+|-
+| Daze || 0 || no || yes || no || yes || yes || yes
+|-
+| Flare || 0 || no || yes || no || yes || yes || no
+|-
+| Light || 0 || no || yes || no || yes || yes || no
+|-
+| Resistance || 0 || no || yes || no || yes || yes || yes
+|-
+| Amplify || 1 || no || yes || no || yes || yes || yes
+|-
+| Balagarn's iron horn || 1 || no || no || no || yes || yes || yes
+|-
+| Charm person || 1 || no || yes || no || yes || yes || yes
+|-
+| Cure light wounds || 1 || yes || no || yes || yes || yes || yes
+|-
+| Expeditious retreat || 1 || no || yes || no || yes || yes || yes
+|-
+| Grease || 1 || no || yes || no || yes || yes || yes
+|-
+| Identify || 1 || no || yes || no || yes || yes || yes
+|-
+| Lesser dispel || 1 || no || no || no || no || yes || yes
+|-
+| Mage armor || 1 || no || yes || no || yes || yes || yes
+|-
+| Magic weapon || 1 || no || yes || no || yes || yes || yes
+|-
+| Protection from alignment || 1 || no || yes || no || yes || yes || yes
+|-
+| Scare || 1 || no || yes || no || yes || no || yes
+|-
+| Sleep || 1 || yes || yes || yes || yes || yes || yes
+|-
+| Summon creature I || 1 || no || yes || no || yes || yes || yes
+|-
+| Blindness/deafness || 2 || no || yes || no || yes || yes || no
+|-
+| Bull's strength || 2 || yes || yes || yes || yes || yes || yes
+|-
+| Cat's grace || 2 || yes || yes || yes || yes || yes || yes
+|-
+| Clarity || 2 || no || yes || no || yes || no || yes
+|-
+| Cloud of bewilderment || 2 || no || yes || no || yes || yes || yes
+|-
+| Cure moderate wounds || 2 || yes || no || yes || yes || yes || yes
+|-
+| Darkness || 2 || no || yes || no || yes || yes || no
+|-
+| Eagle's splendor || 2 || yes || yes || yes || yes || yes || yes
+|-
+| Fox's cunning || 2 || yes || yes || yes || yes || yes || yes
+|-
+| Ghostly visage || 2 || no || yes || no || yes || yes || yes
+|-
+| Hold person || 2 || no || yes || no || yes || yes || yes
+|-
+| Invisibility || 2 || no || yes || no || yes || yes || yes
+|-
+| Owl's wisdom || 2 || yes || yes || yes || yes || yes || yes
+|-
+| See invisibility || 2 || no || yes || no || yes || yes || yes
+|-
+| Silence || 2 || no || yes || no || yes || yes || yes
+|-
+| Sound burst || 2 || no || no || yes || yes || yes || yes
+|-
+| Summon creature II || 2 || no || yes || no || yes || yes || yes
+|-
+| Tasha's hideous laughter || 2 || yes || yes || yes || yes || yes || yes
+|-
+| Ultravision || 2 || no || yes || no || no || yes || yes
+|-
+| Bestow curse || 3 || no || no || no || n/a || yes || yes
+|-
+| Charm monster || 3 || no || yes || no || n/a || yes || yes
+|-
+| Clairaudience/clairvoyance || 3 || no || yes || no || n/a || yes || yes
+|-
+| Confusion || 3 || no || yes || no || n/a || yes || yes
+|-
+| Cure serious wounds || 3 || yes || no || yes || n/a || yes || yes
+|-
+| Dispel magic || 3 || no || no || no || n/a || yes || yes
+|-
+| Displacement || 3 || no || yes || no || n/a || yes || no
+|-
+| Fear || 3 || no || yes || no || n/a || yes || yes
+|-
+| Find traps || 3 || no || yes || no || n/a || yes || yes
+|-
+| Greater magic weapon || 3 || no || yes || no || n/a || yes || yes
+|-
+| Gust of wind || 3 || no || no || no || n/a || yes || yes
+|-
+| Haste || 3 || no || yes || no || n/a || yes || yes
+|-
+| Invisibility sphere || 3 || no || yes || no || n/a || yes || yes
+|-
+| Keen edge || 3 || no || yes || no || n/a || yes || yes
+|-
+| Magic circle against alignment || 3 || no || yes || no || n/a || yes || yes
+|-
+| Remove curse || 3 || no || no || no || n/a || yes || yes
+|-
+| Remove disease || 3 || no || no || no || n/a || yes || yes
+|-
+| Slow || 3 || no || yes || no || n/a || yes || yes
+|-
+| Summon creature III || 3 || no || yes || no || n/a || yes || yes
+|-
+| Wounding whispers || 3 || yes || yes || yes || n/a || yes || yes
+|-
+| Cure critical wounds || 4 || yes || no || n/a || n/a || yes || yes
+|-
+| Dismissal || 4 || no || no || n/a || n/a || yes || yes
+|-
+| Dominate person || 4 || no || yes || n/a || n/a || yes || yes
+|-
+| Hold monster || 4 || no || yes || n/a || n/a || yes || yes
+|-
+| Improved invisibility || 4 || no || yes || n/a || n/a || yes || yes
+|-
+| Legend lore || 4 || no || yes || n/a || n/a || yes || yes
+|-
+| Neutralize poison || 4 || no || no || n/a || n/a || yes || yes
+|-
+| Summon creature IV || 4 || no || yes || n/a || n/a || yes || yes
+|-
+| War cry || 4 || no || yes || n/a || n/a || yes || yes
+|-
+| Ethereal visage || 5 || n/a || yes || n/a || n/a || yes || yes
+|-
+| Greater dispelling || 5 || n/a || no || n/a || n/a || yes || yes
+|-
+| Healing circle || 5 || n/a || no || n/a || n/a || yes || yes
+|-
+| Mind fog || 5 || n/a || yes || n/a || n/a || yes || yes
+|-
+| Summon creature V || 5 || n/a || yes || n/a || n/a || yes || yes
+|}
+
+{| class="compacttable sortable mw-collapsible mw-collapsed"
+|+Cleric metamagic
+! Name !! Level !! Domain !! Empower (+2) !! Extend (+1) !! Maximize (+3) !! Quicken (+4) !! Silent (+1) !! Still (+1)
+|-
+| Cure minor wounds || 0 || n/a || no || no || no || yes || yes || yes
+|-
+| Inflict minor wounds || 0 || n/a || no || no || no || yes || yes || yes
+|-
+| Light || 0 || n/a || no || yes || no || yes || yes || no
+|-
+| Resistance || 0 || n/a || no || yes || no || yes || yes || yes
+|-
+| Virtue || 0 || n/a || no || yes || no || yes || yes || yes
+|-
+| Bane || 1 || n/a || no || yes || no || yes || yes || yes
+|-
+| Bless || 1 || n/a || no || yes || no || yes || yes || yes
+|-
+| Cure light wounds || 1 || n/a || yes || no || yes || yes || yes || yes
+|-
+| Divine favor || 1 || n/a || no || yes || no || yes || yes || yes
+|-
+| Doom || 1 || n/a || no || yes || no || yes || yes || yes
+|-
+| Endure elements || 1 || n/a || no || yes || no || yes || yes || yes
+|-
+| Entangle || 1 || travel || no || yes || no || yes || yes || yes
+|-
+| Entropic shield || 1 || n/a || no || yes || no || yes || yes || yes
+|-
+| Identify || 1 || knowledge || no || yes || no || yes || yes || yes
+|-
+| Inflict light wounds || 1 || n/a || yes || no || yes || yes || yes || yes
+|-
+| Mage armor || 1 || magic || no || yes || no || yes || yes || yes
+|-
+| Magic weapon || 1 || n/a || no || yes || no || yes || yes || yes
+|-
+| Negative energy ray || 1 || evil || yes || no || yes || yes || yes || yes
+|-
+| Protection from alignment || 1 || n/a || no || yes || no || yes || yes || yes
+|-
+| Remove Fear || 1 || n/a || no || yes || no || yes || yes || yes
+|-
+| Sanctuary || 1 || n/a || no || yes || no || yes || yes || yes
+|-
+| Scare || 1 || n/a || no || yes || no || yes || no || yes
+|-
+| Shield of faith || 1 || n/a || no || yes || no || yes || yes || yes
+|-
+| Summon creature I || 1 || n/a || no || yes || no || yes || yes || yes
+|-
+| Aid || 2 || n/a || yes || yes || yes || yes || yes || yes
+|-
+| Barkskin || 2 || plant || no || yes || no || yes || yes || yes
+|-
+| Bull's strength || 2 || n/a || yes || yes || yes || yes || yes || yes
+|-
+| Cat's grace || 2 || animal || yes || yes || yes || yes || yes || yes
+|-
+| Cat's grace || 2 || war || yes || yes || yes || yes || yes || yes
+|-
+| Cure moderate wounds || 2 || n/a || yes || no || yes || yes || yes || yes
+|-
+| Cure serious wounds || 2 || healing || yes || no || yes || yes || yes || yes
+|-
+| Darkness || 2 || n/a || no || yes || no || yes || yes || no
+|-
+| Eagle's splendor || 2 || n/a || yes || yes || yes || yes || yes || yes
+|-
+| Endurance || 2 || n/a || yes || yes || yes || yes || yes || yes
+|-
+| Find traps || 2 || n/a || no || yes || no || yes || yes || yes
+|-
+| Fox's cunning || 2 || n/a || yes || yes || yes || yes || yes || yes
+|-
+| Hold person || 2 || n/a || no || yes || no || yes || yes || yes
+|-
+| Inflict moderate wounds || 2 || n/a || yes || no || yes || yes || yes || yes
+|-
+| Invisibility || 2 || trickery || no || yes || no || yes || yes || yes
+|-
+| Knock || 2 || knowledge || no || no || no || yes || no || yes
+|-
+| Lesser dispel || 2 || n/a || no || no || no || no || yes || yes
+|-
+| Lesser restoration || 2 || n/a || no || no || no || yes || yes || yes
+|-
+| Melf's acid arrow || 2 || magic || yes || no || yes || yes || yes || yes
+|-
+| Negative energy ray || 2 || n/a || yes || no || yes || yes || yes || yes
+|-
+| Owl's wisdom || 2 || n/a || yes || yes || yes || yes || yes || yes
+|-
+| Remove paralysis || 2 || n/a || no || no || no || yes || yes || yes
+|-
+| Resist elements || 2 || n/a || no || yes || no || yes || yes || yes
+|-
+| Searing light || 2 || sun || yes || no || yes || yes || yes || yes
+|-
+| Silence || 2 || n/a || no || yes || no || yes || yes || yes
+|-
+| Sound burst || 2 || n/a || no || no || yes || yes || yes || yes
+|-
+| Stone bones || 2 || n/a || no || yes || no || yes || yes || yes
+|-
+| Summon creature II || 2 || n/a || no || yes || no || yes || yes || yes
+|-
+| Ultravision || 2 || n/a || no || yes || no || no || yes || yes
+|-
+| Web || 2 || travel || no || yes || no || yes || yes || yes
+|-
+| Animate dead || 3 || n/a || no || yes || no || yes || yes || yes
+|-
+| Bestow curse || 3 || n/a || no || no || no || yes || yes || yes
+|-
+| Blindness/deafness || 3 || n/a || no || yes || no || yes || yes || no
+|-
+| Call lightning || 3 || air || yes || no || yes || yes || yes || yes
+|-
+| Clairaudience/clairvoyance || 3 || knowledge || no || yes || no || yes || yes || yes
+|-
+| Clarity || 3 || n/a || no || yes || no || yes || no || yes
+|-
+| Contagion || 3 || n/a || no || no || no || yes || yes || yes
+|-
+| Continual flame || 3 || n/a || no || no || no || yes || yes || yes
+|-
+| Cure serious wounds || 3 || n/a || yes || no || yes || yes || yes || yes
+|-
+| Darkfire || 3 || n/a || no || yes || no || yes || yes || yes
+|-
+| Dispel magic || 3 || n/a || no || no || no || yes || yes || yes
+|-
+| Divine power || 3 || strength || no || yes || no || yes || yes || yes
+|-
+| Freedom of movement || 3 || travel || no || yes || no || yes || yes || yes
+|-
+| Glyph of warding || 3 || n/a || yes || yes || yes || yes || yes || yes
+|-
+| Inflict serious wounds || 3 || n/a || yes || no || yes || yes || yes || yes
+|-
+| Invisibility purge || 3 || n/a || no || yes || no || yes || yes || yes
+|-
+| Invisibility sphere || 3 || trickery || no || yes || no || yes || yes || yes
+|-
+| Magic circle against alignment || 3 || n/a || no || yes || no || yes || yes || yes
+|-
+| Magic vestment || 3 || n/a || no || yes || no || yes || yes || yes
+|-
+| Negative energy burst || 3 || evil || yes || no || yes || yes || yes || yes
+|-
+| Negative energy burst || 3 || magic || yes || no || yes || yes || yes || yes
+|-
+| Negative energy protection || 3 || n/a || no || yes || no || yes || yes || yes
+|-
+| Poison || 3 || water || no || no || no || yes || yes || yes
+|-
+| Prayer || 3 || n/a || no || yes || no || yes || yes || yes
+|-
+| Protection from elements || 3 || n/a || no || yes || no || yes || yes || yes
+|-
+| Remove blindness/deafness || 3 || n/a || no || no || no || yes || yes || yes
+|-
+| Remove curse || 3 || n/a || no || no || no || yes || yes || yes
+|-
+| Remove disease || 3 || n/a || no || no || no || yes || yes || yes
+|-
+| Searing light || 3 || n/a || yes || no || yes || yes || yes || yes
+|-
+| Stinking cloud || 3 || destruction || no || yes || no || yes || yes || yes
+|-
+| Summon creature III || 3 || n/a || no || yes || no || yes || yes || yes
+|-
+| True seeing || 3 || animal || no || yes || no || yes || yes || yes
+|-
+| Cure critical wounds || 4 || n/a || yes || no || yes || yes || yes || yes
+|-
+| Death ward || 4 || n/a || no || yes || no || yes || yes || yes
+|-
+| Dismissal || 4 || n/a || no || no || no || yes || yes || yes
+|-
+| Divine power || 4 || n/a || no || yes || no || yes || yes || yes
+|-
+| Freedom of movement || 4 || n/a || no || yes || no || yes || yes || yes
+|-
+| Greater magic weapon || 4 || n/a || no || yes || no || yes || yes || yes
+|-
+| Hammer of the gods || 4 || n/a || yes || no || yes || yes || yes || yes
+|-
+| Inflict critical wounds || 4 || n/a || yes || no || yes || yes || yes || yes
+|-
+| Minor globe of invulnerability || 4 || n/a || no || yes || no || yes || yes || yes
+|-
+| Neutralize poison || 4 || n/a || no || no || no || yes || yes || yes
+|-
+| Phantasmal killer || 4 || death || yes || no || yes || yes || yes || yes
+|-
+| Poison || 4 || n/a || no || no || no || yes || yes || yes
+|-
+| Restoration || 4 || n/a || no || no || no || yes || yes || yes
+|-
+| Slow || 4 || travel || no || yes || no || yes || yes || yes
+|-
+| Stoneskin || 4 || earth || no || yes || no || yes || yes || yes
+|-
+| Stoneskin || 4 || good || no || yes || no || yes || yes || yes
+|-
+| Stoneskin || 4 || magic || no || yes || no || yes || yes || yes
+|-
+| Summon creature IV || 4 || n/a || no || yes || no || yes || yes || yes
+|-
+| True seeing || 4 || knowledge || no || yes || no || yes || yes || yes
+|-
+| Wall of fire || 4 || fire || yes || yes || yes || yes || yes || yes
+|-
+| Battletide || 5 || n/a || no || yes || no || yes || yes || yes
+|-
+| Circle of doom || 5 || n/a || yes || no || yes || yes || yes || yes
+|-
+| Energy buffer || 5 || earth || no || yes || no || yes || yes || yes
+|-
+| Energy buffer || 5 || fire || no || yes || no || yes || yes || yes
+|-
+| Energy buffer || 5 || protection || no || yes || no || yes || yes || yes
+|-
+| Enervation || 5 || death || yes || no || yes || yes || yes || yes
+|-
+| Enervation || 5 || evil || yes || no || yes || yes || yes || yes
+|-
+| Flame strike || 5 || n/a || yes || no || yes || yes || yes || yes
+|-
+| Haste || 5 || travel || no || yes || no || yes || yes || yes
+|-
+| Heal || 5 || healing || no || no || no || yes || yes || yes
+|-
+| Healing circle || 5 || n/a || yes || no || yes || yes || yes || yes
+|-
+| Ice storm || 5 || magic || yes || no || yes || yes || yes || yes
+|-
+| Ice storm || 5 || water || yes || no || yes || yes || yes || yes
+|-
+| Improved invisibility || 5 || trickery || no || yes || no || yes || yes || yes
+|-
+| Lesser planar binding || 5 || good || no || yes || no || yes || yes || yes
+|-
+| Monstrous regeneration || 5 || n/a || no || yes || no || yes || yes || yes
+|-
+| Polymorph self || 5 || animal || no || yes || no || yes || yes || no
+|-
+| Raise dead || 5 || n/a || no || no || no || yes || yes || yes
+|-
+| Slay living || 5 || n/a || yes || no || yes || yes || yes || yes
+|-
+| Spell resistance || 5 || n/a || no || yes || no || yes || yes || yes
+|-
+| Stoneskin || 5 || strength || no || yes || no || yes || yes || yes
+|-
+| Summon creature V || 5 || n/a || no || yes || no || yes || yes || yes
+|-
+| True seeing || 5 || n/a || no || yes || no || yes || yes || yes
+|-
+| Acid fog || 6 || destruction || yes || yes || yes || n/a || yes || yes
+|-
+| Banishment || 6 || n/a || no || no || no || n/a || yes || yes
+|-
+| Blade barrier || 6 || n/a || yes || yes || yes || n/a || yes || yes
+|-
+| Chain lightning || 6 || air || yes || no || yes || n/a || yes || yes
+|-
+| Control undead || 6 || n/a || no || yes || no || n/a || yes || yes
+|-
+| Create undead || 6 || n/a || no || yes || no || n/a || yes || yes
+|-
+| Greater dispelling || 6 || n/a || no || no || no || n/a || yes || yes
+|-
+| Greater sanctuary || 6 || n/a || no || yes || no || n/a || yes || yes
+|-
+| Harm || 6 || n/a || no || no || no || n/a || yes || yes
+|-
+| Heal || 6 || n/a || no || no || no || n/a || yes || yes
+|-
+| Legend lore || 6 || knowledge || no || yes || no || n/a || yes || yes
+|-
+| Planar ally || 6 || n/a || no || yes || no || n/a || yes || yes
+|-
+| Summon creature VI || 6 || n/a || no || yes || no || n/a || yes || yes
+|-
+| Undeath to death || 6 || n/a || yes || no || yes || n/a || yes || yes
+|-
+| Aura of vitality || 7 || war || no || yes || n/a || n/a || yes || yes
+|-
+| Creeping doom || 7 || plant || no || yes || n/a || n/a || yes || yes
+|-
+| Destruction || 7 || n/a || no || no || n/a || n/a || yes || yes
+|-
+| Greater restoration || 7 || n/a || no || no || n/a || n/a || yes || yes
+|-
+| Regenerate || 7 || n/a || no || yes || n/a || n/a || yes || yes
+|-
+| Resurrection || 7 || n/a || no || no || n/a || n/a || yes || yes
+|-
+| Summon creature VII || 7 || n/a || no || yes || n/a || n/a || yes || yes
+|-
+| Sunbeam || 7 || sun || no || no || n/a || n/a || yes || yes
+|-
+| Word of faith || 7 || n/a || no || no || n/a || n/a || yes || yes
+|-
+| Aura versus slignment || 8 || n/a || n/a || yes || n/a || n/a || yes || yes
+|-
+| Create greater undead || 8 || n/a || n/a || yes || n/a || n/a || yes || yes
+|-
+| Earthquake || 8 || n/a || n/a || no || n/a || n/a || yes || yes
+|-
+| Fire storm || 8 || n/a || n/a || no || n/a || n/a || yes || yes
+|-
+| Mass heal || 8 || n/a || n/a || no || n/a || n/a || yes || yes
+|-
+| Summon creature VIII || 8 || n/a || n/a || yes || n/a || n/a || yes || yes
+|-
+| Sunbeam || 8 || n/a || n/a || no || n/a || n/a || yes || yes
+|}
+
+{| class="compacttable sortable mw-collapsible mw-collapsed"
+|+Druid metamagic
+! Name !! Level !! Empower (+2) !! Extend (+1) !! Maximize (+3) !! Quicken (+4) !! Silent (+1) !! Still (+1)
+|-
+| Cure minor wounds || 0 || no || no || no || yes || yes || yes
+|-
+| Flare || 0 || no || yes || no || yes || yes || no
+|-
+| Light || 0 || no || yes || no || yes || yes || no
+|-
+| Resistance || 0 || no || yes || no || yes || yes || yes
+|-
+| Virtue || 0 || no || yes || no || yes || yes || yes
+|-
+| Camouflage || 1 || no || yes || no || yes || yes || yes
+|-
+| Cure light wounds || 1 || yes || no || yes || yes || yes || yes
+|-
+| Endure elements || 1 || no || yes || no || yes || yes || yes
+|-
+| Entangle || 1 || no || yes || no || yes || yes || yes
+|-
+| Grease || 1 || no || yes || no || yes || yes || yes
+|-
+| Magic fang || 1 || no || yes || no || yes || yes || yes
+|-
+| Sleep || 1 || yes || yes || yes || yes || yes || yes
+|-
+| Summon creature I || 1 || no || yes || no || yes || yes || yes
+|-
+| Ultravision || 1 || no || yes || no || no || yes || yes
+|-
+| Barkskin || 2 || no || yes || no || yes || yes || yes
+|-
+| Blood frenzy || 2 || no || yes || no || yes || yes || yes
+|-
+| Bull's strength || 2 || yes || yes || yes || yes || yes || yes
+|-
+| Charm person or animal || 2 || no || yes || no || yes || yes || yes
+|-
+| Flame lash || 2 || yes || no || yes || yes || yes || yes
+|-
+| Hold animal || 2 || no || yes || no || yes || yes || yes
+|-
+| Lesser dispel || 2 || no || no || no || no || yes || yes
+|-
+| Lesser restoration || 2 || no || no || no || yes || yes || yes
+|-
+| One with the land || 2 || no || yes || no || yes || yes || yes
+|-
+| Resist elements || 2 || no || yes || no || yes || yes || yes
+|-
+| Summon creature II || 2 || no || yes || no || yes || yes || yes
+|-
+| Call lightning || 3 || yes || no || yes || yes || yes || yes
+|-
+| Contagion || 3 || no || no || no || yes || yes || yes
+|-
+| Cure moderate wounds || 3 || yes || no || yes || yes || yes || yes
+|-
+| Dominate animal || 3 || no || yes || no || yes || yes || yes
+|-
+| Greater magic fang || 3 || no || yes || no || yes || yes || yes
+|-
+| Healing sting || 3 || yes || no || yes || yes || yes || yes
+|-
+| Infestation of maggots || 3 || yes || yes || yes || yes || yes || yes
+|-
+| Neutralize poison || 3 || no || no || no || yes || yes || yes
+|-
+| Poison || 3 || no || no || no || yes || yes || yes
+|-
+| Protection from elements || 3 || no || yes || no || yes || yes || yes
+|-
+| Quillfire || 3 || yes || no || yes || yes || yes || yes
+|-
+| Remove disease || 3 || no || no || no || yes || yes || yes
+|-
+| Spike growth || 3 || no || yes || no || yes || yes || yes
+|-
+| Summon creature III || 3 || no || yes || no || yes || yes || yes
+|-
+| Cure serious wounds || 4 || yes || no || yes || yes || yes || yes
+|-
+| Dispel magic || 4 || no || no || no || yes || yes || yes
+|-
+| Flame strike || 4 || yes || no || yes || yes || yes || yes
+|-
+| Freedom of movement || 4 || no || yes || no || yes || yes || yes
+|-
+| Hold monster || 4 || no || yes || no || yes || yes || yes
+|-
+| Mass camouflage || 4 || no || yes || no || yes || yes || yes
+|-
+| Stoneskin || 4 || no || yes || no || yes || yes || yes
+|-
+| Summon creature IV || 4 || no || yes || no || yes || yes || yes
+|-
+| Awaken || 5 || yes || no || yes || yes || yes || yes
+|-
+| Cure critical wounds || 5 || yes || no || yes || yes || yes || yes
+|-
+| Death ward || 5 || no || yes || no || yes || yes || yes
+|-
+| Ice storm || 5 || yes || no || yes || yes || yes || yes
+|-
+| Inferno || 5 || yes || yes || yes || yes || yes || yes
+|-
+| Monstrous regeneration || 5 || no || yes || no || yes || yes || yes
+|-
+| Owl's insight || 5 || no || yes || no || yes || yes || yes
+|-
+| Slay living || 5 || yes || no || yes || yes || yes || yes
+|-
+| Spell resistance || 5 || no || yes || no || yes || yes || yes
+|-
+| Summon creature V || 5 || no || yes || no || yes || yes || yes
+|-
+| Vine mine || 5 || no || yes || no || yes || yes || yes
+|-
+| Wall of fire || 5 || yes || yes || yes || yes || yes || yes
+|-
+| Crumble || 6 || yes || no || yes || n/a || yes || yes
+|-
+| Drown || 6 || no || no || no || n/a || yes || yes
+|-
+| Energy buffer || 6 || no || yes || no || n/a || yes || yes
+|-
+| Greater dispelling || 6 || no || no || no || n/a || yes || yes
+|-
+| Greater stoneskin || 6 || no || yes || no || n/a || yes || yes
+|-
+| Healing circle || 6 || yes || no || yes || n/a || yes || yes
+|-
+| Regenerate || 6 || no || yes || no || n/a || yes || yes
+|-
+| Stonehold || 6 || yes || yes || yes || n/a || yes || yes
+|-
+| Summon creature VI || 6 || no || yes || no || n/a || yes || yes
+|-
+| Aura of vitality || 7 || no || yes || n/a || n/a || yes || yes
+|-
+| Creeping doom || 7 || no || yes || n/a || n/a || yes || yes
+|-
+| Fire storm || 7 || yes || no || n/a || n/a || yes || yes
+|-
+| Harm || 7 || no || no || n/a || n/a || yes || yes
+|-
+| Heal || 7 || no || no || n/a || n/a || yes || yes
+|-
+| Summon creature VII || 7 || no || yes || n/a || n/a || yes || yes
+|-
+| True seeing || 7 || no || yes || n/a || n/a || yes || yes
+|-
+| Bombardment || 8 || n/a || no || n/a || n/a || yes || yes
+|-
+| Finger of death || 8 || n/a || no || n/a || n/a || yes || yes
+|-
+| Nature's balance || 8 || n/a || no || n/a || n/a || yes || yes
+|-
+| Premonition || 8 || n/a || yes || n/a || n/a || yes || yes
+|-
+| Summon creature VIII || 8 || n/a || yes || n/a || n/a || yes || yes
+|-
+| Sunbeam || 8 || n/a || no || n/a || n/a || yes || yes
+|-
+| Sunburst || 8 || n/a || no || n/a || n/a || yes || yes
+|}
+
+{| class="compacttable sortable mw-collapsible mw-collapsed"
+|+Paladin metamagic
+! Name !! Level !! Empower (+2) !! Extend (+1) !! Maximize (+3) !! Silent (+1) !! Still (+1)
+|-
+| Bless || 1 || no || yes || no || yes || yes
+|-
+| Bless weapon || 1 || no || yes || no || yes || yes
+|-
+| Cure light wounds || 1 || yes || no || yes || yes || yes
+|-
+| Deafening clang || 1 || no || yes || no || yes || yes
+|-
+| Divine favor || 1 || no || yes || no || yes || yes
+|-
+| Endure elements || 1 || no || yes || no || yes || yes
+|-
+| Magic weapon || 1 || no || yes || no || yes || yes
+|-
+| Protection from alignment || 1 || no || yes || no || yes || yes
+|-
+| Resistance || 1 || no || yes || no || yes || yes
+|-
+| Virtue || 1 || no || yes || no || yes || yes
+|-
+| Aid || 2 || yes || yes || n/a || yes || yes
+|-
+| Aura of glory || 2 || no || yes || n/a || yes || yes
+|-
+| Bull's strength || 2 || yes || yes || n/a || yes || yes
+|-
+| Eagle's splendor || 2 || yes || yes || n/a || yes || yes
+|-
+| Remove paralysis || 2 || no || no || n/a || yes || yes
+|-
+| Resist elements || 2 || no || yes || n/a || yes || yes
+|-
+| Cure moderate wounds || 3 || n/a || no || n/a || yes || yes
+|-
+| Dispel magic || 3 || n/a || no || n/a || yes || yes
+|-
+| Greater magic weapon || 3 || n/a || yes || n/a || yes || yes
+|-
+| Magic circle against alignment || 3 || n/a || yes || n/a || yes || yes
+|-
+| Prayer || 3 || n/a || yes || n/a || yes || yes
+|-
+| Remove blindness/deafness || 3 || n/a || no || n/a || yes || yes
+|}
+
+{| class="compacttable sortable mw-collapsible mw-collapsed"
+|+Ranger metamagic
+! Name !! Level !! Empower (+2) !! Extend (+1) !! Maximize (+3) !! Silent (+1) !! Still (+1)
+|-
+| Camouflage || 1 || no || yes || no || yes || yes
+|-
+| Cure light wounds || 1 || yes || no || yes || yes || yes
+|-
+| Entangle || 1 || no || yes || no || yes || yes
+|-
+| Grease || 1 || no || yes || no || yes || yes
+|-
+| Magic fang || 1 || no || yes || no || yes || yes
+|-
+| Resist elements || 1 || no || yes || no || yes || yes
+|-
+| Summon creature I || 1 || no || yes || no || yes || yes
+|-
+| Ultravision || 1 || no || yes || no || yes || yes
+|-
+| Cat's grace || 2 || yes || yes || n/a || yes || yes
+|-
+| Hold animal || 2 || no || yes || n/a || yes || yes
+|-
+| One with the land || 2 || no || yes || n/a || yes || yes
+|-
+| Protection from elements || 2 || no || yes || n/a || yes || yes
+|-
+| Sleep || 2 || yes || yes || n/a || yes || yes
+|-
+| Summon creature II || 2 || no || yes || n/a || yes || yes
+|-
+| Aid || 3 || n/a || yes || n/a || yes || yes
+|-
+| Blade thirst || 3 || n/a || yes || n/a || yes || yes
+|-
+| Cure moderate wounds || 3 || n/a || no || n/a || yes || yes
+|-
+| Greater magic fang || 3 || n/a || yes || n/a || yes || yes
+|-
+| Invisibility purge || 3 || n/a || yes || n/a || yes || yes
+|-
+| Neutralize poison || 3 || n/a || no || n/a || yes || yes
+|-
+| Remove disease || 3 || n/a || no || n/a || yes || yes
+|-
+| Summon creature III || 3 || n/a || yes || n/a || yes || yes
+|}
+
+{| class="compacttable sortable mw-collapsible mw-collapsed"
+|+Sorcerer/wizard metamagic
+! Name !! Level !! Empower (+2) !! Extend (+1) !! Maximize (+3) !! Quicken (+4) !! Silent (+1) !! Still (+1)
+|-
+| Acid splash || 0 || yes || no || yes || yes || yes || yes
+|-
+| Daze || 0 || no || yes || no || yes || yes || yes
+|-
+| Electric jolt || 0 || yes || no || yes || yes || yes || yes
+|-
+| Flare || 0 || no || yes || no || yes || yes || no
+|-
+| Light || 0 || no || yes || no || yes || yes || no
+|-
+| Ray of frost || 0 || yes || no || yes || yes || yes || yes
+|-
+| Resistance || 0 || no || yes || no || yes || yes || yes
+|-
+| Burning hands || 1 || yes || no || yes || yes || yes || yes
+|-
+| Charm person || 1 || no || yes || no || yes || yes || yes
+|-
+| Color spray || 1 || yes || no || yes || yes || yes || yes
+|-
+| Endure elements || 1 || no || yes || no || yes || yes || yes
+|-
+| Expeditious retreat || 1 || no || yes || no || yes || yes || yes
+|-
+| Grease || 1 || no || yes || no || yes || yes || yes
+|-
+| Horizikaul's boom || 1 || yes || no || yes || yes || yes || yes
+|-
+| Ice dagger || 1 || yes || no || yes || yes || yes || yes
+|-
+| Identify || 1 || no || yes || no || yes || yes || yes
+|-
+| Ironguts || 1 || no || yes || no || yes || yes || yes
+|-
+| Mage armor || 1 || no || yes || no || yes || yes || yes
+|-
+| Magic missile || 1 || yes || no || yes || yes || yes || yes
+|-
+| Magic weapon || 1 || no || yes || no || yes || yes || yes
+|-
+| Negative energy ray || 1 || yes || no || yes || yes || yes || yes
+|-
+| Protection from alignment || 1 || no || yes || no || yes || yes || yes
+|-
+| Ray of enfeeblement || 1 || yes || yes || yes || yes || yes || yes
+|-
+| Scare || 1 || no || yes || no || yes || no || yes
+|-
+| Shelgarn's persistent blade || 1 || yes || no || no || yes || yes || yes
+|-
+| Shield || 1 || no || yes || no || yes || yes || yes
+|-
+| Sleep || 1 || yes || yes || yes || yes || yes || yes
+|-
+| Summon creature I || 1 || no || yes || no || yes || yes || yes
+|-
+| True strike || 1 || no || no || no || yes || yes || no
+|-
+| Balagarn's iron horn || 2 || no || no || no || yes || yes || yes
+|-
+| Blindness/deafness || 2 || no || yes || no || yes || yes || no
+|-
+| Bull's strength || 2 || yes || yes || yes || yes || yes || yes
+|-
+| Cat's grace || 2 || yes || yes || yes || yes || yes || yes
+|-
+| Cloud of bewilderment || 2 || no || yes || no || yes || yes || yes
+|-
+| Combust || 2 || yes || no || yes || yes || yes || yes
+|-
+| Continual flame || 2 || no || no || no || yes || yes || yes
+|-
+| Darkness || 2 || no || yes || no || yes || yes || no
+|-
+| Death armor || 2 || no || yes || no || yes || yes || yes
+|-
+| Eagle's splendor || 2 || yes || yes || yes || yes || yes || yes
+|-
+| Endurance || 2 || yes || yes || yes || yes || yes || yes
+|-
+| Flame weapon || 2 || no || yes || no || yes || yes || yes
+|-
+| Fox's cunning || 2 || yes || yes || yes || yes || yes || yes
+|-
+| Gedlee's electric loop || 2 || yes || no || yes || yes || yes || yes
+|-
+| Ghostly visage || 2 || no || yes || no || yes || yes || yes
+|-
+| Ghoul touch || 2 || no || yes || no || yes || yes || yes
+|-
+| Invisibility || 2 || no || yes || no || yes || yes || yes
+|-
+| Knock || 2 || no || no || no || yes || no || yes
+|-
+| Lesser dispel || 2 || no || no || no || no || yes || yes
+|-
+| Melf's acid arrow || 2 || yes || no || yes || yes || yes || yes
+|-
+| Owl's wisdom || 2 || yes || yes || yes || yes || yes || yes
+|-
+| Resist elements || 2 || no || yes || no || yes || yes || yes
+|-
+| See invisibility || 2 || no || yes || no || yes || yes || yes
+|-
+| Stone bones || 2 || no || yes || no || yes || yes || yes
+|-
+| Summon creature II || 2 || no || yes || no || yes || yes || yes
+|-
+| Tasha's hideous laughter || 2 || yes || yes || yes || yes || yes || yes
+|-
+| Ultravision || 2 || no || yes || no || no || yes || yes
+|-
+| Web || 2 || no || yes || no || yes || yes || yes
+|-
+| Clairaudience/clairvoyance || 3 || no || yes || no || yes || yes || yes
+|-
+| Clarity || 3 || no || yes || no || yes || no || yes
+|-
+| Dispel magic || 3 || no || no || no || yes || yes || yes
+|-
+| Displacement || 3 || no || yes || no || yes || yes || no
+|-
+| Find traps || 3 || no || yes || no || yes || yes || yes
+|-
+| Fireball || 3 || yes || no || yes || yes || yes || yes
+|-
+| Flame arrow || 3 || yes || no || yes || yes || yes || yes
+|-
+| Greater magic weapon || 3 || no || yes || no || yes || yes || yes
+|-
+| Gust of wind || 3 || no || no || no || yes || yes || yes
+|-
+| Haste || 3 || no || yes || no || yes || yes || yes
+|-
+| Hold person || 3 || no || yes || no || yes || yes || yes
+|-
+| Invisibility sphere || 3 || no || yes || no || yes || yes || yes
+|-
+| Keen edge || 3 || no || yes || no || yes || yes || yes
+|-
+| Lightning bolt || 3 || yes || no || yes || yes || yes || yes
+|-
+| Magic circle against alignment || 3 || no || yes || no || yes || yes || yes
+|-
+| Mestil's acid breath || 3 || yes || no || yes || yes || yes || yes
+|-
+| Negative energy burst || 3 || yes || no || yes || yes || yes || yes
+|-
+| Protection from elements || 3 || no || yes || no || yes || yes || yes
+|-
+| Scintillating sphere || 3 || yes || no || yes || yes || yes || yes
+|-
+| Slow || 3 || no || yes || no || yes || yes || yes
+|-
+| Stinking cloud || 3 || no || yes || no || yes || yes || yes
+|-
+| Summon creature III || 3 || no || yes || no || yes || yes || yes
+|-
+| Vampiric touch || 3 || yes || no || yes || yes || yes || yes
+|-
+| Bestow curse || 4 || no || no || no || yes || yes || yes
+|-
+| Charm monster || 4 || no || yes || no || yes || yes || yes
+|-
+| Confusion || 4 || no || yes || no || yes || yes || yes
+|-
+| Contagion || 4 || no || no || no || yes || yes || yes
+|-
+| Elemental shield || 4 || no || yes || no || yes || yes || yes
+|-
+| Enervation || 4 || yes || no || yes || yes || yes || yes
+|-
+| Evard's black tentacles || 4 || yes || yes || yes || yes || yes || yes
+|-
+| Fear || 4 || no || yes || no || yes || yes || yes
+|-
+| Ice storm || 4 || yes || no || yes || yes || yes || yes
+|-
+| Improved invisibility || 4 || no || yes || no || yes || yes || yes
+|-
+| Isaac's lesser missile storm || 4 || yes || no || yes || yes || yes || yes
+|-
+| Lesser spell breach || 4 || no || no || no || yes || yes || yes
+|-
+| Minor globe of invulnerability || 4 || no || yes || no || yes || yes || yes
+|-
+| Phantasmal killer || 4 || yes || no || yes || yes || yes || yes
+|-
+| Polymorph self || 4 || no || yes || no || yes || yes || no
+|-
+| Remove blindness/deafness || 4 || no || no || no || yes || yes || yes
+|-
+| Remove curse || 4 || no || no || no || yes || yes || yes
+|-
+| Shadow conjuration || 4 || no || no || no || no || yes || yes
+|-
+| Stoneskin || 4 || no || yes || no || yes || yes || yes
+|-
+| Summon creature IV || 4 || no || yes || no || yes || yes || yes
+|-
+| Wall of fire || 4 || yes || yes || yes || yes || yes || yes
+|-
+| Animate dead || 5 || no || yes || no || yes || yes || yes
+|-
+| Ball lightning || 5 || yes || no || yes || yes || yes || yes
+|-
+| Bigby's interposing hand || 5 || no || yes || no || yes || yes || yes
+|-
+| Cloudkill || 5 || yes || yes || yes || yes || yes || yes
+|-
+| Cone of cold || 5 || yes || no || yes || yes || yes || yes
+|-
+| Dismissal || 5 || no || no || no || yes || yes || yes
+|-
+| Dominate person || 5 || no || yes || no || yes || yes || yes
+|-
+| Energy buffer || 5 || no || yes || no || yes || yes || yes
+|-
+| Feeblemind || 5 || yes || yes || yes || yes || yes || yes
+|-
+| Firebrand || 5 || yes || no || yes || yes || yes || yes
+|-
+| Greater shadow conjuration || 5 || no || no || no || no || yes || yes
+|-
+| Hold monster || 5 || no || yes || no || yes || yes || yes
+|-
+| Lesser mind blank || 5 || no || yes || no || yes || yes || yes
+|-
+| Lesser planar binding || 5 || no || yes || no || yes || yes || yes
+|-
+| Lesser spell mantle || 5 || yes || yes || yes || yes || yes || yes
+|-
+| Mestil's acid sheath || 5 || no || yes || no || yes || yes || yes
+|-
+| Mind fog || 5 || no || yes || no || yes || yes || yes
+|-
+| Summon creature V || 5 || no || yes || no || yes || yes || yes
+|-
+| Acid fog || 6 || yes || yes || yes || n/a || yes || yes
+|-
+| Bigby's forceful hand || 6 || no || yes || no || n/a || yes || yes
+|-
+| Chain lightning || 6 || yes || no || yes || n/a || yes || yes
+|-
+| Circle of death || 6 || yes || no || yes || n/a || yes || yes
+|-
+| Ethereal visage || 6 || no || yes || no || n/a || yes || yes
+|-
+| Flesh to stone || 6 || no || yes || no || n/a || yes || yes
+|-
+| Globe of invulnerability || 6 || no || yes || no || n/a || yes || yes
+|-
+| Greater dispelling || 6 || no || no || no || n/a || yes || yes
+|-
+| Greater spell breach || 6 || no || no || no || n/a || yes || yes
+|-
+| Greater stoneskin || 6 || no || yes || no || n/a || yes || yes
+|-
+| Isaac's greater missile storm || 6 || yes || no || yes || n/a || yes || yes
+|-
+| Legend lore || 6 || no || yes || no || n/a || yes || yes
+|-
+| Mass haste || 6 || no || yes || no || n/a || yes || yes
+|-
+| Planar binding || 6 || no || yes || no || n/a || yes || yes
+|-
+| Shades || 6 || no || no || no || n/a || yes || yes
+|-
+| Stone to flesh || 6 || no || yes || no || n/a || yes || yes
+|-
+| Summon creature VI || 6 || no || yes || no || n/a || yes || yes
+|-
+| Tenser's transformation || 6 || yes || yes || yes || n/a || yes || yes
+|-
+| True seeing || 6 || no || yes || no || n/a || yes || yes
+|-
+| Undeath to death || 6 || yes || no || yes || n/a || yes || yes
+|-
+| Banishment || 7 || no || no || n/a || n/a || yes || yes
+|-
+| Bigby's grasping hand || 7 || no || yes || n/a || n/a || yes || yes
+|-
+| Control undead || 7 || no || yes || n/a || n/a || yes || yes
+|-
+| Delayed blast fireball || 7 || yes || yes || n/a || n/a || yes || yes
+|-
+| Finger of death || 7 || yes || no || n/a || n/a || yes || yes
+|-
+| Great thunderclap || 7 || no || no || n/a || n/a || yes || yes
+|-
+| Mordenkainen's sword || 7 || no || yes || n/a || n/a || yes || yes
+|-
+| Power word, stun || 7 || no || no || n/a || n/a || yes || no
+|-
+| Prismatic spray || 7 || no || no || n/a || n/a || yes || yes
+|-
+| Protection from spells || 7 || no || yes || n/a || n/a || yes || yes
+|-
+| Shadow shield || 7 || no || yes || n/a || n/a || yes || yes
+|-
+| Spell mantle || 7 || yes || yes || n/a || n/a || yes || yes
+|-
+| Summon creature VII || 7 || no || yes || n/a || n/a || yes || yes
+|-
+| Bigby's clenched fist || 8 || n/a || yes || n/a || n/a || yes || yes
+|-
+| Blackstaff || 8 || n/a || yes || n/a || n/a || yes || yes
+|-
+| Create undead || 8 || n/a || yes || n/a || n/a || yes || yes
+|-
+| Greater planar binding || 8 || n/a || yes || n/a || n/a || yes || yes
+|-
+| Greater sanctuary || 8 || n/a || yes || n/a || n/a || yes || yes
+|-
+| Horrid wilting || 8 || n/a || no || n/a || n/a || yes || yes
+|-
+| Incendiary cloud || 8 || n/a || yes || n/a || n/a || yes || yes
+|-
+| Mass blindness/deafness || 8 || n/a || yes || n/a || n/a || yes || yes
+|-
+| Mass charm || 8 || n/a || yes || n/a || n/a || yes || no
+|-
+| Mind blank || 8 || n/a || yes || n/a || n/a || yes || yes
+|-
+| Premonition || 8 || n/a || yes || n/a || n/a || yes || yes
+|-
+| Summon creature VIII || 8 || n/a || yes || n/a || n/a || yes || yes
+|-
+| Sunburst || 8 || n/a || no || n/a || n/a || yes || yes
+|}
+[[category:feats| Metamagic]]
+[[category:magical concepts]]

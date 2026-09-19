@@ -1,0 +1,11 @@
+{{feat
+|type=general
+|prereq=[[base attack bonus]] +2, [[stunning fist]]
+|desc=The character gains 3 extra stunning attacks per day.
+|use=automatic
+|icon=ife_x1exstun.gif
+}}
+
+==Notes==
+*Added in the [[expansion pack]]s.
+*This feat becomes progressively less useful, as higher-level [[monk]]s have access to a large number of stunning attacks per day.

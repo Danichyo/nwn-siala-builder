@@ -1,0 +1,155 @@
+## Русские подписи к ошибкам форм.
+##
+## Это интерфейсная обвязка, а не игровые сущности: имена классов, фитов,
+## навыков и заклинаний остаются английскими и через gettext НЕ ходят
+## (CLAUDE.md §4). Сюда попадает только то, что человек читает как фразу.
+##
+## `msgid` — английские, потому что их пишут Ecto и Phoenix; свои сообщения
+## приложения тоже заведены по-английски, чтобы у строки было одно место
+## перевода, а не два разных языка в исходниках.
+##
+## Множественное число в русском — три формы, а не две. Формула ниже:
+##   [0] 1, 21, 31…  «1 символ»
+##   [1] 2–4, 22–24…  «2 символа»
+##   [2] 0, 5–20, 25…  «5 символов»
+## Gettext проверяет их количество при компиляции: две формы вместо трёх —
+## ошибка сборки, а не тихо кривой текст.
+msgid ""
+msgstr ""
+"Language: ru\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+## From Ecto.Changeset.cast/4
+msgid "can't be blank"
+msgstr "не может быть пустым"
+
+## From Ecto.Changeset.unique_constraint/3
+msgid "has already been taken"
+msgstr "уже занято"
+
+## From Ecto.Changeset.put_change/3
+msgid "is invalid"
+msgstr "неверное значение"
+
+## From Ecto.Changeset.validate_acceptance/3
+msgid "must be accepted"
+msgstr "нужно принять"
+
+## From Ecto.Changeset.validate_format/3
+msgid "has invalid format"
+msgstr "неверный формат"
+
+## From Ecto.Changeset.validate_subset/3
+msgid "has an invalid entry"
+msgstr "содержит недопустимое значение"
+
+## From Ecto.Changeset.validate_exclusion/3
+msgid "is reserved"
+msgstr "зарезервировано"
+
+## From Ecto.Changeset.validate_confirmation/3
+msgid "does not match confirmation"
+msgstr "не совпадает с подтверждением"
+
+## From Ecto.Changeset.no_assoc_constraint/3
+msgid "is still associated with this entry"
+msgstr "всё ещё связано с этой записью"
+
+msgid "are still associated with this entry"
+msgstr "всё ещё связаны с этой записью"
+
+## From Ecto.Changeset.validate_length/3
+msgid "should have %{count} item(s)"
+msgid_plural "should have %{count} item(s)"
+msgstr[0] "должно быть ровно %{count} элемент"
+msgstr[1] "должно быть ровно %{count} элемента"
+msgstr[2] "должно быть ровно %{count} элементов"
+
+msgid "should be %{count} character(s)"
+msgid_plural "should be %{count} character(s)"
+msgstr[0] "должно быть ровно %{count} символ"
+msgstr[1] "должно быть ровно %{count} символа"
+msgstr[2] "должно быть ровно %{count} символов"
+
+msgid "should be %{count} byte(s)"
+msgid_plural "should be %{count} byte(s)"
+msgstr[0] "должно быть ровно %{count} байт"
+msgstr[1] "должно быть ровно %{count} байта"
+msgstr[2] "должно быть ровно %{count} байт"
+
+msgid "should have at least %{count} item(s)"
+msgid_plural "should have at least %{count} item(s)"
+msgstr[0] "минимум %{count} элемент"
+msgstr[1] "минимум %{count} элемента"
+msgstr[2] "минимум %{count} элементов"
+
+msgid "should be at least %{count} character(s)"
+msgid_plural "should be at least %{count} character(s)"
+msgstr[0] "минимум %{count} символ"
+msgstr[1] "минимум %{count} символа"
+msgstr[2] "минимум %{count} символов"
+
+msgid "should be at least %{count} byte(s)"
+msgid_plural "should be at least %{count} byte(s)"
+msgstr[0] "минимум %{count} байт"
+msgstr[1] "минимум %{count} байта"
+msgstr[2] "минимум %{count} байт"
+
+msgid "should have at most %{count} item(s)"
+msgid_plural "should have at most %{count} item(s)"
+msgstr[0] "максимум %{count} элемент"
+msgstr[1] "максимум %{count} элемента"
+msgstr[2] "максимум %{count} элементов"
+
+msgid "should be at most %{count} character(s)"
+msgid_plural "should be at most %{count} character(s)"
+msgstr[0] "максимум %{count} символ"
+msgstr[1] "максимум %{count} символа"
+msgstr[2] "максимум %{count} символов"
+
+msgid "should be at most %{count} byte(s)"
+msgid_plural "should be at most %{count} byte(s)"
+msgstr[0] "максимум %{count} байт"
+msgstr[1] "максимум %{count} байта"
+msgstr[2] "максимум %{count} байт"
+
+## From Ecto.Changeset.validate_number/3
+msgid "must be less than %{number}"
+msgstr "должно быть меньше %{number}"
+
+msgid "must be greater than %{number}"
+msgstr "должно быть больше %{number}"
+
+msgid "must be less than or equal to %{number}"
+msgstr "должно быть не больше %{number}"
+
+msgid "must be greater than or equal to %{number}"
+msgstr "должно быть не меньше %{number}"
+
+msgid "must be equal to %{number}"
+msgstr "должно быть равно %{number}"
+
+## Собственные сообщения приложения. Их не извлекает `mix gettext.extract`:
+## они лежат в `message:` у валидаций и в `add_error/4`, а не в вызовах
+## `gettext`. Добавлять сюда руками — это нормальный путь, но см.
+## предупреждение в шапке `errors.pot`.
+## BuildCalculator.Accounts.User
+msgid "must have the @ sign and no spaces"
+msgstr "нужен знак @ и без пробелов"
+
+msgid "does not match password"
+msgstr "не совпадает с паролем"
+
+msgid "did not change"
+msgstr "не изменилась"
+
+## BuildCalculator.Accounts.GroupMember
+msgid "is already a member"
+msgstr "уже состоит в группе"
+
+## BuildCalculator.Library.Build
+msgid "group builds must name a group"
+msgstr "билд с видимостью «группа» должен её называть"
+
+msgid "is not a readable build code"
+msgstr "не читается как код билда"

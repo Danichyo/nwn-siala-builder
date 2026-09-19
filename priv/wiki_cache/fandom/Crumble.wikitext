@@ -1,0 +1,22 @@
+{{spell
+|icon=is_x2crumble.gif
+|druidlevel=6
+|innatelevel=6
+|school=[[transmutation]]
+|components=VS
+|range=m
+|area=one [[construct]]
+|save=no
+|spellresistance=no
+|duration=instantaneous
+|desc=This spell inflicts 1[[d6]] points of [[sonic damage]] per caster level to a selected construct (to a maximum of 15d6). This spell does not affect living creatures.|immunity = sonic}}
+
+==Notes==
+*Requires [[Hordes of the Underdark]].
+*The spell damage will be applied to targets of the [[construct]] race or with [[Monster class|class]] levels in construct.
+
+==Custom content notes==
+*''script:'' <code>X2_S0_Crumble</code>
+==External links==
+* {{FRW}}
+* {{NWN2W}}

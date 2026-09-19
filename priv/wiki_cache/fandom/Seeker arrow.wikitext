@@ -1,0 +1,21 @@
+{{feat
+|type=class
+|prereq=[[arcane archer]] 4
+|desc=At fourth [[class level|level]], an arcane archer gains the ability to launch an arrow once per day that cannot miss its target. At sixth level this ability can be used twice per day. This arrow is magically created at the moment the archer uses this ability.
+|use=selected
+|icon=ife_x1seekarr.gif
+|class=arcane archer
+}}
+
+==Notes==
+*Added in the [[expansion pack]]s.
+*The [[piercing damage]] inflicted by a ''seeker arrow'' is double the sum of weapon base damage ([[d6]] for a [[shortbow]] or d8 for a [[longbow]]), [[strength]] [[modifier]], [[weapon specialization]] (if applicable), and [[epic weapon specialization]] (if applicable). So if an arcane archer with a 12 strength and the appropriate weapon specialization rolls a 4 for damage, the piercing damage will be 2&nbsp;&times; (4 + 1 + 2) = 14 damage.
+* The damage penetrates [[damage reduction]] according to the arcane archer's [[enchant arrow]] bonus.
+*A seeker arrow also deals [[magical damage]] equal to the arcane archer's ''enchant arrow'' bonus.
+
+===Previous versions===
+* Prior to [[patch]] 1.87.8193.35 ([[Neverwinter Nights Enhanced Edition]]), damage reduction was not penetrated, due to a bug in the engine (not the script).
+*Prior to version 1.69, this feat did not account for ''epic weapon specialization''.
+
+==Custom content notes==
+*''impact script:'' <code>X1_S2_Seeker.nss</code>

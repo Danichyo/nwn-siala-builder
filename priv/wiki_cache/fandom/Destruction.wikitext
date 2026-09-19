@@ -1,0 +1,18 @@
+{{spell
+|icon=is_destruc.gif
+|clericlevel=7
+|innatelevel=7
+|school=[[necromancy]]
+|components=VS
+|range=s
+|area=single creature (or [[placeable]])
+|save=[[fortitude]] partial
+|spellresistance=yes
+|duration=instant
+|desc=The target creature must make a fortitude save or die. A successful save still results in the target taking 10d6 points of [[divine damage]].}}
+== Notes ==
+* This spell can target [[placeable]]s, which will automatically fail the saving throw (no roll is made), and are destroyed (unless [[plot]]).
+* This spell does not have a "death" [[descriptor]], so immunity to death magic only prevents the death [[effect]] upon a failed saving throw; it does not prevent the damage resulting from a successful save.
+
+==Custom content notes==
+*''script:'' <code>NW_S0_Destruc.nss</code>

@@ -1,0 +1,41 @@
+{{Weapon|imagefile=Double axe.jpg
+  |weaponname=Double axe
+  |weapondescription=Whatever can be said of the [[orc]] [[race]], there is no doubting the impact they have on warfare. The orc double axe is a perfect example, patterned after their "One blade good, two blades better!" wisdom.
+  |weight=25
+  |cost=30
+  |damage=1d8/1d8
+  |critical=x3
+  |damagetype=[[slashing damage|slashing]]
+  |size=large
+  |proficiency=[[weapon proficiency (exotic)|exotic]]
+  |category=[[Category:Double-sided weapons]][[Category:Exotic weapons]][[Category:Axes]]
+}}
+
+== Notes ==
+* The double axe is a [[double-sided weapon]]. As such, using it is implicitly [[dual-wield]]ing, with main hand attacks receiving the full [[strength]] [[modifier]] added to damage while off-hand attacks get half that.
+
+== Toolset ==
+* Double axes are listed under the [[double-sided blueprint category]] of the [[item palette]] in the [[Toolset]]
+
+== Axe for the Tall Kin +1 ==
+This [[weapon]] bears the mark of the dwarf [[Marrok]], Master Blacksmith of [[Neverwinter]]'s Shining Knight Arms and Armor. He forged it early in 1373 DR, to aid the heroes who sought to free his quarantined city from the virulent grasp of the so-called [[Wailing Death]].
+
+*[[Enhancement bonus]]: +1
+*[[Light]]: (low, white)
+*[[Item level restriction|Required level]]: 4
+
+== Axe for the Tall Kin +3 ==
+This weapon bears the mark of the dwarf [[Barun Silverblade|Barun]], a Master Blacksmith who worked from a makeshift forge in the Uthgardt village of Beorunna's Well. He forged it late in 1373 DR, to aid the war effort against [[Aribeth|Lady Aribeth the Betrayer]], who was then marching against the northern city of Neverwinter and the Lords' Alliance.
+
+*Enhancement bonus: +3
+*Light: (low, white)
+*Required level: 11
+
+== Axe for the Tall Kin +8 ==
+The warriors of Rashemen have a legend of a [[giant]] king called Kirsk, who carried an axe that could split a mountain in twain. This axe was supposedly lost when the king split a mountain that held back the sea and all of the giants were drowned. It is commonly agreed in more civilized lands that the warriors of Rasheman are a very strange lot.
+
+*[[DAMAGE BONUS *|Damage bonus]]: [[Fire damage|fire]] (1[[d6]])
+*Enhancement bonus: +8
+*[[Keen]]
+*Light: (normal, white)
+*Required level: 23

@@ -1,0 +1,9 @@
+'''Throwing weapons''' are those [[weapon]]s which are hurled at an opponent; the force behind these weapons comes from the motion of the wielder's arm.
+This classification is mostly notable in connection with a [[halfling]]'s [[good aim]] feat.
+
+In ''Neverwinter Nights'', these weapons consist of
+* [[dart]]s,
+* [[shuriken]]s,
+* [[sling]]s, and
+* [[throwing axe]]s.
+[[Category:Weapons| Throwing weapons]]

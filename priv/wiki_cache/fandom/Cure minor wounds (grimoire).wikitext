@@ -1,0 +1,22 @@
+{{Grimoire spell|imagename=Is curminw.gif
+|spellname=Cure Minor Wounds
+|casterlevel=[[Bard]] 0, [[Cleric]] 0, [[Druid]] 0
+|innatelevel=0
+|school=[[Conjuration]] ([[Spell subschool|Healing]])
+|descriptors=None
+|components=V, S
+|range=[[Touch attack|Touch]]
+|immunities=None
+|savingthrow=None
+|spellresistance=Yes
+|targettype=One living creature
+|duration=Instantaneous
+|description=The target creature is healed for 1 point of damage. Healing spells have a reverse effect on [[undead]], harming instead of healing them. A successful touch attack must first be made when this spell is used against undead.  This spell has no effect on [[construct]]s or other nonliving creatures.
+}}
+
+== Notes ==
+*{{Grimoire spell change|pagename=[[Cure minor wounds]]}}
+{{g_bard}}
+{{g_clr}}
+{{g_drd}}
+{{g_subhea}}

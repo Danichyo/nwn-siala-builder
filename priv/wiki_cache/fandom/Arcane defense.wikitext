@@ -1,0 +1,15 @@
+{{feat
+|type=general
+|prereq=[[spell focus]] in the chosen [[spell school]]
+|desc=The character gains a +2 bonus to [[saving throw]]s versus the chosen school of magic.
+|use=automatic
+|icon=Ife x1adabj.gif
+|bonus1=bard
+|bonus2=wizard
+}}
+
+== Notes ==
+*Added in the [[expansion pack]]s.
+*The bonus is subject to the +20 saving throw bonus cap.
+*This bonus applies to any standard spell or monster ability of the specified school. Saves made after the initial script comes to completion (e.g. delayed command, lasting area of effect) will not include the bonus.
+* Due to a bug, saving throws explicitly made "versus spells" will not include this bonus.

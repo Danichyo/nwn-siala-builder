@@ -1,0 +1,12 @@
+'''Type of Feat''': [[General]]
+
+'''Prerequisite''': [[Base Attack Bonus]] 6, [[Point Blank Shot]], [[Pinpoint accuracy]], [[Weapon Focus]] ([[ranged weapon]])
+
+'''Specifics''': When you make an attack using [[pinpoint accuracy]], you sacrifice your additional attacks. You deal an additional 1d4 damage per iterative attack (e.g., with 3 attacks, you deal +2d4 damage). Taking this feat a second time, increases the damage to +1d6 instead of +1d4.
+
+'''Use''': Selected
+
+==Notes==
+*Added in the [[PRC Expansion Pack]].
+
+[[Category:PRC feats]]

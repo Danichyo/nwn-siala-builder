@@ -1,0 +1,44 @@
+'''Description:''' ([[prestige class|PRESTIGE CLASS]]) Studying the martial and [[arcane]] arts to equal degree, the eldritch knight is a versatile combatant who can cast [[fireball]] on their foes or charge them with sword drawn. The eldritch knight takes pride in their ability to use the right technique for the job: spells against physically tough foes and force of arms against spellcasting enemies.
+
+'''[[Hit die]]:''' d6
+
+'''Proficiencies:''' An eldritch knight does not gain any additional weapon or armor proficiencies.
+
+'''[[Skill point]]s:''' 2 + [[Int]] mod
+
+'''Skills:''' [[concentration]], [[craft armor]], [[craft trap]], [[craft weapon]], [[discipline]], [[heal (skill)|heal]], [[iaijutsu focus]], [[jump]], [[lore]], [[parry]], [[spellcraft]], [[taunt]]
+
+'''[[Saving throw|Primary saving throw(s)]]:''' [[fortitude]]
+
+'''[[Base attack bonus|Base attack bonus progression]]:''' 1 BAB per level
+
+== Requirements ==
+
+'''Alignment restriction:''' none
+
+'''[[Feat]]s:''' [[weapon proficiency (martial)]]
+
+'''[[Arcane|Arcane spellcasting]]:''' level 3
+
+== Special abilities & feats ==
+
+*Level 1: bonus feat
+
+Eldritch knight bonus feats include: [[ambidexterity]], [[blind fight]], [[called shot]], [[cleave]], [[deflect arrows]], [[disarm]], [[dodge]], [[expertise]], [[great cleave]], [[improved critical]], [[improved disarm]], [[improved expertise]], [[improved knockdown]], [[improved parry]], [[improved power attack]], [[improved two-weapon fighting]], [[improved unarmed strike]], [[knockdown]], [[mobility]], [[point blank shot]], [[power attack]], [[rapid shot]], [[spring attack]], [[stunning fist]], [[two-weapon fighting]], [[weapon finesse]], [[weapon focus]], [[weapon proficiency (exotic)]], [[whirlwind attack]]
+
+=== Bonus spells ===
+
+Upon gaining a level in eldritch knight, the character gains new [[spell]]s per day as if they had also gained a level in their highest caster class ([[bard]], [[sorcerer]], or [[wizard]]). They do not learn any new spells through their abilities. Additionally, each level of eldritch knight improves the [[caster level]] in the highest caster class by 1.
+
+== Epic eldritch knight ==
+
+'''Bonus feats:''' 14, 18, 22, 26, 30
+
+'''Epic bonus feats:''' [[armor skin]], [[epic damage reduction]], [[devastating critical]], [[epic prowess]], [[epic weapon focus]], [[overwhelming critical]], [[epic toughness]], [[improved whirlwind attack]], [[superior initiative]], [[epic spell focus]], [[epic spell penetration]], [[improved combat casting]], [[automatic still spell]]
+
+'''Spells:''' The epic eldritch knight's caster level increases by 1 per level gained above 10th. The epic eldritch knight continues to gain new spells per day (and spells known, if applicable) at each new level, up to the maximum spells per day and spells known of the arcane spellcasting class to which the eldritch knight belonged before adding the [[prestige class]].
+
+==Notes==
+
+*Requires the [[PRC Expansion Pack]].
+[[category:PRC classes]]

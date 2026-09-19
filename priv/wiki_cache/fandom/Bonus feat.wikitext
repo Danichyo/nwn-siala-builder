@@ -1,0 +1,264 @@
+'''Bonus feats''' allow a [[player character]] to choose a [[feat]] in addition to the feats obtained from the usual [[level progression]]. Aside from the [[human]] bonus feat, these are obtained at certain [[class level]]s, as set forth in each class' description, and are selected from a restricted list of feats, also set forth in each class' description.
+Sometimes the term is also used for feats obtained without a choice being made, in which case more [[racial feat]]s can be included.
+
+An '''epic bonus feat''' is a bonus feat choice obtained because of an [[epic class]] level. These are significant in that few classes receive any pre-determined [[class feat]]s at epic levels, while all epic classes gain a choice of bonus feats at regular levels. (This is the reverse of pre-epic levels, when few classes receive a choice of bonus feats, but most do receive pre-determined class feats.)
+However, in terms of game mechanics, these behave no differently than other bonus feats that allow a choice; each class has a single list of bonus feat choices that is used regardless of whether or not the bonus can be called "epic".
+Some choices might only appear as epic bonus feats, but this is a consequence of those feats' particular prerequisites being impossible to meet otherwise, not something intrinsic to a bonus being granted by an epic, rather than pre-epic, class level.
+
+The single list of choices per class has an interesting consequence that may be unexpected to many (and that is probably unintended, yet accepted, by [[BioWare]]). Every time a class-granted feat allows a choice, that choice is made from the class' list.
+This includes such things as choosing a race for a [[favored enemy]]. Before [[Hordes of the Underdark]] was released, this was inconsequential, as, for example, the list of choices for [[ranger]]s included only favored enemies. With the addition of epic bonus feats, the class lists were expanded, making more options available, particularly once a character becomes epic (hence meeting the prerequisites of more choices on the list). For example, an epic character taking a fifth ranger level could potentially substitute ''epic prowess'' (a ranger epic bonus feat) for the favored enemy normally obtained at that level.
+
+The classes for which having only a single list is relevant (meaning those that have pre-epic bonus feats) are [[champion of Torm]], [[fighter]], [[Harper scout]], [[ranger]], [[rogue]], and [[wizard]].
+
+{| class="compacttable colsubheaders" style="text-align:center"
+|+ Pre-epic class bonus feats
+  !colspan=21|Base classes
+ |-
+  |&nbsp; 
+  ! 1 !! 2 !! 3 !! 4 !! 5 !! 6 !! 7 !! 8 !! 9 !! 10
+  ! 11 !! 12 !! 13 !! 14 !! 15 !! 16 !! 17 !! 18 !! 19 !! 20
+ |-
+  ![[Image:ir_fighter.gif|Fighter]]
+  | 1
+  | 2
+  |&nbsp;||3
+  |&nbsp;||4
+  |&nbsp;||5
+  |&nbsp;||6
+  |&nbsp;||7
+  |&nbsp;||8
+  |&nbsp;||9
+  |&nbsp;||10
+  |&nbsp;||11
+ |-
+  ![[Image:ir_ranger.gif|Ranger]]
+  |1
+  |&nbsp;||&nbsp;||&nbsp;||2
+  |&nbsp;||&nbsp;||&nbsp;||&nbsp;||3
+  |&nbsp;||&nbsp;||&nbsp;||&nbsp;||4
+  |&nbsp;||&nbsp;||&nbsp;||&nbsp;||5
+ |-
+  ![[Image:ir_rogue.gif|Rogue]]
+  |&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;||&nbsp;
+  |1
+  |&nbsp;||&nbsp;||2
+  |&nbsp;||&nbsp;||3
+  |&nbsp;||&nbsp;||4
+  |&nbsp;
+ |-
+  ![[Image:ir_wizard.gif|Wizard]]
+  |&nbsp;||&nbsp;||&nbsp;||&nbsp;||1
+  |&nbsp;||&nbsp;||&nbsp;||&nbsp;||2
+  |&nbsp;||&nbsp;||&nbsp;||&nbsp;||3
+  |&nbsp;||&nbsp;||&nbsp;||&nbsp;||4
+ |-
+  !colspan=11 style="border-top-style: groove; border-top-width: medium; border-right:none"|Prestige classes
+  |colspan=10 style="border-bottom:none"|&nbsp;
+ |-
+  |&nbsp; 
+  ! 1 !! 2 !! 3 !! 4 !! 5 !! 6 !! 7 !! 8 !! 9 !! 10
+  |colspan=10 rowspan=3 style="border:none"|&nbsp;
+ |-
+  ![[Image:ir_divcha.gif|Champion of Torm]]
+  |&nbsp;||1
+  |&nbsp;||2
+  |&nbsp;||3
+  |&nbsp;||4
+  |&nbsp;||5
+ |-
+  ![[Image:Ir_x1_harper.gif|Harper scout]]
+  |1
+  |&nbsp;||&nbsp;||&nbsp;||2
+  |colspan=5 style="border:none"|&nbsp;
+|}
+
+{| class="compacttable colsubheaders" style="text-align:center"
+|+ Epic class bonus feats
+  !colspan=21|Base classes
+ |-
+  |&nbsp; 
+  ! 21 !! 22 !! 23 !! 24 !! 25 !! 26 !! 27 !! 28 !! 29 !! 30
+  ! 31 !! 32 !! 33 !! 34 !! 35 !! 36 !! 37 !! 38 !! 39 !! 40
+ |-
+  ![[Image:ife x2epbarba.gif|Epic barbarian]]
+  |&nbsp;||&nbsp;||&nbsp;||1
+  |&nbsp;||&nbsp;||&nbsp;||2
+  |&nbsp;||&nbsp;||&nbsp;||3
+  |&nbsp;||&nbsp;||&nbsp;||4
+  |&nbsp;||&nbsp;||&nbsp;||5
+ |-
+  ![[Image:ife x2epbard.gif|Epic bard]]
+  |&nbsp;||&nbsp;||1
+  |&nbsp;||&nbsp;||2
+  |&nbsp;||&nbsp;||3
+  |&nbsp;||&nbsp;||4
+  |&nbsp;||&nbsp;||5
+  |&nbsp;||&nbsp;||6
+  |&nbsp;||&nbsp;
+ |-
+  ![[Image:ife x2epcleric.gif|Epic cleric]]
+  |&nbsp;||&nbsp;||1
+  |&nbsp;||&nbsp;||2
+  |&nbsp;||&nbsp;||3
+  |&nbsp;||&nbsp;||4
+  |&nbsp;||&nbsp;||5
+  |&nbsp;||&nbsp;||6
+  |&nbsp;||&nbsp;
+ |-
+  ![[Image:ife x2epdruid.gif|Epic druid]]
+  |&nbsp;||&nbsp;||&nbsp;||1
+  |&nbsp;||&nbsp;||&nbsp;||2
+  |&nbsp;||&nbsp;||&nbsp;||3
+  |&nbsp;||&nbsp;||&nbsp;||4
+  |&nbsp;||&nbsp;||&nbsp;||5
+ |-
+  ![[Image:ife x2epfighter.gif|Epic fighter]]
+  |&nbsp;||12
+  |&nbsp;||13
+  |&nbsp;||14
+  |&nbsp;||15
+  |&nbsp;||16
+  |&nbsp;||17
+  |&nbsp;||18
+  |&nbsp;||19
+  |&nbsp;||20
+  |&nbsp;||21
+ |-
+  ![[Image:ife x2epmonk.gif|Epic monk]]
+  |&nbsp;||&nbsp;||&nbsp;||&nbsp;||1
+  |&nbsp;||&nbsp;||&nbsp;||&nbsp;||2
+  |&nbsp;||&nbsp;||&nbsp;||&nbsp;||3
+  |&nbsp;||&nbsp;||&nbsp;||&nbsp;||4
+ |-
+  ![[Image:ife x2eppal.gif|Epic paladin]]
+  |&nbsp;||&nbsp;||1
+  |&nbsp;||&nbsp;||2
+  |&nbsp;||&nbsp;||3
+  |&nbsp;||&nbsp;||4
+  |&nbsp;||&nbsp;||5
+  |&nbsp;||&nbsp;||6
+  |&nbsp;||&nbsp;
+ |-
+  ![[Image:ife x2epranger.gif|Epic ranger]]
+  |&nbsp;||&nbsp;||6
+  |&nbsp;||7
+  |8
+  |&nbsp;||&nbsp;||9
+  |10
+  |&nbsp;||11
+  |&nbsp;||&nbsp;||12<br />13
+  |&nbsp;||&nbsp;||14
+  |&nbsp;||15
+ |-
+  ![[Image:ife x2eprogue.gif|Epic rogue]]
+  |&nbsp;||&nbsp;||&nbsp;||5
+  |&nbsp;||&nbsp;||&nbsp;||6
+  |&nbsp;||&nbsp;||&nbsp;||7
+  |&nbsp;||&nbsp;||&nbsp;||8
+  |&nbsp;||&nbsp;||&nbsp;||9
+ |-
+  ![[Image:ife x2epsorc.gif|Epic sorcerer]]
+  |&nbsp;||&nbsp;||1
+  |&nbsp;||&nbsp;||2
+  |&nbsp;||&nbsp;||3
+  |&nbsp;||&nbsp;||4
+  |&nbsp;||&nbsp;||5
+  |&nbsp;||&nbsp;||6
+  |&nbsp;||&nbsp;
+ |-
+  ![[Image:ife x2epwizard.gif|Epic wizard]]
+  |&nbsp;||&nbsp;||5
+  |&nbsp;||&nbsp;||6
+  |&nbsp;||&nbsp;||7
+  |&nbsp;||&nbsp;||8
+  |&nbsp;||&nbsp;||9
+  |&nbsp;||&nbsp;||10
+  |&nbsp;||&nbsp;
+ |-
+  !colspan=21 style="border-top-style: groove; border-top-width: medium;"|Prestige classes
+ |-
+  |&nbsp; 
+  ! 11 !! 12 !! 13 !! 14 !! 15 !! 16 !! 17 !! 18 !! 19 !! 20
+  ! 21 !! 22 !! 23 !! 24 !! 25 !! 26 !! 27 !! 28 !! 29 !! 30
+ |-
+  ![[Image:ife x2eparcher.gif|Epic arcane archer]]
+  |&nbsp;||&nbsp;||&nbsp;||1
+  |&nbsp;||&nbsp;||&nbsp;||2
+  |&nbsp;||&nbsp;||&nbsp;||3
+  |&nbsp;||&nbsp;||&nbsp;||4
+  |&nbsp;||&nbsp;||&nbsp;||5
+ |-
+  ![[Image:ife x2epasasin.gif|Epic assassin]]
+  |&nbsp;||&nbsp;||&nbsp;||1
+  |&nbsp;||&nbsp;||&nbsp;||2
+  |&nbsp;||&nbsp;||&nbsp;||3
+  |&nbsp;||&nbsp;||&nbsp;||4
+  |&nbsp;||&nbsp;||&nbsp;||5
+ |-
+  ![[Image:ife x2epblkgrd.gif|Epic blackguard]]
+  |&nbsp;||&nbsp;||1
+  |&nbsp;||&nbsp;||2
+  |&nbsp;||&nbsp;||3
+  |&nbsp;||&nbsp;||4
+  |&nbsp;||&nbsp;||5
+  |&nbsp;||&nbsp;||6
+  |&nbsp;||&nbsp;
+ |-
+  ![[Image:ife x2epdivcha.gif|Epic champion of Torm]]
+  |&nbsp;||&nbsp;||&nbsp;||6
+  |&nbsp;||&nbsp;||&nbsp;||7
+  |&nbsp;||&nbsp;||&nbsp;||8
+  |&nbsp;||&nbsp;||&nbsp;||9
+  |&nbsp;||&nbsp;||&nbsp;||10
+ |-
+  ![[Image:ife x2epdwdef.gif|Epic dwarven defender]]
+  |&nbsp;||&nbsp;||&nbsp;||1
+  |&nbsp;||&nbsp;||&nbsp;||2
+  |&nbsp;||&nbsp;||&nbsp;||3
+  |&nbsp;||&nbsp;||&nbsp;||4
+  |&nbsp;||&nbsp;||&nbsp;||5
+ |-
+  ![[Image:ife x2eppalema.gif|Epic pale master]]
+  |&nbsp;||&nbsp;||1
+  |&nbsp;||&nbsp;||2
+  |&nbsp;||&nbsp;||3
+  |&nbsp;||&nbsp;||4
+  |&nbsp;||&nbsp;||5
+  |&nbsp;||&nbsp;||6
+  |&nbsp;||&nbsp;
+ |-
+  ![[Image:ife x2epdragond.gif|Epic red dragon disciple]]
+  |&nbsp;||&nbsp;||&nbsp;||1
+  |&nbsp;||&nbsp;||&nbsp;||2
+  |&nbsp;||&nbsp;||&nbsp;||3
+  |&nbsp;||&nbsp;||&nbsp;||4
+  |&nbsp;||&nbsp;||&nbsp;||5
+ |-
+  ![[Image:ife x2epshad.gif|Epic shadowdancer]]
+  |&nbsp;||&nbsp;||1
+  |&nbsp;||&nbsp;||2
+  |&nbsp;||&nbsp;||3
+  |&nbsp;||&nbsp;||4
+  |&nbsp;||&nbsp;||5
+  |&nbsp;||&nbsp;||6
+  |&nbsp;||&nbsp;
+ |-
+  ![[Image:ife x2epshiftr.gif|Epic shifter]]
+  |&nbsp;||&nbsp;||1
+  |&nbsp;||&nbsp;||2
+  |&nbsp;||&nbsp;||3
+  |&nbsp;||&nbsp;||4
+  |&nbsp;||&nbsp;||5
+  |&nbsp;||&nbsp;||6
+  |&nbsp;||&nbsp;
+ |-
+  ![[Image:ife x2epwm.gif|Epic weapon master]]
+  |&nbsp;||&nbsp;||1
+  |&nbsp;||&nbsp;||2
+  |&nbsp;||&nbsp;||3
+  |&nbsp;||&nbsp;||4
+  |&nbsp;||&nbsp;||5
+  |&nbsp;||&nbsp;||6
+  |&nbsp;||&nbsp;
+|}
+[[category:character development]]

@@ -1,0 +1,16 @@
+{{feat
+|type=general
+|prereq=[[dexterity]] 13+, [[dodge]], [[mobility]], [[base attack bonus]] +4
+|reqfor=[[whirlwind attack]], [[improved whirlwind attack]], [[weapon master]]
+|desc=Enemies do not get [[attack of opportunity|attacks of opportunity]] against the character when the character is moving around in combat.
+|use=automatic
+|icon=ife_x1spatt.gif
+|bonus1=champion of Torm
+|bonus2=fighter
+}}
+
+==Notes==
+
+*Added in the [[expansion pack]]s.
+*Many players think the [[tumble]] skill is a better way to avoid these attacks of opportunity, because it also provides an [[armor class]] bonus. However, this feat can be useful for those who do not have the [[skill point]]s to spare or who have a high [[armor check penalty]].
+* This ability is useful for positioning oneself for a more successful whirlwind attack.

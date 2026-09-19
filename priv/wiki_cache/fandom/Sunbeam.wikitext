@@ -1,0 +1,36 @@
+{{spell
+|icon=is_sunbeam.gif
+|clericlevel=8
+|druidlevel=8
+|domain=sun
+|domainlevel=7
+|innatelevel=<strike>8</strike> 7
+|school=[[evocation]]
+|components=VS
+|range=m
+|area=colossal
+|save=[[reflex]] negates
+|spellresistance=yes
+|immunity=''divine''
+|duration=3 [[round]]s
+|line=Sunshine
+|line3=searing light
+|line7=sunbeam
+|line8=sunburst
+|counters=<del>[[create greater undead]]</del>
+|desc=The caster summons a globe of divine radiance to blind and burn those within the area of effect. [[Undead]] take 1[[d6]] points of [[divine damage]] per caster level, to a maximum of 20d6. All other monster types take 3d6 points of divine damage, and are [[blind]]ed for 3 rounds. A successful reflex [[saving throw|save]] halves the damage for undead and voids blindness for others.}}
+
+== Notes ==
+
+* The official spell description lacks a descriptor, but the saves are made versus divine.
+* There are two reflex saving throws. Every creature makes the first one (at full DC) to avoid being blind. If and only if this save is successfully made a second reflex save may be made (at 0 DC with evasion/improved evasion factored in) to halve the damage.
+* There is a bug in the script such that if there is at least one living creature in the area, all creatures gotten by the script after that one will only be subject to 3d6 damage (as living). Because the delays are randomly between 1 and 2 seconds, the order that the damage is applied may be different than the order the script gets each creature.
+* The innate level used by the game is 7, even though the in-game description reports it as 8.
+* Due to a .2da bug, ''create greater undead'' is not an additional [[counterspell]] of this spell.
+
+== Custom content notes ==
+
+* ''script:'' <code>nw_s0_Sunbeam</code>
+
+==External Links==
+* {{FRW}}

@@ -1,0 +1,80 @@
+This '''spell school list''' is a quick reference of which [[ranger]] [[spell]]s fall into which [[spell school]]s, broken down by [[spell level]].
+
+== Abjuration ==
+
+<u>Level 1</u> 
+* [[Resist elements]]
+
+<u>Level 2</u>
+* [[Protection from elements]]
+
+<u>Level 4</u>
+* [[Freedom of movement]]
+
+== Conjuration ==
+
+<u>Level 1</u>
+* [[Cure light wounds]]
+* [[Grease]]
+* [[Summon creature I]]
+
+<u>Level 2</u>
+* [[Summon creature II]]
+
+<u>Level 3</u>
+* [[Cure moderate wounds]]
+* [[Neutralize poison]]
+* [[Remove disease]]
+* [[Summon creature III]]
+
+<u>Level 4</u>
+* [[Cure serious wounds]]
+* [[Summon creature IV]]
+
+== Divination ==
+
+Rangers have no divination spells.
+
+== Enchantment ==
+
+<u>Level 2</u>
+* [[Hold animal]]
+* [[Sleep (spell)|Sleep]]
+
+<u>Level 3</u>
+* [[Aid]]
+
+== Evocation ==
+
+<u>Level 3</u>
+* [[Invisibility purge]]
+
+== Illusion ==
+
+Rangers have no illusion spells.
+
+== Necromancy ==
+
+Rangers have no necromancy spells.
+
+== Transmutation ==
+
+<u>Level 1</u>
+* [[Camouflage]]
+* [[Entangle (spell)|Entangle]]
+* [[Magic fang]]
+* [[Ultravision]]
+
+<u>Level 2</u>
+* [[Cat's grace]]
+* [[One with the land]]
+
+<u>Level 3</u>
+* [[Blade thirst]]
+* [[Greater magic fang]]
+
+<u>Level 4</u>
+* [[Mass camouflage]]
+* [[Polymorph self]]
+[[category:spell schools| Spell school list (ranger)]]
+[[category:ranger spells| Spell school list]]

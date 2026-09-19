@@ -1,0 +1,30 @@
+{{spell
+|icon=is_acidfog.gif
+|magelevel=6
+|domain=destruction
+|domainlevel=6
+|innatelevel=6
+|school=[[conjuration]]
+|components=VS
+|range=l
+|area=large
+|duration=1 [[round]] / 2 levels
+|save=[[fortitude]]
+|spellresistance=yes
+|immunity=acid
+|desc=Acid fog creates a thick, clinging, greenish cloud. Creatures entering the cloud take 4[[d6]] [[acid damage]]. Creatures inside the cloud must make a fortitude [[saving throw|save]] or have their movement reduced by 50%. Every round a creature spends in the cloud, it suffers 2d6 acid damage.}}
+
+== Notes ==
+
+* In addition to the fortitude save upon entering the cloud (to resist the movement speed decrease), fortitude saves are also made each round a target is inside the acid fog. However, these extra saves serve no purpose; there is no difference between passing and failing them.
+* Damage is rolled once each round, not once per target.
+
+==Custom content notes==
+
+*''Impact script:'' <code>NW_S0_AcidFog</code>
+*''OnEnter script:'' <code>NW_S0_AcidFogA</code>
+*''OnExit script:'' <code>NW_S0_AcidFogB</code>
+*''OnHearbeat script:'' <code>NW_S0_AcidFogC</code>
+==External links==
+* {{FRW}}
+* {{NWN2W|Acid Fog}}

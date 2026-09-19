@@ -1,0 +1,114 @@
+'''Armor class (AC)''' is a number representing a [[creature]]'s ability to avoid being hit for damage in combat. An opponent's [[attack roll]] must equal or exceed the target creature's AC to hit it solidly enough to cause damage.
+
+'''AC = 10 + [[#Armor bonus|armor bonus]] + [[#Shield bonus|shield bonus]] + [[#Dodge bonus|dodge bonus]] + [[#Natural bonus|natural bonus]] + [[#Deflection bonus|deflection bonus]] + [[#Other|other AC]]'''
+
+The average, unarmored peasant has an AC of 10.
+
+== AC types ==
+
+There are five types of armor class bonuses in ''Neverwinter Nights'', and every AC bonus from an [[item property]] or [[effect]] falls into one of these types. ([[Spell]]s, [[feat]]s that must be activated &mdash; excluding expertise &mdash; and the ride [[skill]] are all sources of effect-based AC bonuses.)
+The type of bonus given by a particular effect will usually be mentioned in the description of the effect's source (e.g. the spell).
+The type of bonus given by a particular item property depends on the type of item it is on. (This does not include the base protection provided by armor and shields, as the base protection is not a "bonus", nor is it dependent upon item properties.) The only exception is an indirect bonus (from the [[haste]] property, which is always a dodge bonus).
+
+*[[armor bonus]] - provided by armor (the only thing that can occupy the [[armor slot]]) and bracers (one of two types of items that can occupy the [[gloves or bracers slot]]).
+*[[shield bonus]] - provided by shields (but not other types of items that can occupy the [[off-hand slot]]).
+*[[dodge bonus]] - provided by boots (the only thing that can occupy the [[boots slot]]).
+*[[natural armor bonus]] - provided by amulets (the only thing that can occupy the [[amulet slot]]).
+*[[deflection bonus]] - provided by all other items that can be placed in an [[inventory slot]].
+
+Only dodge bonuses [[stack]], up to a maximum of +20 (net maximum, after including any dodge penalties). For all other types of bonus, the single highest modifier is applied.
+
+When a [[polymorph]] merges item properties, all merged AC bonuses are transferred to the creature [[skin item]]. This converts them to deflection bonuses, which in turn causes them to no longer stack. (The indirect bonus from haste is still an exception.) This is separate from the dodge bonus to AC that might be included as part of the polymorph, but not separate from a deflection bonus that might already be present (before the merge) on the skin item.
+
+== Sources of AC ==
+
+Armor class can come from several sources. Sources that provide the same type of bonus (aside from dodge) do not stack, so some items may render other items (or spells) useless. Sources that provide other types of AC (not one of the five bonuses) stack with everything else, so are always useful.
+
+Below, the various sources of AC are broken down into six categories &mdash; the five types of bonuses and a category for the "other" sources. Each category stacks with the other categories, but only the "other" category stacks within itself with no restrictions. (The dodge bonuses stack among themselves, but are subject to a cap.) The sum of these categories, plus 10, forms a character's total AC.
+However, some of these sources (armor, shield and natural) are excluded when subject to a [[touch attack]], while dodge and dexterity bonuses are lost when [[flat-foot]]ed.
+
+=== Natural bonus ===
+
+Natural bonuses will not stack with each other; the highest one is used.
+Furthermore, these provide no benefit when subject to a touch attack.
+*epic spell: [[epic mage armor]] (+5)
+*item: [[amulet]] AC bonus (+1-20)
+*spell: [[mage armor]] (+1)
+*spell: [[barkskin]] (+3-5)
+*spell: [[shadow shield]] (+5)  
+
+=== Armor bonus ===
+
+Armor bonuses (distinct from the base AC of armor) will not stack with each other; the highest one is used.
+Furthermore, these provide no benefit when subject to a touch attack.
+*epic spell: [[epic mage armor]] (+5)
+*item: [[armor]] AC bonus (+1-20)
+*item: [[bracers]] AC bonus (+1-20)  (distinct from gloves, which share the same item slot)
+*spell: [[mage armor]] (+1)
+*spell: [[magic vestment]] (+1-5) (when targeted on armor)
+
+=== Shield bonus ===
+
+Shield bonuses (distinct from the base AC of shields) will not stack with each other; the highest one is used.
+Furthermore, these provide no benefit when subject to a touch attack.
+*item: [[shield]] AC bonus (+1-20)
+*spell: [[magic vestment]] (+1-5) (when targeted on a shield)
+
+=== Deflection bonus ===
+
+Deflection bonuses will not stack with each other; the highest one is used.
+*epic spell: [[epic mage armor]] (+5)
+*item: [[gloves]] AC bonus (+1-20)  (distinct from bracers, which share the same item slot)
+*item: [[ring]] AC bonus (+1-20)
+*item: [[belt]] AC bonus (+1-20)
+*item: [[helmet]] AC bonus (+1-20)
+*item: [[cloak]] AC bonus (+1-20)
+*item: [[weapon]] AC bonus (+1-20)
+*item: dusty rose [[ioun stone]] (+1)
+*spell: [[shield (spell)|shield]] (+4)
+*spell: [[mage armor]] (+1)
+*spell: [[shield of faith]] (+2-5)
+*spell: [[protection from alignment]] (+2 versus selected alignment)
+*spell: [[aura versus alignment]] (+4 versus selected alignment)
+*spell: [[magic circle against alignment]] (+2 versus selected alignment)
+*spell: [[undeath's eternal foe]] (+4)
+
+=== Dodge bonus ===
+
+Dodge bonuses will stack with each other, but there is a maximum of +20.
+Furthermore, these provide no benefit when caught flat-footed (even if the character has [[uncanny dodge]] or [[defensive awareness]]).
+*effect/item property: [[haste]] (+4)
+*effect: [[polymorph]] (+0-20)
+*epic spell: [[epic mage armor]] (+5)
+*feat: [[bard song]] (+2-7)
+*feat: [[divine shield]] (+1-20)
+*feat: [[defensive stance]] (+4)
+*feat/skill: [[mounted combat]]/[[ride]] (+1-20 if riding a horse)
+*feat: [[shadow evade]] (+1-4)
+*item: [[boots]] AC bonus (+1-20)
+*spell: [[mage armor]] (+1)
+
+=== Other ===
+
+These "other" sources of AC are individual sources that stack together with no restrictions.
+However, some of these (as noted below) do not apply against touch attacks or when flat-footed.
+*ability: [[dexterity]] (+1-122, but limited by the armor's [[maximum dexterity bonus]]) &#42;
+*bonus: Specifications to the dodge AC bonus or penalty (versus alignment, racial type, or damage type) 
+*class: [[monk]] AC bonus from level progression (+1-8) **
+*feat: [[armor skin]] (+2) **
+*feat: [[battle training vs. giants]] (+4 against giant-type enemies)
+*feat: [[bone skin]] (+2-16) **
+*feat: [[dodge]] (+1 against current target or last attacker) &#42;
+*feat: [[draconic armor]] (+1-8) **
+*feat: [[expertise]]/[[improved expertise]] (+5/+10)
+*feat: [[mobility]] (+4 against attacks of opportunity) &#42;
+*feat: [[monk AC bonus]] from [[wisdom]] (+1-122) **
+*feat: [[small stature]] (+1, or more generally the [[size modifier]]: -2 to +2)
+*item: [[armor]] base (+1-8) **
+*item: [[shield]] base (+1-3) **
+*skill: [[tumble]] (+1-8) &#42;
+
+&#42; These sources of AC are normally lost when caught [[flat-foot]]ed. However, the [[uncanny dodge]] and [[defensive awareness]] feats allow the dexterity bonus (only) to be retained.
+
+&#42;&#42; These sources of AC do not apply when subject to a [[touch attack]].
+[[category: game rules]]

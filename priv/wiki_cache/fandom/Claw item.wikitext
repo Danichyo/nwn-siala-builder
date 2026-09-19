@@ -1,0 +1,15 @@
+{{Weapon|imagefile=Claw.JPG
+  |weaponname=Creature slash piercing weapon
+  |weapondescription=A claw item represents a creature's claws.
+  |weight=0.1
+  |cost=0
+  |damage=0
+  |critical=20-20/x2
+  |damagetype=[[piercing-slashing damage|piercing-slashing]]
+  |size=medium
+  |proficiency=[[Weapon proficiency (creature)|creature]]
+  |category=[[Category:creature items]]
+}}
+
+==Toolset==
+* '''Claw item''' are listed under the [[creature item blueprint category]] of the [[item palette]] in the [[toolset]].

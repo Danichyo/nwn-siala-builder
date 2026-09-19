@@ -1,0 +1,20 @@
+{{Grimoire spell|imagename=Is antilife.jpg
+|spellname=Antilife Shell
+|casterlevel=[[Grimoire animal|animal]] 6, [[cleric]] 6, [[druid]] 6
+|innatelevel=6
+|school=[[abjuration]]
+|descriptors=none
+|components=V, S
+|range=personal
+|immunities=none
+|savingthrow=none
+|spellresistance=yes
+|targettype=10 ft. radius emanation, centered on the caster
+|duration=10 [[turn]]s/level
+|description=You bring into being a mobile, hemispherical energy field that prevents the entrance of most types of living creatures.
+
+The effect hedges out [[animal]]s, [[aberration]]s, [[dragon]]s, [[fey]], [[giant]]s, [[humanoid]]s, [[magical beast]]s, [[monstrous humanoid]]s, [[ooze]]s, [[plant]]s, and [[vermin]], but not [[construct]]s, [[elemental]]s, [[outsider]]s, or [[undead]].
+}}
+{{g_animal}}
+{{g_clr}}
+{{g_drd}}

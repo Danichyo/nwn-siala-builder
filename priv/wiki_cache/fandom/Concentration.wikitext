@@ -1,0 +1,19 @@
+[[Image:Isk concen.gif|right|Concentration]]
+Concentration checks are made whenever a character is distracted during the act of casting a spell. It is also used to avoid the effects of the [[taunt]] skill.
+*'''Ability''': [[constitution]]
+
+*'''Classes''': [[bard]], [[blackguard]], [[cleric]], [[druid]], [[dwarven defender]], [[fighter]], [[monk]], [[paladin]], [[pale master]], [[ranger]], [[red dragon disciple]], [[shifter]], [[sorcerer]], [[wizard]]
+
+*'''[[Cross-class skill|Cross-class]]''': yes
+
+*'''[[untrained skill check|Requires training]]''': no
+
+*'''Check''': The [[difficulty class]] to avoid casting failure is equal to 10 + damage received + spell level.
+
+*'''Use''': automatic
+
+==Notes==
+
+*Concentration checks are also made when casting a spell in [[defensive casting]] mode. The difficulty class for this type of check is 15 + spell level. The [[combat casting]] [[feat]] eliminates the -4 penalty if casting defensively within four meters of an enemy.
+*When resisting a taunt, the check is an [[Opposed check|opposed roll]].
+[[Category:skills]]

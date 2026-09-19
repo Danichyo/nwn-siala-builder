@@ -1,0 +1,19 @@
+{{feat
+|epic=yes
+|type=general
+|prereq=21st level, [[diamond soul]]
+|desc=The character gains a +2 to [[spell resistance]]. This feat may be taken multiple times, to a maximum of +20.
+|use=automatic
+|icon=ife_x2imspris1.gif
+|bonus1=monk
+}}
+
+== Notes ==
+*Requires [[Hordes of the Underdark]].
+*This feat [[stack]]s with ''diamond soul'' for a maximum possible spell resistance of 70.
+*A monk who acquires ''improved spell resistance'' multiple times can become almost untouchable with spells as spell resistance reducing effects (such as [[breach]]es and [[nature's balance]]) have no effect on this type of spell resistance. Obtaining a spell resistance of 67 will cause the monk to resist all spells (that allow resistance) cast by a level 40 caster, even one with [[epic spell penetration]].
+
+==Custom content notes==
+*A custom class must have this feat in their feat list, or that class will not be able to select it as a general feat.
+
+[[category:feats restricted by class, epic]]

@@ -1,0 +1,26 @@
+[[Image:Dwarf.jpg|left|Dwarf]]
+'''Dwarves''' are known for their skill in warfare, their ability to withstand physical and magical punishment, their hard work, and their capacity for drinking [[ale]]. Dwarves are slow to jest and suspicious of strangers, but they are generous to those who earn their trust. They stand just 4 to 4 1/2 feet tall, but are broad and compactly built, almost as wide as they are tall. Dwarven skin varies from deep tan to light brown, and their hair is black, gray, or brown. Dwarven men value their beards highly.
+
+Dwarven [[ability]] adjustments: +2 [[Con]], -2 [[Cha]]
+
+[[Favored class]] ([[Fighter]]): A [[Class#Multiclassing|multiclass]] dwarf's fighter class does not count when determining whether he suffers an [[Multiclass penalty|XP penalty for multiclassing]].
+
+==Special abilities==
+*[[Stonecunning]]: +2 racial bonus on [[Search]] checks made in subterranean areas.
+*[[Darkvision]]: Dwarves are able to see in the dark.
+*[[Hardiness vs. poisons]]: +2 racial bonus on [[saving throw]]s against [[poison]]s.
+*[[Hardiness vs. spells]]: +2 racial bonus on saving throws against [[spell]]s.
+*[[Battle training vs. orcs|Offensive training vs. orcs]]: +1 racial bonus on [[attack roll]]s against [[orc]]s.
+*[[Battle training vs. goblins|Offensive training vs. goblinoids]]: +1 racial bonus on attack rolls against [[goblinoid]]s ([[goblin]]s, [[hobgoblin]]s, and [[bugbear]]s).
+*[[Battle training vs. giants|Defensive training vs. giants]]: +4 dodge bonus to [[armor class|AC]] against [[giant]]s.
+*[[Skill affinity (lore)]]: +2 racial bonus to [[lore]] checks.
+
+==PC default biography==
+You left your mountain home seeking excitement in the human lands. The honor of your clan means everything to you, and the desire to earn the respect of your people motivates you to deeds of valor.
+
+==Notes==
+*Often stereotyped as gruff heavy-drinkers with a general barely-contained hatred of goblins and [[elf|elves]].
+*The stereotypical "dwarven accent" is one of the variants of Scottish accents.
+
+[[Category:Races]]
+[[Category:playable races]]

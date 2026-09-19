@@ -1,0 +1,18 @@
+
+{{otheruses|the feat|the spell|Create undead}}
+'''See also:''' [[summon undead]]
+{{feat
+|type=class
+|prereq=[[blackguard]] 3
+|desc=A blackguard may summon a [[ghast (summon)|ghast]] once per day. At seventh level, this ability improves and a [[doom knight]] is summoned instead.
+|use=selected
+|icon=is_crundead.gif
+|class1=blackguard
+}}
+
+==Notes==
+*Added in the [[expansion pack]]s.
+
+==Custom content notes==
+*''script:'' <code>x0_s2_BlkDead.nss</code>
+[[category:summoning]]

@@ -1,0 +1,19 @@
+{{spell
+|icon=is_x1elejol.gif
+|magelevel=0
+|innatelevel=0
+|school=[[evocation]]
+|components=VS
+|range=m
+|area=single creature or object
+|save=none
+|spellresistance=yes
+|immunity=electricity
+|duration=instant
+|desc=The caster does 1[[d3]] points of [[electrical damage]] to a target.}}
+
+==Notes==
+*Added in the [[expansion pack]]s.
+
+==Custom content notes==
+*''script:'' <code>x0_s0_ElecJolt.nss</code>

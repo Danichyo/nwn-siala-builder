@@ -1,0 +1,56 @@
+[[Image:Ife_extend.gif|right|Extend spell]]
+[[Image:Gui_extend.png|right|Extended indicator]]
+{{feat
+|type=metamagic
+|prereq=ability to cast 1st level spells
+|desc=Extended spells have their [[duration]] doubled, lasting twice as long as normal.
+|use=An extended spell occupies a [[spell slot]] one level higher than normal. Spells with a duration of instantaneous or permanent are not affected.
+|bonus1=wizard
+}}
+
+==Notes==
+*The following spells have a duration other than "instantaneous" or "permanent", yet cannot be extended with this feat. This list excludes level 9 spells, as those cannot be extended due to the lack of spell slots above level 9.
+**[[Enervation]]
+**[[Greater shadow conjuration]]
+**[[Melf's acid arrow]]
+**[[Shades]]
+**[[Shadow conjuration]]
+**[[Shelgarn's persistent blade]]
+**[[Sunbeam]]
+**[[True strike]]
+*The following spells have a duration of "instantaneous", yet still produce effects with a duration. In other words, these spells are not affected by this feat, even though it may seem to some that they should be extendable. (Again, level 9 spells excluded.)
+**[[Balagarn's iron horn]]
+**[[Color spray]]
+**[[Gedlee's electric loop]]
+**[[Great thunderclap]]
+**[[Greater spell breach]]
+**[[Gust of wind]]
+**[[Hammer of the gods]]
+**[[Horizikaul's boom]]
+**[[Lesser spell breach]]
+**[[Nature's balance]]
+**[[Poison (spell)|Poison]]
+**[[Power word, stun]]
+**[[Prismatic spray]]
+**[[Quillfire]]
+**[[Sound burst]]
+**[[Vampiric touch]]
+**[[Word of faith]]
+*The following spells can be cast with this feat, but with no change to the spell.
+**[[Find traps]]
+**[[Stone to flesh]]
+**[[Vine mine]]
+
+==Builder notes==
+'''Item feat:''' No, but it can be added with custom content.
+
+==Custom content notes==
+'''Removable:''' yes
+
+'''Reusable:''' yes
+
+'''Script:''' hardcoded
+
+*This feat can be added to [[iprp_feats.2da]] and works as an item feat, but note that [[wizard]]s and [[divine]] spellcasters will only need to have the item equipped while preparing their [[spellbook]]s and not during [[rest]]ing or spellcasting. [[Spellhook]]ing can be used to verify that the caster has the [[feat]] if it is used as an item feat. 
+* Whether or not a spell can be cast with this feat is determined by the "MetaMagic" column of <code>[[spells.2da]]</code>. Extend spell is the second bit of this bitfield.
+* Whether or not casting a spell with this feat impacts the results depends on the spell's [[script]]. The key scripting command is <code>[[GetMetaMagicFeat]]</code>.

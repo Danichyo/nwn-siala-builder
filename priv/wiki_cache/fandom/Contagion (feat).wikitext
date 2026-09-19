@@ -1,0 +1,15 @@
+{{feat
+|type=class
+|prereq=[[blackguard]] 7
+|desc=Starting at seventh level, a blackguard may cast [[contagion]].
+|use=selected
+|icon=is_contagion.gif
+|class1=blackguard
+}}
+
+==Notes==
+*Added in the [[expansion pack]]s.
+
+==Custom content notes==
+*''script:'' <code>NW_S0_Contagion.nss</code>
+** This is also the script used by the spell of the same name.

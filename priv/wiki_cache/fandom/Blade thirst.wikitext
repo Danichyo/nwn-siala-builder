@@ -1,0 +1,26 @@
+{{spell
+|icon=is_x2bldethst.gif
+|rangerlevel=3
+|innatelevel=3
+|school=[[transmutation]]
+|components=VS
+|range=t
+|area=creature or slashing weapon
+|save=none
+|spellresistance=no
+|immunity=weapon enchantment
+|duration=<del>1</del> ''2'' [[round]]s / level
+|desc=You grant a [[slashing damage|slashing]] weapon a +3 [[enhancement bonus]]. If targeted on a creature, the spell will enchant the weapon in the primary hand of the target.}}
+
+== Notes ==
+
+* Requires [[Hordes of the Underdark]].
+* This is the only unique [[ranger]] spell.
+* [[Ranged weapon]]s cannot be targeted by this spell.
+* [[Bite item|Bite]] and [[claw item]]s cannot be targeted by this spell (but any other standard slashing melee weapon used as a [[natural weapon]] can be, if the spell is cast on the creature).
+* Contrary to the spell's description this spell lasts for two [[round]]s per level instead of one.
+* This will replace any existing temporary enhancement bonus (e.g. from [[greater magic weapon]]).
+
+== Custom content notes ==
+
+*''script:'' <code>X2_S0_BldeThst</code>

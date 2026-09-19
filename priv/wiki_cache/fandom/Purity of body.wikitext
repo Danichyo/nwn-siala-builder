@@ -1,0 +1,20 @@
+{{feat
+|type=class
+|prereq=[[monk]] 5
+|desc=The monk is immune to all non-magical [[disease]]s.
+|use=automatic
+|icon=ife_purity.gif
+|class=monk
+}}
+
+==Builder notes==
+'''Item feat:''' No, but it can be added with custom content.
+
+==Custom content notes==
+'''Removable:''' yes
+
+'''Reusable:''' yes
+
+'''Script:''' hardcoded
+
+*This feat can be added to [[iprp_feats.2da]] to make it available as an item feat.

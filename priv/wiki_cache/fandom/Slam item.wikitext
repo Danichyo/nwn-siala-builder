@@ -1,0 +1,15 @@
+{{Weapon|imagefile=Slam.JPG
+  |weaponname=Creature bludgeon weapon
+  |weapondescription=A slam item represents a creature's fists.
+  |weight=0.1
+  |cost=0
+  |damage=0
+  |critical=20-20/x2
+  |damagetype=[[bludgeoning damage|bludgeoning]]
+  |size=medium
+  |proficiency=[[Weapon proficiency (creature)|creature]]
+  |category=[[Category:creature items]]
+}}
+
+==Toolset==
+* '''Slam item''' are listed under the [[creature item blueprint category]] of the [[item palette]] in the [[toolset]].

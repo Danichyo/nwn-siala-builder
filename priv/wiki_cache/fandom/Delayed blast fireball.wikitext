@@ -1,0 +1,23 @@
+{{spell
+|icon=is_delfireball.gif
+|magelevel=7
+|innatelevel=7
+|school=[[evocation]]
+|components=VS
+|range=m
+|area=huge
+|save=[[reflex]] 1/2
+|spellresistance=yes
+|immunity=fire
+|duration=1 [[round]] / <strike>3</strike> ''2'' levels
+|line=Fireballs
+|line3=fireball
+|line7=delayed blast fireball
+|desc=The caster creates a small, magical zone that can detect the passage of enemy creatures. When the field is activated, it explodes, doing 1[[d6]] points of [[fire damage]] per caster level to all within the [[area of effect]], to a maximum of 20d6.}}
+
+==Notes==
+* Though the description mentions "enemy" creatures, the spell uses the [[area of effect#Targeting|standard hostile]] scheme for triggering. So, the caster or the caster's allies can trigger the explosion, depending on [[PvP setting|PvP]] and [[difficulty setting]]s.
+
+==Custom content notes==
+*''script:'' <code>NW_S0_DelFirebal.nss</code>
+*''OnEnter script:'' <code>NW_S0_DelFireA.nss</code>

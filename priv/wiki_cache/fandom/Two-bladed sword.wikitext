@@ -1,0 +1,21 @@
+{{Weapon|imagefile=Two-Bladed sword.jpg
+  |weaponname=Two-bladed sword
+  |weapondescription=The '''two-bladed sword''' is a marriage of concepts forged on the battlefield, combining the quickness and versatility of the [[quarterstaff]] with the edged effectiveness of two fearsome blades.
+  |weight=15
+  |cost=100
+  |damage=1d8/1d8
+  |critical=19-20/x2
+  |damagetype=[[slashing damage|slashing]]
+  |size=large
+  |proficiency=[[weapon proficiency (exotic)|exotic]]
+  |category=[[category:double-sided weapons]][[category:bladed weapons]][[category:exotic weapons]]
+}}
+
+==Notes==
+*The two-bladed sword is a [[double-sided weapon]]. As such, using it is implicitly [[dual-wield]]ing, with main hand attacks receiving the full [[strength]] [[modifier]] added to damage while off-hand attacks get half that.
+
+===Previous versions===
+*Prior to 1.69, this weapon weighed 4.4 pounds (a bugged implementation of 30 pounds).
+
+==Toolset==
+* Two-bladed swords are listed under the [[double-sided blueprint category]] of the [[item palette]] in the [[toolset]].

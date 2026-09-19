@@ -1,0 +1,16 @@
+{{Grimoire spell|imagename=Is agscorch.jpg
+|spellname=Aganazzar's Scorcher
+|casterlevel=[[Sorcerer]] / [[Wizard (class)|Wizard]] 2
+|innatelevel=2
+|school=[[Evocation]]
+|descriptors=Fire
+|components=V, S
+|range=Short
+|immunities=Fire
+|savingthrow=None
+|spellresistance=Yes
+|targettype=Single
+|duration=Instantaneous
+|description=The caster blasts his enemies with fiery rays. He may fire one ray, plus one additional ray for every four levels beyond 3rd (to a maximum of three rays at 11th level). Each ray requires a ranged touch attack to hit and deals 4d6 points of fire damage.
+}}
+{{g_sorwiz}}

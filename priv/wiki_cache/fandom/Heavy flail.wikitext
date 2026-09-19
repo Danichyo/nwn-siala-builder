@@ -1,0 +1,68 @@
+{{Weapon|imagefile=Heavy flail.jpg
+  |weaponname=Heavy flail
+  |weapondescription=Derived from a farm implement used for threshing grain, the heavy flail consists of a four-foot wooden shaft attached to a heavy or spiked head by a chain or hinge.
+  |weight=20
+  |cost=15
+  |damage=1d10
+  |critical=19-20/x2
+  |damagetype=[[bludgeoning damage|bludgeoning]]
+  |size=large
+  |proficiency=[[weapon proficiency (martial)|martial]]
+  |category=[[Category:Blunt weapons]] [[Category:Martial weapons]]
+}}
+
+==Notes==
+*Heavy flails are the only bludgeoning weapon in Neverwinter Nights with an extended [[threat range]] (19-20).
+
+==Toolset==
+*Heavy flails are listed under the [[flail blueprint category]] of the [[item palette]] in the [[Toolset]].
+
+== Asp Flail ==
+Even more frightening than this weapon's power in battle are the tales told by survivors of its attack. Witnesses claim that on impact an asp was seen to snake from the flail and add its venomous fangs to the weapon's strike. 
+
+*[[Damage bonus]]: + [[d6]] [[acid damage]]
+*[[Enhancement bonus]]: +1
+*[[Item level restriction|Required level]]: 8
+
+== Flail of Jergal ==
+Jergal was a depraved man who hated life and everything it entailed. Assembling a small army of like-minded mercenaries, he planned to sweep across [[Faerûn]] with weaponry that inflicted [[disease]]s and [[curse]]s upon their victims. Though the campaign started well, it ended quickly when one of the men caught Jergal's foul disease. Within days, Jergal and the others were dead.
+
+*Damage bonus: + d6 [[cold damage]] versus [[good]]
+*Enhancement bonus: +3
+*Required level: 8
+
+== Flail of Stars ==
+A disciple of Alaundo supposedly crafted these exquisite flails, and bards and sages agree that his intention was to craft a weapon for every star in every constellation. Whether he succeeded or not is still undecided.
+
+*Damage bonus: +d6 [[electrical damage]]
+*Enhancement bonus: +2
+*[[On-hit]]: [[slow]] ([[DC]]=14) (75% / 1 [[round]])
+*Required level: 14
+
+== Kintharsta ==
+A performer with the Circus of the Rose, Kintharsta offered a challenge to any member of the audience: to trade blows, their weapon versus his, until he or they conceded. He offered good odds and had many takers, but few could have hoped to win, thanks to the magic of his flail. He was paranoid of being caught without it, and had several copies crafted. Ironically, he was caught with the ringmaster's wife in the one situation he went unarmed, and was murdered with his flail just out of reach.
+
+*Enhancement bonus: +2
+*On-hit: [[blind]]ness (DC=14) (50% / 2 rounds)
+*Required level: 11
+
+== Reaver +1 ==
+This weapon bears the mark of the dwarf [[Marrok]], Master Blacksmith of [[Neverwinter]]'s Shining Knight Arms and Armor. He forged it early in 1373 DR, to aid the heroes who sought to free his quarantined city from the virulent grasp of the so-called [[Wailing Death]].
+
+*Damage bonus: +d6 cold damage
+*Enhancement bonus: +1
+*Required level: 8
+
+== Reaver +2 ==
+This weapon bears the mark of the dwarf [[Barun Silverblade|Barun]], a Master Blacksmith who worked from a makeshift forge in the [[Uthgardt]] village of Beorunna's Well. He forged it late in 1373 DR, to aid the war effort against [[Aribeth|Lady Aribeth the Betrayer]], who was then marching against the northern city of Neverwinter and the Lords' Alliance.
+
+*Damage bonus: +d10 cold damage
+*Enhancement bonus: +2
+*Required level: 15
+
+== Reaver +8 ==
+The chaotic nature of the denizens of the [[elemental plane]] of fire has led to an increased interest in these icy weapons. Despite the dangers of handling such weapons, the increased damage makes reavers perfect for assassinating rivals. Merchants who travel the planes have made massive fortunes smuggling the much-coveted flails.
+
+*Damage bonus: +2d6 cold damage
+*Enhancement bonus: +8
+*Required level: 23

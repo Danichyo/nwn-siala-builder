@@ -1,0 +1,20 @@
+{{spell
+|icon=is_x1flare.gif
+|bardlevel=0
+|druidlevel=0
+|magelevel=0
+|innatelevel=0
+|school=[[evocation]]
+|components=V
+|range=m
+|area=single
+|save=[[fortitude]] negates
+|spellresistance=yes
+|duration=10 [[round]]s
+|desc=A burst of hot light is fired from the caster to one target, making it suffer a -1 penalty to [[attack roll]]s.}}
+
+==Notes==
+*Added in the [[expansion pack]]s.
+
+==Custom content notes==
+*''script:'' <code>X0_S0_Flare.nss</code>

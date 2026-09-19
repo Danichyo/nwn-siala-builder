@@ -1,0 +1,113 @@
+'''Base attack bonus''' ('''BAB''') defines the number of normal [[attacks per round]] a character has, as well as an amount added to the [[attack bonus]] of each of these attacks. It is expressed as a sequence of bonuses, as in "+12/+7/+2", which would mean three attacks per round, with the first attack roll getting +12 from BAB, the second +7, and the third +2.
+BAB is based only on [[base attack]], which in turn is based solely on [[class]]; modifiers from [[strength]], [[feat]]s, etc. do not contribute to the base attack progression.
+
+The first attack in a [[round]] always has a modifier equal to the base attack.
+Up to [[character level]] 20, an additional attack per round is obtained when the lowest bonus in the BAB sequence would otherwise be +6. This additional attack starts with a +1 modifier, which then remains 5 less than the prior modifier.
+Thus for any base attack, the BAB progression is the base attack, followed by a sequence of modifiers decreasing by 5.
+An exception, however, is made for [[monk]]s that are fighting [[unarmed strike|unarmed]] or with a [[kama]]; these characters use the special [[unarmed base attack bonus]] progression instead. (In brief, monks use -3 instead of -5.)
+In either case, though, additional attacks are not gained after level 20. The bonuses continue to increase, but the number of bonuses is fixed at what it was at level 20.
+
+{|border="0" cellpadding="15" style="margin-left:auto; margin-right:auto" <!-- two tables, side-by-side -->
+|+ Base attack and BAB
+|
+{|class="centertable" style="text-align:center"
+ ! Base attack !! BAB
+|-
+ |0|| +0
+|-
+ |1|| +1
+|-
+ |2|| +2
+|-
+ |3|| +3
+|-
+ |4|| +4
+|-
+ |5|| +5
+|-
+ |6|| +6/+1
+|-
+ |7|| +7/+2
+|-
+ |8|| +8/+3
+|-
+ |9|| +9/+4
+|-
+ |10|| +10/+5
+|}
+|
+{|class="centertable" style="text-align:center"
+ ! Base attack !! BAB
+|-
+ |11||+11/+6/+1
+|-
+ |12||+12/+7/+2
+|-
+ |13||+13/+8/+3
+|-
+ |14||+14/+9/+4
+|-
+ |15||+15/+10/+5
+|-
+ |16||+16/+11/+6/+1
+|-
+ |17||+17/+12/+7/+2
+|-
+ |18||+18/+13/+8/+3
+|-
+ |19||+19/+14/+9/+4
+|-
+ |20||+20/+15/+10/+5
+|-
+ |epic|| add to row for level 20 BA
+|}
+|}
+
+While individual class levels do not matter beyond their contribution to base attack, the following table may be a useful reference for some.
+
+{|class="centertable" style="text-align:center"
+|+ BAB for single-classed characters
+! Level !! Combat class BAB !! Middle class BAB !! Non-combat class BAB
+|-
+ |1||+1||+0||+0
+|-
+ |2||+2||+1||+1
+|-
+ |3||+3||+2||+1
+|-
+ |4||+4||+3||+2
+|-
+ |5||+5||+3||+2
+|-
+ |6||+6/+1||+4||+3
+|-
+ |7||+7/+2||+5||+3
+|-
+ |8||+8/+3||+6/+1||+4
+|-
+ |9||+9/+4||+6/+1||+4
+|-
+ |10||+10/+5||+7/+2||+5
+|-
+ |11||+11/+6/+1||+8/+3||+5
+|-
+ |12||+12/+7/+2||+9/+4||+6/+1
+|-
+ |13||+13/+8/+3||+9/+4||+6/+1
+|-
+ |14||+14/+9/+4||+10/+5||+7/+2
+|-
+ |15||+15/+10/+5||+11/+6/+1||+7/+2
+|-
+ |16||+16/+11/+6/+1||+12/+7/+ 2||+8/+3
+|-
+ |17||+17/+12/+7/+2||+12/+7/+2||+8/+3
+|-
+ |18||+18/+13/+8/+3||+13/+8/+3||+9/+4
+|-
+ |19||+19/+14/+9/+4||+14/+9/+4||+9/+4
+|-
+ |20||+20/+15/+10/+5||+15/+10/+5||+10/+5
+|}
+[[category:game rules]]
+[[category:character development]]

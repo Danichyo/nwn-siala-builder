@@ -1,0 +1,21 @@
+{{spell
+|icon=is_fingdeath.gif
+|druidlevel=8
+|magelevel=7
+|innatelevel=7
+|school=[[necromancy]]
+|components=VS
+|range=s
+|area=single
+|save=[[fortitude]] partial
+|spellresistance=yes
+|immunity=death
+|duration=instant
+|desc=The target creature must make a fortitude save or die. If they succeed, they still take 3[[d6]] points of [[negative energy damage|damage]], +1 point per caster level.}}
+
+== Notes ==
+
+* Immunity to death magic protects from both the death effect and the negative damage, with no feedback for the latter.
+
+==Custom content notes==
+* ''script:'' <code>NW_S0_FingDeath</code>

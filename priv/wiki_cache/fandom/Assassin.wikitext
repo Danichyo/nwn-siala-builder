@@ -1,0 +1,159 @@
+[[Image:Ir asasin.gif|right|Assassin]]
+'''Description''': ([[prestige class|PRESTIGE CLASS]])
+The assassin is a master of dealing quick, lethal blows. Assassins often function as spies, informants, killers for hire, or agents of vengeance. Their skill in a variety of dark arts allows them to carry out missions of death with shocking, terrifying precision. Unlike the [[blackguard]], the assassin is not evil due to devotion to an evil power, but rather due to a complete lack of morals or ethics.
+
+'''[[Hit dice]]:''' d6
+
+'''Proficiencies:''' [[weapon proficiency (simple)|simple]] weapons, [[armor proficiency (light)|light]] armor
+
+'''[[Skill point]]s:''' 4 + [[int]] modifier
+
+'''Skills:''' [[appraise]], [[bluff]], [[craft armor]], [[craft trap]], [[craft weapon]], [[disable trap]], [[heal (skill)|heal]], [[hide]], [[intimidate]], [[listen]], [[lore]], [[move silently]], [[open lock]], [[pick pocket]], [[search]], [[set trap]], [[spot]], [[tumble]], [[use magic device]]
+
+'''Unavailable feats:'''
+[[brew potion]], [[craft wand]], [[curse song]], [[deflect arrows]], [[divine might]], [[divine shield]], [[extra music]], [[extra turning]], [[lingering song]], [[quicken spell]], [[scribe scroll]], [[spell focus]], [[weapon specialization]]
+<br />These [[general feat]]s cannot be selected when taking a level of assassin.
+
+'''[[Saving throw|Primary saving throw(s)]]:''' [[reflex]]
+
+'''[[Base attack bonus]]:''' +3/4 levels
+
+[[Image:Assassin.jpg|Assassin]]
+
+== Requirements ==
+To qualify as an assassin, a character must fulfill all of the following criteria:
+
+'''Alignment:''' any evil
+
+'''Skills:''' [[hide]] 8 [[rank]]s, [[move silently]] 8 [[rank]]s
+
+== Level progression ==
+
+{| border=2 style="background:#efefef; color:#000000; border-collapse:collapse"
+|- style="background:#c0c0c0"
+!rowspan=2|Lvl
+!rowspan=2|BAB
+!colspan=3|Saves
+!rowspan=2|Feats
+!rowspan=2|HP range
+!rowspan=12 style="background:#ffffff"|&nbsp;
+!rowspan=2|Poison<br />save
+!rowspan=2|Death<br />attack
+|- style="background:#c0c0c0"
+!Fort
+!Ref
+!Will
+|- align=center
+|1st || +0 || +0 || +2 || +0 ||align=left|[[use poison]], [[death attack]]||3-6 || - || 1d6
+|- align=center
+|2nd || +1 || +0 || +3 || +0 ||align=left|[[ghostly visage (feat)|ghostly visage]], [[uncanny dodge]] I, [[poison save]]&nbsp; ||6-12 || +1 ||1d6
+|- align=center
+|3rd || +2 || +1 || +3 || +1 ||align=left| ||9-18 || +1 ||2d6
+|- align=center
+|4th || +3 || +1 || +4 || +1 ||align=left| ||12-24 || +2 ||2d6
+|- align=center
+|5th || +3 || +1 || +4 || +1 ||align=left|[[darkness (feat)|darkness]], uncanny dodge II ||15-30 || +2 ||3d6
+|- align=center
+|6th || +4 || +2 || +5 || +2 ||align=left| ||18-36 || +3 ||3d6
+|- align=center
+|7th || +5 || +2 || +5 || +2 ||align=left|[[invisibility (feat)|invisibility]] ||21-42 || +3 ||4d6
+|- align=center
+|8th || +6 || +2 || +6 || +2 ||align=left| ||24-48 || +4 ||4d6
+|- align=center
+|9th || +6 || +3 || +6 || +3 ||align=left|[[improved invisibility (feat)|improved invisibility]] ||27-54 || +4 ||5d6
+|- align=center
+|10th&nbsp; || +7 || +3 || +7 || +3 ||align=left|uncanny dodge III ||30-60 || +5 ||5d6
+|}
+
+== Tip: becoming an assassin ==
+*[[Rogue]]s, [[monk]]s, [[ranger]]s and [[bard]]s are ideal candidates to become assassins.
+
+[[Image:ife x2epasasin.gif|right|Epic assassin]]
+== Epic assassin ==
+The epic assassin is capable of sliding from shadow to shadow; lying in wait until his target is vulnerable, then striking like a cobra, leaving only a cold corpse behind.
+
+'''Hit die:''' d6
+
+'''Skill points:''' 4 + int modifier
+
+'''Bonus feats:''' The epic assassin gains a bonus feat every four levels. In other words, at levels 14, 18, 22, 26, and 30.
+
+'''Epic bonus feats:''' [[epic reflexes]], [[epic skill focus]] ([[hide]], [[move silently]] only), [[great dexterity]], [[improved combat casting]], [[improved sneak attack]], [[self concealment]], [[superior initiative]]
+
+'''Unavailable epic feats:'''
+[[automatic quicken spell]], [[automatic silent spell]], [[automatic still spell]], [[bane of enemies]],
+[[construct shape]], [[dragon shape]], [[epic spell penetration]],
+[[epic spell: dragon knight]], [[epic spell: epic mage armor]], [[epic spell: epic warding]], [[epic spell: greater ruin]], [[epic spell: hellball]], [[epic spell: mummy dust]],
+[[epic weapon specialization]], [[great smiting]],
+[[improved ki strike 4]], [[improved ki strike 5]],
+[[improved spell resistance]], [[improved stunning fist]],
+[[lasting inspiration]], [[mighty rage]], [[outsider shape]],
+[[planar turning]], [[terrifying rage]], [[thundering rage]], [[undead shape]]
+<br />These general [[epic feat]]s cannot be selected when taking a level of assassin.
+
+=== Epic assassin level progression ===
+
+{| border=2 style="background:#efefef; color:#000000; border-collapse:collapse"
+|- style="background:#c0c0c0"
+
+!&nbsp; Lvl &nbsp;
+!Feats
+!HP range
+!rowspan=21 style="background:#ffffff"|&nbsp;
+!Poison save
+!Death attack
+
+|- align=center
+|11th ||align=left| ||33-66 || +5 ||6d6
+|- align=center
+|12th ||align=left| ||36-72 || +6 ||6d6
+|- align=center
+|13th ||align=left| ||39-78 || +6 ||7d6
+|- align=center
+|14th ||align=left|bonus feat ||42-84 || +7 ||7d6
+|- align=center
+|15th ||align=left| ||45-90 || +7 ||8d6
+|- align=center
+|16th ||align=left| ||48-96 || +8 ||8d6
+|- align=center
+|17th ||align=left| ||51-102 || +8 ||9d6
+|- align=center
+|18th ||align=left|bonus feat ||54-108 || +9 ||9d6
+|- align=center
+|19th ||align=left| ||57-114 || +9 ||10d6
+|- align=center
+|20th ||align=left| ||60-120 || +10 ||10d6
+|- align=center
+|21st ||align=left| ||63-126 || +10 ||11d6
+|- align=center
+|22nd ||align=left|bonus feat ||66-132 || +11 ||11d6
+|- align=center
+|23rd ||align=left| ||69-138 || +11 ||12d6
+|- align=center
+|24th ||align=left| ||72-114 || +12 ||12d6
+|- align=center
+|25th ||align=left| ||75-150 || +12 ||13d6
+|- align=center
+|26th ||align=left|bonus feat ||78-156 || +13 ||13d6
+|- align=center
+|27th ||align=left| ||81-162 || +13 ||14d6
+|- align=center
+|28th ||align=left| ||84-168 || +14 ||14d6
+|- align=center
+|29th ||align=left| ||87-174 || +14 ||15d6
+|- align=center
+|30th ||align=left|bonus feat &nbsp; ||90-180 || +15 ||15d6
+|}
+
+== Special ==
+'''[[Death attack]]:''' improves by +1d6 every two levels after 9th.
+
+'''Poison saving throws:''' an additional +1 for every two class levels after 10th on the assassin's saving throws against poison.
+
+== Notes ==
+*Requires [[Shadows of Undrentide]].
+
+== External resources ==
+*Assassin guides by syarul and undacovacop at [http://www.gamefaqs.com/computer/doswin/game/563552.html GameFAQs NWN page]
+[[category:prestige classes]]
+[[category:classes]]

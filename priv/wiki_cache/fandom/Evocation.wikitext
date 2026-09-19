@@ -1,0 +1,88 @@
+[[Image:Is evoke.gif|right|Evocation]]
+
+Spells from the '''evocation''' [[spell school]] manipulate energy or create something from nothing. Many of the best offensive spells can be found within this school of magic.
+
+'''Prohibited school:''' [[conjuration]]<br />
+'''Prohibited to:''' no one
+
+Specializing in this school brings the notable (in multiplayer) consequence of being unable to use ''[[raise dead]]'' and ''[[resurrection]]'' scrolls.
+
+== Spells ==
+
+The evocation spells are the following, organized by [[innate level]].
+Since [[wizard]]s have a greater interest in spell schools than other classes (because they can specialize in a school), spells that are not wizard spells are ''in italics''.
+
+<u>Level 0</u>
+*[[Electric jolt]]
+*[[Flare]]
+*[[Light]]
+
+<u>Level 1</u>
+*''[[Divine favor]]''
+*[[Horizikaul's boom]]
+*[[Ice dagger]]
+*[[Magic missile]]
+*[[Shelgarn's persistent blade]]
+
+<u>Level 2</u>
+*[[Cloud of bewilderment]]
+*[[Combust]]
+*[[Darkness (spell)|Darkness]]
+*''[[Flame lash]]''
+*[[Flame weapon]]
+*[[Gedlee's electric loop]]
+*''[[Sound burst]]''
+
+<u>Level 3</u>
+*''[[Call lightning]]''
+*''[[Darkfire]]''
+*[[Fireball]]
+*[[Gust of wind]]
+*''[[Invisibility purge]]''
+*[[Lightning bolt]]
+*[[Scintillating sphere]]
+*''[[Searing light]]''
+
+<u>Level 4</u>
+*''[[Divine power]]''
+*[[Elemental shield]]
+*''[[Flame strike]]''
+*''[[Hammer of the gods]]''
+*''[[Holy sword]]''
+*[[Ice storm]]
+*[[Isaac's lesser missile storm]]
+*[[Wall of fire]]
+
+<u>Level 5</u>
+*[[Ball lightning]]
+*[[Bigby's interposing hand]]
+*[[Cone of cold]]
+*[[Firebrand]]
+
+<u>Level 6</u>
+*[[Bigby's forceful hand]]
+*''[[Blade barrier]]''
+*[[Chain lightning]]
+*''[[Dirge]]''
+*[[Isaac's greater missile storm]]
+
+<u>Level 7</u>
+*[[Bigby's grasping hand]]
+*[[Delayed blast fireball]]
+*''[[Fire storm]]''
+*[[Great thunderclap]]
+*[[Prismatic spray]]
+*''[[Word of faith]]''
+
+<u>Level 8</u>
+*[[Bigby's clenched fist]]
+*''[[Earthquake]]''
+*[[Incendiary cloud]]
+*''[[Sunbeam]]''
+*[[Sunburst]]
+
+<u>Level 9</u>
+*[[Bigby's crushing hand]]
+*''[[Implosion]]''
+*[[Meteor swarm]]
+[[Category:Spell schools]]

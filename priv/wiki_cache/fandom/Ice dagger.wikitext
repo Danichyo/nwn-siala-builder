@@ -1,0 +1,21 @@
+{{spell
+|icon=is_x2icedagg.gif
+|magelevel=1
+|innatelevel=1
+|school=[[evocation]]
+|components=VS
+|range=s
+|area=single
+|save=[[reflex]] 1/2
+|spellresistance=yes
+|immunity=cold
+|duration=instantaneous
+|desc=You create a piece of ice that flies toward the target and deals 1[[d4]] points of [[cold damage]] per level (maximum of 5d4).}}
+
+==Notes==
+*Requires [[Hordes of the Underdark]].
+
+==Custom content notes==
+*''script:'' <code>X2_S0_IceDagg.nss</code>
+==External links==
+* {{FRW}}

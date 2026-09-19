@@ -1,0 +1,21 @@
+{{feat
+|type=general
+|prereq=[[spell focus]] (selected [[spell school]])
+|reqfor=[[epic spell focus]]
+|desc=A character becomes even more adept with spells of a particular [[spell school|school of magic]]. The character gains a +4 bonus to the spell save [[DC]] for all spells of the chosen school.
+|use=automatic. This feat may be selected multiple times, but the effects do not [[stack]]. It applies to a different school of magic in each case.
+|icon=ife_x1gsfabj.gif
+|bonus1=bard
+|bonus2=cleric
+|bonus3=druid
+|bonus4=paladin
+|bonus5=ranger
+|bonus6=red dragon disciple
+|bonus7=wizard
+}}
+
+==Notes==
+
+*Added in the [[expansion pack]]s.
+* ''Greater spell focus'' does not apply to spells that are granted as special abilities.
+* ''Greater spell focus'' does not stack with [[spell focus]]; it replaces the previous feat's benefits.

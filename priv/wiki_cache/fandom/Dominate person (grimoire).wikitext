@@ -1,0 +1,22 @@
+{{Grimoire spell|imagename=Is dompers.gif
+|spellname=Dominate Person
+|casterlevel=[[Bard]] 4, [[Sorcerer]] / [[Wizard]] 5, [[Tyranny domain (grimoire)|Tyranny]] 5
+|innatelevel=4
+|school=[[Enchantment]] ([[Spell subschool|Compulsion]])
+|descriptors=Mind-Affecting
+|components=V, S
+|range=Medium
+|immunities=Mind-Affecting
+|savingthrow=[[Will]] negates
+|spellresistance=Yes
+|targettype=Single
+|duration=1 day / level
+|description=The target person temporarily becomes a faithful and loyal servant of the caster.
+}}
+
+== Notes ==
+*{{Grimoire spell change|pagename=[[Dominate person]]}}
+{{g_bard}}
+{{g_sorwiz}}
+{{g_tyranny}}
+{{g_subcom}}

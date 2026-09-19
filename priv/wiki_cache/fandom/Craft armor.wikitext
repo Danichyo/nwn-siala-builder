@@ -1,0 +1,198 @@
+[[Image:Isk x2carm.gif|right|Craft armor]]
+The character knows how to create most types of armor, shields, and helmets from different materials.
+*'''Ability:''' [[intelligence]]
+
+*'''Classes:''' [[arcane archer]], [[assassin]], [[barbarian]], [[bard]], [[blackguard]], [[champion of Torm]], [[cleric]], [[druid]], [[dwarven defender]], [[fighter]], [[Harper scout]], [[monk]], [[paladin]], [[pale master]], [[ranger]], [[red dragon disciple]], [[rogue]], [[shifter]], [[sorcerer]], [[wizard]]
+
+*'''[[Cross-class skill]]:''' yes
+
+*'''[[untrained skill check|Requires training]]:''' no
+
+*'''Check:''' Based on the difficulty to craft this particular item (see in-game crafting menu)
+
+*'''Use:''' Use crafting component
+
+==Notes==
+*Requires [[Hordes of the Underdark]].
+*This skill does not allow the creation of magical armor, aside from a few items made from special materials (adamantine, ironwood, and mithral).
+** Adamantine items gain +2 [[armor class]].
+** Ironwood shields have [[arcane spell failure]] reduced 5% and weight reduced to 40%.
+** Mithral shields gain +2 armor class and [[freedom of movement]].
+** Mithral armor has [[arcane spell failure]] reduced 20% and weight reduced to 40%.
+* If a character has a modified score of 6 points in [[craft weapon]] or craft armor, then creatures, placeables, and doors killed/destroyed by that character can drop basic crafting material based on their appearance (see creature articles for the material dropped).
+*This skill can be used to change the appearance of armor. The DC for the skill check is 5 + the armor's total AC + the highest DC modifier for a changed part. The gold piece cost is a percentage of the item's current value, summed over all parts changed (with a minimum of one gold piece per part). Parts with a "left" and a "right" (e.g. feet) do count as two parts when summing costs. (The total cost can never exceed the item's value + 1, though this rarely occurs as the percentages add up to 93%.) This amount is charged even when the skill check is failed.  The DC modifiers and gold costs (defined in [[des_crft_aparts.2da]]) are shown below:
+{|class="wikitable"
+! Part !! Gold cost !! DC modifier
+|-
+  | Foot ||style="text-align:right"| 2% ||style="text-align:center"| 2
+|-
+  | Shin ||style="text-align:right"| 5% ||style="text-align:center"| 3
+|-
+  | Thigh ||style="text-align:right"| 5% ||style="text-align:center"| 4
+|-
+  | Pelvis ||style="text-align:right"| 5% ||style="text-align:center"| 5
+|-
+  | Torso ||style="text-align:right"| 25% ||style="text-align:center"| 8
+|-
+  | Belt ||style="text-align:right"| 3% ||style="text-align:center"| 2
+|-
+  | Neck ||style="text-align:right"| 2% ||style="text-align:center"| 1
+|-
+  | Forearm ||style="text-align:right"| 5% ||style="text-align:center"| 2
+|-
+  | Bicep ||style="text-align:right"| 5% ||style="text-align:center"| 5
+|-
+  | Shoulder ||style="text-align:right"| 5% ||style="text-align:center"| 4
+|-
+  | Glove ||style="text-align:right"| 2% ||style="text-align:center"| 2
+|}
+: Additionally, this skill can be used modify the "robe" of the armor to "casual", "formal", "sleeveless wizard's robe", "wizard's robe", or none. (The "robe" of the armor is a special appearance that visually replaces multiple parts of the armor.) This modification can be accomplished free of charge (at 0 DC).
+:* [[Plot]] armor cannot be modified. 
+
+*This skill can be used to create armor or an armor component from raw material.  The gold piece cost, DC, and components are given in the below table, with 1/4 the gold cost charged and loss of components if the skill check is failed.
+{|class="wikitable"
+! Armor/crafting material !! DC !! Gold Cost !! Components 
+|-
+| colspan=7 align="center" | Crafting material
+|-
+|||||||
+|- 
+  | Helmet pot || 12 || 1 || bar of iron or bar of steel
+|-
+  | Iron bands || 10 || 3 || bar of iron
+|-
+  | Iron spikes || 12 || 1 || bar of iron
+|-
+  | Leather patches || 11 || 1 || leather hide
+|-
+  | Leather armor torso || 11 || 5 || leather hide
+|-
+  | Oaken shield body || 12 || 3 || plank of oak wood
+|-
+  | Steel chain armor tunic || 14 || 5 || bar of steel
+|-
+  | Steel plated armor chest || 17 || 25 || bar of steel
+|-
+  | Steel shield body || 15 || 15 || bar of steel
+|-
+  | Woolen cloth || 11 || 1 || bolt of cloth
+|-
+  | Woolen cloth pads || 12 || 1 || bolt of cloth
+|-
+|||||||
+|-
+| colspan=7 align="center" | [[Clothing]]
+|-
+|||||||
+|-
+  | Bard's tunic || 11 || 1 || woolen cloth, leather patches
+|-
+  | Monk's outfit || 11 || 1 || woolen cloth, leather patches
+|-
+  | Pale master's robe || 11 || 1 || woolen cloth, woolen cloth pads
+|-
+  | Priest's robe || 12 || 5 || woolen cloth, woolen cloth pads
+|-
+  | Rogue's tunic || 11 || 1 || woolen cloth, leather patches
+|-
+  | Sorcerer's robe || 11 || 1 || woolen cloth, leather patches
+|-
+  | Warrior's tunic || 11 || 1 || woolen cloth, woolen cloth pads
+|-
+  | Wizard's robe || 12 || 1 || woolen cloth, woolen cloth pads
+|-
+  | Woodsman outfit || 11 || 7 || woolen cloth, woolen cloth pads
+|-
+|||||||
+|-
+| colspan=7 align="center" | Light armor
+|-
+|||||||
+|-
+  | [[Padded armor]] || 11 || 2 || woolen cloth, leather patches
+|-
+  | [[Leather armor]] || 12 || 5 || leather armor torso, woolen cloth pads
+|-
+  | [[Hide armor]] || 13 || 7 || leather armor torso, woolen cloth pads
+|-
+  | [[Studded leather armor]] || 13 || 7 || leather armor torso, iron rings or iron spikes
+|-
+|||||||
+|-
+| colspan=7 align="center" | Medium armor
+|-
+|||||||
+|-
+  | [[Chain shirt]] || 14 || 50 || steel chain armor tunic, woolen cloth pads
+|-
+  | [[Scale mail]] || 14 || 50 || steel plated armor chest, leather patches or woolen cloth pads
+|-
+  | Mithral (chain) shirt || 30 || 12,200 || bar of mithral
+|-
+  | [[Breastplate]] || 15 || 75 || steel plated armor chest, leather patches or woolen cloth pads
+|-
+  | [[Chainmail]] || 15 || 75 || steel chain armor tunic, leather patches
+|-
+  | Adamantine chainmail || 28 || 1,700 || bar of adamantine
+|-
+  | Mithral chainmail || 30 || 12,200 || bar of mithral
+|-
+|||||||
+|-
+| colspan=7 align="center" | Heavy armor
+|-
+|||||||
+|-
+  | [[Banded mail]] || 16 || 100 || leather armor torso, iron bands
+|-
+  | [[Splint mail]] || 16 || 100 || steel chain armor tunic, leather patches or woolen cloth pads
+|-
+  | [[Half plate]] || 17 || 300 || steel plated armor chest, leather patches or woolen cloth pads
+|-
+  | [[Full plate]] || 18 || 750 || steel plated armor chest, leather patches or woolen cloth pads
+|-
+  | Adamantine full plate || 30 || 2,800 || bar of adamantine
+|-
+|||||||
+|-
+| colspan=7 align="center" | [[Helmet]]s
+|-
+|||||||
+|-
+  | Fighter helmet || 11 || 2 || helmet pot, feathers
+|-
+  | Paladin helmet || 11 || 2 || helmet pot, feathers
+|-
+  | Adamantine helmet || 25 || 2,500 || bar of adamantine
+|-
+|||||||
+|-
+| colspan=7 align="center" | Shields
+|-
+|||||||
+|-
+  | [[Small shield]] || 11 || 4 || oaken shield body, iron bands
+|-
+  | Ironwood small shield || 21 || 5,200 || ironwood planks
+|-
+  | Mithral (small) shield || 28 || 22,000 || bar of mithral
+|-
+  | [[Large shield]] || 13 || 25 || oaken shield body, iron bands
+|-
+  | Ironwood large shield || 22 || 5,100 || ironwood planks
+|-
+  | [[Tower shield]] || 15 || 50 || steel shield body, iron bands
+|-
+  | Ironwood tower shield || 21 || 5,000 || ironwood planks
+|-
+|}
+
+==Bugs==
+When having robes or armor in sleeveless wizard's robe, casual robe, wizard's robe, or formal robe and try modifying the arms, there is a different note saying you modify like pelvis&mdash;in truth you modify gloves. 
+==Custom content notes==
+*''script:'' <code>X2_S2_Crafting</code>
+*''modification dialogue:'' <code>x0_skill_ctrap</code>
+* The local integer for the module of "X2_L_DO_NOT_ALLOW_MODIFY_ARMOR" is supposed to disallow armor modification when set to a non-zero value, however the script <code>x2_im_can_ca</code> neglects to check for this.
+* Local variables stored on armor will be lost if the skill check to modify is failed, or the crafting is aborted.
+[[Category:skills]]
+[[Category:item powers]]

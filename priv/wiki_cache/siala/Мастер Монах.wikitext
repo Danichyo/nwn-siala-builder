@@ -1,0 +1,91 @@
+[[File:MonkRapier1.PNG|thumb|400px|справа|Статистика персонажа с максимальными характеристиками.]]
+*[[Билды для новичков|Вернуться обратно]]
+==Описание==
+Монахи тренируют годами своё тело и концентрируются на своём духе. Заклинания имеют мало эффекта против мастеров, что выжимают из своего тела максимум пределов. Они не боятся заклинаний и умело выслеживают танцующих в тенях
+
+Преимущества: Высокое сопротивление заклинаний, уверенный показатель брони, возможность метать сюрикены, выводя из тени врагов.
+
+Недостатки: требуется поддержка как магов, так и более живучих персонажей; ограниченное здоровье, низкая атака, уязвимость протия Мастеров Оружия
+
+== Общее ==
+*Бонус атаки: +52 с рапирой, 67 в капе, который сложно достигнуть (50 и 65 с 2 оружиями)
+*Класс брони: 75 после сна. +4 от эффекта Haste, +4 от эффекта заклинания Undeath's Eternal Foe и если есть бард, тоже может дать +7 Dodge AC. В сумме у персонажа может быть 90 брони.
+*Навыки: 120 Spot, 98 Discipline
+*63 Защита от заклинаний, что делает персонажа практически неуязвимым против заклинателей
+*Спасброски: 51 Стойкости / 55 Рефлексов / 49 Воли
+*Может носить оружие во второй руке
+
+== Билд ==
+'''Раса:''' Тёмный Эльф (Elf)
+
+'''Характер''' Законопослушно-злой (Lawful evil)
+
+'''Характеристики:'''
+*Сила - 10
+*Ловкость - 16 (+10 на прокачке)
+*Телосложение - 14
+*Интеллект - 14
+*Мудрость - 14
+*Харизма - 8
+
+Стартовые характеристики персонажа могут подходить также под билды ([[Мастер Ловушек]], [[Мастер Вор]])
+
+'''Навыки:'''
+
+Персонаж имеет в сумме 254 очка навыков к 40 уровню. Обязательные навыки:
+*Hide - 8 (На 20 уровне, чтобы на 21 уровне персонажа можно было взять Ассасина)
+*Move Silently - 8 (На 20 уровне, чтобы на 21 уровне персонажа можно было взять Ассасина)
+Остальные навыки, наиболее важные для данного персонажа к 40 уровню:
+*Spot - 43 (Доступен только на уровнях ассасина)
+*Discipline - 43
+*Heal - 43
+*Tumble - 40
+*Search - 37
+*Use Magic Device - 33 (Доступен только на уровнях ассасина)
+
+
+'''Повышение уровня:'''
+<div style="column-count:2">
+ 
+:1. <span style="color: green;">'''Рейнджер'''</span></p> - Blooded, Владение клинковыми оружиями
+:2. <span style="color: blue;">'''Монах'''</span></p>
+:3. <span style="color: blue;">'''Монах'''</span></p> - Skill focus (Spot)
+:4. <span style="color: blue;">'''Монах'''</span></p>
+:5. <span style="color: blue;">'''Монах'''</span></p>
+:6. <span style="color: blue;">'''Монах'''</span></p> - Weapon Focus (Rapier)
+:7. <span style="color: blue;">'''Монах'''</span></p>
+:8. <span style="color: blue;">'''Монах'''</span></p>
+:9. <span style="color: blue;">'''Монах'''</span></p> - Blind-Fight
+:10. <span style="color: blue;">'''Монах'''</span></p>
+:11. <span style="color: blue;">'''Монах'''</span></p>
+:12. <span style="color: blue;">'''Монах'''</span></p> Improved Critical (Rapier)
+:13. <span style="color: blue;">'''Монах'''</span></p>
+:14. <span style="color: blue;">'''Монах'''</span></p>
+:15. <span style="color: blue;">'''Монах'''</span></p> - Weapon Finesse
+:16. <span style="color: blue;">'''Монах'''</span></p>
+:17. <span style="color: blue;">'''Монах'''</span></p>
+:18. <span style="color: blue;">'''Монах'''</span></p> - Alertness
+:19. <span style="color: blue;">'''Монах'''</span></p>
+:20. <span style="color: blue;">'''Монах'''</span></p> // Заливаем 8 hide 8 move silently для взятия Ассасина
+:21. <span style="color: red;">'''Ассасин'''</span></p> - Epic Skill Focus (Spot) // Заливаем 24 Spot для взятия умения, заливаем 24 Use Magic Device
+:22. '''Воин''' - Epic Weapon Focus (Rapier)
+:23. '''Воин''' - Armor Skin
+:24. <span style="color: blue;">'''Монах'''</span></p> - Improved Spell Resistance I
+:25. <span style="color: blue;">'''Монах'''</span></p>
+:26. <span style="color: blue;">'''Монах'''</span></p>
+:27. <span style="color: blue;">'''Монах'''</span></p> - Improved Spell Resistance II
+:28. <span style="color: blue;">'''Монах'''</span></p>
+:29. <span style="color: blue;">'''Монах'''</span></p> - Improved Spell Resistance III
+:30. <span style="color: blue;">'''Монах'''</span></p> - Improved Spell Resistance IV
+:31. <span style="color: blue;">'''Монах'''</span></p>
+:32. <span style="color: blue;">'''Монах'''</span></p>
+:33. <span style="color: blue;">'''Монах'''</span></p> - Improved Spell Resistance V
+:34. <span style="color: blue;">'''Монах'''</span></p> - Improved Spell Resistance VI
+:35. <span style="color: blue;">'''Монах'''</span></p>
+:36. <span style="color: blue;">'''Монах'''</span></p> - Improved Spell Resistance VII
+:37. <span style="color: blue;">'''Монах'''</span></p> //Заливаем 40 Tumble
+:38. <span style="color: blue;">'''Монах'''</span></p>
+:39. <span style="color: blue;">'''Монах'''</span></p> - Improved Spell Resistance VIII - Improved Spell Resistance IX //Заливаем 42 Discipline (Одно из сопротивлений можно заменить на владение молотами или Epic Skill Focus (Discipnine)
+:40. <span style="color: red;">'''Ассасин'''</span></p> // Заливаем 43 Spot, 33 Use Magic Device
+
+</div>

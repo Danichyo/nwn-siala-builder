@@ -1,0 +1,25 @@
+{{feat
+|type=race
+|prereq=[[halfling]]
+|desc=This feat grants a +1 [[attack roll|attack]] bonus on attacks made with [[throwing weapon]]s.
+|use=automatic
+|icon=ife_goodaim.gif
+}}
+
+== Notes ==
+*The bonus does not count against the +20 [[attack bonus cap]].
+
+==Builder notes==
+'''Item feat:''' No, but it can be added with custom content.
+
+* Technically, this feat grants a bonus just to attacks made with [[dart]]s, [[shuriken]]s, or [[throwing axe]]s. The bonus to attacks made with [[sling]]s is hardcoded to the halfling race (but there is no indication to the player of this).
+* When using the <code>dm_enablecombatdebugging</code> [[console command]], the bonus for slings is listed as "Halfling Sling Bonus", while that for the other throwing weapons is listed as "Good Aim".
+
+==Custom content notes==
+'''Removable:''' yes
+
+'''Reusable:''' yes
+
+'''Script:''' hardcoded
+
+*This feat can be added to [[iprp_feats.2da]] to make it available as an item feat.

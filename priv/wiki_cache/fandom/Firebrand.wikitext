@@ -1,0 +1,25 @@
+{{spell
+|icon=is_x1firebra.gif
+|magelevel=5
+|innatelevel=5
+|school=[[evocation]]
+|components=VS
+|range=m
+|area=<s>colossal</s> ''{{AoE|gargantuan}}''
+|save=[[reflex]] 1/2
+|spellresistance=yes
+|immunity=fire
+|duration=instant
+|desc=Masses of flame (one per caster level) appear and randomly target and hit any hostile creature in the area of effect. If there are more creatures than balls of flame, only the closest targets will be damaged. If there are more balls of flame than creatures, the excess balls of flame disappear. Each ball of flame explodes for 1[[d6]] points of [[fire damage|damage]] per caster level (max 15d6).}}
+
+== Notes ==
+*Added in the [[expansion pack]]s.
+* The area of effect is gargantuan; the spell description incorrectly lists it as colossal.
+* Since the caster is (on some level) guiding the masses of flame to their targets (rather than inflaming an area; c.f. ''[[fireball]]''), this spell will only target creatures the caster can see.
+
+== Custom content notes ==
+*''script:'' <code>x0_s0_Firebrand</code>
+* This spell uses <code>DoMissileStorm()</code> (from the [[script]] <code>x0_i0_spells</code>), which is named for&ndash;and used by&ndash;''Isaac's [[Isaac's lesser missile storm|missile]] [[Isaac's greater missile storm|storms]]''.
+==External links==
+* {{FRW}}
+* {{NWN2W}}

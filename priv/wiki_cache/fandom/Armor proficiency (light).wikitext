@@ -1,0 +1,40 @@
+{{feat
+|type=general
+|reqfor=[[armor proficiency (medium)]], [[armor proficiency (heavy)]]
+|desc=This feat grants the knowledge to make effective use of [[light armor]].
+|use=automatic
+|icon=Ife_armor_l.gif
+|class1=arcane archer
+|class2=assassin
+|class3=barbarian
+|class4=bard
+|class5=blackguard
+|class6=champion of Torm
+|class7=cleric
+|class8=druid
+|class9=dwarven defender
+|class10=fighter
+|class11=Harper scout
+|class12=paladin
+|class13=ranger
+|class14=rogue
+|class15=shadowdancer
+}}
+
+==Notes==
+* All [[class]]es except [[monk]]s, [[pale master]]s, [[purple dragon knight]]s, [[red dragon disciple]]s, [[shifter]]s, [[sorcerer]]s, [[weapon master]]s and [[wizard]]s receive this feat for free.
+
+==Builder notes==
+'''Item feat:''' yes
+
+*Adding this feat to [[armor]] is pointless; it will not have an effect. Armor (not counting robes) can only be equipped by a character who already has this feat.
+*Armor with base [[armor class|AC]] from 1 to 3 counts as light armor and requires this feat to equip.
+
+==Custom content notes==
+'''Removable:''' yes
+
+'''Reusable:''' yes
+
+'''Script:''' [[hardcoded]]
+
+*Removing this feat from the game will not remove the hardcoded requirement for equipping light armor.

@@ -1,0 +1,15 @@
+{{feat
+|epic=yes
+|type=class
+|prereq=[[blackguard]] 15
+|desc=The character's evil and hatred grow strong enough to attract the attention of an [[epic vrock]] when [[summon fiend|summoning a fiendish servant]] from the outer planes. This vile creature is a master in the arts of melee combat and, fueled by its master's evil soul, grows in strength and power as the blackguard gains new [[class level|level]]s.
+|use=automatic
+|icon=is_lsplanar.gif
+|bonus1=blackguard
+}}
+
+== Notes ==
+* Requires [[Hordes of the Underdark]].
+* The epic vrock's [[hit dice]] are four less than the blackguard's class level.
+*This feat can only be taken as a blackguard bonus feat, not as a [[general feat]]. (Hence, it can first be taken at blackguard level 16.)
+[[Category:Epic feats]]

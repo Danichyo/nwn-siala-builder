@@ -1,0 +1,30 @@
+{{spell
+|icon=is_sleep.gif
+|bardlevel=1
+|druidlevel=1
+|rangerlevel=2
+|magelevel=1
+|innatelevel=1
+|school=[[enchantment]]
+|components=VS
+|range=m
+|area=huge
+|save=[[will]] negates
+|spellresistance=yes
+|immunity=mind-affecting
+|duration=3 [[round]]s + 1 / caster level
+|counters=<del>[[clarity]]</del>
+|desc=Causes 4 + 1[[d4]] [[hit dice|HD]] of creatures to fall into a comatose [[sleep|slumber]], beginning with those with the fewest HD. Creatures with 5 or more HD are unaffected.}}
+
+== Notes ==
+
+* An extra two rounds get added to the duration after accounting for [[extend spell]]. This makes the actual duration (in rounds) 5 + 1/level normally and 8 + 2/level extended.
+* If a target is a [[player character]], the [[difficulty setting]] affects the actual duration for that target. Under the "easy" and "very easy" settings, the duration will be divided by 4; under "normal", it will be divided by 2.
+* Due to a .2da bug, ''clarity'' is not an additional [[counterspell]] of this spell.
+
+== Custom content notes ==
+
+*''script:'' <code>NW_S0_Sleep</code>
+
+==External Links==
+* {{FRW|Sleep}}

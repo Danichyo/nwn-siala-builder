@@ -1,0 +1,11 @@
+{{feat
+|type=class
+|prereq=[[Harper scout]] 4
+|desc=The Harper receives a +2 [[saving throw]] bonus against mind-affecting spells.
+|use=automatic
+|icon=ife_x1hlhrt.gif
+|class=Harper scout
+}}
+
+==Notes==
+*Added in the [[expansion pack]]s.

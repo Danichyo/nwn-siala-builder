@@ -1,0 +1,29 @@
+{{spell
+|icon=is_invisib.gif
+|bardlevel=2
+|magelevel=2
+|domain=trickery
+|domainlevel=2
+|innatelevel=2
+|school=[[illusion]]
+|components=VS
+|range=t
+|area=single
+|save=harmless
+|spellresistance=no
+|duration=1 [[turn]] / level
+|counters=<del>[[see invisibility]]</del>
+|line=Invisibility
+|line2=invisibility (spell)
+|line3=invisibility sphere
+|line4=improved invisibility
+|desc=The target creature becomes [[invisible]] and impossible to detect using normal vision. Any attack or spellcasting action taken by the invisible creature will immediately cancel the invisibility.}}
+
+==Notes==
+*Due to a .2da bug, ''see invisibility'' is not an additional [[counterspell]] of ''see invisibility''.
+
+== Custom content notes ==
+* ''script:'' <code>NW_S0_Invisib</code>
+
+==External Links==
+* {{FRW|Invisibility}}

@@ -1,0 +1,12 @@
+'''Type of Feat''' [[General]]
+
+'''Prerequisite''': [[Weapon Focus]] (any [[bow]]), [[Weapon Specialization]] (any bow) or [[Archer]] level 8
+
+'''Specifics''': You receive +1 to your [[attack roll]]s with all bows.
+
+'''Use''': Automatic
+
+==Notes==
+*Added in the [[PRC Expansion Pack]].
+
+[[Category:PRC feats]]

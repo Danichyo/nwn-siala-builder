@@ -1,0 +1,14 @@
+{{feat
+|epic=yes
+|type=general
+|prereq=21st level
+|desc=The character has tremendously fast reflexes and gains a +4 bonus to all [[reflex]] [[save]]s.
+|use=automatic
+|icon=ife_x2epicrefl.gif
+|bonus1=arcane archer
+|bonus2=assassin
+|bonus3=shadowdancer
+}}
+
+==Notes==
+*Requires [[Hordes of the Underdark]].

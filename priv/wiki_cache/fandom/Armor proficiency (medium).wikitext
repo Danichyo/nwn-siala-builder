@@ -1,0 +1,37 @@
+{{feat
+|type=general
+|prereq=[[armor proficiency (light)]]
+|reqfor=[[armor proficiency (heavy)]]
+|desc=This feat grants the knowledge to make effective use of [[medium armor]].
+|use=automatic
+|icon=Ife_armor_m.gif
+|class1=arcane archer
+|class2=barbarian
+|class3=bard
+|class4=blackguard
+|class5=champion of Torm
+|class6=cleric
+|class7=druid
+|class8=dwarven defender
+|class9=fighter
+|class10=paladin
+|class11=ranger
+}}
+
+==Notes==
+* All [[class]]es except [[assassin]]s, [[Harper scout]]s, [[monk]]s, [[pale master]]s, [[purple dragon knight]]s, [[red dragon disciple]]s, [[rogue]]s, [[shadowdancer]]s, [[shifter]]s, [[sorcerer]]s, [[weapon master]]s and [[wizard]]s receive this feat for free.
+
+==Builder notes==
+'''Item feat:''' yes
+
+*Adding this feat to [[armor]] is pointless; it will not have an effect. Heavy and medium armor with this feat can only be equipped by a character who already has this feat. Light armor with this feat cannot be equipped simultaneously with medium armor.
+*Armor with base [[armor class|AC]] from 4 to 5 counts as medium armor and requires this feat to equip.
+
+==Custom content notes==
+'''Removable:''' yes
+
+'''Reusable:''' yes
+
+'''Script:''' [[hardcoded]]
+
+*Removing this feat from the game will not remove the requirement for equipping medium armor.

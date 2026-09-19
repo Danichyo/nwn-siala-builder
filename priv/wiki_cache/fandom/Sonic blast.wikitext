@@ -1,0 +1,20 @@
+{{Grimoire spell|imagename=Is sonicblst.jpg
+|spellname=Sonic Blast
+|casterlevel=[[Sorcerer]] / [[Wizard (class)|Wizard]] 3
+|innatelevel=3
+|school=[[Evocation]]
+|descriptors=Sonic
+|components=V, S
+|range=Short
+|immunities=Sonic
+|savingthrow=[[Reflex]] half
+|spellresistance=Yes
+|targettype=5 ft. wide cylinder to extent of range (25 ft. + 5 ft. / 2 levels)
+|duration=Instantaneous
+|description=The caster generates a deadly beam of sonic energy from his outstretched hand that deals 1d6 points of damage per caster level (maximum 10d6) to each creature within its area.<br>
+<br>
+The ''sonic blast'' may shove creatures in the area back along the path of the spell. Any creature failing its saving throw must make a Strength check (DC equal to damage inflicted by the spell); those who fail find themselves bull rushed directly away from the caster as if by a Large creature with a Strength score equal to the damage the spell inflicted. The spell moves with the target; see the bull rush description in the [[Dungeons and Dragons]] Player's Handbook for details on attacks of opportunity, stability modifiers, etc.<br>
+<br>
+Like a [[Lightning Bolt|''lightning bolt'']], the ''sonic blast'' damages or destroys objects in its path. If the damage caused to an interposing barrier such as a closed door shatters or breaks through it, the sonic blast may continue beyond the barrier if the spell's range permits; otherwise, it stops at the barrier.
+}}
+{{g_sorwiz}}

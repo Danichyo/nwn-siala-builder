@@ -1,0 +1,24 @@
+{{spell
+|icon=is_regen.gif
+|clericlevel=7
+|druidlevel=6
+|innatelevel=7
+|school=[[conjuration]]
+|components=VS
+|range=t
+|area=single
+|save=harmless
+|spellresistance=no
+|duration=1 [[round]] / caster level
+|line=Regeneration
+|line5=monstrous regeneration
+|line7=regenerate (spell)
+|desc=For the duration of the spell, the target creature gains the ability to [[regenerate]] 6 [[hit point]]s every round.}}
+
+== Notes ==
+
+* Unlike most spells, ''regenerate'' does [[stack]] with itself. (Two casts will regenerate 12 hit points per round, reported as two instances of healing 6 hit points.)
+
+== Custom content notes ==
+
+*''script:'' <code>NW_S0_Regen</code>

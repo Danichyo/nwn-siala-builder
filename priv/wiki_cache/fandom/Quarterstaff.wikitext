@@ -1,0 +1,19 @@
+{{Weapon|imagefile=Quarterstaff.jpg
+  |weaponname=Quarterstaff
+  |weapondescription=Usually crafted of hardwood and occasionally shod with metal at either end, the '''quarterstaff''' is a humble [[weapon]] that almost anyone can learn to use effectively.
+  |weight=4
+  |cost=1
+  |damage=1d6
+  |critical=x2
+  |damagetype=[[bludgeoning damage|Bludgeoning]]
+  |size=Large
+  |proficiency=[[Weapon proficiency (druid)|Druid]]<br/>&nbsp;[[Weapon proficiency (monk)|Monk]]<br/>&nbsp;[[Weapon proficiency (rogue)|Rogue]]<br/>&nbsp;[[Weapon proficiency (simple)|Simple]]<br/>&nbsp;[[Weapon proficiency (wizard)|Wizard]]
+  |category=[[Category:Blunt weapons]] [[Category:Simple weapons]]
+}}
+
+==Notes==
+* Quarterstaves can be used by all [[base class]]es.
+*Some NWN manuals and documentation incorrectly list the quarterstaff as a [[double-sided weapon]]. It is a large weapon.
+
+==Toolset==
+* Quarterstaves are listed under the [[double-sided blueprint category]] of the [[Item palette]] in the [[toolset]] (even though they're not double-sided).

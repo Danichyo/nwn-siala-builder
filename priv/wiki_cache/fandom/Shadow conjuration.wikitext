@@ -1,0 +1,37 @@
+<div style="display:block; float:right">[[Image:Is shadconj.gif|right|Shadow conjuration]]<br /><div style="display:block; float:right; text-align:right">
+[[Image:Is darkness.gif|Shadow conjuration, darkness]]
+[[Image:Is invisib.gif|Shadow conjuration, invisibility]]
+[[Image:Is magearm.gif|Shadow conjuration, mage armor]]
+[[Image:Is magmiss.gif|Shadow conjuration, magic missile]]
+[[Image:Is summshad.gif|Shadow conjuration, summon shadow]]
+</div></div>
+{{spell
+|magelevel=4
+|innatelevel=4 (''special'')
+|school=[[illusion]]
+|components=VS
+|range=special
+|area=special
+|save=special
+|spellresistance=yes
+|duration=special
+|line=Shadow conjuration
+|line4=shadow conjuration
+|line5=greater shadow conjuration
+|line6=shades
+|desc=The caster conjures a shadow variant of one of the following spells: [[darkness (spell)|darkness]], [[invisibility (spell)|invisibility]], [[mage armor]], [[magic missile]], or [[summon shadow (shadow conjuration)|summon shadow]].}}
+
+== Notes ==
+
+* "Shadow variant" has no real meaning in Neverwinter Nights; the spells cast via ''shadow conjuration'' are identical to their "normal" versions, except they have a different spell level, and the ''darkness'' version does have both verbal and somatic components. (This would include the spell school with regards to considerations such as [[spell focus]] and [[arcane defense]] if any of the subspells allowed a [[saving throw]].) In particular, the [[innate level]] of the variants is the innate level of the corresponding "normal" spells (4 for ''summon shadow'', 2 for ''darkness'' and ''invisibility'', and 1 for ''mage armor'' and ''magic missile'').
+* One advantage of this spell is having five spells combined into one. For sorcerers, this effectively increases the number of spells known. For wizards, this provides the ability to select which spell to cast at the time of casting.
+* An advantage for wizards who specialized in [[abjuration]] or [[transmutation]] is access to select spells from their prohibited school ([[conjuration]]).
+* The ''mage armor'' subspell is unusual in that multiple castings stack (but only the [[dodge bonus]] stacks).
+* The ''mage armor'' subspell will remove earlier normal ''mage armors''; these two spells will not stack with each other unless the shadow variant is cast first (and even then only the dodge bonuses stack).
+* If a [[potion]] of this spell is made (typically via ''[[brew potion]]''), and if that potion is fed to an [[associate]], then the ''summon shadow'' variant is automatically chosen.
+
+== Custom content notes ==
+
+* ''script:'' Uses the same scripts as the spells this mimics. There is a script named <code>nw_s0_shadconj</code>, but this is not used (nor will it even compile).
+==External links==
+*{{FRW}}

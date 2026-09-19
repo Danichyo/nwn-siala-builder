@@ -1,0 +1,22 @@
+{{Grimoire spell|imagename=Is arcbolt.jpg
+|spellname=Arcane Bolt
+|casterlevel=[[Sorcerer]] / [[Wizard (class)|Wizard]] 1
+|innatelevel=1
+|school=[[Evocation]]
+|descriptors=Force
+|components=V, S
+|range=Medium
+|immunities=None
+|savingthrow=[[Reflex]] half
+|spellresistance=Yes
+|targettype=Single
+|duration=Instantaneous
+|description=A bolt of magical energy shoots forth from the caster's fingertips at its target, dealing 1d6+1 points of damage.<br>
+<br>
+For every two levels of experience past 1st, the caster gains an additional bolt, which is fired at the same time. The caster has two at 3rd level, three at 5th level, four at 7th level, and the maximum of five bolts at 9th level or higher. <br>
+<br>
+This spell counts as ''[[Magic missile|magic missile]]'' for spell, items, or special qualities that protect a target from magic missile, such as a ''brooch of shielding'' and [[Shield (spell)|''shield'']].
+}}
+==Notes==
+This spell differs from ''magic missile'' in that it does more damage per missile, but allows a reflex save for half damage, making it subject to the [[evasion]] and [[Improved evasion|improved evasion]] abilities.
+{{g_sorwiz}}

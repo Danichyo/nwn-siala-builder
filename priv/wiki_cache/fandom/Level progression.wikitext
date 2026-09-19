@@ -1,0 +1,349 @@
+The '''level progression''' described here is the advancement of a [[player character]] based solely on [[character level]], which has a prerequisite number of [[experience point]]s (XP). This advancement includes [[ability]] increases, additional [[general feat]]s, and the maximum [[skill rank]]s, with a lower upper limit for [[cross-class skill]]s.
+This does not include [[bonus feat]]s, as those depend on factors other than character level.
+
+{| class="centertable" style="text-align:center"
+|- 
+!Level
+!Required<br />XP
+!Max skill<br />rank
+!Cross-class<br />max
+!General<br />feats
+!Ability<br />increase
+|- 
+ |1
+ |0
+ |4
+ |2
+ |1st
+ |&nbsp;
+|-
+ |2
+ |1,000
+ |5
+ |2
+ |&nbsp;
+ |&nbsp;
+|-
+ |3
+ |3,000
+ |6
+ |3
+ |2nd
+ |&nbsp;
+|-
+ |4
+ |6,000
+ |7
+ |3
+ |&nbsp;
+ |1st
+|-
+ |5
+ |10,000
+ |8
+ |4
+ |&nbsp;
+ |&nbsp;
+|-
+ |6
+ |15,000
+ |9
+ |4
+ |3rd
+ |&nbsp;
+|-
+ |7
+ |21,000
+ |10
+ |5
+ |&nbsp;
+ |&nbsp;
+|-
+ |8
+ |28,000
+ |11
+ |5
+ |&nbsp;
+ |2nd
+|-
+ |9
+ |36,000
+ |12
+ |6
+ |4th
+ |&nbsp;
+|-
+ |10
+ |45,000
+ |13
+ |6
+ |&nbsp;
+ |&nbsp;
+|-
+ |11
+ |55,000
+ |14
+ |7
+ |&nbsp;
+ |&nbsp;
+|-
+ |12
+ |66,000
+ |15
+ |7
+ |5th
+ |3rd
+|-
+ |13
+ |78,000
+ |16
+ |8
+ |&nbsp;
+ |&nbsp;
+|-
+ |14
+ |91,000
+ |17
+ |8
+ |&nbsp;
+ |&nbsp;
+|-
+ |15
+ |105,000
+ |18
+ |9
+ |6th
+ |&nbsp;
+|-
+ |16
+ |120,000
+ |19
+ |9
+ |&nbsp;
+ |4th
+|-
+ |17
+ |136,000
+ |20
+ |10
+ |&nbsp;
+ |&nbsp;
+|-
+ |18
+ |153,000
+ |21
+ |10
+ |7th
+ |&nbsp;
+|-
+ |19
+ |171,000
+ |22
+ |11
+ |&nbsp;
+ |&nbsp;
+|-
+ |20
+ |190,000
+ |23
+ |11
+ |&nbsp;
+ |5th
+|}
+
+== Epic progression ==
+
+After character level 20, the [[base attack]] and [[base save]] advancements become based on character level, rather than class levels. For these, the "epic bonus" is added to whatever was obtained (on the basis of class) at level 20.
+
+{| class="centertable" style="text-align:center"
+ |-
+  !Level
+  !Required<br />XP
+  !Epic save<br />bonus
+  !Epic attack<br />bonus
+  !Max skill<br />rank
+  !Cross-class<br />max
+  !General<br />feats
+  !Ability<br />increases
+ |-
+  |21
+  |210,000
+  |0
+  |1
+  |24
+  |12
+  |8th
+  |&nbsp;
+ |-
+  |22
+  |231,000
+  |1
+  |1
+  |25
+  |12
+  |&nbsp;
+  |&nbsp;
+ |-
+  |23
+  |253,000
+  |1
+  |2
+  |26
+  |13
+  |&nbsp;
+  |&nbsp;
+ |-
+  |24
+  |276,000
+  |2
+  |2
+  |27
+  |13
+  |9th
+  |6th
+ |-
+  |25
+  |300,000
+  |2
+  |3
+  |28
+  |14
+  |&nbsp;
+  |&nbsp;
+ |-
+  |26
+  |325,000
+  |3
+  |3
+  |29
+  |14
+  |&nbsp;
+  |&nbsp;
+ |-
+  |27
+  |351,000
+  |3
+  |4
+  |30
+  |15
+  |10th
+  |&nbsp;
+ |-
+  |28
+  |378,000
+  |4
+  |4
+  |31
+  |15
+  |&nbsp;
+  |7th
+ |-
+  |29
+  |406,000
+  |4
+  |5
+  |32
+  |16
+  |&nbsp;
+  |&nbsp;
+ |-
+  |30
+  |435,000
+  |5
+  |5
+  |33
+  |16
+  |11th
+  |&nbsp;
+ |-
+  |31
+  |465,000
+  |5
+  |6
+  |34
+  |17
+  |&nbsp;
+  |&nbsp;
+ |-
+  |32
+  |496,000
+  |6
+  |6
+  |35
+  |17
+  |&nbsp;
+  |8th
+ |-
+  |33
+  |528,000
+  |6
+  |7
+  |36
+  |18
+  |12th
+  |&nbsp;
+ |-
+  |34
+  |561,000
+  |7
+  |7
+  |37
+  |18
+  |&nbsp;
+  |&nbsp;
+ |-
+  |35
+  |595,000
+  |7
+  |8
+  |38
+  |19
+  |&nbsp;
+  |&nbsp;
+ |-
+  |36
+  |630,000
+  |8
+  |8
+  |39
+  |19
+  |13th
+  |9th
+ |-
+  |37
+  |666,000
+  |8
+  |9
+  |40
+  |20
+  |&nbsp;
+  |&nbsp;
+ |-
+  |38
+  |703,000
+  |9
+  |9
+  |41
+  |20
+  |&nbsp;
+  |&nbsp;
+ |-
+  |39
+  |741,000
+  |9
+  |10
+  |42
+  |21
+  |14th
+  |&nbsp;
+ |-
+  |40
+  |780,000
+  |10
+  |10
+  |43
+  |21
+  |&nbsp;
+  |10th
+|}
+[[category:character development]]

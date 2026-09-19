@@ -1,0 +1,20 @@
+{{feat
+|type=class
+|prereq=[[wizard]] 1, [[sorcerer]] 1
+|desc=A character with this feat may [[summon]] a [[familiar]] once per day. If the familiar dies, the character suffers 1[[d6]] [[magical damage]], but may summon the familiar again on the following [[day]].
+|use=selected
+|icon=ife_familiar.gif
+|class1=sorcerer
+|class2=wizard
+}}
+
+The available familiars are [[bat (familiar)|bat]], [[eyeball (familiar)|eyeball]], [[faerie dragon (familiar)|faerie dragon]], [[fire mephit (familiar)|fire mephit]], [[hell hound (familiar)|hell hound]], [[ice mephit (familiar)|ice mephit]], [[imp (familiar)|imp]], [[panther (familiar)|panther]], [[pixie (familiar)|pixie]], [[pseudodragon (familiar)|pseudodragon]], and [[raven (familiar)|raven]].
+
+== Notes ==
+
+* This ability targets the summoner (unlike summoning spells, which target the ground).
+* Multiclassing sorcerer and wizard will not give the character two familiars, but those [[class level]]s do [[stack]] when determining the level of the familiar upon summoning (as opposed to the level-up process, where the familiar appears to be the level of the selected class).
+
+== Custom content notes ==
+
+*''script:'' <code>NW_S2_Familiar</code>

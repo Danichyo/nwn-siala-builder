@@ -1,0 +1,21 @@
+{{Grimoire spell|imagename=Is scare.gif
+|spellname=Cause Fear
+|casterlevel=[[Bard]] 1, [[Cleric]] 1, [[Sorcerer]] / [[Wizard (class)|Wizard]] 1
+|innatelevel=1
+|school=[[Necromancy]]
+|descriptors=Fear, Mind-Affecting
+|components=V, S
+|range=Short
+|immunities=Fear, Mind-Affecting
+|savingthrow=[[Will]] negates
+|spellresistance=Yes
+|targettype=Single
+|duration=1d4 [[round]]s
+|description=A target creature with 5 [[hit dice]] or less is afflicted with [[Fear (effect)|fear]] and suffers a -2 morale check to [[attack bonus|attack]], damage and [[saving throw|saving]] rolls.
+}}
+
+== Notes ==
+*{{Grimoire spell change|pagename=[[Scare]]}}
+{{g_bard}}
+{{g_clr}}
+{{g_sorwiz}}

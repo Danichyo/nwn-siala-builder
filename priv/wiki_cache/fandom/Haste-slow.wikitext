@@ -1,0 +1,21 @@
+{{spell
+|icon=Is x2hstslw.jpg
+|innatelevel=3
+|school=[[transmutation]]
+|components=VS
+|range=s
+|area=single
+|save=harmless
+|spellresistance=no
+|duration=1 [[round]] / level
+|desc=The target creature is either [[haste]]d (67% of the time) or [[slow]]ed (the remaining 33% of the time).}}
+
+== Notes ==
+* The slow effect is [[SignalEvent|signaled]] as not harmful, so it will not cause the target to become hostile.
+* Comments in the script ambiguously indicate that the slow effect might have been intended for the caster, rather than the target.
+
+== Custom content notes ==
+* ''script:'' <code>X2_S0_Hasteslow</code>
+* This spell can be assigned a [[spellbook]] by editing <code>[[spells.2da]]</code>.
+
+[[Category:Non-class spells]]

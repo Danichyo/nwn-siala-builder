@@ -1,0 +1,15 @@
+{{feat
+|type=class
+|prereq=[[Harper scout]] 5
+|desc=Once per day, the Harper may make a magical [[potion]].
+|use=selected
+|icon=ife_x1hcraft.gif
+|class1=Harper scout
+}}
+
+==Notes==
+*Added in the [[expansion pack]]s.
+*The potions that can be created are standard [[cat's grace]] and [[eagle's splendor]] potions. Each potion created costs the character 60 gold and 5 [[experience point]]s.
+
+==Custom content notes==
+*''script:'' <code>x0_s2_HarpItem.nss</code>

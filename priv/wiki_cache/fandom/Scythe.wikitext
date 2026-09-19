@@ -1,0 +1,16 @@
+{{Weapon|imagefile=Scythe.jpg
+  |weaponname=Scythe
+  |weapondescription=While obviously resembling the farm implement it is derived from, a '''scythe''' built for war is reinforced to withstand the rigors of combat.
+  |weight=12
+  |cost=18
+  |damage=2d4
+  |critical=x4
+  |damagetype=[[piercing-slashing damage|Piercing & slashing]]
+  |size=Large
+  |proficiency=[[Weapon proficiency (exotic)|Exotic]]
+  |category=[[Category:Exotic weapons]][[Category:Bladed weapons]][[Category:Polearms]]
+}}
+
+==Toolset==
+* Scythes are listed under the [[polearm blueprint category]] of the [[item palette]] in the [[toolset]].
+* The scythe has the largest [[critical multiplier]] of any weapon.

@@ -1,0 +1,22 @@
+{{spell
+|icon=Is x2cucrwdsoth.jpg
+|innatelevel=4
+|school=[[conjuration]]
+|components=VS
+|range=t
+|area=single
+|spellresistance=yes
+|duration=instant
+|desc=The target creature is healed of 4[[d8]] points of damage, + 1 point per caster level to a maximum of +20. Healing spells have a reverse effect when used on [[undead]], causing the targeted undead to take an amount of positive energy damage equal to what the spell normally heals. A successful [[touch attack]] must first be made when this spell is used against undead.}}
+
+== Notes ==
+*The caster suffers 5 [[magical damage]] for casting the spell.
+* When cast with [[maximize spell]], the die roll is incorrectly set to 8 (instead of 32).
+*The damage applied to undead is actually [[negative energy damage]] (a bug).
+*On normal [[difficulty setting]] and easier, curative spells cast on a [[player character]] are automatically maximized, or double the constant part (+1 per caster level) if already maximized.
+
+== Custom content notes ==
+* ''script:'' <code>X2_S0_CureOther</code>
+* This spell can be assigned a [[spellbook]] by editing [[spells.2da]].
+
+[[Category:Non-class spells]]

@@ -1,0 +1,299 @@
+{
+  "_layer": "vanilla",
+  "_generated_by": "mix wiki.parse",
+  "_note": "The 25 racial types a Favored enemy is chosen from. Built from the members of Category:Races minus the articles filed under it, and checked against the count the `Favored enemy` page states in words. The gate is named after the feat (`favored_enemy`), not `selectable`, because the sentence it comes from is about that feat's list and not about the value: `Favored enemy` says only ooze cannot be *selected as a favored enemy*, and no page says ooze stops being a race. A second feat choosing from this dictionary would therefore arrive ungated on purpose — `feat_choices_test.exs` fails until somebody reads a source and decides, which is the honest outcome and the reason this one is not widened.",
+  "_chosen_by": {
+    "feat": "favored_enemy",
+    "gate": "favored_enemy",
+    "available": 24,
+    "total": 25,
+    "excluded": [
+      "ooze"
+    ],
+    "quote": "There are 24 favored enemy races available; of the 25 standard races, only [[ooze]] cannot be selected.",
+    "source": {
+      "wiki": "fandom",
+      "page": "Favored enemy",
+      "revid": 63601,
+      "fetched": "2026-08-01"
+    }
+  },
+  "types": [
+    {
+      "id": "aberration",
+      "name": "Aberration",
+      "favored_enemy": true,
+      "source": {
+        "wiki": "fandom",
+        "page": "Aberration",
+        "revid": 53419,
+        "fetched": "2026-08-01"
+      }
+    },
+    {
+      "id": "animal",
+      "name": "Animal",
+      "favored_enemy": true,
+      "source": {
+        "wiki": "fandom",
+        "page": "Animal",
+        "revid": 71136,
+        "fetched": "2026-08-01"
+      }
+    },
+    {
+      "id": "beast",
+      "name": "Beast",
+      "favored_enemy": true,
+      "source": {
+        "wiki": "fandom",
+        "page": "Beast",
+        "revid": 45655,
+        "fetched": "2026-08-01"
+      }
+    },
+    {
+      "id": "construct",
+      "name": "Construct",
+      "favored_enemy": true,
+      "source": {
+        "wiki": "fandom",
+        "page": "Construct",
+        "revid": 56932,
+        "fetched": "2026-08-01"
+      }
+    },
+    {
+      "id": "dragon",
+      "name": "Dragon",
+      "favored_enemy": true,
+      "source": {
+        "wiki": "fandom",
+        "page": "Dragon",
+        "revid": 68715,
+        "fetched": "2026-08-01"
+      }
+    },
+    {
+      "id": "dwarf",
+      "name": "Dwarf",
+      "favored_enemy": true,
+      "source": {
+        "wiki": "fandom",
+        "page": "Dwarf",
+        "revid": 68574,
+        "fetched": "2026-08-01"
+      }
+    },
+    {
+      "id": "elemental",
+      "name": "Elemental",
+      "favored_enemy": true,
+      "source": {
+        "wiki": "fandom",
+        "page": "Elemental",
+        "revid": 59887,
+        "fetched": "2026-08-01"
+      }
+    },
+    {
+      "id": "elf",
+      "name": "Elf",
+      "favored_enemy": true,
+      "source": {
+        "wiki": "fandom",
+        "page": "Elf",
+        "revid": 68748,
+        "fetched": "2026-08-01"
+      }
+    },
+    {
+      "id": "fey",
+      "name": "Fey",
+      "favored_enemy": true,
+      "source": {
+        "wiki": "fandom",
+        "page": "Fey",
+        "revid": 45704,
+        "fetched": "2026-08-01"
+      }
+    },
+    {
+      "id": "giant",
+      "name": "Giant",
+      "favored_enemy": true,
+      "source": {
+        "wiki": "fandom",
+        "page": "Giant",
+        "revid": 45708,
+        "fetched": "2026-08-01"
+      }
+    },
+    {
+      "id": "gnome",
+      "name": "Gnome",
+      "favored_enemy": true,
+      "source": {
+        "wiki": "fandom",
+        "page": "Gnome",
+        "revid": 65710,
+        "fetched": "2026-08-01"
+      }
+    },
+    {
+      "id": "goblinoid",
+      "name": "Goblinoid",
+      "favored_enemy": true,
+      "source": {
+        "wiki": "fandom",
+        "page": "Goblinoid",
+        "revid": 45718,
+        "fetched": "2026-08-01"
+      }
+    },
+    {
+      "id": "half_elf",
+      "name": "Half-elf",
+      "favored_enemy": true,
+      "source": {
+        "wiki": "fandom",
+        "page": "Half-elf",
+        "revid": 70584,
+        "fetched": "2026-08-01"
+      }
+    },
+    {
+      "id": "half_orc",
+      "name": "Half-orc",
+      "favored_enemy": true,
+      "source": {
+        "wiki": "fandom",
+        "page": "Half-orc",
+        "revid": 68721,
+        "fetched": "2026-08-01"
+      }
+    },
+    {
+      "id": "halfling",
+      "name": "Halfling",
+      "favored_enemy": true,
+      "source": {
+        "wiki": "fandom",
+        "page": "Halfling",
+        "revid": 71190,
+        "fetched": "2026-08-01"
+      }
+    },
+    {
+      "id": "human",
+      "name": "Human",
+      "favored_enemy": true,
+      "source": {
+        "wiki": "fandom",
+        "page": "Human",
+        "revid": 70207,
+        "fetched": "2026-08-01"
+      }
+    },
+    {
+      "id": "magical_beast",
+      "name": "Magical beast",
+      "favored_enemy": true,
+      "source": {
+        "wiki": "fandom",
+        "page": "Magical beast",
+        "revid": 46684,
+        "fetched": "2026-08-01"
+      }
+    },
+    {
+      "id": "monstrous_humanoid",
+      "name": "Monstrous humanoid",
+      "favored_enemy": true,
+      "source": {
+        "wiki": "fandom",
+        "page": "Monstrous humanoid",
+        "revid": 45825,
+        "fetched": "2026-08-01"
+      }
+    },
+    {
+      "id": "ooze",
+      "name": "Ooze",
+      "favored_enemy": false,
+      "note": "As a consequence (and probably an oversight), this race is not an option for a ranger's (or Harper scout's) [[favored enemy]].",
+      "source": {
+        "wiki": "fandom",
+        "page": "Ooze",
+        "revid": 68723,
+        "fetched": "2026-08-01"
+      }
+    },
+    {
+      "id": "orc",
+      "name": "Orc",
+      "favored_enemy": true,
+      "source": {
+        "wiki": "fandom",
+        "page": "Orc",
+        "revid": 48077,
+        "fetched": "2026-08-01"
+      }
+    },
+    {
+      "id": "outsider",
+      "name": "Outsider",
+      "favored_enemy": true,
+      "source": {
+        "wiki": "fandom",
+        "page": "Outsider",
+        "revid": 71893,
+        "fetched": "2026-08-01"
+      }
+    },
+    {
+      "id": "reptilian",
+      "name": "Reptilian",
+      "favored_enemy": true,
+      "source": {
+        "wiki": "fandom",
+        "page": "Reptilian",
+        "revid": 47540,
+        "fetched": "2026-08-01"
+      }
+    },
+    {
+      "id": "shapechanger",
+      "name": "Shapechanger",
+      "favored_enemy": true,
+      "source": {
+        "wiki": "fandom",
+        "page": "Shapechanger",
+        "revid": 68707,
+        "fetched": "2026-08-01"
+      }
+    },
+    {
+      "id": "undead",
+      "name": "Undead",
+      "favored_enemy": true,
+      "source": {
+        "wiki": "fandom",
+        "page": "Undead",
+        "revid": 55972,
+        "fetched": "2026-08-01"
+      }
+    },
+    {
+      "id": "vermin",
+      "name": "Vermin",
+      "favored_enemy": true,
+      "source": {
+        "wiki": "fandom",
+        "page": "Vermin",
+        "revid": 71547,
+        "fetched": "2026-08-01"
+      }
+    }
+  ]
+}

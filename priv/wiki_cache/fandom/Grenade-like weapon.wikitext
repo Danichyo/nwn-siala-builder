@@ -1,0 +1,9 @@
+'''Grenade-like weapons''' are items that can be thrown to cause damage in an area, similar to the way a grenade is thrown to create an explosion at the target, typically in a {{AoE|huge}} area. These items are "mundane" in the sense that anyone can use them (neither [[feat]]s nor spellcasting required). Using a grenade-like weapon consists of selecting the item's power (the item need not&mdash;in fact can not&mdash;be equipped) then targeting a location or object. They do not require an empty hand to be used, even though it would be difficult for a real person to throw one item while holding a second item in the same hand.
+
+Most grenade-like weapons serve a secondary purpose as being components for [[craft trap|trap crafting]].
+
+These items were introduced in the [[Shadows of Undrentide]] expansion, with two new grenade-like weapons ([[acid bomb]] and [[fire bomb]]) added with [[Hordes of the Underdark]].
+
+'''See also:'''
+[[:Category:Grenade-like weapons]]
+[[category:weapons| Grenade-like weapon]]
