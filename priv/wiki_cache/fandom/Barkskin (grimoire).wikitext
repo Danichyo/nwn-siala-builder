@@ -1,0 +1,29 @@
+{{Grimoire spell|imagename=Is barkskin.gif
+|spellname=Barkskin
+|casterlevel=[[Druid]] 2, [[Plant domain (grimoire)|Plant]] 2, [[Ranger]] 2
+|innatelevel=2
+|school=[[Transmutation]]
+|descriptors=None
+|components=V, S
+|range=[[touch attack|Touch]]
+|immunities=None
+|savingthrow=Harmless
+|spellresistance=No
+|targettype=Single
+|duration=10 [[turn]]s / level
+|description=Barkskin hardens the target creature's skin, granting a natural armor bonus to Armor Class based on the caster's level:}}
+{|border="1"
+|'''Level'''||'''Bonus'''
+|-
+|1-5||+3
+|-
+|6-11||+4
+|-
+|12+||+5
+|}
+
+== Notes ==
+*{{Grimoire spell change|pagename=[[Barkskin]]}}
+{{g_drd}}
+{{g_plant}}
+{{g_rgr}}

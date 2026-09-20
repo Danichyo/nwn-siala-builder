@@ -1,0 +1,7 @@
+'''Undead''' are the animated remains of the dead, driven by negative energy. Since they do not depend on the functioning of organs, they are immune to [[sneak attack]]s, [[critical hit]]s, [[mind-affecting]] spells, [[paralysis]], [[poison]], and [[disease]]. Since they are already dead, they are immune to [[death magic]], [[level drain]], and [[ability drain]]. Because of their driving force, undead are healed by spells inflicting [[negative energy damage]] (but not by weapons inflicting this [[damage type]] due to game engine limitations). Several undead are vulnerable to [[divine damage]].
+
+[[Cleric]]s, [[paladin]]s and [[blackguard]]s may [[turn undead]], which causes the undead creature either to [[turned|flee in fear]] or be destroyed altogether.
+All classes may use [[garlic]] to gain an advantage (+2 [[attack bonus]]) against undead creatures for a minute.
+
+'''See also:''' [[:Category:Undead]]
+[[category:races]]

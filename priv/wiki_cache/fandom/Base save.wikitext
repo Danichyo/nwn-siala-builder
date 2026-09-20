@@ -1,0 +1,44 @@
+'''Base saves''' are ratings of how capable a creature is at (partially) avoiding certain forms of attack on the basis of [[class]]es obtained. To these are added bonuses (e.g. from [[feat]]s and [[ability|abilities]]) to get a creature's [[saving throw]]s.
+
+Base saves are determined by different methods in the pre-epics ([[character level]] 20 and below) and in the [[epic character|epic]] levels (character level 21 and up). In the pre-epics, the three ratings ([[fortitude]], [[reflex]], and [[will]]) are determined by [[class level]]. The ratings for each of a character's classes are added together to get the character's base saves. Some classes are better at one type of save than others (as described by that class' [[primary saving throw]]s), which can result in an uneven progression in the base saves. Specifically, primary saving throws (high saves) go up +2 at class level 1 and +1 at each even class level, while other saving throws (low saves) go up +1 every third class level.
+
+{|class="compacttable" style="text-align:center"
+ |+ Pre-epic base save progression
+ |- style="font-weight:bold"
+   ! Class level
+   |  1 ||  2 ||  3 ||  4 ||  5 ||  6 ||  7 ||  8 ||  9 || 10
+   | 11 || 12 || 13 || 14 || 15 || 16 || 17 || 18 || 19 || 20
+ |-
+   ! High saves
+   | +2 || +3 || +3 || +4 || +4 || +5 || +5 || +6 || +6 || +7
+   | +7 || +8 || +8 || +9 || +9 || +10|| +10|| +11|| +11|| +12
+ |-
+   ! Low saves
+   | +0 || +0 || +1 || +1 || +1 || +2 || +2 || +2 || +3 || +3
+   | +3 || +4 || +4 || +4 || +5 || +5 || +5 || +6 || +6 || +6
+|}
+
+For example, a level 6 [[barbarian]] / level 4 [[rogue]] has a fortitude save of 5 from the barbarian levels (high save) and 1 from the rogue levels (low save), resulting in a base fortitude save of 6.  This character has a reflex save of 2 from the barbarian levels (low save) and 4 from the rogue levels (high save), resulting in a base reflex save of 6.  The will save is 2 from barbarian levels (low save) and 1 from rogue levels (low save), resulting in a base will save of 3.
+
+After a character reaches (character) level 20, his base saves cease being affected by which classes advance in level. Instead, all three base saves increase +1 at each even ''character'' level (starting at level 22). Thus, an [[epic character]]'s base saves are determined by both his character level and his class levels at level 20. (This is similar to how the [[base attack bonus]] is calculated for epic characters. See also [[epic progression]].)
+
+{| class="centertable" style="text-align:center"
+ |+ Epic base save progression
+ |-
+   ! Character level
+   | 22 || 24 || 26 || 28 || 30 || 32 || 34 || 36 || 38 || 40
+ |-
+   ! Epic base save
+   | +1 || +2 || +3 || +4 || +5 || +6 || +7 || +8 || +9 || +10
+|}
+
+For example, consider a level 16 barbarian / level 14 rogue who had a 12/8 class split at level 20. This character's base fortitude save from pre-epic levels is 10 (8 from twelve barbarian levels and 2 from eight rogue levels). To this is added 5 for his epic levels (character level 30), resulting in a base fortitude save of 15.
+
+== Multiclassing benefits ==
+A character with multiple classes can benefit from higher base saves than a single-classed character. This is because of the +2 to primary saving throws at class level 1. While the base saves of a single-classed character can go up to at most +12 at level 20, the base saves of a character with two classes can go up to +14 (for example, the base fortitude save of a 10/10 fighter/barbarian), and the base saves of a character with three classes can go up to +16 (for example, the base fortitude save of a 8/6/6 fighter/barbarian/ranger).
+
+Multiclassing can also help mitigate a character's lower saves by matching up classes with different primary saving throws. This is particularly of note since most [[base class]]es have only one primary saving throw, resulting in one base save of 12 and two of 6 if that class is the only one taken through level 20. On the other hand, an 8/6/6 fighter/wizard/rogue has base saves of 10 (fortitude), 9 (reflex), and 9 (will) &mdash; a lower highest save, but improved lower saves.
+
+To receive the base save benefits of multiclassing, the additional classes must be taken prior to character level 21.
+[[category:character development]]
+[[category:saving throws| Base save]]

@@ -1,0 +1,21 @@
+{{spell
+|icon=is_sanctuary.gif
+|clericlevel=1
+|innatelevel=1
+|school=[[abjuration]]
+|components=VS
+|range=t
+|area=single
+|save=[[will]] negates
+|spellresistance=no
+|duration=1 [[round]] / level
+|line=Sanctuaries
+|line1=sanctuary
+|line7=greater sanctuary
+|desc=The caster's or the person's, touched by the caster, presence is completely ignored by nearby creatures for the duration of the spell.}}
+
+== Custom content notes ==
+* ''script:'' <code>NW_S0_Sanctuary</code>
+==External links==
+* {{FRW}}
+* {{NWN2W}}

@@ -1,0 +1,25 @@
+{{feat
+|epic=yes
+|type=spell
+|prereq=21st level, [[spell penetration]], [[greater spell penetration]]
+|desc=The character gains a +6 bonus on caster level checks to beat a creature's [[spell resistance]].
+|use=automatic
+|icon=ife_x2epsppntra.gif
+|bonus1=champion of Torm
+|bonus2=cleric
+|bonus3=druid
+|bonus4=pale master
+|bonus5=red dragon disciple
+|bonus6=shifter
+|bonus7=sorcerer
+|bonus8=wizard
+}}
+
+==Notes==
+*Requires [[Hordes of the Underdark]].
+*This feat does not stack with ''greater spell penetration'', even though both feats appear on the [[character sheet]].
+
+==Custom content notes==
+*A custom class must have this feat in their feat list, or that class will not be able to select it as a general feat.
+
+[[category:feats restricted by class, epic]]

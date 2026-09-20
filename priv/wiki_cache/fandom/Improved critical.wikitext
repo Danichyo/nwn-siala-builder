@@ -1,0 +1,79 @@
+{| border=0 cellspacing=2
+|-
+|[[Image:Ife impcrit bsw.gif|right|Improved critical (bastard sword)]]
+|[[Image:Ife impcrit bax.gif|right|Improved critical (battleaxe)]]
+|[[Image:Ife impcrit clu.gif|right|Improved critical (club)]]
+|[[Image:Ife impcrit cre.gif|right|Improved critical (creature)]]
+|[[Image:Ife impcrit dag.gif|right|Improved critical (dagger)]]
+|[[Image:Ife impcrit dar.gif|right|Improved critical (dart)]]
+|[[Image:Ife impcrit dma.gif|right|Improved critical (dire mace)]]
+|[[Image:Ife impcrit dax.gif|right|Improved critical (double axe)]]
+|[[Image:Ife x2crtdwax.gif|right|Improved critical (dwarven waraxe)]]
+|-
+|[[Image:Ife impcrit gax.gif|right|Improved critical (greataxe)]]
+|[[Image:Ife impcrit gsw.gif|right|Improved critical (greatsword)]]
+|[[Image:Ife impcrit hal.gif|right|Improved critical (halberd)]]
+|[[Image:Ife impcrit hax.gif|right|Improved critical (handaxe)]]
+|[[Image:Ife impcrit hxb.gif|right|Improved critical (heavy crossbow)]]
+|[[Image:Ife impcrit hfl.gif|right|Improved critical (heavy flail)]]
+|[[Image:Ife impcrit kam.gif|right|Improved critical (kama)]]
+|[[Image:Ife impcrit kat.gif|right|Improved critical (katana)]]
+|[[Image:Ife impcrit kuk.gif|right|Improved critical (kukri)]]
+|-
+|[[Image:Ife impcrit lxb.gif|right|Improved critical (light crossbow)]]
+|[[Image:Ife impcrit lfl.gif|right|Improved critical (light flail)]]
+|[[Image:Ife impcrit lha.gif|right|Improved critical (light hammer)]]
+|[[Image:Ife impcrit lbw.gif|right|Improved critical (longbow)]]
+|[[Image:Ife impcrit lsw.gif|right|Improved critical (longsword)]]
+|[[Image:Ife impcrit lma.gif|right|Improved critical (mace)]]
+|[[Image:Ife impcrit mor.gif|right|Improved critical (morningstar)]]
+|[[Image:Ife impcrit sta.gif|right|Improved critical (quarterstaff)]]
+|[[Image:Ife impcrit rap.gif|right|Improved critical (rapier)]]
+|-
+|[[Image:Ife impcrit sci.gif|right|Improved critical (scimitar)]]
+|[[Image:Ife impcrit scy.gif|right|Improved critical (scythe)]]
+|[[Image:Ife impcrit sbw.gif|right|Improved critical (shortbow)]]
+|[[Image:Ife impcrit ssw.gif|right|Improved critical (shortsword)]]
+|[[Image:Ife impcrit shu.gif|right|Improved critical (shuriken)]]
+|[[Image:Ife impcrit sic.gif|right|Improved critical (sickle)]]
+|[[Image:Ife impcrit sli.gif|right|Improved critical (sling)]]
+|[[Image:Ife impcrit spe.gif|right|Improved critical (spear)]]
+|[[Image:Ife impcrit tax.gif|right|Improved critical (throwing axe)]]
+|-
+|[[Image:Ife x2crttri.gif|right|Improved critical (trident)]]
+|[[Image:Ife impcrit 2sw.gif|right|Improved critical (two-bladed sword)]]
+|[[Image:Ife impcrit una.gif|right|Improved critical (unarmed strike)]]
+|[[Image:Ife impcrit wha.gif|right|Improved critical (warhammer)]]
+|[[Image:Ife x2crtwhip.gif|right|Improved critical (whip)]]
+|}
+{{feat
+|type=general
+|prereq=proficiency with the chosen weapon, [[base attack bonus]] +8
+|reqfor=[[overwhelming critical]], [[devastating critical]]
+|desc=Combat ability increases the critical [[threat range]] of a selected weapon by a range equal to the item's base threat range. A [[longsword]] that normally threatens a critical on a roll of 19-20 would now threaten a critical on a roll of 17-20.
+|use=automatic. The threat range of a [[keen]] weapon is already doubled, increasing to triple with this feat. This feat can be selected multiple times, applying to a new weapon category each time.
+|special=[[Halfling]]s and [[gnome]]s are small creatures, and as such they can never use the following large weapons: dire mace, double-bladed sword, doubleaxe, greataxe, greatsword, halberd, heavy flail, and scythe.
+|bonus1=champion of Torm
+|bonus2=fighter
+}}
+
+== Notes ==
+
+* [[Paladin]]s can choose ''improved critical'' in the [[whip]] as an [[epic bonus feat]]. This is likely a bug as they cannot select this feat for any other weapon as a bonus feat.
+* The [[creature weapon]] variant of this feat is non-functional; the [[unarmed strike]] variant is used with creature weapons (or any other [[natural weapon]]).
+* There is no variant of this feat for the [[magic staff]].
+
+==Builder notes==
+
+'''Item feat:''' Only ''improved critical (unarmed)''; the rest can be added with custom content.
+
+==Custom content notes==
+
+'''Removable:''' yes
+
+'''Reusable:''' yes
+
+'''Script:''' hardcoded
+
+*These [[feat]]s can be added to [[iprp_feats.2da]] to make them available as item feats.
+*New ''improved critical'' feats for new weapon types cannot be created, but existing weapon types can be overwritten.

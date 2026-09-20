@@ -1,0 +1,24 @@
+'''Creature weapons''' are special items that represent the claws, bite, sting, etc. of a [[creature]]. These items can only be used as [[natural weapon]]s.
+The four types of creature weapons are called "[[bite item|bite]]", "[[claw item|claw]]", "[[gore item|gore]]", and "[[slam item|slam]]", indicating [[slashing damage]], [[piercing-slashing damage]], [[piercing damage]], and [[bludgeoning damage]], respectively. (These names are not shown to players, so, for example, the "gore" item is used with no problems for stings and other piercing attacks.)
+{{Weapon
+|weaponname=Creature weapon
+|weapondescription=This is the natural attack of a creature.
+|weight=0
+|cost=n/a
+|damage=varies
+|critical=20/x2
+|damagetype=
+[[slashing damage|slashing]] (bite)<br />
+[[piercing-slashing damage|piercing-slashing]] (claw)<br />
+[[piercing damage|piercing]] (gore)<br />
+[[bludgeoning damage|bludgeoning]] (slam)
+|size=n/a
+|proficiency=[[Weapon proficiency (creature)|creature]]
+|category=
+}}
+
+Many creatures have multiple creature weapons. When this occurs, it has no impact on the number of [[attacks per round]] (unlike [[dual-wield]]ing). The usual number of attacks per round occur, and for each attack, one of the creature weapons is randomly chosen, with a bias towards (usually) claw attacks.
+
+Since creature weapons are only used as natural weapons, they always receive the natural weapon's special treatment when trying to overcome [[damage reduction]]. A creature with damage reduction is able to pierce (ignore) damage reduction of others when using its creature weapons, provided the power of the other's damage reduction is the same or lower than the attacking creature's. This applies even when the creature weapons have no [[attack bonus (item property)|attack]] or [[enhancement bonus]]es. For example, the claw attacks of a creature with 10/+5 damage reduction will not be affected by others' damage reduction of X/+5 or lower.
+
+[[Free attack|Free attacks]] that may be applied to creature weapons are treated differently than those used with other weapons.

@@ -1,0 +1,12 @@
+'''Type of Feat''': [[General]]
+
+'''Prerequisites''': [[Dexterity]] 17, [[Base Attack Bonus]] 6, [[Point Blank Shot]], [[Rapid Shot]]
+
+'''Specifics''': You can fire multiple arrows simultaneously against a nearby target (30 feet). You may fire 2 arrows with a -4 penalty. For every 5 points in [[Base Attack Bonus]] you have above +6, you may add an arrow with a cumulative -2 to a maximum of 4 arrows with a cumulative of -8.
+
+'''Use:''': Selected
+
+==Notes==
+*Added in the [[PRC Expansion Pack]]
+
+[[Category:PRC feats]]

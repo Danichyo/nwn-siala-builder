@@ -1,0 +1,25 @@
+{{feat
+|type=class
+|prereq=[[rogue]] 10
+|desc=The rogue deals an additional 2 points of ability score [[strength]] damage when he makes a successful sneak attack.
+|use=automatic
+|icon=ife_cripple.gif
+|bonus1=rogue
+}}
+
+==Notes==
+*''Crippling strike'' does not work with [[ranged weapon]]s.
+*This feat is only available to rogues, and only as a [[bonus feat]], not as a [[general feat]].
+*The effects of this feat [[stack]], with the provision that no ability can be reduced below 3.
+
+==Builder notes==
+'''Item feat:''' No, but it can be added with custom content.
+
+==Custom content notes==
+'''Removable:''' yes
+
+'''Reusable:''' yes
+
+'''Script:''' hardcoded
+
+*This feat can be added to [[iprp_feats.2da]] to make it available as item feat.

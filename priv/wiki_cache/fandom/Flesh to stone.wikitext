@@ -1,0 +1,27 @@
+{{spell
+|icon=is_x1flssto.gif
+|magelevel=6
+|innatelevel=6
+|school=[[transmutation]]
+|components=VS
+|range=m
+|area=single
+|save=[[fortitude]]
+|spellresistance=yes
+|duration=permanent
+|counters=[[stone to flesh]]
+|desc=The subject and all possessions it carries [[petrified|turns into a mindless, inert statue]]. Only a ''[[stone to flesh]]'' spell can restore the subject to normal.}}
+
+== Notes ==
+
+*Added in the [[expansion pack]]s.
+* Under the "Normal" and easier [[difficulty setting]]s, the petrification lasts one [[round]] per [[caster level]] when the target is a [[player character]]. Under the harder settings, and always for non-player characters, the petrification is permanent (although, as usual, all spell effects are removed when the caster rests).
+* A creature whose [[appearance]] is one without flesh &mdash; or is that of a basilisk, cockatrice, medusa, or gorgon &mdash; is immune to this ability, excluding [[custom content]] appearances. (Examples of flesh-less appearances include most golems, all elementals, shadows, and skeletons. Most other skeletal appearances are also immune, with the notable exception of the normal [[lich]].)
+*While the only way to specifically remove the petrification effect is with the ''stone to flesh'' spell, one can kill then [[raise dead|raise]] some victims (in particular, [[player character]]s), as this removes all effects.
+
+== Custom content notes ==
+
+*''script:'' <code>x0_s0_fleshsto</code>
+==External links==
+* {{FRW}}
+* {{NWN2W|Flesh to Stone}}

@@ -1,0 +1,42 @@
+'''See also:''' [[summon greater undead]]
+{{spell
+|icon=is_crgrund.gif
+|clericlevel=8
+|innatelevel=8
+|school=[[necromancy]]
+|immunity=evil
+|components=VS
+|range=s
+|area=point
+|save=none
+|spellresistance=none
+|duration=24 [[hour]]s
+|counters=<del>[[sunbeam]]</del>
+|line=Undead summoning
+|line3=animate dead
+|line6=create undead
+|line8=create greater undead
+|line10=mummy dust
+|desc=The caster [[summon|brings]] a powerful [[undead]] creature into being. The type of undead is based upon the caster's level:}}
+{|class="wikitable"
+!caster level!!summon
+|-
+|align=center|15
+|align=center|[[vampire (summon)|vampire]]
+|-
+|align=center|16-17
+|align=center|[[doom knight]]
+|-
+|align=center|18-19
+|align=center|[[lich (summon)|lich]]
+|-
+| align="center" |20+
+|align=center|[[greater mummy (summon)|greater mummy]]
+|}
+
+==Notes==
+*Due to a .2da bug, ''create greater undead'' is not an additional [[counterspell]] of ''sunbeam''.
+
+==Custom content notes==
+*''script:'' <code>NW_S0_CrGrUnd.nss</code>
+[[category:summoning]]

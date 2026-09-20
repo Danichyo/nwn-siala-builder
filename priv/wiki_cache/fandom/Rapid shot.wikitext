@@ -1,0 +1,19 @@
+{{feat
+|type=general
+|prereq=[[dexterity]] 13+, [[point blank shot]]
+|desc=A character with this [[feat]] gains an extra [[attack per round]] with a [[ranged weapon]] (excluding [[crossbow]]s). When a ''rapid shot'' is attempted, the extra attack is made at the character's highest [[base attack bonus]], but all attacks within the [[round]] suffer a -2 penalty.
+|use=combat mode
+|icon=ife_rapidshot.gif
+|bonus1=champion of Torm
+|bonus2=fighter
+}}
+
+==Builder notes==
+'''Item feat:''' yes
+
+==Custom content notes==
+'''Removable:''' yes
+
+'''Reusable:''' yes
+
+'''Script:''' hardcoded

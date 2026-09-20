@@ -1,0 +1,13 @@
+[[Image:Caltrops.gif|left]]
+'''Caltrops''' resemble large metal jacks with sharpened points rather than balls on the ends of their arms. They can be thrown to cover a small [[area of effect]]. For every [[round]] that a person is standing on the field of caltrops they take 1 point of [[piercing damage]]. One pouch of caltrops can do a total of 25 points of damage.
+
+==Notes==
+* Introduced in the [[expansion pack]]s.
+* [[Flying]] creatures are unaffected.
+
+==Custom content notes==
+*''Impact script:'' <code>x0_s3_caltrop</code>
+*''OnEnter script:'' <code>x0_s3_calen</code>
+*''OnHeartbeat script:'' <code>x0_s3_calhb</code>
+[[Category:Grenade-like weapons]]
+[[Category:Item powers]]

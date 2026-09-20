@@ -1,0 +1,20 @@
+{{feat
+|type=general
+|desc=The character's reflexes are faster than normal, granting him a +2 bonus to all [[reflex]] [[saving throw]]s.
+|use=automatic
+|icon=ife_lightflex.gif
+}}
+
+==Builder notes==
+
+'''Item feat:''' No, but it can be added with custom content.
+
+==Custom content notes==
+
+'''Removable:''' yes
+
+'''Reusable:''' yes
+
+'''Script:''' hardcoded
+
+*This feat can be added to [[iprp_feats.2da]] to make it available as an item feat.

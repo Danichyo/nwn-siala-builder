@@ -1,0 +1,21 @@
+[[Image:Isk movsilent.gif|right|Move Silently]]
+A character may sneak quietly past an enemy.
+*'''Ability''': [[dexterity]]
+
+*'''Classes''': [[arcane archer]], [[assassin]], [[bard]], [[Harper scout]], [[monk]], [[pale master]], [[ranger]], [[rogue]], [[shadowdancer]]
+
+*'''[[Cross-class skill|Cross-class]]''': yes
+
+*'''[[untrained skill check|Requires training]]''': no
+
+*'''Check''': A move silently check is opposed by the listening creature's [[listen]] check. If the character is successful, the opposing creature remains unaware as the character moves.
+
+*'''Special''': [[Hide]] and move silently are combined into a single modal [[stealth]] action. Movement in stealth mode is slower than the normal rate. Wearing armor may incur a [[armor check penalty|penalty]], but low-light can provide a bonus.
+
+*'''Use''': Select the Stealth action from the Special Abilities radial. Invisible creatures automatically enter stealth mode.
+
+==Notes==
+
+*Despite the official description of this skill, invisible characters do not automatically enter stealth mode.
+* For factors affecting a character's ability to successfully use this skill, see [[listen]]. In brief, being silent is easier when standing still and when further away, particularly if there are objects in the way.
+[[Category:Skills]]

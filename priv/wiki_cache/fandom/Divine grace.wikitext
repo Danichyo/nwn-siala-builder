@@ -1,0 +1,23 @@
+{{feat
+|type=class
+|prereq=[[paladin]] 1
+|desc=The paladin adds  [[charisma]] [[ability modifier|bonus]] (if positive) to all [[saving throw]]s.
+|use=automatic
+|icon=ife_divgrace.gif
+|class1=paladin
+}}
+
+==Notes==
+*This feat stacks with [[dark blessing]].
+
+==Builder notes==
+'''Item feat:''' No, but it can be added with custom content.
+
+==Custom content notes==
+'''Removable:''' yes
+
+'''Reusable:''' yes
+
+'''Script:''' hardcoded
+
+*This feat can be added to [[iprp_feats.2da]] to make it available as an item feat.

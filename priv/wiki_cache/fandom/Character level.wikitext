@@ -1,0 +1,9 @@
+'''Character level''' is the sum of the levels for each of a character's [[class]]es (with up to three classes allowed). This is the equivalent of [[hit dice]] for monsters, and in general it is a measure of the power of a character.
+New character levels are earned on the basis of [[experience point]]s, but are not counted until the player completes a [[level-up]].
+
+When ''[[Neverwinter Nights]]'' was first released, [[player character]]s were limited to character level 20, the highest level supported by the core rulebooks for third edition [[Dungeons & Dragons]]. While level 20 is quite an achievement, installing ''[[Hordes of the Underdark]]'' raises this limit to 40, allowing [[epic character|epic]] levels. (The ''[[Shadows of Undrentide]]'' expansion does not affect the level limit.)
+
+''Example:''
+A character who is a [[wizard]] 4 / [[fighter]] 3 / [[rogue]] 2 has a character level of 4 + 3 + 2 = 9.
+
+[[Category: Game rules]]

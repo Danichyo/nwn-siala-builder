@@ -1,0 +1,34 @@
+{{otheruses|the feat|the subspell|Summon shadow (shadow conjuration)}}
+
+{{feat
+|type=class
+|prereq=[[shadowdancer]] 3
+|desc=Once per day the shadowdancer can [[summon]] a [[shadow]]. This shadow is extremely difficult to [[turn undead|turn]] and becomes more powerful as the shadowdancer gains [[class level|level]]s.
+|use=selected
+|icon=ife_x1sshad.gif
+|class=shadowdancer
+}}__NOTOC__
+
+==Notes==
+*Added in the [[expansion pack]]s.
+*The summon lasts for 1 hour per shadowdancer level.
+*The exact creature summoned depends on shadowdancer level.
+{| class="wikitable"
+ |-
+   ! Level
+   ! Summons
+ |-
+   | 3-5
+   | [[shadow]]
+ |-
+   | 6-8
+   | [[shadow fiend (summoned)|shadow fiend]]
+ |-
+   | 9+
+   | [[shadow lord (shadowdancer)|shadow lord]]
+|}
+:The shadow lord can be upgraded to an [[epic shadowlord (summon)|epic shadowlord]] if the summoner has the [[epic shadowlord]] feat.
+
+== Builder notes ==
+
+* ''script:'' <code>X0_S2_ShadSum</code>

@@ -1,0 +1,86 @@
+'''Domains''' represent the fields of interest for deities. Each [[cleric]] chooses two of these domains when the first clerical level is taken. Presumably, the chosen domains should match the cleric's deity, but this is not enforced by the game (nor is the selection of a deity even required). Each domain gives access to a domain special ability and adds at least two [[spell]]s to the cleric's spell list. (If the added spell is already available to clerics, the domain makes it available at a lower [[spell level]] in addition to its normal spell level.)
+
+Domains are listed on the [[character sheet]] in two places. They have a line in the main panel, plus each domain is technically a [[feat]] that shows up in the feat listing. The entries in the feat listing can be consulted while playing for a reminder of the benefits of the domains.
+
+'''See also:''' [[:Category:Cleric domains]]
+
+== Domain powers ==
+
+Many of the domain specials are passive in that they modify other aspects of the game. The most common of these passive specials make additional races subject to [[turn undead]].
+There is also a domain that makes turning more effective (regardless of the race being turned, so this mixes nicely with the domains that make additional races turnable). These specials are automatically applied when turn undead is used.
+The other passive specials either cause all ''cure X wounds'' spells to be automatically [[empower spell|empowered]], or boost the summoning of creatures (''[[summon creature I]]'' acts like ''[[summon creature II]]'', and so on up to ''[[summon creature VIII]]'' acting like ''[[summon creature IX]]''). Spells are affected regardless of how they were cast (spellbook or item).
+
+The active domain specials are abilities that need to be activated to be used. These domains appear in the [[radial menu]] under class special abilities (leftmost option, then one of the bottom three options). The details of these powers &ndash; battle mastery, divine trickery, divine protection, divine strength, and negative plane avatar &ndash; appear in the corresponding domains' articles.
+
+Finally, there are three domains that do not have a domain special per se, but instead provide access to more domain spells than the other domains. A typical domain grants two or three spells, whose spell levels sum up to about 9 (give or take 2). The "more spells" domains, in contrast, grant five spells whose spell levels sum up to 15 or 16.
+
+{| class="compacttable subheaders"
+ |-
+   !rowspan=2|Cleric domain !!rowspan=2|Special ability !!colspan=7|Spell level
+ |-
+   !1!!2!!3!!4!!5!!6!!7
+ |-
+   ![[air domain|air]]
+   | turn [[elemental]]s || || ||[[call lightning]] || || ||[[chain lightning]] ||
+ |-
+   ![[animal domain|animal]]
+   |stronger summon I-VIII || ||[[cat's grace]] ||[[true seeing (spell)|true seeing]] || ||[[polymorph self]] || ||
+ |-
+    ![[death domain|death]]
+    |negative plane avatar || || || ||[[phantasmal killer]] ||[[enervation]] || ||
+ |-
+   ![[destruction domain|destruction]]
+   | turn [[construct]]s || || ||[[stinking cloud]] || || ||[[acid fog]] ||
+ |-
+   ![[earth domain|earth]]
+   | turn [[elemental]]s || || || ||[[stoneskin]] ||[[energy buffer]] || ||
+ |-
+   ![[evil domain|evil]]
+   | turn [[outsider]]s ||[[negative energy ray]] || ||[[negative energy burst]] || ||[[enervation]] || ||
+ |-
+   ![[fire domain|fire]]
+   | turn [[elemental]]s || || || ||[[wall of fire]] ||[[energy buffer]] || ||
+ |-
+   ![[good domain|good]]
+   | turn [[outsider]]s || || || ||[[stoneskin]] ||[[lesser planar binding]] || ||
+ |-
+   ![[healing domain|healing]]
+   |[[empower spell|empowered]] healing || ||[[cure serious wounds]] || || ||[[heal (spell)|heal]] || ||
+ |-
+   ![[knowledge domain|knowledge]]
+   |more domain spells ||[[identify]] ||[[knock]] ||[[clairaudience/clairvoyance|clairaudience/<br />clairvoyance]] ||[[true seeing (spell)|true seeing]] || ||[[legend lore]] ||
+ |-
+   ![[magic domain|magic]]
+   |more domain spells ||[[mage armor]] ||[[Melf's acid arrow]] ||[[negative energy burst]] ||[[stoneskin]] ||[[ice storm]] || ||
+ |-
+   ![[plant domain|plant]]
+   | turn [[vermin]] || ||[[barkskin]] || || || || ||[[creeping doom]]
+ |-
+   ![[protection domain|protection]]
+   |divine protection || || || ||[[minor globe of invulnerability]] ||[[energy buffer]] || ||
+ |-
+   ![[strength domain|strength]]
+   |divine strength || || ||[[divine power]] || ||[[stoneskin]] || ||
+ |-
+   ![[sun domain|sun]]
+   |exceptional turning || ||[[searing light]] || || || || ||[[sunbeam]]
+ |-
+   ![[travel domain|travel]]
+   |more domain spells ||[[entangle (spell)|entangle]] ||[[web]] ||[[freedom of movement]] ||[[slow (spell)|slow]] ||[[haste (spell)|haste]] || ||
+ |-
+   ![[trickery domain|trickery]]
+   |divine trickery || ||[[invisibility (spell)|invisibility]] ||[[invisibility sphere]] || ||[[improved invisibility]] || ||
+ |-
+   ![[war domain|war]]
+   |battle mastery || ||[[cat's grace]] || || || || ||[[aura of vitality]]
+ |-
+   ![[water domain|water]]
+   | turn [[elemental]]s || || ||[[poison (spell)|poison]] || ||[[ice storm]] || ||
+|}
+
+== Builder notes ==
+
+The domains available in the game are defined in <code>[[domains.2da]]</code>.
+
+The bonus spells granted by domains cannot be assigned to [[non-player character]]s in the [[Toolset]].
+[[category:cleric domain spells| Domain]]

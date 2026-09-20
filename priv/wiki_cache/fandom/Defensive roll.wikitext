@@ -1,0 +1,33 @@
+{{feat
+|type=class
+|prereq=[[rogue]] 10, [[shadowdancer]] 5
+|reqfor=[[epic dodge]]
+|desc=If the character is struck by a potentially lethal blow, he makes a [[reflex]] [[saving throw]] ([[difficulty class|DC]] = damage dealt). If successful, he takes only half damage from the blow.
+|use=automatic, but limited to one use per [[day]]. [[Flat-foot]]ed characters cannot make a ''defensive roll''.
+|icon=ife_dodgeroll.gif
+|bonus1=rogue
+|class1=shadowdancer
+}}__NOTOC__
+
+==Notes==
+
+*This feat is only available to a rogue as a bonus feat, not as a [[general feat]]. Shadowdancers receive it automatically at level 5.
+* A "potentially lethal blow" refers to a standard attack with a [[weapon]] that would&ndash;if not for this feat&ndash;reduce the target below one [[hit point]] with just its [[physical damage]].
+* Nonphysical damage is ignored by this feat. Nonphysical damage is not included when determining if a blow is lethal, when calculating the DC, nor when damage is halved.
+
+===Previous versions===
+
+*Prior to version 1.69, there was no limit to how many times per day this feat would be used, despite the in-game description saying it could only be used once per day.
+
+==Builder notes==
+'''Item feat:''' No, but it can be added with custom content.
+
+==Custom content notes==
+'''Removable:''' yes
+
+'''Reusable:''' yes
+
+'''Script:''' hardcoded
+
+*This feat can be added to [[iprp_feats.2da]] to make it available as an item feat.
+* The number of uses per day is defined the same as for other feats (the USESPERDAY column of <code>[[feat.2da]]</code>).

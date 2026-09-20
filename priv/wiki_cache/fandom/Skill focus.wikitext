@@ -1,0 +1,63 @@
+{|border=0 cellspacing=2
+!width= 50|
+!width= 50|
+!width= 50|
+|-
+|[[Image:Ife foc ani.gif   |right|Skill focus (animal empathy)]]
+|[[Image:Ife x1sfapp.gif   |right|Skill focus (appraise)]]
+|[[Image:Ife x2skfbluf.gif |right|Skill focus (bluff)]]
+|[[Image:Ife foc con.gif   |right|Skill focus (concentration)]]
+|[[Image:Ife x2skfcrar.gif |right|Skill focus (craft armor)]]
+|[[Image:Ife x1sfcrtrap.gif|right|Skill focus (craft trap)]]
+|[[Image:Ife x2skfcrwp.gif |right|Skill focus (craft weapon)]]
+|[[Image:Ife foc disarm.gif|right|Skill focus (disable trap)]]
+|[[Image:Ife foc disc.gif  |right|Skill focus (discipline)]]
+|-
+|[[Image:Ife foc heal.gif |right|Skill focus (heal)]]
+|[[Image:Ife foc hide.gif |right|Skill focus (hide)]]
+|[[Image:Ife x2skfinti.gif|right|Skill focus (intimidate)]]
+|[[Image:Ife foc lis.gif  |right|Skill focus (listen)]]
+|[[Image:Ife foc lore.gif |right|Skill focus (lore)]]
+|[[Image:Ife foc move.gif |right|Skill focus (move silently)]]
+|[[Image:Ife foc lock.gif |right|Skill focus (open lock)]]
+|[[Image:Ife foc parry.gif|right|Skill focus (parry)]]
+|[[Image:Ife foc perf.gif |right|Skill focus (perform)]]
+|-
+|[[Image:Ife foc pers.gif  |right|Skill focus (persuade)]]
+|[[Image:Ife foc pick.gif  |right|Skill focus (pick pocket)]]
+|[[Image:Ife foc search.gif|right|Skill focus (search)]]
+|[[Image:Ife foc set.gif   |right|Skill focus (set trap)]]
+|[[Image:Ife foc spel.gif  |right|Skill focus (spellcraft)]]
+|[[Image:Ife foc spot.gif  |right|Skill focus (spot)]]
+|[[Image:Ife foc taunt.gif |right|Skill focus (taunt)]]
+|[[Image:Ife x1sftum.gif   |right|Skill focus (tumble)]]
+|[[Image:Ife foc devi.gif  |right|Skill focus (use magic device)]]
+|}
+{{feat
+|type=general
+|prereq=able to use the skill
+|desc=A character with this feat is adept at a certain [[skill]], gaining a +3 bonus on all [[skill check|checks]] with it.
+|use=automatic. This feat may be selected multiple times, but the effects do not [[stack]]. It applies to a different skill in each case.
+}}
+
+==Notes==
+*There is no skill focus in [[ride]].
+*This feat stacks with [[epic skill focus]].
+* Skill focus in a skill that [[untrained skill check|requires training]] can only be taken if the character is trained in that skill (has at least one [[rank]] in it).
+* Skill focus in a skill that is class-restricted (that does not allow [[cross-class skill|cross-class]] training) is also class-restricted, although the restrictions for the feat do not perfectly match those for the skill. Skill focus in [[animal empathy]] can be taken only when gaining a [[druid]] or [[ranger]] level, but not a [[shifter]] level. Skill focus in [[use magic device]] can be taken only when gaining a [[bard]] or [[rogue]] level, but not an [[assassin]] level. Skill focus in [[perform]] can be taken when leveling in any class, as long as the skill has been made accessible by taking at least one bard level.
+* The bonus from this feat does not help meet prerequisites.
+
+==Builder notes==
+'''Item feat:''' No, but it can be added with custom content
+
+==Custom content notes==
+'''Removable:''' yes
+
+'''Reusable:''' yes
+
+'''Script:''' hardcoded
+
+*This feat can be added to [[iprp_feats.2da]] to make it available as an item feat.
+* The class restrictions on skill focus in animal empathy and use magic device are implemented by removing those variants from the general feat list and adding them to the feat lists for the allowed classes. Consequentially, a custom class must have those variants in its feat list in order for them to be available as general feats.
+
+[[category:feats restricted by class]]

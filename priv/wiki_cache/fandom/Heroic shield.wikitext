@@ -1,0 +1,20 @@
+{{feat
+|type=class
+|prereq=[[purple dragon knight]] 1
+|desc=You may aid an ally, giving them a +4 [[dodge bonus]] to their [[armor class]] for one [[round]].
+|use=selected
+|icon=ife_x3_pdkshld.gif
+|class1=purple dragon knight
+}}
+
+== Notes ==
+
+* Added in patch 1.69.
+* This is an [[instant feat]] that can be used once per round.
+** With good timing, a player can have this feat be continuously in effect without interrupting whatever the player's character is doing. (As an instant feat, it does not interrupt actions, and its effect can be renewed as soon as the old effect expires.)
+* This ability can only be used on friends, not neutrals, and not on the caster.
+* This feat has unlimited range. By targeting a portrait in the [[party#The_party_bar|party bar]], even an ally in a different [[area]] can be protected. ''This is probably an oversight.''
+
+== Custom content notes ==
+
+*''script:'' <code>X3_S2_pdk_Shield</code>

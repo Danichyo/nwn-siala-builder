@@ -1,0 +1,21 @@
+{{Grimoire spell|imagename=Is x1displace.jpg
+|spellname=Displacement
+|casterlevel=[[Bard]] 3, [[Illusion domain (grimoire)|Illusion]] 3, [[Sorcerer]] / [[Wizard]] 3
+|innatelevel=3
+|school=[[Illusion]] ([[Spell subschool|Glamer]])
+|descriptors=None
+|components=V, S
+|range=[[Touch attack|Touch]]
+|immunities=None
+|savingthrow=None
+|spellresistance=No
+|targettype=Single
+|duration=1 [[round]] / level
+|description=The target gains a 50% miss chance, displacing the caster's image several feet to the side, similar to the abilities of a displacer beast.
+}}
+
+== Notes ==
+*{{Grimoire spell change|pagename=[[Displacement]]}}
+{{g_bard}}
+{{g_illusion}}
+{{g_sorwiz}}

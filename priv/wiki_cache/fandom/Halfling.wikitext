@@ -1,0 +1,37 @@
+[[Image:Halfling.jpg|left|Halfling]]
+[[Halfling]]s are clever, capable, and resourceful survivors. They are notoriously curious, and show a daring that many larger people can't match. They can be lured by wealth, but tend to spend rather than hoard. Halflings have ruddy skin, hair that is black and straight, and brown or black eyes. Halfling men often grow long sideburns, but rarely beards or moustaches. They prefer practical clothing, and would rather wear a comfortable shirt than jewelry. Halflings stand about 3 feet tall, and commonly live to see 150.
+
+Halfling [[ability]] adjustments: +2 [[Dex]], -2 [[Str]]
+
+[[Favored class]] ([[Rogue]]): A [[Class#Multiclassing|multiclass]] halfling's rogue class does not count when determining whether he suffers an [[Multiclass penalty|XP penalty for multiclassing]].
+
+==Special abilities==
+
+*[[Skill affinity (move silently)]]: +2 racial bonus to [[move silently]] checks.
+*[[Skill affinity (listen)]]: +2 racial bonus to [[listen]] checks.
+*[[Lucky]]: +1 luck bonus to all [[saving throw]]s.
+*[[Fearless]]: +2 morale bonus to saving throws against [[spell]]s and effects of the [[frightened|fear]] subtype.
+*[[Good aim]]: +1 racial bonus to attack rolls made with [[throwing weapon]]s.
+* [[Small stature]]: Halflings are small creatures, giving them some benefits and drawbacks.
+** +1 [[size modifier]] to [[attack roll]]s.
+** +1 size modifier to [[armor class|AC]].
+** +4 size bonus to standard [[stealth]] and [[detect]]ion checks (modifies [[hide]], [[listen]], [[move silently]], and [[spot]]).
+** Cannot use [[tower shield]]s.
+** Cannot use [[weapon size|large weapons]].
+** At [[character creation]], choosing a [[package]] other than the default may give halfling characters starting [[item|equipment]] or [[weapon]]-related [[feat]]s (at any level) that they cannot use.
+
+==PC default biography==
+
+"You may be short, but you're quick and full of spirit. You've recently wandered into [[human]] settlements, eager to see what you can learn from the tall-folk."
+
+==Notes==
+
+* The bonus to dexterity and affinity for moving silently allow halflings to edge out [[gnome]]s (the other small playable race) as the stealthiest of the playable races.
+*Often stereotyped as jolly thieves and pranksters.
+* In the [[Forgotten Realms]], the proper word for the race is "hin", while "halfling" is slang used by humans.
+
+==Builder notes==
+
+* ''Good aim'' is technically split in a way that can be seen when using the <code>dm_enablecombatdebugging</code> [[console command]]. The bonus for slings is listed as "Halfling Sling Bonus", while that for the other throwing weapons is listed as "Good Aim".
+[[Category:races]]
+[[Category:playable races]]

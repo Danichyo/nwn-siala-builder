@@ -1,0 +1,29 @@
+{{spell
+|icon=is_premo.gif
+|druidlevel=8
+|magelevel=8
+|innatelevel=8
+|school=[[divination]]
+|components=VS
+|range=p
+|area=caster
+|save=harmless
+|spellresistance=no
+|duration=1 [[hour]] / level
+|counters=<del>[[feeblemind]]</del>
+|line=Stoneskin
+|line4=stoneskin
+|line6=greater stoneskin
+|line8=premonition
+|line10=epic warding
+|desc=''Premonition'' allows the caster to see a few moments into the future. This grants him [[damage reduction]] 30/+5, and absorbs 10 points of melee damage per caster level before collapsing.}}
+
+== Notes ==
+
+* This spell displaces earlier castings of itself.
+* Due to a .2da bug, ''feeblemind'' is not an additional [[counterspell]] of ''this spell.
+
+== Custom content notes ==
+* ''script:'' <code>NW_S0_Premo</code>
+==External links==
+*{{FRW}}

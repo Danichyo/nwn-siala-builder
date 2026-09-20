@@ -1,0 +1,22 @@
+{{feat
+|type=race
+|prereq=[[elf]]
+|desc=[[Character]]s with this [[feat]] may apply their full [[listen]], [[search]] and [[spot]] [[skill]]s even when making a [[detect|passive search]].
+|use=automatic
+|icon=ife_keensense.gif
+}}
+
+== Notes ==
+* Players are blocked from toggling detect mode when their character has this feat. This is presumably to protect players from themselves, as this feat grants all the benefits of detect mode without the movement penalty.
+
+==Builder notes==
+'''Item feat:''' No, but it can be added with custom content.
+
+==Custom content notes==
+'''Removable:''' yes
+
+'''Reusable:''' yes
+
+'''Script:''' hardcoded
+
+*This feat can be added to [[iprp_feats.2da]] to make it available as an item feat.

@@ -1,0 +1,15 @@
+{{feat
+|type=general
+|prereq=[[fortitude]] save bonus +8
+|desc=The character gains +5 [[damage resistance|resistance]] against the chosen type of energy. (The first 5 points of damage of this type of energy are ignored.)
+|use=automatic
+|icon=ife_x1resac.gif
+}}
+
+==Notes==
+*Added in the [[expansion pack]]s.
+*The choices for types of energy are [[acid damage|acid]], [[cold damage|cold]], [[electrical damage|electrical]], [[fire damage|fire]], and [[sonic damage|sonic]].
+* ''[[Epic energy resistance]]'' supersedes ''resist energy''; they do not [[stack]].
+*This feat does stack with &mdash; and is applied before &mdash; other (non-feat) sources of damage resistance.
+*The prerequisite for this feat must be met before leveling up. For example, a (single-class) fighter with constitution 10 cannot take this feat at level 12 (when his fortitude save goes up to +8), but can at any level after this on which he gains a feat.
+* The fortitude bonus from ''[[luck of heroes]]'' does not count towards the fortitude required.

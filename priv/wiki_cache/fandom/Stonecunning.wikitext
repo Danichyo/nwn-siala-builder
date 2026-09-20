@@ -1,0 +1,22 @@
+{{feat
+|type=race
+|prereq=[[dwarf]]
+|desc=This feat grants a +2 bonus on [[search]] checks made in interior areas.
+|use=automatic
+|icon=ife_stonemind.gif
+}}
+
+== Notes ==
+* An "interior area" for the purpose of this feat is an [[area]] that has been flagged as an "underground" [[terrain type]] (not "interior" as the feat's description suggests). This may or may not correspond to what appears to be underground.
+
+==Builder notes==
+'''Item feat:''' No, but it can be added with custom content.
+
+==Custom content notes==
+'''Removable:''' yes
+
+'''Reusable:''' yes
+
+'''Script:''' hardcoded
+
+*This feat can be added to [[iprp_feats.2da]] to make it available as an item feat.

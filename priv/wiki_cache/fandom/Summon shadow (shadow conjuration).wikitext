@@ -1,0 +1,32 @@
+{{spell
+|icon=is_summshad.gif
+|innatelevel=4
+|school=[[conjuration]]
+|components=VS
+|range=s
+|area=point
+|save=none
+|spellresistance=no
+|duration=1 [[hour]] / level
+|desc=This spell opens a portal to the [[Plane of Shadows]] and draws forth a shadow ally to become a faithful and loyal servant. Illusionists are able to use this spell in conjunction with the [[shades]], [[shadow conjuration]], and [[greater shadow conjuration]] spells. The shadow ally summoned depends on caster level:}}
+{| class="wikitable" style="text-align: center"
+ |-
+  ! caster level !! summons
+ |-
+  | 1-7   || [[shadow]]
+ |-
+  | 8-10  || [[shadow mastiff (summon)|shadow mastiff]]
+ |-
+  | 11-14 || [[shadow fiend (summoned)|shadow fiend]]
+ |-
+  | 15+   || [[shadow lord]]
+|}
+
+== Notes ==
+
+*This spell is not directly available to casters; it is only available as a sub-spell of ''shadow conjuration'', ''greater shadow conjuration'', and ''shades''.
+*The talk table entry for this spell indicates that early in the development of Neverwinter Nights, ''summon shadow'' was intended to be a level 5 [[cleric]] spell.
+
+== Custom content notes ==
+
+*''script:'' <code>NW_S0_SummShad</code>

@@ -1,0 +1,22 @@
+{{Grimoire spell|imagename=Is mordfmiss.jpg
+|spellname=Mordenkainen's Force Missiles
+|casterlevel=[[Sorcerer]] / [[Wizard (class)|Wizard]] 4
+|innatelevel=4
+|school=[[Evocation]]
+|descriptors=Force
+|components=V, S
+|range=Medium
+|immunities=None
+|savingthrow=None or [[Reflex]] half (see text)
+|spellresistance=Yes
+|targettype=Single/5 ft radius blast (see text)
+|duration=Instantaneous
+|description=The caster creates a powerful missile of magical force, which darts from his fingertips and unerringly strikes its target, dealing 2d6 points of damage. The missile then bursts in a 5-foot blast of force that inflicts half this amount of damage to any creatures in the area (other than the primary target). The primary target is not entitled to a saving throw against the burst, but creatures affected by the burst may attempt a Reflex save for half damage.<br>
+<br>
+If the missiles' burst areas overlap, secondary targets make only one saving throw attempt (and only one SR check, if applicable). <br>
+<br>
+The missile strikes unerringly, even if the target is in melee or has anything less than total cover or concealment. A caster cannot single out specific parts of a creature. The spell can target and damage unattended objects.<br>
+<br>
+For every five [[caster level]]s, the caster gains one missile. A caster has two missiles at 9th level or lower, three missiles from 10th to 14th level, and four missiles at 15th level or higher. 
+}}
+{{g_sorwiz}}

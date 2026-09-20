@@ -1,0 +1,48 @@
+{{feat
+|type=class
+|prereq=[[barbarian]] 2 (5, 10, 13, 16, 19); [[rogue]] 3 (6, 11, 14, 17, 20); [[shadowdancer]] 2 (5, 10); [[assassin]] 2 (5, 10)
+|desc=There are six versions of this feat, with cumulative (but not [[stack]]ing) benefits. (Assassins and shadowdancers only qualify for the first three versions.) The sixth version includes benefits extending into [[epic class]] levels.
+
+'''I:''' The character retains his [[dexterity]] bonus to [[armor class|AC]], even if caught [[flat-foot]]ed or attacked by a hidden or [[invisible]] creature.
+
+'''II:''' This feat grants a +1 bonus on [[reflex]] [[saving throw]]s made to avoid [[trap]]s.
+
+'''III:''' This feat grants a +2 bonus on reflex saving throws made to avoid traps.
+
+'''IV:''' This feat grants a +3 bonus on reflex saving throws made to avoid traps.
+
+'''V:''' This feat grants a +4 bonus on reflex saving throws made to avoid traps.
+
+'''VI+:''' This feat grants a +5 bonus on reflex saving throws made to avoid traps.<br />
+Epic progression: The ''uncanny dodge'' bonus improves by +1 every three [[class level|level]]s.
+|use=automatic
+|icon=ife_uncdodge.gif
+|class1=assassin
+|class2=barbarian
+|class3=rogue
+|class4=shadowdancer
+}}__NOTOC__
+
+== Notes ==
+
+* Contrary to its name, uncanny dodge does not allow a character to retain [[dodge bonus]]es to AC when flat-footed, only the dexterity bonus.
+* Uncanny dodge can be extremely helpful for dexterity-based builds in avoiding attacks from hidden creatures, as it allows retention of what could be a significant portion of their AC.
+* The bonus to reflex saves versus traps is subject to the +20 [[saving throw]] cap.
+* As of [[Enhanced Edition]] patch 1.74, ''uncanny dodge II'' grants immunity to sneak attacks from a [[flank]]ing attacker unless the attacker has at least four more combined [[class level]]s of rogue, assassin, barbarian, and shadowdancer than the defender. ([[blackguard]] levels are not counted.) For example, a level 10 rogue would have this immunity when attacked by a level 13 rogue, but not when attacked by a level 14 rogue. This immunity does not apply when the defender is [[flat-foot]]ed. This change is undocumented in the feat description. The pre-Enhanced Edition behavior can be restored by setting FLANK_LEVEL_RANGE in [[Ruleset.2da]] to -99.
+
+'''See also:'''
+[[Defensive awareness]]
+
+==Builder notes==
+'''Item feat:''' No, but it can be added with custom content.
+
+==Custom content notes==
+'''Removable:''' yes
+
+'''Reusable:''' yes
+
+'''Script:''' hardcoded
+
+*These feats can be added to [[iprp_feats.2da]] to make them available as item feats.
+*''Uncanny dodge I'' is required to preserve dexterity AC when flat-footed.
+* Each version of ''uncanny dodge'' will grant its reflex bonus without the need for lower feat(s).

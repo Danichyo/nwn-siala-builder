@@ -1,0 +1,7 @@
+An '''elemental''' is a being composed of one of the four classical (or "pure") elements&mdash;air, earth, fire, and water&mdash;or of a combination involving classical elements. These creatures are typically inhabitants of the [[inner plane]]s. The combinations can be either of two classical elements (the [[para-elemental]]s) or of a classical element and the energy from one of the [[energy plane]]s (the [[quasi-elemental]]s).
+''[[Neverwinter Nights]]'' only includes the four basic elementals, leaving the para- and quasi- elementals to the custom content makers.
+
+Since elementals do not depend on the functioning of organs, they are immune to [[critical hit]]s, [[disease]], [[mind-affecting]] spells, [[paralysis]], [[poison]], and [[sneak attack]]s. In addition, the larger and older elementals tend to have [[damage reduction]].
+
+'''See also:''' [[:Category:Elementals]]
+[[category:races]]

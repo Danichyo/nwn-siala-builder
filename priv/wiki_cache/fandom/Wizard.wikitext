@@ -1,0 +1,419 @@
+{{Otheruses|the class}}
+[[Image:Ir wizard.gif|right|Wizard]]
+'''Description:''' Wizards are [[arcane]] spellcasters who depend on intensive study to create their magic. To wizards, magic is not a talent but a difficult, rewarding art. When they are prepared for battle, wizards can use their spells to devastating effect. When caught by surprise, they are vulnerable. The wizard's strength is her spells; everything else is secondary. She learns new spells as she experiments and grows in experience, and she can also learn them from other wizards. In addition, over time a wizard learns to manipulate her spells so they go farther, work better, or are improved in some other way. A wizard can call a [[familiar]], a magical creature, small or large, that serves her.
+
+'''Alignment restrictions:''' none
+
+'''[[Hit die]]:''' d4
+
+'''Proficiencies:''' armor (robes), weapons ([[weapon proficiency (wizard)|wizard]])
+
+'''[[Skill point]]s:''' 2 + [[int]] modifier ( (2 + int modifier) * 4 at 1st level)
+
+'''Skills:''' [[concentration]], [[craft armor]], [[craft trap]], [[craft weapon]], [[heal (skill)|heal]], [[lore]], [[spellcraft]]
+
+'''Unavailable feats:'''
+[[curse song]], [[divine might]], [[divine shield]], [[extra music]], [[extra turning]], [[lingering song]], [[weapon specialization]]
+<br />These [[general feat]]s cannot be selected when taking a level of wizard.
+
+'''Wizard bonus feats:''' [[arcane defense]], [[brew potion]], [[combat casting]], [[craft wand]], [[empower spell]], [[extend spell]], [[greater spell focus]], [[greater spell penetration]], [[maximize spell]], [[quicken spell]], [[silent spell]], [[spell focus]], [[spell penetration]], [[still spell]]
+
+'''[[Saving throw|Primary saving throw(s)]]:''' [[will]]
+
+'''[[Base attack bonus]]:''' +1/2 levels
+
+'''Spellcasting:''' [[Arcane]] ([[spell failure]] from armor is a factor), [[intelligence]]-based (a base intelligence score of 10 + the spell's level is required to cast a spell, [[bonus spells]] are based on modified intelligence, and the intelligence modifier affects spell [[difficulty class|DCs]]), and requires preparation. Wizards begin the game knowing all cantrips and <del>four</del> ''three + intelligence modifier'' 1st-level spells.
+
+[[Image:Wizard.jpg|Wizard]]
+
+== Special abilities & feats ==
+
+*Level 1 [[scribe scroll]], [[summon familiar]]
+* Wizard bonus feats: every five levels (up to wizard level 20), the wizard may select a bonus feat, chosen from the [[metamagic]] and spell feat lists. This bonus feat is in addition to the feats every character gains for advancing in character level. If the character is an [[epic character]] (not necessarily an epic wizard) then the available bonus feats include those in the epic wizard bonus list. This bonus feat (one per five levels) option is replaced by the epic bonus feat progression (one every three levels) once the character reaches epic wizard levels (with the first epic bonus at level 23).
+
+==Spells==
+
+A wizard may choose to specialize in a [[spell school]], gaining one additional prepared spell per spell level but losing the ability to cast spells from the opposed spell school, even spells from [[scroll]]s. A wizard does not have to specialize, thus keeping access to all spells.
+
+{| border="2" style="background:#efefef; color:#000000; border-collapse:collapse;"
+|- style="background:#c0c0c0"
+!colspan=3|Cantrips
+|- align=left valign=top
+|
+*[[Acid splash]]
+*[[Daze]]
+*[[Electric jolt]]
+|
+*[[Flare]]
+*[[Light]]
+|
+*[[Ray of frost]]
+*[[Resistance]]
+|-style="background:#ffffff"
+!colspan=3|&nbsp;
+|- style="background:#c0c0c0"
+!1st level spells
+!2nd level spells
+!3rd level spells
+|- align=left valign=top
+|
+*[[Burning hands]]
+*[[Charm person]]
+*[[Color spray]]
+*[[Endure elements]]
+*[[Expeditious retreat]]
+*[[Grease]]
+*[[Horizikaul's boom]]
+*[[Ice dagger]]
+*[[Identify]]
+*[[Ironguts]]
+*[[Mage armor]]
+*[[Magic missile]]
+*[[Magic weapon]]
+*[[Negative energy ray]]
+*[[Protection from alignment]]
+*[[Ray of enfeeblement]]
+*[[Scare]]
+*[[Shelgarn's persistent blade]]
+*[[Shield (spell)|Shield]]
+*[[Sleep (spell)|Sleep]]
+*[[Summon creature I]]
+*[[True strike]]
+|
+*[[Balagarn's iron horn]]
+*[[Blindness/deafness]]
+*[[Bull's strength]]
+*[[Cat's grace]]
+*[[Cloud of bewilderment]]
+*[[Combust]]
+*[[Continual flame]]
+*[[Darkness (spell)|Darkness]]
+*[[Death armor]]
+*[[Eagle's splendor]]
+*[[Endurance]]
+*[[Flame weapon]]
+*[[Fox's cunning]]
+*[[Gedlee's electric loop]]
+*[[Ghostly visage]]
+*[[Ghoul touch]]
+*[[Invisibility (spell)|Invisibility]]
+*[[Knock]]
+*[[Lesser dispel]]
+*[[Melf's acid arrow]]
+*[[Owl's wisdom]]
+*[[Resist elements]]
+*[[See invisibility]]
+*[[Stone bones]]
+*[[Summon creature II]]
+*[[Tasha's hideous laughter]]
+*[[Ultravision]]
+*[[Web]]
+|
+*[[Clairaudience/clairvoyance]]
+*[[Clarity]]
+*[[Dispel magic]]
+*[[Displacement]]
+*[[Find traps]]
+*[[Fireball]]
+*[[Flame arrow]]
+*[[Greater magic weapon]]
+*[[Gust of wind]]
+*[[Haste (spell)|Haste]]
+*[[Hold person]]
+*[[Invisibility sphere]]
+*[[Keen edge]]
+*[[Lightning bolt]]
+*[[Magic circle against alignment]]
+*[[Mestil's acid breath]]
+*[[Negative energy burst]]
+*[[Protection from elements]]
+*[[Scintillating sphere]]
+*[[Slow (spell)|Slow]]
+*[[Stinking cloud]]
+*[[Summon creature III]]
+*[[Vampiric touch]]
+|-style="background:#ffffff"
+!colspan=3|&nbsp;
+|- style="background:#c0c0c0"
+!4th level spells
+!5th level spells
+!6th level spells
+|-align=left valign=top
+|
+*[[Bestow curse]]
+*[[Charm monster]]
+*[[Confusion]]
+*[[Contagion]]
+*[[Elemental shield]]
+*[[Enervation]]
+*[[Evard's black tentacles]]
+*[[Fear (spell)|Fear]]
+*[[Ice storm]]
+*[[Improved invisibility]]
+*[[Isaac's lesser missile storm]]
+*[[Lesser spell breach]]
+*[[Minor globe of invulnerability]]
+*[[Phantasmal killer]]
+*[[Polymorph self]]
+*[[Remove blindness/deafness]]
+*[[Remove curse]]
+*[[Shadow conjuration]]
+*[[Stoneskin]]
+*[[Summon creature IV]]
+*[[Wall of fire]]
+|
+*[[Animate dead]]
+*[[Ball lightning]]
+*[[Bigby's interposing hand]]
+*[[Cloudkill]]
+*[[Cone of cold]]
+*[[Dismissal]]
+*[[Dominate person]]
+*[[Energy buffer]]
+*[[Feeblemind]]
+*[[Firebrand]]
+*[[Greater shadow conjuration]]
+*[[Hold monster]]
+*[[Lesser mind blank]]
+*[[Lesser planar binding]]
+*[[Lesser spell mantle]]
+*[[Mestil's acid sheath]]
+*[[Mind fog]]
+*[[Summon creature V]]
+|
+*[[Acid fog]]
+*[[Bigby's forceful hand]]
+*[[Chain lightning]]
+*[[Circle of death]]
+*[[Ethereal visage]]
+*[[Flesh to stone]]
+*[[Globe of invulnerability]]
+*[[Greater dispelling]]
+*[[Greater spell breach]]
+*[[Greater stoneskin]]
+*[[Isaac's greater missile storm]]
+*[[Legend lore]]
+*[[Mass haste]]
+*[[Planar binding]]
+*[[Shades]]
+*[[Stone to flesh]]
+*[[Summon creature VI]]
+*[[Tenser's transformation]]
+*[[True seeing (spell)|True seeing]]
+*[[Undeath to death]]
+|-style="background:#ffffff"
+!colspan=3|&nbsp;
+|- style="background:#c0c0c0"
+!7th level spells
+!8th level spells
+!9th level spells
+|-align=left valign=top
+|
+*[[Banishment]]
+*[[Bigby's grasping hand]]
+*[[Control undead]]
+*[[Delayed blast fireball]]
+*[[Finger of death]]
+*[[Great thunderclap]]
+*[[Mordenkainen's sword]]
+*[[Power word, stun]]
+*[[Prismatic spray]]
+*[[Protection from spells]]
+*[[Shadow shield]]
+*[[Spell mantle]]
+*[[Summon creature VII]]
+|
+*[[Bigby's clenched fist]]
+*[[Blackstaff]]
+*[[Create undead]]
+*[[Greater planar binding]]
+*[[Greater sanctuary]]
+*[[Horrid wilting]]
+*[[Incendiary cloud]]
+*[[Mass blindness/deafness]]
+*[[Mass charm]]
+*[[Mind blank]]
+*[[Premonition]]
+*[[Summon creature VIII]]
+*[[Sunburst]]
+|
+*[[Bigby's crushing hand]]
+*[[Black blade of disaster]]
+*[[Dominate monster]]
+*[[Energy drain]]
+*[[Gate]]
+*[[Greater spell mantle]]
+*[[Meteor swarm]]
+*[[Mordenkainen's disjunction]]
+*[[Power word, kill]]
+*[[Shapechange]]
+*[[Summon creature IX]]
+*[[Time stop]]
+*[[Wail of the banshee]]
+*[[Weird]]
+|}
+
+==Level progression==
+
+{| border="2" style="background:#efefef; color:#000000; border-collapse:collapse"
+|- style="background:#c0c0c0"
+!rowspan=2|Lvl
+!rowspan=2|BAB
+!colspan="3"|Saves
+!rowspan=2|Feats
+!rowspan=2|HP range
+!rowspan="22" style="background:#ffffff"|&nbsp;
+!colspan="10"|Base spells per day
+|- style="background:#c0c0c0"
+!Fort
+!Ref
+!Will
+
+!0
+!1st
+!2nd
+!3rd
+!4th
+!5th
+!6th
+!7th
+!8th
+!9th
+|- align=center
+|1st || +0 || +0 || +0 || +2 ||align=left|[[summon familiar]], [[scribe scroll]], [[weapon proficiency (wizard)]] ||2-4 ||3 ||1 ||— ||— ||— ||— ||— ||— ||— ||—
+|- align=center
+|2nd || +1 || +0 || +0 || +3 ||&nbsp;||4-8 ||4 ||2 ||— ||— ||— ||— ||— ||— ||— ||—
+|- align=center
+|3rd || +1 || +1 || +1 || +3 ||&nbsp;||6-12 ||4 ||2 ||1 ||— ||— ||— ||— ||— ||— ||—
+|- align=center
+|4th || +2 || +1 || +1 || +4 ||&nbsp;||8-16 ||4 ||3 ||2 ||— ||— ||— ||— ||— ||— ||—
+|- align=center
+|5th || +2 || +1 || +1 || +4 ||align=left|wizard bonus feat ||10-20 ||4 ||3 ||2 ||1 ||— ||— ||— ||— ||— ||—
+|- align=center
+|6th || +3 || +2 || +2 || +5 ||&nbsp;||12-24  ||4 ||3 ||3 ||2 ||— ||— ||— ||— ||— ||—
+|- align=center
+|7th || +3 || +2 || +2 || +5 ||&nbsp;||14-28 ||4 ||4 ||3 ||2 ||1 ||— ||— ||— ||— ||—
+|- align=center
+|8th || +4 || +2 || +2 || +6 ||&nbsp;||16-32 ||4 ||4 ||3 ||3 ||2 ||— ||— ||— ||— ||—
+|- align=center
+|9th || +4 || +3 || +3 || +6 ||&nbsp;||18-36 ||4 ||4 ||4 ||3 ||2 ||1 ||— ||— ||— ||—
+|- align=center
+|10th || +5 || +3 || +3 || +7 ||align=left|wizard bonus feat ||20-40 ||4 ||4 ||4 ||3 ||3 ||2 ||— ||— ||— ||—
+|- align=center
+|11th || +5 || +3 || +3 || +7 ||&nbsp;||22-44 ||4 ||4 ||4 ||4 ||3 ||2 ||1 ||— ||— ||—
+|- align=center
+|12th || +6/+1 || +4 || +4 || +8 ||&nbsp;||24-48 ||4 ||4 ||4 ||4 ||3 ||3 ||2 ||— ||— ||—
+|- align=center
+|13th || +6/+1 || +4 || +4 || +8 ||&nbsp;||26-52 ||4 ||4 ||4 ||4 ||4 ||3 ||2 ||1 ||— ||—
+|- align=center
+|14th || +7/+2 || +4 || +4 || +9 ||&nbsp;||28-56 ||4 ||4 ||4 ||4 ||4 ||3 ||3 ||2 ||— ||—
+|- align=center
+|15th || +7/+2 || +5 || +5 || +9 ||align=left|wizard bonus feat ||30-60 ||4 ||4 ||4 ||4 ||4 ||4 ||3 ||2 ||1 ||—
+|- align=center
+|16th || +8/+3 || +5 || +5 || +10 ||&nbsp;||32-64 ||4 ||4 ||4 ||4 ||4 ||4 ||3 ||3 ||2 ||—
+|- align=center
+|17th || +8/+3 || +5 || +5 || +10 ||&nbsp;||34-68 ||4 ||4 ||4 ||4 ||4 ||4 ||4 ||3 ||2 ||1
+|- align=center
+|18th || +9/+4 || +6 || +6 || +11 ||&nbsp;||36-72 ||4 ||4 ||4 ||4 ||4 ||4 ||4 ||3 ||3 ||2
+|- align=center
+|19th || +9/+4 || +6 || +6 || +11 ||&nbsp;||38-76 ||4 ||4 ||4 ||4 ||4 ||4 ||4 ||4 ||3 ||3
+|- align=center
+|20th || +10/+5 || +6 || +6 || +12 ||align=left|wizard bonus feat ||40-80 ||4 ||4 ||4 ||4 ||4 ||4 ||4 ||4 ||4 ||4
+|}
+
+''Bonus [[spell slot]]s come from items and high intelligence.''
+
+As a rule of thumb, wizards can cast spell levels up to half their class level rounded up.
+
+[[Image:ife x2epwizard.gif|right|Epic wizard]]
+
+==Epic wizard==
+
+Knowledge is power and the quest for knowledge never ends. There is an everlasting supply of arcane lore for the epic wizard to discover.
+
+'''Hit die:''' d4
+
+'''Skill points:''' 2 + int modifier
+
+'''Bonus feats:''' The epic wizard gains a bonus feat every three levels after 20th. In other words, at levels 23, 26, 29, 32, 35, and 38.
+
+'''Epic wizard bonus feats:''' [[automatic quicken spell]], [[automatic silent spell]], [[automatic still spell]], [[epic spell focus]], [[epic spell penetration]], [[epic spell: dragon knight]], [[epic spell: epic mage armor]], [[epic spell: epic warding]], [[epic spell: greater ruin]], [[epic spell: hellball]], [[epic spell: mummy dust]], [[great intelligence]], [[improved combat casting]]
+
+'''Unavailable epic feats:'''
+[[bane of enemies]],
+[[construct shape]], [[dragon shape]],
+[[epic weapon specialization]], [[great smiting]],
+[[improved ki strike 4]], [[improved ki strike 5]], [[improved sneak attack]],
+[[improved spell resistance]], [[improved stunning fist]],
+[[lasting inspiration]], [[mighty rage]], [[outsider shape]],
+[[planar turning]], [[terrifying rage]], [[thundering rage]], [[undead shape]]
+<br />These general [[epic feat]]s cannot be selected when taking a level of wizard.
+
+===Epic wizard level progression===
+
+{| border=2 style="background:#efefef; color:#000000; border-collapse:collapse"
+|- style="background:#c0c0c0"
+!&nbsp; Lvl &nbsp;
+!Feats
+!HP range
+|- align=center
+|21st ||align=left|&nbsp; ||42-84
+|- align=center
+|22nd ||align=left|&nbsp; ||44-88
+|- align=center
+|23rd ||align=left|bonus feat ||46-92
+|- align=center
+|24th ||align=left|&nbsp; ||48-96
+|- align=center
+|25th ||align=left|&nbsp; ||50-100
+|- align=center
+|26th ||align=left|bonus feat ||52-104
+|- align=center
+|27th ||align=left|&nbsp; ||54-108
+|- align=center
+|28th ||align=left|&nbsp; ||56-112
+|- align=center
+|29th ||align=left|bonus feat ||58-116
+|- align=center
+|30th ||align=left|&nbsp; ||60-120
+|- align=center
+|31st ||align=left|&nbsp; ||62-124
+|- align=center
+|32nd ||align=left|bonus feat ||64-128
+|- align=center
+|33rd ||align=left|&nbsp; ||66-132
+|- align=center
+|34th ||align=left|&nbsp; ||68-136
+|- align=center
+|35th ||align=left|bonus feat ||70-140
+|- align=center
+|36th ||align=left|&nbsp; ||72-144
+|- align=center
+|37th ||align=left|&nbsp; ||74-148
+|- align=center
+|38th ||align=left|bonus feat &nbsp; ||76-152
+|- align=center
+|39th ||align=left|&nbsp; ||78-156
+|- align=center
+|40th ||align=left|&nbsp; ||80-160
+|}
+
+==Prestige class tips==
+
+*The [[pale master]] is a strong prestige class that builds upon the wizard's magical abilities.
+
+== Notes ==
+
+* Wizards learn two new spells at each level-up and from wizard scrolls they find during play.
+** At first level (not just when beginning the game), the spell allotment is increased, allowing a wizard to learn all cantrips and a number of additional (level 1) spells equal to three plus intelligence modifier (not a static four, as mentioned in-game). This is still subject to the wizard needing a base intelligence score of 10 + spell level to learn a spell.
+*As part of their starting equipment (regardless of [[package]]), wizards receive four scrolls, one each of of ''sleep'', ''protection from alignment'', ''magic missile'' and ''summon creature I''.
+*Which spells are memorized on rest are selected using the spell-book (shortcut key B).
+*Due to a bug in OC the class-based branch in random loot generator arcane scrolls not available from random loot after druid multiclassing. Lesser percentage for wizard scrolls.
+
+== Custom content notes ==
+* bugged loot script: CreateGenericClassItem (first check for druid class occurs druid weapon, never reach CreateArcaneScroll function )
+
+== External Links ==
+* {{FRW}}
+
+[[Category:Classes]]

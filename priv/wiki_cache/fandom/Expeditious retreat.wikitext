@@ -1,0 +1,31 @@
+{{spell
+|icon=is_x1expret.gif
+|bardlevel=1
+|magelevel=1
+|innatelevel=1
+|school=[[transmutation]]
+|components=VS
+|range=p
+|area=caster
+|save=none
+|spellresistance=no
+|duration=1 [[round]] / level
+|line=Speed
+|line1=expeditious retreat
+|line3=haste (spell)
+|line6=mass haste
+|desc=The caster becomes 150% [[movement speed increase|faster]] than their normal [[movement rate]], allowing them to flee from dangerous encounters. This spell has no effect if the caster is already hasted.}}
+
+== Notes ==
+
+* Added in the [[expansion pack]]s.
+* This spell gives a 50% bonus to movement speed not a 150%.
+* The "if the caster is already hasted" clause refers specifically to the spell ''[[haste (spell)|haste]]''; other sources of [[haste]] (including ''[[mass haste]]'') do not block this spell (but the movement rate cap is often relevant).
+* This spell stacks with itself (up to the movement rate cap).
+
+== Custom content notes ==
+
+*''script:'' <code>x0_s0_exretreat</code>
+
+==External Links==
+* {{FRW}}

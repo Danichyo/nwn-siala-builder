@@ -1,0 +1,20 @@
+{{Weapon|imagefile=Lance.jpg|
+ |weaponname=Lance
+ |weapondescription=Tourney lances used for jousting are made of light, easily broken wood and designed to widen outwards to protect the wielder from splinters and shards. The head is made of wood or a weak metal, and is designed with a broad tip to lessen the forces of impact, which decrease the chance of injury.
+ |weight=3
+ |cost=2
+ |damage=1d0
+ |critical=<del>x1</del> ''x3''
+ |damagetype=[[piercing damage|piercing]]
+ |size=small
+ |proficiency=none
+ |category= [[category:polearms]] [[category:simple weapons]]
+}}
+
+
+==Notes==
+
+*Added in [[patch]] 1.69
+*Despite its description, the critical multiplier is x3.
+*The "1d0" means no base damage is dealt (though, like any other weapon, the total damage has a minimum of 1).  This phenomena is usually limited to [[creature weapon]]s without a [[monster damage]] property.
+*This item is not supported by feats, nor does it pass the scripted test for being a melee weapon.  Thus it is not affected by [[magic weapon]], [[flame weapon]], or other spells that can only target melee weapons.

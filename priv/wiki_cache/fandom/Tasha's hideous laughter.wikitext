@@ -1,0 +1,22 @@
+{{spell
+|icon=is_x1taslaf.gif
+|bardlevel=2
+|magelevel=2
+|innatelevel=2
+|school=[[enchantment]]
+|components=VS
+|range=s
+|area=single
+|save=[[will]] negates
+|spellresistance=yes
+|immunity=''mind-affecting''
+|duration=1[[d3]] [[round]]s
+|desc=If the target fails their [[saving throw]] they will begin laughing hysterically. They will be unable to defend themselves until the spell wears off. A creature whose [[race|racial type]] is different from the caster's gains a +4 bonus on its saving throw because humor doesn't 'translate' well.}}
+
+==Notes==
+*Added in the [[expansion pack]]s.
+*The laughing effect makes the target [[prone]].
+*If the target has an immunity to mind spells matching the alignment of the caster, but does not have a general immunity to mind spells, the target will automatically suffer the ill effects without being able to make a save ''(a bug)''. (A fix for this is available on the Vault<sup>[http://nwvault.ign.com/View.php?view=Scripts.Detail&id=3739]</sup>.)
+
+==Custom content notes==
+*''script:'' <code>x0_s0_laugh</code>

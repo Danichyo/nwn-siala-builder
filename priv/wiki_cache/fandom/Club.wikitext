@@ -1,0 +1,89 @@
+{{Weapon|imagefile=Club.jpg
+  |weaponname=Club
+  |weapondescription=The '''club''' is a very basic [[weapon]], usually consisting of nothing more than a tapered length of hardwood.
+  |weight=3
+  |cost=3
+  |damage=1d6
+  |critical=x2
+  |damagetype=[[bludgeoning damage|bludgeoning]]
+  |size=Medium
+  |proficiency=[[weapon proficiency (druid)|druid]]<br/>&nbsp;[[weapon proficiency (monk)|monk]]<br/>&nbsp;[[weapon proficiency (rogue)|rogue]]<br/>&nbsp;[[weapon proficiency (simple)|simple]]<br/>&nbsp;[[weapon proficiency (wizard)|wizard]]
+  |category=[[Category:Blunt weapons]] [[Category:Simple weapons]]
+}}
+
+== Notes ==
+* Clubs can be used by all [[base class]]es.
+
+==Toolset==
+* Clubs are listed under the [[club blueprint category]] of the [[item palette]] in the [[Toolset]].
+
+== Club of Smiting ==
+These clubs have great power and when striking a golem there is a good chance of the construct being completely and instantly destroyed.
+
+*[[Enhancement bonus]]: +1
+*[[On-hit]]: slay [[construct]], [[difficulty class|DC]]=14
+*[[item level restriction|Required level]]: 13
+
+== Gladiator's Club +1 ==
+This weapon bears the mark of the dwarf [[Marrok]], Master Blacksmith of [[Neverwinter]]'s Shining Knight Arms and Armor. He forged it early in 1373 DR, to aid the heroes who sought to free his quarantined city from the virulent grasp of the so-called [[Wailing Death]].
+
+*Enhancement bonus: +1
+*On-hit: [[daze]] (DC=14) (75% / 1 [[round]])
+*Required level: 6
+
+== Gladiator's Club +4 ==
+This weapon bears the mark of the dwarf [[Barun Silverblade|Barun]], a Master Blacksmith who worked from a makeshift forge in the [[Uthgardt]] village of Beorunna's Well. He forged it late in 1373 DR, to aid the war effort against [[Aribeth|Lady Aribeth the Betrayer]], who was then marching against the northern city of Neverwinter and the Lords' Alliance.
+
+*Enhancement bonus: +4
+*On-hit: daze (DC=14) (75% / 1 round)
+*Required level: 15
+
+== Gladiator's Club +8 ==
+Jorag Muthkik was the champion of the gladiator pits in Chessenta. His owner, a mage of dubious reputation, made certain that Jorag always had the latest in equipment. He made this club as a gift when Jorag’s win made the mage a fortune in bets. Jorag eventually retired and became a teacher at one of the top gladiator schools in Chessenta. His club was a feared disciplinary weapon.
+
+*Enhancement bonus: +8
+*On-hit: daze (DC=22) (50% / 2 rounds)
+*Required level: 23
+
+'''Note:''' Requires [[Hordes of the Underdark]].
+
+== Ironwood Club ==
+[[Ironwood]] is an extremely durable yet light type of wood that can only be found in the oldest and deepest forests. Despite its amazing properties, it is is considered a non-magical material. 
+Weapons made from ironwood are highly accurate and offer a +1 bonus to [[attack roll]]s.
+
+*[[Attack bonus (item property)|Attack bonus]]: +1
+*Base item weight reduction: 40%
+*Required level: 2
+
+'''Note:''' Requires Hordes of the Underdark.
+
+== Tethir-Wood Cudgel ==
+Encroachment on elven territory is not tolerated, though an exception is occasionally made for those who show proper reverence. Such is the case in the forest of Tethir, where a sect of [[druid]]s have been welcomed and, on occasion, given special boons for their tireless work. While usually information, such a gift might also include an elven-crafted item like this one.
+
+*[[Damage bonus]]: +[[d6]] [[acid damage]]
+*Enhancement bonus: +2
+*Required level: 11
+
+== The Angry Soul ==
+In the early days of exploration within the jungles of Chult, a [[Calimshan]] expedition clashed with a small tribe after removing artifacts from a burial site. A local shaman named Gol'Kai killed a noble while trying to retrieve the sacred items, and the "civilized" invaders retaliated. The tribe did not survive. Weapons such as this were found in nearby villages soon after, accompanied by a silent apparition of Gol'Kai, voiceless as his people.
+
+*Damage bonus: +d6 [[electrical damage]]
+*Enhancement bonus: +3
+*On-hit: [[fear]] (DC=14) (50% / 2 rounds)
+*Required level: 16
+
+== Watchman's Club ==
+This was one of many such weapons distributed among a short-lived private militia in [[Waterdeep]] called the Watchmen's Club. No expense was spared for their equipment because the primary backers were a group of adventurous nobles who fancied that they were "taking the night back from hoodlums and roustabouts." The movement folded when the pursuit fell out of fashion.
+
+*Bonus feat: [[alertness]]
+*Enhancement bonus: +1
+*Light: low (yellow)
+*Skill bonus: +2 [[listen]], +2 [[spot]]
+*Required level: 8
+
+== Will of the Lost ==
+Strangely, the well-worn grip of this weapon is a furniture pattern from around 1200 DR, the club itself being a leg from the central table in a 500-seat festhall. The hall was the heart of a warrior clan, and the site of their last stand during the Year of the Black Horde. In the face of overwhelming [[orc]] hordes they fought with whatever means they could, but were ultimately lost to a man.
+
+*Enhancement bonus: +1
+*[[Regeneration: vampiric]] +3
+*Required level: 8

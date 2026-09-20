@@ -1,0 +1,31 @@
+{{otheruses|the epic spell|the prerequisite feat|Epic spell: mummy dust}}
+
+{{spell
+|icon=ife_x2spmumdst.gif
+|clericlevel=epic
+|druidlevel=epic
+|magelevel=epic
+|innatelevel=10
+|school=[[conjuration]]
+|components=VS
+|range=s
+|area=point
+|duration=24 [[hour]]s
+|line=Undead summoning
+|line3=animate dead
+|line6=create undead
+|line8=create greater undead
+|line10=mummy dust
+|desc=The caster summons a powerful [[warrior lord|mummy warrior]] to the targeted location to fight on his side.
+|spellcraft=15
+}}
+
+== Notes ==
+*Requires [[Hordes of the Underdark]].
+
+'''See also:''' ''[[dragon knight]]'' (the other epic summoning spell)
+
+==Custom content notes==
+*''script:'' <code>X2_S2_MumDust</code>
+
+[[category:summoning]]

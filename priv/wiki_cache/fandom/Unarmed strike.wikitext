@@ -1,0 +1,26 @@
+{{Weapon|imagefile=
+  |weaponname=Unarmed strike
+  |weapondescription=An '''unarmed strike''' is the default attack a character makes when not equipped with weapons. Unarmed strikes will provoke an attack of opportunity unless the character has the [[improved unarmed strike]] feat (or has something equipped in the [[gloves or bracers slot]]).
+  |weight=0
+  |cost=0
+  |damage=1[[d2]] (small creature) or<br />1d3 (medium creature)<sup>*</sup>
+  |critical=x2
+  |damagetype=[[bludgeoning damage]]
+  |size=n/a
+  |proficiency=n/a
+  |category=[[category:blunt weapons]]
+}}
+<sup>*</sup> Unarmed damage for monks is special. See the [[monk]] article for details.
+
+==Notes==
+
+* Unarmed strike benefits from the [[weapon finesse]] feat.
+* [[Gloves]] can give an [[attack bonus (item property)|attack]] or [[damage bonus]] to unarmed strikes.
+* Even though unarmed strikes are weaponless, it is possible to get [[weapon focus]] in unarmed strikes. However, this focus does not satisfy the "weapon focus in a melee ''weapon''" requirement for the [[champion of Torm]] and [[weapon master]] prestige classes.
+* Unarmed strikes are traditionally favored by monks since many monk abilities only operate while fighting unarmed. In addition, monks get ''improved unarmed strike'' for free.
+** Monk abilities that are functional only when unarmed include [[stunning fist]] (which has improved effectiveness for monks), [[ki strike]], and the monk's increased unarmed damage (going up to 1d20 at level 16 for medium-sized monks).
+** Monk abilities that are functional only when unarmed or fighting with a kama include [[flurry of blows]] and the monk's [[unarmed base attack bonus]].
+* It is not possible to [[dual-wield]] fists, so a non-weapon item (e.g. a [[shield]]) may be held in the off-hand with no penalty to attacks.
+* Many creatures that do not appear to have a weapon use [[natural weapon]]s instead of unarmed strike. This is usually the case for [[polymorph]]ed creatures.
+** In several respects, natural weapons are treated as unarmed strikes. Natural weapons benefit from the unarmed variants of [[improved critical]] and [[overwhelming critical]], and they allow ''stunning fist'', ''flurry of blows'', ''ki strike'', [[circle kick]], and the monk unarmed base attack bonus to be used.
+** Natural weapons are unlike unarmed strikes in that their use does not provoke an attack opportunity, they do not benefit from a monk's increased unarmed damage, and they do not benefit from the unarmed variants of [[epic weapon focus|epic]] and regular [[weapon focus]], [[epic weapon specialization|epic]] and regular [[weapon specialization]], nor [[devastating critical]]. Unlike attacks with creature weapons, attacks with unarmed strikes do not penetrate a target's [[damage reduction]] according to the attacker's damage reduction.

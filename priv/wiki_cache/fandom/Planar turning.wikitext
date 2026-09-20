@@ -1,0 +1,24 @@
+{{feat
+|epic=yes
+|type=general
+|prereq=21st level, [[wisdom]] 25+, [[charisma]] 25+, [[turn undead]]
+|desc=This feat allows [[outsider]]s to be turned like [[undead]].
+|use=<del>selected</del> ''automatic''. If the character has twice as many [[class level|level]]s as the outsiders have [[hit dice]], the outsiders are instantly destroyed.
+|icon=ife_x2plnrturn.gif
+|bonus1=blackguard
+|bonus2=champion of Torm
+|bonus3=cleric
+|bonus4=paladin
+|bonus5=weapon master
+}}
+
+== Notes ==
+*Requires [[Hordes of the Underdark]].
+* The basic consequence of this feat is the same as the special ability of the [[good domain|good]] and [[evil domain]]s: outsiders are added to the list of races that can be turned. (The other details mentioned in the feat description are simply reiterations of what ''turn undead'' does.)
+* The second consequence of this feat regards [[turn resistance]]. Outsiders normally add their [[spell resistance]] to their turn resistance, but when the turner has ''planar turning'', they add only half their spell resistance.
+* The ability requirements imply taking at least five (usually more) combined [[great wisdom]] and [[great charisma]] feats (or three of these feats plus ten levels of [[red dragon disciple]]).
+* The combination of high ability requirements and limited benefits (particularly given the overlap with domain selection) make selection of this feat extremely rare.
+
+== Custom content notes ==
+*A custom class must have this feat in their feat list, or that class will not be able to select it as a general feat.
+[[category:Feats restricted by class, epic]]

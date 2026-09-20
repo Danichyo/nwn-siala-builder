@@ -1,0 +1,21 @@
+{{Grimoire spell|imagename=Is bless.gif
+|spellname=Bless
+|casterlevel=[[Grimoire domains#Domains to be added|Community]] 1, [[Cleric]] 1, [[Grimoire domains#Domains to be added|Family]] 1, [[Paladin]] 1
+|innatelevel=1
+|school=[[Enchantment]] ([[Spell subschool|Compulsion]])
+|descriptors=Mind-Affecting
+|components=V, S
+|range=Long
+|immunities=None
+|savingthrow=Harmless
+|spellresistance=No
+|targettype=50 ft. radius emanation from a point in space
+|duration=1 [[turn]] / level
+|description=All allies within the area of effect gain a +1 bonus to attack rolls, along with a +1 on saves against fear.
+}}
+
+== Notes ==
+*{{Grimoire spell change|pagename=[[Bless]]}}
+{{g_clr}}
+{{g_pal}}
+{{g_subcom}}

@@ -1,0 +1,17 @@
+{{Grimoire spell|imagename=Is chilltch.jpg
+|spellname=Chill Touch
+|casterlevel=[[Sorcerer]] / [[Wizard (class)|Wizard]] 1
+|innatelevel=1
+|school=[[Necromancy]]
+|descriptors=None
+|components=V, S
+|range=[[Touch attack|Touch]]
+|immunities=Negative
+|savingthrow=[[Fortitude]] partial or [[Will]] negates (see text)
+|spellresistance=Yes
+|targettype=Creature touched
+|duration=Instantaneous
+|description=The caster's hand glows with blue energy.  A successful touch disrupts the life force of living creatures. Each touch channels negative energy that deals 1d6 points of damage. The touched creature also takes 1 point of [[Strength]] damage unless it makes a successful Fortitude saving throw.<br>
+<br>
+An undead creature touched takes no damage of either sort, but it must make a successful Will saving throw or flee as if panicked for 1d4 rounds +1 round per caster level.}}
+{{g_sorwiz}}

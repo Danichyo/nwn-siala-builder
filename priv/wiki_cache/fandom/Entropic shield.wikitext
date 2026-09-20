@@ -1,0 +1,18 @@
+{{spell
+|icon=is_x1eshield.gif
+|clericlevel=1
+|innatelevel=1
+|school=[[abjuration]]
+|components=VS
+|range=p
+|area=caster
+|save=none
+|spellresistance=no
+|duration=1 [[turn]] / level
+|desc=A magical field appears around the caster, causing any nearby enemies a 20% chance to miss on ranged attacks.}}
+
+==Notes==
+*Added in the [[expansion pack]]s.
+
+==Custom content notes==
+*''script:'' <code>x0_s0_entrshield.nss</code>

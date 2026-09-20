@@ -1,0 +1,57 @@
+{{spell
+|icon=is_x2darkfire.gif
+|clericlevel=3
+|innatelevel=3
+|school=[[evocation]]
+|components=VS
+|range=t
+|area=single creature or melee weapon
+|save=none
+|spellresistance=no
+|duration=1 [[hour]] / level
+|desc=This spell allows the caster to immolate a non-magical [[weapon]]. The weapon will do 1[[d6]] points of damage, +1 per two caster levels (maximum of +10) of [[fire damage]]. The caster can either target a specific melee weapon in his inventory or a creature to enchant the weapon the creature is wielding.}}
+{|class="wikitable"
+!caster level!!damage per hit
+|-
+|align=center|5
+|align=center|1d6+ 2
+|-
+|align=center|6
+|align=center|1d6+ 3
+|-
+|align=center|8
+|align=center|1d6+ 4
+|-
+|align=center|10
+|align=center|1d6+ 5
+|-
+|align=center|12
+|align=center|1d6+ 6
+|-
+|align=center|14
+|align=center|1d6+ 7
+|-
+|align=center|16
+|align=center|1d6+ 8
+|-
+|align=center|18
+|align=center|1d6+ 9
+|-
+|align=center|20+
+|align=center|1d6+10
+|}
+
+==Notes==
+*Requires [[Hordes of the Underdark]].
+*The duration of this spell is technically 2 [[turn]]s per level, which is the same as 1 hour per level, except when the module designer has changed the definition of an hour.
+*The description may be taken to imply that only weapons with no magical properties can benefit from this spell, but that is not the case.
+* This spell can be cast on seemingly unarmed creatures (such as animals) to target one of their [[natural weapon]]s. The "right" slot is targeted if possible; the "bite" slot otherwise. A creature with only a "left" weapon (e.g. some [[polymorph]]s) will not benefit from this spell.
+*The damage is implemented as an [[on-hit]] property. This has a few notable consequences.
+**Damage from on-hit properties is not multiplied for [[critical hit]]s.
+**Damage from on-hit properties [[stack]]s with all damage bonuses on the weapon.
+**Only one on-hit property will ever be applied for a single hit. Thus this spell will not stack with [[flame weapon]], nor is it effective on weapons with permanent on-hit properties.
+*If the damage caused by a ''darkfire'' strike is 10 or more, there will be a different flame animation on the target.
+
+==Custom content notes==
+* ''script:'' <code>X2_S0_Darkfire.nss</code>
+*''On hit fire damage script: '' <code>X2_S3_Darkfire.nss</code>

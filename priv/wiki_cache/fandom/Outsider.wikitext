@@ -1,0 +1,14 @@
+An '''outsider''' is a non-[[elemental]] creature that comes from another [[plane of existence]], primarily the [[outer plane]]s. They are supernatural creatures that tend to have a strong association with their [[alignment]] (e.g. [[slaad]]i are incarnations of [[chaos]]). Many good-aligned outsiders are called celestial, while evil outsiders are referred to as fiendish or demonic, a vestige of their original inspirations (angels, devils, and demons).
+
+The most prevalent influence of outsiders on the game is through [[cleric]]s, as by tradition a [[deity]] is a powerful outsider (hence it is an outsider that grants spells to a cleric).
+Outsiders can also be encountered directly, often the result of a [[summon]]ing (such as the player spells ''[[gate]]'', ''[[greater planar binding]]'', and ''[[lesser planar binding]]'').
+It is also possible for some outsiders to travel to the material plane by their own will, or to be sent by other outsiders.
+
+Due to their supernatural nature, outsiders often have [[spell resistance]], [[damage reduction]], and some form of (elemental) [[damage resistance]].
+They are subject to  [[turn undead|turning]], though, by those who possess the [[planar turning]] feat or the [[good domain|good]] or [[evil domain]]s.
+They are also subject to ''[[banishment]]'', which returns an outsider to its home plane. (Theoretically, this spell should not function against an outsider already on its home plane, but the standard spell does not account for that.)
+
+In [[Dungeons & Dragons]], level 20 [[monk]]s are considered outsiders, but this was not implemented in ''Neverwinter Nights''.
+
+'''See also:''' [[:Category:Outsiders]]
+[[category:races]]

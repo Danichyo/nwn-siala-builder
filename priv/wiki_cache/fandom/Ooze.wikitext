@@ -1,0 +1,10 @@
+An '''ooze''' is an amorphous or mutable creature, usually mindless.
+Typical forms for these creatures include living puddles and blobs of gelatin.
+
+Since their bodies tend to have no set form, they are often immune to [[critical hit]]s, [[prone|knockdown]], [[paralysis]], and [[sneak attack]]s. As mindless creatures, they are generally immune to [[mind-affecting]] spells. The substance from which they are made tends to give them 100% [[immunity]] to [[electrical damage]] and [[poison]].<!-- These are the defenses from the "Ooze Properties" creature skin. However, this might be an unused item. -->
+However, these defenses may vary from ooze to ooze, and are more a guideline for [[custom content]] creators than for the few oozes defined by [[BioWare]].
+
+This [[racial type]] was added with the [[Hordes of the Underdark]] expansion. As a consequence (and probably an oversight), this race is not an option for a ranger's (or Harper scout's) [[favored enemy]].
+
+'''See also:''' [[:Category:Oozes]]
+[[category:races]]

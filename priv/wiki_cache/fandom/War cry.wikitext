@@ -1,0 +1,30 @@
+{{spell
+|icon=is_warcry.gif
+|bardlevel=4
+|innatelevel=4
+|school=[[enchantment]]
+|components=VS
+|range=p
+|area=colossal
+|save=[[will]] negates
+|spellresistance=yes
+|immunity=<del>mind-affecting, sonic</del> ''fear''
+|duration=1 [[round]] / level
+|counters=<del>[[silence (spell)|silence]]</del>
+|desc=The caster lets out a powerful shout that grants the bard a +2 bonus to [[attack bonus|attack]] and damage. All enemies within the [[area of effect]] are stricken with [[fear]].}}
+
+== Notes ==
+* The fear duration is 4 rounds.
+* While the in-game description of this spell lists "mind-affecting" and "sonic" as descriptors, the saving throw is made versus "fear".
+* This is the only spell for which [[BioWare]] did not provide a [[scroll]] in the standard game resources.
+*For the crafting feats ([[brew potion|potions]], [[craft wand|wands]], and [[scribe scroll|scrolls]]) and for [[use magic device]] checks, this spell is treated as having an innate level of 3.
+* Due to a .2da bug, ''silence'' is not an additional [[counterspell]] of this spell.
+
+=== Previous versions ===
+* Prior to 1.69, this spell did not have a somatic component, so it could be cast while wearing full armor and shield, ignoring arcane [[spell failure]].
+
+== Custom content notes ==
+* ''script:'' <code>NW_S0_WarCry</code>
+==External links==
+*{{FRW}}
+* {{NWN2W|War Cry}}

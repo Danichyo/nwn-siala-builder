@@ -1,0 +1,26 @@
+{{feat
+|type=general
+|prereq=[[base attack bonus]] +1
+|desc=This feat allows effective use of all exotic weapons. The exotic weapons list includes the [[bastard sword]], [[dire mace]], [[dwarven waraxe]]<sup>*</sup>, [[double axe]], [[kama]], [[katana]], [[kukri]], [[scythe]], [[shuriken]], [[whip]]<sup>*</sup>, and [[two-bladed sword]].<br />
+<small><sup>*</sup> exclusive to [[Hordes of the Underdark]]</small><br />
+'''Normal:''' A character cannot equip weapons they are not proficient in.
+|use=automatic
+|icon=ife_weppro_ex.gif
+|bonus1=champion of Torm
+|bonus2=fighter
+}}
+
+==Builder notes==
+'''Item feat:''' yes
+
+==Custom content notes==
+'''Removable:''' yes
+
+'''Reusable:''' yes
+
+'''Script:''' [[baseitems.2da]]
+
+*A custom class must have this feat in their feat list, or that class will not be able to select it as a general feat.
+
+[[category:feats restricted by class]]
+[[Category:Weapon proficiency feats]]

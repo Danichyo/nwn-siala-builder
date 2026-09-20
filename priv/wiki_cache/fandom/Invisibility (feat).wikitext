@@ -1,0 +1,17 @@
+{{feat
+|type=class
+|prereq=[[assassin]] 7, [[Harper scout]] 5
+|desc=The character is able to cast the spell [[invisibility (spell)|invisibility]] once per day.
+|use=selected
+|icon=ife_x1hinvis.gif
+|class1=assassin
+|class2=Harper scout
+}}
+
+==Notes==
+*Added in the [[expansion pack]]s.
+* The Harper scout (not the assassin) can use this feat with [[scribe scroll]] to produce a standard scroll of invisibility at increased costs (22 XP, 550 Gold).  This scroll has a caster level of 3 and can only be used by bards, sorcerers, and wizards.
+
+==Custom content notes==
+*''script:'' <code>NW_S0_Invisib.nss</code>
+** This is also the script used by the spell of the same name.

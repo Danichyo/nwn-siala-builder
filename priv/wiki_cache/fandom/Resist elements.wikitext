@@ -1,0 +1,29 @@
+{{spell
+|icon=is_reselem.gif
+|clericlevel=2
+|druidlevel=2
+|paladinlevel=2
+|rangerlevel=1
+|magelevel=2
+|innatelevel=2
+|school=[[abjuration]]
+|components=VS
+|range=t
+|area=single
+|save=harmless
+|spellresistance=no
+|duration=1 [[turn]] / level
+|line=Elemental Resistance
+|line1=endure elements
+|line2=resist elements
+|line3=protection from elements
+|line5=energy buffer
+|desc=The target creature gains [[damage resistance]] 20/- against all elemental [[damage type|forms of damage]]. The spell ends after absorbing 30 points of accumulated damage from any single elemental type.}}
+
+==Notes==
+*This spell stacks with &mdash; and is applied after &mdash; [[feat]]-based sources of damage resistance.
+* This spell will replace earlier castings of itself.
+*[[Sonic damage]] is considered an elemental form of damage for the purpose of this spell.
+
+==Custom content notes==
+*''script:'' <code>NW_S0_ResEle.nss</code>

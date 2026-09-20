@@ -1,0 +1,25 @@
+{{spell
+|icon=is_x1mascamo.gif
+|druidlevel=4
+|rangerlevel=4
+|innatelevel=4
+|school=[[transmutation]]
+|components=VS
+|range=l
+|area=colossal
+|save=none
+|spellresistance=no
+|duration=10 [[turn]]s / level
+|line=Camouflage
+|line1=camouflage
+|line4=mass camouflage
+|desc=All allies in the [[area of effect]] gain a +10 bonus to their [[hide]] skill.}}
+
+== Notes ==
+*Added in the [[expansion pack]]s.
+
+== Custom content notes ==
+* ''script:'' <code>x0_s0_masscamo</code>
+==External links==
+* {{FRW}}
+* {{NWN2W|Camouflage, Mass}}

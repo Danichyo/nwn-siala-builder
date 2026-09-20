@@ -1,0 +1,29 @@
+{{feat
+|epic=yes
+|type=class
+|prereq=[[weapon of choice]], [[epic class|epic]] [[weapon master]]
+|desc=The weapon master gains a +1 bonus to all [[attack roll]]s with his weapon of choice at 13th level and every 3 levels afterwards. This bonus [[stack]]s with the weapon master's [[superior weapon focus]] feat.
+|use=automatic
+|icon=ife_x2supwpfo.gif
+|class1=weapon master
+}}
+
+==Notes==
+*Requires [[Hordes of the Underdark]].
+
+{|class="wikitable" style="text-align:center"
+ |-
+   ! class level !! bonus
+ |-
+   | 13 || +1
+ |-
+   | 16 || +2
+ |-
+   | 19 || +3
+ |-
+   | 22 || +4
+ |-
+   | 25 || +5
+ |- 
+   | 28 || +6
+|}

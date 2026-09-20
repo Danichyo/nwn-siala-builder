@@ -1,0 +1,22 @@
+{{spell
+|icon=is_x2grtthdclp.gif
+|magelevel=7
+|innatelevel=7
+|school=[[evocation]]
+|components=VS
+|range=m
+|area=gargantuan
+|save=see below
+|spellresistance=no
+|immunity=sonic
+|duration=instantaneous
+|desc=You create a loud noise equivalent to a peal of thunder and its accompanying shock wave. The spell has three effects. First, all creatures in the area must make [[will]] saves to avoid being [[stunned]] for 1 round. Second, the creatures must make [[fortitude]] saves or be [[deaf]]ened for 1 minute. Third, they must make [[reflex]] saves or fall [[prone]].}}
+
+==Notes==
+*Requires [[Hordes of the Underdark]].
+*The duration of the knockdown effect is six seconds.
+
+==Custom content notes==
+*''script:'' <code>X2_S0_GrtThdclp.nss</code>
+==External links==
+* {{FRW}}

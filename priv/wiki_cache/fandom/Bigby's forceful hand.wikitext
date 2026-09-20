@@ -1,0 +1,29 @@
+{{spell
+|icon=is_x1bigby2.gif
+|magelevel=6
+|innatelevel=6
+|school=[[evocation]]
+|components=VS
+|range=l
+|area=single
+|save=none
+|spellresistance=yes
+|duration=1 [[round]] / level
+|line=Bigby's hands
+|line5=Bigby's interposing hand
+|line6=Bigby's forceful hand
+|line7=Bigby's grasping hand
+|line8=Bigby's clenched fist
+|line9=Bigby's crushing hand
+|desc=A giant hand appears and attempts to bull rush one target. The hand gains a +14 bonus on the [[strength]] check. A target that is bull rushed is knocked down and is [[dazed]] for the duration of the spell.}}
+
+== Notes ==
+*Added in the [[expansion pack]]s.
+*The bull rush works as follows: caster rolls 1d20 + 14 versus the target's roll of 1d20 + target's [[ability modifier|strength modifier]] + target's [[size modifier]].
+*Many claim this is the single most powerful spell for [[PvP]], because of its long duration and difficulty to resist, particularly for non-strength builds.
+
+== Custom content notes ==
+*''script:'' <code>x0_s0_bigby2</code>
+==External links==
+* {{FRW}}
+* {{NWN2W|Bigby's Forceful Hand}}

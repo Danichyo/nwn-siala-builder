@@ -1,0 +1,19 @@
+{{feat
+|type=general
+|reqfor=[[perfect health]]
+|desc=A [[character]] with this feat is tougher than normal, gaining a +2 bonus to all [[fortitude]] [[saving throw]]s.
+|use=automatic
+|icon=ife_great_fort.gif
+}}
+
+==Builder notes==
+'''Item feat:''' No, but it can be added with custom content.
+
+==Custom content notes==
+'''Removable:''' yes
+
+'''Reusable:''' yes
+
+'''Script:''' hardcoded
+
+*This feat can be added to [[iprp_feats.2da]] to make it available as an item feat.

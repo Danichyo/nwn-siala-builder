@@ -1,0 +1,24 @@
+{{spell
+|icon=is_x2tidebattle.gif
+|innatelevel=9
+|school=[[transmutation]]
+|components=V
+|range=p
+|area=colossal
+|save=none
+|spellresistance=no
+|immunity=divine
+|duration=instant
+|counters=
+|desc=Centered around the caster, this spell rains down [[divine damage|holy damage]] on all within the [[area of effect]], including the caster. Each target will take between 30 and 100 damage.}}
+
+== Notes ==
+*Requires [[Hordes of the Underdark]].
+*Not to be confused with [[battletide]].
+*''Tide of battle'' was originally a level 9 [[sorcerer]]  / [[wizard]] spell, but was removed from all spell lists prior to publication. Thus, this spell is only available through items, such as the (standard) ''tide of battle'' [[scroll]].
+*The damage distribution of this spell is not uniform. Each creature in the area of effect has a 30% chance of receiving 30 damage, and a 1% chance for each damage amount in the 31-100 range. (The damage is a [[d100]] roll, with a minimum of 30.)
+
+== Custom content notes ==
+* ''script:'' <code>x2_s0_TideBattle</code>
+*This spell can be assigned to a [[spellbook]] by editing [[spells.2da]].
+[[Category:Non-class spells]]

@@ -1,0 +1,21 @@
+{{feat
+|type=general
+|reqfor=[[Harper scout]], [[shifter]]
+|desc=+2 bonus to [[spot]] and [[listen]] checks due to finely tuned senses.
+|use=automatic
+|icon=Ife_alertness.gif
+}}
+
+==Builders notes==
+
+'''Item feat:''' yes
+
+The skill bonuses are automatically added to the [[skill]]s, so using [[GetSkillRank]]() will work fine; there is no special concern that need to be taken with this feat.
+
+==Custom content notes==
+
+'''Removable:''' yes
+
+'''Reusable:''' yes
+
+'''Script:''' [[hardcoded]]

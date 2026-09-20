@@ -1,0 +1,20 @@
+{{Grimoire spell|imagename=Is x1acidsp.gif
+|spellname=Acid Splash
+|casterlevel=[[Sorcerer]] / [[Wizard (class)|Wizard]] 0
+|innatelevel=0
+|school=[[Conjuration]] ([[Spell subschool|Creation]])
+|descriptors=Acid
+|components=V, S
+|range=Medium
+|immunities=[[Acid damage|Acid]]
+|savingthrow=None
+|spellresistance=Yes
+|targettype=Single
+|duration=Instantaneous
+|description=The caster fires a small orb of acid at the target for 1d3 points of acid damage.  The caster must succeed at a ranged touch attack to hit.
+}}
+
+== Notes ==
+*{{Grimoire spell change|pagename=[[Acid splash]]}}
+{{g_sorwiz}}
+{{g_subcre}}

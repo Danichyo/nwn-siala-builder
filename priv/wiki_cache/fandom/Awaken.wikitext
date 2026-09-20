@@ -1,0 +1,21 @@
+{{spell
+|icon=is_awaken.gif
+|druidlevel=5
+|innatelevel=5
+|school=[[transmutation]]
+|components=VS
+|range=t
+|area=[[animal companion]]
+|save=harmless
+|duration=special
+|desc=The target animal companion gains +4 [[constitution]], +1d10
+[[wisdom]], +4 [[strength]], and +2 to [[attack roll]]s for as long as it remains at the druid's side.}}
+
+== Notes ==
+
+*The target must be the caster's own animal companion, not that of another character.
+*The benefits are applied as [[supernatural effect]]s, so not subject to [[dispel]]ling nor removal upon [[rest]]ing.
+* This spell may be cast [[maximize spell|maximized]], but with no effect &ndash; the wisdom bonus is still rolled instead of being fixed at +10. ([[Empower spell]] works as expected, though.)
+
+== Custom content notes ==
+* ''Script:'' <code>NW_S0_Awaken</code>

@@ -1,0 +1,34 @@
+{{spell
+|icon=is_x2blckblde.gif
+|magelevel=9
+|innatelevel=9
+|school=[[conjuration]]
+|immunity=summoned item
+|components=VS
+|range=s
+|area=point
+|save=none
+|spellresistance=no
+|duration=concentration, 1 [[round]] / level
+|line=Weapon summons
+|line1=Shelgarn's persistent blade
+|line7=Mordenkainen's sword
+|line9=Black blade of disaster
+|desc=The caster creates [[black blade of disaster (summon)|a black blade-shaped planar rift]], resembling a greatsword which fights at her side. The blade cannot be harmed by physical attacks, but it can be affected by [[dispel magic]] or similar effects. <strike>For the purpose of bypassing damage reduction, the sword has an enhancement bonus equal to your intelligence bonus or your charisma bonus (for wizards and sorcerers respectively) to a maximum of +20</strike>. The spell requires the caster to concentrate on it &mdash; casting spells or performing any other action than walking or talking may result in a concentration failure and end the spell.}}
+<!-- The above text is taken from BioWare. Please do not edit mercilessly.-->
+
+== Notes ==
+
+* Requires [[Hordes of the Underdark]].
+* The intended enhancement bonus based on ability modifier is blocked due to a bug in the script (the weapon becomes unalterable before the enhancement is applied). Instead, the blade has a +5 [[enhancement bonus]] and a +15 [[attack bonus (item property)|attack bonus]]. (A fix for this is available on the Vault<sup>[http://nwvault.ign.com/View.php?view=Scripts.Detail&id=3739]</sup>.)
+* The "concentration" required by this spell is not continuous. Rather, it is checked every six seconds (during the summons' [[OnHeartbeat event]]). If at the moment of the check, the caster is considered to be not concentrating (because of either an action being taken or an [[effect]] the caster is subject to) then the spell is broken. What happens between checks is not relevant, so it is possible to get around this limitation with careful timing, for which [[haste]] may be useful. (One tactic is to build an [[action queue]] consisting of a spell to cast followed by an [[emote]] or two, then repeating. [[Healer's kit]]s have also been used instead of emotes, but that is naturally limited by the number of kits possessed.)
+** The actions a caster can take that are considered to break concentration are exactly the following: attacking, casting a spell (including spells from items), [[counterspell]]ing, [[disable trap|disabling a trap]], [[flag trap|flagging a trap]], [[pick pocket|picking a pocket]], and [[taunt]]ing.
+** The conditions a caster can be under that are considered to break concentration are exactly the following: [[confused]], [[dominated]], [[frightened]], [[paralyze]]d, [[petrified]], [[polymorph]]ed, [[sleep]]ing, and [[stunned]].
+* A strength of this summons is its [[on-hit]] property &mdash; [[planar rift]] &mdash; that can destroy many targets with a single hit.
+* In addition to not being harmed by physical attacks, the blade is immune to all damage and negative effects. (It is flagged as a [[plot]] creature.)
+* The black blade of disaster can only be destroyed by [[Mordenkainen's disjunction]] or [[dismissal]]. In particular, it is not affected by [[banishment]], [[word of faith]], or other [[breach]] or [[dispel]]ling effects targeting the blade. (Dispels targeting the caster can unsummon the blade, though.)
+
+==Custom content notes==
+
+*''script:'' <code>X2_S0_BlckBlde</code>
+[[category:summoning]]

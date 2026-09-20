@@ -1,0 +1,43 @@
+{{spell
+|icon=is_evards.gif
+|magelevel=4
+|innatelevel=4
+|school=[[conjuration]]
+|components=VS
+|range=m
+|area=large
+|areanote=, 1[[d4]] tentacles + 1 / caster level (maximum 20)
+|save=[[fortitude]] special
+|spellresistance=no
+|duration=1 [[round]] / 2 levels
+|desc=[[Image:Evards_tentacles.jpg|right|thumb|160px|Evard's Black Tentacles spell visual effect.]]
+A field of thick, 10 foot long rubbery tentacles rises from the ground.  Each is capable of grappling a target doing 1[[d6]]+4 points [[bludgeoning damage]]. If successful, the target must then make a fortitude [[saving throw]] or become [[paralyze]]d by the grappling tentacle. The tentacles are randomly spread out over the [[area of effect]] allowing no more than half of the tentacles to reach a single target in any given round. The inability of the tentacles to target [[small stature|small creature]]s makes all small creatures completely immune to the spell's effects.}}
+
+== Notes ==
+*Tiny creatures are also immune.
+*The grapple check used to determine whether or not a tentacle hits a target is as follows: 
+ 1d20 + caster level (to a maximum of 20) + 4(tentacle's strength modifier) + 4(tentacle's size modifier) versus
+ 1d20 + [[base attack bonus]] + [[strength]] [[modifier]] + [[size modifier]]. 
+:This makes this spell rather ineffective versus opponents with a high base attack (e.g. warriors), and stronger and larger opponents (e.g. dragons).
+* Due to a bug in the script, a medium-sized target gets a +8 bonus, as if he were of huge size.
+* The damage bypasses [[damage reduction]] as a +2 weapon.
+*Because this spell ignores [[spell resistance]], it may prove an excellent choice for defeating magic resistant opponents.
+*Though this spell is not [[mind-affecting]], immunity from mind-affecting effects still blocks the paralysis.
+*This spell can be devastating when used in conjunction with the [[empower spell]] feat. This is because the 50% bonus applies to both the number of tentacles from the die roll and the number of tentacles deriving from caster level, as well as applying to the damage each dealt by each tentacle.
+**If this spell is cast at maximum effectiveness (level 20 caster) at a single opponent, the total average damage is 181.5 (average of 16.5 tentacles * average of 11 damage each), assuming all tentacles hit.
+**However, the maximum damage per tentacle is only 15, allowing an effect such as [[ethereal visage]] to negate all damage from ''Evard's black tentacles''.
+*Due to a bug not available in OC from random loot.
+
+=== Previous versions ===
+
+* Prior to [[patch]] 1.87.8193.35 ([[Neverwinter Nights Enhanced Edition]]), damage reduction was not penetrated, due to a bug in the engine (not the script).
+*Versions 1.67 and 1.68 of the game had an improved version of this spell in which the damage from all tentacles was combined before being applied to the target. This allowed the spell to easily overcome [[damage reduction]] and bludgeoning [[damage resistance]].
+
+== Custom content notes ==
+*''script:'' <code>NW_S0_Evards</code>
+*''OnEnter script:'' <code>NW_S0_EvardsA</code>
+*''OnHearbeat script:'' <code>NW_S0_EvardsC</code>
+*''bugged loot script:'' TrimLevel (case 4: nMax = '''17''') resref: nw_it_sparscr4'''18'''
+
+==External Links==
+* {{FRW}}

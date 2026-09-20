@@ -1,0 +1,68 @@
+{{otheruses|the red dragon disciple ability}}
+
+{{feat
+|type=class
+|prereq=[[red dragon disciple]] 3
+|desc=At third and seventh [[class level|level]], the dragon disciple begins to develop his ancestor's signature ability: a fiery breath weapon. While the [[fire damage|damage]] potential of the breath weapon slowly raises until reaching its full potential on level ten, save [[difficulty class|DC]] (19) and [[area of effect]] (30' cone) stay the same.
+|use=selected
+|icon=ife_x2ddbreath.gif
+|class1=red dragon disciple
+}}
+
+== Notes ==
+
+*Requires [[Hordes of the Underdark]].
+* This ability can be used once per day.
+*A successful [[reflex]] [[save]] versus [[fire damage|fire]] results in half damage.
+*Damage is rolled once for all [[PvP setting|non-friendly]] creatures in the cone. 
+*Though the cone will extend 10 meters from the user, he will attempt to approach within touch distance of a selected target object. 
+*This feat's description is only accurate for pre-epic levels. In [[epic class]] levels, the damage continues to increases (by 1d10 for every 3 levels), while the save DC does not remain the same but increases by 1 for every 4 levels beyond 10.
+
+{| align="center" border="0" cellpadding="15" <!-- Two tables, side-by-side. -->
+ |- align="top"
+   |
+{| style="text-align:center" class="centertable"
+ |+ Breath damage
+ |-
+   ! class level !! damage
+ |-
+   |  3 || 2[[d10]]
+ |-
+   |  7 ||  4d10
+ |-
+   | 10 ||  6d10
+ |-
+   | 13 ||  7d10
+ |-
+   | 16 ||  8d10
+ |-
+   | 19 ||  9d10
+ |-
+   | 22 || 10d10
+ |-
+   | 25 || 11d10
+ |-
+   | 28 || 12d10
+|}
+   | style="vertical-align:top" |
+{| style="text-align:center" class="centertable"
+ |+ Breath saves
+ |-
+   ! class level !! DC
+ |-
+   |  3 || 19
+ |-
+   | 14 || 20
+ |-
+   | 18 || 21
+ |-
+   | 22 || 22
+ |-
+   | 26 || 23
+ |-
+   | 30 || 24
+|}
+|}
+
+== Custom content notes ==
+* ''script:'' <code>X2_S2_DiscBreath</code>

@@ -1,0 +1,23 @@
+{{spell
+|icon=is_greaglesp.png
+|innatelevel=6
+|school=[[transmutation]]
+|components=VS
+|range=t
+|area=single
+|save=harmless
+|spellresistance=no
+|duration=1 [[hour]] / level
+|line=Eagle's splendors
+|line2=Eagle's splendor
+|line6=Greater eagle's splendor
+|desc=The target creature's [[charisma]] is increased by 2[[d4]] + 1.}}
+
+==Notes==
+
+*If the maximum charisma increase is not achieved, the spell can be cast again for a chance at a higher die roll. The recast will not lower the ability score.
+
+== Custom content notes ==
+* ''script:'' <code>NW_S0_GrEagleSp</code>
+* This spell can be assigned to a [[spellbook]] by editing [[spells.2da]].
+[[Category:Non-class spells]]

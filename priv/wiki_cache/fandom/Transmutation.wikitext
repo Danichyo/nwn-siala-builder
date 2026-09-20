@@ -1,0 +1,86 @@
+[[Image:Is transmut.gif|right|Transmutation]]
+
+Spells from the '''transmutation''' [[spell school]] transform the recipient, either subtly or otherwise.
+
+'''Prohibited school:''' [[conjuration]]<br />
+'''Prohibited to:''' conjurers
+
+Specializing in this school brings the notable (in multiplayer) consequence of being unable to use ''[[raise dead]]'' and ''[[resurrection]]'' scrolls.
+
+== Spells ==
+
+The transmutation spells are the following, organized by [[innate level]].
+Since [[wizard]]s have a greater interest in spell schools than other classes (because they can specialize in a school), spells that are not wizard spells are ''in italics''.
+
+<u>Level 0</u>
+*''[[Virtue]]''
+
+<u>Level 1</u>
+*''[[Amplify]]''
+*''[[Bless weapon]]''
+*[[Burning hands]]
+*''[[Camouflage]]''
+*''[[Deafening clang]]''
+*''[[Entangle (spell)|Entangle]]''
+*[[Expeditious retreat]]
+*''[[Magic fang]]''
+*[[Magic weapon]]
+
+<u>Level 2</u>
+*''[[Aura of glory]]''
+*''[[Barkskin]]''
+*''[[Blood frenzy]]''
+*[[Bull's strength]]
+*[[Cat's grace]]
+*[[Eagle's splendor]]
+*[[Endurance]]
+*[[Fox's cunning]]
+*[[Knock]]
+*''[[One with the land]]''
+*[[Owl's wisdom]]
+*[[Stone bones]]
+*[[Ultravision]]
+
+<u>Level 3</u>
+*[[Bestow curse]]
+*''[[Blade thirst]]''
+*''[[Greater magic fang]]''
+*[[Greater magic weapon]]
+*[[Haste (spell)|Haste]]
+*[[Keen edge]]
+*''[[Magic vestment]]''
+*''[[Quillfire]]''
+*[[Slow (spell)|Slow]]
+*''[[Spike growth]]''
+
+<u>Level 4</u>
+*''[[Mass camouflage]]''
+*[[Polymorph self]]
+
+<u>Level 5</u>
+*''[[Awaken]]''
+*''[[Battletide]]''
+*''[[Inferno]]''
+*''[[Owl's insight]]''
+
+<u>Level 6</u>
+*''[[Crumble]]''
+*''[[Drown]]''
+*[[Flesh to stone]]
+*[[Greater stoneskin]]
+*[[Stone to flesh]]
+*[[Tenser's transformation]]
+
+<u>Level 7</u>
+*''[[Aura of vitality]]''
+*[[Greater sanctuary]]
+*[[Mordenkainen's sword]]
+
+<u>Level 8</u>
+*[[Blackstaff]]
+*''[[Nature's balance]]''
+
+<u>Level 9</u>
+*[[Shapechange]]
+*[[Time stop]]
+[[Category:Spell schools]]

@@ -1,0 +1,12 @@
+'''Type of feat''': Epic 
+
+'''Prerequisite''': [[Ambidexterity]] or [[Dual-wield]], [[Greater two-weapon fighting]], and a [[Dexterity]] of 25 or higher
+
+'''Specifics''': You have mastered fighting with two weapons. You can make as many [[attacks per round|attacks]]  with the off-hand as you can with your main hand. 
+
+'''Use''':  Automatic
+
+==Notes==
+*Added in the [[PRC Expansion Pack]].
+
+[[Category:PRC feats]]

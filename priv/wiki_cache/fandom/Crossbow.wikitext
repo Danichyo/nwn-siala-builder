@@ -1,0 +1,15 @@
+A '''crossbow''' is a [[ranged weapon]] that requires [[bolt]]s to function.
+
+In [[Neverwinter Nights]] there are two types of crossbows: [[light crossbow]]s and [[heavy crossbow]]s.
+
+==Notes==
+
+*Crossbows only provide one [[attack per round]] no matter the [[creature]]'s [[BAB]] unless the character has the [[rapid reload]] [[feat]], in which case, the weapon has the normal attack progression. [[Effect]]s that provide additional attacks, such as [[haste]] or the [[divine power]] spell will work with crossbows.
+*A crossbow's damage is unaffected by its wielder's [[strength]] unless given an explicit [[mighty]] property, so characters with less than 10 strength will not have a damage penalty when wielding most crossbows.
+*Crossbows require characters to wield them with two hands regardless of size.
+* [[Rapid shot]] does not work with crossbows.
+
+=== Previous versions ===
+
+*Prior to version 1.69, the [[character sheet]] showed the normal attack progression when using a crossbow, even though only the first attack of this progression (the one with the highest [[attack bonus]]) was used in combat.
+[[category:ranged weapons]]

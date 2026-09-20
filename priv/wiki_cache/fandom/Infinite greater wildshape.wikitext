@@ -1,0 +1,12 @@
+{{feat
+|type=class
+|prereq=[[shifter]]
+|desc=The shifter's ability to shapeshift into different forms grows while he is gaining levels. At some point the shifter is able to change into certain forms an infinite number of times per day:
+* Level 4: infinite [[greater wildshape I]]
+* Level 7: infinite [[greater wildshape II]]
+* Level 10: infinite [[greater wildshape III]]
+* Level 13: infinite [[humanoid shape]]
+* Level 16: infinite [[greater wildshape IV]]
+|use=automatic
+|class1=shifter
+}}

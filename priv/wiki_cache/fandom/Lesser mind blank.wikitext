@@ -1,0 +1,26 @@
+{{spell
+|icon=is_lsmndblk.gif
+|magelevel=5
+|innatelevel=5
+|school=[[abjuration]]
+|components=VS
+|range=s
+|area=single
+|save=harmless
+|spellresistance=no
+|line=Mind protection
+|line2=clarity
+|line5=lesser mind blank
+|line8=mind blank
+|duration=1 [[turn]] / level
+|counters=<del>[[confusion]]</del>
+|desc=This spell renders the target creature immune to [[mind-affecting]] spells and spell-like effects, and removes all negative effects caused by such spells.}}
+
+== Notes ==
+* This spell only removes the mind-affecting effects that clarity removes ([[dazed]], [[sleep]], [[confused]], [[stunned]], and [[charmed]]) plus [[dominated]] and the negative effects of the spells [[bane]] and [[feeblemind]].  It does not remove [[paralysis]] or [[frightened|fear]].
+* Due to a .2da bug, ''confusion'' is not an additional [[counterspell]] of this spell.
+
+==Custom content notes==
+* ''script:'' <code>NW_S0_LsMndBlk</code>
+==External links==
+*{{FRW}}

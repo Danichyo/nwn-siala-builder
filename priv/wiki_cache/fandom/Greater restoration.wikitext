@@ -1,0 +1,29 @@
+{{spell
+|icon=is_grrestore.gif
+|clericlevel=7
+|innatelevel=7
+|school=[[necromancy]]
+|components=VS
+|range=t
+|area=single
+|save=harmless
+|spellresistance=no
+|duration=instant
+|line=Restoration
+|line2=lesser restoration
+|line4=restoration
+|line7=greater restoration
+|desc=''Greater restoration'' removes most temporary and all permanent negative [[effect]]s from the target character, including [[level drain]]. It does not remove <s>negative mental effects or</s> the effects of [[movement speed decrease|reduced movement speed]]. It also heals the target creature to full [[hit point]]s.}}
+
+== Notes ==
+* The effects it can remove are limited to those removable by ''[[restoration]]'' (penalties to [[ability score]]s, [[armor class]], [[attack bonus|attack]] and damage rolls, damage [[immunity]], [[saving throw]]s, [[spell resistance]], and [[skill]]s, as well as [[blind]]ness, [[deaf]]ness, level drain, and [[paralysis]]) plus [[curse]]s, [[disease]]s, [[poison]], and [[slow]]ed. It also (despite the in-game description) removes the following negative mental effects: [[charmed]], [[confused]], [[dazed]], [[dominated]], [[frightened]],  and [[stunned]].
+* An [[undead]] target is not restored to full hit points.
+* This spell will not remove the negative effects created by a certain disease that is part of the story of the [[Hordes of the Underdark campaign]] (as determined by the effect's creator's [[tag]]).
+===Previous versions===
+* Prior to version 1.69, this spell could be cast with the [[extend spell]] feat, despite having an instantaneous duration.
+
+== Custom content notes ==
+* ''script:'' <code>NW_S0_GrRestore</code>
+
+==External Links==
+* {{FRW}}

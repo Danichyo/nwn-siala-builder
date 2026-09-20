@@ -1,0 +1,21 @@
+{{feat
+|type=monster
+|desc=The monster cannot be caught [[flat-foot]]ed for any reason.
+|use=automatic
+|icon=ife_unreflex.gif
+}}
+
+== Notes ==
+*This feat is only available for [[non-player character|NPC]]s by default.
+
+==Builder notes==
+'''Item feat:''' No, but it can be added with custom content.
+
+==Custom content notes==
+'''Removable:''' yes
+
+'''Reusable:''' yes
+
+'''Script:''' hardcoded
+
+*This feat can be added to [[iprp_feats.2da]] to make it available as an item feat.

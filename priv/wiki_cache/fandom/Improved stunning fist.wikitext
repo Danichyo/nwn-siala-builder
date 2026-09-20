@@ -1,0 +1,20 @@
+{{feat
+|epic=yes
+|type=general
+|prereq=21st level, [[dexterity]] 19+, [[wisdom]] 19+, [[improved unarmed strike]], [[stunning fist]]
+|desc=Adds +2 to the [[difficulty class|DC]] of the character's stunning attack. This feat may be taken multiple times, to a maximum of +20.
+|use=automatic
+|icon=ife_x2impstft1.gif
+|bonus1=champion of Torm
+|bonus2=fighter
+|bonus3=monk
+}}
+
+==Notes==
+*Requires [[Hordes of the Underdark]].
+*The first feat in this series can be taken by any class.  The rest are limited to characters leveling up in [[champion of Torm]], [[fighter]], or [[monk]].
+
+==Custom content notes==
+*A custom class must have versions 2-10 of this feat in their feat list, or that class will not be able to select those as general feats.
+
+[[category:feats restricted by class, epic]]

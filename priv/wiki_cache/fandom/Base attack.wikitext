@@ -1,0 +1,113 @@
+'''Base attack''' ('''BA''') is a measure of the offensive combat ability of a [[character]]. It contributes to the [[attack bonus]] after being converted into a [[base attack bonus]] (BAB), which also means it determines the number of attacks per [[round]].
+This is based only on [[class level]]s; other modifiers may contribute to the attack bonus, but not to a character's base attack.
+Furthermore, when determining the attacks per round, only the class levels obtained by [[character level]] 20 count.
+
+Base attack is displayed on the [[character sheet]] immediately after the saving throws (fortitude, reflex, and will) and before spell resistance.
+It is this number that should be consulted when seeing if a character should qualify for a [[feat]] or [[class]] that says it has a "base attack bonus" prerequisite. (It would be more accurate to call this a "base attack" prerequisite, but the two are closely related.)
+
+__TOC__
+== Pre-epic ==
+
+Classes contribute to base attack at different rates up to character level 20. The more combat-oriented classes increase base attack by one for each level, while the classes least inclined towards combat increase base attack by one for every two levels. The remaining classes are the "3/4 classes", increasing base attack at three of every four levels. (The first of the four levels is the one that does not contribute.)
+
+; '''Combat classes (+1/level)&#58;''' : [[arcane archer]], [[barbarian]], [[blackguard]], [[champion of Torm]], [[dwarven defender]], [[fighter]], [[paladin]], [[purple dragon knight]], [[ranger]], and [[weapon master]]
+
+; '''Middle classes (+3/4 levels)&#58;''' : [[assassin]], [[bard]], [[cleric]], [[red dragon disciple]], [[druid]], [[Harper scout]], [[monk]], [[rogue]], [[shadowdancer]], and [[shifter]]
+
+; '''Non-combat classes (+1/2 levels)&#58;''' : [[pale master]], [[sorcerer]], and [[wizard]].
+
+See also [[monster class]] for the progressions of classes not available to [[player character]]s.
+
+Multiclass characters add the base attack of each of their classes before converting it to a base attack bonus.
+This may result in fewer attacks per round than the classes individually qualify for.
+For example, a level 8 barbarian / level 8 rogue would have 8 BA from barbarian levels and 6 BA from rogue levels, for a total BA of 14. While 8 BA and 6 BA each correspond to two attacks per round (if converted directly to BAB), the total (14 BA) corresponds to three attacks per round, not four.
+
+Another important consideration for multiclass characters are the levels at which classes do not contribute to base attack.
+Early multiclassing can lead to an initially slow BA advancement, such as the possibility of a level 3 character having a BA of 0. This is often, but not always, balanced by rapid (for those classes) advancement at higher levels.
+To fully balance out this slow initial advancement, and for optimal BA in epic levels, non-combat classes should usually have an even number of levels at character level 20, and middle class levels should usually be a multiple of four at that level.
+Exceptions exist when a class is combined with a class with a faster BA advancement.
+
+{| class="centertable subheaders" style="text-align:center"
+|+ Pre-epic base attack and class level
+! Level !! Combat classes !! Middle classes !! Non-combat classes
+|-
+ !1
+ | 1|| 0|| 0
+|-
+ !2
+ | 2|| 1|| 1
+|-
+ !3
+ | 3|| 2|| 1
+|-
+ !4
+ | 4|| 3|| 2
+|-
+ !5
+ | 5|| 3|| 2
+|-
+ !6
+ | 6*|| 4|| 3
+|-
+ !7
+ | 7*|| 5|| 3
+|-
+ !8
+ | 8*|| 6*|| 4
+|-
+ !9
+ | 9*|| 6*|| 4
+|-
+ !10
+ | 10*|| 7*|| 5
+|-
+ !11
+ | 11**|| 8*|| 5
+|-
+ !12
+ | 12**|| 9*|| 6*
+|-
+ !13
+ | 13**|| 9*|| 6*
+|-
+ !14
+ | 14**|| 10*|| 7*
+|-
+ !15
+ | 15**|| 11**|| 7*
+|-
+ !16
+ | 16***|| 12**|| 8*
+|-
+ !17
+ | 17***|| 12**|| 8*
+|-
+ !18
+ | 18***|| 13**|| 9*
+|-
+ !19
+ | 19***|| 14**|| 9*
+|-
+ !20
+ | 20***|| 15**|| 10*
+|}
+<nowiki>*</nowiki> At least two attacks per round.<br />
+<nowiki>**</nowiki> At least three attacks per round.<br />
+<nowiki>***</nowiki> At least four attacks per round.
+
+== Epic characters ==
+
+After level 20, base attack increases at every odd character level regardless of class. (This is similar to how [[base save]]s progress after level 20.) Especially when converting to a base attack bonus, it is useful to think of these increases as an "epic attack bonus" that is added to whatever the base attack was at level 20, as epic BAB is the BAB at level 20 plus this same epic attack bonus (with no additional attacks per round granted).
+{| class="centertable" style="text-align:center"
+ |+ Epic base attack progression
+ |-
+   ! Character level
+   | 21 || 23 || 25 || 27 || 29 || 31 || 33 || 35 || 37 || 39
+ |-
+   ! Epic attack bonus
+   | +1 || +2 || +3 || +4 || +5 || +6 || +7 || +8 || +9 || +10
+|}
+(See also [[epic progression#Epic progression|epic progression]].)
+
+This means that an [[epic character]]'s base attack may depend on the order in which classes were taken. For example, a character taking 20 fighter levels then 20 wizard levels would have a base attack of 30 (and four attacks per round), while a character taking 20 wizard levels then 20 fighter levels would have a base attack of 20 (and two attacks per round).
+[[category:character development]]

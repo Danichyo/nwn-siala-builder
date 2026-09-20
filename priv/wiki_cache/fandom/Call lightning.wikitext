@@ -1,0 +1,22 @@
+{{spell
+|icon=is_calllightn.gif
+|druidlevel=3
+|domain=air
+|domainlevel=3
+|innatelevel=3
+|school=[[evocation]]
+|components=VS
+|range=l
+|area=large
+|save=[[reflex]] 1/2
+|spellresistance=yes
+|immunity=electricity
+|duration=instant
+|desc=All enemies within the [[area of effect]] take 1[[d6]] points of
+[[electrical damage]] per caster level, to a maximum of 10d6.}}
+
+==Custom content notes==
+
+*''Script:'' <code>NW_S0_CallLghtn.nss</code>
+==External Links==
+* {{FRW}}

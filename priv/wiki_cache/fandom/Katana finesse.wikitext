@@ -1,0 +1,11 @@
+'''Type of Feat''': [[Class]]
+
+'''Prerequisite''': [[Iaijutsu master]] level 1 
+
+'''Specifics''': An [[Iaijutsu master]] may use their [[Dexterity]] modifier instead of their [[Strength]] modifier on [[Attack Roll|attack rolls]] with their [[katana]].
+
+
+==Notes==
+*Added in the [[PRC Expansion Pack]].
+
+[[Category:PRC feats]]

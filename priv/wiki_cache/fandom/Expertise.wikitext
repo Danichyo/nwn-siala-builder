@@ -1,0 +1,18 @@
+{{feat
+|type=general
+|prereq=[[intelligence]] 13+
+|reqfor=[[improved expertise]], [[whirlwind attack]], [[improved whirlwind attack]], [[weapon master]]
+|desc=A character with this feat can make defensive attacks, gaining a +5 bonus to [[armor class|AC]] but receiving a -5 penalty to [[attack roll]]s.
+|use=combat mode
+|icon=ife_x1expert.gif
+|bonus1=champion of Torm
+|bonus2=fighter
+}}
+
+==Notes==
+
+*Added in the [[expansion pack]]s.
+*By default, NWN allows spellcasting while using ''expertise''. However, [[BioWare]] included a switch to disable it via scripting using [[spellhook]]ing.
+**Under the default behavior, this can be a useful feat for casters who do not make attacks, as they will gain the AC benefit at effectively no cost.
+*This is an often overlooked feat, but it can be incredibly useful to fighters facing very damaging enemies (or several annoying enemies).
+*This combat mode cannot be used while wielding a [[ranged weapon]].

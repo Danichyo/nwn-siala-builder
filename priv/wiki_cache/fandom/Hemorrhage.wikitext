@@ -1,0 +1,18 @@
+{{Grimoire spell|imagename=Is hemorr.jpg
+|spellname=Hemorrhage
+|casterlevel=[[cleric]] 1
+|innatelevel=1
+|school=[[necromancy]]
+|descriptors=none
+|components=V, S
+|range=[[touch attack|touch]]
+|immunities=none
+|savingthrow=[[will]] negates
+|spellresistance=yes
+|targettype=single
+|duration=1 [[round]]/2 levels (maximum 5 rounds)
+|description=By touch, the caster inflicts a deep, painful wound that bleeds profusely and refuses to heal. The target takes 1d3 points of damage per round from bleeding until the spell's duration expires. Nonmagical healing neither stops the blood loss nor restores [[hit point]]s lost from such bleeding. A cure spell restores hit points normally but does not stop the bleeding. A ''[[styptic]]'' or ''[[heal (spell)|heal]]'' spell both stops the bleeding and restores lost hit points as it normally would.<br>
+<br>
+Hemorrhage is countered by ''styptic''.
+}}
+{{g_clr}}

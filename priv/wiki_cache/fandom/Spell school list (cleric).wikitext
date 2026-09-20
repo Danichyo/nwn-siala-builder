@@ -1,0 +1,284 @@
+This '''spell school list''' is a quick reference of which [[cleric]]al [[spell]]s fall into which [[spell school]]s, broken down by [[spell level]].
+Spells that are only available via [[domain]]s are listed ''in italics''.
+
+== Abjuration ==
+
+<u>Level 0</u>
+* [[Resistance]]
+
+<u>Level 1</u> 
+* [[Endure elements]]
+* [[Entropic shield]]
+* [[Protection from alignment]]
+* [[Remove fear]]
+* [[Sanctuary]]
+* [[Shield of faith]]
+
+<u>Level 2</u>
+* [[Lesser dispel]]
+* [[Resist elements]]
+
+<u>Level 3</u>
+* [[Dispel magic]]
+* [[Glyph of warding]]
+* [[Magic circle against alignment]]
+* [[Negative energy protection]]
+* [[Protection from elements]]
+* [[Remove curse]]
+
+<u>Level 4</u>
+* [[Dismissal]]
+* [[Freedom of movement]]
+* ''[[Minor globe of invulnerability]]''
+* ''[[Stoneskin]]''
+
+<u>Level 5</u>
+* ''[[Energy buffer]]''
+* [[Spell resistance (spell)|Spell resistance]]
+
+<u>Level 6</u>
+* [[Banishment]]
+* [[Greater dispelling]]
+
+<u>Level 8</u>
+* [[Aura versus alignment]]
+
+<u>Level 9</u>
+* [[Undeath's eternal foe]]
+
+== Conjuration ==
+
+<u>Level 0</u>
+* [[Cure minor wounds]]
+
+<u>Level 1</u>
+* [[Cure light wounds]]
+* ''[[Mage armor]]''
+* [[Summon creature I]]
+
+<u>Level 2</u>
+* [[Cure moderate wounds]]
+* [[Lesser restoration]]
+* ''[[Melf's acid arrow]]''
+* [[Remove paralysis]]
+* ''[[Stinking cloud]]''
+* [[Summon creature II]]
+* ''[[Web]]''
+
+<u>Level 3</u>
+* [[Cure serious wounds]]
+* [[Prayer]]
+* [[Remove disease]]
+* [[Summon creature III]]
+
+<u>Level 4</u>
+* [[Cure critical wounds]]
+* [[Neutralize poison]]
+* [[Restoration]]
+* [[Summon creature IV]]
+
+<u>Level 5</u>
+* [[Healing circle]]
+* ''[[Lesser planar binding]]''
+* [[Monstrous regeneration]]
+* [[Raise dead]]
+* [[Summon creature V]]
+
+<u>Level 6</u>
+* ''[[Acid fog]]''
+* [[Heal (spell)|Heal]]
+* [[Planar ally]]
+* [[Summon creature VI]]
+
+<u>Level 7</u>
+* ''[[Creeping doom]]''
+* [[Regenerate (spell)|Regenerate]]
+* [[Resurrection]]
+* [[Summon creature VII]]
+
+<u>Level 8</u>
+* [[Mass heal]]
+* [[Summon creature VIII]]
+
+<u>Level 9</u>
+* [[Gate]]
+* [[Storm of vengeance]]
+* [[Summon creature IX]]
+
+== Divination ==
+
+<u>Level 1</u>
+* ''[[Identify]]''
+
+<u>Level 2</u>
+* [[Find traps]]
+
+<u>Level 3</u>
+* ''[[Clairaudience/clairvoyance]]''
+* [[Remove blindness/deafness]]
+
+<u>Level 5</u>
+* [[True seeing (spell)|True seeing]]
+
+<u>Level 6</u>
+* ''[[Legend lore]]''
+
+== Enchantment ==
+
+<u>Level 1</u>
+* [[Bane]]
+* [[Bless]]
+* [[Doom]]
+
+<u>Level 2</u>
+* [[Aid]]
+* [[Hold person]]
+
+<u>Level 3</u>
+* [[Blindness/deafness]]
+
+== Evocation ==
+
+<u>Level 0</u>
+* [[Light]]
+
+<u>Level 1</u>
+* [[Divine favor]]
+
+<u>Level 2</u>
+* [[Darkness (spell)|Darkness]]
+* [[Sound burst]]
+
+<u>Level 3</u>
+* ''[[Call lightning]]''
+* [[Darkfire]]
+* [[Invisibility purge]]
+* [[Searing light]]
+
+<u>Level 4</u>
+* [[Divine power]]
+* [[Hammer of the gods]]
+* ''[[Wall of fire]]''
+
+<u>Level 5</u>
+* [[Flame strike]]
+* ''[[Ice storm]]''
+
+<u>Level 6</u>
+* [[Blade barrier]]
+* ''[[Chain lightning]]''
+
+<u>Level 7</u>
+* [[Word of faith]]
+
+<u>Level 8</u>
+* [[Earthquake]]
+* [[Fire storm]]
+* [[Sunbeam]]
+
+<u>Level 9</u>
+* [[Implosion]]
+
+== Illusion ==
+
+<u>Level 2</u>
+* ''[[Invisibility (spell)|Invisibility]]''
+* [[Silence (spell)|Silence]]
+
+<u>Level 3</u>
+* [[Continual flame]]
+* ''[[Invisibility sphere]]''
+
+<u>Level 4</u>
+* ''[[Phantasmal killer]]''
+
+<u>Level 5</u>
+* ''[[Improved invisibility]]''
+
+== Necromancy ==
+
+<u>Level 0</u>
+* [[Inflict minor wounds]]
+
+<u>Level 1</u>
+* [[Inflict light wounds]]
+* [[Scare]]
+
+<u>Level 2</u>
+* [[Inflict moderate wounds]]
+* [[Negative energy ray]]
+
+<u>Level 3</u>
+* [[Animate dead]]
+* [[Clarity]] (Bug, meant to be abjuration)
+* [[Contagion]]
+* [[Inflict serious wounds]]
+* ''[[Negative energy burst]]''
+
+<u>Level 4</u>
+* [[Death ward]]
+* [[Inflict critical wounds]]
+* [[Poison (spell)|Poison]]
+
+<u>Level 5</u>
+* [[Circle of doom]]
+* ''[[Enervation]]''
+* [[Slay living]]
+
+<u>Level 6</u>
+* [[Control undead]]
+* [[Create undead]]
+* [[Harm]]
+* [[Undeath to death]]
+
+<u>Level 7</u>
+* [[Destruction]]
+* [[Greater restoration]]
+
+<u>Level 8</u>
+* [[Create greater undead]]
+
+<u>Level 9</u>
+* [[Energy drain]]
+
+== Transmutation ==
+
+<u>Level 0</u> 
+* [[Virtue]]
+
+<u>Level 1</u>
+* ''[[Entangle (spell)|Entangle]]''
+* [[Magic weapon]]
+
+<u>Level 2</u>
+* ''[[Barkskin]]''
+* [[Bull's strength]]
+* ''[[Cat's grace]]''
+* [[Eagle's splendor]]
+* [[Endurance]]
+* [[Fox's cunning]]
+* ''[[Knock]]''
+* [[Owl's wisdom]]
+* [[Stone bones]]
+* [[Ultravision]]
+
+<u>Level 3</u>
+* [[Bestow curse]]
+* [[Magic vestment]]
+
+<u>Level 4</u>
+* [[Greater magic weapon]]
+* ''[[Slow (spell)|Slow]]''
+
+<u>Level 5</u>
+* [[Battletide]]
+* ''[[Haste (spell)|Haste]]''
+* ''[[Polymorph self]]''
+
+<u>Level 6</u>
+* [[Greater sanctuary]]
+
+<u>Level 7</u>
+* ''[[Aura of vitality]]''
+[[category:spell schools| Spell school list (cleric)]]
+[[category:cleric spells| Spell school list]]

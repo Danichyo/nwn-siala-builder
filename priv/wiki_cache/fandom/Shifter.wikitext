@@ -1,0 +1,289 @@
+[[Image:Ir shiftr.gif|right|Shifter]]
+'''Description''': ([[prestige class|PRESTIGE CLASS]])
+A shifter has no form they call their own. Instead, they clothe themselves in whatever shape is most expedient at the time. While others base their identities largely on their external forms, the shifter actually comes closer to their true self through all of their transformations. Of necessity, their sense of self is based not on their outward form, but on their soul, which is truly the only constant about them. It is the inner strength of that soul that enables them to take on any shape and remain themselves within.
+
+'''[[Hit die]]:''' d8
+
+'''Proficiencies:''' No additional proficiencies are gained.
+
+'''[[Skill point]]s:''' 4 + [[int]] modifier
+
+'''Skills:''' [[animal empathy]], [[concentration]], [[craft armor]], [[craft trap]], [[craft weapon]], [[heal (skill)|heal]], [[hide]], [[listen]], [[lore]], [[persuade]], [[spot]]
+
+'''Unavailable feats:'''
+[[curse song]], [[divine might]], [[divine shield]], [[extra music]], [[extra turning]], [[lingering song]], [[quicken spell]], [[spell focus]], [[two-weapon fighting]], [[weapon proficiency (exotic)]], [[weapon proficiency (martial)]], [[weapon proficiency (simple)]], [[weapon specialization]]
+<br />These [[general feat]]s cannot be selected when taking a level of shifter.
+
+'''[[Saving throw|Primary saving throw(s)]]:''' [[fortitude]], [[reflex]]
+
+'''[[Base attack bonus]]:''' +3/4 levels
+
+[[Image:Shifter.jpg|Shifter]]
+
+==Requirements==
+To qualify as a shifter, a character must fulfill all of the following criteria:
+
+'''Feats''': [[alertness]], [[wild shape]]
+
+'''Spellcasting''': level 3 or higher
+
+==Level progression==
+{| border=2 style="background:#efefef; color:#000000; border-collapse:collapse"
+|- style="background:#c0c0c0"
+!rowspan=2|Lvl
+!rowspan=2|BAB
+!colspan=3|Saves
+!rowspan=2|Feats
+!rowspan=2|HP range
+!rowspan=12 style="background:#ffffff"|&nbsp;
+!rowspan=2|Forms becoming available
+|- style="background:#c0c0c0"
+!Fort
+!Ref
+!Will
+|- align=center
+|1st || +0 || +2 || +2 || +0 ||align=left|[[greater wildshape I]] ||4-8 ||align=left| wyrmling
+|- align=center
+|2nd || +1 || +3 || +3 || +0 ||align=left| ||8-16 ||align=left|
+|- align=center
+|3rd || +2 || +3 || +3 || +1 ||align=left|[[greater wildshape II]] ||12-24 ||align=left| harpy, gargoyle, minotaur
+|- align=center
+|4th || +3 || +4 || +4 || +1 ||align=left|[[infinite greater wildshape]] I ||16-32 ||align=left|
+|- align=center
+|5th || +3 || +4 || +4 || +1 ||align=left|[[greater wildshape III]] ||20-40 ||align=left| basilisk, drider, manticore
+|- align=center
+|6th || +4 || +5 || +5 || +2 ||align=left| ||24-48 ||align=left|
+|- align=center
+|7th || +5 || +5 || +5 || +2 ||align=left|[[humanoid shape]], infinite greater wildshape II ||28-56 ||align=left|drow warrior, lizardfolk whipmaster, kobold commando &nbsp;
+|- align=center
+|8th || +6 || +6 || +6 || +2 ||align=left| ||32-64 ||align=left|
+|- align=center
+|9th || +6 || +6 || +6 || +3 ||align=left| ||36-72 ||align=left|
+|- align=center
+|10th || +7 || +7 || +7 || +3 ||align=left|[[greater wildshape IV]], infinite greater wildshape III&nbsp; ||40-80 ||align=left|dire tiger, medusa, mindflayer
+|}
+
+==Tip: Becoming a shifter==
+* Only [[druid]]s can become shifters in Neverwinter Nights.
+
+[[Image:ife x2epshiftr.gif|right|Epic shifter]]
+
+==Epic shifter==
+The epic shifter is a true master of shapeshifting and is able to become virtually any creature imaginable by choosing epic bonus feats.
+
+'''Hit die:''' d8
+
+'''Skill points:''' 4 + int modifier
+
+'''Bonus feats:''' The epic shifter gains a bonus feat every three levels. In other words, at levels 13, 16, 19, 22, 25, and 28.
+
+'''Epic bonus feats:''' [[automatic quicken spell]], [[automatic silent spell]], [[automatic still spell]], [[construct shape]], [[dragon shape]], [[epic energy resistance]], [[epic spell focus]], [[epic spell penetration]], [[great wisdom]], [[improved combat casting]], [[outsider shape]], [[undead shape]]
+
+'''Unavailable epic feats:'''
+[[bane of enemies]],
+[[epic spell: dragon knight]], [[epic spell: epic mage armor]], [[epic spell: epic warding]], [[epic spell: greater ruin]], [[epic spell: hellball]], [[epic spell: mummy dust]],
+[[epic weapon specialization]], [[great smiting]],
+[[improved ki strike 4]], [[improved ki strike 5]], [[improved sneak attack]],
+[[improved spell resistance]], [[improved stunning fist]],
+[[lasting inspiration]], [[mighty rage]],
+[[planar turning]], [[terrifying rage]], [[thundering rage]]
+<br />These general [[epic feat]]s cannot be selected when taking a level of shifter.
+
+===Epic shifter level progression===
+{| border=2 style="background:#efefef; color:#000000; border-collapse:collapse"
+|- style="background:#c0c0c0"
+!&nbsp;Lvl&nbsp;
+!Feats
+!HP range
+!rowspan=21 style="background:#ffffff"|&nbsp;
+!Forms becoming available
+|- align=center
+|11th ||align=left| ||44-88 ||align=left|epic harpy, epic gargoyle, epic minotaur
+|- align=center
+|12th ||align=left| ||48-96 ||align=left|
+|- align=center
+|13th ||align=left|bonus feat, [[infinite humanoid shape]] ||52-104 ||align=left|
+|- align=center
+|14th ||align=left| ||56-112 ||align=left|
+|- align=center
+|15th ||align=left| ||60-120 ||align=left|epic basilisk, epic drider, epic manticore
+|- align=center
+|16th ||align=left|bonus feat, [[infinite greater wildshape]] IV ||64-128 ||align=left|
+|- align=center
+|17th ||align=left| ||68-136 ||align=left|epic drow warrior, epic lizardfolk whipmaster, epic kobold commando &nbsp;
+|- align=center
+|18th ||align=left| ||72-144 ||align=left|
+|- align=center
+|19th ||align=left|bonus feat ||76-152 ||align=left|
+|- align=center
+|20th ||align=left| ||80-160 ||align=left|
+|- align=center
+|21th ||align=left| ||84-168 ||align=left|
+|- align=center
+|22th ||align=left|bonus feat ||88-176 ||align=left|
+|- align=center
+|23th ||align=left| ||92-184 ||align=left|
+|- align=center
+|24th ||align=left| ||96-192 ||align=left|
+|- align=center
+|25th ||align=left|bonus feat ||100-200 ||align=left|
+|- align=center
+|26th ||align=left| ||104-208 ||align=left|
+|- align=center
+|27th ||align=left| ||108-216 ||align=left|
+|- align=center
+|28th ||align=left|bonus feat &nbsp; ||112-224||align=left|
+|- align=center
+|29th ||align=left| ||116-232 ||align=left|
+|- align=center
+|30th ||align=left| ||120-240 ||align=left|
+|}
+
+==Shifter forms==
+When [[polymorph|in another form]], some of the benefits of the shifter's weapons, armor and other items ''may'' still apply, '''merging''' with the new form.
+The below table lists the shifter shapes, which item properties merge, and which feat provides the shape.
+{|
+|
+{| border=2 style="background:#efefef; color:#000000; border-collapse:collapse"
+|- style="background:#c0c0c0"
+!Shape
+!Weapon
+!Items
+!Armor
+|- style="background:#ffffff"
+|colspan=4|
+|- style="background:#c0c0c0"
+!colspan=4|greater wildshape I
+|- align=center
+|align=left|[[Greater wildshape I|wyrmling (any)]]||&nbsp;||Y||Y
+|- style="background:#c0c0c0"
+!colspan=4|greater wildshape II
+|- align=center
+|align=left|[[Harpy form|harpy]]||&nbsp;||Y||Y
+|- align=center
+|align=left|[[Gargoyle form|gargoyle]]||&nbsp;||Y||Y
+|- align=center
+|align=left|[[Minotaur form|minotaur]]||Y||Y||Y
+|- style="background:#c0c0c0"
+!colspan=4|greater wildshape III
+|- align=center
+|align=left|[[Basilisk form|basilisk]]||&nbsp;||&nbsp;||Y
+|- align=center
+|align=left|[[Drider form|drider]]||Y||Y||Y
+|- align=center
+|align=left|[[Manticore form|manticore]]||&nbsp;||&nbsp;||Y
+|- style="background:#c0c0c0"
+!colspan=4|humanoid shape
+|- align=center
+|align=left|[[Drow warrior form|drow warrior]]||Y||Y||Y
+|- align=center
+|align=left|[[Lizardfolk whipmaster form|lizardfolk whipmaster]]||Y||Y||Y
+|- align=center
+|align=left|[[Kobold commando form|kobold commando]]||Y||Y||Y
+|- style="background:#c0c0c0"
+!colspan=4|greater wildshape IV
+|- align=center
+|align=left|[[Dire tiger form|dire tiger]]||&nbsp;||&nbsp;||Y
+|- align=center
+|align=left|[[Medusa form|medusa]]||&nbsp;||Y||Y
+|- align=center
+|align=left|[[Mind flayer form|mindflayer]]||&nbsp;||Y||Y
+|- style="background:#c0c0c0"
+!colspan=4|greater wildshape II (lvl 11)
+|- align=center
+|align=left|[[Epic harpy form|epic harpy]]||&nbsp;||Y||Y
+|- align=center
+|align=left|[[Epic gargoyle form|epic gargoyle]]||&nbsp;||Y||Y
+|- align=center
+|align=left|[[Epic minotaur form|epic minotaur]]||Y||Y||Y
+|}
+|
+|
+{| border=2 style="background:#efefef; color:#000000; border-collapse:collapse"
+|- style="background:#c0c0c0"
+!Shape
+!Weapon
+!Items
+!Armor
+|- style="background:#ffffff"
+|colspan=4|
+|- style="background:#c0c0c0"
+!colspan=4|greater wildshape III (lvl 15)
+|- align=center
+|align=left|[[Epic basilisk form|epic basilisk]]||&nbsp;||&nbsp;||Y
+|- align=center
+|align=left|[[Epic drider form|epic drider]]||Y||Y||Y
+|- align=center
+|align=left|[[Epic manticore form|epic manticore]]||&nbsp;||Y||Y
+|- style="background:#c0c0c0"
+!colspan=4|humanoid shape (lvl 17)
+|- align=center
+|align=left|[[Epic drow warrior form|epic drow warrior]]||Y||Y||Y
+|- align=center
+|align=left|[[Epic lizardfolk whipmaster form|epic lizardfolk whipmaster]] ||Y||Y||Y
+|- align=center
+|align=left|[[Epic kobold commando form|epic kobold commando]]||Y||Y||Y
+|- style="background:#c0c0c0"
+!colspan=4|undead shape
+|- align=center
+|align=left|[[Risen lord form|risen lord]]||Y||Y||Y
+|- align=center
+|align=left|[[Vampire form|vampire]]||&nbsp;||Y||Y
+|- align=center
+|align=left|[[Spectre form|spectre]]||&nbsp;||&nbsp;||Y
+|- style="background:#c0c0c0"
+!colspan=4|outsider shape
+|- align=center
+|align=left|[[Azer chieftain form|azer chieftain]]||Y||Y||Y
+|- align=center
+|align=left|[[Rakshasa form|rakshasa]]||Y||Y||Y
+|- align=center
+|align=left|[[Death slaad form (shifter)|death slaad lord]]||&nbsp;||&nbsp;||Y
+|- style="background:#c0c0c0"
+!colspan=4|construct shape
+|- align=center
+|align=left|[[Stone golem form|stone golem]]||&nbsp;||&nbsp;||Y
+|- align=center
+|align=left|[[Demonflesh golem form|demonflesh golem]]||&nbsp;||&nbsp;||Y
+|- align=center
+|align=left|[[Iron golem form (shifter)|Iron golem]]||&nbsp;||Y||Y
+|- style="background:#c0c0c0"
+!colspan=4|dragon shape
+|- align=center
+|align=left|[[Dragon shape|dragon (any)]]||&nbsp;||&nbsp;||Y
+|}
+|}
+
+===Item merge===
+
+*'''Weapon''' is any melee weapon in the [[main hand slot]].
+*'''Items''' are those in the [[first ring slot|ring]] [[second ring slot|slots]], [[amulet slot]], [[cloak slot]], [[boots slot]], or [[belt slot]].
+* '''Armor''' is the item in the [[armor slot]], plus a [[shield]] if in the [[off-hand slot]] and anything in the [[helmet slot]].
+*The [[gloves or bracers slot]] and the ammunition slots never merge.
+*Rules of thumb:
+**Has a weapon? Merges all.
+**Unarmed, stands on two legs? Merges items & armor.
+**Unarmed, four or more legs? Merges armor only.
+**Exceptions to the rule are epic manticore, spectre, death slaad lord, stone golem, and demonflesh golem.
+*Because only the properties of the items are taken, and the item is "removed" and unavailable in the shifted form, any penalties from armor, such as penalties on skills, do not apply when shifted. This also means that a druid/shifter/[[monk]] who had been wearing armor or using a shield prior to shifting will have their special abilities reinstated because they will no longer be wearing armor or using a shield.
+* Because (most of) the properties taken from items are placed on a single item (a [[skin item]]), many bonuses end up not [[stack]]ing. In particular, bonuses to [[ability score]]s, [[skill]]s, and [[saving throw]]s will not stack with like bonuses. [[Armor class]] (AC) bonuses are even more severely restricted, as these are converted to [[deflection bonus]]es as part of the merge. So if an amulet with a +3 natural AC bonus and boots with a +2 dodge AC bonus were to merge, the result would be a +3 deflection bonus.
+** The exceptions to the above are properties on a weapon. If these properties merge, they merge onto the merged form's weapon, which is not the same place where other properties end up. So while a +2 strength bonus on armor will not stack (after merging) with a +4 strength bonus on a belt, a +2 strength bonus on a weapon will. (However, AC bonuses do not benefit from this exception, as they still end up as non-stacking deflection bonuses.)
+
+==Notes==
+*Requires [[Hordes of the Underdark]].
+*Shifting will retain each of a character's racial bonuses/penalties to ability scores (e.g. elven +2 Dex, -2Cons) for all its applications from saving throws to DC determination (with the exception of a few that directly get the ability score instead of the modifier, e.g. shifted half-orcs do not apply their racial bonus to strength against [[balagarn's iron horn]]) unless the ability corresponding to that particular bonus/penalty is changed either as a result of the shift (including item merge and stat overriding) or following the shift. Some hardcoded aspects where this does not apply include the weight associated without being encumbered (e.g. a shifted half-orc in kobold form has a reduced ability to carry items) and in skill points on level up (e.g. a shifted half-orc gets an additional skill point causing the build to no longer be legal).
+*Spells cannot be cast while shifted, so self-buffs must be cast before shifting.
+*The shifter and druid shapeshifting feats cannot be [[dispel]]led.
+*[[Spell resistance]] from the shapes does not [[stack]] with the [[monk]]'s [[diamond soul]] feat.
+*All of the shapes which require an epic shifter actually require [[greater wildshape IV]]. Hence, they can be taken with 10 levels of shifter as opposed to 11.
+*Characters cannot take the [[weapon proficiency (simple)|simple]], [[weapon proficiency (martial)|martial]], or [[weapon proficiency (exotic)|exotic]] weapon proficiency feats on a shifter (or druid) level. An [[elf|elven]] shifter will receive [[weapon proficiency (elf)|racial bonus proficiencies]] in [[longsword]], [[rapier]], [[longbow]], and [[shortbow]]. In order to gain additional proficiencies, a level of a third class can be taken.
+
+=== Previous versions ===
+
+* Prior to the [[Enhanced Edition]], when reloading a game that was saved while in shifted form, any item merges were not applied (and some items that cannot be used while shifted were removed from the [[quickbar]]). This was resolvable by re-shifting.
+
+==External links==
+* [http://nwnecbguild.forumer.com/topic/2209096/Zelles-Shifter-Guide-Version-V-Revisited Zelle's Shifter Details, Version V]
+* [https://gamefaqs.gamespot.com/pc/188666-neverwinter-nights/faqs/27914 Douglas Crews' Shifter FAQ] (v1.15, based on game version 1.64)
+[[category:prestige classes]]
+[[category:classes]]

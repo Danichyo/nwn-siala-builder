@@ -1,0 +1,30 @@
+{{feat
+|type=general
+|desc=This feat allows effective use of all martial weapons. The martial weapons list includes the [[battleaxe]], [[greataxe]], [[greatsword]], [[halberd]], [[handaxe]], [[heavy flail]], [[light flail]], [[light hammer]], [[longbow]], [[longsword]], [[rapier]], [[scimitar]], [[shortsword]], [[shortbow]], [[throwing axe]], [[trident]], and [[warhammer]].<br />
+'''Normal:''' A character cannot equip weapons they are not proficient in.
+|use=[[Barbarian]]s, [[fighter]]s, [[paladin]]s, and [[ranger]]s are automatically proficient with all martial weapons.
+|icon=ife_weppro_mar.gif
+|class1=arcane archer
+|class2=barbarian
+|class3=blackguard
+|class4=champion of Torm
+|class5=dwarven defender
+|class6=fighter
+|class7=paladin
+|class8=ranger
+}}
+
+==Builder notes==
+'''Item feat:''' yes
+
+==Custom content notes==
+'''Removable:''' yes
+
+'''Reusable:''' yes
+
+'''Script:''' [[baseitems.2da]]
+
+*A custom class must have this feat in their feat list, or that class will not be able to select it as a general feat.
+
+[[category:feats restricted by class]]
+[[Category:Weapon proficiency feats]]

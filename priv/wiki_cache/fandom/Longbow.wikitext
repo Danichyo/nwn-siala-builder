@@ -1,0 +1,64 @@
+{{Weapon|imagefile=Longbow.jpg
+  |weaponname=Longbow
+  |weapondescription=The '''longbow''' is a refinement of the [[shortbow]], designed to increase the range and power of an [[arrow]] strike. The stave portion of a longbow is nearly as tall as the archer, and can reach over six feet.
+  |weight=3
+  |cost=75
+  |damage=1d8
+  |critical=x3
+  |damagetype=[[piercing damage|Piercing]]
+  |size=Large
+  |proficiency=[[Weapon proficiency (elf)|Elf]]<br/>&nbsp;[[Weapon proficiency (martial)|Martial]]
+  |category=[[Category:Ranged weapons]] [[Category:Martial weapons]]
+}}
+
+==Notes==
+* The longbow is a large weapon, and as such it cannot be wielded by creatures of [[small stature]]. This detail was not included in the original description for small stature.
+
+==Toolset==
+* Longbows are listed in the [[longbow blueprint category]] on the [[item palette]] in the [[toolset]].
+
+== Elven Court Bow ==
+This yew bow is more a work of art than a weapon of war.  Fine engravings dance over the polished wood, and the bowstring gleams of gold, almost singing when drawn.  Once thought a unique and singular example of elven craftmanship, this theory was discarded when scholars verified half a dozen identical bows in the ruins of Myth Drannor.
+
+*[[Attack_bonus_(item_property)|Attack Bonus]]: +3
+*[[Mighty]]: +3
+
+== Forever ==
+This elegant bow quivers with magic when touched.  Engraved, ancient elven runes tell the tale of the arcane archer Meadow Everleaf and how she found this bow growing in the forests of Cormanthor.  She plucked this gentle weapon and carried it with her but could never find any material to string the bow with.  One fateful evening, trolls attacked her and she soon depleted her arrows.  Tossing away her mundane bow, she pulled out Forever...and saw a magical bow-string appear.  Nocking an imaginary arrow, she let loose and slew the trolls.  The bow has been kept in her tomb since her death but rumors suggest that drow thieves may have taken it.
+
+*[[Attack_bonus_(item_property)|Attack Bonus]]: +6
+*[[Mighty]]: +5
+*Only Useable by: [[Arcane archer]]
+*[[Unlimited ammunition]]: Arrow Ammo: +[[dice|d6]] [[fire damage]]
+
+== Longarm ==
+The Pirate Isles of Nelanther are mere whimsy to most common people, and have spawned many a legend.  One such tale tells of weapons able to launch arrows between the isles, a likely reference to the Longarm Bows of the region.
+*[[Attack_bonus_(item_property)|Attack Bonus]]: +2
+*[[Ability bonus (item property)|Enhancement bonus]]: [[Strength]] (+2)
+*[[Extra damage type|Extra Ranged Damage]]: [[Bludgeoning damage|Bludgeoning]]
+
+== North Wind Bow ==
+These bows seem primitive at first glance, but behind the crude sinew and hide is a powerful weapon.  They are most often found in the far North, but unfortunately, they are also most often found in the hands of a devotee of Auril the Icemaiden.  Most observers will get a good look at the point of the arrows before ever seeing the bow.
+*[[Attack_bonus_(item_property)|Attack Bonus]]: +3
+*[[Damage resistance]]: [[Cold damage|Cold Resist]] 20 / -
+*[[Mighty]]: +3
+
+== North Wind Bow +8 ==
+These bows seem primitive at first glance, but behind the crude sinew and hide is a powerful weapon.  They are most often found in the far North, but unfortunately, they are also most often found in the hands of a devotee of Auril the Icemaiden.  Most observers will get a good look at the point of the arrows before ever seeing the bow.
+*[[Attack_bonus_(item_property)|Attack Bonus]]: +8
+*[[Damage resistance]]: [[Cold damage|Cold Resist]] 20 / -
+*[[Mighty]]: +8
+*[[Unlimited ammunition]]: Arrow Ammo: +[[dice|d6]] [[Cold damage]]
+
+== Ripper ==
+This longbow was one of many made by a half-elven craftsman whose name has been lost to history.  At one time, there were several hundred in use by scouts who patrolled the Anuaroch desert but, many have been lost or destroyed.  Only a few are still known to exist and these are highly prized rarely find their way to the open market.
+*[[Attack_bonus_(item_property)|Attack Bonus]]: +3
+*[[Immunity]]: [[Mind-affecting]] Spells
+*[[Mighty]]: +4
+
+== Taralash ==
+Taralash was a skilled hunter renowned for his ability to track down even the fleetest of quarry by foot; few animals ever escaped once he had them in the sights of one of his mighty longbows.  On his deathbed, when asked of his amazing hunting accomplishments, Taralash replied with honesty that "any man can bend a blade with his hands, but a thinking man uses the forge; these longbows are that forge."
+*[[Attack_bonus_(item_property)|Attack Bonus]]: +4
+*[[Haste]]
+*[[Mighty]]: +4
+*[[Detect|Skill Bonus]]: [[Spot]] +4

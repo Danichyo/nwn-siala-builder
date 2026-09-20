@@ -1,0 +1,24 @@
+{{spell
+|icon=is_grspbrch.gif
+|magelevel=6
+|innatelevel=6
+|school=[[abjuration]]
+|components=VS
+|range=m
+|area=single
+|save=none
+|spellresistance=no
+|duration=instant
+|counters=<del>[[globe of invulnerability]]</del>, <del>[[greater spell mantle]]</del>
+|linebreach=yes
+|desc=This spell strips an enemy mage of up to four magical defenses, including [[spell mantle]], [[minor globe of invulnerability]], [[globe of invulnerability]], [[stoneskin]], [[greater stoneskin]], [[premonition]], [[protection from elements]], [[ghostly visage]] and [[ethereal visage]], [[mage armor]], [[shadow shield]], and [[elemental shield]]. This spell will also lower the target creature's [[spell resistance|SR]] rating by 5 for ten [[round]]s.}}
+
+== Notes ==
+*See [[breach]] for the full list of spells stripped.
+* The reduced spell resistance is an [[extraordinary effect]], so it cannot be dispelled.
+* Due to a .2da bug, neither ''globe of invulnerability'' nor ''greater spell mantle'' is an additional [[counterspell]] of this spell.
+
+== Custom content notes ==
+*''script:'' <code>NW_S0_GrSpBrch</code>
+==External links==
+*{{FRW}}

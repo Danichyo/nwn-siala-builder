@@ -1,0 +1,22 @@
+[[Image:Isk heal.gif|right|Heal]]
+With this skill a character can use a [[healer's kit]] to cure wounds and heal [[poison]]s and [[disease]]s.
+
+*'''Ability''': [[wisdom]]
+
+*'''Classes''': all
+
+*'''[[Cross-class skill|Cross-class]]''': no
+
+*'''[[untrained skill check|Requires training]]''': no
+
+*'''Check''': To heal poisons and diseases, the healer must make a successful [[skill check|check]] against their [[difficulty class]]. If he is successful, the target is healed and is cured a number of [[hit point]]s equal to the skill roll, plus all modifiers. If the target suffers from no poisons or diseases, it is still cured of damage.
+
+*'''Use''': Use healing kit on wounded creature.
+
+==Notes==
+* The skill check allows for a [[take 20]] when the character is not in combat.
+* Use of this skill does not provoke an [[attack of opportunity]] when in combat, an advantage over using [[potion]]s. However, unlike potions, using the heal skill does leave the character [[flat-foot]]ed.
+* Using a healer's kit does not cancel [[stealth]], making it a good option for sneakers.
+* Heal is a class skill for all classes except [[purple dragon knight]].
+* A negative result from the skill check will damage the target (provided the target is already damaged, diseased, or poisoned). However, such a result is rare since normally the heal skill will not be less than -1 (no ranks and a -1 wisdom modifier), and adding a die roll to -1 will not produce a negative result.
+[[category:skills]]

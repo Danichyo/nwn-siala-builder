@@ -1,0 +1,23 @@
+{{spell
+|icon=is_x2combust.gif
+|magelevel=2
+|innatelevel=2
+|school=[[evocation]]
+|components=VS
+|range=t
+|area=single
+|save=[[reflex]] partial
+|spellresistance=yes
+|immunity=fire
+|duration=instantaneous
+|desc=This spell makes a creature burst into flame. The initial eruption of flame causes 2[[d6]] [[fire damage]] +1 point per caster level (maximum +10) with no [[saving throw]]. Further, the creature must make a reflex save or catch fire taking a further 1d6 points of damage. This will continue until the reflex save is made.}}
+
+== Notes ==
+
+*Requires [[Hordes of the Underdark]].
+*The caster level (up to 10) is also added to the damage inflicted each [[round]] that the save is failed.
+*There is an undocumented, artificial limit of 10 + [[caster level]] rounds on this spell to guarantee that it will end at some point.
+* A creature still subject to an earlier ''combust'' or ''[[inferno]]'' will not catch fire; the initial damage is applied, but there will be no subsequent damage.
+
+== Custom content notes ==
+* ''script:'' <code>X2_S0_Combust</code>

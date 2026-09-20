@@ -1,0 +1,21 @@
+{{spell
+|icon=is_x1onelan.gif
+|druidlevel=2
+|rangerlevel=2
+|innatelevel=2
+|school=[[transmutation]]
+|components=VS
+|range=p
+|area=caster
+|save=none
+|spellresistance=no
+|duration=1 [[hour]] / level
+|desc=The caster forges a strong link with nature, gaining a +4 competence bonus to [[animal empathy]], [[hide]], [[move silently]], and [[set trap]] skills.}}
+
+==Notes==
+*Added in the [[expansion pack]]s.
+
+==Custom content notes==
+*''script:'' <code>x0_s0_oneland.nss</code>
+==External links==
+* {{FRW}}

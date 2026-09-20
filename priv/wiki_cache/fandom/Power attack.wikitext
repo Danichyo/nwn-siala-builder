@@ -1,0 +1,23 @@
+{{feat
+|type=general
+|prereq=[[strength]] 13+
+|reqfor=[[cleave]], [[improved power attack]], [[great cleave]], [[divine might]], [[divine shield]]
+|desc=A character with this feat can make powerful but ungainly attacks. When ''power attack'' is selected, it grants a +5 bonus to the damage roll, but at the cost of -5 to the [[attack roll]].
+|use=combat mode
+|icon=ife_powhit.gif
+|bonus1=champion of Torm
+|bonus2=fighter
+}}
+
+==Notes==
+*This combat mode only works with [[melee]] attacks.
+
+==Builder notes==
+'''Item feat:''' yes
+
+==Custom content notes==
+'''Removable:''' yes
+
+'''Reusable:''' yes
+
+'''Script:''' hardcoded

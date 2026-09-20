@@ -1,0 +1,113 @@
+{{feat
+|type=class
+|prereq=[[bard]]
+|desc=Bards are able to sing a song that can bolster their allies. [[Deaf]]ened [[creature]]s are not affected by the bard's singing. The song affects all allies within 30 feet and lasts for 10 [[round]]s. The higher the bard's final [[perform]] skill and class level, the better the bard song.
+|use=selected
+|icon=ife_bardsong.gif
+|class1=bard
+}}
+
+== Notes ==
+
+*This feat may be used once per [[bard]] level per day.
+* A ''bard song'' cannot be started while [[silence]]d, nor will it affect silenced creatures.
+* Depending on the power of the song, a ''bard song ''can provide bonuses to [[attack roll]]s, damage rolls, each type of [[saving throw]] (fortitude, reflex, and will), [[armor class]] (AC, specifically a [[dodge bonus]]), and [[skill]]s. It can also provide [[temporary hit point]]s (THP).
+**The damage bonus is listed on the character sheet as bludgeoning. However the actual damage is the type of the weapon wielded.
+*This feat has no effect on characters currently influenced by a bard song (excluding [[curse song]]s). A bard should be aware of this if starting a new song before an old one expires.
+*The feat [[lingering song]] increases the duration by 5 rounds (15 rounds total). The feat [[lasting inspiration]] increases the duration 10 times (100 rounds total). They [[stack]], but lasting inspiration is applied first; so, with both feats, the duration is 105 rounds.
+**Other feats that may be of interest to someone using ''bard song'' include [[extra music]] and [[curse song]].
+*This ability can be used while [[polymorph]]ed.
+*The bonus to attack provided by this ability counts towards the +20 [[attack bonus cap]].
+*The bonus to saving throws provided by this ability counts towards the +20 saving throw bonus cap.
+*The bonus to skills provided by this ability counts towards the +50 skill bonus cap.
+*The perform skill required for the highest levels of bard song is unattainable without magic items.
+
+{|class="centertable" style="text-align:center"
+|+Bard song bonuses
+|-
+!Bard level
+!Perform !! Attack !! Damage !! Will !! Fortitude !! Reflex !! THP !! AC !! Skills
+|-
+!1!!3
+|1||1||0||0||0||0||0||0
+|-
+!2!!6
+|1||1||1||0||0||0||0||0
+|-
+!3!!9
+|1||2||1||1||0||0||0||0
+|- style="background-color:#505050"
+!6!!12
+|1||2||1||1||1||0||0||1
+|- style="background-color:#505050"
+!8!!15
+|2||2||1||1||1||8||0||1
+|- style="background-color:#505050"
+!11!!18
+|2||2||1||1||1||8||2||2
+|-
+!14!!21
+|2||3||1||1||1||16||3||2
+|-
+!15!!24
+|2||3||2||2||2||16||4||3
+|-
+!16!!30
+|2||3||3||2||2||20||5||4
+|- style="background-color:#505050"
+!17!!35
+|2||3||3||2||2||22||5||5
+|- style="background-color:#505050"
+!18!!40
+|2||3||3||2||2||24||5||6
+|- style="background-color:#505050"
+!19!!45
+|2||3||3||2||2||26||5||7
+|-
+!20!!50
+|2||3||3||2||2||28||5||8
+|-
+!21!!55
+|2||3||3||2||2||30||5||9
+|-
+!22!!60
+|2||3||3||2||2||32||5||11
+|- style="background-color:#505050"
+!23!!65
+|2||3||3||2||2||34||5||12
+|- style="background-color:#505050"
+!24!!70
+|2||3||3||2||2||36||5||13
+|- style="background-color:#505050"
+!25!!75
+|2||3||3||2||2||38||6||14
+|-
+!26!!80
+|2||3||3||2||2||40||6||15
+|-
+!27!!85
+|2||3||3||2||2||42||6||16
+|-
+!28!!90
+|2||3||3||2||2||44||6||17
+|- style="background-color:#505050"
+!29!!95
+|2||3||3||2||2||46||6||18
+|- style="background-color:#505050"
+!30!!100
+|2||3||3||2||2||48||7||19
+|}
+
+== Builder notes ==
+
+'''Item feat:''' No, but it can be added with custom content.
+
+== Custom content notes ==
+
+'''Removable:''' yes
+
+'''Reusable:''' yes
+
+'''Script:''' <code>nw_s2_bardsong</code>, [[spells.2da]] (411), and [[feat.2da]] (257, 355-373)
+
+* This feat can be added to <code>[[iprp_feats.2da]]</code> to make it available as an item feat. However, since bards get this feat at level 1, there is little point in doing so unless several other changes are also made. (The [[radial menu]] option will appear only for bards unless appropriate <code>[[cls_feat_*.2da]]</code> files are changed. In addition, non-bards will get no benefits from the default script, as they will not meet the requirement of at least one bard level for the minimal benefits.)

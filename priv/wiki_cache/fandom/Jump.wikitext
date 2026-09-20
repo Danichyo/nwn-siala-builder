@@ -1,0 +1,16 @@
+*'''Ability''': [[Strength]]
+
+*'''Classes''': All
+
+*'''Requires training''': No
+
+*'''Check''': A successful check allows a character to jump over pits and vault low fences. [[Halfling]]s have a +2 racial bonus.
+
+*'''Synergy''': If you have +5 ranks in [[Tumble]], you get a +2 to Jump checks. If you have +5 ranks in Jump, you get +2 to [[Tumble]] checks.
+
+*'''Use''': Automatic
+
+==Notes==
+*Added with the [[PRC Expansion Pack]].
+
+[[Category:PRC skills]]

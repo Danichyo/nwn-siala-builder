@@ -1,0 +1,27 @@
+{{spell
+|icon=is_ghoultch.gif
+|magelevel=2
+|innatelevel=2
+|school=[[necromancy]]
+|components=VS
+|range=t
+|area=single
+|save=[[fortitude]] negates
+|spellresistance=yes
+|immunity=negative
+|duration=1[[d6]] + 2 [[round]]s
+|counters=<del>[[cure light wounds]]</del>
+|desc=The caster's hand glows with an unearthly radiance. The target creature must make a fortitude save or become [[paralyze]]d. Creatures paralyzed by this spell emit a noxious cloud that applies a -2 penalty to [[skill]]s, [[saving throw]]s, <s>[[attack roll]]s,</s> and damage rolls to all creatures within 5 feet.}}
+
+== Notes ==
+
+* This spell will not affect friendly targets (after accounting for the [[PvP setting]]).
+* The penalty to attack rolls is not applied (''probably a bug'').<!-- The effect is created but not linked with the others. -->
+* The penalty to damage rolls only reduces [[magical damage]].  If the affected creature does not deal magical damage in its attacks, there will be no change to the damage dealt.
+* Spell resistance and a saving throw also apply to those entering the noxious cloud, but that saving throw lacks the "negative" subtype.
+* The duration of the penalties is also d6 + 2 rounds, rolled independently of the duration of the cloud.
+* Due to a .2da bug, ''cure light wounds'' is not an additional [[counterspell]] of this spell.
+
+== Custom content notes ==
+* ''impact script'' <code>NW_S0_GhoulTch</code>
+* ''OnEnter script'' <code>NW_S0_GhoulTchA</code>

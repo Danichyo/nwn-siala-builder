@@ -1,0 +1,28 @@
+{{feat
+|type=class
+|prereq=[[druid]] 1
+|desc=The druid gains a +2 bonus on all [[attack roll]]s made while fighting in wilderness areas.
+|use=automatic
+|icon=ife_naturesense.gif
+|class=druid
+}}
+
+== Notes ==
+
+* A "wilderness area" is defined to be an [[area]] that has been flagged as "exterior", "natural", and "above ground" [[terrain type]]. This may or may not correspond to what appears to be wilderness.
+* The bonus from this feat is not subject to the +20 [[attack bonus cap]].
+* This bonus is not reflected on the [[character sheet]] when wielding a ranged weapon, but the bonus is still used in combat.
+
+==Builder notes==
+
+'''Item feat:''' No, but it can be added with custom content.
+
+==Custom content notes==
+
+'''Removable:''' yes
+
+'''Reusable:''' yes
+
+'''Script:''' hardcoded
+
+*This feat can be added to [[iprp_feats.2da]] to make it available as an item feat.

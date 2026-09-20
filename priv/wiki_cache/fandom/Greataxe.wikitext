@@ -1,0 +1,87 @@
+{{Weapon|imagefile=Greataxe.jpg
+  |weaponname=Greataxe
+  |weapondescription=The '''greataxe''', a favorite of [[barbarian]]s, is the largest of the [[weapon]]s derived from the basic woodcutter's axe. The double-edged head is far more suited to cleaving opponents than trees.
+  |weight=20
+  |cost=20
+  |damage=1d12
+  |critical=x3
+  |damagetype=[[slashing damage|slashing]]
+  |size=Large
+  |proficiency=[[weapon proficiency (martial)|martial]]
+  |category=[[Category:Axes]] [[Category:Martial weapons]]
+}}
+<!-- edited by pimpernell: until i know more, i'll leave this hidden.
+==Toolset==
+* Greataxes are listed under the [[greataxe blueprint category]] of the [[item palette]] in the [[toolset]]. -->
+
+== Axe of the Culling ==
+So many tales surround these axes that it is difficult to determine which are true. They have been linked to kings, celestials, dark gods, and obnoxious dwarves, but in all cases they were used to destroy some meddlesome wizard or another. Scholars suggest that the weapons were created by a single person; someone wishing either the destruction of all [[spellcaster]]s, or simply the troublesome ones.
+
+* [[Damage bonus]]: + 1[[d6]] [[fire damage]]
+*[[Enhancement bonus]]: +3
+*[[On-hit]]: [[dispel magic]] ([[DC]]=14)
+*[[Item level restriction|Required level]]: 20
+
+== Epic Minotaur Axe ==
+This magic weapon has an [[enhancement bonus]] to attack and damage, but it doesn't bear the hallmarks of any specific maker.
+
+*Bonus feat: [[knockdown]]
+*Bonus feat: [[weapon proficiency (martial)]]
+*Damage bonus: +1d6 fire damage
+*Enhancement bonus: +3
+*Use limitation: [[goblinoid]]s
+*Required level: 21<br/>
+'''Note:''' This axe is intended for the epic minotaur form of [[greater wildshape II]].
+
+== Gruumsh Hand ==
+[[Orc]]s tell of a great hero who wore no [[armor]], and how the god Gruumsh gifted him with an axe to protect him in battle. He eventually became the avatar of that fearsome [[deity]], and broke his weapon into many pieces to seed it among the orc hordes. Other cultures don't recognize the tale, but orcs don't care. After all, their legends also say that all the other races are born of swine, and what are the opinions of pigs worth?
+
+*Damage bonus: +d6 [[acid damage]] versus [[human]]s
+*Enhancement bonus: +2
+*Skill bonus: +3 [[parry]]
+*Required level: 9
+
+== Netherese Axe ==
+Weapons such as these not only protect against magical attack, they also improve the wielder's ability to research new [[spell]]s and make him more aware of threats. Long research has traced their origin to the extinct Netherese civilization, but of their creator nothing is known.
+
+*Enhancement bonus: +1
+*Skill bonus: +3 parry, +3 [[lore]]
+*[[Spell resistance]]: 10
+*Required level: 8
+
+== Re's Redemption ==
+When Mulhorand's rebellious wizards opened [[Faerûn]] to the invasion known as the Orcgate Wars, the avatars of the deities descended from the heavens to do battle. The avatar of Re was slain in battle but used his dying breath to create hundreds of these greataxes. Known as Re's Redemption, each of them was dedicated to the slaying of orcs, and only with their help was the great horde forced northward.
+
+*Damage bonus: +d6 [[electrical damage]] versus [[evil]]
+*Enhancement bonus: +2
+*Enhancement bonus: +4 versus [[orc]]s
+*Required level: 12
+
+== Stonefire Axe +1 ==
+This weapon bears the mark of the dwarf [[Marrok]], Master Blacksmith of [[Neverwinter]]'s Shining Knight Arms and Armor. He forged it early in 1373 DR, to aid the heroes who sought to free his quarantined city from the virulent grasp of the so-called [[Wailing Death]].
+
+*Damage bonus: +2 fire damage
+*Enhancement bonus: +1
+*Required level: 6
+
+== Stonefire Axe +2 ==
+This weapon bears the mark of the dwarf [[Barun Silverblade|Barun]], a Master Blacksmith who worked from a makeshift forge in the [[Uthgardt]] village of Beorunna's Well. He forged it late in 1373 DR, to aid the war effort against [[Aribeth|Lady Aribeth the Betrayer]], who was then marching against the northern city of Neverwinter and the Lords' Alliance.
+
+*Damage bonus: +d6 fire damage
+*Enhancement bonus: +2
+*Required level: 11
+
+== Stonefire Axe +8 ==
+The head of this great axe is hot to the touch, which explains why the shaft is made of ironwood and is immensely long. Though the origins of this axe are long forgotten, the power inhabiting the axe is obviously that of a master craftsman.
+
+*Damage bonus: +2d6 fire damage
+*Enhancement bonus: +8
+*Required level: 23
+
+== The Sandstorm ==
+Along the edge of the [[Anauroch]] lived a tribe of nomads whose ferocity in battle became a legend that told of a giant whirlwind of sand that would destroy caravans, leaving nothing but corpses behind. The truth behind the legend was that the shaman of this tribe was more powerful than he knew and he created this weapon that sprays sand with every swipe, often blinding opponents. 
+
+*Decreased AC: -1 [[dodge bonus]]
+*Enhancement bonus: +2
+*On-hit: [[blind]]ness (DC=16) (10% / 4 [[round]]s)
+*Required level: 13

@@ -1,0 +1,31 @@
+{{spell
+|icon=is_mscharm.gif
+|magelevel=8
+|innatelevel=8
+|school=[[enchantment]]
+|components=V
+|range=s
+|area=large
+|save=[[will]] negates
+|line=Charm
+|line1=charm person
+|line2=charm person or animal
+|line3=charm monster
+|line8=mass charm
+|spellresistance=yes
+|immunity=mind-affecting
+|duration=1 [[round]] / <del>level</del> ''2 levels''
+|desc=In the eyes of all non-allied creatures within the [[area of effect]], the personal [[reputation]] of the caster is improved by 50%. The caster can charm up to twice his <s>hit dice</s>[[caster level]] in creatures.}}
+
+== Notes ==
+* The in-game spell description states that this spell lasts one round per level, but it actually lasts one round per two (caster) levels.
+*When [[extend spell|extended]], this spell lasts 1 round per caster level, which is marginally more than twice the non-extended version at odd caster levels.
+*Unlike most charm spells this spell can charm [[player character]]s and their [[associate]]s.
+* The term "non-allied" may be misleading. Depending on [[PvP setting]]s, the spell can affect members of the caster's party in the area of effect and the caster, too.
+* This spell only affects [[humanoid]]s, even though its description says "creatures".
+* Contrary to the in-game description, the limit on hit dice is one less than twice the caster level.
+* Targets who resist the spell or make their saves still count against the HD limit.
+* Merchants under the influence of this spell suffer a -15 penalty to their [[appraise]] skill if they make an opposed skill check when opening their store. This means that prices could be adjusted 15% (of the item's value) in the PC's favor. However, this is subject to a minimum skill of 1, so there is no benefit when the merchant has no (or little) ''appraise'' skill in the first place.
+
+== Custom content notes ==
+* ''script:'' <code>NW_S0_MsCharm</code>

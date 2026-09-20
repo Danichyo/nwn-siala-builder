@@ -1,0 +1,12 @@
+'''Type of Feat''': [[Class]]
+
+'''Prerequisite''': [[Iaijutsu master]] level 12
+
+'''Specifics''': The [[epic class|epic]] [[Iaijutsu master]] can draw her sword, strike with it, and return it to its sheath so quickly that she does not even seem to move. The strike is so fast, no blood stains the blade, and the victim may not initially realize they have been cut. 
+
+'''Use''': Selected.
+
+==Notes==
+
+*Added in the [[PRC Expansion Pack]].
+[[Category:PRC feats]]

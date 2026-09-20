@@ -1,0 +1,16 @@
+{{feat
+|type=class
+|prereq=[[purple dragon knight]] 5
+|desc=Once per day, the purple dragon knight can inspire his troops to a heroic effort. Each ally in the area gains 2[[d10]] [[temporary hit point|hit point]]s. This ability can affect a number of people equal to his purple dragon knight level + [[charisma]] [[modifier]], and lasts for the same number of [[round]]s.
+|use=selected
+|icon=ife_x3_pdkstand.gif
+|class1=purple dragon knight
+}}
+
+==Notes==
+*Added in patch 1.69.
+*The area affected by this ability is {{AoE|large}}.
+*For this ability, allies include the caster and all friendly and neutral creatures.
+
+==Custom content notes==
+*''script:'' <code>X3_S2_pdk_Stand.nss</code>

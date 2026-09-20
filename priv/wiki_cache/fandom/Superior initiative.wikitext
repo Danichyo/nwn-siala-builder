@@ -1,0 +1,19 @@
+{{feat
+|epic=yes
+|type=combat
+|prereq=[[epic character]], [[improved initiative]]
+|desc=The character gains a +8 bonus on [[initiative]] checks.
+|use=automatic
+|icon=ife_x2suprinit.gif
+|bonus1=assassin
+|bonus2=barbarian
+|bonus3=champion of Torm
+|bonus4=fighter
+|bonus5=rogue
+|bonus6=shadowdancer
+|bonus7=weapon master
+}}
+
+==Notes==
+*Requires [[Hordes of the Underdark]].
+*This feat replaces (does not [[stack]] with) ''improved initiative''.

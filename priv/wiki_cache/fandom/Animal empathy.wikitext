@@ -1,0 +1,27 @@
+[[Image:Isk aniemp.gif|right|Animal Empathy]]
+A successful check allows a character to charm or dominate certain creatures.
+
+*'''Ability''': [[charisma]]
+
+*'''Classes''': [[druid]], [[ranger]], [[shifter]]
+
+*'''[[Cross-class skill|Cross-class]]''': no
+
+*'''[[untrained skill check|Requires training]]''': yes
+
+*'''Check''': [[Animal]]s and dire animals have a [[difficulty class]] of 15 + the creature's [[hit dice]]. For [[beast]]s and [[magical beast]]s, the DC is 19 + the creature's hit dice. If the check succeeds, the creature is [[dominated]].
+
+*'''Special''': If the character fails their check by five or more, the creature will go hostile.
+
+*'''Use''': Select this skill (from the [[quickbar]]) and then select the target creature. Dominated creatures will be commanded as if they were henchmen. The creature will remain dominated for one [[turn]] per [[character level|level]] of the character using the skill.
+
+==Notes==
+
+*This skill can also be selected from the radial menu of the target creature.
+*This skill does not work on some creatures one might consider animals, such as [[vermin]] and hell hounds. (Hell hounds are in fact [[outsider]]s.)
+* This skill does not work on creatures with immunity to [[mind-affecting]] spells, as domination is a mind-affecting effect.
+* This skill cannot be used by someone trying to remain unseen (as its use involves being seen). That is, it cannot be used while [[invisible]] or in [[stealth]] mode, even if it becomes clear that the target has seen through the attempt to remain unseen.
+* Characters may [[take 20]] with this skill when not in combat. This is usually only applicable to non-hostile creatures, but can be used with hostile creatures if the empathy is attempted in the brief time between an animal spotting and attacking the one using this skill.
+[[Category:Skills]]
+[[Category:Skills that require training]]
+[[Category:Exclusive skills]]

@@ -1,0 +1,62 @@
+{{spell
+|icon=is_tenstrans.gif
+|magelevel=6
+|innatelevel=6
+|school=[[transmutation]]
+|components=VS
+|range=p
+|area=caster
+|save=harmless
+|spellresistance=no
+|duration=1 [[round]] / level
+|desc=The caster becomes an [[doom knight form|engine of destruction]], gaining a +1 [[attack bonus]] for every 2 caster levels, a +4 natural armor [[armor class|AC]] bonus, 20 [[strength]], 22 [[dexterity]], 18 [[constitution]], +5 to their [[fortitude]] [[saving throw]]s, and +1[[d6]] additional [[temporary hit point|hit point]]s per caster level.}}
+
+==Notes==
+
+* Although called a "natural armor bonus", the bonus is in fact a [[dodge bonus]], which [[stack]]s with other dodge bonuses toward the +20 cap.
+* The temporary hit points are applied independently of the [[polymorph]], so these hit points can persist if the polymorph is canceled before the spell expires. (The reason for this is the reverse situation &mdash; losing the temporary hit points through damage will not cancel the polymorph.) This stacks over multiple castings.
+* In addition to the stated benefits, this transformation grants the [[cleave]] feat, immunity to [[mind-affecting]] spells, and two additional [[free attack|free attacks]] [[attacks per round|per round]].
+* A drawback to this spell is a possible lowering of [[armor class]] (since bonuses from items do not apply while transformed).
+* While transformed by this spell, a character wields Tenser's Sword, a +3 [[longsword]] with a 1d6 [[fire damage]] bonus. (This may be detrimental to a character with [[monk]] levels.)
+*Also while transformed, the caster's [[race]] becomes "[[elf]]", which might result in a [[multiclass penalty]]. It also allows a character to gain [[arcane archer]] levels at the expense of no longer being [[enforce legal character|legal]], if levels are taken while transformed.
+
+{| class="wikitable" style="text-align:center"
+ |-
+   !caster level !!attack bonus !!hit point bonus
+   |rowspan=16 bgcolor=white| <!-- separator column -->
+   !caster level !!attack bonus !!hit point bonus
+ |-
+   |11||+ 5||+11d6   ||26||+13||+26d6
+ |-
+   |12||+ 6||+12d6   ||27||+13||+27d6
+ |-
+   |13||+ 6||+13d6   ||28||+14||+28d6
+ |-
+   |14||+ 7||+14d6   ||29||+14||+29d6
+ |-
+   |15||+ 7||+15d6   ||30||+15||+30d6
+ |-
+   |16||+ 8||+16d6   ||31||+15||+31d6
+ |-
+   |17||+ 8||+17d6   ||32||+16||+32d6
+ |-
+   |18||+ 9||+18d6   ||33||+16||+33d6
+ |-
+   |19||+ 9||+19d6   ||34||+17||+34d6
+ |-
+   |20||+10||+20d6   ||35||+17||+35d6
+ |-
+   |21||+10||+21d6   ||36||+18||+36d6
+ |-
+   |22||+11||+22d6   ||37||+18||+37d6
+ |-
+   |23||+11||+23d6   ||38||+19||+38d6
+ |-
+   |24||+12||+24d6   ||39||+19||+39d6
+ |-
+   |25||+12||+25d6   ||40||+20||+40d6
+|}
+
+== Custom content notes ==
+
+* ''script:'' <code>NW_S0_TensTrans</code>

@@ -1,0 +1,64 @@
+'''Description:''' Clerics who take the War domain can summon the power of their deity to become engines of destruction. They also gain access to spells that improve their battle prowess.[[Image:Id war.gif|right|War]]
+__NOTOC__
+== Bonus spells ==
+
+* Level 2: ''[[cat's grace]]''
+* Level 7: ''[[aura of vitality]]''
+
+== Domain special abilities ==
+
+Battle Mastery - The [[cleric]] gains a bonus of 1 + 1 per 5 [[class level|cleric levels]] to [[dexterity]], [[constitution]], [[attack roll]]s and damage. As well, the cleric receives double this value as [[damage reduction]]. The effect will last for 5 [[round]]s + [[charisma]] [[modifier]].
+
+=== Notes ===
+
+* Battle mastery can be used once per [[day]].
+* The bonus to attack provided by this ability counts towards the +20 [[attack bonus cap]].
+* The damage bonus is a physical [[damage increase]] effect.
+* It takes a +5 weapon to pierce the damage reduction.
+{|class="wikitable" style="text-align:center"
+|+ Effects
+  ! Cleric level
+  ! Bonuses
+  ! Reduction
+|-
+  | 1
+  | +1
+  | 2/+5
+|-
+  | 5
+  | +2
+  | 4/+5
+|-
+  | 10
+  | +3
+  | 6/+5
+|-
+  | 15
+  | +4
+  | 8/+5
+|-
+  | 20
+  | +5
+  | 10/+5
+|-
+  | 25
+  | +6
+  | 12/+5
+|-
+  | 30
+  | +7
+  | 14/+5
+|-
+  | 35
+  | +8
+  | 16/+5
+|-
+  | 40
+  | +9
+  | 18/+5
+|}
+
+=== Custom content notes ===
+
+* ''script'' <code>NW_S2_BatMast</code>
+[[category:cleric domains]]

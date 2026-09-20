@@ -1,0 +1,6 @@
+A '''wand''' is an [[item]] for storing many (up to 50) copies of a single [[spell]]. Their usage is often restricted to the classes that can cast that spell normally.
+Wands cannot be equipped, but are instead activated from a character's inventory. They can also be assigned to a [[quickslot]] for faster access.
+When a wand's remaining [[charge]]s are reduced below the number needed for the spell, the item is destroyed.
+
+Wands can be created with the [[craft wand]] feat, which gives a wand usable only by [[arcane]] or [[divine]] casters (matching the class used to cast the spell that created the wand). Such wands are often used to augment a character's [[spell slot]]s, either by providing a spell that is used often (more times between [[rest]]s than the character has available spell slots), or one that is used seldom (so seldom that it is not worth reserving a spell slot for that spell on the off chance it will be useful).
+[[Category:mage specific]]

@@ -1,0 +1,168 @@
+{
+  "_layer": "vanilla",
+  "_hand_written": true,
+  "_note": "Восьмой файл этой формы (задача 3.209, «Резисты») — ПОГЛОЩЕНИЕ СТИХИЙНОГО урона (fire/cold/acid/electrical/sonic). Как у семи соседей, поле в корпусе не читается: связь «фит → сколько резиста» лежит прозой в `description`/Notes, и структурного поля про величину нет ни у одной из 299 ванильных записей.\n\n⚠️ Источников в корпусе РОВНО ДВА, и это находка чужих разведок, а не эта задача: широкий контрольный проход `feat_spell_resistance.json` → `_sweep.wide_pass_result` уже прошёл все 561 запись девяти файлов (feats/classes/skills/races обеих вики) и явно перечислил «энергетическое сопротивление (Epic energy resistance и пять его стихий, Resist energy)» как единственные найденные факты этого рода — не SR, значит не туда, но и не потерялись. Точечная проверка тем же корпусом (grep по «resist/поглощен/сопротивл» на classes.json/skills.json обеих вики) подтвердила: ни один класс и ни один навык стихийного поглощения не даёт, а пять совпадений `siala_41/classes.json` — это дыхание РДД, шанс вора игнорировать иммунитет, яды друида/убийцы, тьма Теневого танцора и 25 % Бледного мастера к негативной энергии — настоящие иммунитеты, `not_our`, ничего общего с этим файлом. Отдельного сплошного прохода этот файл не переделывал.\n\n⚠️ Третий и четвёртый источники поглощения — раса Гнома (Dwarf) и группа топоров — НЕ здесь: они не фиты, а `siala_41/races.json` → `racial_bonus` и `siala_41/systems.json` → `weapon_system.bonuses_at_level_40.axes`, посчитаны отдельным механизмом (`Rules.RacialBonus`/`Rules.WeaponTypeBonus`, задача 3.181) и складываются с этим файлом по правилу «наибольшее», а не «сумма» — см. `_stacking_decision` и `siala_41/systems.json` → `executors.resistance` (задача 3.209, п. 2).",
+  "_verdicts": {
+    "applied": "Число и его аргумент названы, прибавка (для выбранной ПРИ ВЗЯТИИ фита стихии) безусловна — ядро её считает и называет в разборе секции «Резисты» поимённо.",
+    "counted_elsewhere": "Тот же резист уже посчитан другой записью. ⚠️ Сегодня категория ПУСТА: у двух фитов файла нет общего эффекта, который стоило бы не задваивать.",
+    "not_modelled": "Резист есть, но условен или зависит от того, чего у нас нет. ⚠️ Сегодня категория ПУСТА.",
+    "not_a_resistance_bonus": "В прозе есть слово «resistance»/«поглощение», а СОБСТВЕННОЕ поглощение персонажа умение не меняет — цель другая (сопротивление ЦЕЛИ, шанс проигнорировать чужой резист) либо это вообще не про стихии. ⚠️ Сегодня категория ПУСТА — оба совпадения корпуса про стихийное поглощение оказались настоящими."
+  },
+  "_schema": {
+    "feat": "id из vanilla/feats.json. Четырёхчастного словаря `feat | class | skill | race_feat` соседей здесь нет — сплошной проход (см. `_note`) нашёл источник только у фитов, и заводить неиспользуемые ключи ради единообразия значило бы утверждать домен, которого никто не проверял.",
+    "verdict": "Один из четырёх выше.",
+    "energy_type": "Домен выбора значения — всегда `\"chosen\"`: у ОБОИХ фитов величина не про конкретную стихию, а про ЛЮБУЮ выбранную (`repeatable.choice: \"energy_type\"` в `siala_41/feats.json`/`vanilla/feats.json`). Поле документирует это явно, а не оставляет её угадывать по имени фита.",
+    "amount": "Величина. Обязательна у verdict=applied. Формы — см. `_amount_kinds`.",
+    "superseded_by": "Только у `resist_energy`. Фит, который на ТОЙ ЖЕ стихии отменяет эту прибавку целиком (а не складывается с ней) — см. `_stacking_decision`. `nil` у записи, которую никто не отменяет.",
+    "effect_coverage": "whole_feat — у фита нет другого эффекта сверх посчитанного здесь резиста. У обоих записей — `whole_feat`: ни `resist_energy`, ни `epic_energy_resistance` не упоминают в Notes ничего сверх самой величины (в отличие, например, от `Divine grace`, у которой есть отдельно оговорённый `floor`).",
+    "cap": "ЗАПРЕЩЁН у любой записи. Пять потолков `stat_caps` (`attack_bonus`, `saving_throw_bonus`, `skill_bonus`, `max_skill_value`, `dodge_ac`) поглощения не называют, а собственный потолок ЭФФЕКТА (`max_total`) — часть `amount`, не кап стата, и он не про сумму источников, а про одну прибавку (та же развилка, что у `feat_spell_resistance.json` → `_cap_decision.not_the_same_as_max_total`).",
+    "why": "Только у not_modelled и not_a_resistance_bonus. Сегодня пусто.",
+    "quote": "Дословно из источника, посимвольно.",
+    "quote_notes": "Строка(и) из раздела Notes, если она несёт правило складывания/замещения — читает `_stacking_decision`, не отдельный код.",
+    "source": "Страница с revid и датой снятия."
+  },
+  "_amount_kinds": {
+    "flat": "Плоское число к ВЫБРАННОЙ при взятии стихии, не растущее от повторного взятия ТОЙ ЖЕ пары — `resist_energy` (замер `AA1`, GAME_CHECKS.md: второй раз на тот же вид урона фит не берётся вовсе, `distinct: true`). Поле `bonus`.",
+    "per_take": "Число за КАЖДОЕ взятие пары {фит, стихия}, с потолком эффекта на эту же пару — `epic_energy_resistance` (`distinct: false`, до 10 взятий на стихию со слова Dan). Та же форма и то же имя, что у `epic_toughness` в `feat_hp_bonuses.json` и `improved_spell_resistance` в `feat_spell_resistance.json`. Поля `bonus` и `max_total` — ванильные (Fandom); `siala_bonus`/`siala_max_total` — сиальский двойник, см. `_siala_values`.",
+    "_why_not_one_number": "Ровно тот же довод, что у соседей: `resist_energy` не зависит от числа взятий (оно вообще одно на стихию), `epic_energy_resistance` — прямо пропорционально ему до потолка. Свернуть их в одну форму значило бы стереть разницу, которую и замер (`AA1`), и страницы называют явно."
+  },
+  "_siala_values": {
+    "question": "Оба числа `epic_energy_resistance` (15 за взятие, потолок 150) стоят в `siala_41/generated/feats.json` дословно (`numbers_differ: true`, `numeric_diff.siala: [\"15\", \"150\"]`) с 01.08.2026, а поле `siala_41/feats.json` → `epic_energy_resistance.note` прямо признаётся: «в данные здесь не идёт: эффекты фитов ядро не моделирует вовсе». Этот файл впервые кладёт число туда, откуда его сможет прочитать ядро (задача 3.210) — приём тот же, что у `gear.worn` → `siala_max_dex`: ванильное поле и его сиальский двойник лежат РЯДОМ в одной записи, и то, какому ruleset'у двойник принадлежит, называет сама запись (`siala_values_apply_to_ruleset`), а не код.",
+    "apply_to_ruleset": "siala_41",
+    "sources": [
+      { "wiki": "siala", "kind": "wiki", "page": "Epic energy resistance (Acid)", "revid": 20542, "fetched": "2026-08-01" },
+      { "wiki": "siala", "kind": "wiki", "page": "Epic energy resistance (Сold)", "revid": 20541, "fetched": "2026-08-01", "note": "⚠️ Первая буква — кириллическая «С» (CLAUDE.md: id остаётся ASCII, `cold`)." },
+      { "wiki": "siala", "kind": "wiki", "page": "Epic energy resistance (Electrical)", "revid": 20544, "fetched": "2026-08-01" },
+      { "wiki": "siala", "kind": "wiki", "page": "Epic energy resistance (Fire)", "revid": 20543, "fetched": "2026-08-01" },
+      { "wiki": "siala", "kind": "wiki", "page": "Epic energy resistance (Sonic)", "revid": 20545, "fetched": "2026-08-01" }
+    ],
+    "quotes": [
+      "Персонаж получает сопротивление 15 к урону кислотой (Acid). Данный навык может быть использован многократно, при максимуме 150.",
+      "Персонаж получает сопротивление 15 к урону холодом (Cold). Данный навык может быть использован многократно, при максимуме 150.",
+      "Персонаж получает сопротивление 15 к урону электричеством (Electrical). Данный навык может быть использован многократно, при \nмаксимальном сопротивлении 150.",
+      "Персонаж получает сопротивление 15 к урону огнем (Fire). Данный навык может быть использован многократно, при максимуме 150.",
+      "Персонаж получает сопротивление 15 к звуковому урону (Sonic). Данный навык может быть использован многократно, при максимальном сопротивлении 150."
+    ],
+    "resist_energy_has_no_siala_page": "У `resist_energy` сиальской страницы нет вовсе (проверено: ни одна запись `siala_41/generated/feats.json` не называет `vanilla_id: \"resist_energy\"`). Сиала об этом молчит — действует ванильное умолчание (+5), одно число на оба ruleset'а."
+  },
+  "_stacking_decision": {
+    "supersede": {
+      "question": "`Epic energy resistance` и `Resist energy` на ОДНУ и ту же стихию — складываются или второй замещает первый?",
+      "answer": "ЗАМЕЩАЕТ. Обе страницы называют это прямо и одинаково: у `resist_energy` — «Epic energy resistance supersedes resist energy; they do not stack», у `epic_energy_resistance` — «Epic energy resistance supersedes resist energy; they do not stack» (то же предложение, зеркальное). Взятие эпического на стихию, где уже стоял обычный, не прибавляет +5 к +15 — стихия считается по эпическому одному.",
+      "status_vanilla": "verified",
+      "status_siala": "assumed",
+      "why_assumed_on_siala": "Ни одна из пяти сиальских страниц `Epic energy resistance (…)` не упоминает `Resist energy` вовсе — сплошной греп по всем пяти `special_raw`/`sections` не находит слова «Resist energy» ни разу. Сиала не подтверждает и не опровергает правило — молчание читается как ваниль (CLAUDE.md §3), и ровно поэтому статус НЕ `verified`: правило перенесено с fandom, а не снято со страницы шарда."
+    },
+    "feat_plus_non_feat": {
+      "question": "Резист от ЭТИХ фитов и резист от вещи/расы/оружия на ту же стихию — складываются или конкурируют?",
+      "answer": "СКЛАДЫВАЮТСЯ, и фит применяется ПЕРВЫМ. Названо ТРИЖДЫ независимо: обеими страницами фитов («This feat does stack with — and is applied before — other (non-feat) sources of damage resistance» / «…other sources of damage resistance») и отдельной страницей `Damage resistance` («damage resistance from feats (resist energy and epic energy resistance) does stack with — and is applied before — other sources of damage resistance, even though the feats do not stack with each other»). Все три цитаты одного смысла — не совпадение источника, а один и тот же абзац правил, повторённый на трёх страницах.",
+      "siala_confirmation": "Все пять сиальских страниц `Epic energy resistance (…)` несут ТУ ЖЕ мысль своими словами в разделе «Общие»: «Умения складываются с другими сопротивлениями. Если у вас одет предмет с сопротивлением −15 к урону кислотой и так же имеется умение Epic energy resistance (Acid I), то общий показатель сопротивления составит −30» (та же формулировка на всех пяти, стихия меняется). Это `verified`, не `assumed` — Сиала подтверждает правило явно, числом на конкретном примере.",
+      "status": "verified",
+      "quote_fandom_damage_resistance": "For the most part, damage resistance does not [[stack]]. For each damage type, only the highest resistance granted by a spell or (equipped) item is used. However, damage resistance from feats ([[resist energy]] and [[epic energy resistance]]) does stack with &mdash; and is applied before &mdash; other sources of damage resistance, even though the feats do not stack with each other.",
+      "source_damage_resistance": { "wiki": "fandom", "page": "Damage resistance", "revid": 68743, "fetched": "2026-09-17" }
+    },
+    "note_for_3_210": "Арифметика: `резист(стихия) = фиты(стихия) + max(эффект расы/оружия с мини-сетами, вещь)` — где `фиты(стихия)` уже сам по себе результат замещения (эпический ИЛИ обычный, не сумма), а `max(...)` — правило «наибольшее» из НЕфитовых источников, размеченное в `siala_41/systems.json` → `weapon_system.facts` → факт `resistance_stacking` (поля `effect_vs_gear`/`gear_vs_gear`, оба `\"max\"`), рядом с `executors.resistance` того же массива (задача 3.209, п. 2). Этот файл размечает только слагаемое «фиты»."
+  },
+  "_sweep": {
+    "method": "Сплошного независимого прохода девяти файлов эта задача не проводила — источник (два фита) уже назвала разведка `docs/recon_2026-09-13-elemental-resistance.md` и подтвердил широкий проход `feat_spell_resistance.json._sweep` (561 запись, тот же корпус, 17.08.2026). Проведена только точечная перепроверка регуляркой `resist|поглощен|сопротивл` по `vanilla/classes.json`, `siala_41/classes.json`, `vanilla/skills.json` — без нового источника (см. `_note`).",
+    "found": ["resist_energy", "epic_energy_resistance"],
+    "not_a_resistance_bonus_candidates_checked": [
+      "druid.resist_natures_lure (fandom) — иммунитет к конкретному классу заклинаний, не поглощение урона",
+      "discipline (skill) — сопротивление боевым манёврам противника, не урону",
+      "taunt (skill) — сопротивление цели Насмешке, а не собственное поглощение"
+    ]
+  },
+  "totals_energy_types": {
+    "_note": "Задача 3.209, п. 5 — стихии, которые печатает секция «Резисты» панели итогов. НЕ путать с `vanilla/energy_types.json`: тот — домен ВЫБОРА (пять значений, которыми параметризуются эти два фита, генерируется `mix wiki.parse` и не трогается этим файлом), этот — список того, ЧТО СЕКЦИЯ ПОКАЗЫВАЕТ (семь: те же пять плюс негативная/позитивная энергия, которые фитами не выбираются, но поглощаются расой/оружием). Домен выбора уже, чем список итогов, потому что фиты не единственный источник резиста.",
+    "types": [
+      { "id": "acid", "en": "Acid", "granted_by_feats": true },
+      { "id": "cold", "en": "Cold", "granted_by_feats": true },
+      { "id": "electrical", "en": "Electrical", "granted_by_feats": true },
+      { "id": "fire", "en": "Fire", "granted_by_feats": true },
+      { "id": "sonic", "en": "Sonic", "granted_by_feats": true },
+      { "id": "negative_energy", "en": "Negative energy", "granted_by_feats": false },
+      { "id": "positive_energy", "en": "Positive energy", "granted_by_feats": false }
+    ],
+    "first_five_source": {
+      "note": "Те же пять, что в `energy_types.json` — не переписаны заново, а сверены с ним по id (см. `_verify_hint` ниже); цитата лежит там же.",
+      "quote": "The choices for types of energy are [[acid damage|acid]], [[cold damage|cold]], [[electrical damage|electrical]], [[fire damage|fire]], and [[sonic damage|sonic]].",
+      "source": { "wiki": "fandom", "page": "Resist energy", "revid": 63837, "fetched": "2026-08-01" }
+    },
+    "last_two_source": {
+      "note": "Гном (Dwarf) и группа топоров поглощают ЕЩЁ негативную и позитивную энергию сверх пяти стихийных — ни фит, ни ванильная страница про это не знают, это сиальская расширенная семёрка.",
+      "quote": "персонаж получает поглощение элементального урона. Поглощается урон огнем, холодом, электричеством, кислотой, звуком, негативной и позитивной энергии.",
+      "source": { "wiki": "siala", "kind": "wiki", "page": "Расы", "revid": 16292, "fetched": "2026-08-01" }
+    },
+    "_excluded_log_names": "Задача 3.210, п. 5 — свод надетого из `.билд+` (`Rules.GearImport`) обязан отличить «стихия, которую мы считаем» от «вид урона, который эта секция не показывает», и отличить ОБА от «имени, которого мы не знаем вовсе». Первое называет `types` выше, третье остаётся `unresolved`; второе — вот эти записи, и потому у них есть `log_names`: имена, которыми лог печатает параметр строки `Damage Resistance (<имя>) N`.\n\n⚠️ Имена ЗАСВИДЕТЕЛЬСТВОВАНЫ, а не переведены с русского: все четыре взяты из фикстур `test/fixtures/game_logs_plus/` (`Damage Resistance (Bludgeoning) 10`, `(Piercing) 10`, `(Slashing) 10` — brunna.log и bor.log; `Damage Resistance (Divine) 15` — moxie.log). У `magical` список ПУСТ, и это утверждение, а не пропуск: магический урон не поглощается вовсе (цитата ниже), значит предмета с такой строкой не бывает, и придумывать ей имя было бы выдумыванием игрового факта.\n\n⚠️ `verdict` называет, ЧТО СКАЗАТЬ игроку про такую строку, и слова два, потому что причины разные: `decided` — получатель у механики есть, а решение владельца её не считать (физическое поглощение, слово Dan); `not_absorbed` — поглощения такого урона не бывает в самой игре. Свод переводит первое в `{:decided_not_modelled, id}`, второе — в `{:property_not_modelled, id}`. Слова закрыты со стороны загрузчика: третье уронит сборку.",
+    "excluded": [
+      {
+        "id": "magical",
+        "why": "Явно исключён источником, а не молчанием.",
+        "quote": "Магический урон не поглощается.",
+        "log_names": [],
+        "log_names_note": "Пусто намеренно: раз урон не поглощается, строки `Damage Resistance (Magical)` на предмете не бывает. Ни в одной из четырёх фикстур `.билд+` её и нет.",
+        "verdict": "not_absorbed",
+        "source": { "wiki": "siala", "kind": "wiki", "page": "Расы", "revid": 16292, "fetched": "2026-08-01" }
+      },
+      {
+        "id": "divine",
+        "why": "Ни один из четырёх источников (два фита, раса, топоры) не называет божественный урон поглощаемым ни разу — исключён отсутствием, а не цитатой, и это честно записано, а не додумано.",
+        "quote": null,
+        "log_names": ["Divine"],
+        "log_names_source": { "kind": "fixture", "file": "test/fixtures/game_logs_plus/moxie.log", "line": "[5] Damage Resistance (Divine) 15" },
+        "verdict": "not_absorbed",
+        "source": null
+      },
+      {
+        "id": "physical",
+        "why": "Bludgeoning/Piercing/Slashing — по прямому решению Dan секция «Резисты» без физического урона (постановка 3.209: «поглощение стихийного урона, без физического»).",
+        "quote": null,
+        "log_names": ["Bludgeoning", "Piercing", "Slashing"],
+        "log_names_source": { "kind": "fixture", "file": "test/fixtures/game_logs_plus/brunna.log", "line": "[8] Damage Resistance (Bludgeoning) 10" },
+        "verdict": "decided",
+        "source": { "kind": "user", "who": "Dan", "date": "2026-09-13" }
+      }
+    ],
+    "_verify_hint": "Сторож загрузчика (`Bonuses.resistance_energy_types/1`) требует, чтобы id первых пяти совпадали 1:1 с id `vanilla/energy_types.json` — если Fandom когда-нибудь добавит шестую стихию выбора, несовпадение здесь упадёт сборкой, а не разойдётся молча."
+  },
+  "bonuses": [
+    {
+      "feat": "resist_energy",
+      "verdict": "applied",
+      "energy_type": "chosen",
+      "amount": { "kind": "flat", "bonus": 5 },
+      "effect_coverage": "whole_feat",
+      "superseded_by": {
+        "feat": "epic_energy_resistance",
+        "note": "Только на ТОЙ ЖЕ стихии — на разных стихиях оба фита независимы.",
+        "status": "verified",
+        "status_siala": "assumed",
+        "status_siala_applies_to_ruleset": "siala_41",
+        "status_siala_applies_to_ruleset_note": "Тот же приём, что у `amount.siala_values_apply_to_ruleset` ниже, и по той же причине: КАКОМУ ruleset'у принадлежит сиальский двойник, говорит сама запись, а не код. Без этого ключа ядру пришлось бы знать имя ruleset'а, чтобы выбрать между двумя статусами, — то есть имя шарда уехало бы в `rules/`. Задача 3.210: статус решает, печатает ли билд оговорку `{:assumed, :resist_energy_superseded_by_epic}` — у ванили не печатает (правило процитировано дословно обеими страницами), у Сиалы печатает (её пять страниц про `Resist energy` не говорят ни слова)."
+      },
+      "quote": "The character gains +5 [[damage resistance|resistance]] against the chosen type of energy. (The first 5 points of damage of this type of energy are ignored.)",
+      "quote_notes": "* ''[[Epic energy resistance]]'' supersedes ''resist energy''; they do not [[stack]].\n*This feat does stack with &mdash; and is applied before &mdash; other (non-feat) sources of damage resistance.",
+      "status": "verified",
+      "source": { "wiki": "fandom", "page": "Resist energy", "revid": 63837, "fetched": "2026-08-01" }
+    },
+    {
+      "feat": "epic_energy_resistance",
+      "verdict": "applied",
+      "energy_type": "chosen",
+      "amount": {
+        "kind": "per_take",
+        "bonus": 10,
+        "max_total": 100,
+        "siala_bonus": 15,
+        "siala_max_total": 150,
+        "siala_values_apply_to_ruleset": "siala_41"
+      },
+      "effect_coverage": "whole_feat",
+      "superseded_by": null,
+      "quote": "The character gains [[damage resistance|resistance]] 10 to the selected damage type ([[acid damage|acid]], [[cold damage|cold]], [[electrical damage|electrical]], [[fire damage|fire]], or [[sonic damage|sonic]]). This feat may be taken multiple times, to a maximum of 100 resistance to each damage type.",
+      "quote_notes": "*''Epic energy resistance'' supersedes [[resist energy]]; they do not [[stack]].\n*This feat does stack with &mdash; and is applied before &mdash; other sources of damage resistance.",
+      "status": "verified",
+      "source": { "wiki": "fandom", "page": "Epic energy resistance", "revid": 41047, "fetched": "2026-08-01" }
+    }
+  ]
+}

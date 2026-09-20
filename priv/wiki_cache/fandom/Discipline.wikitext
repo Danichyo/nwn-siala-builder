@@ -1,0 +1,33 @@
+[[Image:Isk discipline.gif|right|Discipline]]
+A successful check allows the character to resist any combat feat ([[disarm]], [[called shot]], [[knockdown]], or [[sap]]).
+*'''Ability''': [[strength]]
+
+*'''Classes''': [[barbarian]], [[bard]], [[blackguard]], [[champion of Torm]], [[dwarven defender]], [[fighter]], [[Harper scout]], [[monk]], [[paladin]], [[ranger]], [[red dragon disciple]], [[weapon master]]
+
+*'''[[Cross-class skill|Cross-class]]''': yes
+
+*'''[[untrained skill check|Requires training]]''': no
+
+*'''Check''': The [[DC]] is equal to the attacker's [[attack roll]].
+
+*'''Use''': automatic
+
+==Notes==
+*When resisting a knockdown attempt, a character gets a +4 bonus per size category for being larger than the attacker, and a -4 penalty per size category for being smaller than the attacker. (The [[improved knockdown]] feat causes the attacker to be treated as being one size category larger than he really is.)
+*When resisting a disarm attempt, a similar bonus/penalty applies, but it is based on the size difference of the weapons, not the wielders.
+
+==Changes from pen and paper==
+The discipline skill does not exist in [[pen and paper]] D&D. Instead, special attacks are opposed by non-skill checks. For example, in pen and paper, disarm is opposed by an attack roll, and the analogies to knockdown (trip and overrun) are opposed by strength checks. While discipline is working as intended by BioWare, there has been debate over whether or not it is a good addition to the game.
+
+''The case for:''
+*NWN does not implement the full breadth of skills available in pen and paper D&D. From this perspective, discipline is merely consuming the skill points that often get spent on pen and paper skills such as climb, jump, and swim.
+:''Counter:'' Climbing, jumping, and swimming are not combat-oriented skills, hence should not be compared to discipline when considering a combat-oriented character.
+*Using a skill-based defense allows some of the more resilient quasi-fighters (i.e. bards, harper scouts, monks, and red dragon disciples) to defend against special attacks. Thus, for some classes, the discipline skill is a boon.
+:''Counter:'' This detracts from the advantages of the fighter-types. Furthermore, the other quasi-fighters (assassins, clerics, druids, rogues, shadowdancers, and shifters) are disadvantaged compared to their pen and paper counterparts.
+
+''The case against:''
+*This skill drains skill points from characters who don't get that many. In pen and paper, a strength-based fighter would naturally have the high base attack and strength needed to counter special attacks, while in NWN, the same character (assuming an intelligence of 10 or 11) would need to spend half his skill points in order to have a similar resistance to these attacks.
+:''Counter:'' In the interest of game balance, fighters are intentionally short on skill points, so this is not a significant loss.
+*This skill violates the principle (held by some) that skills should only oppose skills, not feats. In the NWN system, a low-level character who takes a special attack feat has a distinct advantage over a higher-level character who has not invested in discipline.
+:''Counter:'' The "skill vs. skill" principle is not part of the design philosophy of NWN, nor is balance for [[PvP|player vs. player]]. (Balance for [[PvM|player vs. monster]] is implemented by a module's designer. Since balancing discipline and special attacks is no different than other balance issues, only the player vs. player format is of concern for this debate.)
+[[Category:skills]]

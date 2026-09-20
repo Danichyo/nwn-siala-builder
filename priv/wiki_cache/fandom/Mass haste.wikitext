@@ -1,0 +1,27 @@
+{{spell
+|icon=is_mashaste.gif
+|bardlevel=6
+|magelevel=6
+|innatelevel=6
+|school=[[enchantment]]
+|components=VS
+|range=s
+|area=large
+|save=harmless
+|spellresistance=no
+|duration=1 [[round]] / level
+|line=Speed
+|line1=expeditious retreat
+|line3=haste (spell)
+|line6=mass haste
+|desc=All allies within the [[area of effect]] gain 1 extra action per round (allowing an additional attack or spell casting) and have their [[movement speed]] increased by 50%.}}
+
+== Notes ==
+
+* Affected allies are actually [[haste]]d, which imparts the stated benefits as well as a +4 [[dodge bonus]] to [[armor class]].
+* There is a limit of one creature affected per round of duration. (An [[extend spell|extended]] version can affect more creatures.) This might never be noticed by a player though, since under normal circumstances, the duration is at least eleven rounds.
+* Whereas the level 3 [[Haste (spell)|haste]] spell is a [[transmutation]], this spell is an enchantment with accordingly different availability for specialist wizards.
+
+== Custom content notes ==
+
+* ''script:'' <code>NW_S0_MasHaste</code>

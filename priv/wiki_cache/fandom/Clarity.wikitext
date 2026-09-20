@@ -1,0 +1,36 @@
+{{spell
+|icon=is_clarity.gif
+|bardlevel=2
+|clericlevel=3
+|magelevel=3
+|innatelevel=2
+|school=<del>abjuration</del> <i>[[necromancy]]</i>
+|immunity=mind-affecting
+|components=S
+|range=m
+|area=single
+|save=no
+|spellresistance=no
+|line=Mind protection
+|line2=clarity
+|line5=lesser mind blank
+|line8=mind blank
+|duration=5 [[round]]s + 1 round / level
+|counters=<del>[[charm person]]</del>
+|desc=This spell removes the [[effect]]s of [[dazed|daze]], [[sleep]], [[confused|confusion]], [[stunned|stun]], and [[charmed|charm]], and protects against all [[mind-affecting]] effects until it expires. For every effect removed by the spell, the target creature sustains 1 point of [[negative energy damage]].}}
+
+== Notes ==
+	
+* Despite its description, this spell belongs to the necromancy school. ''(Possibly a bug.)''
+* The mind-affecting effects of [[paralyze|paralysis]], [[dominated|dominate]], and [[fear]] are blocked, but not removed by this spell.  
+* Due to a .2da bug, ''charm person'' is not an additional [[counterspell]] of this spell.
+
+=== Previous versions ===
+
+* Prior to version 1.69, this spell could not be cast with the [[still spell]] feat.
+
+== Custom content notes ==
+
+* ''script:'' <code>NW_S0_Clarity</code>
+==External links==
+*{{FRW}}

@@ -1,0 +1,19 @@
+{{Grimoire spell|imagename=Is circdeath.gif
+|spellname=Circle of Death
+|casterlevel=[[Sorcerer]] / [[Wizard (class)|Wizard]] 6
+|innatelevel=6
+|school=[[Necromancy]]
+|descriptors=Death
+|components=V, S
+|range=Medium
+|immunities=Death
+|savingthrow=[[Fortitude]] negates
+|spellresistance=Yes
+|targettype=Colossal
+|duration=Instantaneous
+|description=A ''Circle of Death'' snuffs out the life forces of living creatures, killing them instantly.  The spell slays 1d4 HD worth of living creatures per caster level (maximum 20d4).  Creatures with the fewest HD are affected first.  No creature with 9 or more HD is affected, and remaining HD that are not sufficient to affect a creature are wasted.
+}}
+
+== Notes ==
+*{{Grimoire spell change|pagename=[[Circle of death]]}}
+{{g_sorwiz}}

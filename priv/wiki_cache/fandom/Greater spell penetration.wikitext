@@ -1,0 +1,15 @@
+{{feat
+|type=general
+|prereq=[[spell penetration]]
+|reqfor=[[epic spell penetration]]
+|desc=A +4 bonus to caster level checks is granted to the character when trying to beat a creature's [[spell resistance]].
+|use=automatic
+|icon=ife_x1gfspen.gif
+|bonus1=bard
+|bonus2=wizard
+}}
+
+==Notes==
+*Added in the [[expansion pack]]s.
+*This feat supersedes ''spell penetration''.
+*This feat does not stack with ''epic spell penetration'' even though both feats appear on the [[character sheet]].

@@ -1,0 +1,25 @@
+{{feat
+|type=class
+|prereq=[[barbarian]] 1
+|desc=This feat gives the barbarian a 10% bonus to movement.
+|use=automatic
+|icon=ife_barbend.gif
+|class1=barbarian
+}}
+
+== Notes ==
+* ''Barbarian fast movement'' technically stacks with [[haste]] (and [[movement speed increase]] effects), but non-monks are subject to a [[movement rate]] cap of 150% base, which is already obtained by haste alone.
+*[[Monk speed]] does not stack with this feat.
+* The bonus is a percentage of the base movement rate, but it is added after the movement rate is modified by effects (and after the minimum rate is enforced).
+
+== Builder notes ==
+'''Item feat:''' No, but it can be added with custom content.
+
+== Custom content notes ==
+'''Removable:''' yes
+
+'''Reusable:''' yes
+
+'''Script:''' hardcoded
+
+*This feat can be added to [[iprp_feats.2da]] to make it available as item feat.

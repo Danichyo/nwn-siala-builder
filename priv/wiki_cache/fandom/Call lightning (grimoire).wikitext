@@ -1,0 +1,20 @@
+{{Grimoire spell|imagename=Is calllightn.gif
+|spellname=Call Lightning
+|casterlevel=[[Air domain (grimoire)|Air]] 3, [[Druid]] 3, [[Grimoire domains#Domains to be added|Storm]] 3, [[Grimoire domains#Domains to be added|Weather]] 3
+|innatelevel=3
+|school=[[Evocation]]
+|descriptors=Electricity
+|components=V, S
+|range=Long
+|immunities=[[electrical damage|Electricity]]
+|savingthrow=[[Reflex]] half
+|spellresistance=Yes
+|targettype=Large
+|duration=Instantaneous
+|description=All enemies within the area of effect take 1d6 points of [[electrical damage]] per [[caster level]], to a maximum of 10d6.  This spell can only be used outdoors.  It does not function indoors, underground, or underwater.
+}}
+
+== Notes ==
+*{{Grimoire spell change|pagename=[[Call lightning]]}}
+{{g_air}}
+{{g_drd}}

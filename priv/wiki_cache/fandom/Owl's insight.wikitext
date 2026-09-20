@@ -1,0 +1,23 @@
+{{spell
+|icon=is_x1owlins.gif
+|druidlevel=5
+|innatelevel=<s>2</s> ''5''
+|school=[[transmutation]]
+|components=VS
+|range=t
+|area=single
+|save=none
+|spellresistance=no
+|duration=1 [[hour]] / level
+|desc=The target gains an enhancement bonus to [[wisdom]] equal to half the caster's level.}}
+
+==Notes==
+
+*Added in the [[expansion pack]]s.
+* The in-game description incorrectly reports the innate level of this spell as 2.
+*The bonus is rounded down; at caster level 11 the bonus is +5.
+*The bonus from this spell is subject to the +12 [[ability cap]], so there is no additional benefit besides duration from this spell after caster level 24. Furthermore, maximum benefit might be achieved at lower levels if the target is already subject to a wisdom bonus. 
+* This spell is the (more potent) druid's version of ''[[owl's wisdom]]''.
+
+==Custom content notes==
+*''script:'' <code>x0_S0_OwlIns</code>

@@ -1,0 +1,27 @@
+{{spell
+|icon=is_x2monregen.gif
+|clericlevel=5
+|druidlevel=5
+|innatelevel=5
+|school=[[conjuration]]
+|immunity=regeneration
+|components=VS
+|range=t
+|area=single
+|save=harmless
+|spellresistance=no
+|duration=1 [[round]] / 2 [[caster level]]s
+|line=Regeneration
+|line5=monstrous regeneration
+|line7=regenerate (spell)
+|desc=For the duration of the spell, the [[target]] [[creature]] gains the ability to [[regenerate]] 3 [[hit point]]s every round.}}
+
+== Notes ==
+
+*Requires [[Hordes of the Underdark]].
+*The name of the spell is misleading, as it is 25% as effective as the spell ''[[regenerate (spell)|regenerate]]'', with half the duration and half the regeneration.
+* If cast on a creature already under the effects of this spell, the earlier casting is replaced by the later.
+
+== Custom content notes ==
+
+*''script:'' <code>X2_S0_MonRegen</code>

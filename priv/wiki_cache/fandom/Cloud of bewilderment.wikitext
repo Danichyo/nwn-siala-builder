@@ -1,0 +1,29 @@
+{{spell
+|icon=is_x2cldbwld.gif
+|bardlevel=2
+|magelevel=2
+|innatelevel=2
+|school=[[evocation]]
+|components=VS
+|range=s
+|area=huge
+|save=[[fortitude]]
+|spellresistance=yes
+|immunity=gas
+|duration=1 [[round]] / level
+|desc=The caster blows forth a cloud of noxious air. Enemies in the area of effect are [[stunned]] and [[blind]]ed for 1[[d6]] rounds.}}
+
+== Notes ==
+*Requires [[Hordes of the Underdark]].
+*Contrary to the description, this spell affects friends as well as foes.
+*Though a stunned character must remain in the cloud, they are not required to make an additional save each round if they have already failed a save. If the cloud does not affect them and they remain in it, however, they will be required to make a save the following round.
+*Targets that are immune to [[mind-affecting]] spells can still be blinded by the cloud, though they will not be stunned.
+* Though not reported in the combat log, immunity to [[poison]] grants full immunity to all effects.
+
+== Custom content notes ==
+* ''impact script:'' <code>X2_S0_CldBewld</code>
+* ''OnEnter script:'' <code>X2_S0_CldBewldA</code>
+* ''OnHearbeat script:'' <code>X2_S0_CldBewldC</code>
+==External links==
+* {{FRW}}
+* {{NWN2W|Cloud of Bewilderment}}

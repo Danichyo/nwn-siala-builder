@@ -1,0 +1,37 @@
+<div style="display:block; float:right">[[image:is_grshconj.gif|right|Greater shadow conjuration]]<br /><div style="display:block; float:right; text-align:right">
+[[image:is_acidarrow.gif|Greater shadow conjuration, acid arrow]]
+[[image:is_ghostvis.gif|Greater shadow conjuration, ghostly visage]]
+[[image:is_minglobe.gif|Greater shadow conjuration, minor globe of invulnerability]]
+[[image:is_summshad.gif|Greater shadow conjuration, summon shadow]]
+[[image:is_web.gif|Greater shadow conjuration, web]]
+</div></div>
+{{spell
+|magelevel=5
+|innatelevel=5 (''special'')
+|school=[[illusion]]
+|components=VS
+|range=special
+|area=special
+|save=special
+|spellresistance=special
+|duration=special
+|line=Shadow conjuration
+|line4=shadow conjuration
+|line5=greater shadow conjuration
+|line6=shades
+|desc=Allows the caster to conjure a shadow variant of one of the
+following spells: [[summon shadow (shadow conjuration)|summon shadow]], [[Melf's acid arrow]], [[ghostly visage]], [[web]], or [[minor globe of invulnerability]].}}
+
+== Notes ==
+* "Shadow variant" has no real meaning in Neverwinter Nights; the spells cast via ''greater shadow conjuration'' are identical to their "normal" versions, except they have a different spell level. This includes the spell school with regards to considerations such as [[spell focus]] and [[arcane defense]] (only relevant for the ''web'' subspell). In particular, the [[innate level]] of each variant is the innate level of the corresponding "normal" spell (4 for ''summon shadow'' and ''minor globe'', 2 for ''acid arrow'', ''ghostly visage'', and ''web'').
+* Crafting feats and [[use magic device]] will use the innate level of 5, not the innate level of the subspells.
+* One advantage of this spell is having five spells combined into one. For sorcerers, this effectively increases the number of spells known. For wizards, this provides the ability to select which spell to cast at the time of casting.
+* An advantage for wizards who specialized in [[abjuration]] or [[transmutation]] is access to select spells from their prohibited school ([[conjuration]]).
+* Unlike the regular [[minor globe of invulnerability]], the shadow version cannot be [[breach]]ed.
+* Spiders are not immune to the ''web'' sub-spell.
+
+== Builder notes ==
+
+* The [[NWScript]] constant for the ''ghostly visage'' subspell is unintuitive: SPELL_GREATER_SHADOW_CONJURATION_MIRROR_IMAGE.
+==External links==
+*{{FRW}}

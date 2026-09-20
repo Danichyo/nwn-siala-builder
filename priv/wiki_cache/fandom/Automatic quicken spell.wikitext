@@ -1,0 +1,35 @@
+[[Image:Ife_x2autogqck.gif|right|Automatic quicken spell III]][[Image:Ife_x2autoqck.gif|right|Automatic quicken spell II]][[Image:Ife_x2autolqck.gif|right|Automatic quicken spell I]]
+{{feat
+|epic=yes
+|type=metamagic
+|prereq=21st level, [[quicken spell]], [[spellcraft]] 30, ability to cast 9th level spells
+|desc=This feat allows the character to cast spells with a moment of thought. This feat may be taken multiple times:
+* Automatic quicken spell I: Quicken any level 0 - 3 spells.
+* Automatic quicken spell II: Quicken any level 4 - 6 spells.
+* Automatic quicken spell III: Quicken any level 7 - 9 spells.
+|use=automatic
+|bonus1=champion of Torm
+|bonus2=cleric
+|bonus3=druid
+|bonus4=pale master
+|bonus5=red dragon disciple
+|bonus6=shifter
+|bonus7=sorcerer
+|bonus8=wizard
+}}
+
+== Notes ==
+
+*Requires [[Hordes of the Underdark]].
+* The "ability to cast level 9 spells" may be better understood as the ability to learn level 9 spells (as [[wizard]]s are not required to know spells of the highest level they can cast).
+* This feat provides the benefits of [[quicken spell]] without the need to use a [[spell slot]] of a higher level than normal. In particular, casting a quickened spell while [[haste]]ned does not further reduce casting time, as both quickened and hastened have the same effect on casting time.
+*The in-game description is incorrect in regards to interruption and countering.
+**Quickened spells can be interrupted if damage is received and the [[concentration]] check is failed. However, a quickened spell does not provoke an [[attack of opportunity]], so the chance of receiving damage at the right moment is decreased.
+**Quickened spells can be countered normally, unless the caster is hastened. If the caster is hastened, the counterspeller must also be hastened to successfully counterspell.
+*This feat can be selected by [[bard]]s. However, a bard cannot achieve the 9th level spell requirement on its own, so 17 levels of [[cleric]], [[druid]], or [[wizard]], or 18 levels of [[sorcerer]], would be needed.
+* Auto quicken spell does not add a metamagic icon to the spells it affects. The only indication that this feat is having an effect is the reduced casting time.
+
+==Custom content notes==
+
+*A custom class must have this feat in their feat list, or that class will not be able to select it as a general feat.
+[[Category:Feats restricted by class, epic]]

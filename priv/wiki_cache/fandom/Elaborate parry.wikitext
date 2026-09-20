@@ -1,0 +1,14 @@
+'''Type of feat''': [[Class]]
+
+'''Prerequisite''': [[Duelist]] level 7
+
+'''Specifics''':  The duelist may choose two methods of dexterous fighting: 
+*1) Parry Mode: The [[character]] gains a bonus to her [[parry]] skill equal to her duelist level. 
+*2) Defensive Fighting Mode: The character gains a bonus to their [[armor class]] equal to their [[class level]] plus 2 (maximum +12.) <br />At the same time, the character suffers a -4 attack penalty to [[attack roll]]s while this mode is active. 
+
+'''Use''':  Selected
+
+==Notes==
+*Added in the [[PRC Expansion Pack]].
+
+[[Category:PRC feats]]

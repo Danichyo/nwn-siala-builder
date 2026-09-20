@@ -1,0 +1,22 @@
+{{feat
+|type=general
+|prereq=[[turn undead]], [[charisma]] 13+, [[strength]] 13+, [[power attack]]
+|desc=The character may spend one of his ''turn undead'' attempts to add his charisma [[ability modifier|bonus]] to his [[armor class]] for a number of [[round]]s equal to the charisma bonus.
+|use=selected
+|icon=ife_x1divshl.gif
+}}
+
+==Notes==
+*Added in the [[expansion pack]]s.
+*The armor class provided is a [[dodge bonus]].
+*Using this feat while its effects are still active will not have an effect.
+*Net dodge bonuses are capped at +20. This means that raising charisma over 51 (ability modifier +20) will only increase this feat's duration, not its effective bonus, unless the character had a negative dodge AC modifier. In addition, the maximum effective bonus may be achieved with a lower charisma score if the character had a positive dodge bonus (from other sources).
+*This feat may only be selected when leveling as a [[blackguard]], [[paladin]], or [[cleric]].
+* This feat is available as a [[cast spell]] item property, but using such a property still requires spending a ''turn undead'' attempt.
+
+== Custom content notes ==
+* ''script:'' <code>X0_S2_DivShield</code>
+*A custom class must have this feat in their feat list, or that class will not be able to select it as a [[general feat]].
+
+[[category:feats restricted by class]]
+[[category:cast spell]]

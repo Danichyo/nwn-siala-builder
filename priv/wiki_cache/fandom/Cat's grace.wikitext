@@ -1,0 +1,30 @@
+{{otheruses|the spell|the feat|Cat's grace (feat)}}
+
+{{spell
+|icon=is_catgrace.gif
+|bardlevel=2
+|rangerlevel=2
+|magelevel=2
+|domain=animal
+|domainlevel=2
+|domain2=war
+|domain2level=2
+|innatelevel=2
+|school=[[transmutation]]
+|components=VS
+|range=t
+|area=single
+|save=harmless
+|spellresistance=no
+|duration=1 [[hour]] / [[caster level|level]]
+|line=Cat's graces
+|line2=Cat's grace
+|line6=Greater cat's grace
+|desc=The target creature's [[dexterity]] is increased by 1[[d4]] + 1.}}
+
+== Notes ==
+*This spell [[stack]]s with the [[Harper scout]]'s [[cat's grace (feat)|cat's grace]] [[feat]].
+*If the maximum dexterity increase is not achieved, the spell can be cast again for a chance at a higher dice roll (up to +5 regularly or +7 [[empower spell|empowered]]). The recast will not lower the ability score.
+
+== Custom content notes ==
+* ''Script:'' <code>NW_S0_CatGrace</code>

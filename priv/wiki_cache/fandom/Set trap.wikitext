@@ -1,0 +1,285 @@
+[[Image:Isk settrap.gif|right|Set trap]]
+This skill allows a character to place [[trap]] kits.
+*'''Ability''': [[dexterity]]
+
+*'''Classes''': [[assassin]], [[ranger]], [[rogue]]
+
+*'''[[Cross-class skill|Cross-class]]''': yes
+
+*'''[[untrained skill check|Requires training]]''': yes
+
+*'''Check''': When a trap kit is used, the character makes a skill check. The [[difficulty class]] of the task is determined by the power of the trap.
+
+*'''Spectacular Failure''': If a skill check is failed by 10 or more, the trap goes off in the attempt to set it. This can only occur if you are in combat when trying to set the trap.
+
+*'''Special''': Having 5 or more [[skill point|rank]]s in the [[disable trap]] skill grants a +2 [[synergy bonus]] on set trap checks. Any party members will be able to see traps that the character has set.
+
+*'''Use''': Use a trap kit from your inventory. An icon visible to you and your party will appear on the ground to represent the trap.
+
+==Notes==
+* A character's [[armor check penalty]] applies to this skill.
+* A spectacular failure will not set off the trap, even in combat, if the character setting the trap has the [[skill mastery]] [[feat]].
+* Allows for a [[take 20]] when the character is not in combat.
+* Traps cannot be set in the green field where a trap has already been set. However, a queue of set trap actions may be initiated where such an overlap would occur once the traps are set, thus bypassing this limitation.
+* The following DCs apply to traps set with this skill. The skill added to the detect and disarm DCs is the setter's ''set trap'' skill (no die roll). For the effects of these traps, see the notes for the [[trap#Notes|trap article]].
+{| class="wikitable" style="text-align:center" 
+ |- bgcolor="#115511"
+   !Type
+   !Strength
+   !Set DC
+   !Detect DC
+   !Disarm DC
+ |-    
+ |rowspan=4 align="left"|Acid blob
+     |align="left"|minor
+     |15
+     |10 ''+ skill''
+     |22 ''+ skill''
+   |-      
+     |align="left"|average
+     |25
+     |14 ''+ skill''
+     |26 ''+ skill''
+   |-   
+     |align="left"|strong
+     |30
+     |18 ''+ skill''
+     |31 ''+ skill''
+   |-    
+     |align="left"|deadly
+     |35
+     |18 ''+ skill''
+     |31 ''+ skill''
+ |-    
+ | rowspan=4 align="left"|Acid splash
+     |align="left"|minor
+     |15
+     |10 ''+ skill''
+     |22 ''+ skill''
+   |-
+     |align="left"|average
+     |20
+     |10 ''+ skill''
+     |22 ''+ skill''
+   |-
+     |align="left"|strong
+     |25
+     |10 ''+ skill''
+     |22 ''+ skill''
+   |-
+     |align="left"|deadly
+     |30
+     |10 ''+ skill''
+     |22 ''+ skill''
+ |-  
+ |rowspan=5 align="left"|Electrical
+     |align="left"|minor
+     |20
+     |14 ''+ skill''
+     |26 ''+ skill''
+   |-  
+     |align="left"|average
+     |25
+     |18 ''+ skill''
+     |31 ''+ skill''
+   |-  
+     |align="left"|strong
+     |30
+     |22 ''+ skill''
+     |36 ''+ skill''
+   |-  
+     |align="left"|deadly
+     |35
+     |22 ''+ skill''
+     |36 ''+ skill''
+   |-  
+     |align="left"|epic
+     |65
+     |43 ''+ skill''
+     |58 ''+ skill''
+ |- 
+ |rowspan=5 align="left"|Fire
+     |align="left"|minor
+     |20
+     |14 ''+ skill''
+     |26 ''+ skill''
+   |-
+     |align="left"|average
+     |25
+     |14 ''+ skill''
+     |26 ''+ skill''
+   |-
+     |align="left"|strong
+     |30
+     |18 ''+ skill''
+     |31 ''+ skill''
+   |-
+     |align="left"|deadly
+     |35
+     |22 ''+ skill''
+     |36 ''+ skill''
+   |-
+     |align="left"|epic
+     |65
+     |43 ''+ skill''
+     |58 ''+ skill''
+ |-  
+ |rowspan=5 align="left"|Frost
+     |align="left"|minor
+     |15
+     |10 ''+ skill''
+     |22 ''+ skill''
+   |- 
+     |align="left"|average
+     |20
+     |10 ''+ skill''
+     |22 ''+ skill''
+   |- 
+     |align="left"|strong
+     |25
+     |10 ''+ skill''
+     |22 ''+ skill''
+   |- 
+     |align="left"|deadly
+     |30
+     |10 ''+ skill''
+     |22 ''+ skill''
+   |-  
+     |align="left"|epic
+     |65
+     |43 ''+ skill''
+     |58 ''+ skill''
+ |- 
+ |rowspan=4 align="left"|Gas
+     |align="left"|minor
+     |30
+     |18 ''+ skill''
+     |31 ''+ skill''
+   |-  
+     |align="left"|average
+     |35
+     |18 ''+ skill''
+     |31 ''+ skill''
+   |-  
+     |align="left"|strong
+     |45
+     |22 ''+ skill''
+     |36 ''+ skill''
+   |- 
+     |align="left"|deadly
+     |45
+     |22 ''+ skill''
+     |36 ''+ skill''
+ |-  
+ |rowspan=4 align="left"|Holy
+     |align="left"|minor
+     |15
+     |10 ''+ skill''
+     |22 ''+ skill''
+   |-  
+     |align="left"|average
+     |20
+     |10 ''+ skill''
+     |22 ''+ skill''
+   |-  
+     |align="left"|strong
+     |25
+     |14 ''+ skill''
+     |26 ''+ skill''
+   |-  
+     |align="left"|deadly
+     |30
+     |14 ''+ skill''
+     |26 ''+ skill''
+ |- 
+ |rowspan=4 align="left"|Negative
+     |align="left"|minor
+     |15
+     |10 ''+ skill''
+     |22 ''+ skill''
+   |-  
+     |align="left"|average
+     |20
+     |10 ''+ skill''
+     |22 ''+ skill''
+   |-  
+     |align="left"|strong
+     |25
+     |14 ''+ skill''
+     |26 ''+ skill''
+   |-  
+     |align="left"|deadly
+     |30
+     |14 ''+ skill''
+     |26 ''+ skill''
+ |-
+ |rowspan=5 align="left"|Sonic
+     |align="left"|minor
+     |15
+     |10 ''+ skill''
+     |22 ''+ skill''
+   |-
+     |align="left"|average
+     |20
+     |10 ''+ skill''
+     |22 ''+ skill''
+   |-
+     |align="left"|strong
+     |25
+     |10 ''+ skill''
+     |22 ''+ skill''
+   |-
+     |align="left"|deadly
+     |30
+     |10 ''+ skill''
+     |22 ''+ skill''
+   |-
+     |align="left"|epic
+     |65
+     |43 ''+ skill''
+     |58 ''+ skill''
+ |- 
+ |rowspan=4 align="left"|Spike
+     |align="left"|minor
+     |5
+     |10 ''+ skill''
+     |22 ''+ skill''
+   |-  
+     |align="left"|average
+     |20
+     |10 ''+ skill''
+     |22 ''+ skill''
+   |-  
+     |align="left"|strong
+     |25
+     |10 ''+ skill''
+     |22 ''+ skill''
+   |- 
+     |align="left"|deadly
+     |35
+     |22 ''+ skill''
+     |36 ''+ skill''
+ |-
+ |rowspan=4 align="left"|Tangle
+     |align="left"|minor
+     |15
+     |10 ''+ skill''
+     |22 ''+ skill''
+   |-
+     |align="left"|average
+     |20
+     |14 ''+ skill''
+     |26 ''+ skill''
+   |-
+     |align="left"|strong
+     |25
+     |14 ''+ skill''
+     |26 ''+ skill''
+   |-
+     |align="left"|deadly
+     |30
+     |18 ''+ skill''
+     |31 ''+ skill''
+|}
+[[category:skills]]
+[[category:skills that require training]]

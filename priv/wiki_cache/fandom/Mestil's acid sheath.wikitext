@@ -1,0 +1,65 @@
+{{spell
+|icon=is_x2acidshth.gif
+|magelevel=5
+|innatelevel=5
+|school=[[conjuration]]
+|components=VS
+|range=p
+|area=caster
+|save=none
+|spellresistance=no
+|immunity=acid
+|duration=1 [[round]] / level
+|line=Damage shields
+|line2=death armor
+|line3=wounding whispers
+|line4=elemental shield
+|line5=mestil's acid sheath
+|desc=This spell creates an acid shield around your person. Any creature striking you with its body does normal damage, but at the same time the attacker takes 1[[d6]] points +2 points per caster level of [[acid damage]].}}
+
+{| class="wikitable" style="text-align:center"
+|- 
+ !caster level
+ !damage per strike
+ !rowspan=17 style="background-color:black; border: thin solid grey;"|
+ !caster level
+ !damage per strike
+|-
+|9 ||1d6 + 18 ||25 ||1d6+ 50
+|-
+|10 ||1d6 + 20 ||26 ||1d6 + 52 
+|-
+|11 ||1d6 + 22 ||27 ||1d6 + 54 
+|-
+|12 ||1d6 + 24 ||28 ||1d6 + 56 
+|-
+|13 ||1d6 + 26 ||29 ||1d6 + 58 
+|-
+|14 ||1d6 + 28 ||30 ||1d6 + 60 
+|-
+|15 ||1d6 + 30 ||31 ||1d6 + 62 
+|-
+|16 ||1d6 + 32 ||32 ||1d6 + 64 
+|-
+|17 ||1d6 + 34 ||33 ||1d6 + 66 
+|-
+|18 ||1d6 + 36 ||34 ||1d6 + 68 
+|-
+|19 ||1d6 + 38 ||35 ||1d6 + 70 
+|-
+|20 ||1d6 + 40 ||36 ||1d6 + 72 
+|-
+|21 ||1d6 + 42 ||37 ||1d6 + 74 
+|-
+|22 ||1d6 + 44 ||38 ||1d6 + 76 
+|-
+|23 ||1d6 + 46 ||39 ||1d6 + 78 
+|-
+|24 ||1d6 + 48 ||40 ||1d6 + 80 
+|}
+
+==Notes==
+*Requires [[Hordes of the Underdark]].
+
+==Custom content notes==
+*''script:'' <code>X2_S0_AcidShth.nss</code>

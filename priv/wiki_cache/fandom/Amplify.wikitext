@@ -1,0 +1,19 @@
+{{spell
+|icon=is_x1amplif.gif
+|bardlevel=1
+|innatelevel=1
+|school=[[transmutation]]
+|components=VS
+|range=t
+|area=single
+|duration=1 [[round]] / level
+|desc=The caster or a target gains a +20 bonus to [[listen]] checks.}}
+
+==Notes==
+*Added in the [[expansion pack]]s.
+
+===Previous versions===
+*Prior to version 1.69, this spell did not have a somatic [[component]], so it could be cast while wearing full armor and shield, ignoring arcane [[spell failure]].
+
+==Custom content notes==
+*''script:'' <code>x0_s0_amplify.nss</code>

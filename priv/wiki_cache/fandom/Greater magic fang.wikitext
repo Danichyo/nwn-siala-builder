@@ -1,0 +1,38 @@
+{{spell
+|icon=is_x1gmagfan.gif
+|druidlevel=3
+|rangerlevel=3
+|innatelevel=3
+|school=[[transmutation]]
+|components=VS
+|range=p
+|area=caster
+|save=none
+|spellresistance=no
+|duration=1 [[turn]] / level
+|line=Magic fangs
+|line1=magic fang
+|line3=greater magic fang
+|desc=This spell strengthens the caster's [[animal companion]], giving it +1 [[attack bonus|to hit]] and +1 to damage for every three levels of the caster (maximum of +5). It also grants the creature [[damage reduction]] and [[enhancement bonus]] equal to the hit/damage bonus given.}}
+{| class="wikitable" style="text-align:center"
+!caster<br />level !! attack/<br />damage !! damage<br />reduction
+|-
+|5|| +2||2/+2
+|-
+|8|| +3||3/+3
+|-
+|11|| +4||4/+4
+|-
+|14|| +5||5/+5
+|}
+
+== Notes ==
+
+* Added in the [[expansion pack]]s.
+* The bonus damage (reported as [[magical damage]]) is from a [[damage increase]] effect, so it ignores both [[damage resistance]] and damage [[immunity]].
+* Caster level is increased by one when calculating the bonuses (but not the duration), causing this spell to be better than ''[[magic fang]]'' from the first level it is obtainable.
+* This spell displaces earlier castings of itself and of ''magic fang''.
+
+== Custom content notes ==
+
+* ''script:'' <code>x0_s0_gmagicfang</code>

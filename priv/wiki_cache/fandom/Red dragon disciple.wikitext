@@ -1,0 +1,379 @@
+{{ingame|icon=ir dragond.gif|text=It is rumored that the magical powers of [[sorcerer]]s and [[bard]]s are somehow connected to the presence of dragon blood in their family tree. Red dragon disciples are sorcerers, and sometimes bards, who use their magical power as a catalyst to ignite their red dragon blood, realizing its fullest potential. They prefer a life of exploration to a cloistered existence. Already adept at magic, many pursue adventure, especially if it furthers their goal of finding out more about their draconic heritage. They often feel drawn to areas known to harbor dragons.}}
+<!-- The above comes from the game. Please do not edit this description mercilessly. -->
+
+'''Red dragon disciple''' is a [[class]] that represents a wielder of magic discovering and embracing a draconic heritage, eventually gaining some features of dragons. It is one of the more powerful classes due to [[dragon abilities]], and although it is nominally for those who cast [[spell]]s, many players have found it more useful for characters that focus on [[melee]] combat.
+
+'''Requirements:''' Red dragon disciple is a [[prestige class]], so certain criteria must be fulfilled before a character may acquire this class. These criteria are the following.
+
+{| style="border:none; text-align:left; padding-left:2em;"
+|-
+! Class:
+|style="padding-left:0.8em;"| [[bard]] or [[sorcerer]]
+|-
+! Skills:
+|style="padding-left:0.8em;"| [[lore]] (8 [[rank]]s)
+|}
+
+[[Image:Red Dragon Disciple.jpg|right|A red dragon disciple]]
+
+{| style="border:none; text-align:left;"
+|-
+! Hit die:
+|style="padding-left:0.8em;"| [[hit dice|d6 to d12]] (see [[hit die increase]])
+|-
+! Skill points:
+|style="padding-left:0.8em;"| [[skill point|2]] + [[intelligence]] modifier
+|-
+! High saves:
+|style="padding-left:0.8em;"| [[base save|fortitude, will]]
+|-
+! Base attack:
+|style="padding-left:0.8em;"| [[base attack|middle]] (+3/4 levels)
+|}
+
+'''Proficiencies:''' No additional proficiencies are gained.
+
+'''Skills:''' [[concentration]], [[craft armor]], [[craft trap]], [[craft weapon]], [[discipline]], [[Heal (skill)|heal]], [[listen]], [[lore]], [[parry]], [[persuade]], [[search]], [[spellcraft]], [[spot]]
+
+'''Unavailable feats:'''
+[[brew potion]], [[craft wand]], [[curse song]], [[divine might]], [[divine shield]], [[extra music]], [[extra turning]], [[lingering song]], [[scribe scroll]], [[weapon specialization]]
+<br />These [[general feat]]s cannot be selected when taking a level of red dragon disciple.
+
+== Level progression ==
+
+As red dragon disciple level increases, the character improves in [[base attack]] (BA), [[saving throw]]s, and [[hit point]]s (HP), with the latter made more dramatic since the [[hit die]] used to generate hit points is subject to the class' [[hit die increase]] (the constitution increase at level 7 can also provide a significant increase to hit points, +1 per total character level). The character also gets a level-dependent [[armor class]] (AC) bonus from [[draconic armor]], the ability to [[dragon breath|breathe fire]], and bonuses to certain [[ability|abilities]] at specific levels from [[dragon abilities]].
+{|border="2" style="background:#efefef; color:#000000; border-collapse:collapse"
+|-style="background:#c0c0c0"
+!rowspan="2"| Level
+!rowspan="2"| BA
+!colspan="3"|Saves
+!rowspan="2"| Feats
+!rowspan="2"| Hit die
+!rowspan="2"| HP range
+!style="background:#ffffff" rowspan="12"|
+!rowspan="2"| AC bonus
+!rowspan="2"| Breath<br />damage
+!style="background:#ffffff" rowspan="12"|
+!colspan="6"|Ability increases
+|-style="background:#c0c0c0"
+!Fort
+!Ref
+!Will
+!Str
+!Dex
+!Con
+!Wis
+!Int
+!Cha
+|-align="center"
+| 1
+| 0
+| +2
+| +0
+| +2
+|align="left"| [[draconic armor]] || d6
+|3-6
+| +1 || -
+| -
+| -
+| -
+| -
+| -
+| -
+|-align="center"
+| 2
+| 1
+| +3
+| +0
+| +3
+|align="left"| [[dragon abilities]] || d6
+|6-12
+| +1 || -
+| +2
+| -
+| -
+| -
+| -
+| -
+|-align="center"
+| 3
+| 2
+| +3
+| +1
+| +3
+|align="left"| [[dragon breath]] || d6
+|9-18
+| +1 || 2d10
+| -
+| -
+| -
+| -
+| -
+| -
+|-align="center"
+| 4
+| 3
+| +4
+| +1
+| +4
+|align="left"| [[hit die increase]] || d8
+|13-26
+| +1 || 2d10
+| +2
+| -
+| -
+| -
+| -
+| -
+|-align="center"
+| 5
+| 3
+| +4
+| +1
+| +4
+|&nbsp;|| d8
+|17-34
+| +2 || 2d10
+| -
+| -
+| -
+| -
+| -
+| -
+|-align="center"
+| 6
+| 4
+| +5
+| +2
+| +5
+|&nbsp;|| d10
+|22-44
+| +2 || 2d10
+| -
+| -
+| -
+| -
+| -
+| -
+|-align="center"
+| 7
+| 5
+| +5
+| +2
+| +5
+|&nbsp;|| d10
+|27-54
+| +2 || 4d10
+| -
+| -
+| +2
+| -
+| -
+| -
+|-align="center"
+| 8
+| 6
+| +6
+| +2
+| +6
+|&nbsp;|| d10
+|32-64
+| +3 || 4d10
+| -
+| -
+| -
+| -
+| -
+| -
+|-align="center"
+| 9
+| 6
+| +6
+| +3
+| +6
+|align="left"| gets wings || d10
+|37-74
+| +3 || 4d10
+| -
+| -
+| -
+| -
+| +2
+| -
+|-align="center" valign="top"
+| 10
+| 7
+| +7
+| +3
+| +7
+|align="left"| becomes a half-dragon:<br />[[darkvision]], [[immunity to fire]], [[immunity to paralysis]], and [[immunity to sleep]] || d10
+|42-84
+| +4 || 6d10
+| +4
+| -
+| -
+| -
+| -
+| +2
+|}
+
+==Tip: Becoming a red dragon disciple==
+
+*Only [[sorcerer]]s or [[bard]]s can become a dragon disciple - either class is equally suited.
+* [[Paladin]]s and [[blackguard]]s are well suited as candidates for a third class.
+* Any class that has a high reliance on strength should find this prestige class useful.
+
+==Epic dragon disciple==
+{{ingame|icon=ife x2epdragond.gif|text=Embracing your draconic heritage is but one stop on your life journey. Your quest to understand, command, and harness your draconic energies has taken you into realm of the epic.}}
+
+'''Hit die:''' d12<br />
+'''Skill points:''' 2 + int modifier<br />
+'''Bonus feats:''' The epic dragon disciple gains a bonus feat every four levels. In other words, at levels 14, 18, 22, 26, and 30.
+
+'''Epic bonus feats:''' [[armor skin]], [[automatic quicken spell]], [[automatic silent spell]], [[automatic still spell]], [[epic damage reduction]], [[epic prowess]], [[epic reputation]], [[epic spell focus]], [[epic spell penetration]], [[epic toughness]], [[greater spell focus]], [[improved combat casting]]
+
+'''Epic breath weapon:''' The save DC against your breath weapon increases by +1 every 4 levels after 10th.
+
+'''Unavailable epic feats:'''
+[[bane of enemies]],   
+[[construct shape]], [[dragon shape]],   
+[[epic spell: dragon knight]], [[epic spell: epic mage armor]], [[epic spell: epic warding]], [[epic spell: greater ruin]], [[epic spell: hellball]], [[epic spell: mummy dust]],   
+[[epic weapon specialization]], [[great smiting]],   
+[[improved ki strike 4]], [[improved ki strike 5]], [[improved sneak attack]],   
+[[improved spell resistance]], [[improved stunning fist]],   
+[[lasting inspiration]], [[mighty rage]], [[outsider shape]],   
+[[planar turning]], [[terrifying rage]], [[thundering rage]], [[undead shape]]
+<br />These general [[epic feat]]s cannot be selected when taking a level of red dragon disciple.
+
+=== Epic red dragon disciple level progression ===
+
+In the epic class levels, hit points continue to accumulate, but now using 12-sided hit dice courtesy of the final [[hit die increase]]. The armor class bonus from [[draconic armor]] continues to improve, as does the damage from [[dragon breath]]. Also, the [[difficulty class|DC]] of saves made against the dragon breath starts to improve based on class level.
+{|border="2" style="background:#efefef; color:#000000; border-collapse:collapse"
+|-style="background:#c0c0c0"
+! Level
+! Bonus feats
+!HP range
+!style="background:#ffffff" rowspan="21"|
+!AC bonus !! Breath damage !! Breath DC
+|-align="center"
+| 11
+|&nbsp;
+|48-96
+| +4 || 6d10 || 19
+|-align="center"
+| 12
+|&nbsp;
+|54-108
+| +4 || 6d10 || 19
+|-align="center"
+| 13
+|&nbsp;
+|60-120
+| +4 || 7d10 || 19
+|-align="center"
+| 14
+|align="left"|first
+|66-132
+| +4 || 7d10 || 20
+|-align="center"
+| 15
+|&nbsp;
+|72-144
+| +5 || 7d10 || 20
+|-align="center"
+| 16
+|&nbsp;
+|78-156
+| +5 || 8d10 || 20
+|-align="center"
+| 17
+|&nbsp;
+|84-168
+| +5 || 8d10 || 20
+|-align="center"
+| 18
+|align="left"|second
+|90-180
+| +5 || 8d10 || 21
+|-align="center"
+| 19
+|&nbsp;
+|96-192
+| +5 || 9d10 || 21
+|-align="center"
+| 20
+|&nbsp;
+|102-204
+| +6 || 9d10 || 21
+|-align="center"
+| 21
+|&nbsp;
+|108-216
+| +6 || 9d10 || 21
+|-align="center"
+| 22
+|align="left"|third
+|114-228
+| +6 || 10d10 || 22
+|-align="center"
+| 23
+|&nbsp;
+|120-240
+| +6 || 10d10 || 22
+|-align="center"
+| 24
+|&nbsp;
+|126-252
+| +6 || 10d10 || 22
+|-align="center"
+| 25
+|&nbsp;
+|132-264
+| +7 || 11d10 || 22
+|-align="center"
+| 26
+|align="left"|fourth
+|138-276
+| +7 || 11d10 || 23
+|-align="center"
+| 27
+|&nbsp;
+|144-288
+| +7 || 11d10 || 23
+|-align="center"
+| 28
+|&nbsp;
+|150-300
+| +7 || 12d10 || 23
+|-align="center"
+| 29
+|&nbsp;
+|156-312
+| +7 || 12d10 || 23
+|-align="center"
+| 30
+|align="left"| fifth
+|162-324
+| +8 || 12d10 || 24
+|}
+
+==Notes==
+
+*Requires [[Hordes of the Underdark]].
+*Taking levels in this class does not increase [[spell slot]]s like taking levels in the [[pale master]] class would.
+*This class is occasionally banned from some servers as the [[ability]] increases from dragon abilities are considered "overpowered".
+* The extra [[skill point]] from increased intelligence starts when intelligence is increased at red dragon disciple level 9 (possibly as early as character level 14, which would result in 27 extra skill points by character level 40).
+
+=== Previous versions ===
+
+* Prior to the ''[[Enhanced Edition]]'' soft-coding the ability increases for this class, losing a red dragon disciple level that grants an ability bonus could leave a character with corrupted ability scores. This could be corrected by a [[Dungeon Master]] (DM), but not through [[script]]ing. For this reason, some servers that allow re-leveling without DM assistance banned this class.
+** Soft-coding the ability increases had the side-effect of failing to give extra hit points from constitution increases (at class level 7).<ref>[https://www.tapatalk.com/groups/nwnecbguild/nwn-ee-rdd-7-and-retroactive-hp-gain-no-longer-occ-t2355523.html#p21402 NWN EE, RDD 7 and Retroactive HP gain no longer occurs?] @ Epic Character Builders Guild</ref> This lasted until a save-reload or logout-login. This has since been fixed.<!-- Version number? -->
+
+== Custom content notes ==
+
+* The trigger for getting wings consists of having the ''dragon abilities'' feat and then taking a ninth level in this class. This aspect is hardcoded to both the feat and the class, with the feat check apparently happening before the level-up is applied.
+
+==References==
+
+[[category:prestige classes]]
+[[category:classes]]

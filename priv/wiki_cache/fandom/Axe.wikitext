@@ -1,0 +1,19 @@
+An '''axe''' is a [[melee weapon]] that consists of a pole and one or more "blades" mounted at one or both ends. The sharp edges of the blades are designed to [[Slashing damage|slash]] opponents.
+
+==Types of Axes==
+* '''One-Handed axes'''
+** [[Handaxe]]
+** [[Dwarven waraxe]]
+** [[Battleaxe]]
+* '''Two-Handed axes'''
+** [[Greataxe]]
+** [[Double axe]]
+
+==Notes==
+
+* Axes are notable for all having a x3 [[critical multiplier]], compared to swords which generally have an increased [[threat range]] and a x2 multiplier. Axes generally hit critically less often, but do more damage when they do.
+
+==Toolset==
+*The [[:Category:Item palette|Item palette]] in the [[toolset]] lists axes in the [[Axe blueprint category]].
+[[Category: Axes]]
+[[Category:Weapons]]

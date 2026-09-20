@@ -1,0 +1,34 @@
+{{spell
+|icon=is_x2magcweap.gif
+|bardlevel=1
+|clericlevel=1
+|paladinlevel=1
+|magelevel=1
+|innatelevel=1
+|school=[[transmutation]]
+|immunity=weapon enchantment
+|components=VS
+|range=t
+|area=melee weapon or creature
+|save=none
+|spellresistance=no
+|duration=1 [[hour]] / level
+|line=Magic weapons
+|line1=magic weapon
+|line3=greater magic weapon
+|desc=You empower the touched weapon with a +1 [[enhancement bonus]].}}
+
+== Notes ==
+
+*Requires [[Hordes of the Underdark]].
+* When cast on a creature, the spell affects the melee weapon in the creature's [[main hand slot|main hand]] (if there is one).
+* This spell can be cast on seemingly unarmed creatures (such as animals) to target one of their [[natural weapon]]s (even though the effect will not be reported in the [[character sheet]]). The "right" slot is targeted if possible; the "bite" slot otherwise. A creature with only a "left" weapon (e.g. some [[polymorph]]s) will not benefit from this spell.
+* An existing enhancement bonus will block the addition of the enhancement bonus from this spell. In particular, a player should wait for this spell to expire before casting it again on the same weapon.
+
+== Custom content notes ==
+
+* ''script:'' <code>X2_S0_MagcWeap</code>
+* The standard script will not recognize custom base items as weapons.
+
+==External Links==
+* {{FRW}}

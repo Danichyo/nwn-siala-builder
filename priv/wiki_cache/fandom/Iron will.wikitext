@@ -1,0 +1,21 @@
+{{feat
+|type=general
+|reqfor=[[Harper scout]]
+|desc=The character's strong presence of mind gives him a +2 bonus to all [[will]] [[saving throw]]s.
+|use=automatic
+|icon=ife_ironwil.gif
+}}
+
+==Builder notes==
+
+'''Item feat:''' No, but it can be added with custom content.
+
+==Custom content notes==
+
+'''Removable:''' yes
+
+'''Reusable:''' yes
+
+'''Script:''' hardcoded
+
+*This feat can be added to [[iprp_feats.2da]] to make it available as an item feat.

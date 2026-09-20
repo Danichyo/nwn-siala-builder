@@ -1,0 +1,92 @@
+{{Weapon|imagefile=Mace.jpg
+  |weaponname=Mace
+  |weapondescription=The '''mace''' is a derivative of the basic [[club]], consisting of a stone or metal head mounted on the end of a wooden shaft. The weight of the head greatly increases the force of impact.
+  |weight=6
+  |cost=5
+  |damage=1d6
+  |critical=x2
+  |damagetype=[[bludgeoning damage|bludgeoning]]
+  |size=Small
+  |proficiency=[[weapon proficiency (rogue)|rogue]]<br/>&nbsp;[[weapon proficiency (simple)|simple]]
+  |category=[[Category:Blunt weapons]] [[Category:Simple weapons]]
+}}
+
+==Notes==
+* Maces benefit from the [[weapon finesse]] feat.
+* Maces are traditionally favored by clerics due to their effectiveness in smashing undead.
+
+==Toolset==
+* Maces are listed under the [[mace blueprint category]] of the [[item palette]] in the [[Toolset]].
+
+== Fist of the Legion ==
+A set of these weapons was originally created for the Sword Coast Legion, a league of [[cleric]]s and [[paladin]]s who fought the [[orc]] multitudes in the Year of the Black Horde, 1235 DR.
+
+*[[Enhancement bonus]]: +1
+*[[On-hit]]: [[stunned|stun]] ([[difficulty class|DC]]=14) (50% / 2 [[round]]s)
+*[[Item level restriction|Required level]]: 7
+
+== Kiss of Sune ==
+A boon to the devout, this mace and others like it exude the grace and power of the Lady of Love, [[Sune]]. A service of great importance is usually required to warrant such a gift, as the creation of powerful items is costly to any faith.
+
+*Enhancement bonus: +1
+*On-hit: [[paralyze|hold]] (DC=14) (50% / 2 rounds)
+*Required level: 10
+
+== Lesser Mace of Disruption ==
+Possibly the singular most popular weapon amongst the ranks of [[Lathander]]'s clerics, the mace of disruption is the bane of the undead. It is rumored that the last cleric carrying such a weapon in [[Thay]] was caught by Szazz Tam and flayed alive, before being turned into a zombie servant.
+
+*Light: bright (yellow)
+*On-hit: [[slay]] [[undead]] (DC=14)
+*Use limitation: [[cleric]], [[paladin]]
+*Required level: 11
+
+'''Notes:''' Requires [[Shadows of Undrentide]].
+
+== Mace of Disruption +2 ==
+This weapon bears the mark of the dwarf [[Marrok]], Master Blacksmith of [[Neverwinter]]'s Shining Knight Arms and Armor. He forged it early in 1373 DR, to aid the heroes who sought to free his quarantined city from the virulent grasp of the so-called [[Wailing Death]].
+
+*Enhancement bonus: +1
+*Enhancement bonus: +2 versus undead
+*Required level: 5
+
+== Mace of Disruption +5 ==
+This weapon bears the mark of the dwarf [[Barun Silverblade|Barun]], a Master Blacksmith who worked from a makeshift forge in the [[Uthgardt]] village of Beorunna's Well. He forged it late in 1373 DR, to aid the war effort against [[Aribeth|Lady Aribeth the Betrayer]], who was then marching against the northern city of Neverwinter and the Lords' Alliance.
+
+*[[Damage bonus]]: +[[dice|d8]] [[fire damage]] versus undead
+*Enhancement bonus: +1
+*Enhancement bonus: +5 versus undead
+*Required level: 10
+
+== Mace of Disruption +8 ==
+The bane of all undead, the mace of disruption, interferes with the magic animating undead. Sometimes this means that it does increased damage to undead, while other times it destroys the creature entirely. These weapons are often highly sought after by the priests of Lathander, who hunt undead with great zeal. Those who distinguish themselves as undead hunters are occasionally rewarded with one of these powerful maces.
+
+*Damage bonus: +d10 fire damage versus undead
+*Enhancement bonus: +3
+*Enhancement bonus: +8 versus undead
+*On-hit: slay undead (DC=20)
+*Required level: 23
+
+'''Note:''' Requires [[Hordes of the Underdark]].
+
+== Petty's Tempest ==
+The most recent recorded appearance of one of these weapons was in the black markets of [[Amn]], rightfully commanding an impressive price. Several such maces have been found over time, each with an array of elemental spells and effects woven through them. The creator remains elusive, though the name "Petty" is evident on each example. It is possible he is a smith on [[Toril]], but his obvious understanding of planar forces suggests a more traveled origin.
+
+*Damage bonus: +d6 [[electrical damage]]
+*Enhancement bonus: +2
+*On-hit: [[slow]] (DC=14) (50% / 2 rounds)
+*Required level: 14
+
+== Planar Mace ==
+No one knows for certain where these maces originate. Perhaps they come from the [[outer plane]]s to help the righteous of [[Faerûn]] defend their home, or perhaps their arrival here is simply an accident. Regardless of their origin, they are unusually effective against creatures from other planes of existence.
+
+*Enhancement bonus: +2
+*Enhancement bonus: +4 versus [[outsider]]s
+*Required level: 11
+
+== Soldier's Might ==
+It is said that lieutenants in the armies of Algarond were given these weapons, but not told of the flaws in their design. Many of the wielders died, but all fought valiantly and were accorded the honor of heroes of the realm. The generals responsible for these flawed weapons escaped punishment, and today they are remembered among the revered dead.
+
+*Damage bonus: +d4 [[cold damage]]
+*Enhancement bonus: +2
+*[[Immunity]]: [[mind-affecting]] spells
+*Required level: 17

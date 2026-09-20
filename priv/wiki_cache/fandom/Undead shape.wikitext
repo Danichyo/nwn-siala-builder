@@ -1,0 +1,67 @@
+{{feat
+|epic=yes
+|type=general
+|prereq=[[epic class|epic]] [[shifter]]
+|desc=The character with this ability can [[polymorph|transform into]] a selection of powerful [[undead]] creatures three times per day:
+[[risen lord form|risen lord]], [[vampire form|vampire]], and [[spectre form|spectre]].
+|use=selected. After choosing this ability, the character must select an undead type to change into.
+|icon=ife_x2udshp.gif
+|bonus1=shifter
+}}
+
+== Notes ==
+* Requires [[Hordes of the Underdark]].
+* This form of shapeshifting cannot be [[dispel]]led.
+* This feat does not actually require one to be an epic shifter. It can be taken starting on shifter level 10 (when the shifter gets [[greater wildshape IV]]).
+* Unlike the other epic shifter [[feat]]s, ''undead shape'' does not require a minimum [[wisdom]] score.
+
+== Forms ==
+* The statistics for the undead forms are given in the following table. [[Strength]] (str), [[dexterity]] (dex), and [[constitution]] (con) values override the shifter's base [[ability score]]s. Bonuses in the hit point (HP) column are [[temporary hit point]]s, while bonuses in the armor class (AC) column are [[dodge bonus]]es. The "merge" column indicates the inventory slots from which [[item property|item properties]] will merge.
+{| class="compacttable subheaders"
+! Shape!! Str!! Dex!! Con!! HP!!AC!!Special!! Unarmed!! Merge
+|-
+! risen lord
+| 21
+|align="center"| -
+| 19
+| +60
+| +13
+| [[damage reduction]] 15/+3<br />damage immunities:<br />slashing 50%, piercing 50%<br />''risen lord scythe +5''<br />([[cleave]], [[whirlwind attack]]<br />vampiric regeneration +2)
+| no
+| armor,<br />items,<br />weapon
+|-
+! vampire
+| 18
+| 20
+|align="center"| -
+| +30
+| 28 (base)<br />(+13 dodge)
+|[[regeneration]] +5<br />damage reduction 15/+1<br />[[damage resistance]]: [[cold damage|cold]] 20/-<br />damage resistance: [[electrical damage|electrical]] 20/-<br />vampire bite: [[on monster hit]]: level drain 2<br />[[domination gaze (shifter)|domination gaze]]
+| yes
+| armor,<br />items
+|-
+! spectre
+| 16
+| 22
+|align="center"| -
+| +40
+| 31 (base)<br />(+15 dodge)
+| damage reduction 15/+4<br />turn resistance: +2<br />damage resistance: cold 5/-<br />damage resistance: electricity 5/-<br />immunity decreased: divine 25%<br />[[darkvision]], [[improved evasion]]<br />+15 hide, +15 move silently<br />[[shadow attack (shifter)|shadow attack]], [[invisibility (shifter)|invisibility]]<br />immunity: [[knockdown]]
+| yes
+| armor
+|}
+* All undead shapes receive the following immunities: [[disease]], [[critical hit]]s, [[death magic]], [[level drain]], [[ability drain]], [[mind-affecting]] spells, [[paralysis]], [[poison]], and [[sneak attack]]s.
+* Drinking healing potions in any undead shape will be treated as a hostile touch attack action which will harm the character if the attack roll succeeds.
+* Off-hand weapon and bracer/gauntlet/glove properties never merge.
+
+'''Spectre'''
+* The +2 turn resistance provides no benefit for a player character.
+
+== Custom content notes ==
+* A custom class must have this feat in their feat list, or that class will not be able to select it as a general feat.
+* Vampire
+:* ''domination gaze script:'' <code>X2_S2_ShiftDom</code>
+* Spectre
+:* ''invisibility script:'' <code>X2_S2_VampInvis</code>
+:* ''shadow attack script:'' <code>X2_S2_GwDrain</code>
+[[category:feats restricted by class, epic]]

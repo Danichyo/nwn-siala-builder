@@ -1,0 +1,19 @@
+[[Image:Alchemistsfire.gif|left]]
+This small leather bag is filled with some alchemical powder and several small pieces of black rock.
+<br clear="all" />
+
+Anyone directly hit by this grenade-like weapon will suffer 10[[d6]] points of [[fire damage]]. Everyone in the {{AoE|huge}} [[area of effect]] (including the original target) also suffers 1 point of [[fire damage]]. After exploding, an incendiary cloud is created at the targeted location that causes 4[[d6]] points of [[fire damage]] each [[round]] for 5 rounds to all creatures within the cloud's {{AoE|large}} area of effect.
+
+==Notes==
+* Introduced in the [[Hordes of the Underdark]] [[expansion pack]].
+* The grenade will not affect friendly creatures nor neutral [[non-player character]]s who are not associates of [[player character]]s (the "standard" hostile targeting scheme).
+* A ranged [[touch attack]] is performed to see if the fire bomb hits; damage is doubled on a [[critical hit]].
+
+== Builder notes ==
+
+* The lingering effect of this grenade uses the OnEnter, OnExit, and OnHeartbeat [[script]]s  of the ''[[incendiary cloud]]'' spell.
+
+==Custom content notes==
+*''main script:'' <code>X2_S3_Bomb</code>
+[[Category:Grenade-like weapons]]
+[[Category:Item powers]]

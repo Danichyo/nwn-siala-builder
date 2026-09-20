@@ -1,0 +1,169 @@
+[[Image:Ir wm.gif|right|Weapon Master]]
+'''Description:''' ([[prestige class|PRESTIGE CLASS]])
+For the weapon master, perfection is found in the mastery of a single melee weapon. A weapon master seeks to unite this weapon of choice with his body, to make them one, and to use the weapon as naturally and without thought as any other limb.
+
+'''[[Hit die]]:''' d10
+
+'''Proficiencies:''' No additional proficiencies are granted.
+
+'''[[Skill point]]s:''' 2 + [[int]] modifier
+
+'''Skills:''' [[discipline]], [[heal (skill)|heal]], [[intimidate]], [[listen]], [[lore]], [[spot]]
+
+'''Unavailable feats:'''
+[[brew potion]], [[craft wand]], [[curse song]], [[divine might]], [[divine shield]], [[extra music]], [[extra turning]], [[lingering song]], [[quicken spell]], [[scribe scroll]], [[spell focus]], [[weapon specialization]]
+<br />These [[general feat]]s cannot be selected when taking a level of weapon master.
+
+'''[[Saving throw|Primary saving throw(s)]]:''' [[reflex]]
+
+'''[[Base attack bonus]]:''' +1/level
+
+[[Image:Weapon Master.jpg|Weapon master]]
+
+==Requirements==
+
+To qualify as a weapon master, a character must fulfill all of the following criteria:
+
+'''[[Base attack bonus]]:''' +5
+
+'''Feats:''' [[dodge]], [[mobility]], [[expertise]], [[spring attack]], [[weapon focus]] in a [[melee weapon]], and [[whirlwind attack]]
+
+'''Skills:''' [[intimidate]] 4 [[rank]]s
+
+''Note:'' Getting these feats requires [[dexterity]] and [[intelligence]] scores of at least 13.
+
+==Level progression==
+
+{| border=2 style="background:#efefef; color:#000000; border-collapse:collapse"
+|- style="background:#c0c0c0"
+!rowspan=2|Lvl
+!rowspan=2|BAB
+!colspan=3|Saves
+!rowspan=2|Feats
+!rowspan=2|HP range
+!rowspan=12 style="background:#ffffff"|&nbsp;
+!rowspan=2|AB bonus
+!rowspan=2|Ki damage<br />uses per day
+|- style="background:#c0c0c0"
+!Fort
+!Ref
+!Will
+|- align=center
+|1st || +1 || +0 || +2 || +0 ||align=left|[[ki damage]], [[weapon of choice]] ||5-10 || - ||1
+|- align=center
+|2nd || +2 || +0 || +3 || +0 ||align=left| ||10-20 || - ||2
+|- align=center
+|3rd || +3 || +1 || +3 || +1 ||align=left| ||15-30 || - ||3
+|- align=center
+|4th || +4 || +1 || +4 || +1 ||align=left| ||20-40 || - ||4
+|- align=center
+|5th || +5 || +1 || +4 || +1 ||align=left|[[increased multiplier]], [[superior weapon focus]] (+1 AB) ||25-50 || +1 ||5
+|- align=center
+|6th || +6 || +2 || +5 || +2 ||align=left|  ||30-60 || +1 ||6
+|- align=center
+|7th || +7 || +2 || +5 || +2 ||align=left|[[ki critical]] ||35-70 || +1 ||7
+|- align=center
+|8th || +8 || +2 || +6 || +2 ||align=left| ||40-80 || +1 ||8
+|- align=center
+|9th || +9 || +3 || +6 || +3 ||align=left| ||45-90 || +1 ||9
+|- align=center
+|10th || +10 || +3 || +7 || +3 ||align=left| ||50-100|| +1 ||10
+|}
+
+==Tip: Becoming a weapon master==
+* Without [[bonus feat]]s to help meet this class' prerequisites, the earliest a character could become a weapon master is character level 16. [[Human]]s can become weapon masters at 13 thanks to [[quick to master|their bonus]].
+* Bonus feats from [[fighter]] and [[champion of Torm]] can be used to meet the prerequisites earlier. The earliest a character can become a weapon master is at character level 7, and this requires four fighter levels if playing a non-human race, two if playing a human.
+
+[[Image:ife x2epwm.gif|right|Epic weapon master]]
+
+==Epic weapon master==
+
+The weapon master's bond with his weapon of choice becomes stronger and devastatingly effective as he becomes the epic weapon master.
+
+'''[[Hit die]]:''' d10
+
+'''Skill points:''' 2 + int modifier
+
+'''Bonus feats:''' The epic weapon master gains a bonus feat every three levels. In other words, at levels 13, 16, 19, 22, 25, and 28.
+
+'''Epic bonus feats:''' [[armor skin]], [[blinding speed]], [[devastating critical]], [[epic damage reduction]], [[epic toughness]], [[epic prowess]], [[epic weapon focus]], [[improved whirlwind attack]], [[overwhelming critical]], [[planar turning]], [[superior initiative]], [[weapon of choice]]
+<br />''The inclusion of ''planar turning'' in the bonus feat list is probably a bug.''
+
+'''Unavailable epic feats:'''
+[[automatic quicken spell]], [[automatic silent spell]], [[automatic still spell]], [[bane of enemies]],
+[[construct shape]], [[dragon shape]], [[epic spell penetration]],
+[[epic spell: dragon knight]], [[epic spell: epic mage armor]], [[epic spell: epic warding]], [[epic spell: greater ruin]], [[epic spell: hellball]], [[epic spell: mummy dust]],
+[[epic weapon specialization]], [[great smiting]],
+[[improved ki strike 4]], [[improved ki strike 5]], [[improved sneak attack]],
+[[improved spell resistance]], [[improved stunning fist]],
+[[lasting inspiration]], [[mighty rage]], [[outsider shape]],
+[[terrifying rage]], [[thundering rage]], [[undead shape]]
+<br />These general [[epic feat]]s cannot be selected when taking a level of weapon master.
+
+===Epic weapon master level progression===
+
+{| border=2 style="background:#efefef; color:#000000; border-collapse:collapse"
+|- style="background:#c0c0c0"
+!&nbsp;Lvl&nbsp;
+!Feats
+!HP range
+!rowspan=21 style="background:#ffffff"|&nbsp;
+!AB bonus
+!Ki damage<br />uses per day
+|- align=center
+|11th ||align=left| ||55-110 || +1 ||11
+|- align=center
+|12th ||align=left| ||60-120 || +1 ||12
+|- align=center
+|13th ||align=left|bonus feat, [[epic superior weapon focus]] (+1 AB) ||65-130 || +2 ||13
+|- align=center
+|14th ||align=left| ||70-140 || +2 ||14
+|- align=center
+|15th ||align=left| ||75-150 || +2 ||15
+|- align=center
+|16th ||align=left|bonus feat, epic superior weapon focus (+1 AB) ||80-160 || +3 ||16
+|- align=center
+|17th ||align=left| ||85-170 || +3 ||17
+|- align=center
+|18th ||align=left| ||90-180 || +3 ||18
+|- align=center
+|19th ||align=left|bonus feat, epic superior weapon focus (+1 AB) ||95-190 || +4 ||19
+|- align=center
+|20th ||align=left| ||100-200 || +4 ||20
+|- align=center
+|21st ||align=left| ||105-210 || +4 ||21
+|- align=center
+|22nd ||align=left|bonus feat, epic superior weapon focus (+1 AB) ||110-220 || +5 ||22
+|- align=center
+|23rd ||align=left| ||115-230 || +5 ||23
+|- align=center
+|24th ||align=left| ||120-240 || +5 ||24
+|- align=center
+|25th ||align=left|bonus feat, epic superior weapon focus (+1 AB) ||125-250 || +6 ||25
+|- align=center
+|26th ||align=left| ||130-260 || +6 ||26
+|- align=center
+|27th ||align=left| ||135-270 || +6 ||27
+|- align=center
+|28th ||align=left|bonus feat, epic superior weapon focus (+1 AB) &nbsp; ||140-280 || +7 ||28
+|- align=center
+|29th ||align=left| ||145-290 || +7 ||29
+|- align=center
+|30th ||align=left| ||150-300 || +7 ||30
+|}
+
+=== Special ===
+
+'''Epic superior weapon focus''': For every 3 epic levels gained, an additional +1 to attack is granted to the weapon of choice.
+
+==Notes==
+
+*Requires [[Hordes of the Underdark]].
+* This class was designed as a master of a melee weapon. Thus, [[ranged weapon]]s and [[unarmed strike]] are excluded from the prerequisites (and from weapons of choice).
+* Due to the lack of weapon focus feats (and of weapon of choice feats), it is not possible to be a master of the [[lance]] or [[magic staff]] or any [[custom content]] weapons.
+* As the weapon of choice is chosen from a list, it is technically a [[bonus feat]] selected from a list. As such, it is available for selection (again) as a bonus feat at epic levels if the weapon focus prerequisite is met. Furthermore, a different bonus feat can be substituted for ''weapon of choice'' at weapon master level 1, if the prerequisites for that feat are met (which, among other things, implies being an epic character).
+*Weapon master and [[shadowdancer]] are the only classes lacking the generic class skills [[craft weapon]], [[craft trap]], [[craft armor]] as well as [[concentration]] and [[parry]] (all are [[cross-class skill]]s).
+*Although the ultimate specialist in a single weapon, weapon masters cannot take [[weapon specialization]] and [[epic weapon specialization]] without taking at least 4 [[fighter]] levels. One fighter or [[champion of Torm]] epic level must be taken for epic weapon specialization, leaving room for 29 weapon master levels. The last weapon master bonus feat and [[attack bonus]] increase is at level 28, so not much is lost by going that route.
+*The [[increased multiplier]] and [[ki critical]] feats make a deadly combination with [[overwhelming critical]] and [[devastating critical]] (against creatures not immune to [[critical hit]]s).
+[[category:prestige classes]]
+[[category:classes]]

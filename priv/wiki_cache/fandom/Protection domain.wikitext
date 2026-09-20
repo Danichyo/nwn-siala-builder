@@ -1,0 +1,19 @@
+'''Description:''' Clerics who take the Protection domain are able to shield themselves from harm using their special abilities and spells.[[Image:Id protection.gif|right|Protection]]
+== Domain special abilities ==
+
+Divine protection - The [[cleric]] is able to cast an improved form of [[sanctuary]] that sets the save [[difficulty class|DC]] at 10 + [[charisma]] [[modifier]] + [[class level|clerical level]]. The effect has a duration of 1 [[round]] per [[caster level]] + charisma modifier.
+
+== Bonus spells ==
+
+* Level 4 [[Minor globe of invulnerability]]
+* Level 5 [[Energy buffer]]
+
+== Notes ==
+
+* ''Divine protection'' can be used once per [[day]].
+
+==Custom content notes==
+
+*''script'' <code>NW_S2_DivProt</code>
+
+[[Category:Cleric domains]]

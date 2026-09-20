@@ -1,0 +1,36 @@
+Siala Builder is distributed under two licences, because it contains two
+kinds of material. See NOTICE for the details and the attributions.
+
+  * SOURCE CODE — MIT (below).
+    Everything under lib/, test/, assets/, config/, rel/, priv/gettext/,
+    priv/repo/, priv/static/, plus mix.exs, mix.lock, Dockerfile and
+    docker-compose.yml.
+
+  * GAME DATA AND WIKI SNAPSHOTS — Creative Commons Attribution-ShareAlike
+    3.0 Unported (CC BY-SA 3.0), https://creativecommons.org/licenses/by-sa/3.0/
+    Everything under priv/rules/ and priv/wiki_cache/. These are derived from
+    the NWN Wiki on Fandom, which is CC BY-SA 3.0, so share-alike applies.
+
+---------------------------------------------------------------------------
+
+MIT License
+
+Copyright (c) 2026 Dan Bykov
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

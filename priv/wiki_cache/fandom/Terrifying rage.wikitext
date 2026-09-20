@@ -1,0 +1,30 @@
+{{feat
+|icon   = ife_rage.gif
+|type   = general
+|epic   = yes
+|prereq = <del>epic barbarian</del> ''21st level, [[greater rage]] (4x per day)'', [[intimidate]] 25
+|desc   = While the [[barbarian]] is ''raging'', any enemy (with less than the barbarian's [[hit dice]]) that comes close to him must make a [[will]] save opposed by the barbarian's intimidate check or become [[paralysis|panicked]] for <del>1d6</del> ''1[[d3]]'' [[round]]s. Opponents with up to twice the barbarian's hit dice will not flee but will receive a -2 penalty to [[attack roll|attack]] and [[saving throw]] rolls. Creatures with <del>more than</del> ''at least'' twice the barbarian's hit dice are not affected by the rage.
+|use    = automatic while in rage
+|bonus1 = barbarian
+}}
+
+== Notes ==
+
+*Requires [[Hordes of the Underdark]].
+* This feat's description incorrectly lists "epic barbarian" as a prerequisite. While 21 character levels are required, only 15 of them need to be barbarian levels. (More precisely, the feat "greater rage (4x per day)" is required.)
+* The earliest this feat can be taken is at the 24th character level (this is because the 25 intimidate ranks can only be achieved at level 22 or later, and there are no general or barbarian feats available in between the 21st and 24th level).
+*"Barbarian's hit dice" means total [[character level]]s.
+*"Opposed by the barbarian's intimidate check" means "DC is barbarian's intimidate skill + 1[[d10]]". ([[BioWare]] changed it from 1[[d20]]; see script <code>x2_s2_terrage_a</code>.)
+* The saving throw is versus fear, but the effect that gets applied is [[paralysis]] (so this feat causes no one to "flee" and affected creatures with four or fewer hit dice are subject to a [[coup de grâce]]).
+* The saving throw is bugged as it will cause those immune to fear to automatically fail the save (without a roll).
+* Those afflicted with the -2 penalty to attack and saving throw rolls (referred to as ''shaken'' in [[Dungeons & Dragons]] parlance) receive the floating text feedback ''"* trembling with fear! *"''.
+* The feat description incorrectly lists the duration of the negative effects as 1d6 rounds, instead of 1d3 rounds.
+* Creatures with exactly twice the barbarian's hit dice are not affected by this feat, even though the official description would imply otherwise.
+*When [[mighty rage]] and normal rage are both active, there are two auras each of which will trigger a will save to avoid the associated negative effects (the penalty to attack roll and saves stacks in this case).
+
+== Custom content notes ==
+
+* ''OnEnter script:'' <code>x2_s2_terrage_a</code>
+* This feat is implemented by the <code>CheckAndApplyTerrifyingRage()</code> [[function]] located in the [[script]] <code>x2_i0_spells</code>. It is called at the end of the rage scripts via <code>CheckAndApplyEpicRageFeats()</code> (also defined in <code>x2_i0_spells</code>).
+*A custom class must have this feat in their feat list, or that class will not be able to select it as a general feat.
+[[category:feats restricted by class, epic]]

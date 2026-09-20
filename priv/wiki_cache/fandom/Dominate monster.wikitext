@@ -1,0 +1,31 @@
+{{spell
+|icon=is_dommon.gif
+|magelevel=9
+|innatelevel=9
+|school=[[enchantment]]
+|components=VS
+|range=m
+|area=single
+|save=[[will]] negates
+|spellresistance=yes
+|immunity=mind-affecting
+|duration=3 [[turn]]s + 1 / ''2'' [[caster level|levels]]
+|line=Domination
+|line3=dominate animal
+|line4=dominate person
+|line7=control undead
+|line9=dominate monster
+|desc=The target monster temporarily becomes a [[dominated|faithful and loyal]] [[associate|servant]] of the caster.}}
+
+== Notes ==
+
+* The duration of this spell increases only every other caster level, even though the description says there is an increase each level.
+*When cast against a [[player character]] or a PC's [[associate]], this spell causes a [[dazed]] effect instead.
+**The duration of the daze effect, if at least 4 rounds and the target is a PC, is halved under the normal game [[difficulty setting]], and quartered under easier settings.
+*This is one of the few spells that can still be effective in [[PvP]] against high level fighter-types whose [[fortitude]] is too high to be vulnerable to "save or die" spells.
+*Merchants under the influence of this spell will suffer a -20 penalty to their opposed [[appraise]] check (if they make one) when opening their store. This usually means that prices are adjusted 20% (of the item's value) in the PC's favor.
+* Dominated creatures are associates and increase the [[party size penalty]] for [[experience point]]s.
+
+== Custom content notes ==
+
+* ''script:'' <code>NW_S0_DomMon</code>

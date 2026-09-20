@@ -1,0 +1,11 @@
+{{feat
+|epic=yes
+|type=class
+|prereq=[[druid]] 22
+|desc=Upon reaching 22nd [[class level|level]], a druid gains unlimited uses of his [[wild shape]] ability.
+|use=automatic
+|class1=druid
+}}
+
+==Notes==
+*Requires [[Hordes of the Underdark]].

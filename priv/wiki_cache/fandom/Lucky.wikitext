@@ -1,0 +1,19 @@
+{{feat
+|type=race
+|prereq=[[halfling]]
+|desc=This feat grants a +1 racial bonus to all [[saving throw]]s.
+|use=automatic
+|icon=ife_lucky.gif
+}}
+
+==Builder notes==
+'''Item feat:''' No, but it can be added with custom content.
+
+==Custom content notes==
+'''Removable:''' yes
+
+'''Reusable:''' yes
+
+'''Script:''' hardcoded
+
+*This feat can be added to [[iprp_feats.2da]] to make it available as an item feat.

@@ -1,0 +1,16 @@
+{{feat
+|type=class
+|prereq=[[blackguard]] 2
+|desc=Starting at second level, a blackguard may cast ''[[bull's strength]]''.
+|use=selected
+|icon=is bullstr.gif
+|class1=blackguard}}
+
+== Notes ==
+*Added in the [[expansion pack]]s.
+*This feat [[stack]]s with the spell.
+* As usual for class feats, the [[caster level]] is the blackguard's [[class level]].
+
+== Custom content notes ==
+* ''script:'' <code>NW_S0_BullStr</code>
+** This is also the script used by the spell of the same name.

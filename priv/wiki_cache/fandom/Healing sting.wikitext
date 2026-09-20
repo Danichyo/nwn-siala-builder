@@ -1,0 +1,22 @@
+{{spell
+|icon=is_x2healstng.gif
+|druidlevel=3
+|innatelevel=3
+|school=[[necromancy]]
+|components=VS
+|range=t
+|area=creature touched
+|save=[[fortitude]] negates
+|spellresistance=yes
+|immunity=negative
+|duration=instantaneous
+|desc=You inflict 1[[d6]] points of [[negative energy damage|damage]], +1 per caster level, to the living creature touched and gain an equal amount of [[hit point]]s. You may not gain more hit points than your maximum with the ''healing sting''.}}
+
+==Notes==
+*Requires [[Hordes of the Underdark]].
+
+==Custom content notes==
+*''script:'' <code>X2_S0_HealStng.nss</code>
+==External links==
+* {{FRW}}
+* {{NWN2W|Healing Sting}}

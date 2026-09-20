@@ -1,0 +1,21 @@
+{{feat
+|type=class
+|prereq=[[dwarven defender]] 2 (5, 10)
+|desc=There are three versions of this feat with cumulative benefits.
+
+'''(1):''' The [[character]] retains his [[dexterity]] bonus to [[armor class|AC]], even if caught [[flat-foot]]ed or attacked by a hidden or [[invisible]] creature.
+
+'''(2):''' The character can no longer be [[flank]]ed, since he can react to opponents on opposite sides of him as easily as he can react to a single attack.
+
+'''(3):''' The character gains an intuitive sense that alerts him to danger from traps, giving a +1 bonus to [[reflex]] [[save]]s made to avoid [[trap]]s.
+|use=automatic
+|icon=ife_x2defaware.gif
+|class1=dwarven defender
+}}
+
+==Notes==
+*Requires [[Hordes of the Underdark]].
+*The inability to be flanked, granted by ''defensive awareness (2)'', is extremely powerful in that it makes a character [[immune]] to [[sneak attack]]s whenever he is attacking something. However, this immunity is only effective while attacking &mdash; if the character stops attacking (such as when he can no longer reach his current target), he becomes subject to sneak attacks again. It also does not make the dwarven defender immune to sneak attacks from unseen opponents.
+
+== See also ==
+* [[Uncanny dodge]]

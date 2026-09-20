@@ -1,0 +1,82 @@
+This '''spell school list''' is a quick reference of which [[paladin]] [[spell]]s fall into which [[spell school]]s, broken down by [[spell level]].
+
+== Abjuration ==
+
+<u>Level 1</u> 
+* [[Endure elements]]
+* [[Protection from alignment]]
+* [[Resistance]]
+
+<u>Level 2</u>
+* [[Resist elements]]
+
+<u>Level 3</u>
+* [[Dispel magic]]
+* [[Magic circle against alignment]]
+
+<u>Level 4</u>
+* [[Freedom of movement]]
+
+== Conjuration ==
+
+<u>Level 1</u>
+* [[Cure light wounds]]
+
+<u>Level 2</u>
+* [[Remove paralysis]]
+
+<u>Level 3</u>
+* [[Cure moderate wounds]]
+* [[Prayer]]
+
+<u>Level 4</u>
+* [[Cure serious wounds]]
+* [[Neutralize poison]]
+
+== Divination ==
+
+<u>Level 3</u>
+* [[Remove blindness/deafness]]
+
+== Enchantment ==
+
+<u>Level 1</u>
+* [[Bless]]
+
+<u>Level 2</u>
+* [[Aid]]
+
+== Evocation ==
+
+<u>Level 1</u>
+* [[Divine favor]]
+
+<u>Level 4</u>
+* [[Holy sword]]
+
+== Illusion ==
+
+Paladins have no illusion spells.
+
+== Necromancy ==
+
+<u>Level 4</u>
+* [[Death ward]]
+
+== Transmutation ==
+
+<u>Level 1</u>
+* [[Bless weapon]]
+* [[Deafening clang]]
+* [[Magic weapon]]
+* [[Virtue]]
+
+<u>Level 2</u>
+* [[Aura of glory]]
+* [[Bull's strength]]
+* [[Eagle's splendor]]
+
+<u>Level 3</u>
+* [[Greater magic weapon]]
+[[category:spell schools| Spell school list (paladin)]]
+[[category:paladin spells| Spell school list]]

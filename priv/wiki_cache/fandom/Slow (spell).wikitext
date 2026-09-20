@@ -1,0 +1,26 @@
+{{spell
+|icon=is_slow.gif
+|bardlevel=3
+|magelevel=3
+|domain=travel
+|domainlevel=4
+|innatelevel=3
+|school=[[transmutation]]
+|components=VS
+|range=s
+|area=colossal
+|areanote=, 1 creature / level
+|save=[[will]] negates
+|spellresistance=yes
+|duration=1 [[round]] / level
+|counters=[[haste (spell)|haste]]
+|desc=All enemy creatures within the [[area of effect]] are [[slow]]ed, having their [[movement rate|movement]] lowered by 50% and lose a single attack per round.}}
+== Notes ==
+* Creatures are reduced to having one attack per round (even if they have more than two attacks), however this will not include [[bonus attack]]s.
+* The creature limit does not include those that resist the spell or pass their saving throw.
+
+==Custom content notes==
+*''script:'' <code>NW_S0_Slow.nss</code>
+
+==External Links==
+* {{FRW|Slow}}

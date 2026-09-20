@@ -1,0 +1,25 @@
+{{otheruses|the epic spell|the prerequisite feat|Epic spell: greater ruin}}
+
+{{spell
+|icon=ife_x2spruin.gif
+|clericlevel=epic
+|druidlevel=epic
+|magelevel=epic
+|innatelevel=10
+|school=[[evocation]]
+|components=VS
+|range=m
+|area=single
+|save=[[fortitude]] 1/2
+|duration=instant
+|desc=The caster deals 35[[d6]] [[positive energy damage]] to a single target.
+|spellcraft=25}}
+
+==Notes==
+*Requires [[Hordes of the Underdark]].
+*The [[difficulty class|DC]] of the [[saving throw]] is 20 plus the highest [[ability modifier]] from a potential casting stat ([[intelligence]], [[wisdom]], and [[charisma]]). This is not affected by the [[spell focus]] line of feats.
+
+'''See also:''' ''[[hellball]]'' (the other epic attack spell)
+
+==Custom content notes==
+* ''script:'' <code>X2_S2_Ruin</code>

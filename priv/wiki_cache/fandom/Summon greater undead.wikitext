@@ -1,0 +1,28 @@
+'''See also:''' [[create greater undead]]
+{{feat
+|type=class
+|prereq=[[pale master]] 9
+|desc=At ninth level, a pale master may [[summon]] a greater undead once per day as a spell-like ability. The pale master's [[class level|level]] determines the type of undead summoned:
+* Level 9: [[mummy (pale master)|mummy warrior]]
+* Level 10: [[spectre (pale master)|spectre]]
+* Level 12: [[vampire rogue (summon)|vampire rogue]]
+* Level 14: [[greater bodak]]
+* Level 16: [[ghoul king]]
+* Level 18: [[vampire mage (summon)|vampire mage]]
+* Level 20: [[skeleton blackguard]]
+* Level 22: [[lich (pale master)|lich]]
+* Level 24: [[lich lord]]
+* Level 26: [[alhoon (summon)|alhoon]]
+* Level 28: [[alhoon elder]]
+* Level 30: [[lesser demilich]]
+|use=selected
+|icon=ife_x2spsugrun.gif
+|class=pale master
+}}
+
+==Notes==
+*Requires [[Hordes of the Underdark]].
+*This feat lasts 14 [[hour]]s + 1 per pale master level.
+
+== Builder notes ==
+* ''script:'' <code>X2_S2_SumGrUnd.nss</code>

@@ -1,0 +1,29 @@
+{{feat
+|type=class
+|prereq=[[paladin]] 5
+|desc=Summons to the paladin a faithful, magical beast &mdash; a [[paladin mount|warhorse mount]]. The beast is more powerful as the paladin gets more powerful.<br />
+'''Note:''' Horses and the [[ride]] skill are only used in the [[premium module]] "Neverwinter Nights - Wyvern Crown of Cormyr" and specific community-made [[module]]s.
+|use=selected
+|icon=ife_x3_whsummon.png
+|class=paladin
+}}
+
+==Notes==
+
+*Added in [[patch]] 1.69.
+* This ability can be used once per [[day]].
+* The summons lasts for 24 [[hour]]s by default, but can be easily changed by a [[module]] to last for 2 hours per [[class level|paladin level]].
+* The mount can be dismissed via the [[horse menu]] by twice targeting the mount with the "Assign Mount" command.
+* The improvement with paladin levels is roughly +1 [[strength]] and [[intelligence]] and +2 [[hit dice]] and [[armor class]] at paladin levels 8, 11, 15, 25, 30, 35, and 40.
+*Despite the note in this feat's description, paladins are capable of summoning and riding a mount in most modules. However, modules not designed with horses in mind are likely to either provide no benefit to a mounted character or become unbalanced with the introduction of a horse.
+
+==See also==
+
+*[[Horse menu]]
+*[[Horse riding]]
+
+== Custom content notes ==
+* ''script:'' <code>X3_S3_PalMount</code>
+* To change the duration to 2 hours per level, set a module-level [[local variable|local integer]] called <code>X3_HORSE_PALADIN_USE_PHB</code> to the value 1 (or any non-zero number).
+* The function <code>HorseSummonPaladinMount()</code> in <code>x3_inc_horse</code> enforces the restriction that this ability can only be used by characters with at least five paladin levels.
+* The mount is technically a henchman, not a summoned creature, in order to facilitate mounting and dismounting.

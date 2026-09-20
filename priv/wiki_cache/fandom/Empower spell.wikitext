@@ -1,0 +1,50 @@
+[[Image:Ife_empower.gif|right|Empower spell]]
+[[Image:Gui_empower.png|right|Empowered indicator]]
+{{feat
+|type=metamagic
+|prereq=ability to cast 2nd-level [[spell]]s
+|desc=All variable, numeric effects of an empowered spell are increased by 50%. For example, an empowered [[magic missile]] deals one and one-half times normal damage (1d4 + 1 multiplied by 1.5). Empowerment does not increase spell [[duration]].
+|use=An empowered spell occupies a [[spell slot]] two levels higher than normal. [[Saving throw]]s and opposed rolls, such as those made when [[dispel magic]] is cast, are not affected.
+|bonus1=wizard
+}}
+
+==Notes==
+
+*Empowerment takes place after rolls are modified by non-variable effects. For example, an empowered [[ray of frost]] does (1[[d4]] + 1) &times; 1.5 damage. That is, rolling a 3 gives (3+1)&times;1.5 = 6 damage, not 3&times;1.5 = 4.5, truncated to 4, plus 1 for 5 damage.
+** Spells added in the [[expansion pack]]s will typically have empower take place before being modified by the non-variable.
+*"Variable" numeric effects means numbers that are not known before the spell is cast. That is, it means the result of [[dice roll]]s, not numbers based on the caster level.
+*The "opposed rolls" not affected by this feat (in addition to the already-mentioned [[dispel]] checks) include [[touch attack]] rolls, special attack rolls (e.g. [[Bigby's forceful hand]]), [[skill check]]s, [[spell resistance]] rolls, and [[opposed check]]s.
+*Rolls made only indirectly as a result of a spell &mdash; such as rolls resulting from a spell's effect but being directly caused by an attack &mdash; are not affected by this feat. This includes the chance for an attacker to miss due to [[concealment]], damage inflicted by a [[polymorph]]ed creature, bonus damage from an item property (c.f. [[darkfire]]), and damage inflicted by a damage shield (i.e. [[death armor]], [[elemental shield]], or [[Mestil's acid sheath]]).
+*The following are the spells that possess variable numeric effects not excluded by the above considerations (including the provision that this feat does not affect durations) but that cannot be empowered with this feat. This list excludes level 8 and 9 spells, as those cannot be empowered due to the lack of spell slots above level 9.
+**[[Creeping doom]]
+**[[Destruction]]
+**[[Harm]]
+**[[Heal (spell)|Heal]]
+**[[Poison (spell)|Poison]]
+**[[Shades]]
+**[[Shadow conjuration]]
+**[[Greater shadow conjuration]]
+**[[Sound burst]]
+**[[Spike growth]]
+**[[Sunbeam]]
+*The following spells can have their variable durations empowered, despite durations normally not being affected by this feat.
+**[[Color spray]]
+**[[Stonehold]]
+*The following spells can be cast with this feat but with no change to the spell.
+**[[Shelgarn's persistent blade]]
+**[[Tasha's hideous laughter]]
+**[[Wounding whispers]]
+
+==Builder notes==
+'''Item feat:''' No, but it can be added with custom content.
+
+==Custom content notes==
+'''Removable:''' yes
+
+'''Reusable:''' yes
+
+'''Script:''' hardcoded
+
+*This feat can be added to [[iprp_feats.2da]] and work as an item feat, but note that [[wizard]]s and [[divine]] spellcasters will only need to have the item equipped while preparing their [[spellbook]]s and not during [[rest]]ing or spellcasting. [[Spellhook]]ing can be used to verify that the caster has the [[feat]] if it is used as an item feat.
+* Whether or not a spell can be cast with this feat is determined by the "MetaMagic" column of <code>[[spells.2da]]</code>. Empower spell is the first bit of this bitfield.
+* Whether or not casting a spell with this feat impacts the results depends on the spell's [[script]]. The key scripting command is <code>[[GetMetaMagicFeat]]</code>.

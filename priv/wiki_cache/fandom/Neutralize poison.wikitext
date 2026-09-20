@@ -1,0 +1,24 @@
+{{spell
+|icon=is_neutpois.gif
+|bardlevel=4
+|clericlevel=4
+|druidlevel=3
+|paladinlevel=4
+|rangerlevel=3
+|innatelevel=3
+|school=[[conjuration]]
+|components=VS
+|range=t
+|area=single
+|save=harmless
+|spellresistance=no
+|duration=instant
+|counters=<del>[[poison (spell)|poison]]</del>
+|desc=A target [[creature]] has all traces of [[poison]] removed from their system.}}
+
+==Notes==
+*This spell also cures [[disease]] and [[ability score loss]].
+*Due to a .2da bug, ''neutralize poison'' is not an additional [[counterspell]] of ''poison''.
+
+==Custom content notes==
+*''script:'' <code>NW_S0_RemEffect.nss</code>

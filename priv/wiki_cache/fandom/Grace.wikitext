@@ -1,0 +1,12 @@
+'''Type of feat''': [[Class]]
+
+'''Prerequisite''': [[Duelist]] level 4
+
+'''Specifics''': The Duelist gains a +2 bonus to [[reflex]] [[Saving throw]]s. This ability does not function while wearing [[armor]]. 
+
+'''Use''':  Automatic
+
+==Notes==
+*Added in the [[PRC Expansion Pack]].
+
+[[Category:PRC feats]]

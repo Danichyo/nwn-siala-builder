@@ -1,0 +1,24 @@
+{{spell
+|icon=is_gate.gif
+|clericlevel=9
+|magelevel=9
+|innatelevel=9
+|school=[[conjuration]]
+|components=VS
+|range=m
+|area=point
+|save=none
+|spellresistance=none
+|duration=1 [[round]] / level
+|desc=This powerful [[summon]]ing spell opens a portal to another plane, calling forth a balor. If the caster is protected by the effects of [[protection from evil]], [[magic circle against evil]], or [[aura versus evil]], the [[balor (summon)|balor]] becomes their faithful and loyal servant. If the caster is not so protected, the [[balor]] attempts to destroy them.}}
+
+== Notes ==
+
+* The creature summoned when the caster is protected at the moment of casting is stronger than the one summoned if the caster is not protected. (See [[balor (summon)]] and [[balor]].)
+* If the caster is not protected at the moment of casting then the balor is hostile, cannot be [[dispel]]led, and is summoned for one [[turn]].
+* There was an attempt by BioWare to make a faithful balor check the caster's protection every round (and turn on the caster if the protection was lost), but this check ended up not functioning.
+*Some players cast this spell without protection in order to create a hostile balor, bypassing [[PvP setting]]s. (See [[grief]]ing.)
+
+== Custom content notes ==
+* ''script:'' <code>NW_S0_Gate</code>
+[[category:summoning]]

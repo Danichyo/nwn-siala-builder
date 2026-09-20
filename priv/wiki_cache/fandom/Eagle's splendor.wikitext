@@ -1,0 +1,31 @@
+{{otheruses|the spell|the feat|Eagle's splendor (feat)}}
+
+{{spell
+|icon=is_eaglespl.gif
+|bardlevel=2
+|clericlevel=2
+|paladinlevel=2
+|magelevel=2
+|innatelevel=2
+|school=[[transmutation]]
+|components=VS
+|range=t
+|area=single
+|save=harmless
+|spellresistance=no
+|duration=1 [[hour]] / [[caster level|level]]
+|line=Eagle's splendors
+|line2=Eagle's splendor
+|line6=Greater eagle's splendor
+|desc=The target [[creature]]'s [[charisma]] is increased by 1[[d4]]+1.}}
+
+== Notes ==
+*This spell [[stack]]s with the [[Harper scout]]'s [[eagle's splendor (feat)|eagle's splendor]] [[feat]].
+*If the maximum charisma increase is not achieved, the spell can be cast again for a chance at a higher die roll (up to +5 regularly or +7 [[empower spell|empowered]]). The recast will not lower the ability score.
+
+== Custom content notes ==
+
+* ''script:'' <code>NW_S0_EagleSpl</code>
+* The [[NWScript]] constant for this spell has a typo: SPELL_EAGLE_SPLEDOR.
+==External links==
+*{{FRW}}

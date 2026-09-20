@@ -1,0 +1,48 @@
+{{feat
+|type=class
+|prereq=[[shadowdancer]] 4
+|desc=Three times per day the shadowdancer can call upon the shadows in the area to help conceal her. She gains a 5% [[concealment]] bonus, [[damage reduction]] of 5/+1, and a +1 [[armor class|AC]] [[dodge bonus|bonus]]. The effect lasts for 5 [[round]]s. This improves as the shadowdancer goes up in levels.
+|use=selected
+|icon=ife_x1sevade.gif
+|class=shadowdancer
+}}
+
+== Notes ==
+
+*Added in the [[expansion pack]]s.
+*The AC bonus is a [[dodge bonus]].
+
+{|class="wikitable" style="text-align:center"
+|-
+! class level!! damage reduction!! concealment !! AC bonus
+|-
+|  4 ||  5/+1 ||  5% || +1
+|-
+|  6 ||  5/+2 || 10% || +2
+|-
+|  8 || 10/+2 || 15% || +3
+|-
+| 10 || 10/+3 || 20% || +4
+|-
+| 15 || 12/+4 || 20% || +4
+|-
+| 20 || 14/+5 || 20% || +4
+|-
+| 25 || 16/+5 || 20% || +4
+|-
+| 30 || 18/+5 || 20% || +4
+|}
+* Though the epic shadowdancer feat suggests that the damage reduction should reach 16/+6 at level 25 and 18/+7 at level 30, the power of the reduction never exceeds +5.
+* The feat's effects are subject to [[dispel]]ling. The effective caster level is the evader's total [[hit dice]].
+
+== Builder notes ==
+
+'''Item feat:''' No, but it can be added with custom content.
+
+== Custom content notes ==
+
+'''Removable:''' yes
+
+'''Reusable:''' Yes, but it would need to be added to the [[radial menu]] for other classes.
+
+'''Script:''' x0_s2_shadevade

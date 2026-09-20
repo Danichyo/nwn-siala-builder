@@ -1,0 +1,21 @@
+{{feat
+|type=class
+|prereq=[[arcane archer]] 10
+|desc=At 10th level, an arcane archer can enchant an arrow once per day that forces a target, if damaged by the arrow, to make a [[fortitude]] [[save]] or be slain.
+|use=<del>combat mode</del> ''selected''
+|icon=Ife_x1detharr.gif
+|class1=arcane archer
+}}
+
+== Notes ==
+*Added in the [[expansion pack]]s.
+*The [[difficulty class]] of the save is 20. The save is not versus [[death magic]], but death magic immunity will block the death effect.
+*This is a ranged [[touch attack]] with an attack roll of d20 + weapon AB (item property) + AB increase (effect) + [[BAB]] + [[dexterity]] [[modifier]]. ([[Enchant arrow]] does not help on the touch attack roll).
+*The [[piercing damage]] inflicted by a successful hit is the sum of weapon base damage ([[d6]] for a [[shortbow]] or d8 for a [[longbow]]), [[strength]] [[modifier]], [[weapon specialization]] (if applicable), and [[epic weapon specialization]] (if applicable).
+** This damage is tripled in the case of a [[critical hit]].
+** This damage is intended to penetrate [[damage reduction]] according to the arcane archer's [[enchant arrow]] bonus, but before [[Neverwinter Nights Enhanced Edition|NWN:EE]] a bug in the game (not the script) will prevent this.
+*A successful hit also deals [[magical damage]] equal to the arcane archer's enchant arrow bonus.
+* This ability can target doors and placeables (if invoked from a quickslot or the archer's radial menu). These objects automatically fail their saving throw (no roll is made), and, in this case, "slain" means "destroyed if not [[plot]] or indestructible".<!-- usual behavior of EffectDeath() -->
+
+== Custom content notes ==
+* ''impact script:'' <code>X1_S2_DeathArrow</code>

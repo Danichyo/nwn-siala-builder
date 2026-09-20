@@ -1,0 +1,32 @@
+'''Alignment restrictions:''' none
+
+'''[[Hit die]]:''' d10
+
+'''Proficiencies:''' armor ([[armor proficiency (light)|light]], [[armor proficiency (medium)|medium]]), weapons ([[weapon proficiency (martial)|martial]], [[weapon proficiency (simple)|simple]])
+
+'''[[Skill point]]s:''' 4 + intelligence modifier
+
+'''Skills:'''  [[craft armor]], [[craft trap]], [[craft weapon]], [[heal (skill)|heal]], [[intimidate]], [[jump]], [[lore]], [[perform]], [[spot]], [[tumble]]
+
+'''Primary saving throw(s):''' [[fortitude]]
+
+==Special abilities & feats==
+*Level 1 brawler fists (1d6), bonus feat, [[improved unarmed strike]]
+*Level 4 bonus feat
+*Level 6 brawler fists (1d8, +1 enhancement)
+*Level 8 bonus feat
+*Level 12 brawler fists (1d10, +2 enhancement)
+*Level 16 bonus feat
+*Level 18 brawler fists (2d6, +3 enhancement)
+*Level 20 bonus feat
+
+
+'''Bonus feats:''' [[ambidexterity]], [[blind fight]], [[called shot]], [[cleave]], [[deflect arrows]], [[disarm]], [[dodge]], [[expertise]], [[great cleave]], [[improved critical]], [[improved disarm]], [[improved expertise]], [[improved knockdown]],  [[improved parry]], [[improved power attack]], [[improved two-weapon fighting]], [[improved unarmed strike]], [[knockdown]], [[power attack]], [[rapid shot]], [[spring attack]],  [[stunning fist]],  [[two-weapon fighting]], [[weapon finesse]], [[weapon focus]], [[weapon proficiency (exotic)]], [[mobility]], [[point blank shot]],  [[whirlwind attack]], [[great fortitude]], [[iron will]], [[lightning reflexes]]
+
+'''Special:''' Brawler fists: A brawler's fists do more damage than a normal character's, but only when fighting without weapons or a shield. In addition, the strengthening of the flesh and bone of the hand caused by constantly punching hard things has given them the ability to pierce through [[damage reduction]], starting at level 6.
+
+==Notes==
+*Added in the [[PRC Expansion Pack]].
+*If multiclassed with a [[monk]], the character will use whichever unarmed damage is better. It does not stack. In addition, taking a level in monk disables the use of certain brawler bonus feats.
+
+[[category:PRC classes]]

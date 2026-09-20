@@ -1,0 +1,25 @@
+{{feat
+|epic=yes
+|type=general
+|prereq=21st level
+|desc=The character gains 20 [[hit point]]s. This feat may be taken multiple times, up to a maximum of 200 hit points.
+|use=automatic
+|icon=ife_x2tough1.gif
+|bonus1=arcane archer
+|bonus2=barbarian
+|bonus3=blackguard
+|bonus4=champion of Torm
+|bonus5=dwarven defender
+|bonus6=fighter
+|bonus7=monk
+|bonus8=paladin
+|bonus9=ranger
+|bonus10=red dragon disciple
+|bonus11=weapon master
+}}
+
+==Notes==
+
+*Requires [[Hordes of the Underdark]].
+* Given the choice between this feat and [[great constitution]], the latter is usually the better choice. Taking ''epic toughness'' twice grants 40 hit points (regardless of level), while taking ''great constitution'' twice grants (indirectly) a +1 bonus to [[fortitude]] [[saving throw]]s and [[concentration]], in addition to (at level 40) granting 40 hit points.
+** A notable exception is that this feat is usually the better choice for characters who typically [[polymorph]] into forms that override [[constitution]].

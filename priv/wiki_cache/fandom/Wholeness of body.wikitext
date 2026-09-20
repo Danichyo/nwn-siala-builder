@@ -1,0 +1,20 @@
+{{feat
+|type=class
+|prereq=[[monk]] 7
+|desc=The monk can heal damage equal to twice her [[class level]], once per day.
+|use=selected
+|icon=ife_wholenes.gif
+|class=monk
+}}
+
+==Builder notes==
+'''Item feat:''' No, but it can be added with custom content.
+
+==Custom content notes==
+'''Removable:''' yes
+
+'''Reusable:''' No, its interface is hardcoded to the monk class.
+
+'''Script:''' ''nw_s2_wholeness'', [[spells.2da]], [[feat.2da]]
+
+*This feat can be added to [[iprp_feats.2da]] to make it available as item feat. However, it will only be accessible to monks.

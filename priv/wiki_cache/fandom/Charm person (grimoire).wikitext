@@ -1,0 +1,22 @@
+{{Grimoire spell|imagename=Is charmper.gif
+|spellname=Charm Person
+|casterlevel=[[Bard]] 1, [[Charm domain (grimoire)|Charm]] 1, [[Grimoire domains#Domains to be added|Renewal]] 1, [[Sorcerer]] / [[Wizard (class)|Wizard]] 1
+|innatelevel=1
+|school=[[Enchantment]] ([[Spell subschool|Charm]])
+|descriptors=Mind-Affecting
+|components=V, S
+|range=Short
+|immunities=Charm, Mind-Affecting
+|savingthrow=[[Will]] negates
+|spellresistance=Yes
+|targettype=Single
+|duration=1 [[hour]] / level
+|description=In the eyes of the target humanoid, the personal [[reputation]] of the caster is improved by 50%.
+}}
+
+== Notes ==
+*{{Grimoire spell change|pagename=[[Charm person]]}}
+{{g_bard}}
+{{g_charm}}
+{{g_sorwiz}}
+{{g_subcha}}

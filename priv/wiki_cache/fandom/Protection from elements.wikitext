@@ -1,0 +1,29 @@
+{{spell
+|icon=is_prelement.gif
+|clericlevel=3
+|druidlevel=3
+|rangerlevel=2
+|magelevel=3
+|innatelevel=<del>2</del> ''3''
+|school=[[abjuration]]
+|components=VS
+|range=t
+|area=single
+|save=harmless
+|spellresistance=no
+|duration=24 [[hour]]s
+|line=Elemental Resistance
+|line1=endure elements
+|line2=resist elements
+|line3=protection from elements
+|line5=energy buffer
+|desc=The target creature gains [[damage resistance]] 30/- against all elemental forms of damage. The spell ends after absorbing 40 points of damage from any single elemental [[damage type|type]].}}
+
+==Notes==
+*This spell stacks with &mdash; and is applied after &mdash; [[feat]]-based sources of damage resistance.
+* This spell will replace earlier castings of itself.
+*The specific damage types to which this spell applies are [[acid damage|acid]], [[cold damage|cold]], [[electrical damage|electrical]], [[fire damage|fire]], and [[sonic damage|sonic]].
+* The in-game description incorrectly reports this spell's innate level as 2.
+
+==Custom content notes==
+*''script:'' <code>NW_S0_ProEle</code>

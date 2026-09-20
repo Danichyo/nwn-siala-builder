@@ -1,0 +1,22 @@
+{{Grimoire spell|imagename=Is charmmon.gif
+|spellname=Charm Monster
+|casterlevel=[[Bard]] 3, [[Charm domain (grimoire)|Charm]] 5, [[Sorcerer]] / [[Wizard (class)|Wizard]] 4
+|innatelevel=3
+|school=[[Enchantment]] ([[Spell subschool|Charm]])
+|descriptors=Mind-Affecting
+|components=V, S
+|range=Short
+|immunities=Charm, Mind-Affecting
+|savingthrow=[[Will]] negates
+|spellresistance=Yes
+|targettype=Single
+|duration=1 day / level
+|description=In the eyes of the target creature, the personal [[reputation]] of the caster is improved by 50%.
+}}
+
+== Notes ==
+*{{Grimoire spell change|pagename=[[Charm monster]]}}
+{{g_bard}}
+{{g_charm}}
+{{g_sorwiz}}
+{{g_subcha}}

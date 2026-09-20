@@ -1,0 +1,19 @@
+{{spell
+|icon=is_x1stofls.gif
+|magelevel=6
+|innatelevel=6
+|school=[[transmutation]]
+|components=VS
+|range=m
+|area=single
+|save=none
+|spellresistance=no
+|duration=permanent
+|counters=[[flesh to stone]]
+|desc=This spell restores a [[petrified]] creature to its normal state, restoring life and goods.}}
+
+==Notes==
+*Added in the [[expansion pack]]s.
+
+==Custom content notes==
+*''script:'' <code>x0_s0_stoflesh.nss</code>

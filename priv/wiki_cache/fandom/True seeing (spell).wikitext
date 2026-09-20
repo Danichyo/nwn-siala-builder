@@ -1,0 +1,30 @@
+{{spell
+|icon=is_truesee.gif
+|clericlevel=5
+|druidlevel=7
+|magelevel=6
+|domain=animal
+|domainlevel=3
+|domain2=knowledge
+|domain2level=4
+|innatelevel=5
+|school=[[divination]]
+|components=VS
+|range=t
+|area=single
+|save=harmless
+|spellresistance=no
+|duration=1 [[turn]] / level
+|counters=<del>[[greater shadow conjuration]]</del>
+|desc=The target creature can see through [[sanctuary]] and [[invisibility]] effects, and automatically [[spot]]s [[hide|hiding]] opponents.}}
+
+== Notes ==
+
+* For more particulars of the result of this spell, see [[true seeing]] (the [[effect]] produced by this spell).
+* In situations where seeing through stealth is not important, sorcerers and wizards may want to consider using the lower-level spells ''[[ultravision]]'' and ''[[see invisibility]]'' instead of ''true seeing'', so that another level 6 spell may be chosen.
+* Some modules change the result of this spell, so it does not allow automatic detection of opponents in stealth, but instead grants a sizable bonus to the spot skill (making the detection more likely, but not automatic). Some modules also provide a bonus to [[listen]], as this aids in the detection, even though listening is not truly part of seeing.
+* Due to a .2da bug, ''greater shadow conjuration'' is not an additional [[counterspell]] of this spell.
+
+== Custom content notes ==
+
+*''script:'' <code>NW_S0_TrueSee</code>

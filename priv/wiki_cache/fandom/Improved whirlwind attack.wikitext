@@ -1,0 +1,26 @@
+{{feat
+|epic=yes
+|type=combat
+|prereq=21st level, [[intelligence]] 13+, [[dexterity]] 23+, [[dodge]], [[expertise]], [[mobility]], [[spring attack]], [[whirlwind attack]]
+|desc=The character performs a full attack action and makes one melee attack at full [[base attack bonus]] against all opponents they threaten (10 feet).
+|use=selected
+|icon=ife_x2impww.gif
+|bonus1=champion of Torm
+|bonus2=fighter
+|bonus3=shadowdancer
+|bonus4=weapon master
+}}
+
+== Notes ==
+*Requires [[Hordes of the Underdark]].
+*A character performing an improved whirlwind attack cannot be [[flank]]ed.
+*It is not possible to execute a [[sneak attack]] or a [[death attack]] when using this feat. 
+*Some multiplayer servers disable this feat because some builders believe it contributes to lag.
+
+=== Previous versions ===
+
+* Prior to version 1.69, the attacks were not made with the full base attack bonus; each successive attack had a cumulative -5 modifier to the attack bonus.
+
+== Custom content notes ==
+
+* ''script:'' <code>x2_s2_whirl</code>

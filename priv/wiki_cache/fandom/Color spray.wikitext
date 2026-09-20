@@ -1,0 +1,31 @@
+{{spell
+|icon=is_colspray.gif
+|magelevel=1
+|innatelevel=1
+|school=[[illusion]]
+|components=VS
+|range=s
+|area=spellcone
+|save=[[will]] negates
+|spellresistance=yes
+|immunity=mind-affecting
+|duration=instant
+|line=Colors
+|line1=color spray
+|line7=prismatic spray
+|desc='''Color spray''' sends forth a dazzling array of lights to confound all creatures within the area of effect. Its effects vary according to the [[hit dice]] of the affected creatures:}}
+{|class="wikitable"
+! hit dice !! effects
+|-
+| 1-2 || [[sleep]] for 3 + 1[[d4]] [[round]]s
+|-
+| 3-4 || [[blind]]ed for 2 + 1d4 rounds
+|-
+| 5+ || [[stunned]] for 1 + 1d4 rounds
+|}
+
+==Custom content notes==
+''script:'' <code>NW_S0_ColSpray.nss</code>
+
+==External Links==
+* {{FRW}}

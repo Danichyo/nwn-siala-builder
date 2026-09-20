@@ -1,0 +1,5 @@
+'''Vermin''' are a [[race]] of creatures which include insects, arachnids, other arthropods, worms, and similar invertebrates.
+While these are "animals" in the real-world sense, they are not members of the [[animal]] race within Neverwinter Nights, which is a notable distinction when using [[animal empathy]]. Vermin tend to be immune to [[mind-affecting]] spells.
+
+'''See also:''' [[:Category:Vermin]]
+[[category:races]]

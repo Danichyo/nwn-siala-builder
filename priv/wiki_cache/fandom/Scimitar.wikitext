@@ -1,0 +1,15 @@
+{{Weapon|imagefile=Scimitar.jpg
+  |weaponname=Scimitar
+  |weapondescription=The '''scimitar''' shares some similarities with the [[longsword]] and other slashing blades, but the severity and thickness of its curve clearly sets it apart.
+  |weight=4
+  |cost=15
+  |damage=1d6
+  |critical=18-20/x2
+  |damagetype=[[slashing damage|slashing]]
+  |size=medium
+  |proficiency=[[weapon proficiency (druid)|druid]]<br/> [[weapon proficiency (martial)|martial]]
+  |category=[[category:bladed weapons]] [[category:martial weapons]]
+}}
+
+== Toolset ==
+* Scimitars are listed under the [[other bladed weapons blueprint category]] of the [[item palette]] in the [[Toolset]].

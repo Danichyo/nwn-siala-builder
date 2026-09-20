@@ -1,0 +1,11 @@
+{{feat
+|type=general
+|reqfor=[[superior initiative]]
+|desc=The character gains a +4 bonus to [[initiative]] checks.
+|use=automatic
+|icon=ife_x1init.gif
+}}
+
+==Notes==
+
+*Added in the [[expansion pack]]s.

@@ -1,0 +1,39 @@
+'''Description:''' ([[prestige class|PRESTIGE CLASS]]) The highest art is magic, often referred to as *the* Art. Its most advanced practitioners are frequently archmages, bending spells in ways unavailable to other spellcasters. 
+
+'''[[Hit die]]:'''  d4
+
+'''Proficiencies:''' An archmage does not gain any additional weapon or armor proficiencies. 
+
+'''[[Skill point]]s:''' 2 + [[Int]] mod
+
+'''Skills:''' [[concentration]], [[craft armor]], [[craft weapon]], [[heal (skill)|heal]], [[lore]], [[persuade]], [[search]], [[spellcraft]]
+
+'''[[Saving throw|Primary saving throw(s)]]:''' [[will]]
+
+'''[[Base attack bonus|Base attack bonus progression]]:'''  1 BAB per 2 levels
+
+== Requirements ==
+
+'''Alignment restriction:''' none
+
+'''[[Arcane|Arcane spellcasting]]:'''  Must be able to cast level 7 spells.
+
+'''[[Skill]]s:''' [[spellcraft]] 15 ranks, [[lore]] 15 ranks
+
+'''[[Feat]]s:''' [[skill focus]] (spellcraft), [[spell focus]] (any)
+
+==Special abilities & feats==
+*Level 1: [[high arcana]], [[mastery of elements (normal)]]
+*Level 2: high arcana
+*Level 3: high arcana 
+*Level 4: high arcana
+*Level 5: high arcana 
+
+== Bonus spells ==
+
+The archmage sacrifices the bonus [[spell slot]]s he should gain in order to take a [[high arcana]] feat at each level. He does, however, add his level to his base caster class when determining spell power (damage, duration...).
+
+==Notes==
+*Requires the [[PRC Expansion Pack]].
+
+[[Category:PRC classes]]

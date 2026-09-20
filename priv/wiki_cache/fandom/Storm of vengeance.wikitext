@@ -1,0 +1,25 @@
+{{spell
+|icon            = is_stormveng.gif
+|clericlevel     = 9
+|druidlevel      = 9
+|innatelevel     = 9
+|school          = [[conjuration]]
+|immunity        = electricity
+|components      = VS
+|range           = p
+|area            = colossal
+|duration        = 10 [[round]]s
+|save            = [[reflex]] special
+|spellresistance = yes
+|desc            = The area around the caster is blasted by lightning and acidic rain. Each round, all enemies within the area of effect take 3[[d6]] points of [[acid damage]]. Those who fail a reflex [[saving throw|save]] take an additional <del>3d6</del> ''6d6'' points of [[electrical damage]] and are [[stunned]] for <del>one</del> ''two'' round''s''.
+}}
+
+==Notes==
+* This spell's description incorrectly states that the electrical damage is "3d6"; the actual electrical damage is 6d6.
+* The duration of the stunning effect is two rounds, not one.
+* Damage is rolled once each round, not once per target.
+* There is no damage inflicted for the last round of this spell due to a bug. (A fix for this is available on the Vault<sup>[https://neverwintervault.org/project/nwn1/script/script-spell-fix-compilation]</sup>.)
+
+==Custom content notes==
+*''main script:'' <code>NW_S0_StormVeng</code>
+*''OnHearbeat script:'' <code>NW_S0_StormVenC</code>
