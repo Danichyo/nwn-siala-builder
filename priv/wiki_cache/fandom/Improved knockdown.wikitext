@@ -1,0 +1,28 @@
+{{feat
+|type=general
+|prereq=[[intelligence]] 13+, [[knockdown]], [[base attack bonus]] +7
+|desc=A [[character]] with this [[feat]] counts as one [[size category]] larger when he makes a [[knockdown]] attack. All other knockdown conditions still apply.
+|use=selected. [[Monk]]s receive this feat for free at level 6.
+|icon=ife_knockdow.gif
+|class1=monk
+|bonus1=champion of Torm
+|bonus2=fighter}}
+
+==Notes==
+
+*This feat cannot be used while wielding a [[ranged weapon]].
+*Since monks receive this feat automatically, it cannot be selected when gaining a monk level (even prior to level 6).
+
+==Builder notes==
+
+'''Item feat:''' No, but it can be added with custom content.
+
+==Custom content notes==
+
+'''Removable:''' yes
+
+'''Reusable:''' yes
+
+'''Script:''' hardcoded
+
+*This feat can be added to [[iprp_feats.2da]] to make it available as an item feat, but the user must have ''knockdown'' or it will have no effect.

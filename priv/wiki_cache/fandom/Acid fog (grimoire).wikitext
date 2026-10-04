@@ -1,0 +1,21 @@
+{{Grimoire spell|imagename=Is acidfog.gif
+|spellname=Acid Fog
+|casterlevel=[[Sorcerer]] / [[Wizard (class)|Wizard]] 6, [[Water domain (grimoire)|Water]] 7
+|innatelevel=6
+|school=[[Conjuration]] ([[Spell subschool|Creation]])
+|descriptors=Acid
+|components=V, S
+|range=Long
+|immunities=[[Acid damage|Acid]]
+|savingthrow=[[Fortitude]] half
+|spellresistance=Yes
+|targettype=Large
+|duration=1 [[round]] / level
+|description=Acid Fog creates a thick, clinging, greenish cloud. Creatures entering the cloud take 2d6 [[Acid damage|acid damage]]. Creatures inside the cloud must make a [[Fortitude]] save or have their movement reduced by 50%. Every [[round]] a creature spends in the cloud, it suffers 2d6 [[Acid damage|acid damage]].
+}}
+
+== Notes ==
+*{{Grimoire spell change|pagename=[[Acid fog]]}}
+{{g_sorwiz}}
+{{g_water}}
+{{g_subcre}}

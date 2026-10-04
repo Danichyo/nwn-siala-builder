@@ -1,0 +1,92 @@
+{
+  "_layer": "siala_41",
+  "_hand_written": true,
+  "_note": "Сиальская половина vanilla/feat_resistance_bonuses.json — только отличия шарда, по тем же ключам (Data.Loader.Layers.merge/3: записи `bonuses` сливаются по `feat`, провенанс записи — `source`/`quote` — не сливается: запись сверху, назвавшая свой, приходит с ним целиком). Задача 4.6 (26.09.2026): до неё сиальские числа лежали в ВАНИЛЬНОМ файле двойниками (`amount.siala_bonus`/`siala_max_total`, `superseded_by.status_siala`), и загрузчик выбирал их, сравнивая имя ruleset'а с полем данных (`siala_values_apply_to_ruleset`) — последняя такая ветка загрузчика. Теперь у ванили в файле только ванильное, а Сиала кладёт своё поверх, как overrides.json поверх vanilla/rules.json.",
+  "_siala_values": {
+    "_note": "Разбор сиальских чисел, перенесённый из ванильного файла задачей 4.6 дословно, кроме ключа `apply_to_ruleset`: какому ruleset'у принадлежат значения, теперь говорит слой, в котором они лежат.",
+    "question": "Оба числа `epic_energy_resistance` (15 за взятие, потолок 150) стоят в `siala_41/generated/feats.json` дословно (`numbers_differ: true`, `numeric_diff.siala: [\"15\", \"150\"]`) с 01.08.2026, а поле `siala_41/feats.json` → `epic_energy_resistance.note` прямо признаётся: «в данные здесь не идёт: эффекты фитов ядро не моделирует вовсе». Этот файл впервые кладёт число туда, откуда его сможет прочитать ядро (задача 3.210) — приём тот же, что у `gear.worn` → `siala_max_dex`: ванильное поле и его сиальский двойник лежат РЯДОМ в одной записи, и то, какому ruleset'у двойник принадлежит, называет сама запись (`siala_values_apply_to_ruleset`), а не код.",
+    "sources": [
+      {
+        "wiki": "siala",
+        "kind": "wiki",
+        "page": "Epic energy resistance (Acid)",
+        "revid": 20542,
+        "fetched": "2026-08-01"
+      },
+      {
+        "wiki": "siala",
+        "kind": "wiki",
+        "page": "Epic energy resistance (Сold)",
+        "revid": 20541,
+        "fetched": "2026-08-01",
+        "note": "⚠️ Первая буква — кириллическая «С» (CLAUDE.md: id остаётся ASCII, `cold`)."
+      },
+      {
+        "wiki": "siala",
+        "kind": "wiki",
+        "page": "Epic energy resistance (Electrical)",
+        "revid": 20544,
+        "fetched": "2026-08-01"
+      },
+      {
+        "wiki": "siala",
+        "kind": "wiki",
+        "page": "Epic energy resistance (Fire)",
+        "revid": 20543,
+        "fetched": "2026-08-01"
+      },
+      {
+        "wiki": "siala",
+        "kind": "wiki",
+        "page": "Epic energy resistance (Sonic)",
+        "revid": 20545,
+        "fetched": "2026-08-01"
+      }
+    ],
+    "quotes": [
+      "Персонаж получает сопротивление 15 к урону кислотой (Acid). Данный навык может быть использован многократно, при максимуме 150.",
+      "Персонаж получает сопротивление 15 к урону холодом (Cold). Данный навык может быть использован многократно, при максимуме 150.",
+      "Персонаж получает сопротивление 15 к урону электричеством (Electrical). Данный навык может быть использован многократно, при \nмаксимальном сопротивлении 150.",
+      "Персонаж получает сопротивление 15 к урону огнем (Fire). Данный навык может быть использован многократно, при максимуме 150.",
+      "Персонаж получает сопротивление 15 к звуковому урону (Sonic). Данный навык может быть использован многократно, при максимальном сопротивлении 150."
+    ],
+    "resist_energy_has_no_siala_page": "У `resist_energy` сиальской страницы нет вовсе (проверено: ни одна запись `siala_41/generated/feats.json` не называет `vanilla_id: \"resist_energy\"`). Сиала об этом молчит — действует ванильное умолчание (+5), одно число на оба ruleset'а."
+  },
+  "bonuses": [
+    {
+      "feat": "resist_energy",
+      "superseded_by": {
+        "status": "assumed",
+        "why_assumed": "Ни одна из пяти сиальских страниц `Epic energy resistance (…)` не упоминает `Resist energy` вовсе — сплошной греп по всем пяти `special_raw`/`sections` не находит слова «Resist energy» ни разу. Сиала не подтверждает и не опровергает правило — молчание читается как ваниль (CLAUDE.md §3), и ровно поэтому статус НЕ `verified`: правило перенесено с fandom, а не снято со страницы шарда."
+      }
+    },
+    {
+      "feat": "epic_energy_resistance",
+      "amount": {
+        "bonus": 15,
+        "max_total": 150
+      },
+      "quote": "Персонаж получает сопротивление 15 к урону кислотой (Acid). Данный навык может быть использован многократно, при максимуме 150.",
+      "source": {
+        "wiki": "siala",
+        "kind": "wiki",
+        "page": "Epic energy resistance (Acid)",
+        "revid": 20542,
+        "fetched": "2026-08-01"
+      },
+      "quote_2": "EPIC_ENERGY_RESISTANCE_AMOUNT_1 15 · EPIC_ENERGY_RESISTANCE_AMOUNT_10 150",
+      "source_2": {
+        "kind": "hak",
+        "table": "ruleset.2da",
+        "row": 228,
+        "label": "EPIC_ENERGY_RESISTANCE_AMOUNT_1",
+        "column": "Value",
+        "value": "15",
+        "sha1": "57face17734cc67cde244af6f95f8cc0f278aa9f",
+        "fetched": "2026-08-27",
+        "note": "Строки 228–237 хака шарда — 15, 30 … 150; в базовой таблице игры те же строки — 10 … 100. Найдено задачей 4.6 сверкой хака с базой."
+      },
+      "note": "Остальные четыре стихии — те же слова на своих страницах (`_siala_values.sources`/`quotes`). Число за взятие и потолок эффекта — сиальские; форма (`per_take`), замещение обычного Resist energy и складывание с нефитовыми источниками — ванильные и лежат в ванильном файле."
+    }
+  ]
+}

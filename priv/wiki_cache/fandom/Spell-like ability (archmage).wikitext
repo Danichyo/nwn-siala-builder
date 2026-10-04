@@ -1,0 +1,12 @@
+'''Type of feat''': [[class]]
+
+'''Prerequisite''': [[archmage]] level 1
+
+'''Specifics''': The archmage who selects this type of [[high arcana]] can permanently prepare one of her [[arcane]] spells as a [[spell-like ability]] that can be used twice per day.  The spell-like ability normally uses a [[spell slot]] of the spell's level, although the archmage can choose to make a spell modified by a [[metamagic]] feat into a spell-like ability at the appropriate [[spell level]]. 
+
+'''Use''': selected
+
+==Notes==
+*Added in the [[PRC Expansion Pack]].
+
+[[category:PRC feats]]

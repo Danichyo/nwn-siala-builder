@@ -1,0 +1,20 @@
+{{Weapon|imagefile=Dagger.jpg
+  |weaponname=Dagger
+  |weapondescription=The '''dagger''', a basic but versatile weapon, consists of a double-edged piercing blade that typically ranges from about six to 24 inches in length.
+  |weight=1
+  |cost=4
+  |damage=1d4
+  |critical=19-20/x2
+  |damagetype=[[piercing damage|Piercing]]
+  |size=Tiny
+  |proficiency=[[Weapon proficiency (druid)|Druid]]<br/>&nbsp;[[Weapon proficiency (monk)|Monk]]<br/>&nbsp;[[Weapon proficiency (rogue)|Rogue]]<br/>&nbsp;[[Weapon proficiency (simple)|Simple]]<br/>&nbsp;[[Weapon proficiency (wizard)|Wizard]]
+  |category=[[Category:Bladed weapons]] [[Category:Tiny weapons]] [[Category:Simple weapons]]
+}}
+
+==Notes==
+*Daggers benefit from the [[weapon finesse]] [[feat]].
+*Daggers can be used by all [[base class]]es.
+* Daggers and [[kukri]]s are the only standard [[light weapon]]s for the small races ([[gnome]] and [[halfling]]).
+
+==Toolset==
+* Daggers are listed under the [[bladed blueprint category]] of the [[item palette]] in the [[toolset]].

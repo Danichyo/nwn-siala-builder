@@ -1,0 +1,30 @@
+{{spell
+|icon=is_x1gremis.gif
+|magelevel=6
+|innatelevel=6
+|school=[[evocation]]
+|components=VS
+|range=l
+|area=gargantuan
+|save=none
+|spellresistance=yes
+|duration=instant
+|line=Missiles
+|line1=magic missile
+|line4=Isaac's lesser missile storm
+|line6=Isaac's greater missile storm
+|desc=A number of energy missiles (one per [[caster level]] but to a maximum of 20) appear and randomly target and hit any hostile [[creature]] in the [[area of effect]]. If there are more creatures than missiles, only the closest targets will be damaged. If there are more missiles than creatures, one of the creatures will be hit with multiple missiles. Each missile does 2[[d6]] points of [[magical damage]].}}
+
+== Notes ==
+
+*Added in the [[expansion pack]]s.
+* Since the caster is (on some level) guiding the missiles to their targets, this spell will only target creatures the caster can see.
+*The spell description is misleading when there are more missiles than targets. The missiles will be distributed evenly among the potential targets until there are fewer missiles than targets, at which point the remainder will be given to the first target. For example, if 14 missiles are fired at three targets, each target will be hit by 4 missiles (accounting for 12 missiles), then the leftover 2 missiles will hit the first target (for a total of 6 hits on the first target).
+*The spell description in the SoU manual says 3d6 damage per missile, but it is actually 2d6.
+*Since there is no saving throw for this spell, it is quite effective for casters with a low casting [[ability]].
+* When cast on an isolated target (so all missiles hit the same creature) by a level 20+ mage, this spell is tied with ''[[hellball]]'' for the second-greatest damage (40d6) potentially inflicted on a single target by a spell, just behind ''[[flame arrow]]'' (40d6+10).
+*Due to the power of this spell, servers will occasionally ban casting it with the [[maximize spell]] feat or make other changes to weaken it.
+
+== Custom content notes ==
+
+* ''script:'' <code>x0_s0_MissStorm2</code>

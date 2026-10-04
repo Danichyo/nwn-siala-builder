@@ -1,0 +1,23 @@
+{{feat
+|type=general
+|reqfor=[[rapid shot]], [[arcane archer]]
+|desc=A character with this feat negates the -4 penalty for using [[ranged weapon|missile weapon]]s in melee, and gains an additional +1 to [[attack roll]] and damage with ranged weapons when the target is within 15 feet.
+|use=automatic
+|icon=ife_pbshot.gif
+|bonus1=champion of Torm
+|bonus2=fighter
+}}
+
+==Builder notes==
+'''Item feat:''' yes
+
+==Notes==
+*Being "in melee" with regards to the -4 penalty means being within 3.5 [[meter]]s (less than the approximately 5 meter range for this feat's attack and damage bonus).
+* The term "missile weapon" in the description is misleading; the penalty applies to ''all'' ranged weapons (including thrown weapons), not just missile weapons.
+
+==Custom content notes==
+'''Removable:''' yes
+
+'''Reusable:''' yes
+
+'''Script:''' hardcoded

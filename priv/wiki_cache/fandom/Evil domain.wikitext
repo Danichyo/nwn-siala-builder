@@ -1,0 +1,14 @@
+'''Description:''' Clerics who take the Evil domain command power over outsiders and are granted spells that manipulate negative energy.[[Image:Id evil.gif|right|Evil]]
+== Domain Special Abilities ==
+
+Turn Outsiders - Able to [[turn undead|turn]] [[outsider]]s as if they were [[undead]].
+
+== Bonus Spells ==
+* Level 1 [[Negative energy ray]]
+* Level 3 [[Negative energy burst]]
+* Level 5 [[Enervation]]
+
+==Notes==
+*The changes from [[Hordes of the Underdark]] give outsiders [[turn resistance]] equal to their [[spell resistance]]. [[Planar turning]] reduces this resistance by 1/2.
+
+[[Category:Cleric domains]]

@@ -1,0 +1,14 @@
+{{feat
+|epic=yes
+|type=general
+|prereq=21st level
+|desc=The character gains +1 to their [[charisma]]. This may be taken multiple times, to a maximum of +10.
+|use=automatic
+|icon=ife_x2grcha1.gif
+|bonus1=bard
+|bonus2=Harper scout
+|bonus3=sorcerer
+}}
+
+==Notes==
+*Requires [[Hordes of the Underdark]].

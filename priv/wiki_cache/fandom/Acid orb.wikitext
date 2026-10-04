@@ -1,0 +1,16 @@
+{{Grimoire spell|imagename=Is acidorb.jpg
+|spellname=Acid orb
+|casterlevel=[[sorcerer]] / [[wizard]] 4
+|innatelevel=4
+|school=[[evocation]]
+|descriptors=acid
+|components=V, S
+|range=short
+|immunities=acid
+|savingthrow=[[fortitude]] half
+|spellresistance=yes
+|targettype=single
+|duration=instantaneous
+|description=One orb of acid shoots from the caster's hand at the target.  The caster must succeed at a ranged touch attack to hit the target.  The orb deals 1d6 points of acid damage per [[caster level]].  A creature struck by the orb becomes nauseated from the acid's noxious fumes for 1 round.  A successful fortitude save reduces damage by half and negates the nausea.
+}}
+{{g_sorwiz}}

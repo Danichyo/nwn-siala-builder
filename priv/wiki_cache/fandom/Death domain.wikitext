@@ -1,0 +1,17 @@
+'''Description:''' Clerics who take the Death domain can summon an enhanced shadow and gains spells related to death and dying.[[Image:Id death.gif|right|Death]]
+== Domain special abilities ==
+
+*Negative plane avatar: The [[cleric]] is able to summon a [[shadow]] that scales according to the cleric's [[class level]].
+
+== Bonus spells ==
+* Level 4: [[Phantasmal killer]]
+* Level 5: [[Enervation]]
+
+== Notes ==
+
+* The negative plane avatar can be summoned once per [[day]].
+*The avatar has an identical progression (though based on cleric levels) to the [[summon shadow (shadow conjuration)|shadow conjuration summon]].
+
+==Custom content notes==
+*''script'' <code>NW_S0_SummShad02</code>
+[[Category:Cleric domains]]

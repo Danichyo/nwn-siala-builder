@@ -1,0 +1,24 @@
+{{spell
+|icon=is_mindfog.gif
+|bardlevel=5
+|magelevel=5
+|innatelevel=5
+|school=[[enchantment]]
+|components=VS
+|range=l
+|area=colossal
+|save=[[will]] negates
+|spellresistance=yes
+|immunity=mind-affecting
+|duration=2 [[round]]s + 1 / 2 levels
+|desc=This spell creates a bank of blue fog that saps the will of all those who enter it. Victims take a -10 penalty on will [[saving throw]]s against [[mind-affecting]] spells and effects. This penalty persists for as long as the creature remains in the fog and for an additional 2[[d6]] rounds upon leaving.}}
+== Notes ==
+
+=== Previous versions ===
+* Prior to version 1.66, creatures immune to mind-affecting spells automatically failed the save (without a roll).
+* Due to the bug in script NW_S0_MindFogA, does not use MyResistSpell vs. GetAreaOfEffectCreator().
+
+== Custom content notes ==
+* ''main script:'' <code>NW_S0_MindFog</code>
+* ''OnEnter script:'' <code>NW_S0_MindFogA</code>
+* ''OnExit script:'' <code>NW_S0_MindFogB</code>

@@ -1,0 +1,25 @@
+{{spell
+|icon=is_implosion.gif
+|clericlevel=9
+|innatelevel=9
+|school=[[evocation]]
+|components=VS
+|range=s
+|area=medium
+|save=[[fortitude]] negates
+|spellresistance=yes
+|duration=instant
+|desc=The caster creates a vortex of destruction that tears asunder all living things within its [[area of effect]], killing them instantly unless they make their [[saving throw]].}}
+
+== Notes ==
+* While this spell is not [[death magic]] (immunity does not apply), the saves are made "versus death".
+*This spell's [[difficulty class|DC]] is increased by +3. Some players consider this a bug, but it seems clear from the spell [[script]] that it is an intentional change.
+*The caster is not affected by this spell.
+
+=== Previous versions ===
+*Prior to 1.67, the caster was affected by this spell if caught in the area of effect.
+*In patch 1.66 (only), if the caster was in the area of effect of this spell and had death immunity, the caster would be killed without being allowed a saving throw.
+* Prior to 1.66, implosion respected death magic immunity.
+
+== Custom content notes ==
+* ''script:'' <code>NW_S0_Implosion</code>

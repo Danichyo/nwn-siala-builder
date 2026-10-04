@@ -1,0 +1,46 @@
+{{spell
+|icon=is_stoneskn.gif
+|druidlevel=4
+|magelevel=4
+|domain=earth
+|domainlevel=4
+|domain2=good
+|domain2level=4
+|domain3=magic
+|domain3level=4
+|domain4=strength
+|domain4level=5
+|innatelevel=4
+|school=[[abjuration]]
+|components=VS
+|range=t
+|save=harmless
+|area=single
+|duration=1 [[hour]] / level
+|line=Stoneskin
+|line4=stoneskin
+|line6=greater stoneskin
+|line8=premonition
+|line10=epic warding
+|desc=This spell grants the target creature [[damage reduction]] 10/+5. The spell absorbs 10 points of melee damage per caster level, to a maximum of 100, before collapsing.}}
+{|class="wikitable" style="text-align:center"
+!caster level!!damage absorption
+|-
+|7||70
+|-
+|8||80
+|-
+|9||90
+|-
+|10+||100
+|}
+
+== Notes ==
+
+* This spell displaces earlier castings of itself.
+* Since [[creature weapon]]s have special treatment with regards to penetrating damage reduction, this spell can be used to enhance the ability of many [[summon]]ed (and [[polymorph]]ed) creatures to penetrate the damage reduction of others. (Having X/+5 damage reduction allows attacks with creature weapons to pierce others' damage reduction as a +5 weapon.)
+
+== Custom content notes ==
+* ''script:'' <code>NW_S0_Stoneskn</code>
+==External links==
+*{{FRW}}

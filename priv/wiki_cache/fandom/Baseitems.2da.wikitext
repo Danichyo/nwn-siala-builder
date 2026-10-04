@@ -1,0 +1,276 @@
+{{2da data|baseitems.2da (contents)}}
+
+The '''<code>baseitems.2da</code>''' file is the [[.2da]] that controls the [[item]] types that are available in the game. This is where properties such as weight, damage (for weapons), stack size, icon size, etc. are defined.
+
+{| class="compacttable"
+|+Columns of baseitems.2da
+|-
+! Name
+! Description
+|-
+| ID (no actual name)
+| Row numbers for the benefit of human readers. The game engine ignores the value in this field, instead generating sequential row numbers as the file is read. It is good practice to keep the entries in this field sequentially numbered to avoid confusion.
+|-
+|Name
+|A [[StringRef]] that indicates the name of the base item, as displayed in the game. If this entry is "****" then the "label" column will be used instead.
+|-
+|label
+|A descriptive name for the current row. Typically, this is for the reference of the human reading the file, but it will be displayed in the game if the "Name" column is "****". As with any column, spaces should be avoided, possibly converted to underscores.
+|-
+|InvSlotWidth
+|The number of horizontal squares occupied by this item's icon in the inventory panel.
+|-
+|InvSlotHeight
+|The number of vertical squares occupied by this item's icon in the inventory panel.
+|-
+|EquipableSlots
+|A bit flag indicating the [[inventory slot]]s into which this item can be placed. See the [[#Column notes|column notes]] below for details.
+|-
+|CanRotateIcon
+|
+|-
+|ModelType
+|A code indicating how much the look of this item can be customized.<br />
+'''0''' = a simple item (can only select an icon/model pair);<br />
+'''1''' = a colored item, e.g. cloaks and helms (can additionally select colors);<br />
+'''2''' = a configurable item, e.g. weapons (select three item parts instead of an overall model);<br />
+'''3''' = armor.
+|-
+|ItemClass
+|Name of the item's model.
+|-
+|GenderSpecific
+|Indicates if the item changes appearance based on the gender of the possessor. '''0''' = no change; '''1''' = changes.
+|-
+|Part1EnvMap
+|Indicates how the alpha channel for model part 1 is used. '''0''' = transparency; '''1''' = reflectiveness.
+|-
+|Part2EnvMap
+|Indicates how the alpha channel for model part 2 is used. '''0''' = transparency; '''1''' = reflectiveness. (Only used for model type "2" items.)
+|-
+|Part3EnvMap
+|Indicates how the alpha channel for model part 3 is used. '''0''' = transparency; '''1''' = reflectiveness. (Only used for model type "2" items.)
+|-
+|DefaultModel
+|The default model used when the item is lying on the ground.
+|-
+|DefaultIcon
+|The default icon used when the item's icon doesn't exist.
+|-
+|Container
+|Indicates if this item can contain other items, like a bag. '''0''' = not a container; '''1''' = is a container.
+|-
+|WeaponWield
+|Indicates which animation set is used when this item is wielded (equipped) in one of the weapon slots.<br />
+'''0''' = standard one-handed weapon;<br />
+'''1''' = not wieldable;<br />
+'''4''' = two-handed weapon;<br />
+'''5''' = bow;<br />
+'''6''' = crossbow;<br />
+'''7''' = shield;<br />
+'''8''' = [[double-sided weapon]];<br />
+'''9''' = creature weapon;<br />
+'''10''' = dart or sling;<br />
+'''11''' = shuriken or throwing axe.
+|-
+|WeaponType
+|The type of damage inflicted by this weapon (item). '''1''' = [[piercing damage|piercing]]; '''2''' = [[bludgeoning damage|bludgeoning]]; '''3''' = [[slashing damage|slashing]]; '''4''' = [[piercing-slashing damage|piercing-slashing]]; '''5''' = [[bludgeoning-piercing damage|bludgeoning-piercing]].
+|-
+|WeaponSize
+|The size of this weapon (item). '''1''' = tiny; '''2''' = small; '''3''' = medium; '''4''' = large.
+|-
+|RangedWeapon
+| Determines whether or not this weapon can make attacks outside the melee attack range (i.e. is a ranged weapon). A positive number indicates a ranged weapon; other values (usually "****") indicate not a ranged weapon. BioWare populates this column with the index in this file of the ammunition used by this weapon (possibly the current row, as in the case of [[dart]]s), but the exact number does not make a difference as long as it is positive.
+|-
+|PrefAttackDist
+|The preferred distance for attacking with this weapon. (Possibly used as an aid to animations.)
+|-
+|MinRange
+|Ten times the minimum number of models for each part (see "ModelType" 2) of this item.
+|-
+|MaxRange
+|Ten times the maximum number of models for each part (see "ModelType" 2) of this item.
+|-
+|NumDice
+|The number of dice rolled for this weapon's (item's) damage.
+|-
+|DieToRoll
+|The number of sides of the [[dice]] rolled for this weapon's (item's) damage.
+|-
+|CritThreat
+|The chance (out of 20) that this weapon (item) will threaten a [[critical hit]]. For example, "2" would mean two chances out of 20, for a [[threat range]] of 19-20.
+|-
+|CritHitMult
+|The [[critical multiplier]] for this weapon (item).
+|-
+|Category
+|
+|-
+|BaseCost
+|The base value (in [[gold piece]]s) of an unenchanted item of this type.
+|-
+|Stacking
+|The maximum number of this item type that can be combined (stacked) in one inventory icon. For example, most items have this set to 1, while arrows have this set to 99.
+|-
+|ItemMultiplier
+|A multiplier for the base value, used after the value of enhancements is added in? Used to reduce the per-item cost of some stacked items, such as arrows.
+|-
+|Description
+|A [[StringRef]] that indicates the default description for this item type. This will be used in the game for items that lack specific descriptions. It is also displayed as part of an item's properties (above the unidentified and identified descriptions) in the [[Toolset]].
+|-
+|InvSoundType
+|An index into [[inventorysnds.2da]] indicating the sound used when this item is placed (or moved) in a character's inventory.
+|-
+|MaxProps
+|The maximum number of "cast spell" properties items of this type can be given when designed in the Toolset.
+|-
+|MinProps
+|The minimum number of "cast spell" properties items of this type must be given when designed in the Toolset.
+|-
+|PropColumn
+|A number indicating which column of [[itemprops.2da]] is used to determine what types of properties this item can have.
+|-
+|StorePanel
+|A number indicating where this item can be found in a store. '''0''' = armor and clothing; '''1''' = weapons; '''2''' = potions and scrolls; '''3''' = wands and magic items; '''4''' = miscellaneous.
+|-
+|ReqFeat0
+|An index into [[feat.2da]] indicating a feat that grants proficiency with this item. A character must be proficient with an item in order to equip it. If this column is "****" then either all characters are automatically proficient with this item or this item is armor. (The default proficiencies are '''32''' = shield; '''44''' = exotic; '''45''' = martial; '''46''' = simple; '''48''' = druid; '''49''' = monk; '''50''' = rogue; and '''51''' = wizard. However, any feat can be used as a proficiency, if desired.)
+|-
+|ReqFeat1
+|An index into [[feat.2da]] indicating a feat that grants proficiency with this item. If not "****", this is an alternate to that in the preceding column.
+|-
+|ReqFeat2
+|An index into [[feat.2da]] indicating a feat that grants proficiency with this item. If not "****", this is an alternate to those in the preceding columns.
+|-
+|ReqFeat3
+|An index into [[feat.2da]] indicating a feat that grants proficiency with this item. If not "****", this is an alternate to those in the preceding columns.
+|-
+|ReqFeat4
+|An index into [[feat.2da]] indicating a feat that grants proficiency with this item. If not "****", this is an alternate to those in the preceding columns.
+|-
+|AC_Enchant
+|The type of [[armor class]] bonus granted, if this item grants one. '''0''' = dodge; '''1''' = natural; '''2''' = armor; '''3''' = shield; '''4''' = deflection.
+|-
+|BaseAC
+|The armor class value of this item (before enchantments). Not used for armor. (By default, this column is only set for shields. This column appears to ignored by the game engine. Setting this on other lines or even changing the shield numbers has no effect in game. )
+|-
+|ArmorCheckPen
+|The [[armor check penalty]] inherent to this item. Not used for armor. (By default, this column is only set for shields.)
+|-
+|BaseItemStatRef
+|A [[StringRef]] that indicates the basic statistics of this item. This is displayed under the description when an item is examined in the game.
+|-
+|ChargesStarting
+|The starting number of charges this item has by default.
+|-
+|RotateOnGround
+|
+|-
+|TenthLBS
+|Ten times the weight of this item in pounds.<br />(''Prior to version 1.69, this value was divided by 256, and the remainder was used as ten times the item's weight.'')
+|-
+|WeaponMatType
+|An index into [[weaponsounds.2da]] indicating what sounds this weapon (item) makes when it hits an opponent.
+|-
+|AmmunitionType
+|The index+1 into [[ammunitiontypes.2da]] that indicates the type of ammunition used by this weapon (item). This determines the models and sounds used during ranged attacks. '''1''' = arrow; '''2''' = bolt; '''3''' = bullet; '''4''' = dart; '''5''' = shuriken; '''6''' = throwing axe.
+|-
+|QBBehavior
+| Quick Bar Behavior. If set to 0 (or ****) default action is to equip if item can be equipped. Set to non-zero defaults to activate. If set to 2, any [[cast spell]] item properties on an item of this type will always target the item's possessor (c.f. [[potion]]s).
+|-
+|ArcaneSpellFailure
+|The percentage this item adds to the chance for arcane [[spell failure]]. Not used for armor. (By default, this column is only set for shields.)
+|-
+|%AnimSlashL
+|The chance (expressed as a percentage) that a character wielding this weapon (item) will be animated as making a slash from the left during an attack.
+|-
+|%AnimSlashR
+|The chance (expressed as a percentage) that a character wielding this weapon (item) will be animated as making a slash from the right during an attack.
+|-
+|%AnimSlashS
+|The chance (expressed as a percentage) that a character wielding this weapon (item) will be animated as making a straight slash (from the center) during an attack.
+|-
+|StorePanelSort
+|A number indicating the order in which this item will be listed in a store (within the panel indicated by the "StorePanel" column).
+|-
+|ILRStackSize
+|The stack size used when calculating this item's value in regards to [[item level restriction]]s.
+|-
+|WeaponFocusFeat
+|An index into [[feat.2da]] indicating which feat provides weapon focus for this item. 
+|-
+|EpicWeaponFocusFeat
+|An index into [[feat.2da]] indicating which feat provides epic weapon focus for this item. 
+|-
+|WeaponSpecializationFeat
+|An index into [[feat.2da]] indicating which feat provides weapon specialization for this item. 
+|-
+|EpicWeaponSpecializationFeat
+|An index into [[feat.2da]] indicating which feat provides epic weapon specialization for this item. 
+|-
+|WeaponImprovedCriticalFeat
+|An index into [[feat.2da]] indicating which feat allows improved criticals to be performed with this item. 
+|-
+|WeaponOverwhelmingCriticalFeat
+|An index into [[feat.2da]] indicating which feat allows overwhelming criticals to be performed with this item. 
+|-
+|WeaponDevastatingCriticalFeat
+|An index into [[feat.2da]] indicating which feat allows devastating criticals to be performed with this item. 
+|-
+|WeaponOfChoiceFeat
+|An index into [[feat.2da]] indicating which feat identifies this item as a weapon of choice. 
+|}
+
+== Column notes ==
+The "EquipableSlots" column is a [[bit field]] expressed in hexadecimal notation. The following table lists the values that can be added together to produce a value for this column.
+
+{| class="centertable"
+|+Equipable slots
+|-
+!Value
+!Inventory slot
+|rowspan="9" style="border:none"|&nbsp;
+!Value
+!Inventory slot
+|-
+|0x00001
+|Helmet
+|0x00200
+|Amulet
+|-
+|0x00002
+|Armor
+|0x00400
+|Belt
+|-
+|0x00004
+|Boots
+|0x00800
+|Arrow
+|-
+|0x00008
+|Gloves
+|0x01000
+|Bullet
+|-
+|0x00010
+|Main hand
+|0x02000
+|Bolt
+|-
+|0x00020
+|Off-hand
+|0x1C000
+|Creature weapons
+|-
+|0x00040
+|Cloak
+|0x20000
+|Creature armor
+|-
+|0x00180
+|Rings
+|colspan="2" style="border:none"|&nbsp;
+|}
+''Example:'' Since most melee weapons should be able to go into the main hand, off-hand, and creature weapon slots, the value of the "EquipableSlots" column would be "0x1C030".
+[[Category:2da]]

@@ -1,0 +1,24 @@
+{{spell
+|icon=is_ethvis.gif
+|bardlevel=5
+|magelevel=6
+|innatelevel=5
+|school=[[illusion]]
+|components=S
+|range=p
+|area=caster
+|save=harmless
+|spellresistance=no
+|duration=1 [[round]] / level
+|line=Visages
+|line2=ghostly visage
+|line5=ethereal visage
+|desc=The caster is surrounded by a ghostly nimbus of light that grants [[damage reduction]] 20/+3, [[spell immunity|prevents]] all spells of level 2 or lower from affecting the caster and provides a 25% [[concealment]] bonus.}}
+
+== Notes ==
+* Spell immunity does not block all spells, just the ones that check [[spell resistance]].
+
+== Custom content notes ==
+* ''script:'' <code>NW_S0_EtherVis</code>
+==External links==
+*{{FRW}}

@@ -1,0 +1,853 @@
+{
+  "_layer": "vanilla",
+  "_hand_written": true,
+  "_note": "Хват оружия ВАНИЛИ, который источник называет ЗНАЧЕНИЕМ на оружие (задача 4.28): колонка `WeaponWield` таблицы игры `baseitems.2da` и её чтение по документации. Ядро (`Rules.Wield`) составляет его с правилом размеров из `vanilla/weapons.json` → `_grip`: названный здесь хват правило может только утяжелить, но не облегчить.\n\n🔴 До задачи 4.28 ваниль этот хват брала из колонки «Одно или двуручное» страницы Сиалы «Система оружия» — поле `siala_grip` лежало в генерируемом `vanilla/weapons.json` и ядро читало его на обоих ruleset'ах. Теперь колонка Сиалы — в слое шарда (`siala_41/generated/weapons.json`) и ложится поверх этого файла по id, а у ванили свой источник — таблица игры.\n\nЧто колонка решает: из семи значений, которые встречаются у оружия игрока, хват НЕЗАВИСИМО ОТ РАЗМЕРА называют три — лук (5) и арбалет (6) двумя руками, двустороннее (8) — обе руки (`stated_grip`). Остальные четыре — стандартное оружие (****), древковое (4), праща (10) и метательное (11) — хвата не называют, его решает правило размеров (`size_decides`). Итог по 41 оружию: хват назван у семи (оба лука, оба арбалета, три двусторонних), у остальных 34 — `null`.\n\n⚠️ Древковое (4) — ЧТЕНИЕ, а не цитата, статус `assumed`: подпись значения «two-handed weapon», но колонку обе вики описывают как НАБОР АНИМАЦИЙ, а игроки видели магический посох одной рукой со щитом. Разница касается ровно двух видов — магического посоха (medium) и лэнса (small): остальные четыре древковых large и двуручны у человека, а малой расе не по руке по одному размеру. Оба чтения и замер, который их различит, — в записи `size_decides` для `weapon_wield: 4`.\n\nРазмеры: оружия — поле `size` ванильного справочника (Fandom); задача 4.5 сверила его с `WeaponSize` этой же таблицы — совпало у 40 из 41, дротик спорит (Fandom tiny, таблица small; хват от этого не меняется: одной рукой при обоих размерах владельца). Владельца — поле `size` в `vanilla/races.json`, сверенное 4.5 с `racialtypes.2da` / `appearance.2da`.\n\n⚠️ Чего колонка НЕ решает и файл не утверждает: в какой РУКЕ может оказаться оружие. Это колонка `EquipableSlots` и правила движка — кнут и магический посох без бита второй руки, цепы и моргенштерн отбиты движком (nwn.wiki, «Hardcoded Limitations»; Fandom «Light flail», «Morningstar», «Whip», «Magic staff»). У нас не смоделировано ни на одном ruleset'е — находка задачи 4.28, отдана дальше.\n\nФайл рукописный: `mix wiki.parse` его не трогает (генерируемый `vanilla/weapons.json` пишется парсером вики, а таблица игры ему не вход). Строки таблицы сверяет с выгрузкой `priv/base_2da/` сторож провенанса (`provenance_test.exs`, «цитаты-строки базовых таблиц»), покрытие справочника и кодов — загрузчик при сборке.",
+  "_schema": {
+    "rule.stated_for_size": "Для какого размера владельца названный хват верен. `null` — для любого: у луков и арбалетов «regardless of size», у двустороннего — «takes both slots». У Сиалы здесь `medium` (её колонка для персонажа обычного размера).",
+    "rule.stated_grip": "Значения `WeaponWield`, которые называют хват сами, независимо от размера владельца: код, что он значит, хват (слово хвата из `_grip` ванильного справочника), статус и источники. Незнакомое слово хвата роняет сборку.",
+    "rule.size_decides": "Значения `WeaponWield`, при которых хват решает правило размеров (`_grip`). `weapon_wield: null` — пустая ячейка `****`.",
+    "weapons": "По одной записи на оружие справочника, у которого есть строка в baseitems.2da: id, значение `WeaponWield` (число или `null` для `****`) и источник — строка таблицы. Строка — ПОЗИЦИЯ в таблице, а не метка (HANDOFF.md, задача 4.5). Код, которого нет ни в `stated_grip`, ни в `size_decides`, роняет сборку.",
+    "not_in_baseitems": "Оружие справочника без строки в baseitems.2da: хват у них не назван (`null`). Каждое оружие справочника обязано стоять ровно в одном из двух списков — иначе сборка падает, а не молчит."
+  },
+  "rule": {
+    "table": "baseitems.2da",
+    "column": "WeaponWield",
+    "stated_for_size": null,
+    "stated_grip": [
+      {
+        "weapon_wield": 5,
+        "means": "bow",
+        "grip": "two_handed",
+        "status": "verified",
+        "quote": "Longbow: You need at least two hands to use a bow, regardless of size. Longbows do more damage than shortbows.",
+        "source": {
+          "kind": "manual",
+          "title": "Neverwinter Nights — Game Manual (BioWare, 2002)",
+          "file": "NWN_Manual_English.pdf",
+          "sha1": "78c26a4b5ec2e9405ef1983d40307eb8a5632eeb",
+          "pdf_page": 79,
+          "printed_page": 153,
+          "url": "https://nwn.wiki/download/attachments/26738697/NWN_Manual_English.pdf",
+          "fetched": "2026-09-26"
+        },
+        "quote_2": "Shortbow: You need at least two hands to use a bow, regardless of size.",
+        "source_2": {
+          "kind": "manual",
+          "title": "Neverwinter Nights — Game Manual (BioWare, 2002)",
+          "file": "NWN_Manual_English.pdf",
+          "sha1": "78c26a4b5ec2e9405ef1983d40307eb8a5632eeb",
+          "pdf_page": 79,
+          "printed_page": 153,
+          "url": "https://nwn.wiki/download/attachments/26738697/NWN_Manual_English.pdf",
+          "fetched": "2026-09-26"
+        },
+        "corroborated_by": [
+          {
+            "site": "Epic Character Builder's Guild (архив форумов BioWare)",
+            "url": "https://world-of-greyhawk.github.io/builds/data/build219413.html",
+            "who": "Xylophone",
+            "date": "2005-11-07",
+            "quote": "Though bows are two handed so you can't use them with a shield anyway.",
+            "note": "Наблюдение игроков NWN до EE; щит с луком не надевается."
+          }
+        ],
+        "note": "Fandom о хвате луков молчит (ни «Bow», ни «Longbow», ни «Shortbow» его не называют). Разница с правилом размеров — ровно короткий лук у человека: medium против medium даёт одну руку, колонка — две. Длинный лук large и так двуручен у человека, а малой расе не по руке (Fandom «Longbow»). Сиала говорит то же для персонажа обычного размера («двуручное/стрелковое»), но это слой шарда, а не опора ванили."
+      },
+      {
+        "weapon_wield": 6,
+        "means": "crossbow",
+        "grip": "two_handed",
+        "status": "verified",
+        "quote": "Crossbows require characters to wield them with two hands regardless of size.",
+        "source": {
+          "wiki": "fandom",
+          "page": "Crossbow",
+          "revid": 70620,
+          "fetched": "2026-08-10"
+        },
+        "quote_2": "Crossbows require characters to wield them with two hands regardless of size.",
+        "source_2": {
+          "wiki": "fandom",
+          "page": "Light crossbow",
+          "revid": 66428,
+          "fetched": "2026-08-10"
+        },
+        "quote_3": "Light Crossbow: This weapon requires two hands to use, no matter the size of your character. It fires bolts.",
+        "source_3": {
+          "kind": "manual",
+          "title": "Neverwinter Nights — Game Manual (BioWare, 2002)",
+          "file": "NWN_Manual_English.pdf",
+          "sha1": "78c26a4b5ec2e9405ef1983d40307eb8a5632eeb",
+          "pdf_page": 79,
+          "printed_page": 152,
+          "url": "https://nwn.wiki/download/attachments/26738697/NWN_Manual_English.pdf",
+          "fetched": "2026-09-26"
+        },
+        "note": "Разница с правилом размеров — оба арбалета у человека (small и medium против medium — одна рука) и лёгкий арбалет у малой расы (small против small)."
+      },
+      {
+        "weapon_wield": 8,
+        "means": "double-sided weapon",
+        "grip": "double_sided",
+        "status": "verified",
+        "quote": "Even though these are [[weapon size|large weapons]] and require two hands to wield",
+        "source": {
+          "wiki": "fandom",
+          "page": "Double-sided weapon",
+          "revid": 68931,
+          "fetched": "2026-08-10"
+        },
+        "corroborated_by": [
+          {
+            "site": "nwn.wiki",
+            "page": "baseitems.2da",
+            "page_id": 38174935,
+            "version": 60,
+            "version_date": "2026-05-25",
+            "url": "https://nwn.wiki/display/NWN1/baseitems.2da",
+            "fetched": "2026-09-26",
+            "quote": "If a double sided weapon it takes both slots"
+          }
+        ],
+        "note": "Хват `double_sided` — своё, третье слово хвата (`_grip.grips_using_both_hands`), а не `two_handed`: двустороннее оружие само по себе бой двумя оружиями (`Rules.DualWield`), и обычное двуручное правило размеров стирало бы это. Все три двусторонних large, так что малой расе не по руке по размеру."
+      }
+    ],
+    "size_decides": [
+      {
+        "weapon_wield": null,
+        "means": "standard one-handed weapon",
+        "status": "verified",
+        "quote": "'''0''' = standard one-handed weapon;",
+        "source": {
+          "wiki": "fandom",
+          "page": "Baseitems.2da",
+          "revid": 70205,
+          "fetched": "2026-09-26"
+        },
+        "corroborated_by": [
+          {
+            "site": "nwn.wiki",
+            "page": "baseitems.2da",
+            "page_id": 38174935,
+            "version": 60,
+            "version_date": "2026-05-25",
+            "url": "https://nwn.wiki/display/NWN1/baseitems.2da",
+            "fetched": "2026-09-26",
+            "quote": "**** = standard one-handed weapon (although may be two handed if small creature is wielding it)"
+          }
+        ],
+        "note": "Fandom пишет пустое значение как `0`, в таблице игры оно `****` (у 24 из 41 оружия). «Одноручное, но у малого существа может быть двуручным» — это и есть правило размеров `_grip`."
+      },
+      {
+        "weapon_wield": 4,
+        "means": "polearm",
+        "status": "assumed",
+        "quote": "Indicates which animation set is used when this item is wielded (equipped) in one of the weapon slots.",
+        "source": {
+          "wiki": "fandom",
+          "page": "Baseitems.2da",
+          "revid": 70205,
+          "fetched": "2026-09-26"
+        },
+        "quote_2": "'''4''' = two-handed weapon;",
+        "source_2": {
+          "wiki": "fandom",
+          "page": "Baseitems.2da",
+          "revid": 70205,
+          "fetched": "2026-09-26"
+        },
+        "quote_3": "Magic staves cannot be wielded in the [[off-hand]] without using a modified [[baseitems.2da]].",
+        "source_3": {
+          "wiki": "fandom",
+          "page": "Magic staff",
+          "revid": 71760,
+          "fetched": "2026-08-10"
+        },
+        "corroborated_by": [
+          {
+            "site": "nwn.wiki",
+            "page": "baseitems.2da",
+            "page_id": 38174935,
+            "version": 60,
+            "version_date": "2026-05-25",
+            "url": "https://nwn.wiki/display/NWN1/baseitems.2da",
+            "fetched": "2026-09-26",
+            "quote": "If a two handed weapon being of a certain size may affect if it is single or two handed"
+          },
+          {
+            "site": "nwn.wiki",
+            "page": "Animations",
+            "page_id": 38175170,
+            "version": 63,
+            "version_date": "2025-12-03",
+            "url": "https://nwn.wiki/spaces/NWN1/pages/38175170/Animations",
+            "fetched": "2026-09-26",
+            "quote": "4 = two-handed weapon (polearm) Has a special idle animation (over the shoulder at rest)"
+          },
+          {
+            "site": "Epic Character Builder's Guild (архив форумов BioWare)",
+            "url": "https://world-of-greyhawk.github.io/builds/data/general223464.html",
+            "who": "Kung_Fu_Charlie",
+            "date": "2005-12",
+            "quote": "For whatever reason a 'staff' is treated as single handed weapon, allowing you to equip a weapon or shield in your offhand. A quarterstaff is treated as a two-handed weapon.",
+            "note": "Наблюдение игроков NWN до EE: магический посох — одной рукой, щит рядом надевается."
+          }
+        ],
+        "readings": {
+          "size_rule": "Хват решает размер, как у стандартного оружия: магический посох (medium) у человека одной рукой, у малой расы двумя; лэнс (small) одной рукой у обоих. Так считает ядро.",
+          "always_two_handed": "Подпись значения «two-handed weapon» — двумя руками при любом размере: посох и лэнс двуручны и у человека. Так читала колонку задача 4.5 (docs/base2da_diff.md, находка (a) у посоха и лэнса)."
+        },
+        "why": "Взято чтение по размеру. Обе вики описывают колонку как набор анимаций (Fandom — первой строкой описания, nwn.wiki — «over the shoulder at rest» и оговоркой «being of a certain size may affect if it is single or two handed»); Fandom у магического посоха отмечает, что его нельзя положить во ВТОРУЮ руку «without using a modified baseitems.2da» — заметка, которая у двуручного оружия была бы пустой; у лэнса в EquipableSlots бит второй руки стоит (0x1C030); игроки 2005 года видели посох одной рукой со щитом. За «всегда двумя руками» — только подпись значения. Цитата прямого замера на EE нет — отсюда `assumed`.",
+        "decision": {
+          "kind": "user",
+          "who": "Dan",
+          "date": "2026-09-27",
+          "case": "AZ1",
+          "quote": "касаемо посоха и щита — оставляем как есть, т.е. к посоху можно надеть щит",
+          "note": "Решение владельца, а не замер: одиночной NWN:EE, чтобы замерить ваниль, нет. Чтение по размеру оставлено; статус остаётся `assumed`. Касается и Сиалы — строка 45 её хака та же, а её таблица оружия посох не называет."
+        },
+        "measurement": "Одиночная NWN:EE: человек, магический посох в правой руке, малый щит в левой — надевается ли щит. Надевается — чтение по размеру верно; снимается — посох и лэнс двуручны при любом размере, правка — перенести `4` в `stated_grip` с хватом `two_handed`. Тот же ответ касается Сиалы: строка 45 в её хаке та же, а её таблица оружия посох не называет.",
+        "note": "Из шести древковых (4) разница между чтениями есть только у двух: алебарда, коса, копьё и боевой посох large — у человека двуручны по размеру, малой расе не по руке."
+      },
+      {
+        "weapon_wield": 10,
+        "means": "sling",
+        "status": "verified",
+        "quote": "Slings can be used with a [[shield]].",
+        "source": {
+          "wiki": "fandom",
+          "page": "Sling",
+          "revid": 71191,
+          "fetched": "2026-08-10"
+        },
+        "note": "Праща small: у человека и у малой расы одной рукой по размеру — щит рядом законен, как и говорит Fandom. Что она дальнобойная и во вторую руку не идёт — отдельное правило (`vanilla/weapons.json` → `_off_hand`)."
+      },
+      {
+        "weapon_wield": 11,
+        "means": "throwing weapon (dart, shuriken or throwing axe)",
+        "status": "verified",
+        "quote": "Darts can be used with a [[shield]].",
+        "source": {
+          "wiki": "fandom",
+          "page": "Dart",
+          "revid": 36622,
+          "fetched": "2026-08-10"
+        },
+        "quote_2": "Shurikens can be used with [[shield]]s.",
+        "source_2": {
+          "wiki": "fandom",
+          "page": "Shuriken",
+          "revid": 66854,
+          "fetched": "2026-08-10"
+        },
+        "quote_3": "Throwing axes can be used with a [[shield]].",
+        "source_3": {
+          "wiki": "fandom",
+          "page": "Throwing axe",
+          "revid": 65292,
+          "fetched": "2026-08-10"
+        },
+        "corroborated_by": [
+          {
+            "site": "nwn.wiki",
+            "page": "baseitems.2da",
+            "page_id": 38174935,
+            "version": 60,
+            "version_date": "2026-05-25",
+            "url": "https://nwn.wiki/display/NWN1/baseitems.2da",
+            "fetched": "2026-09-26",
+            "quote": "11 = throwing weapon (dart, shuriken or throwing axe)"
+          }
+        ],
+        "note": "Все три метательных tiny или small — одной рукой по размеру у обоих размеров владельца. ⚠️ Fandom «Baseitems.2da» пишет «10 = dart or sling; 11 = shuriken or throwing axe», таблица игры ставит дротику 11 (строка 31) — прав nwn.wiki; на хват это не влияет: оба кода решает размер."
+      }
+    ]
+  },
+  "weapons": [
+    {
+      "id": "bastard_sword",
+      "weapon_wield": null,
+      "source": {
+        "kind": "2da",
+        "table": "baseitems.2da",
+        "row": 3,
+        "label": "bastardsword",
+        "column": "WeaponWield",
+        "value": null,
+        "build": "89.8193.37-17",
+        "fetched": "2026-09-26"
+      }
+    },
+    {
+      "id": "battleaxe",
+      "weapon_wield": null,
+      "source": {
+        "kind": "2da",
+        "table": "baseitems.2da",
+        "row": 2,
+        "label": "battleaxe",
+        "column": "WeaponWield",
+        "value": null,
+        "build": "89.8193.37-17",
+        "fetched": "2026-09-26"
+      }
+    },
+    {
+      "id": "club",
+      "weapon_wield": null,
+      "source": {
+        "kind": "2da",
+        "table": "baseitems.2da",
+        "row": 28,
+        "label": "club",
+        "column": "WeaponWield",
+        "value": null,
+        "build": "89.8193.37-17",
+        "fetched": "2026-09-26"
+      }
+    },
+    {
+      "id": "dagger",
+      "weapon_wield": null,
+      "source": {
+        "kind": "2da",
+        "table": "baseitems.2da",
+        "row": 22,
+        "label": "dagger",
+        "column": "WeaponWield",
+        "value": null,
+        "build": "89.8193.37-17",
+        "fetched": "2026-09-26"
+      }
+    },
+    {
+      "id": "dart",
+      "weapon_wield": 11,
+      "source": {
+        "kind": "2da",
+        "table": "baseitems.2da",
+        "row": 31,
+        "label": "dart",
+        "column": "WeaponWield",
+        "value": "11",
+        "build": "89.8193.37-17",
+        "fetched": "2026-09-26"
+      }
+    },
+    {
+      "id": "dire_mace",
+      "weapon_wield": 8,
+      "source": {
+        "kind": "2da",
+        "table": "baseitems.2da",
+        "row": 32,
+        "label": "diremace",
+        "column": "WeaponWield",
+        "value": "8",
+        "build": "89.8193.37-17",
+        "fetched": "2026-09-26"
+      }
+    },
+    {
+      "id": "double_axe",
+      "weapon_wield": 8,
+      "source": {
+        "kind": "2da",
+        "table": "baseitems.2da",
+        "row": 33,
+        "label": "doubleaxe",
+        "column": "WeaponWield",
+        "value": "8",
+        "build": "89.8193.37-17",
+        "fetched": "2026-09-26"
+      }
+    },
+    {
+      "id": "dwarven_waraxe",
+      "weapon_wield": null,
+      "source": {
+        "kind": "2da",
+        "table": "baseitems.2da",
+        "row": 108,
+        "label": "dwarvenwaraxe",
+        "column": "WeaponWield",
+        "value": null,
+        "build": "89.8193.37-17",
+        "fetched": "2026-09-26"
+      }
+    },
+    {
+      "id": "greataxe",
+      "weapon_wield": null,
+      "source": {
+        "kind": "2da",
+        "table": "baseitems.2da",
+        "row": 18,
+        "label": "greataxe",
+        "column": "WeaponWield",
+        "value": null,
+        "build": "89.8193.37-17",
+        "fetched": "2026-09-26"
+      }
+    },
+    {
+      "id": "greatsword",
+      "weapon_wield": null,
+      "source": {
+        "kind": "2da",
+        "table": "baseitems.2da",
+        "row": 13,
+        "label": "greatsword",
+        "column": "WeaponWield",
+        "value": null,
+        "build": "89.8193.37-17",
+        "fetched": "2026-09-26"
+      }
+    },
+    {
+      "id": "halberd",
+      "weapon_wield": 4,
+      "source": {
+        "kind": "2da",
+        "table": "baseitems.2da",
+        "row": 10,
+        "label": "halberd",
+        "column": "WeaponWield",
+        "value": "4",
+        "build": "89.8193.37-17",
+        "fetched": "2026-09-26"
+      }
+    },
+    {
+      "id": "handaxe",
+      "weapon_wield": null,
+      "source": {
+        "kind": "2da",
+        "table": "baseitems.2da",
+        "row": 38,
+        "label": "handaxe",
+        "column": "WeaponWield",
+        "value": null,
+        "build": "89.8193.37-17",
+        "fetched": "2026-09-26"
+      }
+    },
+    {
+      "id": "heavy_crossbow",
+      "weapon_wield": 6,
+      "source": {
+        "kind": "2da",
+        "table": "baseitems.2da",
+        "row": 6,
+        "label": "heavycrossbow",
+        "column": "WeaponWield",
+        "value": "6",
+        "build": "89.8193.37-17",
+        "fetched": "2026-09-26"
+      }
+    },
+    {
+      "id": "heavy_flail",
+      "weapon_wield": null,
+      "source": {
+        "kind": "2da",
+        "table": "baseitems.2da",
+        "row": 35,
+        "label": "heavyflail",
+        "column": "WeaponWield",
+        "value": null,
+        "build": "89.8193.37-17",
+        "fetched": "2026-09-26"
+      }
+    },
+    {
+      "id": "kama",
+      "weapon_wield": null,
+      "source": {
+        "kind": "2da",
+        "table": "baseitems.2da",
+        "row": 40,
+        "label": "kama",
+        "column": "WeaponWield",
+        "value": null,
+        "build": "89.8193.37-17",
+        "fetched": "2026-09-26"
+      }
+    },
+    {
+      "id": "katana",
+      "weapon_wield": null,
+      "source": {
+        "kind": "2da",
+        "table": "baseitems.2da",
+        "row": 41,
+        "label": "katana",
+        "column": "WeaponWield",
+        "value": null,
+        "build": "89.8193.37-17",
+        "fetched": "2026-09-26"
+      }
+    },
+    {
+      "id": "kukri",
+      "weapon_wield": null,
+      "source": {
+        "kind": "2da",
+        "table": "baseitems.2da",
+        "row": 42,
+        "label": "kukri",
+        "column": "WeaponWield",
+        "value": null,
+        "build": "89.8193.37-17",
+        "fetched": "2026-09-26"
+      }
+    },
+    {
+      "id": "lance",
+      "weapon_wield": 4,
+      "source": {
+        "kind": "2da",
+        "table": "baseitems.2da",
+        "row": 92,
+        "label": "Lance",
+        "column": "WeaponWield",
+        "value": "4",
+        "build": "89.8193.37-17",
+        "fetched": "2026-09-26"
+      }
+    },
+    {
+      "id": "light_crossbow",
+      "weapon_wield": 6,
+      "source": {
+        "kind": "2da",
+        "table": "baseitems.2da",
+        "row": 7,
+        "label": "lightcrossbow",
+        "column": "WeaponWield",
+        "value": "6",
+        "build": "89.8193.37-17",
+        "fetched": "2026-09-26"
+      }
+    },
+    {
+      "id": "light_flail",
+      "weapon_wield": null,
+      "source": {
+        "kind": "2da",
+        "table": "baseitems.2da",
+        "row": 4,
+        "label": "lightflail",
+        "column": "WeaponWield",
+        "value": null,
+        "build": "89.8193.37-17",
+        "fetched": "2026-09-26"
+      }
+    },
+    {
+      "id": "light_hammer",
+      "weapon_wield": null,
+      "source": {
+        "kind": "2da",
+        "table": "baseitems.2da",
+        "row": 37,
+        "label": "lighthammer",
+        "column": "WeaponWield",
+        "value": null,
+        "build": "89.8193.37-17",
+        "fetched": "2026-09-26"
+      }
+    },
+    {
+      "id": "longbow",
+      "weapon_wield": 5,
+      "source": {
+        "kind": "2da",
+        "table": "baseitems.2da",
+        "row": 8,
+        "label": "longbow",
+        "column": "WeaponWield",
+        "value": "5",
+        "build": "89.8193.37-17",
+        "fetched": "2026-09-26"
+      }
+    },
+    {
+      "id": "longsword",
+      "weapon_wield": null,
+      "source": {
+        "kind": "2da",
+        "table": "baseitems.2da",
+        "row": 1,
+        "label": "longsword",
+        "column": "WeaponWield",
+        "value": null,
+        "build": "89.8193.37-17",
+        "fetched": "2026-09-26"
+      }
+    },
+    {
+      "id": "mace",
+      "weapon_wield": null,
+      "source": {
+        "kind": "2da",
+        "table": "baseitems.2da",
+        "row": 9,
+        "label": "lightmace",
+        "column": "WeaponWield",
+        "value": null,
+        "build": "89.8193.37-17",
+        "fetched": "2026-09-26"
+      }
+    },
+    {
+      "id": "magic_staff",
+      "weapon_wield": 4,
+      "source": {
+        "kind": "2da",
+        "table": "baseitems.2da",
+        "row": 45,
+        "label": "magicstaff",
+        "column": "WeaponWield",
+        "value": "4",
+        "build": "89.8193.37-17",
+        "fetched": "2026-09-26"
+      }
+    },
+    {
+      "id": "morningstar",
+      "weapon_wield": null,
+      "source": {
+        "kind": "2da",
+        "table": "baseitems.2da",
+        "row": 47,
+        "label": "morningstar",
+        "column": "WeaponWield",
+        "value": null,
+        "build": "89.8193.37-17",
+        "fetched": "2026-09-26"
+      }
+    },
+    {
+      "id": "quarterstaff",
+      "weapon_wield": 4,
+      "source": {
+        "kind": "2da",
+        "table": "baseitems.2da",
+        "row": 50,
+        "label": "quarterstaff",
+        "column": "WeaponWield",
+        "value": "4",
+        "build": "89.8193.37-17",
+        "fetched": "2026-09-26"
+      }
+    },
+    {
+      "id": "rapier",
+      "weapon_wield": null,
+      "source": {
+        "kind": "2da",
+        "table": "baseitems.2da",
+        "row": 51,
+        "label": "rapier",
+        "column": "WeaponWield",
+        "value": null,
+        "build": "89.8193.37-17",
+        "fetched": "2026-09-26"
+      }
+    },
+    {
+      "id": "scimitar",
+      "weapon_wield": null,
+      "source": {
+        "kind": "2da",
+        "table": "baseitems.2da",
+        "row": 53,
+        "label": "scimitar",
+        "column": "WeaponWield",
+        "value": null,
+        "build": "89.8193.37-17",
+        "fetched": "2026-09-26"
+      }
+    },
+    {
+      "id": "scythe",
+      "weapon_wield": 4,
+      "source": {
+        "kind": "2da",
+        "table": "baseitems.2da",
+        "row": 55,
+        "label": "scythe",
+        "column": "WeaponWield",
+        "value": "4",
+        "build": "89.8193.37-17",
+        "fetched": "2026-09-26"
+      }
+    },
+    {
+      "id": "shortbow",
+      "weapon_wield": 5,
+      "source": {
+        "kind": "2da",
+        "table": "baseitems.2da",
+        "row": 11,
+        "label": "shortbow",
+        "column": "WeaponWield",
+        "value": "5",
+        "build": "89.8193.37-17",
+        "fetched": "2026-09-26"
+      }
+    },
+    {
+      "id": "shortsword",
+      "weapon_wield": null,
+      "source": {
+        "kind": "2da",
+        "table": "baseitems.2da",
+        "row": 0,
+        "label": "shortsword",
+        "column": "WeaponWield",
+        "value": null,
+        "build": "89.8193.37-17",
+        "fetched": "2026-09-26"
+      }
+    },
+    {
+      "id": "shuriken",
+      "weapon_wield": 11,
+      "source": {
+        "kind": "2da",
+        "table": "baseitems.2da",
+        "row": 59,
+        "label": "shuriken",
+        "column": "WeaponWield",
+        "value": "11",
+        "build": "89.8193.37-17",
+        "fetched": "2026-09-26"
+      }
+    },
+    {
+      "id": "sickle",
+      "weapon_wield": null,
+      "source": {
+        "kind": "2da",
+        "table": "baseitems.2da",
+        "row": 60,
+        "label": "sickle",
+        "column": "WeaponWield",
+        "value": null,
+        "build": "89.8193.37-17",
+        "fetched": "2026-09-26"
+      }
+    },
+    {
+      "id": "sling",
+      "weapon_wield": 10,
+      "source": {
+        "kind": "2da",
+        "table": "baseitems.2da",
+        "row": 61,
+        "label": "sling",
+        "column": "WeaponWield",
+        "value": "10",
+        "build": "89.8193.37-17",
+        "fetched": "2026-09-26"
+      }
+    },
+    {
+      "id": "spear",
+      "weapon_wield": 4,
+      "source": {
+        "kind": "2da",
+        "table": "baseitems.2da",
+        "row": 58,
+        "label": "shortspear",
+        "column": "WeaponWield",
+        "value": "4",
+        "build": "89.8193.37-17",
+        "fetched": "2026-09-26"
+      }
+    },
+    {
+      "id": "throwing_axe",
+      "weapon_wield": 11,
+      "source": {
+        "kind": "2da",
+        "table": "baseitems.2da",
+        "row": 63,
+        "label": "throwingaxe",
+        "column": "WeaponWield",
+        "value": "11",
+        "build": "89.8193.37-17",
+        "fetched": "2026-09-26"
+      }
+    },
+    {
+      "id": "trident",
+      "weapon_wield": null,
+      "source": {
+        "kind": "2da",
+        "table": "baseitems.2da",
+        "row": 95,
+        "label": "trident",
+        "column": "WeaponWield",
+        "value": null,
+        "build": "89.8193.37-17",
+        "fetched": "2026-09-26"
+      }
+    },
+    {
+      "id": "two_bladed_sword",
+      "weapon_wield": 8,
+      "source": {
+        "kind": "2da",
+        "table": "baseitems.2da",
+        "row": 12,
+        "label": "twobladedsword",
+        "column": "WeaponWield",
+        "value": "8",
+        "build": "89.8193.37-17",
+        "fetched": "2026-09-26"
+      }
+    },
+    {
+      "id": "warhammer",
+      "weapon_wield": null,
+      "source": {
+        "kind": "2da",
+        "table": "baseitems.2da",
+        "row": 5,
+        "label": "warhammer",
+        "column": "WeaponWield",
+        "value": null,
+        "build": "89.8193.37-17",
+        "fetched": "2026-09-26"
+      }
+    },
+    {
+      "id": "whip",
+      "weapon_wield": null,
+      "source": {
+        "kind": "2da",
+        "table": "baseitems.2da",
+        "row": 111,
+        "label": "Whip",
+        "column": "WeaponWield",
+        "value": null,
+        "build": "89.8193.37-17",
+        "fetched": "2026-09-26"
+      }
+    }
+  ],
+  "not_in_baseitems": {
+    "ids": [
+      "bite_item",
+      "claw_item",
+      "creature_weapon",
+      "gore_item",
+      "slam_item",
+      "unarmed_strike"
+    ],
+    "note": "Строки в baseitems.2da у них нет (сверка 4.5, вид (b)): оружие существ там — четыре обезличенных типа (cslashweapon, cpiercweapon, cbludgweapon, cslshprcweap), их не сопоставить по имени, и предметом игрока они не являются (`gear.weapon.not_wieldable`); безоружный удар — не предмет вовсе. Хват не назван — `null`; у безоружного удара нет и размера, поэтому рядом со щитом ядро печатает оговорку `{:missing_data, {:weapon_grip, :unarmed_strike}}`."
+  }
+}

@@ -1,0 +1,21 @@
+{{feat
+|type=race
+|prereq=[[dwarf]], [[gnome]]
+|desc=This feat grants a +1 racial bonus on [[attack roll]]s against [[goblinoid]]s (goblins, hobgoblins, and bugbears).
+|use=automatic
+|icon=ife train.gif
+}}
+
+==Builder notes==
+'''Item feat:''' No, but it can be added with custom content.
+
+*This feat works against all [[creature]]s with the "goblinoid" [[race|racial type]].
+
+==Custom content notes==
+'''Removable:''' yes
+
+'''Reusable:''' yes
+
+'''Script:''' hardcoded
+
+*This feat can be added to [[iprp_feats.2da]] to make it available as an item feat.

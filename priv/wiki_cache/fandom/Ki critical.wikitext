@@ -1,0 +1,11 @@
+{{feat
+|type=class
+|prereq=[[weapon of choice]], [[weapon master]] 7
+|desc=The weapon master gains an additional +2 to the [[threat range]] of their weapon of choice.
+|use=automatic
+|icon=ife_x2kicrit.gif
+|class=weapon master
+}}
+
+==Notes==
+*Requires [[Hordes of the Underdark]].

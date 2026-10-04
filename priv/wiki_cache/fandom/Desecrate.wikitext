@@ -1,0 +1,22 @@
+{{Grimoire spell|imagename=Is desecrate.jpg
+|spellname=Desecrate
+|casterlevel=[[Cleric]] 2, [[Evil domain (grimoire)|Evil]] 2, [[Undeath domain (grimoire)|Undeath]] 2
+|innatelevel=2
+|school=[[Evocation]]
+|descriptors=Evil
+|components=V, S
+|range=Short
+|immunities=None
+|savingthrow=None
+|spellresistance=No
+|targettype=20 ft. radius emanation
+|duration=2 [[hour]]s / level
+|description=This spell imbues an area with negative energy. Each [[Charisma]] check made to turn undead within this area takes a -3 profane penalty, and every undead creature entering a desecrated area gains a +1 profane bonus on [[attack]] rolls, damage rolls, and saving throws. An undead creature created within or summoned into such an area gains +1 hit points per HD.<br>
+<br>
+Furthermore, anyone who casts animate dead within this area may create as many as double the normal amount of undead (that is, 4 HD per caster level rather than 2 HD per caster level).<br>
+<br>
+''Desecrate'' counters and dispels ''[[consecrate]]''.
+}}
+{{g_clr}}
+{{g_evil}}
+{{g_undeath}}

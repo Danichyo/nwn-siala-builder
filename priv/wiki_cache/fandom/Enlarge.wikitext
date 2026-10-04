@@ -1,0 +1,18 @@
+{{Grimoire spell|imagename=Is enlarge.jpg
+||spellname=Enlarge
+|casterlevel=[[Sorcerer]] / [[Wizard (class)|Wizard]] 1
+|innatelevel=1
+|school=[[Transmutation]]
+|descriptors= 
+|components=V, S
+|range=Short
+|immunities=None
+|savingthrow=[[Fortitude]] negates
+|spellresistance=Yes
+|targettype=Single
+|duration=1 turn/level
+|description=This spell causes instant growth of a creature, increasing both size and weight.  The subject grows by up to 10% per caster level, increasing by this amount in height, width, and depth (to a maximum of 50%).  All equipment worn or carried by the creature is enlarged with the spell.   Magical properties are not increased by this spell - a +1 sword remains a +1 sword..  A creature's hit points, Armor Class, and base attack bonus do not change, but Strength increases along with size.  For every 20% of enlargement, the creature gains a +1 enhancement bonus to Strength.
+
+Multiple magical effects that increase size do not stack.  Enlarge counters and dispels Reduce.
+}}
+{{g_sorwiz}}

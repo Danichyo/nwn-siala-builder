@@ -1,0 +1,16 @@
+{{feat
+|epic=yes
+|type=general
+|prereq=[[constitution]] 25+, [[great fortitude]]
+|desc=This feat makes the character immune to all [[disease]]s and [[poison]]s.
+|use=automatic
+|icon=ife_x2perfheal.gif
+|bonus1=blackguard
+|bonus2=dwarven defender
+|bonus3=paladin
+|bonus4=ranger
+}}
+
+==Notes==
+*Requires [[Hordes of the Underdark]].
+*This feat is redundant for characters with 11 [[monk]] levels (due to the [[purity of body]] and [[diamond body]] feats) and for characters with 5 monk and 9 [[druid]] levels (due to the ''purity of body'' and [[venom immunity]] feats).

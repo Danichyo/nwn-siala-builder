@@ -1,0 +1,47 @@
+{{spell
+|icon=is_flmlash.gif
+|druidlevel=2
+|innatelevel=2
+|school=[[evocation]]
+|components=VS
+|range=s
+|area=single
+|save=[[reflex]] 1/2
+|spellresistance=yes
+|immunity=fire
+|duration=instant
+|desc=The druid is able to flay an enemy with flaming brands that do 2[[d6]] points of [[fire damage]], + 1d6 per 3 caster levels above level 3.}}
+{|class="wikitable"
+  !caster level!!damage per cast
+|-
+  |align=center|3||align=center|2d6
+|-
+  |align=center|6||align=center|3d6
+|-
+  |align=center|9||align=center|4d6
+|-
+  |align=center|12||align=center|5d6
+|-
+  |align=center|15||align=center|6d6
+|-
+  |align=center|18||align=center|7d6
+|-
+  |align=center|21||align=center|8d6
+|-
+  |align=center|24||align=center|9d6
+|-
+  |align=center|27||align=center|10d6
+|-
+  |align=center|30||align=center|11d6
+|-
+  |align=center|33||align=center|12d6
+|-
+  |align=center|36||align=center|13d6
+|-
+  |align=center|39||align=center|14d6
+|}
+
+==Custom content notes==
+*''script:'' <code>NW_S0_FlmLash.nss</code>
+==External links==
+*{{FRW}}

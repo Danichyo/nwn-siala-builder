@@ -1,0 +1,20 @@
+{{feat
+|type=race
+|prereq=[[gnome]]
+|desc=This feat grants a +2 racial bonus on [[saving throw]]s against [[mind-affecting]] spells.
+|use=automatic
+|icon=ife_hardillu.gif
+}}
+
+==Builder notes==
+'''Item feat:''' No, but it can be added with custom content.
+
+==Custom content notes==
+'''Removable:''' yes
+
+'''Reusable:''' yes
+
+'''Script:''' hardcoded
+
+*This feat can be added to [[iprp_feats.2da]] to make it available as an item feat.
+*Does not stack with [[Hardiness vs. enchantments]], the presence of either will give the +2 bonus.

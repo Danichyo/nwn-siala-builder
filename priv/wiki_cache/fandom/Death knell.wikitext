@@ -1,0 +1,12 @@
+'''Type of Feat''': [[Class]]
+
+'''Prerequisite''': [[Anti-paladin]] 3
+
+'''Specifics''': An Anti-paladin may use as a [[spell-like ability]]. If the target has less than 10 [[hit point|HP]] and fails a [[will]] save vs. [[DC]] of 12 + [[Wis]] [[modifier]], the target dies and the caster gains +2 [[Str]], +1d8 HP, and a +1 [[caster level]] for a number of [[turn]]s equal to the caster level.
+
+'''Use''': Selected.
+
+==Notes==
+*Added in the [[PRC Expansion Pack]].
+
+[[category:PRC feats]]

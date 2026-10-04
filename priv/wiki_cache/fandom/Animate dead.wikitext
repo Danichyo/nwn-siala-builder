@@ -1,0 +1,35 @@
+{{otheruses|the spell|the feat|Animate dead (feat)}}
+{{spell
+|icon=is_animdead.gif
+|clericlevel=3
+|magelevel=5
+|innatelevel=3
+|school=[[necromancy]]
+|immunity=evil
+|components=VS
+|range=s
+|area=point
+|duration=24 [[hour]]s
+|counters=<del>[[sunbeam]]</del>
+|line=Undead summoning
+|line3=animate dead
+|line6=create undead
+|line8=create greater undead
+|line10=mummy dust
+|desc=Animate dead [[summon]]s forth an [[undead]] minion. The type of undead summoned is dependent upon the caster level.}}
+{|class="wikitable" style="text-align:center"
+! caster level !! summon
+|-
+| 1 to 5 || [[tyrantfog zombie]]
+|-
+| 6 to 9 || [[skeleton warrior (summon)|skeletal warrior]]
+|-
+| 10+ || [[skeletal chieftain]]
+|}
+
+==Notes==
+*Due to a .2da bug, ''animate dead'' is not an additional [[counterspell]] of ''sunbeam''.
+
+==Custom content notes==
+*''script:'' <code>NW_S0_AnimDead.nss</code>
+[[category:summoning]]

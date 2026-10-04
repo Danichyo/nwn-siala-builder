@@ -1,0 +1,19 @@
+{{feat
+|type=class
+|prereq=[[assassin]] 5
+|desc=Starting at fifth level, an assassin gains the ability to cast [[darkness (spell)|darkness]].
+|use=selected
+|icon=is_darkness.gif
+|class1=assassin
+}}
+
+==Notes==
+*Added in the [[expansion pack]]s.
+*This feat is usable once per [[day]].
+*Spells or effects such as [[true seeing]] and [[ultravision]] do not "lift" the [[darkness]] for the character, rather it allows the character to target items and NPCs normally. The player can use the <code>Tab</code> key to "see" where enemies are when he/she has one of these effects active in darkness.
+
+==Custom content notes==
+*''script:'' <code>NW_S0_Darkness.nss</code>
+*''OnEnter script:'' <code>NW_S0_DarknessA.nss</code>
+*''OnExit script:'' <code>NW_S0_DarknessB.nss</code>
+** These are also the scripts used by the spell of the same name.

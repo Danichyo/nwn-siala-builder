@@ -1,0 +1,29 @@
+{{spell
+|icon=is_wallfire.gif
+|druidlevel=5
+|magelevel=4
+|domain=fire
+|domainlevel=4
+|innatelevel=4
+|school=[[evocation]]
+|components=VS
+|range=m
+|area=wall 30 ft long
+|save=[[reflex]] 1/2
+|spellresistance=yes
+|immunity=fire
+|duration=1 [[round]] / 2 levels
+|desc=This spell creates a curtain of fire that deals 4[[d6]] points of [[fire damage]] to any creature that attempts to pass through it.}}
+
+== Notes ==
+
+* The damage is inflicted upon entry and at the end of each round.
+
+==Custom content notes==
+
+* ''script:'' <code>NW_S0_WallFire</code>
+* ''OnEnter script:'' <code>NW_S0_WallFireA</code>
+* ''OnHearbeat script:'' <code>NW_S0_WallFireC</code>
+
+==External Links==
+* {{FRW}}

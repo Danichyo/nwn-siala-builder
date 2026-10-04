@@ -1,0 +1,16 @@
+{{Weapon|imagefile=Spear.jpg
+  |weaponname=Spear
+  |weapondescription=Another of history's most basic weapons, the '''spear''' is nevertheless a formidable weapon. Little more than a simple shaft topped with a sharpened head, the spear is the staple of many a militia.
+  |weight=3
+  |cost=1
+  |damage=1d8
+  |critical=x3
+  |damagetype=[[piercing damage|Piercing]]
+  |size=Large
+  |proficiency=[[Weapon proficiency (druid)|Druid]]
+&nbsp;[[Weapon proficiency (simple)|Simple]]
+  |category=[[Category:Polearms]] [[Category:Simple weapons]]
+}}
+
+==Notes==
+*In [[Neverwinter Nights]], the spear is not a [[throwing weapon]].

@@ -1,0 +1,7 @@
+A '''construct''' is an animated object or artificially constructed creature.
+Since they do not depend on the functioning of organs, they are immune to [[sneak attack]]s, [[critical hit]]s, [[mind-affecting]] spells, [[paralysis]], [[poison]], and [[disease]]. Since they are not actually alive, they are immune to [[death magic]], [[level drain]], and [[ability drain]].
+As they lack their own consciousness, their [[alignment]] is usually [[true neutral]].
+The great magic required to animate the more powerful golems makes them immune to some or all [[spell]]s.
+
+'''See also:''' [[:Category:Constructs]]
+[[Category:Races]]

@@ -1,0 +1,18 @@
+{{spell
+|icon=is_resurrec.gif
+|clericlevel=7
+|innatelevel=7
+|school=[[conjuration]]
+|components=VS
+|range=t
+|area=single
+|save=harmless
+|spellresistance=no
+|duration=instant
+|line=Restoring life
+|line5=raise dead
+|line7=resurrection
+|desc=Returns a single target corpse to life with full [[hit point]]s.}}
+
+==Custom content notes==
+* ''script:'' <code>nw_s0_resserec</code>

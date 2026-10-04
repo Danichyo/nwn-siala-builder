@@ -1,0 +1,141 @@
+'''Weapon size''' relates to the size of the weapon in comparison to that of the [[creature]] wielding it. This determines which weapons can be wielded, as well as how they are wielded by a particular creature. In addition, the relative sizes of weapons are a factor during [[disarm]] attempts.
+
+A creature can wield any weapon up to one size larger than their own size and down to two sizes smaller than their own size. Other weapons cannot be wielded. (For playable races, this only excludes large weapons from gnomes and halflings.)
+*A melee weapon at least one size smaller than the wielder is considered a [[light weapon]].
+*A melee weapon one size larger than the wielder is a [[two-handed weapon]].
+
+'''Example:''' A medium-sized [[human]] may wield a medium-sized [[longsword]] in one hand or a large-sized [[greatsword]] two-handed. However, a small-sized [[halfling]] may not wield a greatsword and may only wield a longsword two-handed.
+
+{| class="centertable"
+ |+Weapons by size and proficiency
+  |&nbsp;
+  !Simple
+  !Martial
+  !Exotic
+ |-
+  !Tiny
+  |
+{|
+ |-
+   |[[dagger]]&nbsp; || ''([[piercing damage|piercing]])''
+ |- 
+   |[[dart]] || ''(piercing, ranged)''
+|}
+  |&nbsp;
+  |
+{|
+ |- 
+   |[[kukri]] || ''([[slashing damage|slashing]])''
+ |-
+   |[[shuriken]]&nbsp; || ''(piercing, ranged)''<br />
+|}
+ |-
+  !Small
+  |
+{|
+ |- 
+   |[[light crossbow]]&nbsp; || ''(piercing, ranged)''
+ |-
+   |[[lance]]&nbsp; || ''(piercing)''
+ |-
+     |[[mace]] || ''([[bludgeoning damage|bludgeoning]])''
+ |-
+   |[[sickle]] || ''(slashing)''
+ |-
+   |[[sling]] || ''(bludgeoning, ranged)''
+|}
+  |
+{|
+ |- 
+   |[[handaxe]] || ''(slashing)''
+ |-
+   |[[light hammer]]&nbsp; || ''(bludgeoning)''
+ |-
+   |[[shortsword]] || ''(piercing)''
+ |-
+   |[[throwing axe]]&nbsp; || ''(slashing, ranged)''
+|}
+  |
+{|
+ |- 
+   |[[kama]]&nbsp; || ''(slashing)''
+ |-
+   |[[whip]]<nowiki>*</nowiki>&nbsp; || ''(slashing)''
+|}
+ |-
+  !Medium
+  |
+{|
+ |- 
+   |[[club]] || ''(bludgeoning)''
+ |-
+   |[[heavy crossbow]]&nbsp; || ''(piercing, ranged)''
+ |-
+   |[[magic staff]] || ''(bludgeoning)''
+ |-
+   |[[morningstar]] || ''([[bludgeoning-piercing damage|bludgeoning-piercing]])''
+|}
+  |
+{|
+ |- 
+   |[[battleaxe]] || ''(slashing)''
+ |-
+   |[[light flail]] || ''(bludgeoning)''
+ |-
+   |[[longsword]] || ''(slashing)''
+ |-
+   |[[rapier]] || ''(piercing)''
+ |-
+   |[[scimitar]] || ''(slashing)''
+ |-
+   |[[shortbow]] || ''(piercing, ranged)''
+ |-
+   |[[warhammer]]&nbsp; || ''(bludgeoning)''
+|}
+  |
+{|
+ |- 
+   |[[bastard sword]] || ''(slashing)''
+ |-
+   |[[dwarven waraxe]]<nowiki>*</nowiki>&nbsp; || ''(slashing)''
+ |-
+   |[[katana]] || ''(slashing)''
+|}
+ |-
+  !Large
+  |
+{|
+ |- 
+   |[[quarterstaff]]&nbsp; || ''(bludgeoning)''
+ |-
+   |[[spear]] || ''(piercing)''
+|}
+  |
+{|
+ |- 
+   |[[greataxe]] || ''(slashing)''
+ |- 
+   |[[greatsword]]&nbsp; || ''(slashing)''
+ |- 
+   |[[halberd]] || ''([[piercing-slashing damage|piercing-slashing]])''
+ |- 
+   |[[heavy flail]] || ''(bludgeoning)''
+ |- 
+   |[[longbow]] || ''(piercing, ranged)''
+ |- 
+   |[[trident]] || ''(piercing)''
+|}
+  |
+{|
+ |- 
+   |[[dire mace]] || ''(bludgeoning, [[double-sided weapon|2-sided]])''
+ |- 
+   |[[double axe]] || ''(slashing, 2-sided)''
+ |- 
+   |[[scythe]] || ''(piercing-slashing)''
+ |- 
+   |[[two-bladed sword]]&nbsp; || ''(slashing, 2-sided)''
+|}
+|}
+<small><nowiki>*</nowiki>=exclusive to [[Hordes of the Underdark]].</small>
+[[category:weapons| Weapon size]]

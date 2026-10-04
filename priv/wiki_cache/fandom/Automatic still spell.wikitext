@@ -1,0 +1,30 @@
+[[Image:Ife_x2autogstl.gif|right|Automatic still spell III]][[Image:Ife_x2autostl.gif|right|Automatic still spell II]][[Image:Ife_x2autolstl.gif|right|Automatic still spell I]]
+{{feat
+|epic=yes
+|type=metamagic
+|prereq=21st level, [[still spell]], [[spellcraft]] 27, ability to cast 9th level spells
+|desc=This feat allows the character to cast all spells of a given level range as still spells automatically. These spells may be cast while wearing armor. This feat may be taken multiple times:
+* Automatic still spell I: Cast any level 0 - 3 spell as a still spell.
+* Automatic still spell II: Cast any level 4 - 6 spell as a still spell.
+* Automatic still spell III: Cast any level 7 - 9 spell as a still spell.
+|use=automatic
+|bonus1=champion of Torm
+|bonus2=cleric
+|bonus3=druid
+|bonus4=pale master
+|bonus5=red dragon disciple
+|bonus6=shifter
+|bonus7=sorcerer
+|bonus8=wizard
+}}
+
+== Notes ==
+*Requires [[Hordes of the Underdark]].
+* The "ability to cast level 9 spells" may be better understood as the ability to learn level 9 spells (as [[wizard]]s are not required to know spells of the highest level they can cast).
+*This feat can be selected by [[bard]]s. However, a bard cannot achieve the 9th level spell requirement on its own, so 17 levels of [[cleric]], [[druid]], or [[wizard]], or 18 levels of [[sorcerer]], would be needed.
+*By removing the somatic [[component]] from spells, these feats eliminate the risk of arcane [[spell failure]] associated with wearing armor. Several arcane spellcaster builds acquire ''automatic still spell III'' along with one level in a warrior class that provides [[armor proficiency (heavy)|heavy armor]] and [[shield proficiency]]. This combination allows the spellcaster to gain up to 11 [[armor class|AC]] (8 from [[full plate]] and 3 from a [[tower shield]]), possibly plus a [[shield bonus]].
+* Auto still spell does not add a metamagic icon to the spells it affects. The only indication that this feat is having an effect is the lack of spell failure due to armor and shield (and [[deaf]]ness, for some odd reason).
+
+== Custom content notes ==
+*A custom class must have this feat in their feat list, or that class will not be able to select it as a general feat.
+[[category:feats restricted by class, epic]]

@@ -1,0 +1,59 @@
+{
+  "_layer": "vanilla",
+  "_hand_written": true,
+  "_note": "Фиты, которые таблица игры закрывает от выбора на левелапе, не удаляя строку (задача 4.49). Читает Data.Loader.Feats.apply_level_up_selectable_layer/2: запись ставит фиту level_up_selectable? = false — тот же флаг и тот же отказ {:not_selectable_at_level_up, id}, что у слоя Сиалы (siala_41/feats.json, what: \"level_up_selectable\", Riding Sprint и Smile of Death), только на уровень ниже: это факт таблицы движка, а не шарда, и до Сиалы он доезжает сам. Приём таблицы — MinLevel 99 (уровня персонажа 99 не бывает) при ALLCLASSESCANUSE 0 и ни одной строке cls_feat_*.2da с List 0/1/2: фит приходит только выдачей (List 3). Сборка падает на записи без источника-строки feat.2da, не verified, на повторе и на неизвестном ключе. ⚠️ Флаг не запрещает объявить фит с вещи (Rules.GearFeats) — это другой путь в билд, и таблица о нём не говорит.",
+  "feats": [
+    {
+      "feat": "mount_actions",
+      "level_up_selectable": false,
+      "status": "verified",
+      "quote": "MinLevel 99",
+      "source": {
+        "kind": "2da",
+        "table": "feat.2da",
+        "row": 1089,
+        "label": "HORSE_MENU",
+        "column": "MinLevel",
+        "value": "99",
+        "build": "89.8193.37-17",
+        "fetched": "2026-10-03",
+        "note": "Строка 1089 feat.2da базовой игры — FEAT_HORSE_MENU, имя в dialog.tlk «Mount Actions». MinLevel 99 без MinLevelClass — уровень персонажа, которого не бывает."
+      },
+      "quote_2": "ALLCLASSESCANUSE 0",
+      "source_2": {
+        "kind": "2da",
+        "table": "feat.2da",
+        "row": 1089,
+        "label": "HORSE_MENU",
+        "column": "ALLCLASSESCANUSE",
+        "value": "0",
+        "build": "89.8193.37-17",
+        "fetched": "2026-10-03",
+        "note": "ALLCLASSESCANUSE 0 — фит берёт только класс, чья таблица cls_feat_* перечисляет строку с List 0/1/2 (nwn.wiki, feat.2da). Ни одна из 22 таблиц cls_feat_* базовой игры так строку 1089 не перечисляет: у всех одиннадцати базовых классов она стоит с List 3 и GrantedOnLevel 1 — выдача (vanilla/class_granted_feats.json)."
+      },
+      "quote_3": "* This feat is automatically given to a [[player character]] upon obtaining the first level of a [[base class]].",
+      "source_3": {
+        "wiki": "fandom",
+        "page": "Mount actions",
+        "revid": 41176,
+        "fetched": "2026-08-01"
+      },
+      "hak": {
+        "note": "Хак Сиалы держит ту же строку закрытой и строже: feat.2da:1089 — MinLevel 99, ALLCLASSESCANUSE 0 и ещё MINSTR 99 (у базы ****); выдачу всем одиннадцати базовым классам хак выносит на 60-й уровень, за кап (siala_41/class_granted_feats.json). Значит, на Сиале фит не приходит ни выдачей, ни выбором.",
+        "source": {
+          "kind": "hak",
+          "table": "feat.2da",
+          "row": 1089,
+          "columns": {
+            "MinLevel": "99",
+            "ALLCLASSESCANUSE": "0",
+            "MINSTR": "99"
+          },
+          "sha1": "470c84d59da7b158cd5b70de577ad3d8132d95c9",
+          "fetched": "2026-08-27"
+        }
+      },
+      "note": "Находка сверки хака Сиалы (mix hak2da.diff, задача 4.49, п. 4): у Сиалы фит, который Fandom подписывает type=general, брался общим и расовым слотом — хак выносит его выдачу за кап, и ничто больше не держало его вне слотов. Таблица базовой игры закрывает ту же строку тем же способом, поэтому запись ванильная и у ванили законно сдвигает снапшот одним флагом. У ванили ответ билда не меняется: фит всё равно у каждого с 1-го уровня — выдачей, — и раньше его отбивала причина «уже есть» (already_taken), теперь — «не выбирается при левелапе»; из списков слотов он уходит. Fandom не спорит: «automatically given» (quote_3) и ни слова о выборе."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{{spell
+|icon=is_splresis.gif
+|clericlevel=5
+|druidlevel=5
+|innatelevel=5
+|school=[[abjuration]]
+|components=VS
+|range=t
+|area=single
+|save=harmless
+|spellresistance=no
+|duration=1 [[turn]] / level
+|desc=The target creature has its [[spell resistance]] set to 12, +1 per caster level. If the target already had a higher spell resistance, this spell has no effect.}}
+
+== Notes ==
+
+* In the absence of [[spell penetration]], this spell allows the target to resist spells from an equal-level caster 55% of the time.
+
+==Custom content notes==
+*''script:'' <code>NW_S0_SplResis</code>

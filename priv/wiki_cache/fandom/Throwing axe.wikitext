@@ -1,0 +1,20 @@
+{{Weapon|imagefile=Throwing axe.jpg
+  |weaponname=Throwing axe
+  |weapondescription=The '''throwing axe''' bears little in common with the farm implement it is derived from. It has been carefully balanced for flight, sacrificing durability for precision.
+  |weight=1
+  |cost=1
+  |damage=1d6
+  |critical=x2
+  |damagetype=[[slashing damage|Slashing]]
+  |size=Small
+  |proficiency=[[Weapon proficiency (martial)|Martial]]
+  |category=[[Category:Throwing weapons]][[Category:Axes]] [[Category:Martial weapons]]
+}}
+
+==Notes==
+*Throwing axes can be used with a [[shield]].
+*Throwing axes are automatically [[mighty]] up to the character's [[strength]] modifier.
+*The weight of a full stack (50 lbs) often incurs [[encumbrance]] concerns.
+
+==Toolset==
+* Throwing axes are listed in the [[throwing blueprint category]] on the [[item palette]] of the [[toolset]].

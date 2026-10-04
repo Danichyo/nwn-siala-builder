@@ -1,0 +1,27 @@
+{{spell
+|icon=is_x2blckstff.gif
+|magelevel=8
+|innatelevel=8
+|school=[[transmutation]]
+|components=VS
+|range=t
+|area=creature holding a [[quarterstaff]] or a quarterstaff item
+|save=none
+|spellresistance=<strike>yes</strike> no
+|immunity=weapon enchantment
+|duration=1 [[round]] / level
+|desc=Casting this spell on a quarterstaff will do the following:
+* Gives it a +4 [[enhancement bonus]].
+* On striking a creature, ''[[dispel magic]]'' is cast on the target.
+The spell will not work on any other weapon than a quarterstaff.
+}}
+
+== Notes ==
+
+* Requires [[Hordes of the Underdark]].
+* The ''dispel magic'' is effectively at [[caster level]] 10 (the maximum for the spell).
+* This will replace any existing temporary enhancement bonus (e.g. from [[greater magic weapon]]).<!-- The on-hit dispel also replaces, but is there another source of temporary on-hit dispels? -->
+
+== Custom content notes ==
+
+* ''script:'' <code>X2_S0_Blckstff</code>

@@ -1,0 +1,27 @@
+{{spell
+|icon=is_owlwis.gif
+|bardlevel=2
+|clericlevel=2
+|magelevel=2
+|innatelevel=2
+|school=[[transmutation]]
+|components=VS
+|range=t
+|area=single
+|save=harmless
+|spellresistance=no
+|duration=1 [[hour]] / level
+|line=Owl's wisdoms
+|line2=Owl's wisdom
+|line6=Greater owl's wisdom
+|desc=The target creature's [[wisdom]] is increased by 1[[d4]]+1.}}
+
+== Notes ==
+*If the maximum wisdom increase is not achieved, the spell can be cast again for a chance at a higher die roll (up to +5 regularly or +7 [[empower spell|empowered]]). The recast will not lower the ability score.
+* The (more potent) druidic version of this spell is ''[[owl's insight]]''.
+
+== Custom content notes ==
+* ''script:'' <code>NW_S0_OwlWis</code>
+
+==External Links==
+* {{FRW}}

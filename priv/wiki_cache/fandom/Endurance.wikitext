@@ -1,0 +1,23 @@
+{{spell
+|icon=is_endurce.gif
+|clericlevel=2
+|magelevel=2
+|innatelevel=2
+|school=[[transmutation]]
+|components=VS
+|range=t
+|area=single
+|save=none
+|spellresistance=no
+|duration=1 [[hour]] / level
+|line=Endurances
+|line2=Endurance
+|line6=Greater endurance
+|desc=The target [[creature]]'s [[constitution]] is increased by 1[[d4]]+1.}}
+
+==Notes==
+*As with all beneficial spells, the effects of this spell are removed as soon as the caster or target ''begins'' [[rest]]ing. If the target's remaining [[hit point]]s are less than the bonus provided by the higher constitution [[modifier]] when such resting occurs, the target will die.
+*If the maximum constitution increase is not achieved, the spell can be cast again for a chance at a higher die roll (up to +5 regularly or +7 [[empower spell|empowered]]). The recast will not lower the ability score.
+
+==Custom content notes==
+*''script:'' <code>NW_S0_Endurce.nss</code>

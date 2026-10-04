@@ -1,0 +1,11 @@
+{{feat
+|type=class
+|prereq=[[weapon of choice]], [[weapon master]] 5
+|desc=The weapon master gains a +1 bonus to all [[attack roll]]s with their weapon of choice.
+|use=automatic
+|icon=ife_x2supwpfo.gif
+|class=weapon master
+}}
+
+==Notes==
+*Requires [[Hordes of the Underdark]].

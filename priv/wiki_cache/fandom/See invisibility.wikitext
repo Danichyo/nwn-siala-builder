@@ -1,0 +1,19 @@
+{{spell
+|icon=is_seeinvis.gif
+|bardlevel=2
+|magelevel=2
+|innatelevel=2
+|school=[[divination]]
+|components=VS
+|range=p
+|area=single
+|save=harmless
+|spellresistance=no
+|duration=1 [[turn]] / level
+|desc=The target creature is able to see all [[invisible]] creatures within his line of sight.}}
+
+== Notes ==
+* This [[effect]] is easier to [[dispel]] than most, as its creator's level is zero in the dispel check.
+
+== Custom content notes ==
+* ''script:'' <code>NW_S0_SeeInvis</code>

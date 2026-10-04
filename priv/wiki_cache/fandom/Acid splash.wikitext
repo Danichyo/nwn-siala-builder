@@ -1,0 +1,19 @@
+{{spell
+|icon=is_x1acidsp.gif
+|magelevel=0
+|innatelevel=0
+|school=[[conjuration]]
+|components=VS
+|range=m
+|area=single creature/object
+|spellresistance=yes
+|immunity=acid
+|duration=instant
+|desc=The caster fires a small orb of acid at the target for 1d3
+points of [[acid damage]].}}
+
+==Notes==
+*Added in the [[expansion pack]]s.
+
+==Custom content notes==
+*''Script:'' <code>X0_S0_AcidSplash.nss</code>

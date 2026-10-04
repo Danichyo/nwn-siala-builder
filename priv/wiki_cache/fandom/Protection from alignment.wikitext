@@ -1,0 +1,36 @@
+[[Image:Is protalign.gif|right|Protection from alignment]]
+[[Image:Is previl.gif|right|Protection from evil]]
+[[Image:Is prgood.gif|right|Protection from good]]
+{{spell
+|bardlevel=1
+|clericlevel=1
+|paladinlevel=1
+|magelevel=1
+|innatelevel=1
+|school=[[abjuration]]
+|components=VS
+|range=t
+|area=single
+|save=harmless
+|spellresistance=no
+|duration=1 [[hour]] / level
+|line=Alignment protection
+|line1=protection from alignment
+|line3=magic circle against alignment
+|line8=aura versus alignment
+|desc=When this spell is cast, the caster chooses a target to be protected from either [[good]] or [[evil]]. The target receives a +2 [[deflection bonus]] to [[armor class|AC]], +2 to all [[saving throw]]s, and immunity to any [[mind-affecting]] spells and spell-like abilities used by creatures of the chosen [[alignment]].}}
+
+== Notes ==
+*To [[quickslot]] protection from good, right-click the quickslot and choose the spell in the radial menu. Dragging the spell from the [[spellbook]] to the quickslot will only place protection from evil there.
+*An [[aura of fear]] counts as a mind-affecting spell-like ability.
+*This spell is invaluable in a [[PvM]] setting where most monsters have an evil alignment, especially when saving throw auto-failure on 1 is not disabled.
+*In a [[PvP]] setting, players often use this spell to protect themselves from both good and evil.
+*For immunity to mind spells used by opponents of any (including neutral) alignment, see [[mind blank]] and [[clarity]].
+* If a [[potion]] of this spell is made (typically via ''[[brew potion]]''), and if that potion is fed to an [[associate]], then the associate is protected from evil.
+
+== Custom content notes ==
+*''scripts:''
+**protection from good: <code>NW_S0_PrGood</code>
+**protection from evil: <code>NW_S0_PrEvil</code>
+==External links==
+*{{FRW}}

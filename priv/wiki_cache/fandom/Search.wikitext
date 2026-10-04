@@ -1,0 +1,25 @@
+[[Image:Isk search.gif|right|Search]]
+Search is used to detect traps, find hidden objects, and secret doors.
+
+*'''Ability''': [[intelligence]]
+
+*'''Classes''': [[assassin]], [[ranger]], [[red dragon disciple]], [[rogue]], [[shadowdancer]]
+
+*'''[[Cross-class skill|Cross-class]]''': yes
+
+*'''[[untrained skill check|Requires training]]''': no
+
+*'''Check''': Detecting a trap is an opposed test, pitting the character's search check against a [[difficulty class]] equal to the [[set trap]] skill check, plus the strength of the trap. Only rogues may detect traps with a DC greater than 35.
+
+*'''Special''': [[Elf|Elves]] and [[dwarf|dwarves]] receive a +2 bonus to their search checks and [[half-elf|half-elves]] gain a +1 bonus.
+
+*'''Use''': Search is part of the [[detect]] modal action. In passive detect mode, checks are made automatically every round. Active detect mode is a modal action that reduces the character's normal movement rate and performs an active search, as well as [[spot]] and [[listen]] checks.
+
+== Notes ==
+*When a trap is set by a [[player character]], the setter's ''set trap'' skill (only) is added to the base detection DC, as listed in the notes for the [[set trap#Notes|set trap article]]. The setter does not get a die roll when determining the DC.
+*When a trap is placed by a module builder, the builder is free to arbitrarily set the detection DC.
+*Search checks are made every round, not continuously. A running character might enter a trap before being given a chance to detect it.
+*Search checks involve a die roll. Standing still allows a character to make additional search checks in the same area, possibly revealing a trap that had been missed by earlier rolls.
+*The search skill is also used to detect hidden trap doors or hidden wall doors in some dungeons.
+
+[[Category:skills]]

@@ -1,0 +1,25 @@
+{{Grimoire spell|imagename=Is curlgtw.gif
+|spellname=Cure Light Wounds
+|casterlevel=[[Bard]] 1, [[Cleric]] 1, [[Druid]] 1, [[Healing domain (grimoire)|Healing]] 1, [[Ranger]] 1, [[Paladin]] 1
+|innatelevel=1
+|school=[[Conjuration]] ([[Spell subschool|Healing]])
+|descriptors=None
+|components=V, S
+|range=[[touch attack|Touch]]
+|immunities=None
+|savingthrow=[[Will]] half
+|spellresistance=Yes
+|targettype=One living creature
+|duration=Instant
+|description=The target creature is healed for 1d8 points of damage, +1 point per caster level (to a maximum of +5). Healing spells have a reverse effect on [[undead]], harming instead of healing them. A successful touch attack must first be made when this spell is used against undead.  This spell has no effect on nonliving targets, such as [[construct]]s.
+}}
+
+== Notes ==
+*{{Grimoire spell change|pagename=[[Cure light wounds]]}}
+{{g_bard}}
+{{g_clr}}
+{{g_drd}}
+{{g_healing}}
+{{g_rgr}}
+{{g_pal}}
+{{g_subhea}}

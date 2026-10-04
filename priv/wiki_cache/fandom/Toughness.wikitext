@@ -1,0 +1,19 @@
+{{feat
+|type=general
+|reqfor=[[dwarven defender]]
+|desc=A character with this feat is tougher than normal, gaining one bonus [[hit point]] per [[character level|level]]. Hit points are gained retroactively when choosing this feat.
+|use=automatic
+|icon=ife_tough.gif
+}}
+
+==Builder notes==
+'''Item feat:''' No, but it can be added with custom content.
+
+==Custom content notes==
+'''Removable:''' yes
+
+'''Reusable:''' yes
+
+'''Script:''' hardcoded
+
+*This feat can be added to [[iprp_feats.2da]] to make it available as an item feat.

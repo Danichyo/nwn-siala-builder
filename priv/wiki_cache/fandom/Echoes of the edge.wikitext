@@ -1,0 +1,12 @@
+'''Type of Feat''': [[Class]]
+
+'''Prerequisite''': [[Iaijutsu master]] level 11
+
+'''Specifics''': The [[epic class|epic]] [[Iaijutsu master]] gains the ability to strike at a creature an additional time as a free action, as long as they successfully damage the target on the first strike. This attack is resolved at the highest [[base attack bonus]] and deals an amount of damage equal to the previous attack.
+
+'''Use''': Selected. 
+
+==Notes==
+
+*Added in the [[PRC Expansion Pack]].
+[[Category:PRC feats]]

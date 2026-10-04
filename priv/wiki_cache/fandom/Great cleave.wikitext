@@ -1,0 +1,18 @@
+{{feat
+|type=general
+|prereq=[[strength]] 13+, [[power attack]], [[cleave]], [[base attack bonus]] +4
+|reqfor=[[overwhelming critical]]
+|desc=As ''cleave'', except that there is no limit to the number of additional attacks that the character may make after killing one opponent.
+|use=automatic
+|icon=ife_x1gcleave.gif
+|bonus1=champion of Torm
+|bonus2=fighter
+}}
+
+==Notes==
+*Added in the [[expansion pack]]s.
+*This feat removes the once-per-[[round]] limitation of cleave. There are two ways in which this can commonly be seen. First, if a ''great cleave'' attack kills an opponent (typically a one-hit kill), then another ''great cleave'' attack is triggered. Second, if the attacker has multiple attacks in a given round, it is possible, for example, that the first and fourth attacks kill opponents; a ''great cleave'' attack will be triggered for each of these kills, resulting in two extra attacks in that round. (''Cleave'' by itself would only trigger an extra attack for the first kill.)
+*The cap of 15 attacks per round may be exceeded by great cleave; however this will usually cause a combat round to take longer than usual, and off-hand attacks are typically lost thereafter.
+* As with cleave, when great cleave is triggered by a kill, the next blow is upgraded to full AB.
+* The kill must be caused by damage from the weapon itself. Damage from [[on-hit]] properties, such as from [[darkfire]] or [[flame weapon]], will not trigger a great cleave when that damage kills an opponent. A kill from something other than damage, such as [[devastating critical]], also does not trigger a great cleave.
+*If an enemy is killed in the middle of a flurry, all remaining hits in that flurry are also considered killing blows.  That is each hit will trigger the next attack to be labeled great cleave and given full AB as well as adding an extra attack.

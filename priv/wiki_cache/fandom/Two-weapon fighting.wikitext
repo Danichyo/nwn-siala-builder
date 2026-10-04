@@ -1,0 +1,28 @@
+{{feat
+|type=general
+|reqfor=[[improved two-weapon fighting]]
+|desc=A character with this [[feat]] reduces the penalties suffered when [[dual-wield|fighting with two weapons]]. The normal penalty of -6 to the primary hand and -10 to the [[off-hand]] becomes -4 for the primary hand and -8 for the off-hand. The [[ambidexterity]] feat further reduces the attack penalty for the second weapon by 4 (to -4/-4). Best results are achieved if the off-hand weapon is [[light weapon|light]], further reducing the penalty for both the primary and off-hand by 2 (to -2/-2).
+|use=automatic
+|icon=ife_twoweap.gif
+|bonus1=champion of Torm
+|bonus2=dwarven defender
+|bonus3=fighter
+}}
+
+==Notes==
+*First level [[ranger]]s receive the [[dual-wield (feat)|dual-wield]] feat, which is a combination of ''ambidexterity'' and ''two-weapon fighting'' that does not function while wearing [[medium armor|medium]] or [[heavy armor]].
+*A [[double-sided weapon]], such as a [[two-bladed sword]] or a [[dire mace]], counts as a light weapon when dealing with the off-hand, allowing it to be wielded with minimal penalties.
+
+==Builder notes==
+'''Item feat:''' yes
+
+==Custom content notes==
+'''Removable:''' yes
+
+'''Reusable:''' yes
+
+'''Script:''' hardcoded
+
+*A custom class must have this feat in their feat list, or that class will not be able to select it as a general feat.
+
+[[category:feats restricted by class]]

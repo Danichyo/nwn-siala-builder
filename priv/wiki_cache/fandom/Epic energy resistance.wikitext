@@ -1,0 +1,23 @@
+[[Image:Ife x2enrrsa1.gif|right|Energy resistance, acid]]
+[[Image:Ife x2enrrsc1.gif|right|Energy resistance, cold]]
+[[Image:Ife x2enrrse1.gif|right|Energy resistance, electrical]]
+[[Image:Ife x2enrrsf1.gif|right|Energy resistance, fire]]
+[[Image:Ife x2enrrss1.gif|right|Energy resistance, sonic]]
+{{feat
+|epic=yes
+|type=defensive
+|prereq=21st level
+|desc=The character gains [[damage resistance|resistance]] 10 to the selected damage type ([[acid damage|acid]], [[cold damage|cold]], [[electrical damage|electrical]], [[fire damage|fire]], or [[sonic damage|sonic]]). This feat may be taken multiple times, to a maximum of 100 resistance to each damage type.
+|use=automatic
+|bonus1=druid
+|bonus2=dwarven defender
+|bonus3=monk
+|bonus4=pale master
+|bonus5=shifter
+|bonus6=sorcerer
+}}
+
+==Notes==
+*Requires [[Hordes of the Underdark]].
+*''Epic energy resistance'' supersedes [[resist energy]]; they do not [[stack]].
+*This feat does stack with &mdash; and is applied before &mdash; other (non-feat) sources of damage resistance.

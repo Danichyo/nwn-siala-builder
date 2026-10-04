@@ -1,0 +1,30 @@
+{{spell
+|icon=is_conund.gif
+|clericlevel=6
+|magelevel=7
+|innatelevel=7
+|school=[[necromancy]]
+|components=VS
+|range=s
+|area=single
+|save=[[will]] negates
+|spellresistance=yes
+|duration=1 [[hour]] / level
+|counters=<del>[[sunbeam]]</del>
+|line=Domination
+|line3=dominate animal
+|line4=dominate person
+|line7=control undead
+|line9=dominate monster
+|desc=A single [[undead]] creature with up to 2 [[hit dice]] per caster level [[dominated|falls under the caster's control]] unless it makes a successful will save.}}
+
+== Notes ==
+
+* This spell bypasses immunity to mind-affecting spells. (It would be useless otherwise, since undead typically have that immunity.)
+* Dominated creatures are [[associate]]s and increase the PC's [[party size penalty]] for [[experience point]]s.
+* Due to a .2da bug, ''sunbeam'' is not an additional [[counterspell]] of this spell.
+
+== Custom content notes ==
+
+* ''script:'' <code>NW_S0_ConUnd</code>
+* The immunity bypass is [[hardcoded]] to this spell's ID (28) and the domination effect.

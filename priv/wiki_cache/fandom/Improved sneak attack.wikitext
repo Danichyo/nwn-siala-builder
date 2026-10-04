@@ -1,0 +1,23 @@
+{{feat
+|epic=yes
+|type=general
+|prereq=(rogue) [[sneak attack]] (+8d6), [[sneak attack, blackguard]] (+8d6), or [[death attack]] (+8d6)
+|desc=Add +1[[d6]] to your sneak attack damage. This feat may be taken multiple times, to a maximum of +10d6.
+|use=automatic
+|icon=ife_x2impsnatt1.gif
+|bonus1=assassin
+|bonus2=blackguard
+|bonus3=rogue
+}}
+
+==Notes==
+*Requires [[Hordes of the Underdark]].
+
+=== Previous versions ===
+
+*In [[patch]] 1.66 and continuing into early versions of the [[Enhanced Edition]], a bug prevented this feat from working for an assassin who did not have [[sneak attack]] or [[sneak attack, blackguard]]. The ''improved sneak attack'' feats were still selectable for the assassin, but they added nothing. At least one die of sneak attack damage (from rogue levels, blackguard levels, or an item property) allowed ''improved sneak attack'' to work as expected.
+
+==Custom content notes==
+*A custom class must have this feat in their feat list, or that class will not be able to select it as a general feat.
+
+[[category:feats restricted by class, epic]]

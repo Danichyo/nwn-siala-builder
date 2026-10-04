@@ -1,0 +1,37 @@
+{{spell
+|icon=is_enebuff.gif
+|bardlevel=6
+|druidlevel=6
+|magelevel=5
+|domain=earth
+|domainlevel=5
+|domain2=fire
+|domain2level=5
+|domain3=protection
+|domain3level=5
+|innatelevel=5
+|school=[[abjuration]]
+|components=VS
+|range=p
+|area=caster
+|save=harmless
+|spellresistance=no
+|duration=1 [[turn]] / level
+|line=Elemental Resistance
+|line1=endure elements
+|line2=resist elements
+|line3=protection from elements
+|line5=energy buffer
+|desc=The caster gains [[damage resistance]] 40/- against all elemental [[damage type|forms of damage]]. The spell ends after absorbing 60 points of damage from any single elemental type.}}
+
+== Notes ==
+*This spell protects against [[sonic damage]] as well as elemental damage.
+*This spell stacks with &mdash; and is applied after &mdash; [[feat]]-based sources of damage resistance.
+* This spell will replace earlier castings of itself.
+*The standard [[scroll]] for this spell was added in the [[expansion pack]]s. Thus, scrolls of ''energy buffer'' cannot be obtained in the [[original campaign]]. (Custom scrolls are still a possibility in other [[module]]s that do not require the expansions, though.)
+*Unlike the other elemental resistance spells, this one can only target the caster.
+
+== Custom content notes ==
+* ''script:'' <code>NW_S0_EneBuffer</code>
+==External links==
+*{{FRW}}

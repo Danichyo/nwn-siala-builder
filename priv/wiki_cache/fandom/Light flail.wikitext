@@ -1,0 +1,71 @@
+{{Weapon|imagefile=Light flail.jpg
+  |weaponname=Light flail
+  |weapondescription=Originally a farm implement for threshing grain, the '''light flail''' consists of a wooden shaft attached to a heavy or spiked head by a chain or hinge. The light flail is approximately two feet long.
+  |weight=5
+  |cost=8
+  |damage=1d8
+  |critical=x2
+  |damagetype=[[bludgeoning damage|bludgeoning]]
+  |size=Medium
+  |proficiency=[[weapon proficiency (martial)|martial]]
+  |category=[[Category:Blunt weapons]] [[Category:Martial weapons]]
+}}
+
+==Notes==
+*Light flails may not be wielded in a [[player character]]'s [[off-hand]].
+
+==Toolset==
+* Light flails are listed under the [[flail blueprint category]] of the [[item palette]] in the [[Toolset]].
+
+== Eberond's Flail ==
+Eberond, a late commander for the Zhentarim, formed an elite mercenary band of spellcasting warriors to pillage the ruins of Myth Drannor. To protect his men from hostile magic, he outfitted them with these spell-resisting flails. Despite the gifts and payment, the men had no intention of entering Myth Drannor, and instead traveled to [[Calimshan]] to retire off of the sale of their weapons.
+
+*[[Enhancement bonus]]: +2
+*[[Spell resistance]]: 14
+*[[Item level restriction|Required level]]: 13
+
+== Flail of Destruction ==
+If J'elnyio of the Anvil had created just a few of these powerful weapons, he might have enjoyed a natural death. Instead he produced as many as he could, hoping to shift the balance against [[evil]] in the world. The problem, of course, is that his efforts eventually drew attention from the very evil the flails were designed to fight, and balance was restored.
+
+*[[Damage bonus]]: +[[d6]] [[fire damage]]
+*Enhancement bonus: +2
+*Required level: 11
+
+== Foundation +1 ==
+This weapon bears the mark of the dwarf [[Marrok]], Master Blacksmith of [[Neverwinter]]'s Shining Knight Arms and Armor. He forged it early in 1373 DR, to aid the heroes who sought to free his quarantined city from the virulent grasp of the so-called [[Wailing Death]].
+
+*Enhancement bonus: +1
+*[[On-hit]]: ''[[knock]]'' ([[difficulty class|DC]]=14)
+*Required level: 7
+
+== Foundation +4 ==
+This weapon bears the mark of the dwarf [[Barun Silverblade|Barun]], a Master Blacksmith who worked from a makeshift forge in the [[Uthgardt]] village of Beorunna's Well. He forged it late in 1373 DR, to aid the war effort against [[Aribeth|Lady Aribeth the Betrayer]], who was then marching against the northern city of Neverwinter and the Lords' Alliance.
+
+*Enhancement bonus: +4
+*On-hit: knock (DC=14)
+*Required level: 15
+
+'''Note:''' This weapon has been flagged [[plot]], and cannot be sold.
+
+== Foundation +8 ==
+The High Inquisitor of [[Auril]] was a bitterly cold woman with a penchant for crushing her enemies’ skulls with her magical [[mace]].  This diabolical fetish led her to hunt for better, more effective weapons, until she found the Foundation mace. Armed with the ultimate mace, the inquisitor led her soldiers in an attack on a clan of [[ogre]]s who refused to work for her army. While the mace destroyed many ogres, it disappeared along with its owner, when she was taunted into following an ogre mage into the caverns the ogres called home.
+
+*Enhancement bonus: +8
+*On-hit: knock (DC=22)
+*Required level: 23
+
+'''Notes:''' Requires [[Hordes of the Underdark]]. This weapon has been flagged plot, and cannot be sold.
+
+== Heirs of Osiris ==
+Items from the Old Empires are difficult to catalog, because they deal with events unknown to much of [[Faerûn]]. For example, these flails may date from the Orcgate Wars and the killing of the [[deity]] Osiris. At the moment of the god's death, his avatar fell also, shattering his weapon. When Osiris was resurrected, each piece of that broken flail supposedly became a diluted duplicate of the original, though none of this can be proven. 
+
+*Enhancement bonus: +1
+*Enhancement bonus: +4 versus [[undead]]
+*Required level: 8
+
+== Writ of the Vizier ==
+Created by Bertrand the Helper, these weapons saw use in many regal courts throughout the turn of the last century, though there is little in the way of documentation. They are the tools of the trusted deputy or valued assistant; the person who wields power behind the scenes. Neither the adviser nor the advised generally wish such a relationship known, so these items are usually kept a jealous secret.
+
+*Enhancement bonus: +1
+*On-hit: [[fear]] (DC=14) (50% / 2 [[round]]s
+*Required level: 7

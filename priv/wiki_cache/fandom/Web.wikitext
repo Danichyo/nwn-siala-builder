@@ -1,0 +1,33 @@
+{{spell
+|icon=is_web.gif
+|magelevel=2
+|domain=travel
+|domainlevel=2
+|innatelevel=2
+|school=[[conjuration]]
+|components=VS
+|range=m
+|area=huge
+|save=[[reflex]] partial
+|spellresistance=yes
+|duration=1 [[round]] / 2 levels
+|counters=<del>[[freedom of movement]]</del>
+|desc=Sticky strands cling to all creatures within the [[area of effect]], [[entangle|entangling]] them. Creatures who make their save can move, but at a [[movement speed decrease|reduced rate]] depending on their [[strength]].}}
+
+==Notes==
+* The movement reduction percentage is 65 minus twice the creature's strength, with a minimum reduction of 1%. This is calculated upon entering the area of effect and is not affected by changes to a creature's strength while the creature is in the area of effect.
+* Most (standard) spiders are immune to this spell.
+* [[Incorporeal]] creatures (and those with [[woodland stride]]) are immune to this spell's effects.
+* Sometimes - due to a bug in the game, the speed reduction is not removed when a creature leaves the area of effect, resulting in a permanent speed decrease.
+* Sometimes a victim's [[dexterity]] is permanently changed to 3. (A fix for this is available on the Vault<sup>[https://neverwintervault.org/project/nwn1/script/script-spell-fix-compilation]</sup>.)
+* Due to a .2da bug, ''freedom of movement'' is not an additional [[counterspell]] of this spell.
+
+==Custom content notes==
+
+*''script:'' <code>NW_S0_Web</code>
+*''OnEnter script:'' <code>NW_S0_WebA</code>
+*''OnExit script:'' <code>NW_S0_WebB</code>
+*''OnHearbeat script:'' <code>NW_S0_WebC</code>
+
+==External Links==
+* {{FRW}}

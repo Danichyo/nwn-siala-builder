@@ -1,0 +1,59 @@
+{{feat
+|epic=yes
+|type=general
+|prereq=[[epic class|epic]] [[shifter]], [[wisdom]] 25+
+|desc=The character can assume different outsider shapes three times per day &mdash; either an [[azer chieftain form|azer chieftain]], a [[rakshasa form|rakshasa]], or a [[death slaad form (shifter)|death slaad]].
+|use=selected. After choosing the ability, the character must select the type of outsider to change into.
+|icon=ife_x2outshape.gif
+|bonus1=shifter
+}}
+
+== Notes ==
+
+*Requires [[Hordes of the Underdark]].
+* This feat does not actually require one to be an epic shifter. It can be taken starting on shifter level 10 (when the shifter gets [[greater wildshape IV]]).
+* This form of shapeshifting cannot be [[dispel]]led.
+
+{| class="centertable" style="text-align:center"
+!Shape!!Str!!Dex!!Con!!Temp HP!!Dodge AC bonus!!Base AC
+|-
+|align=left|Rakshasa    ||17||20||-||+30||+12||27
+|-
+|align=left|Death slaad ||22||19||18||+70||+16||29 (30 -1 large size)
+|-
+|align=left|Azer chief  ||20||-||21||+50||+13||-
+|}
+
+* '''Rakshasa shape:''' Can cast [[ice storm]], [[Mestil's acid breath]] and [[dispel magic]] unlimited times per day.
+**Like an NPC rakshasa, a shifter is vulnerable to [[blessed bolt|blessed crossbow bolts]] with the ''on-hit: slay rakshasa'' ability.
+**[[Damage reduction]]: 15/+5
+**Immunity to level 8 spells and lower.
+**Skill bonuses: +15 [[spellcraft]], +11 [[move silently]], +10 [[hide]], +10 [[spot]], +5 [[discipline]]
+**Bonus feats: [[dodge]], [[knockdown]], [[true seeing]]
+**Universal save +2
+**Merges weapons, items, and armor.
+**Weapon: ''rakshasa staff +5'', 1d10 [[fire damage]]
+*'''Death slaad shape:''' Is large-sized (-1 AB, -1 AC, -4 hide).
+** It has the [[chaos spittle]] ability, a ranged [[touch attack]] that deals (shifter levels / 3 + 2)d4 [[magical damage]].
+**Regeneration +5
+**Immunity to [[fear]].
+**Damage reduction 10/+5
+**[[Damage resistance]]: acid/10, cold/10, electricity/10, fire/10, sonic/10
+**Bonus feats: [[cleave]], [[power attack]]
+**Merges armor only.
+*'''Azer shape:'''
+** Can cast [[burning hands]] and [[fire stream]] unlimited times per day.
+**Spell resistance 12
+**Immunity increased: fire 100%
+**Immunity decreased: cold 50%
+**Weapon: ''azer flaming waraxe +5'' (really a [[dwarven waraxe]]) 2d4 fire damage
+**Bonus feats: [[cleave]], [[knockdown]], [[power attack]]
+**Merges weapons, items, and armor.
+
+* The spells ''burning hands'', ''ice storm'', ''Mestil's acid breath'', and ''dispel magic'' are the same spells that can be found in a [[spellbook]]. Thus [[quickslot]]s for these spells can be used to cast the (unlimited) shifted abilities, and can be used to apply [[metamagic]]. See [[shifted ability]] for details.
+
+== Custom content notes ==
+
+*A custom class must have this feat in their feat list, or that class will not be able to select it as a general feat.
+
+[[category:feats restricted by class, epic]]

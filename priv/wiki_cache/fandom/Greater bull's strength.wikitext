@@ -1,0 +1,22 @@
+{{spell
+|icon=is_grbullstr.png
+|innatelevel=6
+|school=[[transmutation]]
+|components=VS
+|range=t
+|area=single
+|save=harmless
+|spellresistance=no
+|duration=1 [[hour]] / level
+|line=Bull's strengths
+|line2=Bull's strength
+|line6=Greater bull's strength
+|desc=The target creature's [[strength]] is increased by 2[[d4]] + 1.}}
+
+== Notes ==
+* Casting this spell will remove all bonuses from earlier castings, as well as those from earlier castings of the ''[[bull's strength]]'' spell and [[bull's strength (feat)|feat]]. (However, ''bull's strength'' can be cast '''after''' ''greater bull's strength'' to get the bonuses from both to [[stack]].)
+
+== Custom content notes ==
+*''script:'' <code>NW_S0_GrBullStr</code>
+*This spell can be assigned to a [[spellbook]] by editing [[spells.2da]].
+[[Category:Non-class spells]]

@@ -1,0 +1,30 @@
+{{feat
+|epic=yes
+|type=class
+|prereq=[[barbarian]] 23
+|desc=An epic barbarian's [[damage reduction]] allows him to ignore the first 5 points of damage from any physical attack. This ability increases by +1 point every 3rd [[class level|level]] past 23rd.
+|use=automatic
+|icon=ife_damred.gif
+|class1=barbarian
+}}
+
+==Notes==
+*Requires [[Hordes of the Underdark]].
+*This feat replaces (does not [[stack]] with) the barbarian's pre-epic [[damage reduction (barbarian)|damage reduction]].
+
+{|class=wikitable style="text-align:center"
+ |-
+   ! barbarian level !! damage reduction
+ |-
+   | 23 ||  5/-
+ |-
+   | 26 ||  6/-
+ |-
+   | 29 ||  7/-
+ |-
+   | 32 ||  8/-
+ |-
+   | 35 ||  9/-
+ |-
+   | 38 || 10/-
+|}

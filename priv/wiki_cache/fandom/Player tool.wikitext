@@ -1,0 +1,26 @@
+{{feat
+|icon=ife_ptool10.gif
+|type=instant custom
+|prereq=none
+|desc=This instant feat can be given to players to enable a behavior you desire. The feat does nothing unless implemented in a community-made [[module]]. The feat is implemented by editing the <code>x3_pl_tool##</code> [[script]] in the [[Toolset]] and then giving the feat to a [[player character]]. This can be done by adding an [[item property]] bonus feat to a [[skin item|creature skin]] that has been previously equipped on the player character through scripting.
+|use=selected
+}}
+
+== Notes ==
+
+* Added in [[patch]] 1.69.
+* There are ten of these feats &mdash; player tool 1 to player tool 10.
+* These feats appear under the [[base class]] special abilities in the [[radial menu]], which happens to always put them next to the [[horse menu]].
+* The intent of these feats is to relieve the reliance upon [[item]]s to give players easy access to certain custom scripts. They also eliminate the activation animation associated with item use. A player can select any of these tools from the radial menu, then select a target (which could be ignored, depending on the implementation), thereby initiating whatever actions the module builder associated with that tool.
+
+== Builder notes ==
+
+'''Item feat:''' yes (intended use)
+
+== Custom content notes ==
+
+'''Removable:''' yes
+
+'''Reusable:''' yes (no default behavior)
+
+'''Scripts:''' <code>x3_pl_tool01</code> through <code>x3_pl_tool10</code>

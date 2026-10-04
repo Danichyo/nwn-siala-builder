@@ -1,0 +1,39 @@
+A '''melee weapon''' refers to an [[item]] that can be used to perform an [[attack roll]] while in [[melee]].
+These are typically superior to [[unarmed strike]]s, although exceptions (e.g. [[monk]]s) exist.
+
+When a [[spell]] affects a melee weapon (e.g. ''[[bless weapon]]''), "melee weapon" refers to items from a specific list created by BioWare. This list consists of all standard melee weapons except [[lance]]s (as lances were added in the last patch and adding them to the list was overlooked).
+To be precise, the list is <!-- copied from IPGetIsMeleeWeapon() in x2_inc_itemprop; GetMeleeWeapon() in x2_i0_spells has the same list as of 1.69 -->
+[[bastard sword]],
+[[battleaxe]],
+[[club]],
+[[dagger]],
+[[dire mace]],
+[[double axe]],
+[[dwarven waraxe]],
+[[greataxe]],
+[[greatsword]],
+[[halberd]],
+[[handaxe]],
+[[heavy flail]],
+[[kama]],
+[[katana]],
+[[kukri]],
+[[light flail]],
+[[light hammer]],
+[[longsword]],
+[[mace]],
+[[magic staff]],
+[[morningstar]],
+[[rapier]],
+[[quarterstaff]],
+[[scimitar]],
+[[scythe]],
+[[shortsword]],
+[[sickle]],
+[[spear]],
+[[trident]],
+[[two-bladed sword]],
+[[warhammer]], and
+[[whip]].
+Additional melee weapons can be added with custom content, but they will not be recognized as melee weapons by spells unless the spell [[script]]s are updated. (The list is implemented in two places&nbsp;&mdash; <code>GetMeleeWeapon()</code> in <code>x2_i0_spells</code> and <code>IPGetIsMeleeWeapon()</code> in <code>x2_inc_itemprop</code>. Whichever list is used by the spell in question would need to be updated, then the spell script recompiled.)
+[[Category: Weapons| Melee weapon]]

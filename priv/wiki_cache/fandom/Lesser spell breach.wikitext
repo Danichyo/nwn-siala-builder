@@ -1,0 +1,25 @@
+{{spell
+|icon=is_lsspbrch.gif
+|magelevel=4
+|innatelevel=4
+|school=[[abjuration]]
+|components=VS
+|range=m
+|area=single
+|save=none
+|spellresistance=no
+|duration=special
+|counters=<del>[[minor globe of invulnerability]]</del>, <del>[[lesser spell mantle]]</del>
+|linebreach=yes
+|desc=This spell strips an enemy mage of up to two magical defenses, including [[lesser spell mantle]], [[spell mantle]], [[greater spell mantle]], [[minor globe of invulnerability]], [[globe of invulnerability]], [[stoneskin]], [[greater stoneskin]], [[premonition]], [[protection from elements]], [[ghostly visage]], [[ethereal visage]], [[mage armor]], [[shadow shield]] and [[elemental shield]]. This spell will also reduce the target creature's [[spell resistance|SR]] by 3 for ten [[round]]s.}}
+
+== Notes ==
+* See [[breach]] for the full list of spells stripped.
+* The reduced spell resistance is an [[extraordinary effect]], so it cannot be dispelled.
+* In a mage battle, this (level 4) spell's ability to breach two spells can be as effective as a (level 9) [[Mordenkainen's disjunction]] since the breached spells will almost always include either [[spell mantle]], or [[greater spell mantle]], and these are the only arcane spells that can resist a [[Bigby's forceful hand]] other than a [[lesser spell mantle]].
+* Due to a .2da bug, neither ''minor globe of invulnerability'' nor ''lesser spell mantle'' is an additional [[counterspell]] of this spell.
+
+== Custom content notes ==
+*''script:'' <code>NW_S0_LsSpBrch</code>
+==External links==
+*{{FRW}}

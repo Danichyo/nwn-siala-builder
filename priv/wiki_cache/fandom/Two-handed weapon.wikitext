@@ -1,0 +1,6 @@
+A '''two-handed weapon''' is a [[weapon]] whose [[weapon size]] is one category larger than its wielder. (That is, a large weapon for most [[player character]]s, and a medium weapon for [[gnome]]s and [[halfling]]s.) These weapons require two hands to wield, so while they only occupy the [[main hand slot]], they also block equipping anything in the [[off-hand slot]]. The most significant consequence of this may be the inability to use a [[shield]] while wielding a two-handed weapon.
+
+The advantage of using a two-handed weapon is having the strength [[modifier]] (if positive) increased 50% (rounded down) before being added to damage inflicted by the weapon.
+
+Weapons more than one size category larger than the wielder are not considered two-handed weapons because they cannot be wielded at all.
+[[Category:Weapons| Two-handed weapon]]

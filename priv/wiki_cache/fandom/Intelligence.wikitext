@@ -1,0 +1,40 @@
+{{redirect|Int}}
+
+'''Intelligence''' determines how well a character learns and reasons. Intelligence is important for [[wizard]]s because it affects how many spells they can cast, how hard their spells are to resist, and how powerful their spells can be. It is also important for any character who wants to have a strong assortment of [[skill]]s; however increasing intelligence will not grant bonus skill points retroactively.
+<!-- The above comes from BioWare. Please do not edit mercilessly. -->
+
+'''Skills:''' The [[skill]]s to which the [[ability modifier|intelligence modifier]] is added are [[appraise]], [[craft armor]], [[craft trap]], [[craft weapon]], [[disable trap]], [[lore]], [[search]], and [[spellcraft]].
+
+'''Classes:''' In addition to wizard, the [[class]] with features affected by intelligence is [[assassin]].
+
+'''Specials:''' The (base) intelligence modifier is added to [[skill point]]s gained each level, subject to a minimum of 1 skill point per level. (At [[character level]] 1, this is done before quadrupling the points.)
+
+'''Increasing intelligence:'''
+
+Intelligence may be permanently increased in the following ways (not subject to the +12 [[ability cap]])
+
+* Ability increase every fourth character level (+1, max of +10)
+* [[Dragon abilities]] class feat at [[red dragon disciple]] level 9 (+2)
+* [[Great intelligence]] [[epic feat]] at character level 21 and every third level thereafter (+1, max of +7)
+** A character levelling up as an epic [[wizard]] may select great intelligence as a [[bonus feat]], allowing a maximum increase of +10
+
+Intelligence may be temporarily increased in the following ways (subject to the +12 ability cap)
+
+* [[Fox's cunning]] (+1 to +5, +1 to +7 if [[Empower spell|empowered]])
+* Equipping items with an intelligence bonus property (+1 to +12)
+* Activating a scarlet and blue [[ioun stone]] (+2)<!-- ordered by spells, class abilities, ioun stone; alphabetical within each category. -->
+
+Intelligence is a moderately important ability for many players, as a shortage of skill points is often a concern. On the other hand, increasing intelligence at the expense of other abilities is typically not beneficial to anyone but a wizard. Base scores of 10-14 are fairly common, with the higher end often motivated by [[feat]] prerequisites. Some players will, though, do without the skill points and "dump" intelligence, intentionally leaving it as low as possible so that more ability points are available for other uses in the [[point buy]] system.
+
+An intelligence lower than 9 affects conversations in some [[module]]s. While not enforced in any way, this is a convention established by [[BioWare]] in the [[official campaign]]s.
+The more significant effect is the inaccessibility to low-intelligence characters of many "insight" dialog lines, lines that allow the [[player character]] to deduce information from subtle observations of another character or the environment.
+The more noticeable effect is the inability of low-intelligence player characters to speak properly, but this is restricted to the [[original campaign]] and a few user [[module]]s, due to the time it takes to implement (essentially, all dialogs must be written twice, once normally and once for the "dumb-speak").
+
+The core [[script]]s (specifically <code>nw_i0_plot</code>) define three ranges for intelligence &mdash; "low" (less than 9), "normal" (at least 9), and "high" (15 or more). Whether or not these ranges mean anything depends on the [[module]] being played. (For example, the [[official campaign]]s often require "normal", and sometimes "high", intelligence to receive "insight" dialog lines, and the [[original campaign]] uses the "low" range for determining if a character is unable to speak properly.) The ready availability of these ranges does make these breakpoints likely, if intelligence ranges are used at all.
+
+== Spellcasting ==
+
+Wizard spellcasting is intelligence-based (but not the spellcasting of [[bard]]s and [[sorcerer]]s, as players of previous editions of [[Dungeons & Dragons]] might assume). This has several consequences.
+The highest [[spell level]] that a wizard can learn or cast is the caster's base (unmodified) [[ability score|intelligence score]] minus ten, while [[bonus spells]] are given to wizards based on the caster's current (modified) intelligence modifier.
+In addition, the intelligence modifier is added to the [[difficulty class|DC]]s of spells cast by a wizard.
+[[category:abilities]]

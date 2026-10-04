@@ -1,0 +1,25 @@
+{{spell
+|icon=is_enedrain.gif
+|clericlevel=9
+|magelevel=9
+|innatelevel=9
+|school=[[necromancy]]
+|components=VS
+|range=s
+|area=single
+|save=[[fortitude]] negates
+|spellresistance=yes
+|immunity=negative
+|duration=permanent
+|line=Level draining
+|line4=enervation
+|line9=energy drain
+|desc=The target creature permanently [[level drain|loses]] 2[[d4]] character levels.}}
+
+== Notes ==
+
+* The level drain is a [[supernatural effect]], so it cannot be [[dispel]]led, nor is it removed by resting.
+* This spell will not affect a friendly target, after the [[PvP setting]] is taken into account.
+
+== Custom content notes ==
+* ''script:'' <code>NW_S0_EneDrain</code>

@@ -1,0 +1,26 @@
+{{feat
+|type=general
+|prereq=[[two-weapon fighting]], [[ambidexterity]], [[base attack bonus]] +9
+|desc=The character with this [[feat]] is able to get a second [[off-hand]] attack (at a penalty of -5 to his [[attack roll]]).
+|use=automatic. [[Ranger]]s receive this feat at [[class level|level]] 9, even if they do not meet the requirements.
+|icon=ife_twoweap.gif
+|class1=ranger
+|bonus1=champion of Torm
+|bonus2=fighter
+}}
+
+== Notes ==
+*Since rangers receive this feat automatically, it cannot be selected when gaining a ranger level (even prior to receiving it automatically).
+* The [[dual-wield (feat)|dual-wield]] feat does not satisfy this feat's prerequisites.
+
+==Builder notes==
+'''Item feat:''' No, but it can be added with custom content.
+
+==Custom content notes==
+'''Removable:''' yes
+
+'''Reusable:''' yes
+
+'''Script:''' hardcoded
+
+*This feat can be added to [[iprp_feats.2da]] to make it available as an item feat. It will then work without the player needing ''ambidexterity'' or ''two-weapon fighting'' (or [[dual-wield (feat)|dual-wield]]), but doing so incurs all the standard two-weapon penalties for the extra off-hand attack.

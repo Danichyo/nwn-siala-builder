@@ -1,0 +1,15 @@
+{{feat
+|type=class
+|prereq=[[blackguard]] 2
+|desc=Once a day, a blackguard of second level or higher may attempt to smite a [[good]] aligned enemy with one normal [[melee]] attack. The blackguard adds his [[charisma]] [[ability modifier|bonus]] to the [[attack roll]] and adds 1 extra point of damage per [[class level]].
+|use=selected
+|icon=ife_x1smgood.gif
+|class1=blackguard
+}}
+
+==Notes==
+*Added in the [[expansion pack]]s.
+*The attack bonus does not count towards the +20 [[attack bonus cap]].
+*A character can take the [[extra smiting]] feat to increase the smiting ability to 3 times per day.
+*A character can take the [[great smiting]] feats to increase the damage.
+*When used against a creature that is not good, ''smite good'' is wasted. This is reported to the player as "failed" (as opposed to "hit" or "miss").

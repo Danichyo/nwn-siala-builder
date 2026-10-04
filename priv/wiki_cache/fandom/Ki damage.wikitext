@@ -1,0 +1,23 @@
+{{feat
+|type=class
+|prereq=[[weapon of choice]], [[weapon master]] 1
+|desc=Once per day per [[class level|level]], a weapon master may use this feat to do maximum damage to their opponent.
+|use=selected
+|icon=ife_x2kidamage.gif
+|class=weapon master
+}}
+
+==Notes==
+
+*Requires [[Hordes of the Underdark]].
+* This feat can be used only with a weapon of choice.
+*Only the base weapon damage is maximized by this feat. If the weapon deals additional variable damage, it is possible that a ''ki damage'' hit will do less than the maximum possible total damage. A ''ki damage'' hit will still do more total damage on average than other hits.
+**On a critical hit ki damage will only maximize one instance of the base damage. Thus a mace with increased multiplier will deal 6 + 2d6 base weapon damage on a ki damage critical hit (as opposed to 3d6 without ki damage).
+* Ki Damage is not wasted at miss result.
+
+=== Previous versions ===
+
+* In older versions, ''ki damage'' was expended on a miss. This had some strategic consequences.
+** It was usually best to activate this feat for the first attack of a round (or any attack that is made at full [[base attack bonus]]).
+** It was inefficient to activate this feat against a target that has high [[armor class]] or [[concealment]].
+* Prior to version 1.88.8193.36-11, ''[[epic dodge]]'' would activate vs. ''ki damage'' misses. So this feat could be used to force an opponent with ''epic dodge'' to waste their dodge on a miss.

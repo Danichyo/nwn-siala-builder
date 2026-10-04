@@ -1,0 +1,12 @@
+{{feat
+|type=general
+|prereq=Can only take this at first level.
+|desc=The character gains a +1 [[reflex]] [[saving throw]] bonus. Also, any saving throws versus [[poison]] gain an additional +2 [[fortitude]] bonus.
+|use=automatic
+|icon=ife_x1snake.gif
+}}
+
+==Notes==
+*Added in the [[expansion pack]]s.
+
+[[category:first level feats]]

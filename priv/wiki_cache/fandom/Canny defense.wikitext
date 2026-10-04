@@ -1,0 +1,11 @@
+'''Type of feat''': [[Class]]
+
+'''Prerequisite''': [[Duelist]] level 1, [[Iaijutsu master]] level 1
+
+'''Specifics''': May add their [[intelligence]] bonus to [[armor class|AC]], limited by class level. This ability does not function while wearing [[armor]].
+
+'''Use''':  Automatic
+
+==Notes==
+*Added in the [[PRC Expansion Pack]].
+[[Category:PRC feats]]

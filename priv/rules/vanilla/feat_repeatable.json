@@ -1,0 +1,949 @@
+{
+  "_layer": "vanilla",
+  "_hand_written": true,
+  "_note": "Повторяемость фитов ВАНИЛИ — ручной слой поверх машинного `vanilla/feats.json` (задача 4.7). Источник — таблица игры feat.2da (выгрузка `priv/base_2da/`, сборка 89.8193.37-17) и страницы Fandom из кэша. Три рода записей, по ключу:\n\n(1) `repeatable` — блок целиком, для фита, у которого машинный слой блока не несёт вовсе. Восемь таких: Arcane defense, Epic skill focus, Epic spell focus, Epic weapon focus, Epic weapon specialization, Resist energy (задача 4.7) и Overwhelming critical, Devastating critical (задача 4.30). Fandom называет у них ВЫБОР («the chosen school of magic», «the chosen skill»), но не пишет «may be taken multiple times»: в игре это не один фит, берущийся повторно, а семейство — отдельная строка feat.2da на каждое значение под общим MASTERFEAT. Поэтому парсер повторяемости не нашёл, и поэтому ответ — в таблице. До этой записи на ванили не считалась прибавка Epic skill focus (+10: навык не из чего было взять) и не сравнивалось «with the chosen weapon» у Epic weapon focus.\n\n(2) `max_takes` — потолок взятий, добавленный В БЛОК МАШИННОГО СЛОЯ, у семнадцати фитов. Fandom называет их повторяемыми, а предел пишет в единицах эффекта («up to a maximum of 200 hit points», «+10»), и выводить взятия из эффекта нельзя (`Loader.Feats.repeatable/4`). Таблица называет число прямо: ступени I…X — отдельные строки, каждая следующая требует предыдущую (PREREQFEAT1), у последней SUCCESSOR пуст. Потолок = длина этой цепочки; `status: derived`, работа — в `from.tiers` (имена ступеней из dialog.tlk), и загрузчик сверяет длину сам. У двух (Great smiting, Epic damage reduction) число взятий Fandom называет словами — там `verified` с цитатой страницы, а таблица подтверждает. До этой записи Fighter 40 на ванили брал Epic toughness семнадцать раз.\n\n(3) `distinct` — ответ на вопрос «обязаны ли два взятия отличаться значением» у машинного блока, где парсер его не записал (Favored enemy, Weapon of choice). Без него загрузчик подставлял «да» сам и вешал на ruleset допущение {:assumed, :repeatable_choices_must_differ}; таблица отвечает: одна строка на значение.\n\n⚠️ «Одно значение дважды не взять» — свойство строки feat.2da, а не наш вывод: персонаж фит либо имеет, либо нет, и повторить ту же строку таблица могла бы только колонкой GAINMULTIPLE, которая нерабочая («Nonfunctional. Was meant to allow Extra Turning (and similar feats) to be allowed to be taken multiple times», nwn.wiki, feat.2da) и у всех строк этих семейств 0.\n\n⚠️ У Сиалы 25 фитов этого файла перекрыты её ручным слоем (`siala_41/feats.json`, what: repeatable, замещает блок целиком), и от их записей снапшот Сиалы не зависит. Две записи ДОЕЗЖАЮТ до неё — Overwhelming critical и Devastating critical (задача 4.30): их повторяемость Сиала не перекрывает, и это решение, а не недосмотр. Здесь стояло: «Ровно поэтому здесь нет Overwhelming critical и Devastating critical: у них та же форма (41 строка по оружию под MASTERFEAT 12 и 13, «the chosen weapon»), блока повторяемости нет ни у ванили, ни у Сиалы, и ванильная запись изменила бы Сиалу — это вопрос координатору и Dan (задача 4.7), а не молчаливая правка». Вопрос решён постановкой 4.30 («оба ruleset'а, меняет Сиалу») и доказан хаком: feat.2da шарда несёт те же семейства (по 40 строк под MASTERFEAT 12 и 13, строка в строку с базовой игрой; у Devastating critical отличается только MINSTR 99 — механизм, которым шард фит выключил), значит повторяемость у Сиалы та же — блок `hak` каждой записи и `weapon_feat_tables_hak_test.exs`. На Сиале это чинит живой фит: Overwhelming critical до записи на второе оружие не брался. Новую запись о фите, которого Сиала не перекрывает, заводи так же — с доказательством хаком и сверкой `ruleset_siala_41.snap` глазами.\n\n⚠️ Сторожа: запись о фите, которого нет; неизвестный ключ; блок поверх машинного блока, потолок поверх машинного потолка, `distinct` поверх сказанного (значит, парсер научился сам — сними запись); нечитаемый блок или потолок — всё роняет сборку (`Loader.Feats.apply_repeatable_layer/2`). Строки и имена ступеней сверяются с таблицей тестом (`vanilla_feat_repeatable_test.exs`), цитаты Fandom — с кэшем (`provenance_test.exs`), потолок против длины цепочки и выбор против семейства — ещё и `mix base2da.diff`.",
+  "_schema": {
+    "feats[].repeatable": "Блок повторяемости ЦЕЛИКОМ — у фита, у которого машинный слой (`vanilla/feats.json`) блока не несёт вовсе. Форма та же, что читает `Data.Loader.repeatable/4`: `choice` — домен выбора, `distinct` — обязаны ли взятия отличаться (здесь сказан всегда), `status`, `quote` + `source`. Блок поверх машинного блока роняет сборку: значит, парсер научился сам, и запись надо снять.",
+    "feats[].max_takes": "Потолок взятий, добавленный В МАШИННЫЙ БЛОК — форма `max_takes` того же читателя: `value`, `status` (`derived` — число получено счётом, работа в `from.tiers`; `verified` — число названо страницей), источник. Машинного блока нет или у него уже есть свой потолок — сборка падает.",
+    "feats[].distinct": "Ответ «обязаны ли два взятия отличаться значением» у машинного блока, который его не записал: `value`, `status`, источник. Блок без выбора или с уже сказанным `distinct` — сборка падает.",
+    "source (kind 2da)": "Строка feat.2da — ПОЗИЦИЯ в таблице, а не метка (HANDOFF.md, задача 4.5); `column` + `value` — ячейка, которую запись утверждает, `label` — метка строки. Сверяются с выгрузкой `priv/base_2da/` тестом `provenance_test.exs`, вся цепочка и все строки семейства — `vanilla_feat_repeatable_test.exs`."
+  },
+  "feats": [
+    {
+      "id": "arcane_defense",
+      "repeatable": {
+        "choice": "spell_school",
+        "distinct": true,
+        "status": "verified",
+        "quote": "The character gains a +2 bonus to [[saving throw]]s versus the chosen school of magic.",
+        "source": {
+          "wiki": "fandom",
+          "page": "Arcane defense",
+          "revid": 62916,
+          "fetched": "2026-08-01"
+        },
+        "source_2": {
+          "kind": "2da",
+          "table": "feat.2da",
+          "row": 415,
+          "label": "ArcaneDefenseAbj",
+          "column": "MASTERFEAT",
+          "value": "7",
+          "build": "89.8193.37-17",
+          "fetched": "2026-09-26",
+          "note": "Строки 415–422: 8 фитов, по фиту на школу магии; все 8 под MASTERFEAT 7. GAINMULTIPLE 0 у всех — одно значение дважды не взять."
+        },
+        "note": "Fandom называет выбор («the chosen …»), но не пишет «may be taken multiple times»: в игре это не один фит, берущийся повторно, а семейство — отдельная строка feat.2da на каждое значение. Отсюда и ответ: взять можно столько раз, сколько значений, и каждое — один раз (`distinct: true` сказан явно, допущения нет)."
+      }
+    },
+    {
+      "id": "automatic_quicken_spell",
+      "max_takes": {
+        "value": 3,
+        "status": "derived",
+        "from": {
+          "counted": "tiers",
+          "tiers": [
+            "Automatic Quicken Spell I",
+            "Automatic Quicken Spell II",
+            "Automatic Quicken Spell III"
+          ]
+        },
+        "source": {
+          "kind": "2da",
+          "table": "feat.2da",
+          "row": 859,
+          "label": "FEAT_EPIC_AUTOMATIC_QUICKEN_3",
+          "column": "PREREQFEAT1",
+          "value": "858",
+          "build": "89.8193.37-17",
+          "fetched": "2026-09-26",
+          "note": "Строки 857–859, Automatic Quicken Spell I … Automatic Quicken Spell III: каждая следующая требует предыдущую (PREREQFEAT1), у последней SUCCESSOR пуст — цепочка из 3."
+        },
+        "quote_2": "This feat may be taken multiple times:\n* Automatic quicken spell I: Quicken any level 0 - 3 spells.\n* Automatic quicken spell II: Quicken any level 4 - 6 spells.\n* Automatic quicken spell III: Quicken any level 7 - 9 spells.",
+        "source_2": {
+          "wiki": "fandom",
+          "page": "Automatic quicken spell",
+          "revid": 65818,
+          "fetched": "2026-08-01"
+        },
+        "note": "Ступени перечисляет и Fandom (quote_2) — теми же тремя именами; число на странице не написано, его даёт счёт."
+      }
+    },
+    {
+      "id": "automatic_silent_spell",
+      "max_takes": {
+        "value": 3,
+        "status": "derived",
+        "from": {
+          "counted": "tiers",
+          "tiers": [
+            "Automatic Silent Spell I",
+            "Automatic Silent Spell II",
+            "Automatic Silent Spell III"
+          ]
+        },
+        "source": {
+          "kind": "2da",
+          "table": "feat.2da",
+          "row": 862,
+          "label": "FEAT_EPIC_AUTOMATIC_SILENT_SPELL_3",
+          "column": "PREREQFEAT1",
+          "value": "861",
+          "build": "89.8193.37-17",
+          "fetched": "2026-09-26",
+          "note": "Строки 860–862, Automatic Silent Spell I … Automatic Silent Spell III: каждая следующая требует предыдущую (PREREQFEAT1), у последней SUCCESSOR пуст — цепочка из 3."
+        },
+        "quote_2": "This feat may be taken multiple times:\n* Automatic silent spell I: Cast any level 0 - 3 spell as a silent spell.\n* Automatic silent spell II: Cast any level 4 - 6 spell as a silent spell.\n* Automatic silent spell III: Cast any level 7 - 9 spell as a silent spell.",
+        "source_2": {
+          "wiki": "fandom",
+          "page": "Automatic silent spell",
+          "revid": 65819,
+          "fetched": "2026-08-01"
+        },
+        "note": "Ступени перечисляет и Fandom (quote_2) — теми же тремя именами; число на странице не написано, его даёт счёт."
+      }
+    },
+    {
+      "id": "automatic_still_spell",
+      "max_takes": {
+        "value": 3,
+        "status": "derived",
+        "from": {
+          "counted": "tiers",
+          "tiers": [
+            "Automatic Still Spell I",
+            "Automatic Still Spell II",
+            "Automatic Still Spell III"
+          ]
+        },
+        "source": {
+          "kind": "2da",
+          "table": "feat.2da",
+          "row": 865,
+          "label": "FEAT_EPIC_AUTOMATIC_STILL_SPELL_3",
+          "column": "PREREQFEAT1",
+          "value": "864",
+          "build": "89.8193.37-17",
+          "fetched": "2026-09-26",
+          "note": "Строки 863–865, Automatic Still Spell I … Automatic Still Spell III: каждая следующая требует предыдущую (PREREQFEAT1), у последней SUCCESSOR пуст — цепочка из 3."
+        },
+        "quote_2": "This feat may be taken multiple times:\n* Automatic still spell I: Cast any level 0 - 3 spell as a still spell.\n* Automatic still spell II: Cast any level 4 - 6 spell as a still spell.\n* Automatic still spell III: Cast any level 7 - 9 spell as a still spell.",
+        "source_2": {
+          "wiki": "fandom",
+          "page": "Automatic still spell",
+          "revid": 70145,
+          "fetched": "2026-08-01"
+        },
+        "note": "Ступени перечисляет и Fandom (quote_2) — теми же тремя именами; число на странице не написано, его даёт счёт."
+      }
+    },
+    {
+      "id": "devastating_critical",
+      "repeatable": {
+        "choice": "weapon",
+        "distinct": true,
+        "status": "verified",
+        "quote": "Whenever scoring a [[critical hit]] with the chosen weapon, the character's target must make a [[fortitude]] [[saving throw|save]] or die instantly.",
+        "source": {
+          "wiki": "fandom",
+          "page": "Devastating critical",
+          "revid": 57369,
+          "fetched": "2026-08-01"
+        },
+        "source_2": {
+          "kind": "2da",
+          "table": "feat.2da",
+          "row": 495,
+          "label": "FEAT_EPIC_DEVASTATING_CRITICAL_CLUB",
+          "column": "MASTERFEAT",
+          "value": "13",
+          "build": "89.8193.37-17",
+          "fetched": "2026-09-26",
+          "note": "Строки 495–531, 955, 996, 1075: 40 фитов под MASTERFEAT 13, по фиту на оружие. У оружия существ своя строка 532 без MASTERFEAT и без требований — вариант не выбирается ни одним играбельным классом (ALLCLASSESCANUSE пуст, ни одна таблица cls_feat_* его не перечисляет). Каждая строка требует Overwhelming Critical ТОГО ЖЕ оружия (PREREQFEAT2: 495 → 709 Overwhelming Critical (club) и так далее) и Great Cleave (PREREQFEAT1 391); Improved Critical того же оружия приходит через Overwhelming critical — у машинного слоя это `same_choice_as: [improved_critical, overwhelming_critical]`. MINSTR 25, PreReqEpic 1. GAINMULTIPLE 0 у всех — одно значение дважды не взять."
+        },
+        "note": "Задача 4.30 — находка сверки 4.5 `repeatable/devastating_critical/choice`, вид (a). Та же форма, что у Overwhelming critical рядом: Fandom говорит «with the chosen weapon», таблица — строка на оружие. Теперь фит берётся на каждое оружие по разу, и выбор сравнивается с Improved critical и Overwhelming critical того же оружия.",
+        "hak": {
+          "note": "Доезжает до Сиалы вместе с формой семейства: feat.2da хака несёт те же 40 строк под MASTERFEAT 13 — LABEL, FEAT, PREREQFEAT1/2, ALLCLASSESCANUSE, PreReqEpic, GAINMULTIPLE совпадают с базовой игрой. Отличие одно — MINSTR 99 вместо 25 во всех 40 строках: этим приёмом шард фит и выключил (`siala_41/feats.json` → `devastating_critical`, what: disabled). Выключенному фиту повторяемость ничего не даёт — на Сиале его не взять ни разу, и в билды блок не доезжает; меняется только слепок ruleset'а (`weapon_feat_tables_hak_test.exs`).",
+          "source": {
+            "kind": "hak",
+            "table": "feat.2da",
+            "row": 495,
+            "sha1": "470c84d59da7b158cd5b70de577ad3d8132d95c9",
+            "fetched": "2026-08-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "epic_damage_reduction",
+      "max_takes": {
+        "value": 3,
+        "status": "verified",
+        "quote": "This feat may be taken up to three times, for damage reduction 6/-, then 9/-.",
+        "source": {
+          "wiki": "fandom",
+          "page": "Epic damage reduction",
+          "revid": 44379,
+          "fetched": "2026-08-01"
+        },
+        "source_2": {
+          "kind": "2da",
+          "table": "feat.2da",
+          "row": 494,
+          "label": "FEAT_EPIC_DAMAGE_REDUCTION_9",
+          "column": "PREREQFEAT1",
+          "value": "493",
+          "build": "89.8193.37-17",
+          "fetched": "2026-09-26",
+          "note": "Строки 492–494, Epic Damage Reduction I … Epic Damage Reduction III: каждая следующая требует предыдущую (PREREQFEAT1), у последней SUCCESSOR пуст — цепочка из 3."
+        },
+        "note": "Число взятий страница называет прямо; таблица подтверждает его длиной цепочки ступеней."
+      }
+    },
+    {
+      "id": "epic_energy_resistance",
+      "max_takes": {
+        "value": 10,
+        "status": "derived",
+        "from": {
+          "counted": "tiers",
+          "tiers": [
+            "Energy Resistance, Cold I",
+            "Energy Resistance, Cold II",
+            "Energy Resistance, Cold III",
+            "Energy Resistance, Cold IV",
+            "Energy Resistance, Cold V",
+            "Energy Resistance, Cold VI",
+            "Energy Resistance, Cold VII",
+            "Energy Resistance, Cold VIII",
+            "Energy Resistance, Cold IX",
+            "Energy Resistance, Cold X"
+          ]
+        },
+        "source": {
+          "kind": "2da",
+          "table": "feat.2da",
+          "row": 542,
+          "label": "FEAT_EPIC_ENERGY_RESISTANCE_COLD_10",
+          "column": "PREREQFEAT1",
+          "value": "541",
+          "build": "89.8193.37-17",
+          "fetched": "2026-09-26",
+          "note": "Строки 533–542, Energy Resistance, Cold I … Energy Resistance, Cold X: каждая следующая требует предыдущую (PREREQFEAT1), у последней SUCCESSOR пуст — цепочка из 10. У фита 5 такие цепочки, по одной на тип урона (533–542, 543–552, 553–562, 563–572, 573–582), все длиной 10: потолок — на пару «фит + тип», как его и считает ядро у `distinct: false`."
+        },
+        "quote_2": "This feat may be taken multiple times, to a maximum of 100 resistance to each damage type.",
+        "source_2": {
+          "wiki": "fandom",
+          "page": "Epic energy resistance",
+          "revid": 41047,
+          "fetched": "2026-08-01"
+        },
+        "note": "Fandom называет предел в единицах ЭФФЕКТА (quote_2), и с таблицей он сходится; но число взятий дала длина цепочки, а не деление эффекта на прибавку — `Loader.Feats.repeatable/4`."
+      }
+    },
+    {
+      "id": "epic_skill_focus",
+      "repeatable": {
+        "choice": "skill",
+        "distinct": true,
+        "status": "verified",
+        "quote": "The character gains a +10 bonus on all [[skill check]]s with the chosen [[skill]].",
+        "source": {
+          "wiki": "fandom",
+          "page": "Epic skill focus",
+          "revid": 72105,
+          "fetched": "2026-08-01"
+        },
+        "source_2": {
+          "kind": "2da",
+          "table": "feat.2da",
+          "row": 587,
+          "label": "FEAT_EPIC_SKILL_FOCUS_ANIMAL_EMPATHY",
+          "column": "MASTERFEAT",
+          "value": "15",
+          "build": "89.8193.37-17",
+          "fetched": "2026-09-26",
+          "note": "Строки 587–609, 913–914, 917–918: 27 фитов, по фиту на навык; все 27 под MASTERFEAT 15. GAINMULTIPLE 0 у всех — одно значение дважды не взять."
+        },
+        "note": "Fandom называет выбор («the chosen …»), но не пишет «may be taken multiple times»: в игре это не один фит, берущийся повторно, а семейство — отдельная строка feat.2da на каждое значение. Отсюда и ответ: взять можно столько раз, сколько значений, и каждое — один раз (`distinct: true` сказан явно, допущения нет)."
+      }
+    },
+    {
+      "id": "epic_spell_focus",
+      "repeatable": {
+        "choice": "spell_school",
+        "distinct": true,
+        "status": "verified",
+        "quote": "The character gains a +6 to the [[difficulty class]] for all [[saving throw]]s against spells from the chosen school of magic.",
+        "source": {
+          "wiki": "fandom",
+          "page": "Epic spell focus",
+          "revid": 55113,
+          "fetched": "2026-08-01"
+        },
+        "source_2": {
+          "kind": "2da",
+          "table": "feat.2da",
+          "row": 610,
+          "label": "FEAT_EPIC_SPELL_FOCUS_ABJURATION",
+          "column": "MASTERFEAT",
+          "value": "16",
+          "build": "89.8193.37-17",
+          "fetched": "2026-09-26",
+          "note": "Строки 610–617: 8 фитов, по фиту на школу магии; все 8 под MASTERFEAT 16. GAINMULTIPLE 0 у всех — одно значение дважды не взять."
+        },
+        "note": "Fandom называет выбор («the chosen …»), но не пишет «may be taken multiple times»: в игре это не один фит, берущийся повторно, а семейство — отдельная строка feat.2da на каждое значение. Отсюда и ответ: взять можно столько раз, сколько значений, и каждое — один раз (`distinct: true` сказан явно, допущения нет)."
+      }
+    },
+    {
+      "id": "epic_toughness",
+      "max_takes": {
+        "value": 10,
+        "status": "derived",
+        "from": {
+          "counted": "tiers",
+          "tiers": [
+            "Epic Toughness I",
+            "Epic Toughness II",
+            "Epic Toughness III",
+            "Epic Toughness IV",
+            "Epic Toughness V",
+            "Epic Toughness VI",
+            "Epic Toughness VII",
+            "Epic Toughness VIII",
+            "Epic Toughness IX",
+            "Epic Toughness X"
+          ]
+        },
+        "source": {
+          "kind": "2da",
+          "table": "feat.2da",
+          "row": 763,
+          "label": "FEAT_EPIC_TOUGHNESS_10",
+          "column": "PREREQFEAT1",
+          "value": "762",
+          "build": "89.8193.37-17",
+          "fetched": "2026-09-26",
+          "note": "Строки 754–763, Epic Toughness I … Epic Toughness X: каждая следующая требует предыдущую (PREREQFEAT1), у последней SUCCESSOR пуст — цепочка из 10."
+        },
+        "quote_2": "This feat may be taken multiple times, up to a maximum of 200 hit points.",
+        "source_2": {
+          "wiki": "fandom",
+          "page": "Epic toughness",
+          "revid": 62913,
+          "fetched": "2026-08-01"
+        },
+        "note": "Fandom называет предел в единицах ЭФФЕКТА (quote_2), и с таблицей он сходится; но число взятий дала длина цепочки, а не деление эффекта на прибавку — `Loader.Feats.repeatable/4`."
+      }
+    },
+    {
+      "id": "epic_weapon_focus",
+      "repeatable": {
+        "choice": "weapon",
+        "distinct": true,
+        "status": "verified",
+        "quote": "The character gains a +2 bonus to all [[attack roll]]s with the chosen weapon.",
+        "source": {
+          "wiki": "fandom",
+          "page": "Epic weapon focus",
+          "revid": 42299,
+          "fetched": "2026-08-01"
+        },
+        "source_2": {
+          "kind": "2da",
+          "table": "feat.2da",
+          "row": 619,
+          "label": "FEAT_EPIC_WEAPON_FOCUS_CLUB",
+          "column": "MASTERFEAT",
+          "value": "10",
+          "build": "89.8193.37-17",
+          "fetched": "2026-09-26",
+          "note": "Строки 619–656, 956, 997, 1076: 41 фитов, по фиту на оружие; 40 из 41 под MASTERFEAT 10; у строки «(creature weapon)» MASTERFEAT пуст — вариант не выбирается ни одним играбельным классом (задача 4.27), значение в домене оружия от этого не меняется. GAINMULTIPLE 0 у всех — одно значение дважды не взять."
+        },
+        "note": "Fandom называет выбор («the chosen …»), но не пишет «may be taken multiple times»: в игре это не один фит, берущийся повторно, а семейство — отдельная строка feat.2da на каждое значение. Отсюда и ответ: взять можно столько раз, сколько значений, и каждое — один раз (`distinct: true` сказан явно, допущения нет)."
+      }
+    },
+    {
+      "id": "epic_weapon_specialization",
+      "repeatable": {
+        "choice": "weapon",
+        "distinct": true,
+        "status": "verified",
+        "quote": "The character gains a +4 bonus to all damage done by the chosen weapon.",
+        "source": {
+          "wiki": "fandom",
+          "page": "Epic weapon specialization",
+          "revid": 57835,
+          "fetched": "2026-08-01"
+        },
+        "source_2": {
+          "kind": "2da",
+          "table": "feat.2da",
+          "row": 657,
+          "label": "FEAT_EPIC_WEAPON_SPECIALIZATION_CLUB",
+          "column": "MASTERFEAT",
+          "value": "11",
+          "build": "89.8193.37-17",
+          "fetched": "2026-09-26",
+          "note": "Строки 657–694, 957, 998, 1077: 41 фитов, по фиту на оружие; 40 из 41 под MASTERFEAT 11; у строки «(creature weapon)» MASTERFEAT пуст — вариант не выбирается ни одним играбельным классом (задача 4.27), значение в домене оружия от этого не меняется. GAINMULTIPLE 0 у всех — одно значение дважды не взять."
+        },
+        "note": "Fandom называет выбор («the chosen …»), но не пишет «may be taken multiple times»: в игре это не один фит, берущийся повторно, а семейство — отдельная строка feat.2da на каждое значение. Отсюда и ответ: взять можно столько раз, сколько значений, и каждое — один раз (`distinct: true` сказан явно, допущения нет)."
+      }
+    },
+    {
+      "id": "favored_enemy",
+      "distinct": {
+        "value": true,
+        "status": "verified",
+        "quote": "When a favored enemy is gained, the player selects a [[race]] to be that favored enemy. There are 24 favored enemy races available; of the 25 standard races, only [[ooze]] cannot be selected.",
+        "source": {
+          "wiki": "fandom",
+          "page": "Favored enemy",
+          "revid": 63601,
+          "fetched": "2026-08-01"
+        },
+        "source_2": {
+          "kind": "2da",
+          "table": "feat.2da",
+          "row": 261,
+          "label": "FE_Dwarf",
+          "column": "MASTERFEAT",
+          "value": "5",
+          "build": "89.8193.37-17",
+          "fetched": "2026-09-26",
+          "note": "Строки 261–281, 284–286: 24 фитов, по фиту на расовый тип, все под MASTERFEAT 5; GAINMULTIPLE 0 у всех — одно значение дважды не взять."
+        },
+        "note": "Машинный блок повторяемость читает, а обязаны ли взятия отличаться — не записал, и загрузчик подставлял «да» сам, с допущением {:assumed, :repeatable_choices_must_differ} на весь ruleset. Ответ «да» — из таблицы: значение есть строка, и строку персонаж либо имеет, либо нет."
+      }
+    },
+    {
+      "id": "great_charisma",
+      "max_takes": {
+        "value": 10,
+        "status": "derived",
+        "from": {
+          "counted": "tiers",
+          "tiers": [
+            "Great Charisma I",
+            "Great Charisma II",
+            "Great Charisma III",
+            "Great Charisma IV",
+            "Great Charisma V",
+            "Great Charisma VI",
+            "Great Charisma VII",
+            "Great Charisma VIII",
+            "Great Charisma IX",
+            "Great Charisma X"
+          ]
+        },
+        "source": {
+          "kind": "2da",
+          "table": "feat.2da",
+          "row": 773,
+          "label": "FEAT_EPIC_GREAT_CHARISMA_10",
+          "column": "PREREQFEAT1",
+          "value": "772",
+          "build": "89.8193.37-17",
+          "fetched": "2026-09-26",
+          "note": "Строки 764–773, Great Charisma I … Great Charisma X: каждая следующая требует предыдущую (PREREQFEAT1), у последней SUCCESSOR пуст — цепочка из 10."
+        },
+        "quote_2": "This may be taken multiple times, to a maximum of +10.",
+        "source_2": {
+          "wiki": "fandom",
+          "page": "Great charisma",
+          "revid": 41425,
+          "fetched": "2026-08-01"
+        },
+        "note": "Fandom называет предел в единицах ЭФФЕКТА (quote_2), и с таблицей он сходится; но число взятий дала длина цепочки, а не деление эффекта на прибавку — `Loader.Feats.repeatable/4`."
+      }
+    },
+    {
+      "id": "great_constitution",
+      "max_takes": {
+        "value": 10,
+        "status": "derived",
+        "from": {
+          "counted": "tiers",
+          "tiers": [
+            "Great Constitution I",
+            "Great Constitution II",
+            "Great Constitution III",
+            "Great Constitution IV",
+            "Great Constitution V",
+            "Great Constitution VI",
+            "Great Constitution VII",
+            "Great Constitution VIII",
+            "Great Constitution IX",
+            "Great Constitution X"
+          ]
+        },
+        "source": {
+          "kind": "2da",
+          "table": "feat.2da",
+          "row": 783,
+          "label": "FEAT_EPIC_GREAT_CONSTITUTION_10",
+          "column": "PREREQFEAT1",
+          "value": "782",
+          "build": "89.8193.37-17",
+          "fetched": "2026-09-26",
+          "note": "Строки 774–783, Great Constitution I … Great Constitution X: каждая следующая требует предыдущую (PREREQFEAT1), у последней SUCCESSOR пуст — цепочка из 10."
+        },
+        "quote_2": "This may be taken multiple times, to a maximum of +10.",
+        "source_2": {
+          "wiki": "fandom",
+          "page": "Great constitution",
+          "revid": 51384,
+          "fetched": "2026-08-01"
+        },
+        "note": "Fandom называет предел в единицах ЭФФЕКТА (quote_2), и с таблицей он сходится; но число взятий дала длина цепочки, а не деление эффекта на прибавку — `Loader.Feats.repeatable/4`."
+      }
+    },
+    {
+      "id": "great_dexterity",
+      "max_takes": {
+        "value": 10,
+        "status": "derived",
+        "from": {
+          "counted": "tiers",
+          "tiers": [
+            "Great Dexterity I",
+            "Great Dexterity II",
+            "Great Dexterity III",
+            "Great Dexterity IV",
+            "Great Dexterity V",
+            "Great Dexterity VI",
+            "Great Dexterity VII",
+            "Great Dexterity VIII",
+            "Great Dexterity IX",
+            "Great Dexterity X"
+          ]
+        },
+        "source": {
+          "kind": "2da",
+          "table": "feat.2da",
+          "row": 793,
+          "label": "FEAT_EPIC_GREAT_DEXTERITY_10",
+          "column": "PREREQFEAT1",
+          "value": "792",
+          "build": "89.8193.37-17",
+          "fetched": "2026-09-26",
+          "note": "Строки 784–793, Great Dexterity I … Great Dexterity X: каждая следующая требует предыдущую (PREREQFEAT1), у последней SUCCESSOR пуст — цепочка из 10."
+        },
+        "quote_2": "This may be taken multiple times, to a maximum of +10.",
+        "source_2": {
+          "wiki": "fandom",
+          "page": "Great dexterity",
+          "revid": 41426,
+          "fetched": "2026-08-01"
+        },
+        "note": "Fandom называет предел в единицах ЭФФЕКТА (quote_2), и с таблицей он сходится; но число взятий дала длина цепочки, а не деление эффекта на прибавку — `Loader.Feats.repeatable/4`."
+      }
+    },
+    {
+      "id": "great_intelligence",
+      "max_takes": {
+        "value": 10,
+        "status": "derived",
+        "from": {
+          "counted": "tiers",
+          "tiers": [
+            "Great Intelligence I",
+            "Great Intelligence II",
+            "Great Intelligence III",
+            "Great Intelligence IV",
+            "Great Intelligence V",
+            "Great Intelligence VI",
+            "Great Intelligence VII",
+            "Great Intelligence VIII",
+            "Great Intelligence IX",
+            "Great Intelligence X"
+          ]
+        },
+        "source": {
+          "kind": "2da",
+          "table": "feat.2da",
+          "row": 803,
+          "label": "FEAT_EPIC_GREAT_INTELLIGENCE_10",
+          "column": "PREREQFEAT1",
+          "value": "802",
+          "build": "89.8193.37-17",
+          "fetched": "2026-09-26",
+          "note": "Строки 794–803, Great Intelligence I … Great Intelligence X: каждая следующая требует предыдущую (PREREQFEAT1), у последней SUCCESSOR пуст — цепочка из 10."
+        },
+        "quote_2": "This may be taken multiple times, to a maximum bonus of +10.",
+        "source_2": {
+          "wiki": "fandom",
+          "page": "Great intelligence",
+          "revid": 41092,
+          "fetched": "2026-08-01"
+        },
+        "note": "Fandom называет предел в единицах ЭФФЕКТА (quote_2), и с таблицей он сходится; но число взятий дала длина цепочки, а не деление эффекта на прибавку — `Loader.Feats.repeatable/4`."
+      }
+    },
+    {
+      "id": "great_smiting",
+      "max_takes": {
+        "value": 10,
+        "status": "verified",
+        "quote": "This feat may be taken multiple times, up to a maximum of 10 times &mdash; each time adding additional damage equal to the character's level to the smite attack.",
+        "source": {
+          "wiki": "fandom",
+          "page": "Great smiting",
+          "revid": 42417,
+          "fetched": "2026-08-01"
+        },
+        "source_2": {
+          "kind": "2da",
+          "table": "feat.2da",
+          "row": 833,
+          "label": "FEAT_EPIC_GREAT_SMITING_10",
+          "column": "PREREQFEAT1",
+          "value": "832",
+          "build": "89.8193.37-17",
+          "fetched": "2026-09-26",
+          "note": "Строки 824–833, Great Smiting I … Great Smiting X: каждая следующая требует предыдущую (PREREQFEAT1), у последней SUCCESSOR пуст — цепочка из 10."
+        },
+        "note": "Число взятий страница называет прямо; таблица подтверждает его длиной цепочки ступеней."
+      }
+    },
+    {
+      "id": "great_strength",
+      "max_takes": {
+        "value": 10,
+        "status": "derived",
+        "from": {
+          "counted": "tiers",
+          "tiers": [
+            "Great Strength I",
+            "Great Strength II",
+            "Great Strength III",
+            "Great Strength IV",
+            "Great Strength V",
+            "Great Strength VI",
+            "Great Strength VII",
+            "Great Strength VIII",
+            "Great Strength IX",
+            "Great Strength X"
+          ]
+        },
+        "source": {
+          "kind": "2da",
+          "table": "feat.2da",
+          "row": 823,
+          "label": "FEAT_EPIC_GREAT_STRENGTH_10",
+          "column": "PREREQFEAT1",
+          "value": "822",
+          "build": "89.8193.37-17",
+          "fetched": "2026-09-26",
+          "note": "Строки 814–823, Great Strength I … Great Strength X: каждая следующая требует предыдущую (PREREQFEAT1), у последней SUCCESSOR пуст — цепочка из 10."
+        },
+        "quote_2": "This may be taken multiple times, to a maximum bonus of +10.",
+        "source_2": {
+          "wiki": "fandom",
+          "page": "Great strength",
+          "revid": 51385,
+          "fetched": "2026-08-01"
+        },
+        "note": "Fandom называет предел в единицах ЭФФЕКТА (quote_2), и с таблицей он сходится; но число взятий дала длина цепочки, а не деление эффекта на прибавку — `Loader.Feats.repeatable/4`."
+      }
+    },
+    {
+      "id": "great_wisdom",
+      "max_takes": {
+        "value": 10,
+        "status": "derived",
+        "from": {
+          "counted": "tiers",
+          "tiers": [
+            "Great Wisdom I",
+            "Great Wisdom II",
+            "Great Wisdom III",
+            "Great Wisdom IV",
+            "Great Wisdom V",
+            "Great Wisdom VI",
+            "Great Wisdom VII",
+            "Great Wisdom VIII",
+            "Great Wisdom IX",
+            "Great Wisdom X"
+          ]
+        },
+        "source": {
+          "kind": "2da",
+          "table": "feat.2da",
+          "row": 813,
+          "label": "FEAT_EPIC_GREAT_WISDOM_10",
+          "column": "PREREQFEAT1",
+          "value": "812",
+          "build": "89.8193.37-17",
+          "fetched": "2026-09-26",
+          "note": "Строки 804–813, Great Wisdom I … Great Wisdom X: каждая следующая требует предыдущую (PREREQFEAT1), у последней SUCCESSOR пуст — цепочка из 10."
+        },
+        "quote_2": "This may be taken multiple times, to a maximum bonus of +10.",
+        "source_2": {
+          "wiki": "fandom",
+          "page": "Great wisdom",
+          "revid": 41094,
+          "fetched": "2026-08-01"
+        },
+        "note": "Fandom называет предел в единицах ЭФФЕКТА (quote_2), и с таблицей он сходится; но число взятий дала длина цепочки, а не деление эффекта на прибавку — `Loader.Feats.repeatable/4`."
+      }
+    },
+    {
+      "id": "improved_sneak_attack",
+      "max_takes": {
+        "value": 10,
+        "status": "derived",
+        "from": {
+          "counted": "tiers",
+          "tiers": [
+            "Improved Sneak Attack I",
+            "Improved Sneak Attack II",
+            "Improved Sneak Attack III",
+            "Improved Sneak Attack IV",
+            "Improved Sneak Attack V",
+            "Improved Sneak Attack VI",
+            "Improved Sneak Attack VII",
+            "Improved Sneak Attack VIII",
+            "Improved Sneak Attack IX",
+            "Improved Sneak Attack X"
+          ]
+        },
+        "source": {
+          "kind": "2da",
+          "table": "feat.2da",
+          "row": 843,
+          "label": "FEAT_EPIC_IMPROVED_SNEAK_ATTACK_10",
+          "column": "PREREQFEAT1",
+          "value": "842",
+          "build": "89.8193.37-17",
+          "fetched": "2026-09-26",
+          "note": "Строки 834–843, Improved Sneak Attack I … Improved Sneak Attack X: каждая следующая требует предыдущую (PREREQFEAT1), у последней SUCCESSOR пуст — цепочка из 10."
+        },
+        "quote_2": "This feat may be taken multiple times, to a maximum of +10d6.",
+        "source_2": {
+          "wiki": "fandom",
+          "page": "Improved sneak attack",
+          "revid": 71512,
+          "fetched": "2026-08-01"
+        },
+        "note": "Fandom называет предел в единицах ЭФФЕКТА (quote_2), и с таблицей он сходится; но число взятий дала длина цепочки, а не деление эффекта на прибавку — `Loader.Feats.repeatable/4`."
+      }
+    },
+    {
+      "id": "improved_spell_resistance",
+      "max_takes": {
+        "value": 10,
+        "status": "derived",
+        "from": {
+          "counted": "tiers",
+          "tiers": [
+            "Improved Spell Resistance I",
+            "Improved Spell Resistance II",
+            "Improved Spell Resistance III",
+            "Improved Spell Resistance IV",
+            "Improved Spell Resistance V",
+            "Improved Spell Resistance VI",
+            "Improved Spell Resistance VII",
+            "Improved Spell Resistance VIII",
+            "Improved Spell Resistance IX",
+            "Improved Spell Resistance X"
+          ]
+        },
+        "source": {
+          "kind": "2da",
+          "table": "feat.2da",
+          "row": 708,
+          "label": "FEAT_EPIC_IMPROVED_SPELL_RESISTANCE_10",
+          "column": "PREREQFEAT1",
+          "value": "707",
+          "build": "89.8193.37-17",
+          "fetched": "2026-09-26",
+          "note": "Строки 699–708, Improved Spell Resistance I … Improved Spell Resistance X: каждая следующая требует предыдущую (PREREQFEAT1), у последней SUCCESSOR пуст — цепочка из 10."
+        },
+        "quote_2": "This feat may be taken multiple times, to a maximum of +20.",
+        "source_2": {
+          "wiki": "fandom",
+          "page": "Improved spell resistance",
+          "revid": 66435,
+          "fetched": "2026-08-01"
+        },
+        "note": "Fandom называет предел в единицах ЭФФЕКТА (quote_2), и с таблицей он сходится; но число взятий дала длина цепочки, а не деление эффекта на прибавку — `Loader.Feats.repeatable/4`."
+      }
+    },
+    {
+      "id": "improved_stunning_fist",
+      "max_takes": {
+        "value": 10,
+        "status": "derived",
+        "from": {
+          "counted": "tiers",
+          "tiers": [
+            "Improved Stunning Fist I",
+            "Improved Stunning Fist II",
+            "Improved Stunning Fist III",
+            "Improved Stunning Fist IV",
+            "Improved Stunning Fist V",
+            "Improved Stunning Fist VI",
+            "Improved Stunning Fist VII",
+            "Improved Stunning Fist VIII",
+            "Improved Stunning Fist IX",
+            "Improved Stunning Fist X"
+          ]
+        },
+        "source": {
+          "kind": "2da",
+          "table": "feat.2da",
+          "row": 853,
+          "label": "FEAT_EPIC_IMPROVED_STUNNING_FIST_10",
+          "column": "PREREQFEAT1",
+          "value": "852",
+          "build": "89.8193.37-17",
+          "fetched": "2026-09-26",
+          "note": "Строки 844–853, Improved Stunning Fist I … Improved Stunning Fist X: каждая следующая требует предыдущую (PREREQFEAT1), у последней SUCCESSOR пуст — цепочка из 10."
+        },
+        "quote_2": "This feat may be taken multiple times, to a maximum of +20.",
+        "source_2": {
+          "wiki": "fandom",
+          "page": "Improved stunning fist",
+          "revid": 66557,
+          "fetched": "2026-08-01"
+        },
+        "note": "Fandom называет предел в единицах ЭФФЕКТА (quote_2), и с таблицей он сходится; но число взятий дала длина цепочки, а не деление эффекта на прибавку — `Loader.Feats.repeatable/4`."
+      }
+    },
+    {
+      "id": "overwhelming_critical",
+      "repeatable": {
+        "choice": "weapon",
+        "distinct": true,
+        "status": "verified",
+        "quote": "When using the weapon chosen, the character deals +1d6 points of damage on a successful [[critical hit]].",
+        "source": {
+          "wiki": "fandom",
+          "page": "Overwhelming critical",
+          "revid": 71848,
+          "fetched": "2026-08-01"
+        },
+        "source_2": {
+          "kind": "2da",
+          "table": "feat.2da",
+          "row": 709,
+          "label": "FEAT_EPIC_OVERWHELMING_CRITICAL_CLUB",
+          "column": "MASTERFEAT",
+          "value": "12",
+          "build": "89.8193.37-17",
+          "fetched": "2026-09-26",
+          "note": "Строки 709–745, 958, 999, 1078: 40 фитов под MASTERFEAT 12, по фиту на оружие. У оружия существ своя строка 746 без MASTERFEAT — вариант не выбирается ни одним играбельным классом (ALLCLASSESCANUSE пуст, ни одна таблица cls_feat_* его не перечисляет; Notes страницы Fandom: «The creature weapon variant of this feat is non-functional»), значение в домене оружия от этого не меняется (тот же случай, что у Epic weapon focus). Каждая строка требует Improved Critical ТОГО ЖЕ оружия (PREREQFEAT2: 709 → 15 Improved Critical (club), 710 → 52 Improved Critical (dagger) и так далее) и Great Cleave (PREREQFEAT1 391) — это `same_choice_as: [improved_critical]` машинного слоя. MINSTR 23, PreReqEpic 1. GAINMULTIPLE 0 у всех — одно значение дважды не взять."
+        },
+        "note": "Задача 4.30 — находка сверки 4.5 `repeatable/overwhelming_critical/choice`, вид (a). Fandom называет выбор («When using the weapon chosen»), но не пишет «may be taken multiple times»: та же форма, что у Epic weapon focus, — в игре это семейство, строка feat.2da на каждое оружие. До записи выбор оружия не записывался вовсе: фит брался один раз, на второе оружие — никак, а «(chosen weapon)» у требования печаталось оговоркой. Теперь фит берётся на каждое оружие по разу (`distinct: true` сказан явно), и `same_choice_as` сравнивается: Overwhelming critical (longsword) требует Improved critical (longsword).",
+        "hak": {
+          "note": "Доезжает до Сиалы, и законно: слой Сиалы блока повторяемости у этого фита не заводит, а feat.2da хака несёт те же 40 строк под MASTERFEAT 12 — LABEL, FEAT, PREREQFEAT1/2, MINSTR 23, ALLCLASSESCANUSE 1, PreReqEpic 1, GAINMULTIPLE 0 совпадают с базовой игрой строка в строку (`weapon_feat_tables_hak_test.exs`). На Сиале фит живой, в отличие от Devastating critical, и до записи на второе оружие он там не брался — это и был дефект, названный входом задачи 4.7.",
+          "source": {
+            "kind": "hak",
+            "table": "feat.2da",
+            "row": 709,
+            "sha1": "470c84d59da7b158cd5b70de577ad3d8132d95c9",
+            "fetched": "2026-08-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "resist_energy",
+      "repeatable": {
+        "choice": "energy_type",
+        "distinct": true,
+        "status": "verified",
+        "quote": "The character gains +5 [[damage resistance|resistance]] against the chosen type of energy.",
+        "source": {
+          "wiki": "fandom",
+          "page": "Resist energy",
+          "revid": 63837,
+          "fetched": "2026-08-01"
+        },
+        "quote_2": "The choices for types of energy are [[acid damage|acid]], [[cold damage|cold]], [[electrical damage|electrical]], [[fire damage|fire]], and [[sonic damage|sonic]].",
+        "source_2": {
+          "wiki": "fandom",
+          "page": "Resist energy",
+          "revid": 63837,
+          "fetched": "2026-08-01"
+        },
+        "source_3": {
+          "kind": "2da",
+          "table": "feat.2da",
+          "row": 427,
+          "label": "ResistEnergyCold",
+          "column": "MASTERFEAT",
+          "value": "8",
+          "build": "89.8193.37-17",
+          "fetched": "2026-09-26",
+          "note": "Строки 427–431: 5 фитов, по фиту на тип энергии; все 5 под MASTERFEAT 8. GAINMULTIPLE 0 у всех — одно значение дважды не взять."
+        },
+        "note": "Fandom называет выбор («the chosen …»), но не пишет «may be taken multiple times»: в игре это не один фит, берущийся повторно, а семейство — отдельная строка feat.2da на каждое значение. Отсюда и ответ: взять можно столько раз, сколько значений, и каждое — один раз (`distinct: true` сказан явно, допущения нет)."
+      }
+    },
+    {
+      "id": "self_concealment",
+      "max_takes": {
+        "value": 5,
+        "status": "derived",
+        "from": {
+          "counted": "tiers",
+          "tiers": [
+            "Self-Concealment I",
+            "Self-Concealment II",
+            "Self-Concealment III",
+            "Self-Concealment IV",
+            "Self-Concealment V"
+          ]
+        },
+        "source": {
+          "kind": "2da",
+          "table": "feat.2da",
+          "row": 752,
+          "label": "FEAT_EPIC_SELF_CONCEALMENT_50",
+          "column": "PREREQFEAT1",
+          "value": "751",
+          "build": "89.8193.37-17",
+          "fetched": "2026-09-26",
+          "note": "Строки 748–752, Self-Concealment I … Self-Concealment V: каждая следующая требует предыдущую (PREREQFEAT1), у последней SUCCESSOR пуст — цепочка из 5."
+        },
+        "quote_2": "This feat may be taken multiple times, to a maximum of 50% concealment.",
+        "source_2": {
+          "wiki": "fandom",
+          "page": "Self concealment",
+          "revid": 52033,
+          "fetched": "2026-08-01"
+        },
+        "note": "Fandom называет предел в единицах ЭФФЕКТА (quote_2), и с таблицей он сходится; но число взятий дала длина цепочки, а не деление эффекта на прибавку — `Loader.Feats.repeatable/4`."
+      }
+    },
+    {
+      "id": "weapon_of_choice",
+      "distinct": {
+        "value": true,
+        "status": "verified",
+        "quote": "It is possible for an [[epic class|epic]] weapon master to take additional weapons of choice as class [[epic bonus feat]]s (provided the weapon focus prerequisites are met).",
+        "source": {
+          "wiki": "fandom",
+          "page": "Weapon of choice",
+          "revid": 65834,
+          "fetched": "2026-08-01"
+        },
+        "source_2": {
+          "kind": "2da",
+          "table": "feat.2da",
+          "row": 879,
+          "label": "FEAT_WEAPON_OF_CHOICE_SICKLE",
+          "column": "MASTERFEAT",
+          "value": "9",
+          "build": "89.8193.37-17",
+          "fetched": "2026-09-26",
+          "note": "Строки 879–881, 919–943, 959, 1000, 1079: 31 фитов, по фиту на оружие, все под MASTERFEAT 9; GAINMULTIPLE 0 у всех — одно значение дважды не взять."
+        },
+        "note": "Машинный блок повторяемость читает, а обязаны ли взятия отличаться — не записал, и загрузчик подставлял «да» сам, с допущением {:assumed, :repeatable_choices_must_differ} на весь ruleset. Ответ «да» — из таблицы: значение есть строка, и строку персонаж либо имеет, либо нет."
+      }
+    }
+  ]
+}

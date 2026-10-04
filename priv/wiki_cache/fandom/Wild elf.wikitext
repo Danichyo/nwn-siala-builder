@@ -1,0 +1,21 @@
+A '''wild elf''' is a [[subrace]] of [[elf]].
+
+Wild elves, also known as green elves, are insular and savage. As a result they are rarely seen outside their forest homes. The green elves were always close to nature, even more than other elves, but they have forgotten many of the high arts and lore of their people, choosing stealth and survival over learning and enlightenment. Their skin tends to be brown and their hair ranges from black to light brown, lightening to silvery white with age.
+
+'''Wild elf [[ability]] adjustments''': +2 [[Dex]], -2 [[Int]]
+
+[[Favored class]] ([[Sorcerer]]): A [[Class#Multiclassing|multiclass]] Wild elf's sorcerer class does not count when determining whether he suffers an [[Multiclass penalty|XP penalty for multiclassing]].
+
+==Special abilities==
+*[[Immunity to Sleep|Sleeplessness]]: [[Immunity|Immune]] to [[spell]]s and effects of the [[Sleep]] subtype.
+*[[Hardiness vs. Enchantments]]: +2 racial bonus on [[saving throw]]s against [[mind-affecting]] spells.
+*[[Weapon Proficiency (Elf)|Bonus Proficiencies]] ([[Longsword]], [[Rapier]], [[Shortbow]], [[Longbow]])
+*[[Skill Affinity (Listen)]]: +2 racial bonus to [[listen]] checks.
+*[[Skill Affinity (Search)]]: +2 racial bonus to [[Search]] checks.
+*[[Skill Affinity (Spot)]]: +2 racial bonus to [[Spot]] checks.
+*[[Keen Sense]]s: Elves make active Search checks automatically and with no [[movement penalty|movement penalties]].
+*[[Low-light Vision]]: Allows them to see better than normal in the dark.
+
+==Notes==
+*Wild elves are not implemented in Neverwinter Nights by default, but may be included or supported in some [[hak pak]]s or [[gameworld]]s.
+[[Category:Custom content races]]

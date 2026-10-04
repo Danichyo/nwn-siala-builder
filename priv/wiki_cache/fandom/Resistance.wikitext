@@ -1,0 +1,24 @@
+{{spell
+|icon=is_resis.gif
+|bardlevel=0
+|clericlevel=0
+|druidlevel=0
+|paladinlevel=1
+|magelevel=0
+|innatelevel=<s>0</s> 1
+|school=[[abjuration]]
+|components=VS
+|range=t
+|area=single
+|save=harmless
+|spellresistance=no
+|duration=2 [[turn]]s
+|desc=Grants the target creature a +1 bonus to all [[saving throw]]s.}}
+
+==Notes==
+
+*This spell erroneously has an innate level of 1.
+
+==Custom content notes==
+
+*''script:'' <code>NW_S0_Resis</code>

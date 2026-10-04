@@ -1,0 +1,19 @@
+{{feat
+|type=general
+|prereq=ability to cast first-level [[spell]]s
+|reqfor=[[greater spell penetration]]
+|desc=A spellcaster with this feat gains a +2 bonus to caster level checks to beat a creature's [[spell resistance]].
+|use=automatic
+|icon=ife_spelpen.gif
+|bonus1=wizard
+}}
+
+==Builder notes==
+'''Item feat:''' yes
+
+==Custom content notes==
+'''Removable:''' yes
+
+'''Reusable:''' yes
+
+'''Script:''' hardcoded

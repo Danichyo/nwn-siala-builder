@@ -1,0 +1,31 @@
+'''Уровень Заклинателя:''' Колдун / Волшебник 1
+
+'''Начальный Уровень:''' 1
+
+'''Школа:''' Некромантия (Necromancy)
+
+'''Дескриптор(ы):''' Смерть
+
+'''Компонент(ы):''' Жестовые
+
+'''Расстояние до Цели:''' Короткое
+
+'''Область Охвата / Цель:''' Одиночная
+
+'''Продолжительность:''' 1 Раунд / Уровень
+
+'''Спасбросок:''' Воля (Will) 1/2
+
+'''Сопротивление Заклинанию:''' Да
+
+Телосложение существа, на которое направлено заклинание, снижается на 1d8 + 1/2 модификатора основной характеристики заклинателя (Максимум 1d8+4). Эффекты от нескольких применений этого заклинания не складываются друг с другом.
+
+<u>Бледный мастер:</u> Уровень в классе учитывается для определения силы заклинания.
+
+== Общее ==
+*Заклинания: [https:////nwn.fandom.com/wiki/Death_ward Death ward], [https://nwn.fandom.com/wiki/Shadow_shield Shadow shield], [https://nwn.fandom.com/wiki/Undeath's_eternal_foe Undeath's eternal foe], [https://nwn.fandom.com/wiki/Negative_energy_protection Negative energy protection], [https://nwn.fandom.com/wiki/Protection_from_alignment Protection from alignment] - спасают цель от наложения эффекта.
+
+== Ссылки ==
+*[https://nwn.fandom.com/wiki/Ray_of_enfeeblement Ray of enfeeblement в англоязычной вики]
+
+[[Категория:Заклинания]]

@@ -1,0 +1,10 @@
+'''Description:''' Clerics who take the Knowledge domain gain access to an improved list of bonus spells.[[Image:Id knowledge.gif|right|Knowledge]]
+
+== Bonus Spells ==
+
+* Level 1 [[Identify]]
+* Level 2 [[Knock]]
+* Level 3 [[Clairaudience/clairvoyance]]
+* Level 4 [[True seeing (spell)|True seeing]]
+* Level 6 [[Legend lore]]
+[[Category:Cleric domains]]

@@ -1,0 +1,28 @@
+{{spell
+|icon=Is_x2balllghtng.gif
+|magelevel=5
+|innatelevel=5
+|school=[[evocation]]
+|components=VS
+|range=m
+|area=<s>single</s> ''{{AoE|gargantuan}}''
+|save=[[reflex]] 1/2
+|spellresistance=yes
+|immunity=electricity
+|duration=instantaneous
+|desc=You create a ball of lightning that strikes your target. The [[electrical damage]] of the ball is 1[[d6]] per [[caster level|level]] to a maximum of 15d6.}}
+
+== Notes ==
+
+*Requires [[Hordes of the Underdark]].
+*Instead of a single ball doing up to 15d6 damage, this spell actually creates up to 15 balls that can strike different targets, each doing 1d6 damage.
+** This makes ''ball lightning'' rather ineffective against creatures with any amount of electrical [[damage resistance]].
+** The target selection of this spell is that of the [[Isaac's lesser missile storm|missile storms]] (except this spell cannot target a location). The lightning balls will be distributed evenly among the potential targets in a gargantuan area, with any excess balls directed at the first target.
+
+=== Previous versions ===
+*Prior to version 1.69, the saving throw was made against fire instead of electricity.
+*Prior to version 1.65, there was no saving throw.
+
+== Custom content notes ==
+
+* ''Script:'' <code>x2_s0_balllghtng</code>

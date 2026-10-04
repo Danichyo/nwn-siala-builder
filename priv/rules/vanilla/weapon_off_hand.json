@@ -1,0 +1,702 @@
+{
+  "_layer": "vanilla",
+  "_hand_written": true,
+  "_note": "В КАКОЙ РУКЕ может оказаться оружие как ПРЕДМЕТ (задача 4.29). Это третий вопрос о руках, и он не сводится к двум первым: «сколькими руками держат» — хват (`vanilla/weapon_wield.json` и правило размеров `_grip`), «что главная рука закрывает во второй» — запрет дальнобойного (`_off_hand` генерируемого `vanilla/weapons.json`). Здесь — можно ли положить сам предмет во вторую руку вообще, у любого владельца.\n\nДва источника, оба ванильные:\n1. Колонка `EquipableSlots` таблицы игры `baseitems.2da` — битовое поле слотов инвентаря, в которые предмет кладётся; бит `0x00020` — вторая рука (`rule`). Предмет без этого бита во вторую руку не кладётся ни у кого: это свойство ПРЕДМЕТА, а не пары «оружие и владелец», как хват. Fandom у кнута и магического посоха говорит то же словами — «cannot be wielded in the off-hand without using a modified baseitems.2da».\n2. Запрет движка, которого в таблице нет (`engine_barred`): цепы и моргенштерн. У лёгкого цепа и моргенштерна бит второй руки СТОИТ (`0x1C030`), и таблица одна их пропустила бы; отказ живёт в коде игры (nwn.wiki, «Hardcoded Limitations»; Fandom «Light flail», «Morningstar»).\n\nЧто из этого следует на ответах ядра (`Rules.Wield.main_hand_only?/2`, отказ `{:main_hand_only, id}`): без права на вторую руку по этому файлу 16 видов из 41, и у 12 из них вторую руку и так отбивает более старое правило — двуручный хват у человека (великие меч и топор, алебарда, коса, боевой посох, тяжёлый цеп), двустороннее оружие, метательное как дальнобойное. Этот отказ печатается ПОСЛЕ них, поэтому у двенадцати причина прежняя. Новые отказы — ровно у четырёх видов: кнут (у обоих размеров владельца), магический посох, лёгкий цеп и моргенштерн (у человека; малой расе все три medium и двуручны по размеру).\n\nСлой Сиалы — `siala_41/weapon_off_hand.json`, по `id` поверх этого файла: строки хака шарда, которые говорят иное, чем база. Сегодня это одна строка — кнут (`0x1C030`, бит второй руки добавлен). Остальные 40 строк и запрет движка доезжают до Сиалы законно — доказательство в блоках `hak` ниже и тестом `weapon_off_hand_hak_test.exs`.\n\nФайл рукописный: `mix wiki.parse` его не трогает. Ячейки таблицы сверяет с выгрузкой `priv/base_2da/` сторож провенанса (`provenance_test.exs`, «цитаты-строки базовых таблиц»), бит второй руки с загруженным ruleset'ом — `mix base2da.diff` (поле `off_hand_slot`), покрытие справочника и id — загрузчик при сборке (`Loader.Gear`).",
+  "_schema": {
+    "rule.off_hand_bit": "Бит второй руки в `EquipableSlots` — шестнадцатеричной строкой, как его пишет документация таблицы. Загрузчик читает маску отсюда: ни числа, ни слота в коде нет.",
+    "engine_barred.weapons": "Оружие, которое движок не кладёт во вторую руку, что бы ни говорила таблица. Id справочника; незнакомый id роняет сборку.",
+    "weapons": "По одной записи на оружие справочника со строкой в baseitems.2da: id, значение `EquipableSlots` строкой (как в таблице) и источник — ячейка таблицы. Строка — ПОЗИЦИЯ, а не метка (HANDOFF.md, задача 4.5). Значение, которое не читается как шестнадцатеричное число, роняет сборку.",
+    "not_in_baseitems": "Оружие справочника без строки в baseitems.2da — те же шесть, что в `vanilla/weapon_wield.json`. Слот у них не назван, и по этому правилу ядро им вторую руку НЕ запрещает: неизвестное не есть отказ. Каждое оружие справочника обязано стоять ровно в одном из двух списков — иначе сборка падает, а не молчит."
+  },
+  "rule": {
+    "table": "baseitems.2da",
+    "column": "EquipableSlots",
+    "off_hand_bit": "0x00020",
+    "means": "Off-hand",
+    "status": "verified",
+    "quote": "|0x00020\n|Off-hand",
+    "source": {
+      "wiki": "fandom",
+      "page": "Baseitems.2da",
+      "revid": 70205,
+      "fetched": "2026-09-26"
+    },
+    "quote_2": "Since most melee weapons should be able to go into the main hand, off-hand, and creature weapon slots, the value of the \"EquipableSlots\" column would be \"0x1C030\".",
+    "source_2": {
+      "wiki": "fandom",
+      "page": "Baseitems.2da",
+      "revid": 70205,
+      "fetched": "2026-09-26"
+    },
+    "quote_3": "Whips cannot be wielded in the [[off-hand]] without using a modified [[baseitems.2da]].",
+    "source_3": {
+      "wiki": "fandom",
+      "page": "Whip",
+      "revid": 54775,
+      "fetched": "2026-08-10"
+    },
+    "quote_4": "Magic staves cannot be wielded in the [[off-hand]] without using a modified [[baseitems.2da]].",
+    "source_4": {
+      "wiki": "fandom",
+      "page": "Magic staff",
+      "revid": 71760,
+      "fetched": "2026-08-10"
+    },
+    "corroborated_by": [
+      {
+        "site": "nwn.wiki",
+        "page": "baseitems.2da",
+        "page_id": 38174935,
+        "version": 60,
+        "version_date": "2026-05-25",
+        "url": "https://nwn.wiki/display/NWN1/baseitems.2da",
+        "fetched": "2026-09-26",
+        "quote": "A bit flag indicating the inventory slots into which this item can be placed.",
+        "note": "Описание колонки; таблица битов ниже на той же странице называет «0x00020 Off-hand», как и Fandom."
+      }
+    ],
+    "hak": {
+      "note": "Задача 4.29, сверка с хаком Сиалы (`priv/hak/2da/baseitems.2da`): у всех 41 оружия справочника строки хака стоят на тех же позициях с теми же метками, и `EquipableSlots` совпадает с базовой игрой у 40 — расходится ровно строка 111 `Whip`: `0x1C030` против базового `0x1C010`, то есть шард кнуту бит второй руки ДОБАВИЛ (тот самый «modified baseitems.2da», о котором говорит Fandom). Отличие лежит записью `kind: \"hak\"` в `siala_41/weapon_off_hand.json`; остальные 40 строк доезжают до Сиалы из этого файла. Машинно — `weapon_off_hand_hak_test.exs`. ⚠️ Хак — то, что видит клиент (`priv/hak/README.md`): серверный скрипт шарда мог бы запретить больше, и выгрузка этого не покажет. Довод, а не замер.",
+      "source": {
+        "kind": "hak",
+        "table": "baseitems.2da",
+        "sha1": "3edfc813dd877fd6291a671be69d8eb75e9bef81",
+        "fetched": "2026-08-27"
+      }
+    },
+    "note": "Бита второй руки нет у 14 из 41 оружия: у двуручных и двусторонних (они и так заняли бы обе руки), у трёх метательных (дротик, сюрикен, метательный топор — главная рука, `0x00010`), и у двух одноручных — кнута (small) и магического посоха (medium). У луков, арбалетов и пращи бит СТОИТ (`0x00030`) — во вторую руку их не пускает другое правило, дальнобойное (`_off_hand`, замер AI2), и этот файл его не заменяет."
+  },
+  "engine_barred": {
+    "weapons": [
+      "heavy_flail",
+      "light_flail",
+      "morningstar"
+    ],
+    "status": "verified",
+    "quote": "Light flails may not be wielded in a [[player character]]'s [[off-hand]].",
+    "source": {
+      "wiki": "fandom",
+      "page": "Light flail",
+      "revid": 54873,
+      "fetched": "2026-08-10"
+    },
+    "quote_2": "Morningstars may not be wielded in the [[off-hand]].",
+    "source_2": {
+      "wiki": "fandom",
+      "page": "Morningstar",
+      "revid": 70615,
+      "fetched": "2026-08-10"
+    },
+    "corroborated_by": [
+      {
+        "site": "nwn.wiki",
+        "page": "baseitems.2da",
+        "page_id": 38174935,
+        "version": 60,
+        "version_date": "2026-05-25",
+        "url": "https://nwn.wiki/display/NWN1/baseitems.2da",
+        "fetched": "2026-09-26",
+        "section": "Hardcoded Limitations → Flails and Morningstars",
+        "quote": "Fails (light and heavy) and morningstars cannot be equipped in the off hand due to engine coding.",
+        "note": "Дословно, с опечаткой страницы: «Fails» вместо «Flails» (заголовок раздела — «Flails and Morningstars»). Раздел «Whips» той же страницы о второй руке не говорит ничего — у кнута запрет только в таблице."
+      }
+    ],
+    "hak": {
+      "note": "Запрет движка в таблицах не лежит вовсе — ни в базовых, ни в хаке, — и потому хак его не отменяет и не добавляет: он в коде игры. Названы же в нём ТИПЫ предметов, а тип предмета — строка baseitems.2da: в хаке Сиалы лёгкий цеп, тяжёлый цеп и моргенштерн стоят на прежних позициях (4 `lightflail`, 35 `heavyflail`, 47 `morningstar`) с прежними метками и прежним `EquipableSlots`. Значит запрет доезжает до Сиалы тем же движком. ⚠️ Довод, а не замер: изменения самого движка на сервере шарда (если они есть) в выгрузке не видны.",
+      "source": {
+        "kind": "hak",
+        "table": "baseitems.2da",
+        "sha1": "3edfc813dd877fd6291a671be69d8eb75e9bef81",
+        "fetched": "2026-08-27"
+      }
+    },
+    "note": "Тяжёлый цеп в списке по слову nwn.wiki («light and heavy»); Fandom «Heavy flail» о второй руке молчит. Ни одно число от этого не зависит: у тяжёлого цепа нет и бита второй руки (`0x1C010`), а у человека он large и двуручен. Отказ, который печатает ядро, у цепов и моргенштерна тот же, что у кнута и посоха, — «только в главную руку»: игроку всё равно, запрещает таблица или код игры."
+  },
+  "weapons": [
+    {
+      "id": "bastard_sword",
+      "equipable_slots": "0x1C030",
+      "source": {
+        "kind": "2da",
+        "table": "baseitems.2da",
+        "row": 3,
+        "label": "bastardsword",
+        "column": "EquipableSlots",
+        "value": "0x1C030",
+        "build": "89.8193.37-17",
+        "fetched": "2026-09-26"
+      }
+    },
+    {
+      "id": "battleaxe",
+      "equipable_slots": "0x1C030",
+      "source": {
+        "kind": "2da",
+        "table": "baseitems.2da",
+        "row": 2,
+        "label": "battleaxe",
+        "column": "EquipableSlots",
+        "value": "0x1C030",
+        "build": "89.8193.37-17",
+        "fetched": "2026-09-26"
+      }
+    },
+    {
+      "id": "club",
+      "equipable_slots": "0x1C030",
+      "source": {
+        "kind": "2da",
+        "table": "baseitems.2da",
+        "row": 28,
+        "label": "club",
+        "column": "EquipableSlots",
+        "value": "0x1C030",
+        "build": "89.8193.37-17",
+        "fetched": "2026-09-26"
+      }
+    },
+    {
+      "id": "dagger",
+      "equipable_slots": "0x1C030",
+      "source": {
+        "kind": "2da",
+        "table": "baseitems.2da",
+        "row": 22,
+        "label": "dagger",
+        "column": "EquipableSlots",
+        "value": "0x1C030",
+        "build": "89.8193.37-17",
+        "fetched": "2026-09-26"
+      }
+    },
+    {
+      "id": "dart",
+      "equipable_slots": "0x00010",
+      "source": {
+        "kind": "2da",
+        "table": "baseitems.2da",
+        "row": 31,
+        "label": "dart",
+        "column": "EquipableSlots",
+        "value": "0x00010",
+        "build": "89.8193.37-17",
+        "fetched": "2026-09-26"
+      }
+    },
+    {
+      "id": "dire_mace",
+      "equipable_slots": "0x1C010",
+      "source": {
+        "kind": "2da",
+        "table": "baseitems.2da",
+        "row": 32,
+        "label": "diremace",
+        "column": "EquipableSlots",
+        "value": "0x1C010",
+        "build": "89.8193.37-17",
+        "fetched": "2026-09-26"
+      }
+    },
+    {
+      "id": "double_axe",
+      "equipable_slots": "0x1C010",
+      "source": {
+        "kind": "2da",
+        "table": "baseitems.2da",
+        "row": 33,
+        "label": "doubleaxe",
+        "column": "EquipableSlots",
+        "value": "0x1C010",
+        "build": "89.8193.37-17",
+        "fetched": "2026-09-26"
+      }
+    },
+    {
+      "id": "dwarven_waraxe",
+      "equipable_slots": "0x1C030",
+      "source": {
+        "kind": "2da",
+        "table": "baseitems.2da",
+        "row": 108,
+        "label": "dwarvenwaraxe",
+        "column": "EquipableSlots",
+        "value": "0x1C030",
+        "build": "89.8193.37-17",
+        "fetched": "2026-09-26"
+      }
+    },
+    {
+      "id": "greataxe",
+      "equipable_slots": "0x1C010",
+      "source": {
+        "kind": "2da",
+        "table": "baseitems.2da",
+        "row": 18,
+        "label": "greataxe",
+        "column": "EquipableSlots",
+        "value": "0x1C010",
+        "build": "89.8193.37-17",
+        "fetched": "2026-09-26"
+      }
+    },
+    {
+      "id": "greatsword",
+      "equipable_slots": "0x1C010",
+      "source": {
+        "kind": "2da",
+        "table": "baseitems.2da",
+        "row": 13,
+        "label": "greatsword",
+        "column": "EquipableSlots",
+        "value": "0x1C010",
+        "build": "89.8193.37-17",
+        "fetched": "2026-09-26"
+      }
+    },
+    {
+      "id": "halberd",
+      "equipable_slots": "0x1C010",
+      "source": {
+        "kind": "2da",
+        "table": "baseitems.2da",
+        "row": 10,
+        "label": "halberd",
+        "column": "EquipableSlots",
+        "value": "0x1C010",
+        "build": "89.8193.37-17",
+        "fetched": "2026-09-26"
+      }
+    },
+    {
+      "id": "handaxe",
+      "equipable_slots": "0x1C030",
+      "source": {
+        "kind": "2da",
+        "table": "baseitems.2da",
+        "row": 38,
+        "label": "handaxe",
+        "column": "EquipableSlots",
+        "value": "0x1C030",
+        "build": "89.8193.37-17",
+        "fetched": "2026-09-26"
+      }
+    },
+    {
+      "id": "heavy_crossbow",
+      "equipable_slots": "0x00030",
+      "source": {
+        "kind": "2da",
+        "table": "baseitems.2da",
+        "row": 6,
+        "label": "heavycrossbow",
+        "column": "EquipableSlots",
+        "value": "0x00030",
+        "build": "89.8193.37-17",
+        "fetched": "2026-09-26"
+      }
+    },
+    {
+      "id": "heavy_flail",
+      "equipable_slots": "0x1C010",
+      "source": {
+        "kind": "2da",
+        "table": "baseitems.2da",
+        "row": 35,
+        "label": "heavyflail",
+        "column": "EquipableSlots",
+        "value": "0x1C010",
+        "build": "89.8193.37-17",
+        "fetched": "2026-09-26"
+      }
+    },
+    {
+      "id": "kama",
+      "equipable_slots": "0x1C030",
+      "source": {
+        "kind": "2da",
+        "table": "baseitems.2da",
+        "row": 40,
+        "label": "kama",
+        "column": "EquipableSlots",
+        "value": "0x1C030",
+        "build": "89.8193.37-17",
+        "fetched": "2026-09-26"
+      }
+    },
+    {
+      "id": "katana",
+      "equipable_slots": "0x1C030",
+      "source": {
+        "kind": "2da",
+        "table": "baseitems.2da",
+        "row": 41,
+        "label": "katana",
+        "column": "EquipableSlots",
+        "value": "0x1C030",
+        "build": "89.8193.37-17",
+        "fetched": "2026-09-26"
+      }
+    },
+    {
+      "id": "kukri",
+      "equipable_slots": "0x1C030",
+      "source": {
+        "kind": "2da",
+        "table": "baseitems.2da",
+        "row": 42,
+        "label": "kukri",
+        "column": "EquipableSlots",
+        "value": "0x1C030",
+        "build": "89.8193.37-17",
+        "fetched": "2026-09-26"
+      }
+    },
+    {
+      "id": "lance",
+      "equipable_slots": "0x1C030",
+      "source": {
+        "kind": "2da",
+        "table": "baseitems.2da",
+        "row": 92,
+        "label": "Lance",
+        "column": "EquipableSlots",
+        "value": "0x1C030",
+        "build": "89.8193.37-17",
+        "fetched": "2026-09-26"
+      }
+    },
+    {
+      "id": "light_crossbow",
+      "equipable_slots": "0x00030",
+      "source": {
+        "kind": "2da",
+        "table": "baseitems.2da",
+        "row": 7,
+        "label": "lightcrossbow",
+        "column": "EquipableSlots",
+        "value": "0x00030",
+        "build": "89.8193.37-17",
+        "fetched": "2026-09-26"
+      }
+    },
+    {
+      "id": "light_flail",
+      "equipable_slots": "0x1C030",
+      "source": {
+        "kind": "2da",
+        "table": "baseitems.2da",
+        "row": 4,
+        "label": "lightflail",
+        "column": "EquipableSlots",
+        "value": "0x1C030",
+        "build": "89.8193.37-17",
+        "fetched": "2026-09-26"
+      }
+    },
+    {
+      "id": "light_hammer",
+      "equipable_slots": "0x1C030",
+      "source": {
+        "kind": "2da",
+        "table": "baseitems.2da",
+        "row": 37,
+        "label": "lighthammer",
+        "column": "EquipableSlots",
+        "value": "0x1C030",
+        "build": "89.8193.37-17",
+        "fetched": "2026-09-26"
+      }
+    },
+    {
+      "id": "longbow",
+      "equipable_slots": "0x00030",
+      "source": {
+        "kind": "2da",
+        "table": "baseitems.2da",
+        "row": 8,
+        "label": "longbow",
+        "column": "EquipableSlots",
+        "value": "0x00030",
+        "build": "89.8193.37-17",
+        "fetched": "2026-09-26"
+      }
+    },
+    {
+      "id": "longsword",
+      "equipable_slots": "0x1C030",
+      "source": {
+        "kind": "2da",
+        "table": "baseitems.2da",
+        "row": 1,
+        "label": "longsword",
+        "column": "EquipableSlots",
+        "value": "0x1C030",
+        "build": "89.8193.37-17",
+        "fetched": "2026-09-26"
+      }
+    },
+    {
+      "id": "mace",
+      "equipable_slots": "0x1C030",
+      "source": {
+        "kind": "2da",
+        "table": "baseitems.2da",
+        "row": 9,
+        "label": "lightmace",
+        "column": "EquipableSlots",
+        "value": "0x1C030",
+        "build": "89.8193.37-17",
+        "fetched": "2026-09-26"
+      }
+    },
+    {
+      "id": "magic_staff",
+      "equipable_slots": "0x1C010",
+      "source": {
+        "kind": "2da",
+        "table": "baseitems.2da",
+        "row": 45,
+        "label": "magicstaff",
+        "column": "EquipableSlots",
+        "value": "0x1C010",
+        "build": "89.8193.37-17",
+        "fetched": "2026-09-26"
+      }
+    },
+    {
+      "id": "morningstar",
+      "equipable_slots": "0x1C030",
+      "source": {
+        "kind": "2da",
+        "table": "baseitems.2da",
+        "row": 47,
+        "label": "morningstar",
+        "column": "EquipableSlots",
+        "value": "0x1C030",
+        "build": "89.8193.37-17",
+        "fetched": "2026-09-26"
+      }
+    },
+    {
+      "id": "quarterstaff",
+      "equipable_slots": "0x1C010",
+      "source": {
+        "kind": "2da",
+        "table": "baseitems.2da",
+        "row": 50,
+        "label": "quarterstaff",
+        "column": "EquipableSlots",
+        "value": "0x1C010",
+        "build": "89.8193.37-17",
+        "fetched": "2026-09-26"
+      }
+    },
+    {
+      "id": "rapier",
+      "equipable_slots": "0x1C030",
+      "source": {
+        "kind": "2da",
+        "table": "baseitems.2da",
+        "row": 51,
+        "label": "rapier",
+        "column": "EquipableSlots",
+        "value": "0x1C030",
+        "build": "89.8193.37-17",
+        "fetched": "2026-09-26"
+      }
+    },
+    {
+      "id": "scimitar",
+      "equipable_slots": "0x1C030",
+      "source": {
+        "kind": "2da",
+        "table": "baseitems.2da",
+        "row": 53,
+        "label": "scimitar",
+        "column": "EquipableSlots",
+        "value": "0x1C030",
+        "build": "89.8193.37-17",
+        "fetched": "2026-09-26"
+      }
+    },
+    {
+      "id": "scythe",
+      "equipable_slots": "0x1C010",
+      "source": {
+        "kind": "2da",
+        "table": "baseitems.2da",
+        "row": 55,
+        "label": "scythe",
+        "column": "EquipableSlots",
+        "value": "0x1C010",
+        "build": "89.8193.37-17",
+        "fetched": "2026-09-26"
+      }
+    },
+    {
+      "id": "shortbow",
+      "equipable_slots": "0x00030",
+      "source": {
+        "kind": "2da",
+        "table": "baseitems.2da",
+        "row": 11,
+        "label": "shortbow",
+        "column": "EquipableSlots",
+        "value": "0x00030",
+        "build": "89.8193.37-17",
+        "fetched": "2026-09-26"
+      }
+    },
+    {
+      "id": "shortsword",
+      "equipable_slots": "0x1C030",
+      "source": {
+        "kind": "2da",
+        "table": "baseitems.2da",
+        "row": 0,
+        "label": "shortsword",
+        "column": "EquipableSlots",
+        "value": "0x1C030",
+        "build": "89.8193.37-17",
+        "fetched": "2026-09-26"
+      }
+    },
+    {
+      "id": "shuriken",
+      "equipable_slots": "0x00010",
+      "source": {
+        "kind": "2da",
+        "table": "baseitems.2da",
+        "row": 59,
+        "label": "shuriken",
+        "column": "EquipableSlots",
+        "value": "0x00010",
+        "build": "89.8193.37-17",
+        "fetched": "2026-09-26"
+      }
+    },
+    {
+      "id": "sickle",
+      "equipable_slots": "0x1C030",
+      "source": {
+        "kind": "2da",
+        "table": "baseitems.2da",
+        "row": 60,
+        "label": "sickle",
+        "column": "EquipableSlots",
+        "value": "0x1C030",
+        "build": "89.8193.37-17",
+        "fetched": "2026-09-26"
+      }
+    },
+    {
+      "id": "sling",
+      "equipable_slots": "0x00030",
+      "source": {
+        "kind": "2da",
+        "table": "baseitems.2da",
+        "row": 61,
+        "label": "sling",
+        "column": "EquipableSlots",
+        "value": "0x00030",
+        "build": "89.8193.37-17",
+        "fetched": "2026-09-26"
+      }
+    },
+    {
+      "id": "spear",
+      "equipable_slots": "0x1C030",
+      "source": {
+        "kind": "2da",
+        "table": "baseitems.2da",
+        "row": 58,
+        "label": "shortspear",
+        "column": "EquipableSlots",
+        "value": "0x1C030",
+        "build": "89.8193.37-17",
+        "fetched": "2026-09-26"
+      }
+    },
+    {
+      "id": "throwing_axe",
+      "equipable_slots": "0x00010",
+      "source": {
+        "kind": "2da",
+        "table": "baseitems.2da",
+        "row": 63,
+        "label": "throwingaxe",
+        "column": "EquipableSlots",
+        "value": "0x00010",
+        "build": "89.8193.37-17",
+        "fetched": "2026-09-26"
+      }
+    },
+    {
+      "id": "trident",
+      "equipable_slots": "0x1C030",
+      "source": {
+        "kind": "2da",
+        "table": "baseitems.2da",
+        "row": 95,
+        "label": "trident",
+        "column": "EquipableSlots",
+        "value": "0x1C030",
+        "build": "89.8193.37-17",
+        "fetched": "2026-09-26"
+      }
+    },
+    {
+      "id": "two_bladed_sword",
+      "equipable_slots": "0x1C010",
+      "source": {
+        "kind": "2da",
+        "table": "baseitems.2da",
+        "row": 12,
+        "label": "twobladedsword",
+        "column": "EquipableSlots",
+        "value": "0x1C010",
+        "build": "89.8193.37-17",
+        "fetched": "2026-09-26"
+      }
+    },
+    {
+      "id": "warhammer",
+      "equipable_slots": "0x1C030",
+      "source": {
+        "kind": "2da",
+        "table": "baseitems.2da",
+        "row": 5,
+        "label": "warhammer",
+        "column": "EquipableSlots",
+        "value": "0x1C030",
+        "build": "89.8193.37-17",
+        "fetched": "2026-09-26"
+      }
+    },
+    {
+      "id": "whip",
+      "equipable_slots": "0x1C010",
+      "source": {
+        "kind": "2da",
+        "table": "baseitems.2da",
+        "row": 111,
+        "label": "Whip",
+        "column": "EquipableSlots",
+        "value": "0x1C010",
+        "build": "89.8193.37-17",
+        "fetched": "2026-09-26"
+      }
+    }
+  ],
+  "not_in_baseitems": {
+    "ids": [
+      "bite_item",
+      "claw_item",
+      "creature_weapon",
+      "gore_item",
+      "slam_item",
+      "unarmed_strike"
+    ],
+    "note": "Строки в baseitems.2da у них нет (сверка 4.5, вид (b); тот же список, что в `vanilla/weapon_wield.json`): оружие существ там — обезличенные типы, предметом игрока оно не является (`gear.weapon.not_wieldable`), безоружный удар — не предмет вовсе. Слот не назван — и второй руке по этому правилу не отказывается ничего: рукопашный удар во второй руке остаётся, как был."
+  }
+}

@@ -1,0 +1,34 @@
+{{spell
+|icon=is_summon8.gif
+|clericlevel=8
+|druidlevel=8
+|magelevel=8
+|innatelevel=8
+|school=[[conjuration]]
+|components=VS
+|range=s
+|area=point
+|save=none
+|spellresistance=no
+|duration=24 [[hour]]s
+|line=Summon creature
+|line1=summon creature I
+|line2=summon creature II
+|line3=summon creature III
+|line4=summon creature IV
+|line5=summon creature V
+|line6=summon creature VI
+|line7=summon creature VII
+|line8=summon creature VIII
+|line9=summon creature IX
+|desc=The caster [[summon]]s a random greater [[elemental]] to be a faithful and loyal servant.}}
+
+== Notes ==
+
+* The creatures potentially summoned by this spell are [[greater air elemental]]s, [[greater fire elemental]]s, and [[greater water elemental]]s.
+* This spell used to include [[greater earth elemental]]s as a possible summons, but their large size often caused problems navigating dungeons.
+
+== Custom content notes ==
+
+* ''script:'' <code>NW_S0_Summon</code>
+[[category:summoning]]

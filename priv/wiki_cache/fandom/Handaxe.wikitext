@@ -1,0 +1,81 @@
+{{Weapon|imagefile=Handaxe.jpg
+  |weaponname=Handaxe
+  |weapondescription=The '''handaxe''' is smaller than most [[axe]]s used for combat, and is most often used as an [[off-hand]] [[weapon]].
+  |weight=5
+  |cost=6
+  |damage=1d6
+  |critical=x3
+  |damagetype=[[slashing damage|slashing]]
+  |size=Small
+  |proficiency=[[weapon proficiency (martial)|martial]]<br/> [[weapon proficiency (monk)|monk]]<br/> [[weapon proficiency (rogue)|rogue]]
+  |category=[[Category:Axes]] [[Category:Martial weapons]]
+}}
+
+== Notes ==
+* Handaxes benefit from the [[weapon finesse]] feat.
+* The in-game description does not list "Rogue" among the "Feats Required". This is an omission from the in-game text.
+
+==Toolset==
+* Handaxes are listed under the [[one-handed axe blueprint category]] of the [[item palette]] in the [[Toolset]].
+
+== Blood Rust Axe ==
+It was the Year of Slaughter, 1090 DR, and countless victims lay slain at the Battle of the Bones. Today the site contains layers of dry white bone, but at the time it was all blood and bile, oozing from each shattered corpse and saturating the fallen equipment. No amount of polishing has been able to restore any weapon retrieved from that dread place, or even begin to remove the taint acquired there.
+
+*[[Damage bonus]]: +[[d6]] [[fire damage]] versus [[good]]
+*[[Enhancement bonus]]: +2
+*[[On-hit]]: [[slow]] (DC=14) (50% / 2 [[round]]s)
+*[[Item level restriction|Required level]]: 11
+
+== Ember's Axe ==
+This came from Ember's Corps, a company of adventurers in service to a dwarven [[paladin]]. Each member held a weapon nearly identical to Ember's as a reminder to act as he would in any situation, keeping virtue in mind. Demons and fell creatures constantly drew his wrath, but pompous wizardry would not go unpunished either. Mages who ever-planned would be threatened with ''whirling axe of death'', a "spell" that took very little time to prepare.
+
+*Enhancement bonus: +2
+*Enhancement bonus: +4 versus [[outsider]]s
+*Required level: 11
+
+== Handaxe +1 → +7 ==
+
+*Enhancement bonus: +X, per the name
+*Required level: 3 → 21
+
+'''Note:''' The +4 and +5 versions require [[Shadows of Undrentide]], while the +6 and +7 versions require [[Hordes of the Underdark]].
+
+== Ice Reaver +1 ==
+This weapon wears the mark of the dwarf [[Marrok]], Master Blacksmith of [[Neverwinter]]'s Shining Knight Arms and Armor. He forged it early in 1373 DR, to aid the heroes who sought to free his quarantined city from the virulent grasp of the so-called [[Wailing Death]].
+
+*Damage bonus: + 1 [[cold damage]]
+*[[Damage resistance]]: cold 15/-
+*Enhancement bonus: +1
+*Required level: 8
+
+== Ice Reaver +3 ==
+This weapon wears the mark of the dwarf [[Barun Silverblade|Barun]], a Master Blacksmith who worked from makeshift forge in the [[Uthgardt]] village of Beorunna's Well. He forged it late in 1373 DR, to aid the war effort against [[Aribeth|Lady Aribeth the Betrayer]], who was then marching against the northern city of Neverwinter and the Lords' Alliance.
+
+*Damage bonus: + 1 cold damage
+*Damage resistance: cold 15/-
+*Enhancement bonus: +3
+*Required level: 14
+
+== Ice Reaver +8 ==
+When the barbarian tribes north of [[Icewind Dale]] encountered a fierce band of [[fire giant]]s, lost and alone, their Ice Reaver hand axes made short work of them. Finding a vast sum of gold on the giants, the chieftain commemorated the battle by having new, more powerful reavers crafted for his warriors. Over time, most of these axes disappeared, and occasionally a young warrior will set off to quest for one of the legendary items.
+
+*Damage bonus: +d6 cold damage
+*Damage resistance: cold 15/-
+*Enhancement bonus: +8
+*Required level: 23
+'''Note:''' Requires Hordes of the Underdark.
+
+== Offhand Axe ==
+Axes of this type were created as training tools for an organization of [[ranger]]s and woodsmen, but their use has fallen out of favor. When combined with another weapon they grant agility and skill in the use of both at once, but it was found that some students relied too much upon them, and did not separately develop the skill that the items enhance.
+
+*Bonus feat: [[two-weapon fighting]]
+*Damage bonus: +d6 [[sonic damage]]
+*Enhancement bonus: +3
+*Required level: 17
+
+== Woodcutter's Axe ==
+Craftsmen are constantly looking for more efficient ways to approach logging, but due to terrain and budget the hands-on approach still gives the best result. To that end, these items were developed to make the individual lumberjack more effective, but some have gone on to see secondary service as weapons of war. A magic "sweet spot" can potentially fell a tree in one swing, and make short work of an opponent as well.
+
+*Enhancement bonus: +2
+*Enhancement bonus: +3 versus [[shapechanger]]s
+*Required level: 10

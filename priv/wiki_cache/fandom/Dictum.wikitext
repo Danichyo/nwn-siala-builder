@@ -1,0 +1,38 @@
+{{Grimoire spell|imagename=Is dictum.jpg
+|spellname=Blasphemy
+|casterlevel=[[Cleric]] 7, [[Dwarf domain (grimoire)|Dwarf]] 7, [[Grimoire domains#Domains to be added|Inquisition]] 7, [[Law domain (grimoire)|Law]] 7
+|innatelevel=7
+|school=[[Evocation]]
+|descriptors=Lawful, Sonic
+|components=V
+|range=Short
+|immunities=None
+|savingthrow=None or [[Will]] negates (see text)
+|spellresistance=Yes
+|targettype=Non-lawful creatures in a 40 ft radius spread centered on the caster
+|duration=Instantaneous
+|description=Any non-lawful creature within the area of a blasphemy spell suffers the following ill effects.
+}}
+{| {{Grimoire domain table}}
+|- style="font-weight:bold"
+|HD||Effect
+|-
+|Equal to caster level||[[deaf]]ened
+|-
+|Up to caster level &minus;1||[[slow]]ed, deafened
+|-
+|Up to caster level &minus;5||[[paralysis|paralyzed]], slowed, deafened
+|-
+|Up to caster level &minus;10||killed, paralyzed, slowed, deafened
+|}
+The effects are cumulative and concurrent. No saving throw is allowed against these effects.<br>
+<br>
+'''Deafened''': The creature is deafened for 1d4 rounds.<br>
+'''Slowed''': The creature is slowed, as by the slow spell, for 2d4 rounds.<br>
+'''Paralyzed''': The creature is paralyzed and helpless for 1d10 minutes.<br>
+'''Killed''': Living creatures die. Undead creatures are destroyed.<br>
+<br>
+Furthermore, if you are on your home plane when you cast this spell, nonlawful extraplanar creatures within the area are instantly banished back to their home planes. Creatures so banished cannot return for at least 24 hours. This effect takes place regardless of whether the creatures hear the ''dictum''. The banishment effect allows a will save (at a &minus;4 penalty) to negate.
+{{g_clr}}
+{{g_dwarf}}
+{{g_law}}

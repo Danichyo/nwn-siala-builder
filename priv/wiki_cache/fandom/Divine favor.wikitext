@@ -1,0 +1,40 @@
+{{spell
+|icon=is_x1divfav.gif
+|clericlevel=1
+|paladinlevel=1
+|innatelevel=1
+|school=[[evocation]]
+|components=VS
+|range=p
+|area=caster
+|save=none
+|spellresistance=no
+|immunity=mind-affecting
+|duration=1 [[turn]]
+|desc=The caster gains a +1 bonus to [[attack bonus|attack]] and weapon damage
+rolls for every three [[caster level]]s (at least +1, to a maximum of +5).}}
+{|class="wikitable"
+!caster level!!attack/damage bonus
+|-
+|align=center|1||align=center|+1
+|-
+|align=center|6||align=center|+2
+|-
+|align=center|9||align=center|+3
+|-
+|align=center|12||align=center|+4
+|-
+|align=center|15||align=center|+5
+|}
+
+==Notes==
+*Added in the [[expansion pack]]s.
+*The bonus damage (reported as [[Divine damage|magical damage]]) is from a [[damage increase]] effect, so it ignores both [[damage resistance]] and damage [[immunity]].
+*The bonus to attack provided by this spell counts towards the +20 [[attack bonus cap]].
+*This spell applies to the character, not to the weapon, and is therefore unaffected by changing weapons.
+
+==Custom content notes==
+*''script:'' <code>x0_s0_divfav.nss</code>
+
+==External Links==
+* {{FRW}}

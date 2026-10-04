@@ -1,0 +1,18 @@
+{{spell
+|icon=Is x2sumshad.jpg
+|innatelevel=6
+|school=[[necromancy]]
+|components=VS
+|range=s
+|area=single
+|duration=1 [[hour]]/ level
+|desc=Summons a shadow, however, there is a 20% chance of the shadow being hostile.}}
+
+==Notes==
+*The summons for this spell were never created. Thus the spell is non-functional unless a [[module]] supplies custom creatures for this spell to summon (with [[ResRef]]s "x2shfiendfriend" and "x2shfiendfoe").
+
+==Custom content notes==
+*''script:'' <code>X2_S0_Crshadow</code>
+*This spell can be assigned a [[spellbook]] by editing [[spells.2da]].
+
+[[Category:Non-class spells]]

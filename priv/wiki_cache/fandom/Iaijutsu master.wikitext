@@ -1,0 +1,59 @@
+'''Description:''' ([[prestige class|PRESTIGE CLASS]]) Iaijutsu is the martial art of drawing a weapon, almost always a katana and attacking with it in the same fluid motion. It is the foundation of some forms of dueling, and its masters are feared and respected throughout the world. 
+
+'''[[Hit dice]]:''' d10
+
+'''Proficiencies:''' weapons ([[weapon proficiency (martial)|martial]], [[weapon proficiency (simple)|simple]])
+
+'''[[Skill point]]s:''' 4 + [[Int]] mod
+
+'''Skills:''' [[craft armor]], [[craft weapon]], [[discipline]],  [[heal (skill)|heal]], [[Iaijutsu focus]], [[intimidate]], [[jump]], [[lore]], [[perform]], [[persuade]], [[tumble]]
+
+'''[[Saving throw|Primary saving throw(s)]]:''' [[reflex]]
+
+'''[[Base attack bonus|Base attack bonus progression]]:'''  1 BAB per level
+
+== Requirements ==
+
+'''Alignment restriction:''' any lawful 
+
+'''[[Base attack bonus]]:''' +6 
+
+'''[[Skill]]s:''' [[Iaijutsu focus]] 9 ranks 
+
+'''[[Feat]]s:''' [[improved initiative]], [[weapon focus]] ([[katana]])
+
+
+==Special abilities & feats==
+*Level 1 [[katana finesse]], [[canny defense]]
+*Level 4 bonus feat
+*Level 5 [[Iaijutsu attack]]
+*Level 8 [[one strike, two cuts]]
+*Level 9 bonus feat
+*Level 10 [[strike from the void]]
+
+Iiajutsu master bonus feats include:  [[ambidexterity]], [[deflect arrows]], [[disarm]], [[dodge]], [[expertise]], [[improved critical]], [[improved disarm]], [[improved expertise]], [[knockdown]], [[mobility]], [[skill focus]], [[spring attack]], [[toughness]], [[two-weapon fighting]], [[weapon proficiency (exotic)]], [[whirlwind attack]]
+
+*Level 11 [[echoes of the edge]] (1x/day)
+*Level 12 [[spirit strike]] (1x/day)
+*Level 14 echoes of the edge (2x/day)
+*Level 15 spirit strike (2x/day)
+*Level 17 echoes of the edge (3x/day)
+*Level 18 spirit strike (3x/day)
+*Level 20 echoes of the edge (4x/day)
+*Level 21 spirit strike (4x/day)
+*Level 23 echoes of the edge (5x/day)
+*Level 24 spirit strike (5x/day)
+*Level 26 echoes of the edge (6x/day)
+*Level 27 Spirit strike (6x/day)
+
+==Epic Iaijutsu master ==
+Among the Iaijutsu masters are told stories of warriors who have transcended this ancient art. These are the epic masters of Iaijutsu -- swordfighters of incomparable skill. Some can strike numerous times with a single cut, others can use their swords to perform blinding works of precision cutting, and some even strike so fast that they do not seem to draw their blade at all. 
+
+'''Bonus feats:'''  13, 16, 19, 22, 25, 28
+
+'''Epic bonus feats:'''  [[blinding speed]], [[devastating critical]], [[epic dodge]], [[epic prowess]], [[epic reflexes]], [[epic skill focus]], [[epic weapon focus]], [[improved iaijutsu focus]], [[epic weapon specialization]], [[overwhelming critical]], [[superior initiative]], [[whirlwind attack]]
+
+==Notes==
+*Requires the [[PRC Expansion Pack]].
+
+[[Category:PRC classes]]

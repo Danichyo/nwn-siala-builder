@@ -1,0 +1,24 @@
+{{spell
+|icon=is_chlightn.gif
+|magelevel=6
+|domain=air
+|domainlevel=6
+|innatelevel=6
+|school=[[evocation]]
+|components=VS
+|range=l
+|area=colossal
+|areanote=, 1 target / level
+|save=[[reflex]] 1/2
+|spellresistance=yes
+|immunity=electricity
+|duration=instant
+|line=Lightning
+|line3=Lightning bolt
+|line6=Chain lightning
+|desc=A bolt of electricity arcs through the caster's enemies for 1[[d6]] points of [[electrical damage]] per caster level, up to a max of 20d6 points of damage to the initial target and half that amount to all other targets.}}
+
+==Custom content notes==
+*''script:'' <code>NW_S0_ChLightn.nss</code>
+==External Links==
+* {{FRW}}

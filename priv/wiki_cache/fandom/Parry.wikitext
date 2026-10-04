@@ -1,0 +1,27 @@
+[[Image:Isk parry.gif|right|Parry]]
+'''Parry''' allows the character to block incoming attacks and make spectacular counterattacks.
+*'''Ability''': [[dexterity]]
+
+*'''Classes''': [[barbarian]], [[bard]], [[blackguard]], [[champion of Torm]], [[cleric]], [[druid]], [[dwarven defender]], [[fighter]], [[monk]], [[paladin]], [[ranger]], [[red dragon disciple]], [[rogue]]
+
+*'''[[Cross-class skill|Cross-class]]''': yes
+
+*'''[[Untrained skill check|Requires training]]''': no
+
+*'''Check''': The [[difficulty class]] is the modified attack roll of the incoming blow. A successful parry means that the attack does not damage the parrying character. A character may only parry a number of attacks per round equal to the number of attacks per round available to the character.
+
+*'''Special''': Wearing armor may incur a [[armor check penalty|penalty]] to the roll. If the parry is successful and the difference between the roll and the DC is ten points or greater, a counterattack occurs. A counterattack is a free attack made by the parrying character, at his full attack bonus, against the parried opponent.
+
+*'''Use''': Select the parry mode. The character will remain in parry mode until the mode is exited.
+
+==Notes==
+
+* Parry is a [[combat mode]], so cannot be used at the same time as other combat modes.
+* Parry applies only in [[melee]] combat; it does not function if either the attacker or defender is using a [[ranged weapon]].
+* This skill was reduced from its original (pre-release) state and is considerably less effective than it may sound. Parry can only deflect the first attack in each of the three [[flurry|flurries]] in a round (for example, parrying an opponent with 5 attacks per round will only attempt to block the first, third, and fifth attacks).
+* Riposte attacks are made with the character's normal (descending) attack bonus, not at full bonus each time. Thus if a character has an attack schedule of +16/+11/+6 and successfully ripostes two attacks, the riposte attacks will be at +16 then +11, not at +16 each time.
+* The parry skill applies to both the attack roll and the critical hit confirmation roll.
+* Automatic hits (natural 20 attack rolls) cannot be parried.
+
+'''See also:''' [[improved parry]]
+[[Category:skills]]

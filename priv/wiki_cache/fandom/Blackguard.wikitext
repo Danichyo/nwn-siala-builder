@@ -1,0 +1,178 @@
+[[Image:Ir blkgrd.gif|right|Blackguard]]
+'''Description''': ([[prestige class|PRESTIGE CLASS]])
+A '''blackguard''' epitomizes [[evil]]. They are nothing short of a mortal fiend, a black knight with the foulest sort of reputation. Many refer to blackguards as anti-[[paladin]]s due to their completely evil nature. No one class makes the best blackguard, all that is required is a willingness to serve the forces of darkness.
+<!-- The above comes from BioWare. Please do not edit mercilessly -->
+
+'''[[Hit die]]:''' d10
+
+'''Proficiencies:''' all [[weapon proficiency (simple)|simple]] and [[weapon proficiency (martial)|martial]] weapons, all types of [[armor]] and shields
+
+'''[[Skill point]]s:''' 2 + [[int]] modifier
+
+'''Skills:''' [[concentration]], [[craft armor]], [[craft trap]], [[craft weapon]], [[discipline]], [[heal (skill)|heal]], [[intimidate]], [[lore]], [[parry]], [[persuade]], [[ride]], [[taunt]]
+
+'''Unavailable feats:'''
+[[brew potion]], [[craft wand]], [[curse song]], [[deflect arrows]], [[extra music]], [[extra turning]], [[lingering song]], [[quicken spell]], [[scribe scroll]], [[spell focus]], [[weapon specialization]]
+<br />These [[general feat]]s cannot be selected when taking a level of blackguard.
+
+'''[[Saving throw|Primary saving throw(s)]]:''' [[fortitude]]
+
+'''[[Base attack bonus]]:''' +1/level
+
+[[Image:Blackguard.jpg|Blackguard]]
+
+==Requirements==
+
+To qualify as a blackguard, a character must fulfill all of the following criteria:
+
+'''Alignment:''' any evil
+
+'''[[Base attack bonus]]:''' +6
+
+'''Skills:''' [[hide]] 5 [[rank]]s
+
+'''Feats:''' [[cleave]]
+
+''Note:'' Getting this feat requires either a [[strength]] of at least 13 or one level of [[monk]].
+
+==Level progression==
+
+{| border="2" style="background:#efefef; color:#000000; border-collapse:collapse"
+|- style="background:#c0c0c0"
+! rowspan="2" |Lvl
+! rowspan="2" |BAB
+!colspan=3|Saves
+! rowspan="2" |Feats
+! rowspan="2" |HP range
+! rowspan="22" style="background:#ffffff" |&nbsp;
+! rowspan="2" |Sneak<br />attack
+! rowspan="2" |Summoned<br />creature
+|- style="background:#c0c0c0"
+!Fort
+!Ref
+!Will
+|- align="center"
+|1st||+1||+2||+0||+0|| align="left" |[[use poison]]||5-10||-||
+|- align="center"
+|2nd||+2 ||+3||+0||+0|| align="left" |[[bull's strength (feat)|bull's strength]], [[dark blessing]], [[smite good]]||10-20||-||
+|- align="center"
+|3rd||+3||+3||+1||+1|| align="left" |[[create undead (feat)|create undead]], [[turn undead]]||15-30||-||[[ghast (summon)|ghast]]
+|- align="center"
+|4th||+4||+4||+1||+1 || align="left" |[[sneak attack, blackguard]]||20-40||1d6||
+|- align="center"
+|5th||+5||+4||+1||+1|| align="left" |[[summon fiend]]||25-50||1d6||[[succubus (summon)|succubus]]
+|- align="center"
+|6th||+6 ||+5||+2||+2|| align="left" |[[inflict serious wounds (feat)|inflict serious wounds]]||30-60 ||1d6||
+|- align="center"
+|7th||+7||+5||+2||+2|| align="left" |[[contagion (feat)|contagion]]||35-70||2d6||[[doom knight]]
+|- align="center"
+|8th||+8||+6||+2||+2|| align="left" |[[inflict critical wounds (feat)|inflict critical wounds]]||40-80||2d6||
+|- align="center"
+|9th||+9||+6||+3||+3|| align="left" |&nbsp;||45-90||2d6||[[vrock (summon)|vrock]]
+|- align="center"
+|10th||+10||+7||+3
+|<nowiki>+3</nowiki>|| align="left" |&nbsp;||50-100||3d6||
+|}
+
+==Tip: becoming a blackguard== 
+
+*Any melee class, or any class that focuses on charisma, can make a successful blackguard.
+*The [[rogue]], [[bard]], [[monk]] and [[ranger]] classes have the prerequisite skill (hide) as a class skill.
+
+[[Image:ife x2epblkgrd.gif|right|Epic blackguard]]
+
+==Epic blackguard==
+
+<!-- The below comes from BioWare. Please do not edit mercilessly -->
+The epic blackguard is a twisted reflection of the epic paladin, radiating evil power from every pore of their body.
+<!-- The above comes from BioWare. Please do not edit mercilessly -->
+
+'''Hit die:''' d10
+
+'''Skill points:''' 2 + int modifier
+
+'''Bonus feats:''' The epic blackguard gains a bonus feat every three levels. In other words, at levels 13, 16, 19, 22, 25, and 28.
+
+'''Epic bonus feats:''' [[armor skin]], [[devastating critical]], [[epic fiendish servant]], [[epic prowess]], [[epic reputation]], [[epic toughness]], [[epic weapon focus]], [[great smiting]], [[improved combat casting]], [[improved sneak attack]], [[overwhelming critical]], [[perfect health]], [[planar turning]]
+
+'''Unavailable epic feats:'''
+[[automatic quicken spell]], [[automatic silent spell]], [[automatic still spell]], [[bane of enemies]],
+[[construct shape]], [[dragon shape]], [[epic spell penetration]],
+[[epic spell: dragon knight]], [[epic spell: epic mage armor]], [[epic spell: epic warding]], [[epic spell: greater ruin]], [[epic spell: hellball]], [[epic spell: mummy dust]],
+[[epic weapon specialization]],
+[[improved ki strike 4]], [[improved ki strike 5]],
+[[improved spell resistance]], [[improved stunning fist]],
+[[lasting inspiration]], [[mighty rage]], [[outsider shape]],
+[[terrifying rage]], [[thundering rage]], [[undead shape]]
+<br />These general [[epic feat]]s cannot be selected when taking a level of blackguard.
+
+===Epic blackguard level progression===
+
+{| border="2" style="background:#efefef; color:#000000; border-collapse:collapse" 
+|- style="background:#c0c0c0" 
+!&nbsp;Level&nbsp;
+!Feats
+!HP range
+!Sneak<br />attack
+|- align="center"
+||11th|| align="left" | ||55-110||3d6
+|- align="center"
+||12th|| align="left" | ||60-120||3d6
+|- align="center"
+||13th|| align="left" |bonus feat||65-130||4d6
+|- align="center"
+||14th|| align="left" | ||70-140||4d6
+|- align="center"
+||15th|| align="left" | ||75-150||4d6
+|- align="center"
+||16th|| align="left" |bonus feat||80-160||5d6
+|- align="center"
+||17th|| align="left" | ||85-170||5d6
+|- align="center"
+||18th|| align="left" | ||90-180||5d6
+|- align="center"
+||19th|| align="left" |bonus feat||95-190||6d6
+|- align="center"
+||20th
+| align="left" | ||100-200||6d6
+|- align="center"
+||21st
+| align="left" | ||105-210||6d6
+|- align="center"
+||22nd|| align="left" |bonus feat||110-220||7d6
+|- align="center"
+||23rd
+| align="left" | ||115-230||7d6
+|- align="center"
+||24th
+| align="left" | ||120-240||7d6
+|- align="center"
+||25th|| align="left" |bonus feat||125-250||8d6
+|- align="center"
+||26th
+| align="left" | ||130-260||8d6
+|- align="center"
+||27th
+| align="left" | ||135-270||8d6
+|- align="center"
+||28th|| align="left" |bonus feat||140-280||9d6
+|- align="center"
+||29th
+| align="left" | ||145-290||9d6
+|- align="center"
+||30th|| align="left" | ||150-300||9d6
+|}
+
+==Special==
+
+'''Sneak attack:''' increases by +1d6 every three levels after 10th.
+
+'''Summon fiend:''' does not improve without the [[epic fiendish servant]] feat, despite in-game documentation to the contrary.
+
+==Notes==
+
+*Requires [[Shadows of Undrentide]].
+* The blackguard's sneak attack [[stack]]s with the [[rogue]]'s [[sneak attack]] and the [[assassin]]'s [[death attack]].
+*The epic fiendish servant feat is available only as an epic bonus feat.
+[[category:classes]]
+[[category:prestige classes]]

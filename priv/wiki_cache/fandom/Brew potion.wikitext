@@ -1,0 +1,305 @@
+__NOTOC__
+{{feat
+|type=item creation
+|prereq=spellcaster level 3+
+|desc=The character can create a [[potion]] of any spell of third [[innate level|level]] or lower that the character knows and that targets a single creature. Brewing a potion will cost a small amount of [[experience point|XP]] as well as some gold to cover the material cost. The cost for brewing a potion depends on the [[innate level]] of the spell as well as the [[caster level]] of the resulting potion.<br />
+Some examples:
+* A potion of [[bless]] (1) will cost 50 gold and 2 XP.
+* A potion of [[prayer]] (5) will cost 750 gold and 30 XP.
+|use=selected (In order to brew a potion, the character has to cast the spell in question on an empty [[magical potion bottle]].)
+|icon=ife_x2brewpotion.gif
+|bonus1=wizard
+}}
+
+== Notes ==
+
+* Requires [[Hordes of the Underdark]].
+* In order to take this feat, a character must be taking [[class level|level]] three or higher in a class with a [[spellbook]] or in [[shifter]].
+* The magical potion bottle needed to use this feat is not available in all modules, even though the feat is. In particular, magical potion bottles will not be available in modules created before the [[Hordes of the Underdark]] expansion, e.g. the [[Shadows of Undrentide]] and [[original campaign]]s. (Magical potion bottles are available in the Hordes of the Underdark campaign.)
+* When casting a spell on an empty bottle, all [[metamagic]] aspects are ignored.
+* Subspells (e.g. ''protection from evil'') will produce a potion of the master spell (e.g. ''protection from alignment'') that can then be used to cast any subspell of that master spell. This is of particular note with ''[[shadow conjuration]]'', as only some of its subspells are brewable.
+* It is the innate level of a spell, not the spell level for a particular class, that determines if the spell can be used with this feat. These often coincide, but not always.
+** For spell with subspells, it is the innate level of the master spell that determines if it can be brewed (and the costs of brewing), with the exception of ''shadow conjuration'' which uses the innate level of the subspell that was cast.
+** ''[[War cry]]'' is bugged in that it is considered a level 3 spell by this feat, allowing it to be brewed and lowering the associated costs.
+* In addition to targeting a single creature, a valid spell for this feat must not bring harm to its target. (This feat is intended to create potions that the brewer would generally not be averse to drinking.) There are furthermore some spells blocked from brewing for obscure reasons, probably oversights or bugs. ''See the table at the end of this article for a list of those spells that can be used with this feat.''
+* The costs of brewing are calculated as follows, with the caveat that cantrips (level 0 spells) are treated as level 1 spells for this calculation. ''A full listing of costs is in the table at the end if this article.''
+** GP: caster level (of the potion) &times; innate level &times; 50
+** XP: caster level (of the potion) &times; innate level &times; 2
+
+=== Previous versions ===
+
+*Prior to version 1.69, brewed potions &mdash; unlike other potions &mdash; could not be used while [[polymorph]]ed, nor could they be dragged onto an [[associate]]'s portrait to cause the associate to drink the potion.
+
+== Custom content notes ==
+
+*A custom class must have this feat in their feat list, or that class will not be able to select it as a [[general feat]].
+* Some functionality of this feat is controlled via <code>[[des_crft_spells.2da]]</code>.
+* This feat is implemented by the [[script]] <code>x2_pc_craft</code>, which is a wrapper for the functions defined in <code>x2_inc_craft</code>.
+
+== Brew potion costs ==
+
+The following table lists the spells that can be used with this feat, along with the caster level of the resulting item and the associated costs. The final column indicates the classes that can use the spell with this feat, with a special designator ("C<sub>d</sub>") indicating if clerics can use the spell with this feat but only have access to it through [[domain]]s. The ''&dagger;'' symbol denotes spells whose potions target the player's character even if fed to an associate. The ''&Dagger;'' symbol denotes spells whose potions summon a creature when fed to an associate; the summoned creature becomes the summoned associate of the player's character, not of the character fed the potion.
+
+{| class="compacttable sortable"
+|+Brew potion costs
+|-
+! Spell
+! Innate level
+! Caster level
+! Gold
+! XP
+! class="unsortable" | Classes
+{{magiccraftrow
+ |spell=[[Aid]] |innate=2 |caster=3 |gp=300 |xp=12
+ |cleric=yes |paladin=yes| ranger=yes}}
+{{magiccraftrow
+ |spell=[[Amplify]] |innate=1 |caster=5 |gp=250 |xp=10
+ |bard=yes}}
+{{magiccraftrow
+ |spell=[[Animate dead]] ''&Dagger;''|innate=3 |caster=15 |gp=2250 |xp=90
+ |cleric=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Aura of glory]] ''&dagger;'' |innate=2|caster=7|gp=700|xp=28
+|paladin=yes}}
+{{magiccraftrow
+ |spell=[[Balagarn's iron horn]] |innate=2 |caster=7 |gp=700 |xp=28
+ |bard=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Barkskin]] |innate=2 |caster=12 |gp=1200 |xp=48
+ |cleric=domain |druid=yes}}
+{{magiccraftrow
+ |spell=[[Blade thirst]] |innate=3 |caster=12 |gp=1800 |xp=72
+| ranger=yes}}
+{{magiccraftrow
+ |spell=[[Bless]] |innate=1 |caster=2 |gp=100 |xp=4
+ |cleric=yes |paladin=yes}}
+{{magiccraftrow
+ |spell=[[Bless weapon]] |innate=1 |caster=6 |gp=300 |xp=12
+ |paladin=yes}}
+{{magiccraftrow
+ |spell=[[Blood frenzy]] ''&dagger;'' |innate=2 |caster=7 |gp=700 |xp=28
+ |druid=yes}}
+{{magiccraftrow
+ |spell=[[Bull's strength]] |innate=2 |caster=15 |gp=1500 |xp=60
+ |bard=yes |cleric=yes |druid=yes |paladin=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Camouflage]] ''&dagger;'' |innate=1 |caster=5 |gp=250 |xp=10
+ |druid=yes| ranger=yes}}
+{{magiccraftrow
+ |spell=[[Cat's grace]] |innate=2 |caster=15 |gp=1500 |xp=60
+ |bard=yes |cleric=domain| ranger=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Clairaudience/clairvoyance]] |innate=3 |caster=15 |gp=2250 |xp=90
+ |bard=yes |cleric=domain |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Clarity]] |innate=2 |caster=3 |gp=300 |xp=12
+ |bard=yes |cleric=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Continual flame]] |innate=2 |caster=7 |gp=700 |xp=28
+ |cleric=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Cure light wounds]] |innate=1 |caster=5 |gp=250 |xp=10
+ |bard=yes |cleric=yes |druid=yes |paladin=yes| ranger=yes}}
+{{magiccraftrow
+ |spell=[[Cure minor wounds]] |innate=0 |caster=1 |gp=50 |xp=2
+ |bard=yes |cleric=yes |druid=yes}}
+{{magiccraftrow
+ |spell=[[Cure moderate wounds]] |innate=2 |caster=10 |gp=1000 |xp=40
+ |bard=yes |cleric=yes |druid=yes |paladin=yes| ranger=yes}}
+{{magiccraftrow
+ |spell=[[Cure serious wounds]] |innate=3 |caster=15 |gp=2250 |xp=90
+ |bard=yes |cleric=plusdomain |druid=yes |paladin=yes| ranger=yes}}
+{{magiccraftrow
+ |spell=[[Darkfire]] |innate=3 |caster=5 |gp=750 |xp=30
+ |cleric=yes}}
+{{magiccraftrow
+ |spell=[[Darkness (spell)|Darkness]] |innate=2 |caster=3 |gp=300 |xp=12
+ |bard=yes |cleric=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Deafening clang]] |innate=1 |caster=6 |gp=300 |xp=12
+ |paladin=yes}}
+{{magiccraftrow
+ |spell=[[Death armor]] |innate=2 |caster=3 |gp=300 |xp=12
+ |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Dispel magic]] |innate=3 |caster=10 |gp=1500 |xp=60
+ |bard=yes |cleric=yes |druid=yes |paladin=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Displacement]] |innate=3 |caster=9 |gp=1350 |xp=54
+ |bard=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Divine favor]] ''&dagger;'' |innate=1 |caster=5 |gp=250 |xp=10
+ |cleric=yes |paladin=yes}}
+{{magiccraftrow
+ |spell=[[Eagle's splendor]] |innate=2 |caster=15 |gp=1500 |xp=60
+ |bard=yes |cleric=yes |paladin=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Endurance]] |innate=2 |caster=3 |gp=300 |xp=12
+ |cleric=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Endure elements]] |innate=1 |caster=2 |gp=100 |xp=4
+ |cleric=yes |druid=yes |paladin=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Entropic shield]] ''&dagger;'' |innate=1 |caster=5 |gp=250 |xp=10
+ |cleric=yes}}
+{{magiccraftrow
+ |spell=[[Expeditious retreat]] |innate=1 |caster=5 |gp=250 |xp=10
+ |bard=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Find traps]] |innate=3 |caster=3 |gp=450 |xp=18
+ |bard=yes |cleric=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Flame weapon]] |innate=2 |caster=3 |gp=300 |xp=12
+ |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Fox's cunning]] |innate=2 |caster=15 |gp=1500 |xp=60
+ |bard=yes |cleric=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Ghostly visage]] |innate=2 |caster=15 |gp=1500 |xp=60
+ |bard=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Greater magic fang]] ''&dagger;''|innate=3|caster=9|gp=1350|xp=54
+|druid=yes| ranger=yes}}
+{{magiccraftrow
+ |spell=[[Greater magic weapon]] |innate=3 |caster=5 |gp=750 |xp=30
+ |bard=yes |cleric=yes |paladin=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Haste (spell)|Haste]] |innate=3 |caster=10 |gp=1500 |xp=60
+ |bard=yes |cleric=domain |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Identify]] ''&dagger;'' |innate=2 |caster=3 |gp=300 |xp=12
+ |bard=yes |cleric=domain |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Invisibility (spell)|Invisibility]] |innate=2 |caster=3 |gp=300 |xp=12
+ |bard=yes |cleric=domain |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Invisibility sphere]] ''&dagger;''|innate=3|caster=5|gp=750|xp=30
+|bard=yes|cleric=domain|sorcerer=yes|wizard=yes}}
+{{magiccraftrow
+ |spell=[[Ironguts]] |innate=1 |caster=2 |gp=100 |xp=4
+ |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Keen edge]] |innate=3 |caster=5 |gp=750 |xp=30
+ |bard=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Knock]] |innate=2 |caster=3 |gp=300 |xp=12
+ |cleric=domain |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Lesser dispel]] |innate=2 |caster=5 |gp=500 |xp=20
+ |bard=yes |cleric=yes |druid=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Lesser restoration]] |innate=2 |caster=3 |gp=300 |xp=12
+ |cleric=yes |druid=yes}}
+{{magiccraftrow
+ |spell=[[Light]] |innate=0 |caster=5 |gp=250 |xp=10
+ |bard=yes |cleric=yes |druid=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Mage armor]] |innate=1 |caster=2 |gp=100 |xp=4
+ |bard=yes |cleric=domain |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Magic circle against alignment]] |innate=3 |caster=5 |gp=750 |xp=30
+ |bard=yes |cleric=yes |paladin=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Magic fang]] ''&dagger;''|innate=1|caster=5|gp=250|xp=10
+|druid=yes| ranger=yes}}
+{{magiccraftrow
+ |spell=[[Magic vestment]] |innate=3 |caster=5 |gp=750 |xp=30
+ |cleric=yes}}
+{{magiccraftrow
+ |spell=[[Magic weapon]] |innate=1 |caster=2 |gp=100 |xp=4
+ |bard=yes |cleric=yes |paladin=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Negative energy protection]] |innate=3 |caster=15 |gp=2250 |xp=90
+ |cleric=yes}}
+{{magiccraftrow
+ |spell=[[Neutralize poison]] |innate=3 |caster=5 |gp=750 |xp=30
+ |bard=yes |cleric=yes |druid=yes |paladin=yes| ranger=yes}}
+{{magiccraftrow
+ |spell=[[One with the land]] ''&dagger;'' |innate=2 |caster=7 |gp=700 |xp=28
+ |druid=yes| ranger=yes}}
+{{magiccraftrow
+ |spell=[[Owl's wisdom]] |innate=2 |caster=15 |gp=1500 |xp=60
+ |bard=yes |cleric=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Prayer]] |innate=3 |caster=5 |gp=750 |xp=30
+ |cleric=yes |paladin=yes}}
+{{magiccraftrow
+ |spell=[[Protection from alignment]] |innate=1 |caster=2 |gp=100 |xp=4
+ |bard=yes |cleric=yes |paladin=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Protection from elements]] |innate=3 |caster=10 |gp=1500 |xp=60
+ |cleric=yes |druid=yes| ranger=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Remove blindness/deafness]] |innate=3 |caster=5 |gp=750 |xp=30
+ |cleric=yes |paladin=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Remove curse]] |innate=3 |caster=5 |gp=750 |xp=30
+ |bard=yes |cleric=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Remove disease]] |innate=3 |caster=5 |gp=750 |xp=30
+ |bard=yes |cleric=yes |druid=yes| ranger=yes}}
+{{magiccraftrow
+ |spell=[[Remove fear]] |innate=1 |caster=2 |gp=100 |xp=4
+ |cleric=yes}}
+{{magiccraftrow
+ |spell=[[Remove paralysis]] |innate=2 |caster=3 |gp=300 |xp=12
+ |cleric=yes |paladin=yes}}
+{{magiccraftrow
+ |spell=[[Resist elements]] |innate=2 |caster=10 |gp=1000 |xp=40
+ |cleric=yes |druid=yes |paladin=yes| ranger=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Resistance]] |innate=1 |caster=5 |gp=250 |xp=10
+ |bard=yes |cleric=yes |druid=yes |paladin=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Sanctuary]] |innate=1 |caster=2 |gp=100 |xp=4
+ |cleric=yes}}
+{{magiccraftrow
+ |spell=[[See invisibility]] |innate=2 |caster=3 |gp=300 |xp=12
+ |bard=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Shadow conjuration]]<br />(darkness and invisibility) ''&Dagger;''|innate=2 |caster=7 |gp=700 |xp=28
+ |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Shadow conjuration]]<br />(mage armor) ''&Dagger;''|innate=1 |caster=7 |gp=350 |xp=14
+ |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Shelgarn's persistent blade]] ''&Dagger;''|innate=1 |caster=2 |gp=100 |xp=4
+ |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Shield (spell)|Shield]] ''&dagger;'' |innate=1 |caster=5 |gp=250 |xp=10
+ |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Shield of faith]] |innate=1 |caster=5 |gp=250 |xp=10
+ |cleric=yes}}
+{{magiccraftrow
+ |spell=[[Silence (spell)|Silence]] |innate=2 |caster=3 |gp=300 |xp=12
+ |bard=yes |cleric=yes}}
+{{magiccraftrow
+ |spell=[[Stone bones]] |innate=2 |caster=3 |gp=300 |xp=12
+ |cleric=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Summon creature I]] ''&Dagger;''|innate=1 |caster=5 |gp=250 |xp=10
+ |bard=yes |cleric=yes |druid=yes| ranger=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Summon creature II]] ''&Dagger;''|innate=2 |caster=3 |gp=300 |xp=12
+ |bard=yes |cleric=yes |druid=yes| ranger=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Summon creature III]] ''&Dagger;''|innate=3 |caster=5 |gp=750 |xp=30
+ |bard=yes |cleric=yes |druid=yes| ranger=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[True strike]] ''&dagger;'' |innate=1 |caster=5 |gp=250 |xp=10
+ |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Ultravision]] |innate=2 |caster=6 |gp=600 |xp=24
+ |bard=yes |cleric=yes |druid=yes| ranger=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Virtue]] |innate=0 |caster=1 |gp=50 |xp=2
+ |cleric=yes |druid=yes |paladin=yes}}
+{{magiccraftrow
+ |spell=[[War cry]] ''&dagger;'' |innate=3 |caster=7 |gp=1050 |xp=42
+ |bard=yes}}
+{{magiccraftrow
+ |spell=[[Wounding whispers]] ''&dagger;'' |innate=3 |caster=9 |gp=1350 |xp=54
+ |bard=yes}}
+|}
+[[category:feats restricted by class]]

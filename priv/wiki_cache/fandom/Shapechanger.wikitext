@@ -1,0 +1,6 @@
+A '''shapechanger''' has the supernatural ability to assume one or more alternate forms. Many magical effects allow some kind of shape shifting, and not every [[creature]] that can change shapes has the shapechanger [[racial type]].
+
+[[Belladonna]] may be used as protection (+5 [[dodge bonus]]) from shapechangers for a minute.
+
+'''See also:''' [[:Category:Shapechangers]]
+[[category:races]]

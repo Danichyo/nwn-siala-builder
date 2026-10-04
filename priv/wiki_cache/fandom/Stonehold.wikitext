@@ -1,0 +1,28 @@
+{{spell
+|icon=is_x2stnehold.gif
+|druidlevel=6
+|innatelevel=6
+|school=[[conjuration]]
+|components=VS
+|range=m
+|area=huge
+|save=[[will]] negates
+|spellresistance=yes
+|immunity=<s>paralyze</s>, ''mind-affecting''
+|duration=1 [[round]] / level
+|desc=Creates a cloud that [[paralyze]]s any creatures inside of it, encasing them in stone for 1[[d6]] rounds.}}
+
+== Notes ==
+
+*Requires [[Hordes of the Underdark]].
+* The in-game description lists "paralyze" as the descriptor, but the saves are made versus mind-affecting.
+*Casting the spell [[Extend spell|extended]] doubles the duration of the cloud, but not the duration of the paralysis. [[Maximize spell|Maximize]] and [[Empower spell|empower]] affect the duration of the paralysis.
+
+== Custom content notes ==
+
+* ''main script:'' <code>X2_S0_Stnehold</code>
+* ''OnEnter script:'' <code>X2_S0_StneholdA</code>
+* ''OnHearbeat script:'' <code>X2_S0_StneholdC</code>
+==External links==
+* {{FRW}}
+* {{NWN2W}}

@@ -1,0 +1,29 @@
+{{spell
+|icon=is_light.gif
+|bardlevel=0
+|clericlevel=0
+|druidlevel=0
+|magelevel=0
+|innatelevel=0
+|school=[[evocation]]
+|components=V
+|range=t
+|area=single
+|save=harmless
+|spellresistance=no
+|duration=1 [[hour]] / level
+|counters=<del>[[darkness]]</del>
+|line=Light
+|line0=light
+|line2=continual flame
+|desc=Creates a small light source above the target creature's head. The light travels with the target and is capable of illuminating a small area. It can be cast on any item the character can equip to make it glow for the spell's duration like a natural source of light.}}
+
+==Notes==
+
+*Due to a .2da bug, ''darkness'' is not an additional [[counterspell]] of ''light''.
+
+==Custom content notes==
+*''script:'' <code>NW_S0_Light.nss</code>
+
+==External Links==
+* {{FRW}}

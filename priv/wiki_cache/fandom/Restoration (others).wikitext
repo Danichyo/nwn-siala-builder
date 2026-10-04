@@ -1,0 +1,19 @@
+{{spell
+|icon=Is x2restoreoth.jpg
+|innatelevel=4
+|school=[[conjuration]]
+|components=VS
+|range=t
+|area=single
+|duration=instant
+|desc=Removes all [[magical effect|magical]], [[extraordinary effect|extraordinary]] and [[supernatural effect]]s that apply a penalty to [[ability]] scores, [[armor class]], [[attack bonus|attack]] and damage rolls, [[spell resistance]], [[saving throw]]s and damage [[immunity]]. This spell also removes all [[ability drain]], [[level drain]], [[blind]]ness and [[deaf]]ness effects. This spell will not remove the effects of a [[curse]] or a [[disease]].}}
+
+==Notes==
+*The caster suffers 5 [[magical damage]] for casting the spell.
+*Like normal [[restoration]] this spell also removes [[paralyze|paralysis]] and penalties to [[skill]]s.
+
+==Custom content notes==
+*''script:'' <code>X2_S0_RestOther.nss</code>
+*This spell can be assigned a [[spellbook]] by editing [[spells.2da]].
+
+[[Category:Non-class spells]]

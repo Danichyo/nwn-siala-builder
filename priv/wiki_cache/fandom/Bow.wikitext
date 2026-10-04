@@ -1,0 +1,5 @@
+A '''bow''' is a [[ranged weapon]] which requires [[arrow]]s to function.
+In [[Neverwinter Nights]] there are two types of bows: [[longbow]]s and [[shortbow]]s.
+
+All bows are automatically [[mighty]] +0, meaning that without an explicit mighty property, the only circumstance in which the damage of these weapons is affected by [[strength]] is when the wielder has a negative strength modifier.
+[[category:ranged weapons]]

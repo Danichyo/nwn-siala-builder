@@ -1,0 +1,27 @@
+{{feat
+|epic=yes
+|type=spell
+|prereq=21st level, [[combat casting]], [[concentration]] 25+ [[skill rank|rank]]s
+|desc=The character does not incur [[attack of opportunity|attacks of opportunity]] for casting spells while threatened.
+|use=automatic
+|icon=ife_x2imcomcast.gif
+|bonus1=arcane archer
+|bonus2=assassin
+|bonus3=bard
+|bonus4=blackguard
+|bonus5=champion of Torm
+|bonus6=cleric
+|bonus7=druid
+|bonus8=Harper scout
+|bonus9=paladin
+|bonus10=pale master
+|bonus11=ranger
+|bonus12=red dragon disciple
+|bonus13=shifter
+|bonus14=sorcerer
+|bonus15=wizard
+}}
+
+==Notes==
+*Requires [[Hordes of the Underdark]].
+*This feat does not benefit a character with a concentration skill of 27 or more (23 or more with the ''combat casting'' feat) when that character is in [[defensive casting]] mode. On the other hand, multiple [[combat mode]]s cannot be used simultaneously, and a character may wish at times to be in [[expertise]] mode instead of defensive casting mode.

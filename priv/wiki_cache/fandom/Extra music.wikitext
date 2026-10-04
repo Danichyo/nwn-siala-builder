@@ -1,0 +1,16 @@
+{{feat
+|type=general
+|prereq=[[bard song]]
+|desc=The character may use ''bard song'' four extra times per day.
+|use=automatic
+|icon=ife_x1exmus.gif
+|bonus1=bard
+}}
+
+==Notes==
+*Added in the [[expansion pack]]s.
+
+==Custom content notes==
+*A custom class must have this feat in their feat list, or that class will not be able to select it as a general feat.
+
+[[category:feats restricted by class]]

@@ -1,0 +1,22 @@
+{{feat
+|type=class
+|prereq=[[red dragon disciple]] 4
+|desc=As the dragon disciple gains levels in this [[prestige class]], his base [[hit die]] type changes. This change is not retroactive.
+{{{!}} class="wikitable" style="text-align:center"
+ {{!}}-
+   ! Level
+   {{!}}  1 {{!!}}  4 {{!!}}  6  {{!!}} 11
+ {{!}}-
+   ! Hit die
+   {{!}} d6 {{!!}} d8 {{!!}} d10 {{!!}} d12
+{{!}}}   
+|use=automatic
+|icon=ife_ddhdincrease.gif
+|class1=red dragon disciple
+}}
+
+==Notes==
+*Requires [[Hordes of the Underdark]].
+
+==Custom content notes==
+* While this feat can be given to another class, it only affects the hit points gained when taking a level in red dragon disciple.

@@ -1,0 +1,26 @@
+{{spell
+|icon=is_darkvis.gif
+|bardlevel=2
+|clericlevel=2
+|druidlevel=1
+|rangerlevel=1
+|magelevel=2
+|innatelevel=2
+|school=[[transmutation]]
+|components=VS
+|range=t
+|area=single
+|save=harmless
+|spellresistance=no
+|duration=1 [[hour]] / level
+|desc=The target creature's ability to see in complete darkness is improved beyond that of [[darkvision]]. When this spell is applied even the effects of magical [[darkness]] are pierced.}}
+
+== Notes ==
+* This [[effect]] is easier to [[dispel]] than most, as its creator's level is zero in the dispel check.
+
+== Custom content notes ==
+
+* ''script:'' <code>NW_S0_DarkVis</code>
+* The [[NWScript]] constant for this spell reflects a pre-release name for it: SPELL_DARKVISION.
+==External links==
+*{{FRW}}

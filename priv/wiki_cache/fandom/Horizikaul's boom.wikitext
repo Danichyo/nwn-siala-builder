@@ -1,0 +1,36 @@
+{{spell
+|icon=is_x2horiboom.gif
+|magelevel=1
+|innatelevel=1
+|school=[[evocation]]
+|components=VS
+|range=s
+|area=single
+|save=[[will]] partial
+|spellresistance=yes
+|immunity=sonic, ''mind-affecting''
+|duration=instantaneous
+|desc=You blast the target with loud and high-pitched sounds. The target takes 1[[d4]] points of [[sonic damage]] per two [[caster level]]s (maximum 5d4) and must make a will [[save]] or be [[deaf]]ened for 1d4 [[round]]s.}}
+{| class="wikitable" style="text-align:center"
+!caster level !!damage per cast
+|-
+|1 ||1d4
+|-
+|4 ||2d4
+|-
+|6 ||3d4
+|-
+|8 ||4d4
+|-
+|10+||5d4
+|}
+
+== Notes ==
+
+*Requires [[Hordes of the Underdark]].
+* The in-game description is missing the "mind-affecting" descriptor used for the deafness part of this spell.
+
+== Custom content notes ==
+* ''script:'' <code>X2_S0_HoriBoom</code>
+==External links==
+* {{FRW}}

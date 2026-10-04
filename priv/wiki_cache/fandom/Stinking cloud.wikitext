@@ -1,0 +1,23 @@
+{{spell
+|icon=is_stinkcld.gif
+|magelevel=3
+|domain=destruction
+|domainlevel=3
+|innatelevel=3
+|school=[[conjuration]]
+|components=VS
+|range=m
+|area=huge
+|save=[[fortitude]] negates
+|spellresistance=yes
+|immunity=poison
+|duration=1 [[round]] / level
+|desc=All creatures caught within the [[area of effect]] are [[dazed]]. These effects last as long as they remain within the cloud and for 1 round after they leave.}}
+
+==Custom content notes==
+*''main script:'' <code>NW_S0_StinkCld.nss</code>
+*''OnEnter script:'' <code>NW_S0_StinkCldA.nss</code>
+*''OnHearbeat script:'' <code>NW_S0_StinkCldC.nss</code>
+
+==External Links==
+* {{FRW}}

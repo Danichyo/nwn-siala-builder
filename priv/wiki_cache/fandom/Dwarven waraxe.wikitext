@@ -1,0 +1,19 @@
+{{Weapon|imagefile=Dwarven waraxe.jpg
+  |weaponname=Dwarven waraxe
+  |weapondescription=A '''dwarven waraxe''' is much like the [[dwarf|dwarves]] themselves; strong, hardy and very brutal.
+  |weight=15
+  |cost=30
+  |damage=1d10
+  |critical=x3
+  |damagetype=[[slashing damage|Slashing]]
+  |size=Medium
+  |proficiency=[[Weapon proficiency (exotic)|Exotic]]
+  |category=[[Category:Axes]][[Category:Exotic weapons]]
+}}
+
+==Notes==
+* Introduced in the [[Hordes of the Underdark]] [[expansion pack]].
+* Dwarves in D&D are allowed to treat dwarven waraxes as martial weapons due to familiarity. Hordes of the Underdark, however, did not introduce a "weapon proficiency (dwarf)" feat, so dwarves must still take exotic weapons proficiency to use these weapons.
+
+==Toolset==
+* Dwarven waraxes are listed under the [[one-handed axe blueprint category]] of the [[item palette]] in the [[toolset]].

@@ -1,0 +1,14 @@
+[[Image:Human.jpg|left|Human]]
+[[Human]]s are the most adaptable of the common [[race]]s. Short generations and a penchant for migration and conquest mean they are very physically diverse as well. Skin shades range from nearly black to very pale, hair from black to blond, and facial hair (for men) from sparse to thick. Humans are often unorthodox in their dress, sporting unusual hairstyles, fanciful clothes, tattoos, and the like.
+
+*[[Favored class]] (Any): When determining whether a [[Class#Multiclassing|multiclass]] human suffers an [[Multiclass penalty|XP penalty]], his highest-level class does not count.
+
+==Special abilities==
+*[[Quick to Master]]: 1 extra [[feat]] at 1st level.
+*[[Skilled]]: 4 extra [[skill point]]s at 1st level, plus 1 additional skill point at each following level.
+
+==PC default biography==
+"Your only hope for fame and fortune, and to escape the life of a commoner, was to become an adventurer. Guided by your goals and dreams, you have set off in search of excitement."
+
+[[Category:races]]
+[[Category:playable races]]

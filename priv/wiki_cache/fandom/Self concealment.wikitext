@@ -1,0 +1,19 @@
+{{feat
+|epic=yes
+|type=general
+|prereq=21st level, [[dexterity]] 30+, [[hide]] 30, [[tumble]] 30, [[improved evasion]]
+|desc=The character gains a 10% [[concealment]] bonus. This feat may
+be taken multiple times, to a maximum of 50% concealment.
+|use=automatic
+|icon=ife_x2selfconc1.gif
+|bonus1=assassin
+|bonus2=monk
+|bonus3=rogue
+|bonus4=shadowdancer
+}}
+
+==Notes==
+
+*Requires [[Hordes of the Underdark]].
+*Concealment does not [[stack]]; only the highest value is used.
+* Because of the dexterity requirement and the level cap, ''[[great dexterity]]'' is effectively required to take this feat more than once and is usually necessary even to take this feat the first time. (Without ''great dexterity'', ''self concealment'' can only be taken at level 40 (as a [[bonus feat]]), and only by an [[elf]] or [[halfling]] with maximum dexterity.)

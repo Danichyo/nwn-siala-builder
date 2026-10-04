@@ -1,0 +1,30 @@
+{{spell
+|icon=is_x2flmeweap.gif
+|magelevel=2
+|innatelevel=2
+|school=[[evocation]]
+|immunity=weapon enchantment
+|components=VS
+|range=t
+|area=creature or melee weapon
+|save=none
+|spellresistance=no
+|duration=<del>1</del> ''2'' minutes / level
+|desc=Sets a [[melee weapon]] aflame, granting 1[[d4]] points of [[fire damage]] +1 per caster level to a maximum of +10. You can target a specific weapon or a creature with this spell.}}
+
+== Notes ==
+*Requires [[Hordes of the Underdark]].
+*Contrary to the spell's description, this spell lasts for two [[turn]]s per level instead of one.
+* When cast on a creature, the spell affects the melee weapon in the creature's [[main hand slot|main hand]] (if there is one).
+* This spell can be cast on seemingly unarmed creatures (such as animals) to target one of their [[natural weapon]]s. The "right" slot is targeted if possible; the "bite" slot otherwise. A creature with only a "left" weapon (e.g. some [[polymorph]]s) will not benefit from this spell.
+*The damage is implemented as an [[on-hit]] property. This has a few notable consequences.
+**Damage from on-hit properties is not multiplied for [[critical hit]]s.
+**Damage from on-hit properties [[stack]]s with all damage bonuses on the weapon.
+**Only one on-hit property will ever be applied for a single hit. Thus this spell will not stack with ''[[darkfire]]'', nor is it effective on weapons with permanent on-hit properties.
+
+== Custom content notes ==
+*''script:'' <code>X2_S0_FlmeWeap</code>
+*''On hit fire damage script: '' <code>X2_S3_Flamingd</code>
+==External links==
+* {{FRW}}
+* {{NWN2W|Flame Weapon}}

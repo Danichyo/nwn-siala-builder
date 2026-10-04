@@ -1,0 +1,35 @@
+{{redirect|Greater rage|the monster ability|Rage (monster ability)}}
+
+{{feat
+|type=class
+|prereq=[[barbarian]]
+|desc=The barbarian may '''rage''', gaining a +4 morale bonus to [[strength]] and [[constitution]] and +2 to all [[will]] [[saving throw]]s, in exchange for a -2 penalty to [[armor class]]. The barbarian may use this ability once per day at first [[class level|level]], +1 use per day at level 4, and every 4 levels thereafter, extending into [[epic class|epic]] levels.<br />
+At 15th level, the rage ability becomes '''greater rage''', giving the barbarian +6 to strength and constitution and +3 to will saves (the -2 penalty to armor class still applies).
+|use=selected
+|icon=ife_rage.gif
+|class1=barbarian
+}}
+
+==Notes==
+
+*The duration is the barbarian's constitution [[modifier]] (before the rage) plus 7 [[round]]s, plus an extra 2 rounds for ''greater rage''.
+*Ability bonuses are [[ability cap|capped]] at +12, so a PC already gaining ability bonuses from items, spells or potions, might gain less than the full bonuses from ''rage''/''greater rage''.
+* The armor class penalty is a [[dodge bonus]], so (due to a bug) it is lost when [[flat-foot]]ed.
+*Barbarian rage is similar to, but not the same as, the [[rage (monster ability)|rage ability]] of some creatures, such as [[badger]]s. (For example, creatures do not suffer an armor class penalty.)
+* The temporary constitution increase means that a character who is low on [[hit point]]s at the end of the rage can drop into the negatives when the bonus expires.
+
+'''See also:''' [[mighty rage]], [[terrifying rage]], [[thundering rage]]
+
+==Builder notes==
+'''Item feat:''' No, but it can be added with custom content.
+
+*This feat can be modified by editing the spell script.
+
+==Custom content notes==
+'''Removable:''' yes
+
+'''Reusable:''' No, the GUI is hardcoded to the barbarian class.
+
+'''Script:''' ''nw_s1_barbrage'', [[spells.2da]] and [[feat.2da]]
+
+*This feat can be added to [[iprp_feats.2da]] to make it available as item feat.

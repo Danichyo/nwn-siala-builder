@@ -1,0 +1,62 @@
+{
+  "_layer": "vanilla",
+  "_hand_written": true,
+  "_note": "Выдачи классов, которых нет в таблицах прогрессии Fandom, — ручной слой поверх машинного `vanilla/classes.json` (задача 4.27). Источник — таблицы игры `cls_feat_*.2da` (выгрузка `priv/base_2da/`, сборка 89.8193.37-17): строка с `List 3` — выдача, уровень класса — колонка `GrantedOnLevel` (nwn.wiki, cls_feat_xxx.2da), таблицу классу назначает колонка `FeatsTable` в classes.2da. Машинный слой читает выдачи из колонки «Feats» таблицы прогрессии на странице класса, и то, чего страница класса не печатает, до него не доходит.\n\nЗапись сегодня одна — Mount actions (FEAT_HORSE_MENU): все 11 базовых классов выдают его на 1-м уровне, а страницы классов о нём молчат. Говорит страница самого фита (Notes: «automatically given to a player character upon obtaining the first level of a base class»), и таблица с ней согласна.\n\nЧисел запись не двигает: у фита нет ни прибавок, ни требований, и ядро его ни о чём не спрашивает. Двигает она список «Класс даёт сам» и одну законность: без выдачи фит брался общим слотом (у Fandom он `type: general`, требований нет), а в игре его не выбрать — у строки 1089 feat.2da `MinLevel 99` и `ALLCLASSESCANUSE 0`, и ни одна таблица cls_feat_* не ставит его с List 0/1/2. С выдачей на 1-м уровне любого базового класса им владеет каждый ванильный персонаж (первый уровень престиж-классом не взять), и взять его слотом ядро не даст: `Rules.validate_feat_pick/3` отвечает `{:already_taken, :mount_actions}`.\n\n⚠️ Запись ДОБАВЛЯЕТ выдачу и не трогает прочитанного: выдача, которую машинный слой уже несёт на том же уровне класса, роняет сборку — значит, парсер научился читать её сам, и запись надо снять (`Classes.apply_granted_feats/3`).\n\n⚠️ Сиала. Хак шарда переопределяет все 11 таблиц, и в каждой строка FEAT_HORSE_MENU стоит с `GrantedOnLevel 60` и `OnMenu 0`: выдача вынесена за кап 41 и убрана из радиального меню. Поэтому поверх этого файла лежит `siala_41/class_granted_feats.json` с той же записью (`Loader.Layers.merge/3`, по ключу `feat`, тот же приём, что у `feat_resistance_bonuses.json`) и `classes: []` — Сиала сохраняет своё: фит не выдаёт никто, и снапшот Сиалы от этого файла не зависит (`class_granted_feats_test.exs`). Лошади на Сиале при этом есть — навык «Верховая езда» работает с экспаншена 23.09.2023, у Паладина и Чёрного стража есть поправки езды, — но ездят там системой шарда, а не ванильным меню.",
+  "_schema": {
+    "grants[].feat": "id фита из vanilla/feats.json. Имя записи — по нему же слой Сиалы ложится поверх (`Loader.Layers.merge/3`). Несуществующий фит роняет сборку.",
+    "grants[].class_level": "Уровень КЛАССА, на котором фит выдаётся, — `GrantedOnLevel` строки с List 3.",
+    "grants[].classes": "Классы, чьи таблицы cls_feat_* выдают фит на этом уровне, по возрастанию, без повторов. Несуществующий класс роняет сборку. Пустой список — «не выдаёт никто»: так пишет свою запись слой Сиалы; у ванильной записи он пустым не бывает (тест).",
+    "grants[].status": "`verified` — уровень прочитан из строки таблицы. Другого статуса файл не принимает: выдача, которую загрузчик не применил бы, здесь не нужна.",
+    "grants[].quote + source": "Цитата страницы фита на Fandom; пара сверяется с кэшем дословно (`provenance_test.exs`).",
+    "grants[].source_2 (kind 2da)": "Строка таблицы `cls_feat_*` — ПОЗИЦИЯ, а не метка (HANDOFF.md, задача 4.5). `column` + `value` — ячейка одной строки; строки остальных классов названы в `note` и сверяются тестом целиком (`class_granted_feats_test.exs`). Колонки `Label` у cls_feat_* нет (метка строки — `FeatLabel`), поэтому `label` не ставится.",
+    "grants[].hak": "Что говорит хак Сиалы о той же выдаче. Загрузчик блок не читает: отличие Сиалы — запись её слоя, а не этот блок."
+  },
+  "grants": [
+    {
+      "feat": "mount_actions",
+      "class_level": 1,
+      "classes": [
+        "barbarian",
+        "bard",
+        "cleric",
+        "druid",
+        "fighter",
+        "monk",
+        "paladin",
+        "ranger",
+        "rogue",
+        "sorcerer",
+        "wizard"
+      ],
+      "status": "verified",
+      "quote": "This feat is automatically given to a [[player character]] upon obtaining the first level of a [[base class]].",
+      "source": {
+        "wiki": "fandom",
+        "page": "Mount actions",
+        "revid": 41176,
+        "fetched": "2026-08-01"
+      },
+      "source_2": {
+        "kind": "2da",
+        "table": "cls_feat_barb.2da",
+        "row": 169,
+        "column": "GrantedOnLevel",
+        "value": "1",
+        "build": "89.8193.37-17",
+        "fetched": "2026-09-26",
+        "note": "FEAT_HORSE_MENU (FeatIndex 1089 — Mount Actions в feat.2da), List 3, GrantedOnLevel 1, у каждого из 11 базовых классов: cls_feat_barb.2da:169, cls_feat_bard.2da:132, cls_feat_cler.2da:71, cls_feat_druid.2da:133, cls_feat_fight.2da:346, cls_feat_monk.2da:121, cls_feat_pal.2da:196, cls_feat_rang.2da:120, cls_feat_rog.2da:87, cls_feat_sorc.2da:106, cls_feat_wiz.2da:82. Ни у одного из двенадцати престиж-классов строки нет. Сама строка 1089 feat.2da — MinLevel 99, ALLCLASSESCANUSE 0: выбрать фит нельзя, только получить."
+      },
+      "note": "Находка сверки 4.5 (`class_feats/mount_actions/granted_first`, вид (a)). Тот же фит в той же таблице выдаётся на каждом базовом классе, поэтому одна запись на фит, а не одиннадцать правок классов: утверждение источника — про фит («the first level of a base class»), а не про каждый класс порознь (тот же довод, что у `granted_automatically_to` в слое фитов Сиалы).",
+      "hak": {
+        "note": "Хак Сиалы переопределяет все 11 таблиц, и строка FEAT_HORSE_MENU (FeatIndex 1089, List 3) стоит в каждой с GrantedOnLevel 60 и OnMenu 0: cls_feat_barb.2da:166, cls_feat_bard.2da:169, cls_feat_cler.2da:107, cls_feat_druid.2da:172, cls_feat_fight.2da:343, cls_feat_monk.2da:157, cls_feat_pal.2da:193, cls_feat_rang.2da:156, cls_feat_rog.2da:123, cls_feat_sorc.2da:143, cls_feat_wiz.2da:118. Уровень класса 60 за капом 41 недостижим, из радиального меню фит убран — шард его не выдаёт. Отличие записано слоем Сиалы (`siala_41/class_granted_feats.json`), этот блок — только его довод. Строка 1089 feat.2da у хака та же, что в базовой игре (MinLevel 99, ALLCLASSESCANUSE 0).",
+        "source": {
+          "kind": "hak",
+          "table": "cls_feat_barb.2da",
+          "row": 166,
+          "sha1": "a410772d36a9e279d0b6050a92d7537ca95c9a76",
+          "fetched": "2026-08-27"
+        }
+      }
+    }
+  ]
+}

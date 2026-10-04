@@ -1,0 +1,141 @@
+{
+  "_layer": "vanilla",
+  "_generated_by": "mix wiki.parse",
+  "_note": "The schools a Spell focus is chosen from. Built from the members of Category:Spell schools minus the articles filed under it; `universal` is in the category and is excluded because its own page says it is not truly a school, which the `Epic spell focus` icon strip corroborates by naming eight variants. The gate is `selectable`, the domain-wide one, because that sentence is about the **value**: universal is not a school for anybody, so every feat that chooses a school is gated by it at once. A gate named after `spell_focus` said the same thing about one feat only, and left `greater_spell_focus`, `epic_spell_focus` and `arcane_defense` holding all nine — covered until now solely by the side effect of `same_choice_as`.",
+  "_chosen_by": {
+    "feat": "spell_focus",
+    "gate": "selectable",
+    "available": 8,
+    "total": 9,
+    "excluded": [
+      "universal"
+    ],
+    "quote": "The '''universal''' school is not truly a [[spell school]], but instead it represents the lack of a school selection by a [[wizard]] who desires to have an equal understanding of all spells, without focusing on a single school of magic.",
+    "source": {
+      "wiki": "fandom",
+      "page": "Universal",
+      "revid": 52117,
+      "fetched": "2026-08-01"
+    },
+    "corroborated_by": {
+      "variants": [
+        "abjuration",
+        "conjuration",
+        "divination",
+        "enchantment",
+        "evocation",
+        "illusion",
+        "necromancy",
+        "transmutation"
+      ],
+      "source": {
+        "wiki": "fandom",
+        "page": "Epic spell focus",
+        "revid": 55113,
+        "fetched": "2026-08-01"
+      }
+    }
+  },
+  "schools": [
+    {
+      "id": "abjuration",
+      "name": "Abjuration",
+      "selectable": true,
+      "source": {
+        "wiki": "fandom",
+        "page": "Abjuration",
+        "revid": 57620,
+        "fetched": "2026-08-01"
+      }
+    },
+    {
+      "id": "conjuration",
+      "name": "Conjuration",
+      "selectable": true,
+      "source": {
+        "wiki": "fandom",
+        "page": "Conjuration",
+        "revid": 61817,
+        "fetched": "2026-08-01"
+      }
+    },
+    {
+      "id": "divination",
+      "name": "Divination",
+      "selectable": true,
+      "source": {
+        "wiki": "fandom",
+        "page": "Divination",
+        "revid": 52497,
+        "fetched": "2026-08-01"
+      }
+    },
+    {
+      "id": "enchantment",
+      "name": "Enchantment",
+      "selectable": true,
+      "source": {
+        "wiki": "fandom",
+        "page": "Enchantment",
+        "revid": 58131,
+        "fetched": "2026-08-01"
+      }
+    },
+    {
+      "id": "evocation",
+      "name": "Evocation",
+      "selectable": true,
+      "source": {
+        "wiki": "fandom",
+        "page": "Evocation",
+        "revid": 51880,
+        "fetched": "2026-08-01"
+      }
+    },
+    {
+      "id": "illusion",
+      "name": "Illusion",
+      "selectable": true,
+      "source": {
+        "wiki": "fandom",
+        "page": "Illusion",
+        "revid": 52248,
+        "fetched": "2026-08-01"
+      }
+    },
+    {
+      "id": "necromancy",
+      "name": "Necromancy",
+      "selectable": true,
+      "source": {
+        "wiki": "fandom",
+        "page": "Necromancy",
+        "revid": 51871,
+        "fetched": "2026-08-01"
+      }
+    },
+    {
+      "id": "transmutation",
+      "name": "Transmutation",
+      "selectable": true,
+      "source": {
+        "wiki": "fandom",
+        "page": "Transmutation",
+        "revid": 58129,
+        "fetched": "2026-08-01"
+      }
+    },
+    {
+      "id": "universal",
+      "name": "Universal",
+      "selectable": false,
+      "note": "The '''universal''' school is not truly a [[spell school]], but instead it represents the lack of a school selection by a [[wizard]] who desires to have an equal understanding of all spells, without focusing on a single school of magic.",
+      "source": {
+        "wiki": "fandom",
+        "page": "Universal",
+        "revid": 52117,
+        "fetched": "2026-08-01"
+      }
+    }
+  ]
+}

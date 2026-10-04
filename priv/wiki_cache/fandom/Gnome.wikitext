@@ -1,0 +1,36 @@
+[[Image:Gnome.jpg|left|Gnome]]
+'''Gnomes''' are in wide demand as alchemists, inventors, and technicians, though most prefer to remain among their own kind in simple comfort. Gnomes adore [[animal]]s, gems, and jokes, especially pranks. They love to learn by personal experience, and are always trying new ways to build things. Gnomes stand 3 to 3 1/2 feet tall, with skin that ranges from dark tan to woody brown. Their hair is fair, and their eyes are often some shade of blue. Gnomes generally wear earth tones, but decorate their clothes intricately. Males favor carefully-trimmed beards. Gnomes live 350 to 500 years.
+
+Gnomish [[ability]] adjustments: +2 [[constitution]], -2 [[strength]]
+
+[[Favored class]] ([[wizard]]): A [[Class#Multiclassing|multiclass]] gnome's wizard class does not count when determining whether he suffers an [[Multiclass penalty|XP penalty for multiclassing]].
+
+==Special abilities==
+
+*[[Hardiness vs. illusions]]: +2 racial bonus on [[saving throw]]s against [[mind-affecting]] [[spell]]s.
+*[[Battle training vs. reptilians|Offensive training vs. reptilians]]: +1 racial bonus on attack rolls against reptilian humanoids.
+*[[Battle training vs. goblins|Offensive training vs. goblinoids]]: +1 racial bonus on attack rolls against [[goblinoid]]s ([[goblin]]s, [[hobgoblin]]s, and [[bugbear]]s).
+*[[Battle training vs. giants|Defensive training vs. giants]]: +4 dodge bonus to AC against [[giant]]s.
+*[[Skill affinity (listen)]]: +2 racial bonus to [[listen]] checks.
+*[[Skill affinity (concentration)]]: +2 racial bonus to [[concentration]] checks.
+*[[Spell focus]] ([[illusion]]): Gnomes add +2 [[difficulty class]] to any illusion spells they cast. This counts as the [[feat]] so characters are able to select [[greater spell focus]] ([[illusion]]) at first level.
+*[[Low-light vision]]: Allows them to see better than normal in the dark.
+* [[Small stature]]: Gnomes are small creatures, giving them some benefits and drawbacks.
+** +1 [[size modifier]] to [[attack roll]]s.
+** +1 size modifier to [[armor class]].
+** +4 size bonus to standard [[stealth]] and [[detect]]ion checks (modifies [[hide]], [[listen]], [[move silently]], and [[spot]]).
+** Cannot use [[tower shield]]s.
+** Cannot use [[weapon size|large weapons]].
+** At [[character creation]], choosing a [[package]] other than the default may give gnome characters starting [[item|equipment]] or [[weapon]]-related [[feat]]s (at any level) that they cannot use.
+
+==PC default biography==
+
+"Your curiosity has always led you into strange and dangerous circumstances, and now you find yourself outside the close circle of your clan, surrounded by [[human]]s and other races. Your guess is that more strange adventures are on their way."
+
+==Notes==
+
+*Often stereotyped as crazed inventors with a diet of turnips.
+*Stereotypically, gnomes speak incredibly fast, often illustrated as a string of text with no spaces.
+*The NWN gnome is a rock gnome. There are two other subraces in the [[Forgotten Realms]] &mdash; forest gnomes and deep gnomes (also known as [[svirfneblin]]).
+[[Category:Races]]
+[[Category:playable races]]

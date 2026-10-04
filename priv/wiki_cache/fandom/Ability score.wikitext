@@ -1,0 +1,15 @@
+An '''ability score''' is the numeric rating of one of the six [[ability|abilities]]. [[Human]]s establish the scale for these ratings, with a "typical" human having a score of 10 in each ability (a score of 0 would correspond to no ability, if the game supported that). In most cases, the ability score is "primary" in that it is what gets modified through various means, but it is the derived [[ability modifier]] that actually affects what happens in the game.
+
+The game engine allows an ability score to range from 3 to 255 (including bonuses and penalties). However, [[player character]]s are incapable of reaching the maximum through normal means, as starting ability scores are limited to 20, and the [[ability cap]] limits magical enhancements to +12. The highest ability score achievable by a player character through normal means is 57 (strength). The highest score achievable without bonuses from [[feat]]s and [[race]] is 40. For [[non-player character]]s (including creatures), the [[Toolset]] allows setting base (starting) ability scores between 3 and 100. As with player characters, this can be further modified by magic, feats, and so on.
+
+== Increasing scores ==
+Player characters are assigned ability scores from 8 to 18, before applying any [[racial modifier]]s, at character creation through a [[point buy]] system. In addition, every four [[character level]]s a single ability score [[level progression|can be increased by one]]. Furthermore, certain feats ([[dragon abilities]] of [[red dragon disciple]]s and the "great ability" [[epic feat]]s) can increase base scores.
+
+Items, spells, etc. ("magical means") can further affect ability scores, subject to the +12 [[ability cap]]. When a score is increased by magical means, it is shown in green on the [[character sheet]]; when it is decreased, it is shown in red. Otherwise, it is shown in white. It is this unmodified score (the base score) that matters when meeting the prerequisite of a feat.
+
+== Spellcasting ==
+Ability scores affect the highest level spell that can be cast or known by a spellcaster. The ability that is the casting ability depends upon class: [[intelligence]] for [[wizard]]s; [[wisdom]] for [[cleric]]s, [[druid]]s, [[paladin]]s, and [[ranger]]s; and [[charisma]] for [[sorcerer]]s and [[bard]]s.
+
+In order to prepare or cast a known spell, the caster must have both a ''base'' casting ability score and a modified casting ability score of at least 10 + spell level.  This requirement also extends to learning spells by scroll for wizards.  Classes that manually select spells when leveling up (bard, sorcerer, or wizard) will only need the ''base'' casting ability score to meet or exceed 10 + the spell's level to learn the spells of that level; while the other classes learn their allotted spells automatically from leveling. Whenever the casting ability is reduced, all [[spell slot]]s that are too high a level for the reduced ability will be lost.
+
+[[category:abilities| Ability score]]

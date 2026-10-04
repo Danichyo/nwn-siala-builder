@@ -1,0 +1,17 @@
+{{spell
+|icon=is_sndburst.gif
+|bardlevel=2
+|clericlevel=2
+|innatelevel=2
+|school=[[evocation]]
+|components=VS
+|range=l
+|area=medium
+|save=[[will]] special
+|spellresistance=yes
+|immunity=sonic
+|duration=instant
+|desc=All creatures within the [[area of effect]] take 1[[d8]] points of [[sonic damage|damage]] and must make a will save or be [[stunned]] for 2 [[round]]s.}}
+
+==Custom content notes==
+*''script:'' <code>NW_S0_SndBurst.nss</code>

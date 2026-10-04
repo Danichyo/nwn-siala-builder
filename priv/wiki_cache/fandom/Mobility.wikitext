@@ -1,0 +1,24 @@
+{{feat
+|type=general
+|prereq=[[dexterity]] 13+, [[dodge]]
+|reqfor=[[spring attack]], [[whirlwind attack]], [[improved whirlwind attack]], [[shadowdancer]], [[weapon master]]
+|desc=A character with this feat has learned to avoid [[attack of opportunity|attacks of opportunity]] more effectively, gaining a +4 [[dodge bonus]] to [[armor class|AC]] against them.
+|use=Automatic, though a condition that negates a dexterity bonus to AC also negates any dodge bonuses. Multiple dodge bonuses (from different [[feat]]s or racial bonuses) are cumulative.
+|icon=ife_mobility.gif
+|bonus1=champion of Torm
+|bonus2=fighter
+}}
+
+==Notes==
+* A high [[tumble]] skill reduces the need for this feat, as the tumble skill can prevent attacks of opportunity from moving in combat. However, the usefulness of ''mobility'' is not eliminated since there are other conditions that provoke attacks of opportunity. Furthermore, the [[armor check penalty]] makes achieving a high tumble skill difficult for characters who wear [[heavy armor]] and/or carry a [[tower shield]].
+* The AC bonus does not count toward the +20 dodge AC cap.
+
+==Builder notes==
+'''Item feat:''' yes
+
+==Custom content notes==
+'''Removable:''' yes
+
+'''Reusable:''' yes
+
+'''Script:''' hardcoded

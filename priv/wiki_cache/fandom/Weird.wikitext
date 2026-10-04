@@ -1,0 +1,35 @@
+{{spell
+|icon=is_weird.gif
+|magelevel=9
+|innatelevel=9
+|school=[[illusion]]
+|components=VS
+|range=s
+|area=colossal
+|save=[[fortitude]] and [[will]]
+|spellresistance=yes
+|immunity=fear, mind-affecting
+|duration=instant
+|counters=<del>[[true seeing (spell)|true seeing]]</del>
+|line=Phantoms
+|line4=phantasmal killer
+|line9=weird
+|desc=A horrible phantasm rises to stand before enemy creatures in the area of effect, causing them to make a will [[saving throw|save]]. If they fail, the phantasm touches them and they must now make a fortitude saving throw. If this saving throw fails, the creature dies. Those who succeed the fortitude save still take 3[[d6]] points of [[magical damage]]. Creatures with less than 4 [[hit dice]] automatically die, without any saving throws.}}
+
+== Notes ==
+
+* The mind-affecting descriptor applies to the "versus" part of the will saving throw. The fortitude save is versus death even though this is not [[death magic]] (immunity to death magic does not apply).
+* Immunity to the descriptors (fear or mind-affecting) is applied before the saving throws (if any) and after the spell resistance check, with no feedback if this immunity applies.
+* Due to a .2da bug, ''true seeing'' is not an additional [[counterspell]] of this spell.
+
+=== Previous versions ===
+
+* Prior to version 1.66, immunity to death magic did prevent death from this spell.
+* Prior to version 1.66, the mind-affecting immunity from ''[[protection from evil]]'' was ignored.
+
+== Custom content notes ==
+
+* ''script:'' <code>NW_S0_Weird</code>
+
+==External Links==
+* {{FRW}}

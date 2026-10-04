@@ -1,0 +1,48 @@
+{{spell
+|icon=is_vamptch.gif
+|magelevel=3
+|innatelevel=3
+|school=[[necromancy]]
+|components=VS
+|range=t
+|area=single creature
+|save=none
+|spellresistance=yes
+|immunity=negative
+|duration=instant
+|counters=<del>[[negative energy protection]]</del>
+|desc=The target creature takes 1[[d6]] points of [[negative energy damage]] for every 2 caster levels (maximum 10d6). This damage is then applied to the caster's hit points as a [[temporary hit point|temporary bonus]]. You can't gain more temporary hit points than what is required to kill the target (target's current hit points +10).}}
+
+{|class="wikitable" style="text-align:center"
+   !caster level!!damage
+ |-
+   |5||2d6
+ |-
+   |6||3d6
+ |-
+   |8||4d6
+ |-
+   |10||5d6
+ |-
+   |12||6d6
+ |-
+   |14||7d6
+ |-
+   |16||8d6
+ |-
+   |18||9d6
+ |-
+   |20+||10d6
+|}
+
+== Notes ==
+
+* This spell requires a successful [[touch attack]]. Spell resistance is only checked if the touch attack succeeds.<!-- too obviously the way it should work? -->
+* The temporary hit points last for one [[hour]] per two caster levels. Any pre-existing temporary hit points (from any source) are removed before the new ones are applied.
+* This spell will do nothing if cast on a non-creature, a creature protected by ''[[negative energy protection]]'', an [[undead]] creature, a [[construct]], or a friendly creature (accounting for the [[PvP setting]]). In these cases, the target is not even informed that a hostile spell was attempted against it.
+* The temporary hit points are resolved independent of the application of the damage. Reducing or increasing the damage (presumably by [[damage resistance]], [[immunity]], or vulnerability) does not similarly affect the temporary hit points.
+* Due to a .2da bug, ''negative energy protection'' is not an additional [[counterspell]] of this spell.
+
+== Custom content notes ==
+
+*''script:'' <code>NW_S0_VampTch</code>

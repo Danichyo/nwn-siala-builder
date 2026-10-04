@@ -1,0 +1,17 @@
+{{Grimoire spell|imagename=Is recite.jpg
+|spellname=Recitation
+|casterlevel=[[cleric]] 4
+|innatelevel=4
+|school=[[conjuration]] ([[spell subschool|creation]])
+|descriptors=none
+|components=V, S
+|range=short
+|immunities=none
+|savingthrow=none
+|spellresistance=yes
+|targettype=60 ft. radius burst centered on the caster
+|duration=1 [[round]]/level
+|description=By reciting a sacred passage or declaration from his faith's holy writings, the caster brings special favor upon himself and his allies while bringing disfavor to his foes. The caster and his allies gain a +2 luck bonus on [[attack]] rolls, weapon damage rolls, [[save]]s, and [[skill check]]s, while foes suffer a &minus;2 penalty on such rolls.
+}}
+{{g_clr}}
+{{g_subcre}}

@@ -1,0 +1,15 @@
+{{feat
+|epic=yes
+|type=general
+|prereq=21st level
+|desc=The character gains +1 to their [[wisdom]]. This may be taken multiple times, to a maximum bonus of +10.
+|use=automatic
+|icon=ife_x2grwis1.gif
+|bonus1=champion of Torm
+|bonus2=cleric
+|bonus3=druid
+|bonus4=shifter
+}}
+
+==Notes==
+*Requires [[Hordes of the Underdark]].

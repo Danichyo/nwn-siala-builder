@@ -1,0 +1,49 @@
+__NOTOC__{{feat
+|type=general
+|prereq=[[dexterity]] 13+, [[wisdom]] 13+, [[improved unarmed strike]], [[base attack bonus]] +8
+|reqfor=[[extra stunning attacks]], [[improved stunning fist]]
+|desc=A character with this feat can attempt a disabling strike with a -4 [[attack roll|attack]] penalty and a -4 damage penalty. If successful, the target must succeed at a [[fortitude]] [[save]] ([[difficulty class|DC]] 10 + 1/2 the attacker's [[character level|level]] + the attacker's [[wisdom]] [[modifier]]) or be [[stunned|held]] for three [[round]]s. This attack may be used once per day for every four [[character level|levels of the character]].
+|use=selected. [[Monk]]s receive this feat for free at first level, even if they do not meet the prerequisites. As well, monks suffer no attack or damage penalties when using this feat and may use it once per day per [[class level|level]]. [[Construct]]s and [[undead]] are immune to this attack, as are any creatures that are immune to [[critical hit]]s.
+|icon=ife_stunfist.gif
+|class1=monk
+|bonus1=champion of Torm
+|bonus2=fighter}}
+
+== Notes ==
+
+* The [[Enhanced Edition]] reduces the stun duration to one round.
+* Monks may use this feat ''only'' once per day per monk level (even if their character level would otherwise qualify them for more uses).
+* The uses per day for non-monks goes up on the levels immediately after a multiple of four, as if rounding all fractions up.
+{|class="wikitable" style="text-align:center;"
+|+Stunning fists per day for non-monks
+!Character level
+| &nbsp;8&nbsp; || 9&ndash;12 || 13&ndash;16 || 17&ndash;20 || 21&ndash;24 || 25&ndash;28 || 29&ndash;32 || 33&ndash;36 || 37&ndash;40
+|-
+!Uses
+| 2 || 3 || 4 || 5 || 6 || 7 || 8 || 9 || 10
+|}
+* As the name of the feat implies, this ability can only be used while unarmed.
+* If a ''stunning fist'' attempt does not inflict damage, the attempt will fail.
+* Immunity to [[mind-affecting]] spells does not protect a character from the stunning effect of this feat. However, the stun can be removed through normal means (e.g. ''[[clarity]]'', ''[[greater restoration]]'').
+* Undead and constructs are not inherently immune to stunning fist, but will often have immunity to critical hits to give them immunity.
+* Only immunity to critical hits and immunity to stun will prevent the stun from stunning fist.
+* This is an effective way of dealing with stronger or more dexterous opponents, as they'll be unable to fight back for a brief time.
+* The [[extra stunning attacks]] feat increases the number of stunning fist attacks per day. The [[improved stunning fist]] feat increases the save DC.
+
+=== Previous versions ===
+
+* Prior to version 1.66, immunity to mind-affecting did protect a character from the stun.
+
+== Builder notes ==
+
+'''Item feat:''' No, but it can be added with custom content.
+
+== Custom content notes ==
+
+'''Removable:''' yes
+
+'''Reusable:''' yes
+
+'''Script:''' hardcoded
+
+*This feat can be added to [[iprp_feats.2da]] to make it available as an item feat.

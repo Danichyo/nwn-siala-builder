@@ -1,0 +1,24 @@
+A '''point buy''' system is used by [[Neverwinter Nights]] to determine [[ability score]]s during character creation. The system is based on points rather than random [[dice roll]]s, and is intended to produce a fair and balanced play environment, something [[BioWare]] considered very important for a multiplayer game of this nature.<!-- reference: NWN FAQ, but the BioWare site is down, so I do not have an exact URL -->
+
+A [[character]] starts with an ability score of 8 in each of his six [[ability|abilities]], and then draws upon a pool of 30 points to raise these abilities. (An exception is made for characters that can cast [[spell]]s, though, as described later.)
+Initially, the cost to increment (raise by 1) a score is 1 point. However, as an ability score is raised above 14, it becomes more expensive to raise it further; it costs 2 points to increment a score to 15 or 16, and 3 points to increment it to 17 or 18.
+[[Image:PB-elvensorc.png|thumb|The point buy window.<br />The character being created is a [[sorcerer]], so [[charisma]] is given a minimum score of 11, reducing the available points to 27.<br />The character is an [[elf]], so [[dexterity]] and [[constitution]] are affected by [[racial modifier]]s.]]
+{| class="centertable colsubheaders" style="text-align:center"
+|+ Point buy costs
+!Bought ability score
+!8!!9!!10!!11!!12!!13!!14!!15!!16!!17!!18
+|- 
+!Incremental cost
+|0||1||1||1||1||1||1||2||2||3||3
+|- 
+!Cumulative cost
+|0||1||2||3||4||5||6||8||10||13||16
+|}
+There is a danger in trying to make too many scores "exceptional", as the increased costs can leave insufficient points to get acceptable scores in the other abilities. For example, starting with one ability score at 18 and one at 17 (which cost 16 and 13 points, respectively) leaves but a single point to spend on the remaining four abilities.
+
+A uniform distribution of the 30 points among the six abilities results in a score of 13 for each ability. However, since even scores are often preferable to odd, this is more of a baseline for those planning a character's ability distribution than something to actually use. For those willing (or desiring) to "dump" one ability, another convenient baseline is that a uniform distribution among five abilities results in five ability scores of 14 and one of 8.
+
+[[Racial modifier]]s are added after the points are spent. So, for example, an [[elf]] spending 13 points on dexterity would have a starting dexterity score of 8&nbsp;+ 9&nbsp;(point buy)&nbsp;+ 2&nbsp;(racial modifier) = 19.
+
+If the new character's [[class]] is (or will be) able to cast spells, then the [[primary ability]] for that class starts at (and has a minimum of) 11, after accounting for racial modifiers. This is presumably so that new players do not accidentally block spell casting due to a low primary ability. (Spells require a base ability score of 10 plus the spell level, so a base score of 11 is needed for level 1 spells.) The initial pool of ability points is reduced (from 30) by what it would it would have cost to raise that score to 11 from its starting value (8 or 6, depending on racial modifiers).
+[[Category:Game rules]]

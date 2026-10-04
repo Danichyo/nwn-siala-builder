@@ -1,0 +1,24 @@
+{{spell
+|icon=Is_wordfaith.gif
+|clericlevel=7
+|innatelevel=7
+|school=[[evocation]]
+|components=VS
+|range=m
+|area=colossal
+|save=none
+|spellresistance=yes
+|duration=instant
+|desc= A wave of divine energy blasts all enemy creatures within the [[area of effect]]. All enemies within the area are [[stunned]] for 1 [[round]] per 2 [[caster level]]s. Those with 4 [[hit dice]] or less are killed instantly. Any hostile [[summon]]ed creatures are returned to their home planes.}}
+
+== Notes ==
+*''Word of faith'' provides the following effects based on target's level.
+**Level 4 or less: death
+**Level 5 to 7: stunned, [[confused]], and [[blind]]ed
+**Level 8 to 11: stunned and blinded
+**Level 12 or higher: blinded
+*This spell previously killed [[outsider]]s and [[elemental]]s, but that was removed in a [[patch]]. It still kills summons (even if they have death [[immunity]]).
+
+== Custom content notes ==
+
+*''script:'' <code>NW_S0_WordFaith</code>

@@ -1,0 +1,10 @@
+The '''spell school list''' has been divided by class.
+* [[Spell school list (bard)]]
+* [[Spell school list (cleric)]]
+* [[Spell school list (druid)]]
+* [[Spell school list (paladin)]]
+* [[Spell school list (ranger)]]
+* [[Spell school list (sorcerer/wizard)]]
+
+{{disambig}}
+[[category:spells| Spell school list]]

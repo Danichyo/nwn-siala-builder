@@ -1,0 +1,34 @@
+{{feat
+|type=class
+|prereq=[[assassin]]
+|desc=At first level, an assassin may use a '''death attack''', which functions similarly to a [[sneak attack]] in that if the target is not in combat they become victim to the death attack. The successful attack forces the target to make a [[fortitude]] [[saving throw|save]] or become [[paralyze]]d. Even if they succeed with the saving throw they still suffer +1[[d6]] points of damage in addition to the normal damage the attack caused. This damage increases to 2d6 at [[class level|level]] 3, 3d6 at level 5, 4d6 at level 7, and 5d6 at level 9.
+|use=automatic
+|icon=ife_x1dethatt.gif
+|class1=assassin
+}}
+
+== Notes ==
+
+* Added in the [[expansion pack]]s.
+* Death attacks are made whenever an assassin would qualify for a sneak attack, regardless of the target's combat state. (If an assassin also has a sneak attack, the game only reports "sneak attack" to the player.) In particular, death attacks can be made with ranged weapons if within 30 feet of the target.
+** All death attacks deal bonus damage, but not all death attacks trigger a paralysis save.
+** The bonus damage [[stack]]s with that for sneak attacks, including the [[sneak attack, blackguard|blackguard's sneak attack]].
+** As with sneak attacks, the bonus damage is not multiplied in the case of a [[critical hit]].
+* A death attack only triggers a paralysis save if the target is not engaged in combat, as per this feat's description.
+** Only the first attack roll will trigger a paralysis save.
+** The [[difficulty class]] of the saving throw is 10 + assassin level + [[intelligence]] [[modifier]].
+** The duration is 1d6 + assassin level [[round]]s.
+* The damage continues to increase in [[epic class]] levels at the rate of 1d6 for every 2 levels (i.e., 6d6 at level 11, 7d6 at level 13, and continuing up to 15d6 at level 29).
+* ''[[Uncanny dodge]] II'' provides immunity to flanking death attacks under certain class level checks between the attacker and defender. See the ''uncanny dodge'' article for more information.
+
+=== Previous versions ===
+
+* Prior to (Enhanced Edition) [[patch]] 1.74, there was a saving throw for each attack in the opening [[flurry]] of combat.
+* Prior to (Enhanced Edition) patch 1.74, ''uncanny dodge II'' did not provide immunity to flanking death attacks.
+* Prior to the ''[[Enhanced Edition]]'', the duration was 1 [[turn]] per assassin level.
+* Prior to patch 1.66, immunity to [[mind-affecting]] spells made a character immune to death attack paralysis.
+
+== Custom content notes ==
+
+* This feat can be given to non-assassins, but the duration of the paralysis would be fixed at 1 turn.
+* If given as a bonus feat, the death attack message will not display for characters who already possess a sneak attack.

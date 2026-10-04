@@ -1,0 +1,15 @@
+{{feat
+|epic=yes
+|type=general
+|prereq=21st level
+|desc=The character gains +1 to their [[dexterity]]. This may be taken multiple times, to a maximum of +10.
+|use=automatic
+|icon=ife_x2grdex1.gif
+|bonus1=arcane archer
+|bonus2=assassin
+|bonus3=bard
+|bonus4=Harper scout
+}}
+
+==Notes==
+*Requires [[Hordes of the Underdark]].

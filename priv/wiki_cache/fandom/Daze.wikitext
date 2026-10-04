@@ -1,0 +1,22 @@
+{{otheruses|the spell|the effect|Dazed}}
+{{spell
+|icon=is_daze.gif
+|bardlevel=0
+|magelevel=0
+|innatelevel=0
+|school=[[enchantment]]
+|components=VS
+|range=l
+|area=single
+|save=[[will]] negates
+|spellresistance=yes
+|immunity=mind-affecting
+|duration=2 [[round]]s
+|counters=<del>[[clarity]]</del>
+|desc=If the target humanoid creature has 5 [[hit dice]] or less, they are [[dazed]] for 2 rounds.}}
+
+==Notes==
+*Due to a .2da bug, ''daze'' is not an additional [[counterspell]] of ''clarity''.
+
+== Custom content notes ==
+* ''script:'' <code>NW_S0_Daze</code>

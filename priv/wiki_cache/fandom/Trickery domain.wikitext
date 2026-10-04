@@ -1,0 +1,19 @@
+'''Description:''' Clerics who take the Trickery domain gain bonuses to Rogue-like skills and gain access to various invisibility spells.[[Image:Id trickery.gif|right|Trickery]]
+== Domain special abilities ==
+
+Divine trickery - Bonus to [[hide]], [[persuade]], [[search]], [[disable trap]], [[move silently]], [[open lock]], and [[pick pocket]] checks equal to 1 per 2 [[class level|cleric levels]]. This effect lasts for 5 [[turn]]s + the [[cleric]]'s [[charisma]] [[modifier]].
+
+== Bonus spells ==
+* Level 2 [[invisibility (spell)|invisibility]]
+* Level 3 [[invisibility sphere]]
+* Level 5 [[improved invisibility]]
+
+== Notes ==
+
+* ''Divine trickery'' can be used once per [[day]].
+* The bonus is actually 1 higher than indicated by the description. (That is 1 + 1 per 2 levels.)
+
+==Custom content notes==
+* ''script'' <code>NW_S2_DivTrick</code>
+
+[[category:cleric domains]]

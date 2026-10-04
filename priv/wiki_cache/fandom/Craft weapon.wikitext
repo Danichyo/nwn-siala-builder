@@ -1,0 +1,150 @@
+[[Image:Isk x2cweap.gif|right|Craft weapon]]
+The character knows how to create most types of weapons and ammunition from different materials.
+*'''Ability:''' [[intelligence]]
+
+*'''Classes:''' [[arcane archer]], [[assassin]], [[barbarian]], [[bard]], [[blackguard]], [[champion of Torm]], [[cleric]], [[druid]], [[dwarven defender]], [[fighter]], [[Harper scout]], [[monk]], [[paladin]], [[pale master]], [[ranger]], [[red dragon disciple]], [[rogue]], [[shifter]], [[sorcerer]], [[wizard]]
+
+*'''[[Cross-class skill]]:''' yes
+
+*'''[[untrained skill check|Requires training]]:''' no
+
+*'''Check:''' Based on the difficulty to craft this particular item (see in-game crafting menu)
+
+*'''Use:''' Use crafting component
+
+==Notes==
+*Requires [[Hordes of the Underdark]].
+*This skill cannot craft magical weapons by default, aside from two ironwood weapons (+1 attack and 40% weight).
+*This skill can be used to modify the appearance of a weapon against a [[difficulty class]] of 15. The cost in gold to modify an item is (1/4 of the item's current value + 1) per part modified (this has a maximum value of the item cost + 1, but this is rarely reached as there are only three weapon parts); the full value is charged even when the skill check is unsuccessful.
+:* [[Plot]] weapons, [[intelligent weapon]]s, [[sling]]s, and [[whip]]s cannot have their appearance modified.
+* If a character has a modified score of 6 points in craft weapon or [[craft armor]], then creatures, placeables, and doors killed/destroyed by that character can drop basic crafting material based on their appearance (see creature articles for the material dropped). Of note is the "large bone" dropped by skeletal creatures, as it can be crafted into a bone wand which can then be used with the [[craft wand]] feat.
+*This skill can be used to craft a weapon or weapon component from raw material. The gold cost, DC, and components are given below with a 1/4 gold cost charge and loss of components if the skill check is failed.
+{|class="wikitable"
+!Weapon/crafted item!!Crafting DC!!Cost (gp)!!Components
+|-
+|elmwood bow shaft||align=center|14||align=center|5||plank of elm wood
+|-
+|iron bands||align=center|10||align=center|1||bar of iron
+|-
+|iron chain||align=center|12||align=center|2||bar of iron
+|-
+|iron hammer||align=center|13||align=center|10||bar of iron
+|-
+|iron orb||align=center|12||align=center|2||bar of iron
+|-
+|iron spikes||align=center|11||align=center|1||bar of iron
+|-
+|large steel blade||align=center|13||align=center|10||bar of steel
+|-
+|leather strings||align=center|11||align=center|1||leather hide
+|-
+|oaken crossbow shelf||align=center|14||align=center|10||plank of oak wood
+|-
+|oaken pole||align=center|12||align=center|2||plank of oak wood
+|-
+|oaken weapon grip||align=center|12||align=center|2||plank of oak wood
+|-
+|projectile shaft||align=center|11||align=center|1||plank of elm wood
+|-
+|small steel blade||align=center|12||align=center|5||bar of steel
+|-
+|steel axe head||align=center|12||align=center|2||bar of steel
+|-
+|steel weapon hilt||align=center|10||align=center|3||bar of steel
+|-
+|||||||
+|-
+|[[arrow]]s (20x)||align=center|13||align=center|1||projectile shaft, feathers
+|-
+|[[bastard sword]]||align=center|17||align=center|35||steel weapon hilt, large steel blade
+|-
+|[[battleaxe]]||align=center|15||align=center|20||steel weapon hilt, steel axe head
+|-
+|[[bolt]]s (20x)||align=center|13||align=center|1||projectile shaft, feathers
+|-
+|[[club]]||align=center|11||align=center|1||plank of elm wood
+|-
+|club||align=center|10||align=center|2||plank of oak wood
+|-
+|club||align=center|10||align=center|1||oaken pole, iron bands
+|-
+|[[dagger]]||align=center|12||align=center|1||oaken weapon grip or steel weapon hilt, small steel blade
+|-
+|[[dire mace]]||align=center|19||align=center|40||oaken pole, iron orb
+|-
+|[[double axe]]||align=center|19||align=center|30||oaken pole, steel axe head
+|-
+|[[dwarven waraxe]]||align=center|17||align=center|30||steel weapon hilt, steel axe head
+|-
+|[[greataxe]]||align=center|17||align=center|40||steel weapon hilt, steel axe head
+|-
+|[[greatsword]]||align=center|17||align=center|50||steel weapon hilt, large steel blade
+|-
+|[[halberd]]||align=center|17||align=center|10||oaken Pole, large steel blade
+|-
+|[[handaxe]]||align=center|13||align=center|6||oaken weapon grip, steel axe head
+|-
+|[[heavy crossbow]]||align=center|17||align=center|50||oaken crossbow shelf, leather string
+|-
+|[[heavy flail]]||align=center|15||align=center|15||oaken weapon grip, iron chain
+|-
+|[[kama]]||align=center|15||align=center|2||oaken weapon grip, small steel blade
+|-
+|[[katana]]||align=center|17||align=center|40||steel weapon hilt, large steel blade
+|-
+|[[kukri]]||align=center|17||align=center|8||oaken weapon grip, small steel blade
+|-
+|[[light crossbow]]||align=center|15||align=center|35||oaken crossbow shelf, leather string
+|-
+|[[light flail]]||align=center|13||align=center|8||oaken weapon grip, iron chain
+|-
+|[[light hammer]]||align=center|12||align=center|1||steel weapon hilt, iron hammer head
+|-
+|[[longbow]]||align=center|15||align=center|75||elmwood bow shaft, leather string
+|-
+|[[longsword]]||align=center|15||align=center|15||steel weapon hilt, large steel blade
+|-
+|[[mace]]||align=center|13||align=center|5||oaken weapon grip, iron orb
+|-
+|[[morningstar]]||align=center|15||align=center|8||oaken weapon grip, iron orb
+|-
+|[[quarterstaff]]||align=center|10||align=center|1||oaken pole, iron bands
+|-
+|[[rapier]]||align=center|17||align=center|20||oaken weapon grip, small steel blade
+|-
+|[[scimitar]]||align=center|15||align=center|15||steel weapon hilt, large steel blade
+|-
+|[[scythe]]||align=center|17||align=center|17||oaken pole, large steel blade
+|-
+|[[shortbow]]||align=center|13||align=center|30||elmwood bow shaft, leather string
+|-
+|[[shortsword]]||align=center|13||align=center|10||steel weapon hilt, small steel blade
+|-
+|[[sling]]||align=center|12||align=center|1||leather hide
+|-
+|[[spear]]||align=center|13||align=center|1||oaken pole, small steel blade
+|-
+|[[throwing axe]]s (10x)||align=center|13||align=center|1||oaken weapon grip, steel axe head
+|-
+|[[two-bladed sword]]||align=center|19||align=center|100||oaken pole, large steel blade
+|-
+|[[warhammer]]||align=center|13||align=center|12||oaken weapon grip, iron hammer head
+|-
+|[[whip]]||align=center|17||align=center|20||oaken weapon grip, leather string
+|-
+|||||||
+|-
+|bone wand||align=center|13||align=center|10||large bone
+|-
+|ironwood club||align=center|15||align=center|650||ironwood planks
+|-
+|ironwood quarterstaff||align=center|15||align=center|650||ironwood planks
+|}
+
+== Custom content notes ==
+*''script:'' <code>X2_S2_Crafting</code>
+*''modification dialogue:'' <code>x0_skill_ctrap</code>
+* The local integer for the module of "X2_L_DO_NOT_ALLOW_MODIFY_WEAPON" is supposed to disallow modifying weapons when set to a non-zero value, however, this variable was neglected in the check by the <code>x2_im_can_cw</code> script.
+* Local variables on a weapon will be lost if the skill check to modify is failed or the crafting is aborted.
+[[Category:skills]]
+[[Category:item powers]]

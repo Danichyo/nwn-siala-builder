@@ -1,0 +1,14 @@
+'''Instant feats''' are [[feat]]s that need to be activated to use, but that take effect instantly. Unlike most feats, instant feats bypass the [[action queue]] and lack an activation animation.
+
+Instant feats were added in [[patch]] 1.66, but no official content made use of these until patch 1.69, at which point the following instant feats were added to the game:
+[[rallying cry]],
+[[heroic shield]],
+[[oath of wrath]],
+[[horse menu]] (and all sub-options),
+[[DM tool]]s, and
+[[player tool]]s.
+
+== Custom content notes ==
+
+* A feat is specified as being an instant feat if its "ReqAction" column in <code>[[feat.2da]]</code> is 0.
+[[category:feats| Instant feat]]

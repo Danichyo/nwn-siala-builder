@@ -1,0 +1,38 @@
+{{feat
+|type=class
+|prereq=[[barbarian]] 11 (14, 17, 20)
+|desc=These feats allow the barbarian to shrug off points of damage from each attack that causes damage.
+|use=automatic
+|icon=ife_damred.gif
+|class1=barbarian
+}}
+
+{|class="wikitable" style="text-align:center"
+ |-
+   !barbarian level !! damage reduction
+ |-
+   |11||1/-
+ |-
+   |14||2/-
+ |-
+   |17||3/-
+ |-
+   |20||4/-
+|}
+
+==Notes==
+
+*This [[damage reduction]] stacks with [[dwarven defender damage reduction|dwarven defender]] and [[epic damage reduction]].
+*These feats are superseded by [[epic barbarian damage reduction]].
+
+==Builder notes==
+'''Item feat:''' No, but it can be added with custom content.
+
+==Custom content notes==
+'''Removable:''' yes
+
+'''Reusable:''' yes
+
+'''Script:''' hardcoded
+
+*This feat can be added to [[iprp_feats.2da]] to make it available as an item feat. These feats do not require the previous feat(s) to work.

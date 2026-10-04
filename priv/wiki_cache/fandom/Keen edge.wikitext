@@ -1,0 +1,23 @@
+{{spell
+|icon=is_x2keenedge.gif
+|bardlevel=3
+|magelevel=3
+|innatelevel=3
+|school=[[transmutation]]
+|components=VS
+|range=<s>short</s> ''touch''
+|area=creature or slashing weapon
+|save=none
+|spellresistance=no
+|immunity=weapon enchantment
+|duration=10 minutes / level
+|desc=Adds the [[keen]] property to the targeted [[slashing damage|slashing]] melee weapon, increasing its critical [[threat range]].}}
+ 
+== Notes ==
+*Requires [[Hordes of the Underdark]].
+* An existing keen property will block the addition of the keen property from this spell. In particular, a player should wait for this spell to expire before casting it again on the same weapon.
+* When cast on a creature, the spell affects the slashing melee weapon in the creature's [[main hand slot|main hand]] (if there is one).
+* [[Creature weapon]]s are never targeted (nor would the addition of keen be effective if they were targeted).
+
+== Custom content notes ==
+*''script:'' <code>X2_S0_KeenEdge</code>

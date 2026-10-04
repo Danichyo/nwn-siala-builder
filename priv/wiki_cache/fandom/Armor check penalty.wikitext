@@ -1,0 +1,34 @@
+An '''armor check penalty''' applies to most [[dexterity]]-based [[skill]]s when a character wears [[armor]] heavier than leather, and it applies to [[hide]], [[move silently]], [[parry]], [[pick pocket]], [[set trap]], and [[tumble]]. The only dexterity-based skills not on this list are [[open lock]] and [[ride]], to which neither the maximum dexterity bonus nor the armor check penalty apply.
+
+If a character is wearing armor and using a [[shield]], both armor check penalties apply.
+
+{| class="centertable" style="text-align:center"
+|-
+!style="text-align:left"|Type of armor or shield !! Base AC !! Armor check<br />penalty
+|-
+|style="text-align:left"|none, [[clothing]]||0||none
+|-
+|style="text-align:left"|[[padded armor]]||1||none
+|-
+|style="text-align:left"|[[leather armor]]||2||none
+|-
+|style="text-align:left"|[[studded leather armor]], [[hide armor]]||3|| -1
+|-
+|style="text-align:left"|[[chain shirt]], [[scale mail]]||4|| -2
+|-
+|style="text-align:left"|[[chainmail]], [[breastplate]]||5|| -5
+|-
+|style="text-align:left"|[[splint mail]], [[banded mail]]||6|| -7
+|-
+|style="text-align:left"|[[half plate]]||7|| -7
+|-
+|style="text-align:left"|[[full plate]]||8|| -8
+|-
+|style="text-align:left"|[[small shield]]||1|| -1
+|-
+|style="text-align:left"|[[large shield]]||2|| -2
+|-
+|style="text-align:left"|[[tower shield]]||3|| -10
+|}
+[[Category:Skills| Armor check penalty]]
+[[Category:Game rules]]

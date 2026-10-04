@@ -1,0 +1,41 @@
+{{spell
+|icon=is_magmiss.gif
+|magelevel=1
+|innatelevel=1
+|school=[[evocation]]
+|immunity=force
+|components=VS
+|range=l
+|area=single 
+|save=none
+|spellresistance=yes
+|duration=instant
+|line=Missiles
+|line1=magic missile
+|line4=Isaac's lesser missile storm
+|line6=Isaac's greater missile storm
+|desc=The caster creates a shimmering projectile of magical force that unerringly slams into a single selected target. After level 1, the spell creates 1 additional missile every two [[caster level]]s, to a maximum of 5 missiles at level 9. Magic missiles do 1[[d4]]+1 points of [[magical damage|damage]] each.}}
+{|class="wikitable" style="text-align:center"
+!caster level!!missiles
+|-
+|1||1
+|-
+|3||2
+|-
+|5||3
+|-
+|7||4
+|-
+|9||5
+|}
+
+== Notes ==
+
+* This spell can be blocked by the [[shield (spell)|shield]] spell.
+
+== Custom content notes ==
+* ''script:'' <code>NW_S0_MagMiss</code>
+==External links==
+* {{FRW}}
+* {{NWN2W|Magic Missile}}
+[[Category:Shifted abilities]]

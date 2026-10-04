@@ -1,0 +1,5 @@
+'''Harper mage''' is a [[prestige class]] added by the [[Player Resource Consortium]].
+
+{{stub}}
+
+[[Category:PRC classes]]

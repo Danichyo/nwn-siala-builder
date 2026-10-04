@@ -1,0 +1,488 @@
+The [[Grimoire]] adds a number of new and changed spells to ''Neverwinter Nights''.
+In order not to violate any copyrights, the descriptions for the following [[spell]]s only include publicly available information from the [[Wizards of the Coast]] web site, either through articles they have published, downloadable .pdf web enhancements to sourcebooks, or the [[SRD]].  To otherwise read a spell's description, please refer to the referenced source, or view the ingame description.
+
+*Classes in parenthesis do not currently receive spells in game.  They may be added as abilities if possible.  Also, this list is updated for version 3.0 of the Grimoire, which is not yet available for download.
+
+Listing of abbreviations for the [[Grimoire sources|sources used]].
+
+{| border= "1" style="background:#ffebcd; "
+|Name||Levels||Source
+|-
+|Acid Spittle||Sor/Wiz 1||SSRRI
+|-
+|Acid Storm||Sor/Wiz 6||MoF
+|-
+|Aganazzar's scorcher (Scorch)||Sor/Wiz 2||SpC
+|-
+|Aid, Mass||Clr 3||SpC
+|-
+|[[Alarm]]||Brd 1,Rgr 1,Sor/Wiz 1||PHB
+|-
+|Alarm, Greater||Brd 2, Sor/Wiz 2||SpC
+|-
+|[[Animal growth]]||Drd 5,Sor/Wiz 5||MoF
+|-
+|[[Animal shapes]]||Animal 7,Drd 8||PHB
+|-
+|[[Antilife shell]]||Animal 6,Clr 6,Drd 6||PHB
+|-
+|Appraising Touch||Brd 1, Sor/Wiz 1||SpC
+|-
+|[[Arcane bolt]]||Sor/Wiz 1||[http://www.wizards.com/dnd/article.asp?x=dnd/sb/sb20001001a WotC]
+|-
+|Armor of darkness||Darkness 4||SpC
+|-
+|Armor of undeath||Sor/Wiz 3||SSRRI
+|-
+|Aspect of the Earth Hunter||Drd 6, Rgr 4||SpC
+|-
+|Aspect of the Wolf||Drd 1, Rgr 1||SpC
+|-
+|Augment Familiar||Sor/Wiz 2||SpC
+|-
+|Aura against Flame||Clr 2, Drd 1||SpC
+|-
+|Babau Slime||Drd 1, Sor/Wiz 1||SpC
+|-
+|Baleful Transposition||Sor/Wiz 2||SpC & PRC
+|-
+|Banish shadow||Clr 3||SSRRI
+|-
+|Battlecry||Brd 2,Sor/Wiz 2||SSRRI
+|-
+|Bear's Endurance, Mass||Clr 6, Drd 6, Sor/Wiz 6||PHB
+|-
+|Beastland Ferocity||Brd 1, Drd 1||SpC
+|-
+|Benign Transposition||Sor/Wiz 1||SpC & PRC
+|-
+|Bestow Curse, Greater||Clr 7, Sor/Wiz 8||SpC
+|-
+|Blackflame||Sor/Wiz 8||SSRRI
+|-
+|Blacklight||Darkness 3, Sor/Wiz 3||SpC
+|-
+|Blades of Fire||Rgr 1, Sor/Wiz 1||SpC
+|-
+|[[Blasphemy]]||Clr 7,Evil 7||PHB
+|-
+|Blast of Flame||Sor/Wiz 4||SpC
+|-
+|Bless Weapon, Swift||Pal 1||SpC
+|-
+|Blessed warmth||Clr 4||ToM
+|-
+|Blindsight||Clr 3, Drd 3||SpC
+|-
+|Blindsight, Greater||Clr 4, Drd 4||SpC
+|-
+|Blood storm||Sor/Wiz 3||SSRRI
+|-
+|Breath of the jungle||Drd 1||SpC
+|-
+|[[Blur]]||Brd 2,Sor/Wiz 2||PHB
+|-
+|Bull's Strength, Mass||Clr 6, Drd 6, Sor/Wiz 6||PHB
+|-
+|Call Lightning Storm||Drd 5||PHB
+|-
+|Calm Animals||Animal 1, Drd 1, Rgr 1||PHB
+|-
+|[[Calm emotions]]||Clr 2, Law 2||PHB
+|-
+|Cast in stone||Drd 9||SpC
+|-
+|Cat's Grace, Mass||Brd 6, Drd 6, Sor/Wiz 6||PHB
+|-
+|[[Cause fear]]||Brd 1, Clr 1, Sor/Wiz 1||PHB
+|-
+|Chameleon skin||Sor/Wiz 1||SSRRI
+|-
+|[[Chaos hammer]]||Chaos 4||PHB
+|-
+|Charm Animal||Drd 1, Rgr 1||PHB
+|-
+|Charm Person, Mass||Brd 4, Sor/Wiz 5||RoD
+|-
+|[[Chill touch]]||Sor/Wiz 1||PHB
+|-
+|Chromatic orb||Sor/Wiz 1||CWH
+|-
+|Cloak of righteousness||Clr 4,Pal 4||SSRRI
+|-
+|Command||Clr 1, Tyranny 1||PHB
+|-
+|Command, Greater||Clr 5, Tyranny 5||PHB
+|-
+|Command Undead||Sor/Wiz 2||PHB
+|-
+|Companion's strife||Brd 4,Clr 5,Sor/Wiz 4||SSRRI
+|-
+|[[Comprehend languages]]||Clr 1,Sor/Wiz 1||PHB
+|-
+|Condemned||Clr 4||SSRRI
+|-
+|Confusion, lesser||Brd 1||PHB
+|-
+|[[Consecrate]]||Clr 2||PHB
+|-
+|Contagion, Mass||Clr 5, Drd 5, Sor/Wiz 6||SpC
+|-
+|Conviction||Clr 1||SpC
+|-
+|Conviction, Mass||Clr 3||SpC
+|-
+|Corpse visage||Sor/Wiz 1||CWH
+|-
+|Crushing Despair||Brd 3, Sor/Wiz 4||PHB
+|-
+|Curse of ill fortune||(Blk 2), Clr 2||SpC
+|-
+|Curse of ill fortune, mass||Clr 5||SpC
+|-
+|Curse of impending blades||Brd 2, Rgr 2, Sor/Wiz 2||SpC
+|-
+|Curse of impending blades, mass||Brd 3, Rgr 3, Sor/Wiz 3||SpC
+|-
+|Darkbolt||Darkness 5||SpC
+|-
+|Darkvision, Mass||Sor/Wiz 4||SpC
+|-
+|Dar'Tan's shadow bolt||Sor/Wiz 3||SSRRI
+|-
+|Daylight||Brd 3, Clr 3, Drd 3, Pal 3, Sor/Wiz 3||PHB
+|-
+|Daze Monster||Brd 2, Sor/Wiz 2||PHB
+|-
+|Death touch||[[Grimoire death|Death Domain Power]]||PHB
+|-
+|Death ward, mass||Clr 8, Drd 9||SpC
+|-
+|Deep Slumber||(Asn 3), Brd 3, Sor/Wiz 3||PHB
+|-
+|Deeper Darkness||(Asn 3), (Blk 3), Clr 3||PHB
+|-
+|[[Desecrate]]||Clr 2, Evil 2||PHB
+|-
+|Destruction domain smite||[[Grimoire destruction|Destruction Domain Power]]||PHB
+|-
+|[[Dictum]]||Clr 7, Law 7||PHB
+|-
+|Dimension door||Brd 4,Sor/Wiz 4,Travel 4||PHB
+|-
+|Dimensional Anchor||Clr 4, Sor/Wiz 4||PHB
+|-
+|Disintegrate||Destruction 7,Sor/Wiz 6||PHB
+|-
+|Disrupt undead||Sor/Wiz 0||PHB
+|-
+|Disrupt undead, greater||Sor/Wiz 3||SpC
+|-
+|Divine interdiction||Clr 4||SpC
+|-
+|Divine protection||Clr 2, Pal 2||SpC
+|-
+|Dolomar's force wave||Brd 2, Sor/Wiz 2||SSRRI
+|-
+|Drown, Mass||Drd 9||SpC
+|-
+|Eagle's Splendor, Mass||Brd 6, Clr 6, Sor/Wiz 6||PHB
+|-
+|Elemental swarm (Air only)||Air 9||PHB
+|-
+|Elemental swarm (Earth only)||Earth 9||PHB
+|-
+|Elemental swarm (Fire only)||Fire 9||PHB
+|-
+|Elemental swarm (Water only)||Water 9||PHB
+|-
+|Energy immunity||Clr 6,Drd 6,Sor/Wiz 7||SpC
+|-
+|Enhance familiar||Sor/Wiz 3||SpC
+|-
+|[[Enlarge|Enlarge person]]||Sor/Wiz 1, Strength 1||PHB
+|-
+|Enlarge Person, Greater||Sor/Wiz 5||SpC
+|-
+|Enlarge Person, Mass||Sor/Wiz 4||PHB
+|-
+|Ethereal barrier||Clr 2||POS&M
+|-
+|Expeditious Retreat, Swift||Brd 1, Sor/Wiz 1||SpC
+|-
+|Exterminate||Sor/Wiz 1||CNH
+|-
+|Faerie fire||Drd 1||PHB
+|-
+|Faith healing||(Blk 1*), Clr 1,Pal 1||SpC
+|-
+|False life||(Asn 3), Sor/Wiz 2||PHB
+|-
+|Fire aura||Sor/Wiz 4||CWH
+|-
+|Fire Shield, Mass||Sor/Wiz 5||SpC
+|-
+|Fireburst||Sor/Wiz 2||SpC
+|-
+|Fireburst, Greater||Sor/Wiz 5||SpC
+|-
+|Flame bolt||Sor/Wiz 1||SSRRI
+|-
+|Flash||Brd 1,Sor/Wiz 1||SSRRI
+|-
+|Flensing||Sor/Wiz 8||SpC
+|-
+|[[Fog cloud]]||Sor/Wiz 2,Water 2||PHB
+|-
+|Forceward||Clr 3,Pal 3||MoF
+|-
+|Fortify familiar||Sor/Wiz 3||SpC
+|-
+|Fox's Cunning, Mass||Brd 6, Sor/Wiz 6||PHB
+|-
+|Freedom of movement||[[Grimoire travel|Travel Domain Power]]||PHB
+|-
+|Freezing curse||Drd 7,Sor/Wiz 7||SSRRI
+|-
+|Ganest's farstrike||Drd 3,Sor/Wiz 2||SSRRI
+|-
+|Glibness||(Asn 4), Brd 3||PHB
+|-
+|Glitterdust||Brd 2,Sor/Wiz 2||PHB
+|-
+|Glyph of Warding, Greater||Clr 6||PHB
+|-
+|Good Hope||Brd 3, Charm 4||PHB
+|-
+|[[Grimoire halfling|Halfling domain power]]||Domain Power||PHB
+|-
+|Hand of divinity||(Blk 2*),Clr 2,Pal 2||SpC
+|-
+|Haste, Swift||Rgr 2||SpC
+|-
+|Haunting tune||Brd 3||SpC
+|-
+|[[Heal animal companion]]||Drd 5, Rgr 3||SpC
+|-
+|Healing touch||Sor/Wiz 3||SpC
+|-
+|[[Hemorrhage]]||Clr 1||[http://www.wizards.com/default.asp?x=dnd/sb/20030504a WotC]
+|-
+|Herald's call||Brd 1||SpC
+|-
+|Heroism, greater||Brd 5, Sor/Wiz 6||PHB
+|-
+|Hide from animals||Drd 1, Rgr 1||PHB
+|-
+|Hide from undead||Clr 1||PHB
+|-
+|Hold Monster, Mass||Sor/Wiz 9||PHB
+|-
+|Hold Person, Mass||Sor/Wiz 7||PHB
+|-
+|Holy smite||Good 4||PHB
+|-
+|Holy word||Clr 7, Good 7||PHB
+|-
+|Horizikaul's cough||Brd 0,Sor/Wiz 0||MoF
+|-
+|Ice burst||Sor/Wiz 3||T&B
+|-
+|Ice knife||Sor/Wiz 2||T&B
+|-
+|Igedrazaar's miasma||Sor/Wiz 2||MoF
+|-
+|Incapacitate||Clr 9||SSRRI
+|-
+|Invisibility, swift||(Asn 2), Brd 1||SpC
+|-
+|Iron body||Earth 8, Sor/Wiz 8||PHB
+|-
+|Iron bones||Clr 4,Sor/Wiz 4||MoF
+|-
+|Iron mind||Sor/Wiz 3||CWH
+|-
+|Jaws of the wolf||Drd 4||MoF
+|-
+|Larloch's minor drain||Sor/Wiz 1||BG
+|-
+|Leech field||Sor/Wiz 8||SSRRI
+|-
+|Lesser acid orb||Sor/Wiz 1||T&B
+|-
+|Lesser cold orb||Sor/Wiz 1||T&B
+|-
+|Lesser electric orb||Sor/Wiz 1||T&B
+|-
+|Lesser fire orb||Sor/Wiz 1||T&B
+|-
+|Lesser sonic orb||Sor/Wiz 1||T&B
+|-
+|Life bolt||Sor/Wiz 2||MoF
+|-
+|Life force transfer||Clr 3,Pal 4||SSRRI
+|-
+|Loviatar's torments||Clr 3||SSRRI (Chardun's Torments)
+|-
+|Magic stone||Clr 1,Earth 1,Halfling 1||PHB
+|-
+|Malison, greater||Sor/Wiz 4||ToM
+|-
+|Mass cure critical wounds||Clr 8, Drd 9||SRD
+|-
+|Mass cure light wounds||Brd 5, Clr 5, Drd 6||SRD
+|-
+|Mass cure moderate wounds||Brd 6, Clr 6, Drd 7||SRD
+|-
+|Mass cure serious wounds||Clr 7, Drd 8||SRD
+|-
+|Mass fox's cunning||Brd 6, Sor/Wiz 6||SRD
+|-
+|Mass owl's wisdom||Clr 6, Drd 6, Sor/Wiz 6||SpC
+|-
+|Mass resist elements||Clr 3,Drd 3,Sor/Wiz 4||T&B
+|-
+|Minor malison||Sor/Wiz 3||ToM
+|-
+|Minor shadow conjuration||Sor/Wiz 2||SSRRI
+|-
+|Minor shadow evocation||Sor/Wiz 3||SSRRI
+|-
+|Minor spell turning||Sor/Wiz 4||ToM
+|-
+|[[Mordenkainen's force missiles]]||Sor/Wiz 4||[http://www.wizards.com/dnd/article.asp?x=dnd/sb/sb20020809a WotC]
+|-
+|Mordenkainen's magnificent mansion||Sor/Wiz 7||PHB & PRC
+|-
+|Nature's balance||Drd 4||MoF
+|-
+|Negative energy wave||Sor/Wiz 4||T&B
+|-
+|Nybor's gentle reminder||Sor/Wiz 1||MoF
+|-
+|Nybor's mild admonishment||Sor/Wiz 3||MoF
+|-
+|Nybor's stern reproof||Sor/Wiz 7||MoF
+|-
+|Nybor's wrathful castigation||Sor/Wiz 8||MoF
+|-
+|[[Acid orb|Orb of acid]]||Sor/Wiz 4||SpC
+|-
+|[[Cold orb|Orb of cold]]||Sor/Wiz 4||SpC
+|-
+|Orb of electricity||Sor/Wiz 4||SpC
+|-
+|Orb of fire||Sor/Wiz 4||SpC
+|-
+|Orc domain smite||[[Grimoire orc|orc domain power]]||FRCS
+|-
+|Order's wrath||Law 4||PHB
+|-
+|Pain touch||Sor/Wiz 3||CWH
+|-
+|Power word, thunder||Drd 6,Sor/Wiz 6||SSRRI
+|-
+|Power word, blind||Sor/Wiz 8,Darkness 8,Slime 8,War 8||PHB
+|-
+|Protection from cantrips||Sor/Wiz 2||ToM
+|-
+|Protection from paralysis||Sor/Wiz 2||ToM
+|-
+|Protection from thirst & hunger||Sor/Wiz 1||CWH
+|-
+|Purifying flames||Sor/Wiz 4||SSRRI
+|-
+|Rabbit feet||Brd 1,Drd 1,Rgr 1,Sor/Wiz 1||SSRRI
+|-
+|[[Recitation]]||Clr 4||[http://www.wizards.com/dnd/article.asp?x=dnd/sb/sb20021103a WotC]
+|-
+|Reduce||Sor/Wiz 1||PHB
+|-
+|Repair critical damage||Sor/Wiz 4||T&B
+|-
+|Repair light damage||Sor/Wiz 1||T&B
+|-
+|Repair minor damage||Sor/Wiz 0||T&B
+|-
+|Repair moderate damage||Sor/Wiz 2||T&B
+|-
+|Repair serious damage||Sor/Wiz 3||T&B
+|-
+|Repel vermin||Animal 4,Clr 4,Drd 4||PHB
+|-
+|Revitalize animal||Rgr 1||CRH
+|-
+|Righteous fury||Pal 3||MoF
+|-
+|Righteous might||Clr 5, Hatred 5, Strength 5||PHB
+|-
+|[[Scare (grimoire)|Scare]]||Brd 2,Sor/Wiz 2||PHB 
+|-
+|Seek eternal Rest||Pal 4||MoF
+|-
+|Shadow storm||Sor/Wiz 8||SSRRI
+|-
+|Shocking grasp||Sor/Wiz 1||PHB
+|-
+|Shout||Brd 4, Sor/Wiz 4||PHB
+|-
+|Silverbeard||Pal 1||MoF
+|-
+|[http://www.wizards.com/dnd/article.asp?x=fr/fx20010321d Snilloc's snowball swarm]||Sor/Wiz 2||FRCS
+|-
+|[[Sonic blast]]||Sor/Wiz 3||[http://www.wizards.com/dnd/article.asp?x=dnd/sb/sb20020713a WotC]
+|-
+|Sonic orb||Sor/Wiz 4||T&B
+|-
+|Spell shield||Clr 2||MoF
+|-
+|Spider poison||(Asn 3*), Sor/Wiz 3||MoF
+|-
+|Spirit worm||Sor/Wiz 1||MoF
+|-
+|Splendor of eagles||[[Grimoire charm|Charm Domain Power]]||FRCS
+|-
+|Strategic charge||(Blk 1*), Pal 1||MoF
+|-
+|Strength of stone||Earth 2||POS&M
+|-
+|[[Styptic]]||Clr 0||[http://www.wizards.com/default.asp?x=dnd/sb/20030419a WotC]
+|-
+|Summon creature IX chaos||Chaos 9||PHB
+|-
+|Summon creature IX evil||Evil 9||PHB
+|-
+|Summon creature IX good||Good 9||PHB
+|-
+|Summon creature IX law||Law 9||PHB
+|-
+|Sunscorch||Sun 1||POS&M
+|-
+|Talos' wrath||Air 5,Clr 6,Sor/Wiz 6||SSRRI (Enkili's Lightning Storm)
+|-
+|Thunder staff||Sor/Wiz 4||ToM
+|-
+|Towering oak||Rgr 1||MoF
+|-
+|Undead bane weapon||Pal 3||MoF
+|-
+|Unholy blight||Evil 4||PHB
+|-
+|Wall of greater dispel magic||Clr 8, Sor/Wiz 8||SpC
+|-
+|Wall of ice||Sor/Wiz 4||PHB
+|-
+|Wall of iron||Sor/Wiz 5||PHB
+|-
+|Wall of sound||Brd 3||CBH
+|-
+|Wall of stone||Clr 5,Drd 6,Earth 5,Sor/Wiz 5||PHB
+|-
+|Warp wood||Drd 2||PHB
+|-
+|Water breathing||Clr 3,Drd 3,Sor/Wiz 3,Water 3||PHB
+|-
+|Word of chaos||Chaos 7, Clr 7||PHB
+|}
+
+[[Category:Grimoire spells| Grimoire spells]]

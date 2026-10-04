@@ -1,0 +1,187 @@
+{
+  "_layer": "vanilla",
+  "_hand_written": true,
+  "_note": "Бонусный слот КЛАССА берёт фит с выбором только с ЭТИМИ значениями (задача 4.50). Таблица cls_feat_*.2da перечисляет фит с выбором построчно — строка на значение, — и в бонусный список класса (List 1/2) кладёт не все строки семейства: Тайный лучник — Epic weapon focus, Overwhelming critical и Devastating critical только с луками, Убийца — Epic skill focus только в Hide и Move silently. Fandom говорит то же на страницах классов («Epic bonus feats: … epic weapon focus (longbow, shortbow) …», «epic skill focus (hide, move silently only)»), а парсер страницы класса скобку не читал. Читает Data.Loader.Feats.apply_bonus_slot_values_layer/2: запись кладёт в фит поле bonus_for_only (класс → значения); Rules.FeatSlots.choice_refusals/4 отказывает прочим значениям в бонусном слоте этого класса той же формой, что у исключений bonus_for_except, — {:not_in_class_bonus_slot, класс}. Общий слот запись не трогает: его открывает ALLCLASSESCANUSE 1 строки feat.2da (у трёх оружейных семейств — 40 строк из 41, кроме оружия существ; у Epic skill focus — 24 из 27, а три навыка, которые нельзя качать кросс-классом, ограничены правилом уровня — feat_requirements.json, only_on_class_levels_for_skill). Обратная форма (исключить одно значение) — bonus_for_except, она короче там, где значение одно (siala_41/feats.json, bonus_slot_refusals); 38 оружий исключениями — не форма. Сборка падает на записи без источников-строк cls_feat_*.2da (kind \"2da\", по источнику на значение, все из одной таблицы), не verified, на пустом списке и повторе значения, на повторе пары «фит — класс», на неизвестном ключе; после всех слоёв — на классе вне bonus_for фита, на значении вне домена фита и на значении, которое тот же класс одновременно исключает (bonus_for_except). Строка таблицы в source — ПОЗИЦИЯ (так её читает движок), column/value — FeatIndex этой строки (сверяет provenance_test.exs); у cls_feat_archer.2da и cls_feat_asasin.2da базовой игры метки в файле начинаются с 1 и на единицу больше позиции, поэтому в цитате стоит метка, в row — позиция.",
+  "feats": [
+    {
+      "feat": "epic_weapon_focus",
+      "class": "arcane_archer",
+      "values": ["longbow", "shortbow"],
+      "status": "verified",
+      "quote": "43 FEAT_EPIC_WEAPON_FOCUS_LONGBOW 631 1 -1 0",
+      "source": {
+        "kind": "2da",
+        "table": "cls_feat_archer.2da",
+        "row": 42,
+        "column": "FeatIndex",
+        "value": "631",
+        "build": "89.8193.37-17",
+        "fetched": "2026-10-03",
+        "note": "Из 41 строки семейства Epic Weapon Focus (feat.2da 619–656, 956, 997, 1076; 656 — оружие существ) таблица Тайного лучника перечисляет две — FeatIndex 631 (longbow) и 632 (shortbow), обе List 1 (бонусный список), GrantedOnLevel -1. В row — позиция строки (так её читает движок), метка в файле — в цитате."
+      },
+      "quote_2": "44 FEAT_EPIC_WEAPON_FOCUS_SHORTBOW 632 1 -1 0",
+      "source_2": {
+        "kind": "2da",
+        "table": "cls_feat_archer.2da",
+        "row": 43,
+        "column": "FeatIndex",
+        "value": "632",
+        "build": "89.8193.37-17",
+        "fetched": "2026-10-03"
+      },
+      "quote_3": "'''Epic bonus feats:''' [[blinding speed]], [[devastating critical]] (longbow, shortbow), [[epic prowess]], [[epic reflexes]], [[epic toughness]], [[epic weapon focus]] (longbow, shortbow), [[great dexterity]], [[improved combat casting]], [[overwhelming critical]] (longbow, shortbow)",
+      "source_3": {
+        "wiki": "fandom",
+        "page": "Arcane archer",
+        "revid": 71569,
+        "fetched": "2026-08-01"
+      },
+      "hak": {
+        "note": "Хак Сиалы присылает свою cls_feat_archer.2da, и в ней те же две строки семейства с List 1 (позиции 79 и 80, FeatIndex 631 и 632) — запись доезжает до Сиалы сама, слой Сиалы ничего не пишет.",
+        "source": {
+          "kind": "hak",
+          "table": "cls_feat_archer.2da",
+          "rows": [79, 80],
+          "sha1": "c472d51fc9c9fa08d76b6abc0080b40b26280692",
+          "fetched": "2026-08-27"
+        }
+      },
+      "note": "Находка (a) сверки по значению (`class_bonus_values/arcane_archer/epic_weapon_focus`): у нас бонусный слот Тайного лучника брал Epic weapon focus с любым из 41 оружия — на обоих ruleset'ах."
+    },
+    {
+      "feat": "overwhelming_critical",
+      "class": "arcane_archer",
+      "values": ["longbow", "shortbow"],
+      "status": "verified",
+      "quote": "45 FEAT_EPIC_OVERWHELMING_CRITICAL_LONGBOW 721 1 -1 0",
+      "source": {
+        "kind": "2da",
+        "table": "cls_feat_archer.2da",
+        "row": 44,
+        "column": "FeatIndex",
+        "value": "721",
+        "build": "89.8193.37-17",
+        "fetched": "2026-10-03",
+        "note": "Из 41 строки семейства Overwhelming Critical (feat.2da 709–746, 958, 999, 1078; 746 — оружие существ) таблица Тайного лучника перечисляет две — FeatIndex 721 (longbow) и 722 (shortbow), обе List 1, GrantedOnLevel -1. В row — позиция строки (так её читает движок), метка в файле — в цитате."
+      },
+      "quote_2": "46 FEAT_EPIC_OVERWHELMING_CRITICAL_SHORTBOW 722 1 -1 0",
+      "source_2": {
+        "kind": "2da",
+        "table": "cls_feat_archer.2da",
+        "row": 45,
+        "column": "FeatIndex",
+        "value": "722",
+        "build": "89.8193.37-17",
+        "fetched": "2026-10-03"
+      },
+      "quote_3": "[[overwhelming critical]] (longbow, shortbow)",
+      "source_3": {
+        "wiki": "fandom",
+        "page": "Arcane archer",
+        "revid": 71569,
+        "fetched": "2026-08-01"
+      },
+      "hak": {
+        "note": "Хак: те же две строки с List 1 (позиции 81 и 82, FeatIndex 721 и 722) — доезжает до Сиалы сама.",
+        "source": {
+          "kind": "hak",
+          "table": "cls_feat_archer.2da",
+          "rows": [81, 82],
+          "sha1": "c472d51fc9c9fa08d76b6abc0080b40b26280692",
+          "fetched": "2026-08-27"
+        }
+      },
+      "note": "Находка (a) сверки по значению (`class_bonus_values/arcane_archer/overwhelming_critical`): бонусный слот Тайного лучника брал фит с любым оружием."
+    },
+    {
+      "feat": "devastating_critical",
+      "class": "arcane_archer",
+      "values": ["longbow", "shortbow"],
+      "status": "verified",
+      "quote": "47 FEAT_EPIC_DEVASTATING_CRITICAL_LONGBOW 507 1 -1 0",
+      "source": {
+        "kind": "2da",
+        "table": "cls_feat_archer.2da",
+        "row": 46,
+        "column": "FeatIndex",
+        "value": "507",
+        "build": "89.8193.37-17",
+        "fetched": "2026-10-03",
+        "note": "Из 41 строки семейства Devastating Critical (feat.2da 495–532, 955, 996, 1075; 532 — оружие существ) таблица Тайного лучника перечисляет две — FeatIndex 507 (longbow) и 508 (shortbow), обе List 1, GrantedOnLevel -1. В row — позиция строки (так её читает движок), метка в файле — в цитате."
+      },
+      "quote_2": "48 FEAT_EPIC_DEVASTATING_CRITICAL_SHORTBOW 508 1 -1 0",
+      "source_2": {
+        "kind": "2da",
+        "table": "cls_feat_archer.2da",
+        "row": 47,
+        "column": "FeatIndex",
+        "value": "508",
+        "build": "89.8193.37-17",
+        "fetched": "2026-10-03"
+      },
+      "quote_3": "[[devastating critical]] (longbow, shortbow)",
+      "source_3": {
+        "wiki": "fandom",
+        "page": "Arcane archer",
+        "revid": 71569,
+        "fetched": "2026-08-01"
+      },
+      "hak": {
+        "note": "На Сиале фит выключен (siala_41/feats.json → devastating_critical, disabled), и запись там ничего не решает. Таблица хака к тому же ставит 40 строк семейства (все, кроме оружия существ) с List 1 на GrantedOnLevel 60 — за кап: бонусный слот Тайного лучника у шарда не берёт Devastating critical ни с каким оружием. Ванильная запись доезжает до Сиалы как есть и ни одного отказа там не добавляет — фит отбит раньше слота.",
+        "source": {
+          "kind": "hak",
+          "table": "cls_feat_archer.2da",
+          "rows": [30, 31],
+          "sha1": "c472d51fc9c9fa08d76b6abc0080b40b26280692",
+          "fetched": "2026-08-27"
+        }
+      },
+      "note": "Находка (a) ванильной сверки по значению (`class_bonus_values/arcane_archer/devastating_critical`). У Сиалы сверка этот фит не сравнивает: он выключен."
+    },
+    {
+      "feat": "epic_skill_focus",
+      "class": "assassin",
+      "values": ["hide", "move_silently"],
+      "status": "verified",
+      "quote": "64 FEAT_EPIC_SKILL_FOCUS_HIDE 594 1 -1 0",
+      "source": {
+        "kind": "2da",
+        "table": "cls_feat_asasin.2da",
+        "row": 63,
+        "column": "FeatIndex",
+        "value": "594",
+        "build": "89.8193.37-17",
+        "fetched": "2026-10-03",
+        "note": "Из 27 строк семейства Epic Skill Focus (feat.2da 587–609, 913, 914, 917, 918) таблица Убийцы перечисляет две — FeatIndex 594 (Hide) и 597 (Move Silently), обе List 1, GrantedOnLevel -1. Метки в файле начинаются с 1 — в rows позиции. В row — позиция строки (так её читает движок), метка в файле — в цитате."
+      },
+      "quote_2": "65 FEAT_EPIC_SKILL_FOCUS_MOVESILENTLY 597 1 -1 0",
+      "source_2": {
+        "kind": "2da",
+        "table": "cls_feat_asasin.2da",
+        "row": 64,
+        "column": "FeatIndex",
+        "value": "597",
+        "build": "89.8193.37-17",
+        "fetched": "2026-10-03"
+      },
+      "quote_3": "'''Epic bonus feats:''' [[epic reflexes]], [[epic skill focus]] ([[hide]], [[move silently]] only), [[great dexterity]], [[improved combat casting]], [[improved sneak attack]], [[self concealment]], [[superior initiative]]",
+      "source_3": {
+        "wiki": "fandom",
+        "page": "Assassin",
+        "revid": 71570,
+        "fetched": "2026-08-01"
+      },
+      "hak": {
+        "note": "Хак присылает свою cls_feat_asasin.2da с теми же двумя строками семейства (позиции 100 и 101, FeatIndex 594 и 597, List 1); новые строки шарда Epic skill focus (Верховая езда 2020, Алхимия 2022) таблица Убийцы не перечисляет. Доезжает до Сиалы сама.",
+        "source": {
+          "kind": "hak",
+          "table": "cls_feat_asasin.2da",
+          "rows": [100, 101],
+          "sha1": "f4afa2a225f02ffbf52db16b3c820ba43f3a6139",
+          "fetched": "2026-08-27"
+        }
+      },
+      "note": "Находка (a) сверки по значению (`class_bonus_values/assassin/epic_skill_focus`): бонусный слот Убийцы брал Epic skill focus в любом навыке. ⚠️ Три навыка из отбитых — Animal empathy, Perform, Use magic device — на уровне Убийцы отбивает ещё и правило уровня (`feat_requirements.json` → epic_skill_focus, only_on_class_levels_for_skill): у такой пары в бонусном слоте две причины, и обе верны — одна про уровень, другая про слот."
+    }
+  ]
+}

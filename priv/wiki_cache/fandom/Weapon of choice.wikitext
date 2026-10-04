@@ -1,0 +1,15 @@
+{{feat
+|type=class
+|prereq=[[weapon focus]] (chosen weapon)
+|desc=The weapon chosen to be a '''weapon of choice''' by a [[weapon master]] becomes the focus for all of their special abilities.
+|use=automatic
+|icon=ife_x2wpch.gif
+|class=weapon master
+|bonus1=weapon master
+}}
+
+==Notes==
+* This feat has no direct effect on game play. Rather, it designates which weapon types benefit from the other weapon master feats.
+*It is possible for an [[epic class|epic]] weapon master to take additional weapons of choice as class [[epic bonus feat]]s (provided the weapon focus prerequisites are met).
+* If an [[epic character]] takes weapon master level 1, alternatives to ''weapon of choice'' are available (the epic bonus feat choices). However, without this feat, the other weapon master feats do not apply to any weapon types. Since the second opportunity to get ''weapon of choice'' is at weapon master level 13, choosing one of the alternatives is generally a bad idea (unless a single weapon master level is being taken for the bonus feat).
+* This feat is only available for [[melee]] weapons.  The feat, however, excludes [[unarmed strike]], [[lance]], [[magic staff]], and [[creature weapon]] as viable options.

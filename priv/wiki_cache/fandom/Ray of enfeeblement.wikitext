@@ -1,0 +1,46 @@
+{{spell
+|icon=is_rayenfeeb.gif
+|magelevel=1
+|innatelevel=1
+|school=[[necromancy]]
+|immunity=<s>death</s> ''negative''
+|components=S
+|range=s
+|area=single
+|save=[[fortitude]] negates
+|spellresistance=yes
+|duration=1 [[round]] / level
+|counters=<del>[[bull's strength]]</del>
+|desc=The target creature takes 1[[d6]] [[strength]] [[ability score loss|damage]], plus 1 per 2 caster levels, to a maximum of 11 damage.}}
+{|class="wikitable" style="text-align:center"
+!caster level
+!strength damage
+|-
+|1
+|1d6 + 1
+|-
+|4
+|1d6 + 2
+|-
+|6
+|1d6 + 3
+|-
+|8
+|1d6 + 4
+|-
+|10+
+|1d6 + 5
+|}
+
+== Notes ==
+
+* This spell's in-game description would be more precise if "maximum of 11 damage" was changed to "maximum of +5". Caster levels above 10 do not contribute to the damage calculation, and the damage can be increased above 11 with [[empower spell]].
+* Contrary to the in-game descriptor, the save is made versus "negative" and protection from [[death magic]] has no impact on this spell.
+* Due to a .2da bug, ''bull's strength'' is not an additional [[counterspell]] of this spell.
+
+== Previous versions ==
+
+* Prior to [[patch]] 1.64, this spell's duration was capped at 10 rounds.
+
+==Custom content notes==
+*''script:'' <code>NW_S0_rayEnfeeb</code>

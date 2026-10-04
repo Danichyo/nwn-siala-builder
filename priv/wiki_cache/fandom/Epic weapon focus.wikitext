@@ -1,0 +1,72 @@
+{| border=0 cellspacing=2
+|-
+|[[Image:Ife x2wfbswd.gif|right|Epic weapon focus (bastard sword)]]
+|[[Image:Ife x2wfbaxe.gif|right|Epic weapon focus (battleaxe)]]
+|[[Image:Ife x2wfclub.gif|right|Epic weapon focus (club)]]
+|[[Image:Ife x2wfcrea.gif|right|Epic weapon focus (creature weapon)]]
+|[[Image:Ife x2wfdagg.gif|right|Epic weapon focus (dagger)]]
+|[[Image:Ife x2wfdart.gif|right|Epic weapon focus (dart)]]
+|[[Image:Ife x2wfdmac.gif|right|Epic weapon focus (dire mace)]]
+|[[Image:Ife x2wfdaxe.gif|right|Epic weapon focus (double axe)]]
+|[[Image:Ife x2ewfdwax.gif|right|Epic weapon focus (dwarven waraxe)]]
+|-
+|[[Image:Ife x2wfgaxe.gif|right|Epic weapon focus (greataxe)]]
+|[[Image:Ife x2wfgswd.gif|right|Epic weapon focus (greatsword)]]
+|[[Image:Ife x2wfhalb.gif|right|Epic weapon focus (halberd)]]
+|[[Image:Ife x2wfhaxe.gif|right|Epic weapon focus (handaxe)]]
+|[[Image:Ife x2wfhxb.gif|right|Epic weapon focus (heavy crossbow)]]
+|[[Image:Ife x2wfhfla.gif|right|Epic weapon focus (heavy flail)]]
+|[[Image:Ife x2wfkama.gif|right|Epic weapon focus (kama)]]
+|[[Image:Ife x2wfkatn.gif|right|Epic weapon focus (katana)]]
+|[[Image:Ife x2wfkukr.gif|right|Epic weapon focus (kukri)]]
+|-
+|[[Image:Ife x2wflxb.gif|right|Epic weapon focus (light crossbow)]]
+|[[Image:Ife x2wflfla.gif|right|Epic weapon focus (light flail)]]
+|[[Image:Ife x2wflham.gif|right|Epic weapon focus (light hammer)]]
+|[[Image:Ife x2wflbow.gif|right|Epic weapon focus (longbow)]]
+|[[Image:Ife x2wflswd.gif|right|Epic weapon focus (longsword)]]
+|[[Image:Ife x2wfmace.gif|right|Epic weapon focus (mace)]]
+|[[Image:Ife x2wfmsta.gif|right|Epic weapon focus (morningstar)]]
+|[[Image:Ife x2wfqsta.gif|right|Epic weapon focus (quarterstaff)]]
+|[[Image:Ife x2wfrapr.gif|right|Epic weapon focus (rapier)]]
+|-
+|[[Image:Ife x2wfscim.gif|right|Epic weapon focus (scimitar)]]
+|[[Image:Ife x2wfscyt.gif|right|Epic weapon focus (scythe)]]
+|[[Image:Ife x2wfsbow.gif|right|Epic weapon focus (shortbow)]]
+|[[Image:Ife x2wfsswd.gif|right|Epic weapon focus (shortsword)]]
+|[[Image:Ife x2wfshur.gif|right|Epic weapon focus (shuriken)]]
+|[[Image:Ife x2wfskle.gif|right|Epic weapon focus (sickle)]]
+|[[Image:Ife x2wfslng.gif|right|Epic weapon focus (sling)]]
+|[[Image:Ife x2wfspr.gif|right|Epic weapon focus (spear)]]
+|[[Image:Ife x2wftaxe.gif|right|Epic weapon focus (throwing axe)]]
+|-
+|[[Image:Ife x2ewftri.gif|right|Epic weapon focus (trident)]]
+|[[Image:Ife x2wftswd.gif|right|Epic weapon focus (two-bladed sword)]]
+|[[Image:Ife x2wfunar.gif|right|Epic weapon focus (unarmed strike)]]
+|[[Image:Ife x2wfwham.gif|right|Epic weapon focus (warhammer)]]
+|[[Image:Ife x2ewfwhip.gif|right|Epic weapon focus (whip)]]
+|}
+{{feat
+|epic=yes
+|type=combat
+|prereq=21st level, [[weapon focus]] with the chosen weapon
+|reqfor=[[epic weapon specialization]]
+|desc=The character gains a +2 bonus to all [[attack roll]]s with the chosen weapon.
+|use=automatic
+|bonus1=arcane archer
+|bonus2=barbarian
+|bonus3=blackguard
+|bonus4=champion of Torm
+|bonus5=dwarven defender
+|bonus6=fighter
+|bonus7=paladin
+|bonus8=ranger
+|bonus9=weapon master
+}}
+
+==Notes==
+*Requires [[Hordes of the Underdark]].
+*[[Stack]]s with [[weapon focus]].
+
+===Previous versions===
+*Prior to version 1.69, ''epic weapon focus'' in the [[club]] had [[improved critical]] as the prerequisite instead of ''weapon focus''.

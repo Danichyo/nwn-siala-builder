@@ -1,0 +1,41 @@
+{{spell
+|icon=is_prspells.gif
+|magelevel=7
+|innatelevel=7
+|school=[[enchantment]]
+|components=VS
+|range=p
+|area=<s>large</s> medium
+|areanote=, 1 creature / 4 levels
+|save=harmless
+|spellresistance=no
+|duration=1 [[turn]] / level
+|desc=Within the [[area of effect]], up to one ally per 4 caster levels receives a +8 bonus on all [[saving throw]]s against [[spell]]s.}}
+
+{|class="wikitable" style="text-align:center"
+!caster level!!allies per cast
+|-
+|13||3
+|-
+|16||4
+|-
+|20||5
+|-
+|24||6
+|-
+|28||7
+|-
+|32||8
+|-
+|36||9
+|-
+|40||10
+|}
+
+== Notes ==
+
+* There is an inconsistent resref/TAG naming anomaly as a spell scroll. ResRef and TAG naming use 8, but wizard/sorcerer spell level is 7.
+
+==Custom content notes==
+*''script:'' <code>NW_S0_PrSpells.nss</code>
+*''ResRef:'' nw_it_sparscr'''8'''02; ''TAG:'' NW_IT_SPARSCR'''8'''02.

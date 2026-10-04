@@ -1,0 +1,23 @@
+{{spell
+|icon=is_clairadvo.gif
+|bardlevel=3
+|magelevel=3
+|domain=knowledge
+|domainlevel=3
+|innatelevel=3
+|school=[[divination]]
+|components=VS
+|range=p
+|area=single
+|conesize=
+|save=harmless
+|spellresistance=no
+|duration=1 [[round]] / level
+|counters=<del>[[blindness/deafness]]</del>
+|desc=For the duration of the spell, the target creature gains a +10 bonus to all [[listen]] and [[spot]] checks.}}
+
+==Notes==
+*Due to a .2da bug, ''clairaudience/clairvoyance'' is not an additional [[counterspell]] of ''blindness/deafness''.
+
+==Custom content notes==
+*''Script:'' <code>NW_S0_ClairAdVo.nss</code>

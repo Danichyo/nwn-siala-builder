@@ -1,0 +1,80 @@
+[[Image:Isk lore.gif|right|Lore]]
+'''Lore''' allows a character to identify unknown magic items.
+*'''Ability:''' [[intelligence]]
+
+*'''Classes:''' all
+
+*'''[[untrained skill check|Requires training]]:''' no
+
+*'''Check:''' A roll against an unidentified item's value to determine magical properties that the item may possess.
+
+*'''Special:''' [[Bard]]s are able to identify items easier than other classes. Various spells and items can also give a character a bonus to their lore skill.
+
+*'''Use:''' Automatic every time the player inspects an item.
+
+== Notes ==
+
+* The bonus bards receive is equal to their [[class level]], acquired with the [[bardic knowledge]] feat. [[Harper scout]]s also receive a bonus equal to class level from the same feat.
+*Instead of a roll, the following table is used (defined via <code>[[skillvsitemcost.2da]]</code>).
+{| class="wikitable" style="text-align:center"
+|+ Maximum item value by lore skill
+  !Lore skill!!Item value
+  |style="background-color:inherit" rowspan=15|&nbsp;
+  !Lore skill!!Item value
+  |style="background-color:inherit" rowspan=15|&nbsp;
+  !Lore skill!!Item value
+  |style="background-color:inherit" rowspan=15|&nbsp;
+  !Lore skill!!Item value
+|- 
+  |0||5        ||14||9,500    ||28||350,000   ||42||1,700,000
+|-
+  |1||10       ||15||13,000   ||29||400,000   ||43||1,800,000
+|- 
+  |2||50       ||16||17,000   ||30||500,000   ||44||1,900,000
+|-
+  |3||100      ||17||20,000   ||31||600,000   ||45||2,000,000   
+|- 
+  |4||150      ||18||30,000   ||32||700,000   ||46||2,100,000
+|-
+  |5||200      ||19||40,000   ||33||800,000   ||47||2,200,000
+|- 
+  |6||300      ||20||50,000   ||34||900,000   ||48||2,300,000
+|-
+  |7||400      ||21||60,000   ||35||1,000,000 ||49||2,400,000
+|- 
+  |8||500      ||22||80,000   ||36||1,100,000 ||50||2,500,000
+|-
+  |9||1,000    ||23||100,000  ||37||1,200,000 ||51||3,000,000
+|- 
+  |10||2,500   ||24||150,000  ||38||1,300,000 ||52||5,000,000
+|-
+  |11||3,750   ||25||200,000  ||39||1,400,000 ||53||6,000,000
+|- 
+  |12||4,800   ||26||250,000  ||40||1,500,000 ||54||9,000,000
+|-
+  |13||6,500   ||27||300,000  ||41||1,600,000 ||55||12,000,000
+|}
+
+* The [[Hordes of the Underdark]] expansion is required for the lore skill to identify items worth over 2,400,000 gold (lore 49).
+* As a general guideline, the lore skills required to identify [[melee]] [[weapon]]s with a certain [[enhancement bonus]] (and no other properties) are listed in the following table.
+{| class="wikitable" style="text-align:center"
+|+ Minimum lore skill by weapon enhancement
+  ! Weapon bonus !! Required lore
+  |style="background-color:inherit" rowspan=6|&nbsp;
+  ! Weapon bonus !! Required lore
+  |style="background-color:inherit" rowspan=6|&nbsp;
+  ! Weapon bonus !! Required lore
+  |style="background-color:inherit" rowspan=6|&nbsp;
+  ! Weapon bonus !! Required lore
+|-
+  | +1 || 10      || +6  || 24   || +11 || 44   || +16 || 52
+|- 
+  | +2 || 14      || +7  || 26   || +12 || 49   || +17 || 53
+|-
+  | +3 || 16-17   || +8  || 29   || +13 || 51   || +18 || 53
+|- 
+  | +4 || 19      || +9  || 31   || +14 || 52   || +19 || 54
+|-
+  | +5 || 20      || +10 || 39   || +15 || 52   || +20 || 54
+|}
+[[Category:Skills]]

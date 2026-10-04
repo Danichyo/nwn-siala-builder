@@ -1,0 +1,12 @@
+{{feat
+|type=class
+|prereq=[[pale master]] 1
+|desc=The pale master gains an innate +2 bonus to their [[armor class|AC]] at 1st, 4th, 8th, 12th, 16th, 20th, 24th, and 28th [[class level]]s.
+|use=automatic
+|icon=ife_x2bonesk1.gif
+|class1=pale master
+}}
+
+== Notes ==
+* Requires [[Hordes of the Underdark]].
+* The AC gained from this feat is one of the "[[armor class#Other sources of AC|other]]" sources of AC, which [[stack]]s with all AC bonuses without a cap.

@@ -1,0 +1,18 @@
+{{Weapon|imagefile=Sickle.jpg
+  |weaponname=Sickle
+  |weapondescription=The '''sickle''' is a farming implement used for cutting grass and grains. Like many other such tools, it was adapted for use as a weapon by the peasants familiar with it in their daily toils.
+  |weight=3
+  |cost=6
+  |damage=1d6
+  |critical=x2
+  |damagetype=[[slashing damage|Slashing]]
+  |size=Small
+  |proficiency=[[Weapon proficiency (druid)|Druid]]<br/>&nbsp;[[Weapon proficiency (simple)|Simple]]
+  |category=[[Category:Simple weapons]][[Category:Bladed weapons]]
+}}
+
+==Toolset==
+* Sickles are listed under the [[exotic blueprint category]] of the [[item palette]] in the [[toolset]], despite being a simple weapon.
+
+==Notes==
+* Sickles benefit from the [[weapon finesse]] [[feat]].

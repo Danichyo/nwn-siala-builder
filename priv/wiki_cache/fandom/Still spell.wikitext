@@ -1,0 +1,34 @@
+[[Image:Ife still.gif|right|Still spell]]
+[[Image:Gui_still.png|right|Stilled indicator]]
+{{feat
+|type=metamagic
+|prereq=ability to cast first-level spells
+|reqfor=[[automatic still spell]]
+|desc=Still spells are cast without a somatic [[component]]. Any [[spell failure|penalties]] incurred from casting in armor do not apply to a spell prepared with this feat.
+|use=A stilled spell occupies a [[spell slot]] one level higher than normal.
+|bonus1=wizard
+}}
+
+==Notes==
+* The spells that can be stilled are those that have a somatic component. In addition, ''[[knock]]'' can be stilled even though it does not have a somatic component. That leaves the following spells that cannot be used with this feat. (This list excludes level 9 spells, as those cannot be stilled due to the lack of spell slots above level 9.)
+**[[Blindness/deafness]]
+**[[Darkness (spell)|Darkness]]
+**[[Displacement]]
+**[[Flare]]
+**[[Light]]
+**[[Mass charm]]
+**[[Polymorph self]]
+**[[Power word, stun]]
+**[[True strike]]
+
+==Builder notes==
+'''Item feat:''' No, But it can be added with custom content.
+
+==Custom content notes==
+'''Removable:''' yes
+
+'''Reusable:''' yes
+
+'''Script:''' hardcoded
+
+*This feat can be added to [[iprp_feats.2da]] and works as an item feat, but [[wizard]]s and [[divine]] spellcasters will only need to have the item equipped while preparing their [[spellbook]]s, not while [[rest]]ing or casting. [[Spellhook]]ing can be used to verify that the caster has the [[feat]] if it is used as an item feat.

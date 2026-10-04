@@ -1,0 +1,20 @@
+{{Grimoire spell|imagename=Is conund.gif
+|spellname=Control Undead
+|casterlevel=[[Sorcerer]] / [[Wizard (class)|Wizard]] 7, [[Undeath domain (grimoire)|Undeath]] 7
+|innatelevel=7
+|school=[[Necromancy]]
+|descriptors=None
+|components=V, S
+|range=Short
+|immunities=None
+|savingthrow=[[Will]] negates
+|spellresistance=Yes
+|targettype=All [[undead]] creatures in a 15 ft radius
+|duration=1 [[hour]] / level
+|description=You can control a number of undead creatures, up to 2 Hit Dice per caster level.  A successful Will save negates the effect.
+}}
+
+== Notes ==
+*{{Grimoire spell change|pagename=[[Control undead]]}}
+{{g_sorwiz}}
+{{g_undeath}}

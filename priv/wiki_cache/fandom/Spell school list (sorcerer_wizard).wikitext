@@ -1,0 +1,366 @@
+This '''spell school list''' is a quick reference of which [[sorcerer]]/[[wizard]] [[spell]]s fall into which [[spell school]]s, broken down by [[spell level]]. The specialist wizards who are prohibited from each school are also noted.
+
+== Abjuration ==
+
+Abjuration spells can be cast by all wizards.
+
+<u>Level 0</u>
+* [[Resistance]]
+
+<u>Level 1</u> 
+* [[Endure elements]]
+* [[Ironguts]]
+* [[Protection from alignment]]
+* [[Shield (spell)|Shield]]
+
+<u>Level 2</u>
+* [[Lesser dispel]]
+* [[Resist elements]]
+
+<u>Level 3</u>
+* [[Dispel magic]]
+* [[Magic circle against alignment]]
+* [[Protection from elements]]
+
+<u>Level 4</u>
+* [[Lesser spell breach]]
+* [[Minor globe of invulnerability]]
+* [[Remove curse]]
+* [[Stoneskin]]
+
+<u>Level 5</u>
+* [[Dismissal]]
+* [[Energy buffer]]
+* [[Lesser mind blank]]
+* [[Lesser spell mantle]]
+
+<u>Level 6</u>
+* [[Globe of invulnerability]]
+* [[Greater dispelling]]
+* [[Greater spell breach]]
+
+<u>Level 7</u>
+* [[Banishment]]
+* [[Spell mantle]]
+
+<u>Level 8</u>
+* [[Mind blank]]
+
+<u>Level 9</u>
+* [[Greater spell mantle]]
+* [[Mordenkainen's disjunction]]
+
+== Conjuration ==
+
+Conjuration spells are prohibited to abjurers, evokers, and transmuters.
+In multiplayer, it is often useful to be aware that ''[[raise dead]]'' and ''[[resurrection]]'' are conjuration spells, so scrolls of those spells cannot be used by wizards who are prohibited from this school.
+
+<u>Level 0</u>
+* [[Acid splash]]
+* [[Ray of frost]]
+
+<u>Level 1</u>
+* [[Grease]]
+* [[Mage armor]]
+* [[Summon creature I]]
+
+<u>Level 2</u>
+* [[Melf's acid arrow]]
+* [[Summon creature II]]
+* [[Web]]
+
+<u>Level 3</u>
+* [[Flame arrow]]
+* [[Mestil's acid breath]]
+* [[Stinking cloud]]
+* [[Summon creature III]]
+
+<u>Level 4</u>
+* [[Evard's black tentacles]]
+* [[Summon creature IV]]
+* [[Summon shadow (shadow conjuration)]]
+
+<u>Level 5</u>
+* [[Cloudkill]]
+* [[Lesser planar binding]]
+* [[Mestil's acid sheath]]
+* [[Summon creature V]]
+
+<u>Level 6</u>
+* [[Acid fog]]
+* [[Planar binding]]
+* [[Summon creature VI]]
+
+<u>Level 7</u>
+* [[Summon creature VII]]
+
+<u>Level 8</u>
+* [[Greater planar binding]]
+* [[Summon creature VIII]]
+
+<u>Level 9</u>
+* [[Black blade of disaster]]
+* [[Gate]]
+* [[Summon creature IX]]
+
+== Divination ==
+
+Divination spells are prohibited to necromancers.
+
+<u>Level 1</u>
+* [[Identify]]
+* [[True strike]]
+
+<u>Level 2</u>
+* [[See invisibility]]
+
+<u>Level 3</u>
+* [[Clairaudience/clairvoyance]]
+* [[Find traps]]
+
+<u>Level 4</u>
+* [[Remove blindness/deafness]]
+
+<u>Level 5</u>
+* [[Feeblemind]]
+
+<u>Level 6</u>
+* [[Legend lore]]
+* [[True seeing (spell)|True seeing]]
+
+<u>Level 7</u>
+* [[Power word, stun]]
+
+<u>Level 8</u>
+* [[Premonition]]
+
+<u>Level 9</u>
+* [[Power word, kill]]
+
+== Enchantment ==
+
+Enchantment spells are prohibited to illusionists.
+
+<u>Level 0</u>
+* [[Daze]]
+
+<u>Level 1</u>
+* [[Charm person]]
+* [[Sleep (spell)|Sleep]]
+
+<u>Level 2</u>
+* [[Balagarn's iron horn]] (Bug, meant to be transmutation)
+* [[Blindness/deafness]]
+* [[Tasha's hideous laughter]]
+
+<u>Level 3</u>
+* [[Hold person]]
+
+<u>Level 4</u>
+* [[Charm monster]]
+* [[Confusion]]
+
+<u>Level 5</u>
+* [[Dominate person]]
+* [[Hold monster]]
+* [[Mind fog]]
+
+<u>Level 6</u>
+* [[Mass haste]]
+
+<u>Level 7</u>
+* [[Protection from spells]]
+
+<u>Level 8</u>
+* [[Mass charm]]
+
+<u>Level 9</u>
+* [[Dominate monster]]
+
+== Evocation ==
+
+Evocation spells can be cast by all wizards.
+
+<u>Level 0</u>
+* [[Electric jolt]]
+* [[Flare]]
+* [[Light]]
+
+<u>Level 1</u>
+* [[Horizikaul's boom]]
+* [[Ice dagger]]
+* [[Magic missile]]
+* [[Shelgarn's persistent blade]]
+
+<u>Level 2</u>
+* [[Cloud of bewilderment]]
+* [[Combust]]
+* [[Darkness (spell)|Darkness]]
+* [[Flame weapon]]
+* [[Gedlee's electric loop]]
+
+<u>Level 3</u>
+* [[Fireball]]
+* [[Gust of wind]]
+* [[Lightning bolt]]
+* [[Scintillating sphere]]
+
+<u>Level 4</u>
+* [[Elemental shield]]
+* [[Ice storm]]
+* [[Isaac's lesser missile storm]]
+* [[Wall of fire]]
+
+<u>Level 5</u>
+* [[Ball lightning]]
+* [[Bigby's interposing hand]]
+* [[Cone of cold]]
+* [[Firebrand]]
+
+<u>Level 6</u>
+* [[Bigby's forceful hand]]
+* [[Chain lightning]]
+* [[Isaac's greater missile storm]]
+
+<u>Level 7</u>
+* [[Bigby's grasping hand]]
+* [[Delayed blast fireball]]
+* [[Great thunderclap]]
+* [[Prismatic spray]]
+
+<u>Level 8</u>
+* [[Bigby's clenched fist]]
+* [[Incendiary cloud]]
+* [[Sunburst]]
+
+<u>Level 9</u>
+* [[Bigby's crushing hand]]
+* [[Meteor swarm]]
+
+== Illusion ==
+
+Illusion spells are prohibited to diviners and enchanters.
+
+<u>Level 1</u>
+* [[Color spray]]
+
+<u>Level 2</u>
+* [[Continual flame]]
+* [[Ghostly visage]]
+* [[Invisibility (spell)|Invisibility]]
+
+<u>Level 3</u>
+* [[Displacement]]
+* [[Invisibility sphere]]
+
+<u>Level 4</u>
+* [[Improved invisibility]]
+* [[Phantasmal killer]]
+* [[Shadow conjuration]] (uses base school of spell)
+
+<u>Level 5</u>
+* [[Greater shadow conjuration]] (uses base school of spell)
+
+<u>Level 6</u>
+* [[Ethereal visage]]
+* [[Shades]] (uses base school of spell)
+
+<u>Level 7</u>
+* [[Shadow shield]]
+
+<u>Level 8</u>
+* [[Mass blindness/deafness]]
+
+<u>Level 9</u>
+* [[Weird]]
+
+== Necromancy ==
+
+Necromancy spells can be cast by all wizards.
+
+<u>Level 1</u>
+* [[Negative energy ray]]
+* [[Ray of enfeeblement]]
+* [[Scare]]
+
+<u>Level 2</u>
+* [[Death armor]]
+* [[Ghoul touch]]
+
+<u>Level 3</u>
+* [[Clarity]] (Bug, meant to be abjuration)
+* [[Negative energy burst]]
+* [[Vampiric touch]]
+
+<u>Level 4</u>
+* [[Contagion]]
+* [[Enervation]]
+* [[Fear (spell)|Fear]]
+
+<u>Level 5</u>
+* [[Animate dead]]
+
+<u>Level 6</u>
+* [[Circle of death]]
+* [[Undeath to death]]
+
+<u>Level 7</u>
+* [[Control undead]]
+* [[Finger of death]]
+
+<u>Level 8</u>
+* [[Create undead]]
+* [[Horrid wilting]]
+
+<u>Level 9</u>
+* [[Energy drain]]
+* [[Wail of the banshee]]
+
+== Transmutation ==
+
+Transmutation spells are prohibited to conjurers.
+
+<u>Level 1</u>
+* [[Burning hands]]
+* [[Expeditious retreat]]
+* [[Magic weapon]]
+
+<u>Level 2</u>
+* [[Bull's strength]]
+* [[Cat's grace]]
+* [[Eagle's splendor]]
+* [[Endurance]]
+* [[Fox's cunning]]
+* [[Knock]]
+* [[Owl's wisdom]]
+* [[Stone bones]]
+* [[Ultravision]]
+
+<u>Level 3</u>
+* [[Greater magic weapon]]
+* [[Haste (spell)|Haste]]
+* [[Keen edge]]
+* [[Slow (spell)|Slow]]
+
+<u>Level 4</u>
+* [[Bestow curse]]
+* [[Polymorph self]]
+
+<u>Level 6</u>
+* [[Flesh to stone]]
+* [[Greater stoneskin]]
+* [[Stone to flesh]]
+* [[Tenser's transformation]]
+
+<u>Level 7</u>
+* [[Mordenkainen's sword]]
+
+<u>Level 8</u>
+* [[Blackstaff]]
+* [[Greater sanctuary]]
+
+<u>Level 9</u>
+* [[Shapechange]]
+* [[Time stop]]
+[[category:spell schools| Spell school list (sorcerer/wizard)]]
+[[category:sorcerer/wizard spells| Spell school list]]

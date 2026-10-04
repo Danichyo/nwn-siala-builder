@@ -1,0 +1,9 @@
+A '''skill check''' is made when a character applies a [[skill]] to a task. This roll is made with a d20 (20-sided die), plus the [[skill level]] and any modifiers for this specific check. The skill check is successful if it equals or exceeds the [[difficulty class]] (DC) of the task (so high rolls are desired).
+
+The DC can either be a static property of an object, such as a [[trap]], or be determined by the skill check (or other roll) of another character. This latter type of skill check is called an [[opposed check]] (or opposed test, opposed roll, etc.), since the task is being opposed by another character's roll. Miscellaneous modifiers can apply to a particular skill check, such as the bonus provided by using [[thieves' tools]]. This makes the roll calculated as
+ d20 + skill level + miscellaneous modifiers
+or, splitting the skill level into its components,
+ d20 + skill ranks + ability modifier + feat bonuses + skill modifiers + miscellaneous modifiers.
+
+Certain skills allow for a [[take 20]] where a fixed value of 20 is used instead of the d20 roll when the character is not in combat. Naturally, this means skill checks cannot be automatic successes if the die comes up 20 (and conversely, rolling a 1 is not an automatic failure), unlike [[attack roll]]s and [[saving throw]]s.
+[[Category:Skills| Skill check]]

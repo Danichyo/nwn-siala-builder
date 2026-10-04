@@ -1,0 +1,14 @@
+'''Description:''' Clerics who take the Plant domain are able to repel and destroy vermin and have spells that call upon the power of nature to protect and destroy.[[Image:Id plant.gif|right|Plant]]
+== Domain Special Abilities ==
+
+Able to [[Turn undead|turn]] [[vermin]] as if they were [[undead]].
+
+== Bonus Spells ==
+* Level 2 [[Barkskin]]
+* Level 7 [[Creeping doom]]
+
+==Notes==
+*The cleric can turn vermin without penalty as if they were undead.
+*[[Sun domain]] improves the strength of turning.
+
+[[Category:Cleric domains]]

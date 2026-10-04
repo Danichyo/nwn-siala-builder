@@ -1,0 +1,28 @@
+{{otheruses|the spell|the feat|Contagion (feat)}}
+
+{{spell
+|icon=is_contagion.gif
+|clericlevel=3
+|druidlevel=3
+|magelevel=4
+|innatelevel=3
+|school=[[necromancy]]
+|components=VS
+|range=t
+|area=single
+|save=[[fortitude]] negates
+|spellresistance=yes
+|duration=instant
+|counters=<del>[[remove disease]]</del>
+|desc=The target creature is struck down with one of the following debilitating diseases, randomly chosen: [[blinding sickness]], [[cackle fever]], [[mindfire]], [[red ache]], [[shakes]], or [[slimy doom]].}}
+
+== Notes ==
+* In addition to the diseases listed in the description, [[filth fever]] is a possible result of this spell.
+* The [[saving throw]] is for the disease, not for this spell directly. (So the [[difficulty class|DC]] is determined solely by the disease; factors like [[spell focus]] do not apply.)
+* Due to a .2da bug, ''remove disease'' is not an additional [[counterspell]] of this spell.
+
+== Custom content notes ==
+* ''script:'' <code>NW_S0_Contagion</code>
+
+==External Links==
+* {{FRW}}

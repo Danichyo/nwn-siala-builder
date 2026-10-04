@@ -1,0 +1,15 @@
+{{feat
+|type=class
+|prereq=[[monk]] 15
+|desc=This ability may be used once per day to instantly kill an opponent. If the character makes a successful attack after activating the ability, the target must make a [[fortitude]] [[save]] ([[difficulty class|DC]] 10 + half the monk's [[character level]] + the monk's [[wisdom]] [[modifier]]) or die.
+|use=selected. ''Quivering palm'' may only be used on creatures at a lower level than the character. Creatures of the [[construct]] and [[undead]] types are immune to this effect, as are any creatures that are immune to [[critical hit]]s.
+|icon=ife_qpalm.gif
+|class=monk
+}}
+
+== Notes ==
+* The [[pale master]]'s [[deathless mastery]] feat does not provide immunity to ''quivering palm''. ''(This is probably a bug.)''
+* If a ''quivering palm'' attempt does not inflict damage, the attempt will fail.
+==Custom content notes==
+
+'''Script:''' hardcoded

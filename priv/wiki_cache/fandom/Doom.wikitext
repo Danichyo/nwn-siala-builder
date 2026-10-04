@@ -1,0 +1,22 @@
+{{spell
+|icon=is_doom.gif
+|clericlevel=1
+|innatelevel=1
+|school=[[enchantment]]
+|components=VS
+|range=m
+|area=single
+|save=[[will]] negates
+|spellresistance=yes
+|immunity=mind-affecting
+|duration=1 [[turn]] / level
+|counters=<del>[[bless]]</del>
+|desc=The target creature receives a -2 modifier to all [[attack roll]]s, [[magical damage]], [[saving throw]]s, <strike>ability checks</strike> and [[skill check]]s.}}
+
+==Notes==
+* The saving throw is rolled before the spell resistance check. Thus, passing the save can prevent the depletion of [[spell level absorption]] (mantles).
+* Contrary to the description, this spell does not include a penalty to ability scores.
+*Due to a .2da bug, ''doom'' is not an additional [[counterspell]] of ''bless''.
+
+==Custom content notes==
+* ''script:'' <code>NW_S0_Doom</code>

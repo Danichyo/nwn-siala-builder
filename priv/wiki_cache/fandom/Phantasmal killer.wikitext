@@ -1,0 +1,38 @@
+{{spell
+|icon = is_phankill.gif
+|magelevel = 4
+|domain = death
+|domainlevel = 4
+|innatelevel = 4
+|school = [[illusion]]
+|immunity = fear, mind-affecting
+|components = VS
+|range = m
+|area = single
+|duration = instant
+|save = [[will]] and [[fortitude]]
+|spellresistance = yes
+|counters = <del>[[true seeing (spell)|true seeing]]</del>
+|line=Phantoms
+|line4=phantasmal killer
+|line9=weird
+|desc = The caster conjures an image of utmost horror to strike down a single creature. The target may attempt a will [[saving throw|save]] to disbelieve the spell, avoiding all ill effects. Failing that, the target then makes a fortitude save to avoid instant death. A successful save still inflicts 3[[d6]] points of [[magical damage]].
+}}
+
+== Notes ==
+
+* The mind-affecting descriptor applies to the "versus" part of the will saving throw. The fortitude save is "versus death" even though this is not [[death magic]] (immunity to death magic does not apply).
+* Immunity to fear is applied between the will and fortitude saves, with no feedback if this immunity applies.
+*The will and fortitude saves make this spell rather ineffective against fighters and mages, yet it will still work well against rogue characters.
+* Due to a .2da bug, ''true seeing'' is not an additional [[counterspell]] of this spell.
+
+=== Previous versions ===
+
+* Prior to version 1.66, this spell used death immunity instead of fear immunity.
+
+== Custom content notes ==
+
+* ''script:'' <code>NW_S0_PhanKill</code>
+
+==External Links==
+* {{FRW}}

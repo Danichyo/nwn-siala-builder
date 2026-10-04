@@ -1,0 +1,13 @@
+[[Image:Acidbomb.gif|left]]
+This glass flask holds a highly corrosive acid. If thrown, the glass shatters, inflicting 1d6 points of [[acid damage|damage]] to anyone hit by the acid.
+
+==Notes==
+* Introduced in the [[expansion pack]]s.
+* The grenade will not affect friendly creatures nor neutral [[non-player character]]s who are not associates of [[player character]]s (the "standard" hostile targeting scheme).
+* A ranged [[touch attack]] is performed to see if the acid flask hits; damage is doubled on a [[critical hit]].
+* There is additionally "splash damage" of 1 acid damage to each valid target (including the original target) within a {{AoE|huge}} area.
+
+==Custom content notes==
+*''script:'' <code>X0_S3_Acid</code>
+[[Category:Grenade-like weapons]]
+[[Category:Item powers]]

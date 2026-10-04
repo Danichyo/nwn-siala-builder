@@ -1,0 +1,47 @@
+{{spell
+|icon=is_flmarrow.gif
+|magelevel=3
+|innatelevel=3
+|school=[[conjuration]]
+|components=VS
+|range=l
+|area=single
+|save=[[reflex]] 1/2
+|spellresistance=yes
+|immunity=fire
+|duration=instant
+|desc=The caster launches 1 conjured fiery arrow at the target creature for every 4 [[caster level]]s. Each arrow does 4[[d6]] points of [[fire damage]].}}
+{|class="wikitable"
+  !caster level!!arrows per cast
+|-
+  |align=center|5||align=center|1
+|-
+  |align=center|8||align=center|2
+|-
+  |align=center|12||align=center|3
+|-
+  |align=center|16||align=center|4
+|-
+  |align=center|20||align=center|5
+|-
+  |align=center|24||align=center|6
+|-
+  |align=center|28||align=center|7
+|-
+  |align=center|32||align=center|8
+|-
+  |align=center|36||align=center|9
+|-
+  |align=center|40||align=center|10
+|}
+
+== Notes ==
+
+* There is an extra point of damage per arrow in addition to what is stated in the spell's description, except when cast with [[maximize spell]]. (That is, damage is actually 4d6+1 per arrow, but each arrow's damage is only 24 when maximized.)
+* [[Saving throw]]s and spell resistance checks are made for each arrow of this spell.
+* Since spell resistance is applied to each arrow individually, this spell is more effective than most when it comes to using up an opponent's [[spell mantle]]s, as each arrow will reduce that protection by three spell levels. At higher caster levels (16+), this spell can eat more mantle levels with a single casting than any<!-- or is it just most? --> other spell. (This behavior is changed by the set of spell changes<sup>[http://nwvault.ign.com/View.php?view=Scripts.Detail&id=3739]</sup> that has been linked to as a "set of fixes" elsewhere in this wiki, even though there is no reason to believe this behavior is not intended.)
+* When cast by a level 40 mage, this spell just edges out ''[[Isaac's greater missile storm]]'' and ''[[hellball]]'' for the greatest damage (40d6+10) potentially inflicted on a single target by a spell.
+
+== Custom content notes ==
+
+*''script:'' <code>NW_S0_FlmArrow</code>

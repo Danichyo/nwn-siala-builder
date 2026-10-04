@@ -1,0 +1,26 @@
+{{spell
+|icon=is_crpdoom.gif
+|druidlevel=7
+|domain=plant
+|domainlevel=7
+|innatelevel=7
+|school=[[conjuration]]
+|components=VS
+|range=m
+|area=large
+|save=none
+|spellresistance=no
+|duration=1 [[round]] / level
+|desc=The caster summons a mass of biting and stinging insects which causes 1[[d6]] points of [[piercing damage]]. For every subsequent round <s>that a creature remains within the area of effect</s>, the damage inflicted is increased by <s>an increment of</s> 1d6 (i.e. 1d6 for the first round, 2d6 for the second, <s>4d6</s> ''3d6'' for the third, <s>7d6</s> ''4d6'' for the fourth, and so on). The spell deals damage until its duration expires or it deals 1,000 points of damage.}}
+
+== Notes ==
+* The spell description is misleading with its mention of remaining in the area of effect. The number of dice rolled for damage is increased each round regardless of the presence or absence of creatures to which such damage will be applied. Furthermore, the increase is always 1d6, not an increasing increment.
+* The spell also inflicts 1[[d20]] piercing damage to a creature upon entering the insect swarm (which does not count against the damage limit) and applies a 50% [[movement speed]] decrease for as long as the creature remains in the area of effect.
+* A [[spell resistance]] check is erroneously made to avoid (just) the initial damage and speed decrease upon entering the affected area. (A fix for this is available on the Vault<sup>[http://nwvault.ign.com/View.php?view=Scripts.Detail&id=3739]</sup>.)
+
+== Custom content notes ==
+
+*''impact script:'' <code>NW_S0_CrpDoom</code>
+*''OnEnter script:'' <code>NW_S0_CrpDoomA</code>
+*''OnExit script:'' <code>NW_S0_CrpDoomB</code>
+*''OnHearbeat script:'' <code>NW_S0_CrpDoomC</code>

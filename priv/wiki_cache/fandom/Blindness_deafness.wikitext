@@ -1,0 +1,26 @@
+{{spell
+|icon=is_blinddeaf.gif
+|bardlevel=2
+|clericlevel=3
+|magelevel=2
+|innatelevel=2
+|school=[[enchantment]]
+|components=V
+|range=m
+|area=single
+|save=[[fortitude]] negates
+|spellresistance=yes
+|duration=1 [[round]] / level
+|counters=<del>[[remove blindness/deafness]]</del>
+|line=Blindness/deafness
+|line2=blindness/deafness
+|line8=mass blindness/deafness
+|desc=The target creature is struck [[blind]] and [[deaf]].}}
+
+==Notes==
+*Due to a .2da bug, ''blindness/deafness'' is not an additional [[counterspell]] of ''remove blindness/deafness''.
+
+== Custom content notes ==
+* ''script:'' <code>NW_S0_BlindDeaf</code>
+==External links==
+*{{FRW|Blindness or deafness}}

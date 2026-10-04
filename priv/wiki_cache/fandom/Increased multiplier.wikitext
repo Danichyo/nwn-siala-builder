@@ -1,0 +1,12 @@
+{{feat
+|type=class
+|prereq=[[weapon of choice]], [[weapon master]] 5
+|desc=With their weapon of choice, the [[critical multiplier|multiplier]] is increased by x1 to all [[critical hit]]s. Thus a x2 critical multiplier becomes a x3.
+|use=automatic
+|icon=ife_x2incmulti.gif
+|class1=weapon master
+}}
+
+==Notes==
+
+*Requires [[Hordes of the Underdark]].

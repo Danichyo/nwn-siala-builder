@@ -1,0 +1,27 @@
+{{feat
+|type=class
+|prereq=[[arcane archer]] 8
+|desc=In lieu of a regular attack, once per day an arcane archer can fire an arrow at each and every target within range, to a maximum of one target for every arcane archer level he has.
+|use=selected
+|icon=ife_x1hailarr.gif
+|class1=arcane archer
+}}
+
+==Notes==
+
+*Added in the [[expansion pack]]s.
+*Targets are chosen based on distance from the archer, with closer targets given preference.
+*The range of this [[feat]] is the current [[area]], and there are no allowances made for visibility. Using this feat can cause many previously unseen [[creature]]s to come running.
+*Each arrow fired makes a ranged [[touch attack]] to see if it hits (which, as usual for touch attacks, ignores [[zen archery]]).
+*The [[piercing damage]] inflicted by a successful hit is the sum of weapon base damage ([[d6]] for a [[shortbow]] or d8 for a [[longbow]]), [[strength]] [[modifier]], [[weapon specialization]] (if applicable), and [[epic weapon specialization]] (if applicable).
+** This damage is tripled in the case of a [[critical hit]].
+* The damage penetrates [[damage reduction]] according to the arcane archer's [[enchant arrow]] bonus.
+*A successful hit also deals [[magical damage]] equal to the arcane archer's enchant arrow bonus.
+
+===Previous versions===
+
+* Prior to [[patch]] 1.87.8193.35 ([[Neverwinter Nights Enhanced Edition]]), damage reduction was not penetrated, due to a bug in the engine (not the script).
+*Prior to version 1.69, this feat did not account for ''epic weapon specialization''.
+
+==Custom content notes==
+*''impact script:'' <code>X1_S2_HailArrow.nss</code>

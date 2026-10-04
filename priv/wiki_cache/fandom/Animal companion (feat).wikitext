@@ -1,0 +1,35 @@
+{{feat
+|type=class
+|prereq=[[druid]] 1, [[ranger]] 6
+|desc=An [[animal companion]] may be [[summon]]ed once per [[day]], until killed or unsummoned.
+|use=selected
+|icon=Ife_animal.gif
+|class1=druid
+|class2=ranger
+}}
+
+The available animal companions are [[badger (animal companion)|badger]], [[wolf (animal companion)|wolf]], [[brown bear (animal companion)|brown bear]], [[boar (animal companion)|boar]], [[hawk]], [[panther (animal companion)|panther]], [[giant spider (animal companion)|giant spider]], [[dire wolf (animal companion)|dire wolf]], and [[dire rat (animal companion)|dire rat]].
+
+==Notes==
+
+* This ability targets the summoner (unlike summoning spells, which target the ground).
+* Multiclassing ranger and druid will not give the character two animal companions, nor will those levels [[stack]] when determining the level of the animal companion. Such a character has the type of animal companion most recently selected when [[level-up|leveling]], at the level appropriate for the higher of the ranger and druid levels. ''Probably a bug:'' the higher of the ranger and druid levels is used even if the ranger level is not high enough to qualify for an animal companion.
+
+==Builder notes==
+
+'''Item feat:''' No, but it can be added with custom content.
+
+*Animal companion summoning can be changed (or disabled) by editing the script ''nw_s2_animalcom''.
+*The dialog used by the (default) animal companions is ''nw_g_animal''.
+
+==Custom content notes==
+
+'''Removable:''' Yes, but only the interface for summoning them; the animal companion selection screen will always appear.
+
+'''Reusable:''' No, it is hardcoded to the druid and ranger class slots.
+
+'''Script''': Hardcoded, ''nw_s2_animalcom'', [[spells.2da]], [[feat.2da]]
+
+*This feat can be added to [[iprp_feats.2da]] to make it available as an item feat. This feat is required to enable the summon animal companion [[radial menu]] option. This feat only works for rangers and druids, so an item is really only useful for a low level ranger, who will be able to summon a badger or whatever is defined in line 0 in [[hen_companion.2da]].
+*This feat has nothing to do with the selection of an animal companion. That is hardcoded into the character generator and level-up process.
+*The animal companions available for selection when leveling are defined in [[hen_companion.2da]].

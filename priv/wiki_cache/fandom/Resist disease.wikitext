@@ -1,0 +1,10 @@
+{{feat
+|type=general
+|desc=The character gains a +4 bonus on [[fortitude]] [[saving throw]]s to
+resist the effects of [[disease]].
+|use=automatic
+|icon=ife_x1resdis.gif
+}}
+
+==Notes==
+*Added in the [[expansion pack]]s.

@@ -1,0 +1,32 @@
+{{spell
+|icon=Is_x2batttide.gif
+|clericlevel=5
+|innatelevel=5
+|school=[[transmutation]]
+|components=VS
+|range=<del>short</del> ''personal''
+|area=<del>large</del> ''{{AoE|medium}}''
+|save=<del>no</del> ''[[will]]''
+|spellresistance=yes
+|immunity=<del>mind-affecting</del> ''negative''
+|duration=1 [[round]] / level
+|desc=You create an aura that steals energy from your enemies.
+Your enemies suffer a -2 circumstance penalty on [[saving throw]]s, [[attack roll]]s, and damage rolls, once entering the aura. On casting, you gain a +2
+circumstance bonus to your saves, attack rolls, and damage rolls.}}
+
+== Notes ==
+
+* Requires [[Hordes of the Underdark]].
+* Contrary to the in-game description, the descriptor is implemented as "negative".
+* The bonus damage (reported as [[magical damage]]) is from a [[damage increase]] effect, so it ignores both [[damage resistance]] and damage [[immunity]].
+* The penalty to damage rolls only reduces magical damage. If the affected creature does not deal magical damage in its attacks, there will be no change to the damage dealt.
+* The bonus to attack provided by this spell counts towards the +20 [[attack bonus cap]].
+* Hostile creatures entering the aura get a will [[saving throw]] to resist the penalty. This penalty is removed upon exiting the aura.
+* A single caster can have multiple ''battletide'' auras (with non-stacking bonuses), which operate like any other overlapping areas of effect (e.g. opponents would try to resist each aura individually).
+* This spell is subject to the mobile area of effect bug, in which an area of effect can lag behind the character it is attached to, allowing that character to actually exit the area of effect if moving fast enough. This results in the spell ending prematurely. (A fix for this is available on the Vault<sup>[http://nwvault.ign.com/View.php?view=Scripts.Detail&id=3739]</sup>.)
+
+== Custom content notes ==
+
+* ''impact script:'' <code>X2_S0_BattTide</code>
+* ''OnEnter script:'' <code>X2_S0_BattTideA</code>
+* ''OnExit script:'' <code>X2_S0_BattTideB</code>

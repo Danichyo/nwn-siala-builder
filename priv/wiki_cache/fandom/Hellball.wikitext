@@ -1,0 +1,34 @@
+{{otheruses|the epic spell|the prerequisite feat|Epic spell: hellball}}
+
+{{spell
+|icon=ife_x2sphellbal.gif
+|clericlevel=epic
+|druidlevel=epic
+|magelevel=epic
+|innatelevel=10
+|school=[[evocation]]
+|components=VS
+|range=m
+|area=super-colossal (20 [[meter]] radius)
+|save=[[reflex]] 1/2
+|duration=instant
+|desc=The caster creates a ball of energy that does 10[[d6]] points of [[acid damage|acid]], [[fire damage|fire]], [[electrical damage|electrical]] and [[sonic damage]] to all targets in its blast radius.
+|spellcraft=32}}
+
+== Notes ==
+
+*Requires [[Hordes of the Underdark]].
+*The [[difficulty class|DC]] of the [[saving throw]] is 20 plus the highest [[ability modifier]] from a potential casting stat ([[intelligence]], [[wisdom]], and [[charisma]]). This is not affected by the [[spell focus]] line of feats.
+*[[Evasion]] does not apply to this spell.
+*The caster is subject to the damage from the spell if caught in the blast.
+*If the spell would do more than 50 damage to a target ''before immunities and damage resistance are considered'', then the target will be knocked [[prone]] for 3 seconds. Though possibly intended as a variable effect, the chance of avoiding this knockdown is negligible (well under 1%), even if the save is made.
+*As this spell has no [[descriptor]], bonuses to particular types of saving throws (such as versus acid, fire, electricity, or sonic) do not apply.
+*Normally, casting this spell produces a projectile that circles the target for a few seconds before the spell goes off. Targeting this spell on the caster will skip the projectile, causing the spell to go off immediately.
+*The caster takes 10d6 [[negative energy damage]] upon casting if the switch <code>MODULE_SWITCH_EPIC_SPELLS_HURT_CASTER</code> has been enabled by the [[module]] builder. Undead casters will be harmed by this damage. (This damage does not count towards determining whether the caster is knocked prone.)
+*Some feel this spell has limited use by the time it is acquired, since its damage is dealt across the different elements. For example, the level 5 spell ''[[energy buffer]]'' is capable of completely absorbing<!-- up to 40 points per element --> the average damage<!-- 35 points per element --> from a ''hellball'' even with a failed save, while a standard ''ring of elemental resistance'' is capable of absorbing<!-- 15 points per element --> most of the average damage &mdash; excluding sonic &mdash; with a successful save. Similarly, a creature such as a [[vrock]] ([[challenge rating|CR]] 10) can resist all but the sonic damage with a successful save.
+
+'''See also:''' ''[[greater ruin]]'' (the other epic attack spell)
+
+== Custom content notes ==
+
+*''script:'' <code>X2_S2_Hellball</code>

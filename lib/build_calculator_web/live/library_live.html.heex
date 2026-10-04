@@ -1,0 +1,153 @@
+<Layouts.app flash={@flash} current_scope={@current_scope}>
+  <Layouts.site_header current_scope={@current_scope} active={nav_active(@live_action)} />
+
+  <div class="page" id="library-page">
+    <h1 class="page-title" id="library-title">
+      {section_title(@live_action)}<span :if={@group}> · {@group.name}</span>
+    </h1>
+    <p class="page-sub">
+      {gettext(
+        "A saved build is the same code as in the link. It opens in the builder and can be edited further."
+      )}
+    </p>
+
+    <div class="seg" id="library-sections">
+      <.link
+        class="seg-b"
+        id="section-public"
+        navigate={~p"/library"}
+        data-on={if @live_action == :public, do: "1"}
+      >
+        {pgettext("library section", "Public")}
+      </.link>
+      <.link
+        :if={@current_scope.user}
+        class="seg-b"
+        id="section-mine"
+        navigate={~p"/library/mine"}
+        data-on={if @live_action == :mine, do: "1"}
+      >
+        {pgettext("library section", "Mine")}
+      </.link>
+      <.link
+        :for={group <- @groups}
+        class="seg-b"
+        id={"section-group-#{group.id}"}
+        navigate={~p"/library/group/#{group}"}
+        data-on={if @group && @group.id == group.id, do: "1"}
+      >
+        {group.name}
+      </.link>
+    </div>
+
+    <.form
+      for={@filter_form}
+      id="library-filters"
+      class="filters"
+      phx-change="filter"
+      phx-submit="filter"
+    >
+      <.input
+        field={@filter_form[:q]}
+        type="search"
+        maxlength={BuildCalculatorWeb.InputLimits.short_text()}
+        label={gettext("Build name")}
+        placeholder={gettext("part of the name")}
+        phx-debounce="300"
+        autocomplete="off"
+      />
+      <.input
+        field={@filter_form[:class]}
+        type="select"
+        label={gettext("Class")}
+        options={@class_options}
+        prompt={pgettext("class filter", "any")}
+      />
+      <.input
+        field={@filter_form[:lmin]}
+        type="number"
+        label={gettext("Levels from")}
+        min="1"
+        max={@ruleset.level_cap}
+        phx-debounce="300"
+      />
+      <.input
+        field={@filter_form[:lmax]}
+        type="number"
+        label={pgettext("level range", "to")}
+        min="1"
+        max={@ruleset.level_cap}
+        phx-debounce="300"
+      />
+      <.input
+        field={@filter_form[:race]}
+        type="select"
+        label={gettext("Race")}
+        options={@race_options}
+        prompt={pgettext("race filter", "any")}
+      />
+      <%!-- Автор задаётся кликом по имени в карточке, а не полем ввода:
+            поиск людей по почте — это оракул для перебора адресов. --%>
+      <input type="hidden" name="author" value={@filters["author"]} />
+      <button type="button" class="btn" id="clear-filters" phx-click="clear_filters">
+        {gettext("Clear filters")}
+      </button>
+    </.form>
+
+    <p class="filters-hint" id="filters-hint">
+      <%= if @filters["class"] do %>
+        {gettext(
+          "“From / to” counts the levels of the chosen class — the way builds are searched for on the wiki."
+        )}
+      <% else %>
+        {gettext("“From / to” counts character levels; pick a class to count its levels instead.")}
+      <% end %>
+      <span :if={@filters["author"]}>
+        · {gettext("Showing one author.")}
+        <.link patch={feed_path(assigns, Map.delete(@filters, "author"), nil)} id="clear-author">
+          {gettext("show everyone")}
+        </.link>
+      </span>
+    </p>
+
+    <p :if={@list_error} class="v-gaps" id="library-error"><b>{@list_error}</b></p>
+
+    <p :if={@count == 0 && !@list_error} class="empty-row" id="builds-empty">
+      {gettext("Nothing here.")} {empty_hint(@live_action)}
+    </p>
+
+    <div class="bcards" id="builds" phx-update="stream">
+      <.build_card
+        :for={{dom_id, build} <- @streams.builds}
+        id={dom_id}
+        build={build}
+        show_author={@live_action != :mine}
+      />
+    </div>
+
+    <%!-- Фильтры едут в каждую ссылку страницы: курсор и фильтр — одно
+          состояние. Курсор, снятый с отфильтрованной ленты, на неотфильтрованной
+          показал бы другое место. --%>
+    <div class="pager" id="library-pager">
+      <.link :if={@cursor} patch={feed_path(assigns, @filters, nil)} class="btn" id="first-page">
+        ⇤ {gettext("First page")}
+      </.link>
+      <.link
+        :if={@previous_cursor}
+        patch={feed_path(assigns, @filters, @previous_cursor)}
+        class="btn"
+        id="prev-page"
+      >
+        ← {gettext("Previous")}
+      </.link>
+      <.link
+        :if={@next_cursor}
+        patch={feed_path(assigns, @filters, @next_cursor)}
+        class="btn btn-primary"
+        id="next-page"
+      >
+        {gettext("Next")} →
+      </.link>
+    </div>
+  </div>
+</Layouts.app>

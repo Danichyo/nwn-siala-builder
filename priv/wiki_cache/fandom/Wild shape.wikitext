@@ -1,0 +1,50 @@
+{{feat
+|type=class
+|prereq=[[druid]] 5
+|reqfor=[[shifter]]
+|desc=The character with this ability can [[polymorph|take the shape of]] an animal at will. It may be used once per day at fifth level, twice per day at sixth level, three times per day at seventh level, four times per day at tenth level, five times per day at fourteenth level, and six times per day at eighteenth level. The transformation has a duration of 1 [[hour]] per [[class level]].
+|use=selected. After choosing the ability, the character must choose an
+animal form to take.
+|icon=ife_wildshape.gif
+|class=druid
+}}
+
+== Notes ==
+
+* One cannot choose an arbitrary animal; the choices are badger, brown bear, boar, panther or wolf.
+*At druid level 22, [[infinite wildshape]] allows an unlimited number of uses of the ''wild shape'' ability.
+*This form of shapeshifting cannot be [[dispel]]led.
+*Only magical properties of armor, helmet and shield merge into ''wild shape''.
+*The following table denotes the new [[strength]], [[dexterity]], [[constitution]], [[temporary hit point]]s gained, size, inherent [[dodge bonus]], and the new total [[armor class]] (AC; includes the [[size modifier]]). All forms inflict [[d4]] damage with their [[creature weapon]]s. Properties on merged items may modify these stats, with the provision that merged bonuses to AC are converted to [[deflection bonus]]es, so only the highest such bonus will apply.
+{| class="centertable"
+|-
+! Shape!! Str!! Dex!!Con!!Temp HP!! Size!! Dodge AC!! Total AC
+|-
+| [[badger form]]     ||  8 || 17 || 15 || +10 || tiny || +5 || 20
+|-
+| [[brown bear form]] || 27 || 13 || 19 || +10 || large || +2 || 12
+|-
+| [[boar form]]       || 15 || 10 || 17 || +10 || medium || +5 || 15
+|-
+| [[panther form]]    || 16 || 15 || 19 || +10 || medium || +4 || 16
+|-
+| [[wolf form]]       || 13 || 15 || 15 || +10 || medium || +4 || 16
+|}
+* At druid level 12, improved versions of these shapes are acquired. (This is not a new feat, but simply a change in what using this feat produces.) The visual appearance of all the forms except the panther become "dire" versions, creature weapon damage is increased to d8, and the statistics are upgraded to the following.
+{| class="centertable"
+! Shape!! Str!! Dex!!Con!!Temp HP!! Size!! Dodge AC!! Total AC
+|-
+| [[dire badger form]]     || 14 || 17 || 19 || +20 || small  || +10 || 24
+|-
+| [[dire brown bear form]] || 31 || 13 || 19 || +40 || large  ||  +5 || 15
+|-
+| [[dire boar form]]       || 27 || 10 || 17 || +20 || medium || +10 || 20
+|-
+| [[dire panther form]]    || 25 || 15 || 17 || +30 || medium ||  +8 || 20
+|-
+| [[dire wolf form]]       || 25 || 15 || 17 || +30 || large  ||  +8 || 19
+|}
+
+== Custom content notes ==
+
+* ''script:'' <code>NW_S2_WildShape</code>

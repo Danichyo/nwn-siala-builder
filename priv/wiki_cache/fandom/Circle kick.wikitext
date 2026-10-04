@@ -1,0 +1,14 @@
+{{feat
+|type=general
+|prereq=[[base attack bonus]] +3, [[dexterity]] 15+, [[improved unarmed strike]]
+|desc=If the character succeeds in hitting an opponent with an [[unarmed strike|unarmed attack]], that character gets an additional [[free attack]] against another, nearby enemy. There is a maximum of one free attack per [[round]].
+|use=automatic
+|icon=ife_x1cirkik.gif
+}}
+
+== Notes ==
+
+*Added in the [[expansion pack]]s.
+* When circle kick is used, it shifts the focus of subsequent attacks to the new opponent, allowing each opponent (other than the last few) to survive longer. Manually re-selecting the first target will cause the loss of all remaining attacks in the round (as is usually the case when manually switching targets).
+* The free attack is not immediate (unlike that from ''[[cleave]]''). For example, if the character also has ''cleave'', the free attack from ''cleave'' will happen first, while that from ''circle kick'' will occur later in the round.
+* This feat will sometimes choose a target that is out of the range of the character's fists (but not necessarily beyond the range of the target's weapon). If this happens, the circle kick will be attempted despite the range, but then the character will cease attacking (becoming [[flat-foot]]ed) because of the range. This issue has been fixed in [[Neverwinter Nights Enhanced Edition]].

@@ -1,0 +1,39 @@
+'''Difficulty class''' ('''DC''') is a number that describes how hard a particular action is, with higher numbers indicating harder actions. When a character's action has a DC, a [[die roll]] determines whether or not that action is successful. If the roll of a [[d20]] plus applicable modifiers is at least the DC, then the action succeeds; if it is less than the DC, then the action fails.
+
+== Skills ==
+
+One action associated with a DC is the use of a [[skill]]. The DCs for these [[skill check]]s are determined using various methods, as indicated in each skill's description. Two common methods are [[opposed check]]s and explicit formulas. For most other skills, the DC is set (or left as the default) by the module designer.
+
+== Saving throws ==
+
+Another action associated with a DC is an attempt to avoid a harmful effect. This attempt is called a [[saving throw]]. Saving throw DCs for spells, non-spell item properties, monster special abilities, feats, traps, and creature auras are described below.
+Saving throws provide an exception to the success/failure rule: if the die roll is a natural 20, then the save is successful, even if the DC is not met. On the other hand, if the die roll is a natural 1 and the game's settings have auto-fail turned on, then save fails, even if the DC is met.
+
+When a '''[[spell]]''' allows a saving throw, the DC is determined by the [[spell level]], the caster's primary [[ability modifier]] (for the ability on which their spells are based), and the caster's feats, as follows:
+: DC = 10 + spell level + ability modifier + feat modifier.
+The feat modifier is +2 for [[spell focus]], +4 for [[greater spell focus]] and +6 for [[epic spell focus]]. The feat modifiers are not cumulative.
+Spells cast from items do not factor in the caster, instead assuming a standard combined ability/feat modifier of +3; that is, the DC is 13 plus the spell's [[innate level]].
+
+'''[[Item property|Item properties]]''' that are not spells often have a preset DC that depends on which property is being considered. Some of these properties list their DCs in the name of the property, as in "on-hit: stun (DC=14)".
+
+'''[[:Category:Monster abilities|Monster special abilities]]''' (selected in the [[Toolset]]), if not otherwise specified, have a DC of
+: 10 + innate level + charisma modifier.
+
+Abilities given by '''[[Feat|feats]]''', if not otherwise specified, have a DC of
+: 10 + class level + ability modifier.
+The ability in question is the [[primary ability]] for the class granting the feat. In a few special cases, a negative primary ability modifier triggers a bug that causes the DC to become rather large (127 or more). These special cases are [[fear (feat)]], [[shadow daze]], [[sleep (feat)]], and custom feats whose [[script]] combines <code>GetSpellSaveDC()</code> with <code>MySavingThrow()</code>.
+
+When a '''[[trap]]''' allows a saving throw, the difficulty class is determined by the type and strength of the trap.
+
+The saving throw DC for a creature's '''[[aura]]''', if any, is determined by that aura's script, and often depends on the [[hit dice]] of the creature.
+
+== Notes ==
+* The DC for the [[planar binding]] spell is the above formula plus 2.
+* The DC for the [[implosion]] spell is the above formula plus 3.
+* The DC for the [[hold animal]] spell is the above formula plus 4.
+* The DC for the [[greater planar binding]] spell is the above formula plus 5.
+* The DC for the [[dismissal]] spell is the above formula plus 6.
+[[category:game rules]]
+[[category:saving throws| Difficulty class]]
+[[category:skills| Difficulty class]]
+[[category:spells| Difficulty class]]

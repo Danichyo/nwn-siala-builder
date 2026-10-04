@@ -1,0 +1,28 @@
+[[Image:Isk x1tum.gif|right|Tumble]]
+Characters with high tumbling skill are able to roll away from attacks during combat, positioning themselves safely at all times. Anytime the character might receive an [[attack of opportunity]] for moving past enemies, they will automatically attempt a Tumble check against a [[difficulty class]] of 15. If successful the attack is avoided. For every 5 [[rank]]s in this skill (base ranks only, not including feat-, [[dexterity]]- or [[item]]-bonuses) the character's [[armor class]] is also improved by +1.
+*'''Ability''': dexterity
+
+*'''Classes''': [[assassin]], [[bard]], [[monk]], [[Harper scout]], [[rogue]], [[shadowdancer]]
+
+*'''[[Cross-class skill|Cross-class]]''': yes
+
+*'''[[untrained skill check|Requires training]]''': yes
+
+*'''Check''': DC 15 to avoid attack of opportunity while moving.
+
+*'''Special''': Wearing armor may incur a [[armor check penalty|penalty]] to the roll.
+
+*'''Use''': Automatic
+
+==Notes==
+
+*Added in the [[expansion pack]]s.
+*Since the DC is fixed, a tumble skill of 14 is sufficient to avoid all attacks of opportunity provoked by moving through combat. However, relying on this bare minimum is not advised since a character may want heavier armor at some point (increasing the armor check penalty), and a character could be hit by skill-reducing effects (e.g., [[blind (effect)|blind]], [[curse]], [[curse song]], [[level drain]]).
+*The [[spring attack]] feat is effectively redundant as long as a tumble skill of 14 is maintained.
+*The [[mobility]] feat's usefulness is reduced&mdash;but not eliminated&mdash;by taking ranks in tumble, since some attacks of opportunity can be avoided.
+*A character with a high tumble skill may want additional ranks in tumble solely for the AC bonus.
+*An armor check penalty does not lower the AC bonus gained from Tumble.
+*The armor class bonus from tumble is often called a "dodge bonus", but it is actually one of the uncapped [[armor class#Other|other sources]] of AC.
+*The AC from tumble is lost when [[flat-foot]]ed (even if the character has [[uncanny dodge]]).
+[[category:skills]]
+[[category:skills that require training]]

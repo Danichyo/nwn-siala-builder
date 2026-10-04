@@ -1,0 +1,26 @@
+{{feat
+|type=class
+|prereq=[[druid]] 1
+|desc=This feat allows the character to use the [[club]], [[dagger]], [[dart]], [[quarterstaff]], [[scimitar]], [[sickle]], [[sling]], and [[spear]].<br />
+'''Normal:''' A character cannot equip a weapon he is not proficient in.
+|use=All druids start with this feat and cannot gain weapon proficiency with any other weapons.
+|icon=ife_weppro_dru.gif
+|class=druid
+}}
+
+== Notes ==
+
+* To be more precise regarding other weapons, no other weapon proficiency feats are available when taking a level of druid. This does not impact their availability at other times though, such as when taking a level in another [[class]].
+
+==Builder notes==
+'''Item feat:''' No, but it can be added with custom content.
+
+==Custom content notes==
+'''Removable:''' yes
+
+'''Reusable:''' yes
+
+'''Script:''' [[baseitems.2da]]
+
+*This feat can be added to [[iprp_feats.2da]] to make it available as an item feat.
+[[Category:Weapon proficiency feats]]

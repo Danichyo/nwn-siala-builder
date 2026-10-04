@@ -1,0 +1,31 @@
+{{spell
+|icon=is_bladebar.gif
+|clericlevel=6
+|innatelevel=6
+|school=[[evocation]]
+|components=VS
+|range=m
+|area=wall 30 feet long
+|save=[[reflex]] 1/2
+|spellresistance=yes
+|duration=1 [[round]] / level
+|desc=''Blade barrier'' brings into being a 30-foot long and 3-foot wide wall of stabbing blades. All those passing through the wall take 1[[d6]] points of [[slashing damage]] per caster level.}}
+
+==Notes==
+
+* Damage is also applied each [[round]] to targets in the affected area (not just upon entering the area).
+*Damage from this spell is capped at 20d6. Caster levels above 20 will increase the duration of this spell, but not the damage.
+*This spell is often used by caster type clerics as a finishing blow as damage is dealt with the initial cast on the target.
+*A useful tactic in [[PvM]] is laying down many overlapping blade barriers, then luring monsters across them.
+
+===Previous versions===
+
+*Prior to version 1.69, this spell ignored [[evasion]] and [[improved evasion]].
+
+==Custom content notes==
+*''impact script:'' <code>NW_S0_BladeBar</code>
+*''OnEnter script:'' <code>NW_S0_BladeBarA</code>
+*''OnHearbeat script:'' <code>NW_S0_BladeBarC</code>
+
+==External Links==
+*{{FRW}}

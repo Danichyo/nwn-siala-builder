@@ -1,0 +1,12 @@
+{{feat
+|epic=yes
+|type=class
+|prereq=[[druid]] 26
+|desc=Upon reaching 26th [[class level|level]], a druid gains unlimited uses of his [[elemental shape]] ability.
+|use=automatic
+|icon=ife_eleshape.gif
+|class1=druid
+}}
+
+==Notes==
+*Requires [[Hordes of the Underdark]].

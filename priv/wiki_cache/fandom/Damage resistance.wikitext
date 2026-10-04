@@ -1,0 +1,16 @@
+[[Image:ief damresist.gif|right|Damage resistance]]
+Creatures with '''damage resistance''' are able to ignore damage of a specific [[damage type|type]] up to a specified amount. Unlike [[damage reduction]], damage resistance cannot be overcome with weapons with a higher enhancement bonus. Like damage reduction, the amount of damage resisted is listed as a value and a damage type, such as "fire 20/-". This means that the first 20 points of [[fire damage]] dealt to the character is ignored entirely.
+
+In the special case of a weapon that deals more than one kind of [[physical damage]], the lower of the resistances for those physical damage types is used. ''(Prior to version 1.69, the higher was used.)''
+
+==Stacking==
+
+For the most part, damage resistance does not [[stack]]. For each damage type, only the highest resistance granted by a spell or (equipped) item is used. However, damage resistance from feats ([[resist energy]] and [[epic energy resistance]]) does stack with &mdash; and is applied before &mdash; other sources of damage resistance, even though the feats do not stack with each other.
+
+When a weapon has an elemental (or other non-physical) damage bonus, each component (type) of that non-physical damage is applied to the relevant damage resistance before the damage is combined for display as a single number (floating over the victim's head). Physical damage bonuses, on the other hand, are converted to the weapon's base damage type before the relevant damage resistance is applied to the total physical damage inflicted.
+This can be seen as stacking since someone can get the benefits of multiple resistances against a single hit, but it is more accurately described as independent applications of damage resistance to each component of the damage.
+
+Damage from a weapon's [[on-hit]] property (e.g. ''[[darkfire]]'') is technically applied before damage is calculated for the hit. This makes such damage independent of the weapon's damage.
+That is, a creature with fire resistance would apply that resistance to the damage from the on-hit property, then possibly apply it a second time if the weapon has a fire damage bonus in addition to the on-hit property.
+
+[[category:effects]]

@@ -1,0 +1,488 @@
+{
+  "_layer": "vanilla",
+  "_hand_written": true,
+  "_note": "Эпическая шкала БОНУСНЫХ ФИТОВ престиж-классов после 30-го уровня класса — ручной слой поверх машинного `vanilla/classes.json` (задача 4.26). Источник — таблицы игры `cls_bfeat_*.2da` (выгрузка `priv/base_2da/`, сборка 89.8193.37-17); колонка `Bonus` — «Amount of bonus feats to grant at the given level», строка 0 — уровень класса 1 (nwn.wiki, cls_bfeat_xxx.2da), таблицу классу назначает колонка `BonusFeatsTable` в classes.2da.\n\n🔴 КОМУ ЭТО НУЖНО. Престиж-класс берёт не больше 10 уровней до 20-го уровня персонажа, а 11-й — только персонаж с 20 уровнями (`vanilla/epic.json` → `epic_thresholds`; Fandom «Prestige class»: «Prestige classes are limited to 10 class levels through character level 20»; ядро — `Rules.LevelUp`, отказ `{:requires_character_level, 20}`). Отсюда потолок уровня класса: у ВАНИЛИ 10 + 20 эпических = 30 — ровно там, где кончаются эпические таблицы Fandom, и ни один уровень этого файла у ванили НЕ ДОСТИЖИМ; у СИАЛЫ (кап 41) 10 + 21 = 31 — это и есть её потолок престижа (`siala_41/overrides.json` → `classes.prestige_level_cap`), и 31-й уровень класса достижим, когда класс взят на всех 21 эпическом уровне. Число, которое правка сдвигает у живого билда, одно: бонусный слот на 31-м уровне класса у Чёрного стража, Бледного мастера, Теневого танцора, Оборотня и Мастера оружия на Сиале. Остальные уровни (34–40) записаны, потому что это строки таблицы, а не наше решение о достижимости: потолок решает ядро.\n\nFandom здесь не спорит, а молчит: у каждого класса правило записано открыто («gains a bonus feat every three levels» / «every four levels»), а перечисление «In other words, at levels …» (у Бледного мастера — «i.e.») доходит ровно до конца таблицы страницы — до 30-го, то есть до ванильного потолка. Сводная таблица `fandom:Bonus feat` у престиж-классов тоже кончается на 30-м. Продолжение по таблице игры — не экстраполяция: каждое число в `add` прочитано из строки таблицы, а не выведено из шага.\n\n⚠️ Мастер оружия — тот же случай, хотя Notes его страницы пишут «The last weapon master bonus feat and attack bonus increase is at level 28»: фраза стоит в разборе ванильного пути «воин + Мастер оружия 29» и говорит о достижимых уровнях (у ванили до 30-го, и на 29-м и 30-м бонусного фита нет и в таблице игры). О 31-м — уровне, которого у ванили нет, — она молчит. Разбор — `note` записи.\n\n⚠️ Записи ДОБАВЛЯЮТ уровни за концом таблицы Fandom и не трогают её саму: `extends` — это то, что машинный слой несёт сегодня, и загрузчик сверяет его байт в байт. Поменялась страница или парсер научился читать дальше — сборка падает, и запись переписывает человек (тот же приём, что `replaces` в `class_requirements.json`). Уровни берутся до 40-го включительно — `MaxLevel` престиж-классов в classes.2da; уровни 41–60 ванили не нужны (кап 40). ⚠️ Уровень класса 41 нужен Сиале (кап 41): у шести базовых классов — барда, священника, паладина, рейнджера, колдуна, волшебника — строка-позиция 40 их таблиц даёт Bonus 1. Он записан не здесь, а в сиальской половине `siala_41/class_bonus_feat_levels.json` (задача 4.51, статус `assumed`, решение Dan `BC1`): у ванили этого уровня нет, и ванильный ruleset от него не сдвигается. До 4.51 здесь стояло «строки 41–60 таблиц не нужны ни одному ruleset'у» — для Сиалы это было неверно.\n\n⚠️ Сиала. Слой Сиалы уровней бонусных фитов у этих классов не переписывает, значит запись доезжает до `siala_41` сама. Это законно, пока хак говорит то же, что базовая игра: `classes.2da` хака назначает этим классам те же таблицы `cls_bfeat_*`, а самих таблиц в хаке нет — клиент Сиалы берёт базовые. Доказательство у каждой записи — блок `hak`, машинная проверка — `epic_scales_hak_test.exs`. Шард пришлёт свою таблицу — тест упадёт, и Сиале понадобится своя запись с `kind: \"hak\"`.\n\nСторожа (`Loader.Classes.apply_bonus_feat_levels/2`): класс, которого нет; запись дважды; ключ записи, кроме `epic_bonus_feat_levels`; `extends`, разошедшийся с машинным слоем; уровень в `add`, который не лежит за концом таблицы Fandom; статус не `verified`; источник не строка `cls_bfeat_*.2da` — всё роняет сборку. Числа против самих таблиц — `class_bonus_feat_levels_test.exs` и `mix base2da.diff` (находки `class_feats/*/bonus_feat_levels`).",
+  "_schema": {
+    "classes[].id": "id класса из vanilla/classes.json.",
+    "classes[].epic_bonus_feat_levels.extends": "Эпические уровни бонусных фитов, которые машинный слой (`vanilla/classes.json` → `epic_bonus_feat_levels`) несёт сегодня, по возрастанию. Сверяется байт в байт: расхождение значит, что страница или парсер сдвинулись под записью.",
+    "classes[].epic_bonus_feat_levels.add": "Уровни класса за концом таблицы Fandom, на которых таблица игры даёт бонусный фит (`Bonus` 1), по возрастанию, до 40-го включительно. Каждый — строго больше всех уровней машинного слоя. По одному слоту на уровень: `Bonus` у всех этих строк 1, и тест это держит.",
+    "classes[].epic_bonus_feat_levels.status": "`verified` — число прочитано из строки таблицы. Другого статуса файл не принимает: уровень, который загрузчик не применил бы, здесь не нужен.",
+    "classes[].epic_bonus_feat_levels.source (kind 2da)": "Строка таблицы `cls_bfeat_*` — ПОЗИЦИЯ, а не метка (HANDOFF.md, задача 4.5): у шести из десяти этих таблиц метки начинаются с 1, у четырёх (archer, asasin, blkgrd, shadow) — с 0. `column` + `value` — ячейка первой добавленной строки; остальные строки названы в `note` и сверяются тестом целиком. Колонки `Label` у таблиц `cls_bfeat_*` нет, поэтому `label` не ставится.",
+    "classes[].epic_bonus_feat_levels.quote_2 + source_2": "Правило Fandom со страницы класса — открытое, «every three / four levels»; перечисление после него доходит до конца таблицы страницы (30-й уровень). Пара `quote_2` ↔ `source_2` сверяется с кэшем дословно (`provenance_test.exs`, `class_bonus_feat_levels_test.exs`); у Мастера оружия рядом `quote_notes` ↔ `source_notes`.",
+    "classes[].epic_bonus_feat_levels.hak": "Доказательство для Сиалы: строка `classes.2da` хака и имя таблицы. Загрузчик блок не читает."
+  },
+  "classes": [
+    {
+      "id": "arcane_archer",
+      "epic_bonus_feat_levels": {
+        "extends": [
+          14,
+          18,
+          22,
+          26,
+          30
+        ],
+        "add": [
+          34,
+          38
+        ],
+        "status": "verified",
+        "source": {
+          "kind": "2da",
+          "table": "cls_bfeat_archer.2da",
+          "row": 33,
+          "column": "Bonus",
+          "value": "1",
+          "build": "89.8193.37-17",
+          "fetched": "2026-09-26",
+          "note": "Строки 33 и 37 (уровни класса 34 и 38): Bonus 1; между ними и после до 40-го — 0. Строки 13, 17, 21, 25, 29 (уровни 14…30) — то же, что таблица Fandom. Таблицу назначает classes.2da:29 Arcane_Archer → BonusFeatsTable CLS_BFEAT_ARCHER."
+        },
+        "quote_2": "The epic arcane archer gains a bonus feat every four levels. In other words, at levels 14, 18, 22, 26, and 30.",
+        "source_2": {
+          "wiki": "fandom",
+          "page": "Arcane archer",
+          "revid": 71569,
+          "fetched": "2026-08-01"
+        },
+        "note": "Находка сверки 4.5 (у лучника она стояла видом (b) «за потолком»). Ни 34-й, ни 38-й не достижимы ни на одном ruleset'е: потолок уровня класса у ванили 30, у Сиалы 31 (см. `_note`). Записаны, потому что это строки таблицы.",
+        "hak": {
+          "note": "Хак Сиалы: classes.2da, строка 29 Arcane_Archer — BonusFeatsTable CLS_BFEAT_ARCHER, как в базовой игре; таблицы cls_bfeat_archer.2da в хаке нет, клиент Сиалы берёт базовую. Слой Сиалы уровней бонусных фитов лучника не переписывает.",
+          "source": {
+            "kind": "hak",
+            "table": "classes.2da",
+            "row": 29,
+            "sha1": "ea196b0bbba42ca24f7b0dab5c7929425253a166",
+            "fetched": "2026-08-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "assassin",
+      "epic_bonus_feat_levels": {
+        "extends": [
+          14,
+          18,
+          22,
+          26,
+          30
+        ],
+        "add": [
+          34,
+          38
+        ],
+        "status": "verified",
+        "source": {
+          "kind": "2da",
+          "table": "cls_bfeat_asasin.2da",
+          "row": 33,
+          "column": "Bonus",
+          "value": "1",
+          "build": "89.8193.37-17",
+          "fetched": "2026-09-26",
+          "note": "Строки 33 и 37 (уровни класса 34 и 38): Bonus 1; остальные до 40-го — 0. Строки 13…29 через четыре (уровни 14…30) — то же, что таблица Fandom. Таблицу назначает classes.2da:30 Assassin → BonusFeatsTable CLS_BFEAT_ASASIN."
+        },
+        "quote_2": "The epic assassin gains a bonus feat every four levels. In other words, at levels 14, 18, 22, 26, and 30.",
+        "source_2": {
+          "wiki": "fandom",
+          "page": "Assassin",
+          "revid": 71570,
+          "fetched": "2026-08-01"
+        },
+        "note": "Находка (a) сверки 4.5 — с оценкой «Убийца 34 достижим», которая не учла, что до 20-го уровня персонажа престиж-класс берёт не больше 10 уровней. Ни 34-й, ни 38-й не достижимы ни на одном ruleset'е (потолок 30 у ванили, 31 у Сиалы). Записаны, потому что это строки таблицы.",
+        "hak": {
+          "note": "Хак Сиалы: classes.2da, строка 30 Assassin — BonusFeatsTable CLS_BFEAT_ASASIN, как в базовой игре; таблицы cls_bfeat_asasin.2da в хаке нет, клиент Сиалы берёт базовую. Слой Сиалы уровней бонусных фитов убийцы не переписывает.",
+          "source": {
+            "kind": "hak",
+            "table": "classes.2da",
+            "row": 30,
+            "sha1": "ea196b0bbba42ca24f7b0dab5c7929425253a166",
+            "fetched": "2026-08-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "blackguard",
+      "epic_bonus_feat_levels": {
+        "extends": [
+          13,
+          16,
+          19,
+          22,
+          25,
+          28
+        ],
+        "add": [
+          31,
+          34,
+          37,
+          40
+        ],
+        "status": "verified",
+        "source": {
+          "kind": "2da",
+          "table": "cls_bfeat_blkgrd.2da",
+          "row": 30,
+          "column": "Bonus",
+          "value": "1",
+          "build": "89.8193.37-17",
+          "fetched": "2026-09-26",
+          "note": "Строки 30, 33, 36, 39 (уровни класса 31, 34, 37, 40): Bonus 1. Строки 12…27 через три (уровни 13…28) — то же, что таблица Fandom. Метки этой таблицы начинаются с 0 и совпадают с позицией. Таблицу назначает classes.2da:31 Blackguard → BonusFeatsTable CLS_BFEAT_BLKGRD."
+        },
+        "quote_2": "The epic blackguard gains a bonus feat every three levels. In other words, at levels 13, 16, 19, 22, 25, and 28.",
+        "source_2": {
+          "wiki": "fandom",
+          "page": "Blackguard",
+          "revid": 71895,
+          "fetched": "2026-08-01"
+        },
+        "note": "Находка (a) сверки 4.5. У ванили ни один уровень не достижим (потолок 30 — см. `_note`; оценка 4.5 «BG 31, 34 достижимы» не учла предел 10 уровней до 20-го уровня персонажа). У Сиалы достижим 31-й — это бонусный слот, который Чёрный страж 31 на Сиале до этой записи терял.",
+        "hak": {
+          "note": "Хак Сиалы: classes.2da, строка 31 Blackguard — BonusFeatsTable CLS_BFEAT_BLKGRD, как в базовой игре; таблицы cls_bfeat_blkgrd.2da в хаке нет, клиент Сиалы берёт базовую. Слой Сиалы уровней бонусных фитов стража не переписывает (страница «Чёрный страж», revid 18232, говорит о заразе, длительностях и навыках).",
+          "source": {
+            "kind": "hak",
+            "table": "classes.2da",
+            "row": 31,
+            "sha1": "ea196b0bbba42ca24f7b0dab5c7929425253a166",
+            "fetched": "2026-08-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "champion_of_torm",
+      "epic_bonus_feat_levels": {
+        "extends": [
+          14,
+          18,
+          22,
+          26,
+          30
+        ],
+        "add": [
+          34,
+          38
+        ],
+        "status": "verified",
+        "source": {
+          "kind": "2da",
+          "table": "cls_bfeat_divcha.2da",
+          "row": 33,
+          "column": "Bonus",
+          "value": "1",
+          "build": "89.8193.37-17",
+          "fetched": "2026-09-26",
+          "note": "Строки 33 и 37 (уровни класса 34 и 38): Bonus 1; остальные до 40-го — 0. Доэпические 2, 4, 6, 8, 10 и эпические 14…30 — то же, что таблица Fandom. Метки таблицы начинаются с 1 (у строки 59 — «50», опечатка BioWare), строка — позиция. Таблицу назначает classes.2da:32 Champion_Torm → BonusFeatsTable CLS_BFEAT_DIVCHA."
+        },
+        "quote_2": "The epic champion of Torm gains a bonus feat every four levels. In other words, at levels 14, 18, 22, 26, and 30.",
+        "source_2": {
+          "wiki": "fandom",
+          "page": "Champion of Torm",
+          "revid": 71573,
+          "fetched": "2026-08-01"
+        },
+        "note": "Находка сверки 4.5 (у Чемпиона она стояла видом (b) «за потолком»). Ни 34-й, ни 38-й не достижимы ни на одном ruleset'е (потолок 30 у ванили, 31 у Сиалы). ⚠️ Слой Сиалы расширяет у класса СОСТАВ пула (`bonus_feat_pool`, `also_on: all_bonus_feat_levels`) — множество уровней он называет именем и сверяет с классом, поэтому продлённые уровни туда попадают сами; уровней он не переписывает.",
+        "hak": {
+          "note": "Хак Сиалы: classes.2da, строка 32 Champion_Torm — BonusFeatsTable CLS_BFEAT_DIVCHA, как в базовой игре; таблицы cls_bfeat_divcha.2da в хаке нет, клиент Сиалы берёт базовую.",
+          "source": {
+            "kind": "hak",
+            "table": "classes.2da",
+            "row": 32,
+            "sha1": "ea196b0bbba42ca24f7b0dab5c7929425253a166",
+            "fetched": "2026-08-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "dwarven_defender",
+      "epic_bonus_feat_levels": {
+        "extends": [
+          14,
+          18,
+          22,
+          26,
+          30
+        ],
+        "add": [
+          34,
+          38
+        ],
+        "status": "verified",
+        "source": {
+          "kind": "2da",
+          "table": "cls_bfeat_dwdef.2da",
+          "row": 33,
+          "column": "Bonus",
+          "value": "1",
+          "build": "89.8193.37-17",
+          "fetched": "2026-09-26",
+          "note": "Строки 33 и 37 (уровни класса 34 и 38): Bonus 1; остальные до 40-го — 0. Строки 13…29 через четыре (уровни 14…30) — то же, что таблица Fandom. Метки таблицы начинаются с 1, строка — позиция. Таблицу назначает classes.2da:36 Dwarven_Defender → BonusFeatsTable CLS_BFEAT_DWDEF."
+        },
+        "quote_2": "The epic dwarven defender gains a bonus feat every four levels. In other words, at levels 14, 18, 22, 26, and 30.",
+        "source_2": {
+          "wiki": "fandom",
+          "page": "Dwarven defender",
+          "revid": 71576,
+          "fetched": "2026-08-01"
+        },
+        "note": "Находка сверки 4.5 (у Гномьего защитника она стояла видом (b) «за потолком»). Ни 34-й, ни 38-й не достижимы ни на одном ruleset'е (потолок 30 у ванили, 31 у Сиалы).",
+        "hak": {
+          "note": "Хак Сиалы: classes.2da, строка 36 Dwarven_Defender — BonusFeatsTable CLS_BFEAT_DWDEF, как в базовой игре; таблицы cls_bfeat_dwdef.2da в хаке нет, клиент Сиалы берёт базовую.",
+          "source": {
+            "kind": "hak",
+            "table": "classes.2da",
+            "row": 36,
+            "sha1": "ea196b0bbba42ca24f7b0dab5c7929425253a166",
+            "fetched": "2026-08-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "pale_master",
+      "epic_bonus_feat_levels": {
+        "extends": [
+          13,
+          16,
+          19,
+          22,
+          25,
+          28
+        ],
+        "add": [
+          31,
+          34,
+          37,
+          40
+        ],
+        "status": "verified",
+        "source": {
+          "kind": "2da",
+          "table": "cls_bfeat_palema.2da",
+          "row": 30,
+          "column": "Bonus",
+          "value": "1",
+          "build": "89.8193.37-17",
+          "fetched": "2026-09-26",
+          "note": "Строки 30, 33, 36, 39 (уровни класса 31, 34, 37, 40): Bonus 1. Строки 12…27 через три (уровни 13…28) — то же, что таблица Fandom. Метки таблицы начинаются с 1, строка — позиция. Таблицу назначает classes.2da:34 Pale_Master → BonusFeatsTable CLS_BFEAT_PALEMA."
+        },
+        "quote_2": "The epic pale master gains a bonus feat every three levels (i.e., at levels 13, 16, 19, 22, 25, and 28).",
+        "source_2": {
+          "wiki": "fandom",
+          "page": "Pale master",
+          "revid": 71581,
+          "fetched": "2026-08-01"
+        },
+        "note": "Находка (a) сверки 4.5. «i.e.» перечисляет уровни в пределах таблицы страницы (эпическая часть — классы 11–30), правило «every three levels» открытое. У ванили ни один уровень не достижим (потолок 30; оценка 4.5 «PM 31, 34, 37» не учла предел 10 уровней до 20-го уровня персонажа). У Сиалы достижим 31-й — волшебник 10 / Бледный мастер 31, где мастер взят на всех 21 эпическом уровне.",
+        "hak": {
+          "note": "Хак Сиалы: classes.2da, строка 34 Pale_Master — BonusFeatsTable CLS_BFEAT_PALEMA, как в базовой игре; таблицы cls_bfeat_palema.2da в хаке нет, клиент Сиалы берёт базовую. Слой Сиалы уровней бонусных фитов мастера не переписывает (страница «Бледный мастер», revid 16987, говорит о касании, лечении, иммунитетах и призывах).",
+          "source": {
+            "kind": "hak",
+            "table": "classes.2da",
+            "row": 34,
+            "sha1": "ea196b0bbba42ca24f7b0dab5c7929425253a166",
+            "fetched": "2026-08-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "red_dragon_disciple",
+      "epic_bonus_feat_levels": {
+        "extends": [
+          14,
+          18,
+          22,
+          26,
+          30
+        ],
+        "add": [
+          34,
+          38
+        ],
+        "status": "verified",
+        "source": {
+          "kind": "2da",
+          "table": "cls_bfeat_dradis.2da",
+          "row": 33,
+          "column": "Bonus",
+          "value": "1",
+          "build": "89.8193.37-17",
+          "fetched": "2026-09-26",
+          "note": "Строки 33 и 37 (уровни класса 34 и 38): Bonus 1; остальные до 40-го — 0. Строки 13…29 через четыре (уровни 14…30) — то же, что таблица Fandom (колонка «Bonus feats», числительные «first» … «fifth»). Метки таблицы начинаются с 1, строка — позиция. Таблицу назначает classes.2da:37 Dragon_Disciple → BonusFeatsTable CLS_BFEAT_DRADIS."
+        },
+        "quote_2": "The epic dragon disciple gains a bonus feat every four levels. In other words, at levels 14, 18, 22, 26, and 30.",
+        "source_2": {
+          "wiki": "fandom",
+          "page": "Red dragon disciple",
+          "revid": 71919,
+          "fetched": "2026-08-01"
+        },
+        "note": "Находка (a) сверки 4.5 — с оценкой «РДД 34 достижим», которая не учла предел 10 уровней до 20-го уровня персонажа. Ни 34-й, ни 38-й не достижимы ни на одном ruleset'е (потолок 30 у ванили, 31 у Сиалы).",
+        "hak": {
+          "note": "Хак Сиалы: classes.2da, строка 37 Dragon_Disciple — BonusFeatsTable CLS_BFEAT_DRADIS, как в базовой игре; таблицы cls_bfeat_dradis.2da в хаке нет, клиент Сиалы берёт базовую.",
+          "source": {
+            "kind": "hak",
+            "table": "classes.2da",
+            "row": 37,
+            "sha1": "ea196b0bbba42ca24f7b0dab5c7929425253a166",
+            "fetched": "2026-08-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "shadowdancer",
+      "epic_bonus_feat_levels": {
+        "extends": [
+          13,
+          16,
+          19,
+          22,
+          25,
+          28
+        ],
+        "add": [
+          31,
+          34,
+          37,
+          40
+        ],
+        "status": "verified",
+        "source": {
+          "kind": "2da",
+          "table": "cls_bfeat_shadow.2da",
+          "row": 30,
+          "column": "Bonus",
+          "value": "1",
+          "build": "89.8193.37-17",
+          "fetched": "2026-09-26",
+          "note": "Строки 30, 33, 36, 39 (уровни класса 31, 34, 37, 40): Bonus 1. Строки 12…27 через три (уровни 13…28) — то же, что таблица Fandom. Метки этой таблицы начинаются с 0 и совпадают с позицией. Таблицу назначает classes.2da:27 Shadowdancer → BonusFeatsTable CLS_BFEAT_SHADOW."
+        },
+        "quote_2": "The epic shadowdancer gains a bonus feat every three levels. In other words, at levels 13, 16, 19, 22, 25, and 28.",
+        "source_2": {
+          "wiki": "fandom",
+          "page": "Shadowdancer",
+          "revid": 71584,
+          "fetched": "2026-08-01"
+        },
+        "note": "Находка (a) сверки 4.5. У ванили ни один уровень не достижим (потолок 30; оценка 4.5 «SD 31» не учла предел 10 уровней до 20-го уровня персонажа). У Сиалы достижим 31-й.",
+        "hak": {
+          "note": "Хак Сиалы: classes.2da, строка 27 Shadowdancer — BonusFeatsTable CLS_BFEAT_SHADOW, как в базовой игре; таблицы cls_bfeat_shadow.2da в хаке нет, клиент Сиалы берёт базовую. Слой Сиалы у танцора сдвигает выдачи (HiPS, Evasion, Improved evasion), а уровней бонусных фитов не трогает.",
+          "source": {
+            "kind": "hak",
+            "table": "classes.2da",
+            "row": 27,
+            "sha1": "ea196b0bbba42ca24f7b0dab5c7929425253a166",
+            "fetched": "2026-08-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "shifter",
+      "epic_bonus_feat_levels": {
+        "extends": [
+          13,
+          16,
+          19,
+          22,
+          25,
+          28
+        ],
+        "add": [
+          31,
+          34,
+          37,
+          40
+        ],
+        "status": "verified",
+        "source": {
+          "kind": "2da",
+          "table": "cls_bfeat_shiftr.2da",
+          "row": 30,
+          "column": "Bonus",
+          "value": "1",
+          "build": "89.8193.37-17",
+          "fetched": "2026-09-26",
+          "note": "Строки 30, 33, 36, 39 (уровни класса 31, 34, 37, 40): Bonus 1. Строки 12…27 через три (уровни 13…28) — то же, что таблица Fandom. Метки таблицы начинаются с 1, строка — позиция. Таблицу назначает classes.2da:35 Shifter → BonusFeatsTable CLS_BFEAT_SHIFTR."
+        },
+        "quote_2": "The epic shifter gains a bonus feat every three levels. In other words, at levels 13, 16, 19, 22, 25, and 28.",
+        "source_2": {
+          "wiki": "fandom",
+          "page": "Shifter",
+          "revid": 71744,
+          "fetched": "2026-08-01"
+        },
+        "note": "Находка (a) сверки 4.5. У ванили ни один уровень не достижим (потолок 30; оценка 4.5 «Shifter 31, 34» не учла предел 10 уровней до 20-го уровня персонажа). У Сиалы достижим 31-й; страница «Шифтер» (revid 15115) прямо говорит, что класс на шарде не изменён.",
+        "hak": {
+          "note": "Хак Сиалы: classes.2da, строка 35 Shifter — BonusFeatsTable CLS_BFEAT_SHIFTR, как в базовой игре; таблицы cls_bfeat_shiftr.2da в хаке нет, клиент Сиалы берёт базовую.",
+          "source": {
+            "kind": "hak",
+            "table": "classes.2da",
+            "row": 35,
+            "sha1": "ea196b0bbba42ca24f7b0dab5c7929425253a166",
+            "fetched": "2026-08-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "weapon_master",
+      "epic_bonus_feat_levels": {
+        "extends": [
+          13,
+          16,
+          19,
+          22,
+          25,
+          28
+        ],
+        "add": [
+          31,
+          34,
+          37,
+          40
+        ],
+        "status": "verified",
+        "source": {
+          "kind": "2da",
+          "table": "cls_bfeat_wm.2da",
+          "row": 30,
+          "column": "Bonus",
+          "value": "1",
+          "build": "89.8193.37-17",
+          "fetched": "2026-09-26",
+          "note": "Строки 30, 33, 36, 39 (уровни класса 31, 34, 37, 40): Bonus 1. Строки 12…27 через три (уровни 13…28) — то же, что таблица Fandom; строка 0 (уровень 1) — бонусный слот Weapon of Choice, у нас это выдача с выбором (`grant_substitutions.json`), разница формы, и сверка держит её видом (b). Метки таблицы начинаются с 1, строка — позиция. Таблицу назначает classes.2da:33 WeaponMaster → BonusFeatsTable CLS_BFEAT_wM."
+        },
+        "quote_2": "The epic weapon master gains a bonus feat every three levels. In other words, at levels 13, 16, 19, 22, 25, and 28.",
+        "source_2": {
+          "wiki": "fandom",
+          "page": "Weapon master",
+          "revid": 71587,
+          "fetched": "2026-08-01"
+        },
+        "quote_notes": "The last weapon master bonus feat and [[attack bonus]] increase is at level 28, so not much is lost by going that route.",
+        "source_notes": {
+          "wiki": "fandom",
+          "page": "Weapon master",
+          "revid": 71587,
+          "fetched": "2026-08-01"
+        },
+        "note": "Находка (a) сверки 4.5. У ванили ни один уровень не достижим (потолок 30; оценка 4.5 «WM 31, 34» не учла предел 10 уровней до 20-го уровня персонажа). У Сиалы достижим 31-й.\n\n⚠️ `quote_notes` — не спор с таблицей, хотя читается как «после 28-го фитов нет». Фраза стоит в разборе ванильного пути «Fighter 4 для Weapon specialization, плюс один эпический уровень воина или Чемпиона Торма для Epic weapon specialization — leaving room for 29 weapon master levels»: то есть речь о Мастере оружия 29 при ванильном потолке 30, и в этих пределах таблица игры с ней согласна — на 29-м и 30-м бонусного фита нет. Про 31-й, которого у ванили нет, Fandom молчит. Прибавка атаки из той же фразы (Epic superior weapon focus после 28-го) таблицами не решается — её считает движок (`docs/base2da_diff.md`, «Что `.2da` не решает»), и эта задача её не трогает: у Сиалы за 28-м держится +7 (`feat_attack_bonuses.json` → запись `weapon_master`).",
+        "hak": {
+          "note": "Хак Сиалы: classes.2da, строка 33 WeaponMaster — BonusFeatsTable CLS_BFEAT_wM, как в базовой игре; таблицы cls_bfeat_wm.2da в хаке нет, клиент Сиалы берёт базовую. Страница Сиалы «Мастер оружия» говорит, что класс «не был изменен по сравнению с оригинальной игрой»; слой Сиалы уровней бонусных фитов не переписывает.",
+          "source": {
+            "kind": "hak",
+            "table": "classes.2da",
+            "row": 33,
+            "sha1": "ea196b0bbba42ca24f7b0dab5c7929425253a166",
+            "fetched": "2026-08-27"
+          }
+        }
+      }
+    }
+  ]
+}

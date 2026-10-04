@@ -1,0 +1,25 @@
+{{feat
+|type=class
+|prereq=[[bard]] 1, [[Harper scout]] 1
+|desc=This feat allows the character to identify items more easily than others. It grants the character a bonus equal to their [[class level]] to any [[lore]] checks.
+|use=automatic
+|icon=ife_bardknow.gif
+|class1=bard
+|class2=Harper scout
+}}
+
+== Notes ==
+* Harper scout and bard levels [[stack]] for the bonus granted by this feat.
+* This bonus does not contribute to the +50 skill cap
+
+==Builder notes==
+'''Item feat:''' No, but it can be added with custom content.
+
+==Custom content notes==
+'''Removable:''' yes
+
+'''Reusable:''' No, it is hardcoded to the bard and Harper scout class levels.
+
+'''Script:''' hardcoded
+
+*This feat can be added to [[iprp_feats.2da]] to make it available as an item feat. However, this would be pointless unless the feat was also removed from the list of free feats for bards and Harper scouts. (This feat only works with bard and Harper scout levels.)

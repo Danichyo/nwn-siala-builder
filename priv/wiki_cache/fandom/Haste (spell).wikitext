@@ -1,0 +1,32 @@
+{{spell
+|icon=is_haste.gif
+|bardlevel=3
+|magelevel=3
+|domain=travel
+|domainlevel=5
+|innatelevel=3
+|school=[[transmutation]]
+|components=VS
+|range=s
+|area=single
+|save=harmless
+|spellresistance=no
+|duration=1 [[round]] / level
+|line=Speed
+|line1=expeditious retreat
+|line3=haste (spell)
+|line6=mass haste
+|counters=[[slow (spell)|slow]]
+|desc=The target of this spell is [[haste]]d, gaining +4 bonus to dodge [[armor class]], 1 extra action per round (allowing an [[extra attack|additional attack]] or spell to be cast), and has their [[movement speed|movement]] increased by 50%.}}
+
+== Notes ==
+
+* This spell will displace a single instance of each of ''[[expeditious retreat]]'', ''[[mass haste]]'', and ''[[blinding speed]]'', provided those spells had been cast by the caster of ''haste''.
+* ''[[Mass haste]]'' is in the school of [[enchantment]] rather than transmutation, with accordingly different availability for specialist wizards.
+
+== Custom content notes ==
+
+*''script:'' <code>NW_S0_Haste</code>
+
+==External Links==
+* {{FRW|Haste}}

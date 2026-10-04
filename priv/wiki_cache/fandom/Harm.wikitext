@@ -1,0 +1,34 @@
+{{spell
+|icon=is_harm.gif
+|clericlevel=6
+|druidlevel=7
+|innatelevel=6
+|school=[[necromancy]]
+|components=VS
+|range=t
+|area=single
+|save=none
+|spellresistance=yes
+|immunity=negative
+|duration=instant
+|counters=<del>[[heal (spell)|heal]]</del>
+|line=Inflict wounds
+|line0=inflict minor wounds
+|line1=inflict light wounds
+|line2=inflict moderate wounds
+|line3=inflict serious wounds
+|line4=inflict critical wounds
+|line5=circle of doom
+|line6=harm
+|desc=If the caster makes a successful melee [[touch attack]], ''harm'' uses [[negative energy damage|negative energy]] to reduce the target creature to 1[[d4]] [[hit point]]s. This spell has a reverse effect on [[undead]], healing the targeted undead to full health instead of harming it.}}
+
+== Notes ==
+* Module creators often revise this spell to do an amount of damage dependent on [[caster level]], making ''harm'''s effectiveness dependent on the target's health.
+* Some undead monsters have access to a variant of this spell (same script) that targets (only) the caster. This variant is named "harm self (undead)."
+*Due to a .2da bug, ''harm'' is not an additional [[counterspell]] of ''heal''.
+
+== Custom content notes ==
+* ''script:'' <code>NW_S0_Harm</code>
+
+==External Links==
+* {{FRW}}

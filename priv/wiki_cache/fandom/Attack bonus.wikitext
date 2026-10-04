@@ -1,0 +1,106 @@
+{{otheruses|the overall bonus to the attack roll|the item property|Attack bonus (item property)}}
+
+The '''attack bonus''' (AB) is a number added to a roll of a [[d20]] whenever a creature makes an attack. This total is then compared to the target's [[armor class]] to see if the attack hits hard enough to deal damage (before things like [[damage reduction]] are considered). 
+The attack bonus is the sum of the [[base attack bonus]], an [[ability modifier]], a bonus subject to the +20 [[attack bonus cap]], modifiers from [[feat]]s (excluding feats that must be "cast"), and several miscellaneous modifiers.
+
+ base attack bonus + ability modifier + capped bonus + feats + miscellaneous
+
+There is a display bug where an attack bonus higher than 127 is shown as a negative number in the combat log. (This is not normally an issue, though, as attack bonuses are usually much lower than 127.)
+
+In [[melee]] combat, the [[strength]] modifier is used, unless the attacker has [[weapon finesse]] and a higher [[dexterity]] modifier than strength. In that case, the dexterity modifier is used. 
+In ranged combat, the [[dexterity]] modifier is used, unless the attacker has [[zen archery]] and a higher [[wisdom]] modifier than dexterity. In that case, the wisdom modifier is used.
+
+The bonus subject to the +20 cap includes the higher of the used weapon's [[attack bonus (item property)|attack]] or [[enhancement bonus]], plus bonuses from [[spell]]s and spell-like abilities. These bonuses stack when they come from different spells. In this context, "spell-like abilities" includes most feats that must be activated/cast (e.g. [[bard song]]).  
+Feats that are toggled (e.g. [[expertise]]), situational (e.g. [[bane of enemies]]), always on (e.g. [[epic prowess]]), or active for a single attack (e.g. [[disarm]]) generally do not contribute to the +20 cap, but instead stack with no limit.
+
+Miscellaneous modifiers automatically apply when their conditions are met. These are often overlooked by players since most (all except the mounted penalty) are not included on the [[character sheet]]. The various miscellaneous modifiers are as follows.
+
+; Both melee and ranged
+* Attacker's [[size modifier]]. -2 to +2 AB
+* Attacker is [[invisible]] or target is [[blind]]. +2AB (unless negated by the target's [[blind fight]]ing)
+* Target cannot be seen (hidden, invisible, or out of visual range). -4AB
+* Target is [[flank]]ed. +2AB (unless negated by the target's [[defensive awareness]])
+* Target is [[stunned]]. +2AB
+The bonus for invisible attackers does not apply if the attacker can see through its own type of invisibility ''(a bug)''. 
+Being out of visual range typically only applies to [[non-player character]]s making ranged attacks in response to being attacked (since players cannot target creatures outside their characters' visual range).
+
+; Melee only
+* Target is [[prone]]. +4AB
+
+; Ranged only
+* Attacker is mounted. -4AB (or -2AB with [[mounted archery]])
+* Target is moving. -2AB
+* Target is prone. -4AB
+* Target is within 3.5 [[meter]]s of the attacker. -4AB (unless negated by [[point blank shot]])
+The mounted penalty only applies in modules that are designed with horses in mind and that have specifically turned on this penalty. 
+This particular penalty is unusual in that it does contribute to the net +20 cap, unlike other situational modifiers.
+
+== Decreasing AB ==
+
+The following spells can be used to directly decrease an enemy's attack bonus: 
+[[bane]], 
+[[battletide]], 
+[[Bigby's interposing hand]], 
+[[flare]], and 
+[[prayer]]. 
+<!--
+NOTE: I'm omitting the ways to decrease your own AB since those are prices to be paid, not usually an objective to be achieved.
+-->
+
+The following (class-specific) feats can be used to temporarily directly decrease an enemy's attack bonus: [[curse song]].
+
+== Increasing AB ==
+
+The following combat feats can be used to directly increase the attack bonus for a single attack (none subject to the cap): 
+[[disarm]] (if using a larger weapon), 
+[[smite evil]], and 
+[[smite good]].
+
+The following spells can be used to temporarily directly increase their targets' attack bonus (all subject to the +20 cap): 
+[[aid]], 
+[[awaken]], 
+[[battletide]], 
+[[blade thirst]], 
+[[bless]], 
+[[bless weapon]], 
+[[divine favor]], 
+[[divine power]], 
+[[greater magic fang]], 
+[[greater magic weapon]], 
+[[holy sword]], 
+[[magic fang]], 
+[[magic weapon]], 
+[[prayer]],
+[[Tenser's transformation]], 
+[[true strike]], and 
+[[war cry]].
+
+The following (class-specific) feats can be used to temporarily directly increase their targets' attack bonus (all subject to the +20 cap): 
+[[bard song]], 
+[[divine wrath]], 
+[[oath of wrath]], 
+[[rallying cry]], and 
+[[war domain]].
+
+The following [[general feat]]s directly increase attack bonus (none subject to the cap): 
+[[bane of enemies]] (ranger class only), 
+[[epic prowess]], 
+[[epic weapon focus]], 
+[[point blank shot]] (ranged combat only), and 
+[[weapon focus]].
+
+The following [[class feat|class]] and [[racial feat]]s directly increase attack bonus (none subject to the cap): 
+<!--
+NOTE: I've not qualified these as to who can use them and when they can be used because they are all restricted, and because (aside from opportunist), these feats are not directly chosen (so the qualifications would be more clutter than help).
+ -->
+[[battle training vs. goblins]], 
+[[battle training vs. orcs]], 
+[[battle training vs. reptilians]], 
+[[enchant arrow]], 
+[[epic superior weapon focus]], 
+[[good aim]], 
+[[nature sense]], 
+[[opportunist]], and 
+[[superior weapon focus]].
+[[category:game rules]]
+[[category:character development]]

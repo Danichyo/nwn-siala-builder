@@ -1,0 +1,23 @@
+{{feat
+|type=race
+|prereq=[[human]]
+|desc=Humans start with an extra [[feat]] at character generation.
+|use=automatic
+|icon=ife_qmaster.gif
+}}
+
+== Builder notes ==
+
+'''Item feat:''' no
+
+This feat is only an information source for players. As it has no effect in the game (and since [[non-player character|NPC]]s are not limited in the number of feats they can have anyway) the only reason to give ''quick to master'' to an NPC is if its [[character sheet]] will be visible to a player, such as is the case for a [[henchman]].
+
+== Custom content notes ==
+
+'''Removable:''' no, icon only
+
+'''Reusable:''' no, icon only
+
+'''Script:''' [[hardcoded]]
+
+The extra feat is hardcoded to line 6 in <code>[[racialtypes.2da]]</code>, so removing ''quick to master'' from humans will not remove the extra feat or the extra skill points gained by humans. Nor will giving ''quick to master'' to another race give that race an extra feat at character creation.

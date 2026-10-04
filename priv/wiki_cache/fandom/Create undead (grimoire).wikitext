@@ -1,0 +1,36 @@
+{{Grimoire spell|imagename=Is crundead.gif
+|spellname=Create Undead
+|casterlevel=[[Cleric]] 6, [[Death domain (grimoire)|Death]] 6, [[Evil domain (grimoire)|Evil]] 6, [[Sorcerer]] / [[Wizard (class)|Wizard]] 6
+|innatelevel=6
+|school=[[Necromancy]]
+|descriptors=Evil
+|components=V, S
+|range=Short
+|immunities=None
+|savingthrow=None
+|spellresistance=No
+|targettype=Single
+|duration=Permanent
+|description=The caster brings an undead creature into being. The type of undead is based upon the caster's level:}}
+{|border="1"
+|'''Caster Level'''||'''Type'''
+|-
+|11 and under||Ghoul
+|-
+|12-13||Shadow
+|-
+|14-15||Ghast
+|-
+|16-19||Wight
+|-
+|20+||Wraith
+|}
+
+Created undead are not automatically under the control of their animator.  You may attempt to command the undead as it forms.
+
+== Notes ==
+*{{Grimoire spell change|pagename=[[create undead]]}}
+{{g_clr}}
+{{g_death}}
+{{g_evil}}
+{{g_sorwiz}}

@@ -1,0 +1,20 @@
+[[Image:isk_x3_ride.png|right|Ride]]
+The character has spent time training to use a horse in combat, and can perform actions unskilled people cannot.
+
+*'''Ability:''' [[dexterity]]
+
+*'''Classes:''' [[arcane archer]], [[barbarian]], [[blackguard]], [[champion of Torm]], [[fighter]], [[paladin]], [[purple dragon knight]], [[ranger]]
+
+*'''[[Cross-class skill|Cross-class]]:''' yes
+
+*'''[[Untrained skill check|Requires training]]:''' no
+
+*'''Note:''' Horses and the ride skill are only used in the [[premium module]] "Neverwinter Nights - Wyvern Crown of Cormyr" and specific community-made modules.
+
+==Notes==
+
+*Added in the 1.69 [[patch]].
+* One cannot take [[skill focus]] or [[epic skill focus]] in this skill. (This is probably an oversight.)
+*See also [[mounted combat]] and [[horse riding]].
+
+[[category:skills]]

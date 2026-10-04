@@ -1,0 +1,26 @@
+{{otheruses|the spell|the feat|Ghostly visage (feat)}}
+
+{{spell
+|icon=is_ghostvis.gif
+|bardlevel=2
+|magelevel=2
+|innatelevel=2
+|school=[[illusion]]
+|components=VS
+|range=p
+|area=caster
+|save=harmless
+|spellresistance=no
+|duration=1 [[turn]] / level
+|line=Visages
+|line2=ghostly visage
+|line5=ethereal visage
+|desc=The caster is surrounded by a ghostly nimbus of light that grants [[damage reduction]] 5/+1, [[spell immunity|prevents]] all spells of level 1 or lower from affecting the caster, and grants 10% [[concealment]].}}
+
+== Notes ==
+* Spell immunity does not block all spells, just the ones that check [[spell resistance]].
+
+== Custom content notes ==
+* ''script:'' <code>nw_s0_ghostvis</code>
+==External links==
+*{{FRW}}

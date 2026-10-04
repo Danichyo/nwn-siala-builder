@@ -1,0 +1,23 @@
+{{spell
+|icon=is_circdeath.gif
+|magelevel=6
+|innatelevel=6
+|school=[[necromancy]]
+|components=VS
+|range=m
+|area=<del>colossal</del> {{AoE|large}}
+|save=[[fortitude]] negates
+|spellresistance=yes
+|immunity=death
+|duration=instant
+|counters=<del>[[death ward]]</del>
+|desc=A wave of negative energy bursts from the target location. A number of enemy creatures equal to 1[[d4]] per caster level must make a [[fortitude]] save or die, beginning with those creatures with the lowest [[hit dice]]. Creatures with 9 or more hit dice are unaffected.}}
+
+== Notes ==
+
+* Contrary to the in-game description, the area of effect is large, not colossal.
+*Due to a .2da bug, ''circle of death'' is not an additional [[counterspell]] of ''death ward''.
+
+== Custom content notes ==
+
+* ''Script:'' <code>NW_S0_CircDeath</code>

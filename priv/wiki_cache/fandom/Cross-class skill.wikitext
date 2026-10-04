@@ -1,0 +1,7 @@
+A '''cross-class skill''' is a [[skill]] that is at best tangentially related to the role of a given [[class]], making it harder for that class to learn that skill. The opposite of a cross-class skill is a [[class skill]].
+The difference between "class" and "cross-class" is determined based on the class being advanced during [[level-up]].
+
+It takes two [[skill point]]s to add a [[rank]] in a cross-class skill. (Unlike [[pencil-and-paper]] D&D, ''[[Neverwinter Nights]]'' does not track half ranks.)
+The highest the ranks in a cross-class skill can be raised to is ([[character level]] + 3)/2, rounded down (which is half of the limit for class skills). A cross-class skill may be higher than this limit if it was raised as a class skill earlier, but it may not be raised higher during the current level-up.
+[[Category:Skills| Cross-class skill]]
+[[Category:Game rules]]

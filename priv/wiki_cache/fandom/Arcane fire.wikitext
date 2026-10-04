@@ -1,0 +1,12 @@
+'''Type of Feat''': [[Class]]
+
+'''Prerequisite''': [[Archmage]] level 1
+
+'''Specifics''': The [[Archmage]] gains the ability to change [[arcane]] spell energy into arcane fire, manifesting it as a bolt of raw magical energy. The bolt is a ranged [[touch attack]] with long range that deals 1d6 points of damage per class level of the [[archmage]] plus 1d6 points of damage per level of the spell used to create the effect. 
+
+'''Use''': Selected. 
+
+==Notes==
+*Added in the [[PRC Expansion Pack]].
+
+[[Category:PRC feats]]

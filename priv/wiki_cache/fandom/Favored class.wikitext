@@ -1,0 +1,13 @@
+A [[favored class]] is a [[race]]'s preferred class. When [[Class#Multiclassing|multiclassing]], it helps avoid a [[multiclass penalty]].
+
+The favored classes for each race are as follows:
+
+*[[Human]]: Any. The character's highest-level class does not count when determining multiclass penalties.
+*[[Half-Elf]]: Any. The character's highest-level class does not count when determining multiclass penalties.
+*[[Elf]]: [[Wizard]]
+*[[Dwarf]]: [[Fighter]]
+*[[Halfling]]: [[Rogue]]
+*[[Gnome]]: [[Wizard]]
+*[[Half-Orc]]: [[Barbarian]]
+[[Category:Neverwinter Nights]]
+[[Category:Classes| Favored class]]

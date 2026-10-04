@@ -1,0 +1,28 @@
+{{feat
+|icon=ife_dmtool10.gif
+|type=instant custom
+|prereq=none
+|desc=All [[Dungeon Master|DM]] characters start with this instant feat. This feat does nothing unless implemented in a community-made [[module]]. The feat is implemented by editing the <code>x3_dm_tool##</code> [[script]] in the [[Toolset]].
+|use=selected
+}}
+
+== Notes ==
+
+* Added in [[patch]] 1.69.
+* There are ten of these feats &mdash; DM tool 1 to DM tool 10.
+* The intent of these feats is to relieve the reliance upon [[item]]s to give DMs easy access to certain custom scripts. They also eliminate the activation animation associated with item use. A DM can select any of these tools from the [[radial menu]], then select a target (which could be ignored, depending on the implementation), thereby initiating whatever actions the module builder associated with that tool.
+
+== Builder notes ==
+
+'''Item feat:''' yes, but ineffective 
+
+Access to these feats is hardcoded into the graphical interface for DMs, and all DMs automatically have these feats.
+So the only use in putting this feat on an item would be to give ordinary players access to these tools. However, players have no way to activate these tools unless the various <code>[[cls_feat_*.2da]]</code> files are edited.
+
+== Custom content notes ==
+
+'''Removable:''' no (DM interface is hardcoded)
+
+'''Reusable:''' yes (no default behavior)
+
+'''Scripts:''' <code>x3_dm_tool01</code> through <code>x3_dm_tool10</code>

@@ -1,0 +1,23 @@
+{{Grimoire spell|imagename=Is scare.jpg
+|spellname=Scare
+|casterlevel=[[Bard]] 2, [[Hatred domain (grimoire)|Hatred]] 2, [[Sorcerer]] / [[Wizard (class)|Wizard]] 2
+|innatelevel=2
+|school=[[Necromancy]]
+|descriptors=Fear, Mind-Affecting
+|components=V, S
+|range=Medium
+|immunities=Fear, Mind-Affecting
+|savingthrow=[[Will]] partial
+|spellresistance=Yes
+|targettype=One living creature per 3 levels, in a 30 ft. radius sphere
+|duration=1 [[round]] / level
+|description=
+
+This spell functions like ''[[cause fear]]'', except that it causes all targeted creatures of less than 6 HD to become [[frightened]].
+}}
+==Notes==
+This spell is the actual ''scare'' spell defined by the Player's Handbook and [[SRD]].  The [[Scare|original scare]] spell that shipped with the game is actually an implementation of the ''[[cause fear]]'' spell.
+[[Category:Grimoire changes]]
+{{g_bard}}
+{{g_hatred}}
+{{g_sorwiz}}

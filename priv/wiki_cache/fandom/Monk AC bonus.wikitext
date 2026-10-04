@@ -1,0 +1,28 @@
+{{feat
+|type=class
+|prereq=[[monk]] 1
+|desc=Monks add their [[wisdom]] [[modifier]] to their [[armor class]].
+|use=automatic
+|icon=ife_monkac.gif
+|class=monk
+}}
+
+== Notes ==
+
+*This feat never gives a penalty to AC for a negative wisdom modifier.
+*Monks do not lose this AC bonus when they become [[flat-foot]]ed.
+*Monks do lose this AC bonus when wearing [[armor]] or using a [[shield]].
+
+==Builder notes==
+
+'''Item feat:''' No, but it can be added with custom content.
+
+==Custom content notes==
+
+'''Removable:''' yes
+
+'''Reusable:''' No, it is linked to the monk class.
+
+'''Script:''' hardcoded
+
+*This feat can be added to [[iprp_feats.2da]] to make it available as an item feat. However, it will only work for monks, so it is pointless unless the feat progress table is changed.

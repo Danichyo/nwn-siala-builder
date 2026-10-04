@@ -1,0 +1,35 @@
+{{spell
+|icon=is_prisspray.gif
+|magelevel=7
+|innatelevel=7
+|school=[[evocation]]
+|components=VS
+|range=s
+|area=spellcone
+|conesize=11
+|save=special
+|spellresistance=yes
+|immunity=special
+|duration=instant
+|line=Colors
+|line1=color spray
+|line7=prismatic spray
+|desc=All [[creature]]s within the [[area of effect]] randomly experience 1 or 2 of the following [[effect]]s:
+* 20 [[fire damage]] ([[reflex]])
+* 40 [[acid damage]] (reflex)
+* 80 [[electrical damage]] (reflex)
+* Struck with [[bebilith venom]] poison ([[fortitude]])
+* [[Paralyze]]d for 10 [[round]]s (fortitude)
+* [[Confused]] for 10 rounds ([[will]] vs. mind-affecting)
+* Struck dead (will vs. death magic)
+}}
+
+==Notes==
+*The [[saving throw]] type is noted above with each effect.
+**Successful saves result in 1/2 damage for reflex saves and effect negation for fortitude and will saves.
+**Bebilith venom is a fixed DC 20 save vs. poison.
+*The chance of a target receiving two effects is 1 in 8.
+*Additionally, any creature with 8 [[hit dice]] or less is [[blind]]ed for one round per caster level (no save).
+
+==Custom content notes==
+*''script:'' <code>NW_S0_PrisSpray.nss</code>

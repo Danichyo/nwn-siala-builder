@@ -1,0 +1,23 @@
+{{spell
+|icon=is auravital.gif
+|druidlevel=7
+|domain=war
+|domainlevel=7
+|innatelevel=7
+|school=[[transmutation]]
+|components=VS
+|range=<s>short</s> touch
+|save=harmless
+|area=colossal
+|duration=1 [[round]] / level
+|desc=All allies within the [[area of effect]] receive a +4 bonus to [[constitution]], [[dexterity]], and [[strength]].}}
+
+==Notes==
+* If the caster rests while one or more targets of this spell are low on [[hit point]]s, the sudden removal of the constitution bonus may reduce the targets' hit points below 1, killing them.
+* The spell may be targeted within the touch range and a visual effect will play at the target point, but the actual area of effect is centered on the caster.
+
+==Custom content notes==
+
+*''Script:'' <code>NW_S0_AuraVital.nss</code>
+==External links==
+*{{FRW}}

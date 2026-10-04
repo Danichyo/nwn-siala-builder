@@ -1,0 +1,24 @@
+{{feat
+|type=race
+|prereq=[[dwarf]], [[gnome]]
+|desc=This feat grants a +4 dodge bonus to [[armor class|AC]] against [[giant]]s.
+|use=automatic
+|icon=ife train.gif
+}}
+
+== Notes ==
+
+*This feat works against all [[creature]]s with the "giant" [[race|racial type]].
+*The AC bonus is called "dodge", but it is actually one of the "[[armor class#Other sources of AC|other]]" sources of AC; it is not lost when [[flat-foot]]ed, and it stacks (uncapped) with all AC bonuses.
+
+== Builder notes ==
+'''Item feat:''' No, but it can be added with custom content.
+
+== Custom content notes ==
+'''Removable:''' yes
+
+'''Reusable:''' yes
+
+'''Script:''' hardcoded
+
+*This feat can be added to [[iprp_feats.2da]] to make it available as an item feat.

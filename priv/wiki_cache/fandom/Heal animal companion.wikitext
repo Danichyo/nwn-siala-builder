@@ -1,0 +1,20 @@
+{{Grimoire spell|imagename=Is healancmp.jpg
+|spellname=Heal Animal Companion
+|casterlevel=[[Druid]] 5, [[Ranger]] 3
+|innatelevel=3
+|school=[[Conjuration]] ([[Spell subschool|Healing]])
+|descriptors=None
+|components=V, S
+|range=[[Touch attack|Touch]]
+|immunities=None
+|savingthrow=None
+|spellresistance=Yes (harmless)
+|targettype=Single
+|duration=Instantaneous
+|description=''Heal animal companion'' enables the caster to wipe away [[disease]] and injury in one of his or her own animal companions. It completely cures all diseases, [[blind]]ness, or [[deaf]]ness of the animal companion, cures all points of damage suffered due to wounds or injury, and repairs temporary ability damage. It cures mental disorders caused by spells or injury to the brain.
+}}
+== Note ==
+*Heal animal companion does not remove negative levels, restore drained levels, or restore drained ability scores.
+{{g_drd}}
+{{g_rgr}}
+{{g_subhea}}

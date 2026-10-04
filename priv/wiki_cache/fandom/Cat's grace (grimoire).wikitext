@@ -1,0 +1,21 @@
+{{Grimoire spell|imagename=Is catgrace.gif
+|spellname=Cat's Grace
+|casterlevel=[[Bard]] 2, [[Grimoire domains#Domains to be added|Celerity]] 2, [[Grimoire domains#Domains to be added|Elf]] 2, [[Halfling domain (grimoire)|Halfling]] 2, [[Sorcerer]] / [[Wizard (class)|Wizard]] 2
+|innatelevel=2
+|school=[[Transmutation]]
+|descriptors=None
+|components=V, S
+|range=[[touch attack|Touch]]
+|immunities=None
+|savingthrow=Harmless
+|spellresistance=No
+|targettype=Single
+|duration=1 [[hour]] / level
+|description=The target creature's Dexterity is increased by 1d4+1.
+}}
+
+== Notes ==
+*{{Grimoire spell change|pagename=[[Cat's grace]]}}
+{{g_bard}}
+{{g_halfling}}
+{{g_sorwiz}}

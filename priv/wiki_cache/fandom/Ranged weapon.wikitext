@@ -1,0 +1,13 @@
+A '''ranged weapon''' refers to an [[item]] which can be used to perform an [[attack roll]] and are primarily for the purpose of attacking at a distance (i.e., while not in [[melee]] combat).
+
+== Notes ==
+
+* Ranged weapons either can be missile weapons, which consume [[ammunition]], or can be [[throwing weapon]]s, which consume the weapon itself.
+* Ranged weapons with unlimited ammunition will not accept alternative ammunition in the appropriate item slot for use.
+* If a ranged weapon is used in melee, the attacker suffers a -4 penalty to the attack roll and provokes an [[attack of opportunity]]. The penalty, but not the attack of opportunity, can be eliminated by taking the [[point blank shot]] feat.
+* If the target is running, the attacker suffers a -2 penalty to the attack roll.
+* If the target is [[prone]], the attacker suffers a -4 penalty to the attack roll.
+* No ranged weapon may be wielded in the [[off-hand slot]], nor can any weapon be wielded in the off-hand when a ranged weapon is in the main hand. That is, [[dual-wield]]ing is not an option with ranged weapons.
+
+'''See also:''' [[:Category:Ranged weapons]]
+[[Category:Weapons| Ranged weapon]]

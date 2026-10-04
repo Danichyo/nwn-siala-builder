@@ -1,0 +1,12 @@
+*'''Ability''': [[Charisma]]
+
+*'''Classes''': All
+
+*'''Requires training''': No
+
+*'''Check''': If you attack an opponent using the [[Iaijutsu attack]], you can deal extra damage, based on the result of an Iaijutsu Focus Check. 
+
+==Notes==
+*Added with the [[PRC Expansion Pack]].
+
+[[Category:PRC skills]]

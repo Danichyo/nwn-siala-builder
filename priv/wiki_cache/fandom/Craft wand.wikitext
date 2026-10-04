@@ -1,0 +1,525 @@
+{{feat
+|type=item creation
+|prereq=spellcaster level 5+
+|desc=The spellcaster can create a [[wand]] of any spell of fourth [[innate level|level]] or lower that he knows. Crafting a wand costs a small amount of [[experience point|XP]] and gold, depending on the level of the spell to be crafted into the wand. A newly created wand has 1[[d20]] + 1 [[charge]] per [[caster level|level]] of the <del>character</del> ''caster'' (up to a maximum of 50 charges). The cost for crafting a wand depends on the level of the spell as well as the [[caster level|level]] of the resulting wand.<br />
+Some examples:
+* A wand of [[magic missile]] (5) will cost 3750 gold and 150 XP.
+* A wand of [[Melf's acid arrow]] (5) will cost 7500 gold and 300 XP.
+* A wand of [[fireball]] (5) will cost 11250 gold and 450 XP.
+|use=selected (In order to craft a wand, the character has to cast the spell in question on a specially crafted [[bone wand]].)
+|icon=ife_x2craftwand.gif
+|bonus1=wizard
+}}
+
+== Notes ==
+
+* Requires [[Hordes of the Underdark]].
+* In order to take this feat, a character must be taking [[class level|level]] five or higher in a class with a [[spellbook]] or in [[shifter]].
+* Spells granted by feats or special abilities cannot be used to craft a wand. 
+* The bone wand needed to use this feat may be directly available in modules created with the [[Hordes of the Underdark]] expansion, such as the Hordes of the Underdark campaign. Bone wands can also be crafted from large bones if a [[difficulty class|DC]] 13 [[craft weapon]] [[skill check|check]] is passed. These large bones are dropped by many skeletons and other standard skeletal creatures (even in older modules, including all [[official campaign]]s) whenever the creature's killer has a craft weapon or [[craft armor]] skill of at least 6.
+* When casting a spell on a bone wand, all [[metamagic]] aspects are ignored.
+* The number of charges depends on [[caster level]], rather than the character level mentioned in this feat's description. In addition, a [[module]] builder can specify that all crafted wands have 50 charges, regardless of caster level.
+* Subspells (e.g. ''protection from evil'') will produce a wand of the master spell (e.g. ''protection from alignment'') that can then be used to cast any subspell of that master spell. This is of particular note with ''[[shadow conjuration]]'', as its subspells have different crafting costs.
+* It is the innate level of a spell, not the spell level for a particular class, that determines if the spell can be used with this feat (and the associated costs). These often coincide, but not always. For subspells, the innate level of the master spell will be used, with the exception of ''shadow conjuration'' for which the innate level of the subspell is used.
+* There are some spells that are blocked from this feat. Most of the blocked spells have a range of "personal", but not most of the personal spells are blocked. ''See the table at the end of this article for a list of those spells that can be used with this feat.''
+* The costs of crafting are calculated as follows, with the caveat that cantrips (level 0 spells) are treated as level 1 spells for this calculation. ''A full listing of costs is in the table at the end if this article.''
+** GP:  caster level (of the wand) &times; innate level &times; 750
+** XP:  caster level (of the wand) &times; innate level &times; 30
+* A crafted wand is usable only by the discipline ([[arcane]] or [[divine]]) that crafted it. Wands created by divine casters are usable by clerics, druids, paladins, and rangers, while those created by arcane casters are usable by bards, sorcerers, and wizards.
+* The crafting PC must have enough XP to craft the wand without losing a level, otherwise the crafting will fail.
+
+== Custom content notes ==
+
+*A custom class must have this feat in their feat list, or that class will not be able to select it as a [[general feat]].
+* Some functionality of this feat is controlled via <code>[[des_crft_spells.2da]]</code>.
+* This feat is implemented by the [[script]] <code>x2_pc_craft</code>, which is a wrapper for the functions defined in <code>x2_inc_craft</code>.
+*The maximum spell level that can be crafted into a wand is controlled by the scripting constant <code>X2_CI_CRAFTWAND_MAXLEVEL</code> (defined in <code>x2_inc_craft</code>, compiled via <code>x2_pc_craft</code>).
+**Even if the spell level limit is raised, the spells ''[[dirge]]'' and ''[[elemental swarm]]'' cannot be used to craft a wand without a .2da change.
+* To specify the 50-charge option, set the [[local variable]] <code>X2_SWITCH_ENABLE_50_WAND_CHARGES</code> on the module to a nonzero integer value, or uncomment (or add) the line<br /><code>SetModuleSwitch (MODULE_SWITCH_ENABLE_CRAFT_WAND_50_CHARGES, TRUE);</code><br />in the [[OnModuleLoad event]] [[event handler|handler]].
+
+== Craft wand costs ==
+
+The following table lists the spells that can be used with this feat, along with the caster level of the resulting item and the associated costs. The final column indicates the classes that can use the spell with this feat, with a special designator ("C<sub>d</sub>") indicating if clerics can use the spell with this feat but only have access to it through [[domain]]s.
+
+{| class="compacttable sortable" 
+ |+ Craft wand costs 
+ |- 
+  ! Spell 
+  ! Innate level 
+  ! Caster level 
+  ! Gold 
+  ! XP 
+  ! class="unsortable" | Classes 
+{{magiccraftrow
+ |spell=[[Acid splash]] |innate=0 |caster=1 |gp=750 |xp=30
+ |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Aid]] |innate=2 |caster=3 |gp=4500 |xp=180
+ |cleric=yes |paladin=yes| ranger=yes}}
+{{magiccraftrow
+ |spell=[[Amplify]] |innate=1 |caster=5 |gp=3750 |xp=150
+ |bard=yes}}
+{{magiccraftrow
+ |spell=[[Animate dead]] |innate=3 |caster=15 |gp=33750 |xp=1350
+ |cleric=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Balagarn's iron horn]] |innate=2 |caster=7 |gp=10500 |xp=420
+ |bard=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Bane]] |innate=1 |caster=5 |gp=3750 |xp=150
+ |cleric=yes}}
+{{magiccraftrow
+ |spell=[[Barkskin]] |innate=2 |caster=12 |gp=18000 |xp=720
+ |cleric=domain |druid=yes}}
+{{magiccraftrow
+ |spell=[[Bestow curse]] |innate=3 |caster=5 |gp=11250 |xp=450
+ |bard=yes |cleric=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Blade thirst]] |innate=3 |caster=12 |gp=27000 |xp=1080
+| ranger=yes}}
+{{magiccraftrow
+ |spell=[[Bless]] |innate=1 |caster=2 |gp=1500 |xp=60
+ |cleric=yes |paladin=yes}}
+{{magiccraftrow
+ |spell=[[Bless weapon]] |innate=1 |caster=6 |gp=4500 |xp=180
+ |paladin=yes}}
+{{magiccraftrow
+ |spell=[[Blindness/deafness]] |innate=2 |caster=3 |gp=4500 |xp=180
+ |bard=yes |cleric=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Bull's strength]] |innate=2 |caster=15 |gp=22500 |xp=900
+ |bard=yes |cleric=yes |druid=yes |paladin=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Burning hands]] |innate=1 |caster=5 |gp=3750 |xp=150
+ |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Call lightning]] |innate=3 |caster=10 |gp=22500 |xp=900
+ |cleric=domain |druid=yes}}
+{{magiccraftrow
+ |spell=[[Cat's grace]] |innate=2 |caster=15 |gp=22500 |xp=900
+ |bard=yes |cleric=domain| ranger=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Charm monster]] |innate=3 |caster=10 |gp=22500 |xp=900
+ |bard=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Charm person]] |innate=1 |caster=10 |gp=7500 |xp=300
+ |bard=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Charm person or animal]] |innate=2 |caster=10 |gp=15000 |xp=600
+ |druid=yes}}
+{{magiccraftrow
+ |spell=[[Clairaudience/clairvoyance]] |innate=3 |caster=15 |gp=33750 |xp=1350
+ |bard=yes |cleric=domain |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Clarity]] |innate=2 |caster=3 |gp=4500 |xp=180
+ |bard=yes |cleric=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Cloud of bewilderment]] |innate=2 |caster=3 |gp=4500 |xp=180
+ |bard=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Color spray]] |innate=1 |caster=2 |gp=1500 |xp=60
+ |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Combust]] |innate=2 |caster=3 |gp=4500 |xp=180
+ |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Confusion]] |innate=3 |caster=10 |gp=22500 |xp=900
+ |bard=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Contagion]] |innate=3 |caster=5 |gp=11250 |xp=450
+ |cleric=yes |druid=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Continual flame]] |innate=2 |caster=7 |gp=10500 |xp=420
+ |cleric=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Cure critical wounds]] |innate=4 |caster=7 |gp=21000 |xp=840
+ |bard=yes |cleric=yes |druid=yes}}
+{{magiccraftrow
+ |spell=[[Cure light wounds]] |innate=1 |caster=5 |gp=3750 |xp=150
+ |bard=yes |cleric=yes |druid=yes |paladin=yes| ranger=yes}}
+{{magiccraftrow
+ |spell=[[Cure minor wounds]] |innate=0 |caster=1 |gp=750 |xp=30
+ |bard=yes |cleric=yes |druid=yes}}
+{{magiccraftrow
+ |spell=[[Cure moderate wounds]] |innate=2 |caster=10 |gp=15000 |xp=600
+ |bard=yes |cleric=yes |druid=yes |paladin=yes| ranger=yes}}
+{{magiccraftrow
+ |spell=[[Cure serious wounds]] |innate=3 |caster=15 |gp=33750 |xp=1350
+ |bard=yes |cleric=plusdomain |druid=yes |paladin=yes| ranger=yes}}
+{{magiccraftrow
+ |spell=[[Darkfire]] |innate=3 |caster=5 |gp=11250 |xp=450
+ |cleric=yes}}
+{{magiccraftrow
+ |spell=[[Darkness (spell)|Darkness]] |innate=2 |caster=3 |gp=4500 |xp=180
+ |bard=yes |cleric=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Daze]] |innate=0 |caster=1 |gp=750 |xp=30
+ |bard=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Deafening clang]] |innate=1 |caster=6 |gp=4500 |xp=180
+ |paladin=yes}}
+{{magiccraftrow
+ |spell=[[Death armor]] |innate=2 |caster=3 |gp=4500 |xp=180
+ |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Death ward]] |innate=4 |caster=7 |gp=21000 |xp=840
+ |cleric=yes |druid=yes |paladin=yes}}
+{{magiccraftrow
+ |spell=[[Dismissal]] |innate=4 |caster=18 |gp=54000 |xp=2160
+ |bard=yes |cleric=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Dispel magic]] |innate=3 |caster=10 |gp=22500 |xp=900
+ |bard=yes |cleric=yes |druid=yes |paladin=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Displacement]] |innate=3 |caster=9 |gp=20250 |xp=810
+ |bard=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Dominate animal]] |innate=3 |caster=5 |gp=11250 |xp=450
+ |druid=yes}}
+{{magiccraftrow
+ |spell=[[Dominate person]] |innate=4 |caster=7 |gp=21000 |xp=840
+ |bard=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Doom]] |innate=1 |caster=5 |gp=3750 |xp=150
+ |cleric=yes}}
+{{magiccraftrow
+ |spell=[[Eagle's splendor]] |innate=2 |caster=15 |gp=22500 |xp=900
+ |bard=yes |cleric=yes |paladin=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Electric jolt]] |innate=0 |caster=1 |gp=750 |xp=30
+ |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Elemental shield]] |innate=4 |caster=12 |gp=36000 |xp=1440
+ |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Endurance]] |innate=2 |caster=3 |gp=4500 |xp=180
+ |cleric=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Endure elements]] |innate=1 |caster=2 |gp=1500 |xp=60
+ |cleric=yes |druid=yes |paladin=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Enervation]] |innate=4 |caster=7 |gp=21000 |xp=840
+ |cleric=domain |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Entangle (spell)|Entangle]] |innate=1 |caster=5 |gp=3750 |xp=150
+ |cleric=domain |druid=yes| ranger=yes}}
+{{magiccraftrow
+ |spell=[[Evard's black tentacles]] |innate=4 |caster=15 |gp=45000 |xp=1800
+ |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Fear (spell)|Fear]] |innate=3 |caster=5 |gp=11250 |xp=450
+ |bard=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Find traps]] |innate=3 |caster=3 |gp=6750 |xp=270
+ |bard=yes |cleric=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Fireball]] |innate=3 |caster=10 |gp=22500 |xp=900
+ |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Flame arrow]] |innate=3 |caster=18 |gp=40500 |xp=1620
+ |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Flame lash]] |innate=2 |caster=10 |gp=15000 |xp=600
+ |druid=yes}}
+{{magiccraftrow
+ |spell=[[Flame strike]] |innate=4 |caster=18 |gp=54000 |xp=2160
+ |cleric=yes |druid=yes}}
+{{magiccraftrow
+ |spell=[[Flame weapon]] |innate=2 |caster=3 |gp=4500 |xp=180
+ |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Flare]] |innate=0 |caster=1 |gp=750 |xp=30
+ |bard=yes |druid=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Fox's cunning]] |innate=2 |caster=15 |gp=22500 |xp=900
+ |bard=yes |cleric=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Freedom of movement]] |innate=4 |caster=7 |gp=21000 |xp=840
+ |cleric=plusdomain |druid=yes |paladin=yes | ranger=yes}}
+{{magiccraftrow
+ |spell=[[Gedlee's electric loop]] |innate=2 |caster=3 |gp=4500 |xp=180
+ |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Ghostly visage]] |innate=2 |caster=15 |gp=22500 |xp=900
+ |bard=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Ghoul touch]] |innate=2 |caster=3 |gp=4500 |xp=180
+ |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Glyph of warding]] |innate=3 |caster=5 |gp=11250 |xp=450
+ |cleric=yes}}
+{{magiccraftrow
+ |spell=[[Grease]] |innate=1 |caster=2 |gp=1500 |xp=60
+ |bard=yes |druid=yes| ranger=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Greater magic weapon]] |innate=3 |caster=5 |gp=11250 |xp=450
+ |bard=yes |cleric=yes |paladin=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Gust of wind]] |innate=3 |caster=10 |gp=22500 |xp=900
+ |bard=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Hammer of the gods]] |innate=4 |caster=20 |gp=60000 |xp=2400
+ |cleric=yes}}
+{{magiccraftrow
+ |spell=[[Haste (spell)|Haste]] |innate=3 |caster=10 |gp=22500 |xp=900
+ |bard=yes |cleric=domain |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Healing sting]] |innate=3 |caster=5 |gp=11250 |xp=450
+ |druid=yes}}
+{{magiccraftrow
+ |spell=[[Hold animal]] |innate=2 |caster=3 |gp=4500 |xp=180
+ |druid=yes| ranger=yes}}
+{{magiccraftrow
+ |spell=[[Hold monster]] |innate=4 |caster=7 |gp=21000 |xp=840
+ |bard=yes |druid=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Hold person]] |innate=2 |caster=3 |gp=4500 |xp=180
+ |bard=yes |cleric=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Holy sword]] |innate=4 |caster=15 |gp=45000 |xp=1800
+ |paladin=yes}}
+{{magiccraftrow
+ |spell=[[Horizikaul's boom]] |innate=1 |caster=2 |gp=1500 |xp=60
+ |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Ice dagger]] |innate=1 |caster=2 |gp=1500 |xp=60
+ |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Ice storm]] |innate=4 |caster=9 |gp=27000 |xp=1080
+ |bard=yes |cleric=domain |druid=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Identify]] |innate=2 |caster=3 |gp=4500 |xp=180
+ |bard=yes |cleric=domain |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Improved invisibility]] |innate=4 |caster=7 |gp=21000 |xp=840
+ |bard=yes |cleric=domain |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Infestation of maggots]] |innate=3 |caster=5 |gp=11250 |xp=450
+ |druid=yes}}
+{{magiccraftrow
+ |spell=[[Inflict critical wounds]] |innate=4 |caster=12 |gp=36000 |xp=1440
+ |cleric=yes}}
+{{magiccraftrow
+ |spell=[[Inflict light wounds]] |innate=1 |caster=5 |gp=3750 |xp=150
+ |cleric=yes}}
+{{magiccraftrow
+ |spell=[[Inflict minor wounds]] |innate=0 |caster=1 |gp=750 |xp=30
+ |cleric=yes}}
+{{magiccraftrow
+ |spell=[[Inflict moderate wounds]] |innate=2 |caster=7 |gp=10500 |xp=420
+ |cleric=yes}}
+{{magiccraftrow
+ |spell=[[Inflict serious wounds]] |innate=3 |caster=9 |gp=20250 |xp=810
+ |cleric=yes}}
+{{magiccraftrow
+ |spell=[[Invisibility (spell)|Invisibility]] |innate=2 |caster=3 |gp=4500 |xp=180
+ |bard=yes |cleric=domain |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Invisibility sphere]] |innate=3 |caster=5 |gp=11250 |xp=450
+ |bard=yes |cleric=domain |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Ironguts]] |innate=1 |caster=2 |gp=1500 |xp=60
+ |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Isaac's lesser missile storm]] |innate=4 |caster=13 |gp=39000 |xp=1560
+ |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Keen edge]] |innate=3 |caster=5 |gp=11250 |xp=450
+ |bard=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Knock]] |innate=2 |caster=3 |gp=4500 |xp=180
+ |cleric=domain |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Lesser dispel]] |innate=2 |caster=5 |gp=7500 |xp=300
+ |bard=yes |cleric=yes |druid=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Lesser restoration]] |innate=2 |caster=3 |gp=4500 |xp=180
+ |cleric=yes |druid=yes}}
+{{magiccraftrow
+ |spell=[[Lesser spell breach]] |innate=4 |caster=7 |gp=21000 |xp=840
+ |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Light]] |innate=0 |caster=5 |gp=3750 |xp=150
+ |bard=yes |cleric=yes |druid=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Lightning bolt]] |innate=3 |caster=10 |gp=22500 |xp=900
+ |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Mage armor]] |innate=1 |caster=2 |gp=1500 |xp=60
+ |bard=yes |cleric=domain |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Magic circle against alignment]] |innate=3 |caster=5 |gp=11250 |xp=450
+ |bard=yes |cleric=yes |paladin=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Magic missile]] |innate=1 |caster=9 |gp=6750 |xp=270
+ |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Magic vestment]] |innate=3 |caster=5 |gp=11250 |xp=450
+ |cleric=yes}}
+{{magiccraftrow
+ |spell=[[Magic weapon]] |innate=1 |caster=2 |gp=1500 |xp=60
+ |bard=yes |cleric=yes |paladin=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Mass camouflage]] |innate=4 |caster=13 |gp=39000 |xp=1560
+ |druid=yes| ranger=yes}}
+{{magiccraftrow
+ |spell=[[Melf's acid arrow]] |innate=2 |caster=9 |gp=13500 |xp=540
+ |cleric=domain |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Mestil's acid breath]] |innate=3 |caster=5 |gp=11250 |xp=450
+ |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Negative energy burst]] |innate=3 |caster=10 |gp=22500 |xp=900
+ |cleric=domain |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Negative energy protection]] |innate=3 |caster=15 |gp=33750 |xp=1350
+ |cleric=yes}}
+{{magiccraftrow
+ |spell=[[Negative energy ray]] |innate=1 |caster=9 |gp=6750 |xp=270
+ |cleric=plusdomain |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Neutralize poison]] |innate=3 |caster=5 |gp=11250 |xp=450
+ |bard=yes |cleric=yes |druid=yes |paladin=yes| ranger=yes}}
+{{magiccraftrow
+ |spell=[[Owl's wisdom]] |innate=2 |caster=15 |gp=22500 |xp=900
+ |bard=yes |cleric=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Phantasmal killer]] |innate=4 |caster=7 |gp=21000 |xp=840
+ |cleric=domain |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Poison (spell)|Poison]] |innate=3 |caster=5 |gp=11250 |xp=450
+ |cleric=plusdomain |druid=yes}}
+{{magiccraftrow
+ |spell=[[Polymorph self]] |innate=4 |caster=7 |gp=21000 |xp=840
+ |cleric=domain| ranger=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Prayer]] |innate=3 |caster=5 |gp=11250 |xp=450
+ |cleric=yes |paladin=yes}}
+{{magiccraftrow
+ |spell=[[Protection from alignment]] |innate=1 |caster=2 |gp=1500 |xp=60
+ |bard=yes |cleric=yes |paladin=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Protection from elements]] |innate=3 |caster=10 |gp=22500 |xp=900
+ |cleric=yes |druid=yes| ranger=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Quillfire]] |innate=3 |caster=8 |gp=18000 |xp=720
+ |druid=yes}}
+{{magiccraftrow
+ |spell=[[Ray of enfeeblement]] |innate=1 |caster=2 |gp=1500 |xp=60
+ |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Ray of frost]] |innate=0 |caster=1 |gp=750 |xp=30
+ |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Remove blindness/deafness]] |innate=3 |caster=5 |gp=11250 |xp=450
+ |cleric=yes |paladin=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Remove curse]] |innate=3 |caster=5 |gp=11250 |xp=450
+ |bard=yes |cleric=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Remove disease]] |innate=3 |caster=5 |gp=11250 |xp=450
+ |bard=yes |cleric=yes |druid=yes| ranger=yes}}
+{{magiccraftrow
+ |spell=[[Remove fear]] |innate=1 |caster=2 |gp=1500 |xp=60
+ |cleric=yes}}
+{{magiccraftrow
+ |spell=[[Remove paralysis]] |innate=2 |caster=3 |gp=4500 |xp=180
+ |cleric=yes |paladin=yes}}
+{{magiccraftrow
+ |spell=[[Resist elements]] |innate=2 |caster=10 |gp=15000 |xp=600
+ |cleric=yes |druid=yes |paladin=yes| ranger=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Resistance]] |innate=1 |caster=5 |gp=3750 |xp=150
+ |bard=yes |cleric=yes |druid=yes |paladin=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Restoration]] |innate=4 |caster=7 |gp=21000 |xp=840
+ |cleric=yes}}
+{{magiccraftrow
+ |spell=[[Sanctuary]] |innate=1 |caster=2 |gp=1500 |xp=60
+ |cleric=yes}}
+{{magiccraftrow
+ |spell=[[Scare]] |innate=1 |caster=2 |gp=1500 |xp=60
+ |bard=yes |cleric=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Scintillating sphere]] |innate=3 |caster=5 |gp=11250 |xp=450
+ |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Searing light]] |innate=3 |caster=5 |gp=11250 |xp=450
+ |cleric=plusdomain}}
+{{magiccraftrow
+ |spell=[[See invisibility]] |innate=2 |caster=3 |gp=4500 |xp=180
+ |bard=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Shadow conjuration]]<br />(darkness and invisibility) |innate=2 |caster=7 |gp=10500 |xp=420
+ |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Shadow conjuration]]<br />(mage armor and magic missile) |innate=1 |caster=7 |gp=5250 |xp=210
+ |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Shadow conjuration]]<br />(summon shadow) |innate=4 |caster=7 |gp=21000 |xp=840
+ |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Shelgarn's persistent blade]] |innate=1 |caster=2 |gp=1500 |xp=60
+ |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Shield (spell)|Shield]] |innate=1 |caster=5 |gp=3750 |xp=150
+ |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Shield of faith]] |innate=1 |caster=5 |gp=3750 |xp=150
+ |cleric=yes}}
+{{magiccraftrow
+ |spell=[[Silence (spell)|Silence]] |innate=2 |caster=3 |gp=4500 |xp=180
+ |bard=yes |cleric=yes}}
+{{magiccraftrow
+ |spell=[[Sleep (spell)|Sleep]] |innate=1 |caster=5 |gp=3750 |xp=150
+ |bard=yes |druid=yes| ranger=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Slow (spell)|Slow]] |innate=3 |caster=5 |gp=11250 |xp=450
+ |bard=yes |cleric=domain |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Sound burst]] |innate=2 |caster=3 |gp=4500 |xp=180
+ |bard=yes |cleric=yes }}
+{{magiccraftrow
+ |spell=[[Spike growth]] |innate=3 |caster=9 |gp=20250 |xp=810
+ |druid=yes}}
+{{magiccraftrow
+ |spell=[[Stinking cloud]] |innate=3 |caster=5 |gp=11250 |xp=450
+ |cleric=domain |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Stone bones]] |innate=2 |caster=3 |gp=4500 |xp=180
+ |cleric=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Stoneskin]] |innate=4 |caster=7 |gp=21000 |xp=840
+ |cleric=domain |druid=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Summon creature I]] |innate=1 |caster=5 |gp=3750 |xp=150
+ |bard=yes |cleric=yes |druid=yes| ranger=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Summon creature II]] |innate=2 |caster=3 |gp=4500 |xp=180
+ |bard=yes |cleric=yes |druid=yes| ranger=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Summon creature III]] |innate=3 |caster=5 |gp=11250 |xp=450
+ |bard=yes |cleric=yes |druid=yes| ranger=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Summon creature IV]] |innate=4 |caster=7 |gp=21000 |xp=840
+ |bard=yes |cleric=yes |druid=yes| ranger=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Tasha's hideous laughter]] |innate=2 |caster=7 |gp=10500 |xp=420
+ |bard=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Ultravision]] |innate=2 |caster=6 |gp=9000 |xp=360
+ |bard=yes |cleric=yes |druid=yes| ranger=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Vampiric touch]] |innate=3 |caster=5 |gp=11250 |xp=450
+ |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Virtue]] |innate=0 |caster=1 |gp=750 |xp=30
+ |cleric=yes |druid=yes |paladin=yes}}
+{{magiccraftrow
+ |spell=[[Wall of fire]] |innate=4 |caster=9 |gp=27000 |xp=1080
+ |cleric=domain |druid=yes |sorcerer=yes |wizard=yes }}
+{{magiccraftrow
+ |spell=[[Web]] |innate=2 |caster=3 |gp=4500 |xp=180
+ |cleric=domain |sorcerer=yes |wizard=yes }}
+|}
+[[category:feats restricted by class]]

@@ -1,0 +1,51 @@
+A '''saving throw''' (or '''save''') is an attempt by a [[character]] to partially or fully negate the harmful results of various [[spell]]s or special attacks (rather than &mdash; or after &mdash; attempting to negate the spell itself, as with [[spell resistance]]). Not all spells and attacks allow a save; those that do make a note to that effect in their descriptions. The descriptions will also detail the consequences of successful and failed saves.
+
+"Saving throw" can also refer to the numeric ratings used by a character when making this attempt.
+
+There are three types of saving throws in [[Neverwinter Nights]] &mdash; [[fortitude]], [[reflex]], and [[will]]. These represent a character's ability to physically withstand, physically avoid, and mentally withstand the various attacks that allow a save.
+Every character has a numeric rating for each of these types of saves, with the rating being the sum of the [[base save]] (based on [[class level]]s), associated [[ability modifier]], and any bonuses that may be granted by [[feat]]s, [[effect]]s, and equipped [[item]]s.
+The [[character sheet]] lists this sum for each type of save.
+
+Some saving throw bonuses may apply to only certain subtypes of saves (as in the "versus death" part of "fortitude saving throw versus death"). In addition, [[spellcraft]] can provide a bonus when a save is made against a spell. The character sheet does not include these bonuses, but their effects may be seen in the combat log when such saves are attempted.
+Furthermore, saves versus [[disease]], [[fear]], [[mind-affecting]], [[poison]], and [[trap]]s are automatically successful if the one rolling the save is immune to the subtype in question. (There is an exception for poison and disease if the immunity comes from a [[feat]] and the saving throw is not the one to resist the application or effects of an actual disease or poison [[effect]].)
+
+A cap of +20 exists on saving throws (directly) increased by means of the spellcraft modifier, magical equipment, spells, or spell-like feats. Some non-spell-like feats &mdash; [[arcane defense]] and [[sacred defense]] &mdash; also count towards the cap, while others &mdash; [[iron will]], [[dark blessing]], and [[divine grace]] &mdash; do not. Indirect bonuses, such as from increasing the associated ability, do not count towards this cap.
+
+== Rolling ==
+
+Each spell/attack that allows a saving throw has an associated [[difficulty class]] (DC) rating. When the save is attempted, a [[d20]] is rolled by the creature making the attempt, and the numeric rating (modified as appropriate for the subtype of save and spellcraft) is added to the roll.
+If the die roll was 20 before adding the saving throw rating (a "natural 20"), then the save succeeds (is made). If it was 1 before modification (a "natural 1") and the "autofailure" setting is on, then the save fails.
+If neither of these apply, then the save succeeds if (and only if) the sum of the die roll and saving throw rating is equal to or greater than the DC.
+
+Another way to describe this process is to say that a die is ''thrown'' in an attempt to ''save'' the character from the harmful result. Hence the origin of the term "saving throw".
+
+The autofailure setting is controlled by the line starting with
+ Saving Throw Automatic Failure On 1=
+in <code>[[nwnplayer.ini]]</code>. If a zero follows the equal sign, autofailure is off. If a one follows the equal sign, autofailure is on. In [[multiplayer]], this setting is defined by the [[server]]'s copy of this file.
+In either case, "autosuccess" when rolling a 20 cannot be turned off.
+
+'''Example:'''
+
+For example, a character triggers an average tangle [[trap]]. The DC to avoid the effect is 25 and the required save type is reflex.
+The character rolls a d20, adds the reflex base save, adds the [[dexterity]] modifier, and lastly adds any bonuses that would affect this saving throw.
+If the modified roll
+is greater than or equal to 25 then the character avoids the trap's [[slow]] effect, but
+if it is less than 25 then the character is slowed.
+However, if the character's die
+showed a 20 (before modification) then the throw succeeds, even if the modified roll was less than 25, and
+if it showed a 1 then the throw fails, even if the modified roll was greater than or equal to 25.
+
+== Throws for spells ==
+
+Spells have a variable DC based on the caster. See [[difficulty class]] for more information.
+Saving throw bonuses/penalties versus spells occur not only when the spell saving throw type is used, but also against any standard spell or monster ability.  Saves made after the initial script comes to completion (e.g. delayed command, lasting area of effect) will need to use the spell saving throw type to include these bonuses/penalties.  
+
+== Custom content notes ==
+
+* The [[function]] <code>MySavingThrow()</code>, defined in the [[script]] <code>nw_i0_spells</code>, is used throughout spell scripts to incorporate visual effects into saving throw successes and failures. This function changes the automatic success by virtue of immunity into an automatic failure. The intent is that an effect of the associated type would then be applied, which would trigger an immunity message to the player. However, this means that spells that allow a save versus a subtype, but that do not apply an effect of that type, need to make an extra check with <code>[[GetIsImmune]]()</code> to give the appropriate message (and to avoid applying harmful effects) each time <code>MySavingThrow()</code> is used. ([[Tasha's hideous laughter]], for example, is a spell where this is not correctly performed.)
+
+== See also ==
+
+* [[:Category:Saving throws]]
+[[category:game rules]]
+[[category:character development]]

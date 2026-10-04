@@ -1,0 +1,27 @@
+{{feat
+|icon=ife sap.gif
+|type=general
+|prereq=[[base attack bonus]] +1, [[called shot]], ''spellcaster level 100''
+|reqfor=<del>[[stunning fist]]</del>
+|desc=A [[character]] with this feat is able to make a special stun attack in [[melee]]. He makes an [[attack roll]] with a -4 penalty, and if the hit successfully deals damage, the defender must make a [[discipline]] [[skill check|check]] with a [[difficulty class|DC]] equal to the attacker's attack roll. If the defender fails, he or she is [[dazed]] for 12 seconds.
+|use=selected
+}}
+
+==Notes==
+
+* This feat will only work on large-sized creatures or smaller.
+* This feat is not available to [[player character]]s. Sap was given an impossible prerequisite (level 100 spellcaster), effectively removing it from the feats available to PCs. (Consequentially, it was removed as a prerequisite for ''stunning fist''.)
+
+==Builder notes==
+
+'''Item feat:''' No, but it can be added with custom content.
+
+==Custom content notes==
+
+'''Removable:''' yes
+
+'''Reusable:''' yes
+
+'''Script:''' hardcoded
+
+*Sap can be made available for PCs, and it works fine as an item feat, but be aware that [[BioWare]] removed this feat because it was too unbalanced. Re-adding it to the game might not be a good idea.

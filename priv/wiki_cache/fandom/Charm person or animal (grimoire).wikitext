@@ -1,0 +1,20 @@
+{{Grimoire spell|imagename=Is charmani.gif
+|spellname=Charm Person or Animal
+|casterlevel=[[Druid]] 2
+|innatelevel=2
+|school=[[Enchantment]] ([[Spell subschool|Charm]])
+|descriptors=Mind-Affecting
+|components=V, S
+|range=Short
+|immunities=Charm, Mind-Affecting
+|savingthrow=[[Will]] negates
+|spellresistance=Yes
+|targettype=Single
+|duration=1 [[hour]] / level
+|description=In the eyes of the target animal or humanoid, the personal [[reputation]] of the caster is improved by 50%.
+}}
+
+== Notes ==
+*{{Grimoire spell change|pagename=[[Charm person or animal]]}}
+{{g_drd}}
+{{g_subcha}}

@@ -1,0 +1,16 @@
+{{feat
+|type=class
+|prereq=[[blackguard]] 8
+|desc=Starting at eighth level, a blackguard may cast [[inflict critical wounds]].
+|use=selected
+|icon=is_x1infcri.gif
+|class1=blackguard
+}}
+
+== Notes ==
+* Added in the [[expansion pack]]s.
+* This ability may be used once per [[day]].
+* The [[difficulty class|DC]] for this feat is 10 + blackguard level + [[constitution]] [[modifier]].
+
+==Custom content notes==
+*''script:'' <code>X0_S0_Inflict.nss</code>

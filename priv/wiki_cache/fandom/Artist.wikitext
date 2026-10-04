@@ -1,0 +1,14 @@
+{{feat
+|type=general
+|prereq=Can only take this feat at 1st-level, ''[[perform]] skill''
+|desc=Character gains a +2 bonus on [[perform]] and [[spot]] checks.
+|use=automatic
+|icon=ife_x1art.gif
+}}
+
+==Notes==
+*Added in the [[expansion pack]]s.
+*This feat's official description fails to mention the requirement of having the perform skill. The requirement implies that only characters starting as bards may take this feat.
+*This feat also grants a +2 bonus to [[persuade]].
+
+[[category:First level feats]]

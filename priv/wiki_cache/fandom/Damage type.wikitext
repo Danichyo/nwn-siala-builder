@@ -1,0 +1,19 @@
+'''Damage types''' are classifications of injury, representing different manners by which [[hit point]]s are reduced. In terms of game mechanics, the type of damage is used to determine which defenses (and weaknesses) apply in any given situation.
+
+Some damage types are purely physical (i.e. [[bludgeoning damage|bludgeoning]], [[slashing damage|slashing]], [[piercing damage|piercing]]), others are elemental (i.e. [[acid damage|acid]], [[cold damage|cold]], [[electrical damage|electrical]], [[fire damage|fire]]), some are energy related (i.e. [[sonic damage|sonic]], [[positive energy damage|positive]], [[negative energy damage|negative]]), and others are related to magic (i.e. [[divine damage|divine]], and [[magical damage|magical]]).
+The non-physical damage types are reported by the game in colored text.
+
+Damage is affected by defenses in the order
+# [[immunity]] (or vulnerability),
+# [[damage resistance]], then
+# [[damage reduction]].
+The first two only apply if the defense is rated for the damage type being inflicted. Damage reduction only applies against physical damage types.
+One exception to this rule is that the bonus damage from a non-physical [[damage increase]] effect is not affected by any form of immunity or resistance.
+
+This order of defenses enhances the value of damage immunity, as immunity works as a percentage while the other defenses protect against a set amount of damage. (If reduction and resistance were applied first, then the total damage to which immunity applied would be smaller. So the same percentage of a smaller number would result in a smaller amount of damage prevented via immunity.)
+
+== See also ==
+
+* [[:Category:Damage types]]
+
+[[category:game rules]]

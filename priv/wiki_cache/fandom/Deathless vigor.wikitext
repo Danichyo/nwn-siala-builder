@@ -1,0 +1,13 @@
+{{feat
+|type=class
+|prereq=[[pale master]] 5
+|desc=The pale master gains +3 [[hit point]]s per [[class level|level]].
+|use=automatic
+|icon=ife_x2spdthvig.gif
+|class1=pale master
+}}
+
+== Notes ==
+*Requires [[Hordes of the Underdark]].
+* The bonus hit points are not retroactive, nor do they extend into [[epic class]] levels; this feat gives an extra 3 hit points at each pale master level from 5 to 10.
+*Epic pale masters (level 11+) get 5 bonus hit points every 5 levels (at 15, 20, 25, and 30).

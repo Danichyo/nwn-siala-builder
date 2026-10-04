@@ -1,0 +1,16 @@
+[[Image:Acidbomb.gif|left]]
+This small vial contains a highly reactive acid. When smashed, it will explode into a cloud of acid fog.
+<br clear="both" />
+
+Anyone hit by this grenade-like weapon will suffer 10[[d6]] points of [[acid damage]].
+
+==Notes==
+* Introduced in the [[Hordes of the Underdark]] [[expansion pack]].
+* The grenade will not affect friendly creatures nor neutral [[non-player character]]s who are not associates of [[player character]]s (the "standard" hostile targeting scheme).
+* A ranged [[touch attack]] is performed to see if the acid bomb hits; damage is doubled on a [[critical hit]].
+* There is additionally "splash damage" of 1 acid damage to each valid target (including the original target) within a {{AoE|huge}} area.
+
+==Custom content notes==
+*''script:'' <code>X2_S3_Bomb</code>
+[[Category:Grenade-like weapons]]
+[[Category:Item powers]]

@@ -1,0 +1,16 @@
+[[Image:Sword diagram.jpg|right|Sword diagram]]
+A '''sword''' is a [[bladed weapon]] that is used to [[slashing damage|slash]] (and sometimes [[piercing damage|pierce]]) opponents.
+Swords can come in many varieties; those defined in [[Neverwinter Nights]] include [[bastard sword]]s, [[greatsword]]s, [[longsword]]s, [[shortsword]]s, [[rapier]]s, [[scimitar]]s, and [[katana]]s.
+(A [[dagger]] is not considered a sword due to it being too small.)
+
+The components of a sword are the following.
+; Pommel
+: Used to stop the hand from sliding off the end as well as providing some counter-balancing to the blade.
+; Hilt
+: The handle of the sword, usually wrapped in leather or wool to provide a good grip.
+; Guard
+: The metal piece that keeps your opponent's weapon from cutting the hand.
+; Blade
+: The sharpened length of the weapon for which it gets its name.
+When setting a sword's appearance in the [[Toolset]], the hilt and pommel are modified together, resulting in only three components to customize.
+[[Category:Weapons]]

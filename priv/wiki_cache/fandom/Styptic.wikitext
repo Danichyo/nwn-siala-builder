@@ -1,0 +1,16 @@
+{{Grimoire spell|imagename=Is styptic.jpg
+|spellname=Styptic
+|casterlevel=[[Cleric]] 0
+|innatelevel=0
+|school=[[Conjuration]] (Healing)
+|descriptors=None
+|components=S
+|range=[[Touch attack|Touch]]
+|immunities=None
+|savingthrow=[[Will]] negates (harmless)
+|spellresistance=Yes (harmless)
+|targettype=Single
+|duration=Instantaneous
+|description=The target of this spell immediately stops bleeding from any wounds it has suffered from slashing or piercing weapons or wounding effects. The spell also immediately stabilizes a creature that is dying as a result of such injuries. Styptic has no effect on injuries resulting from other types of damage, or on conditions that do not deal hit point damage.<br>
+}}
+{{g_clr}}

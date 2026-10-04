@@ -1,0 +1,20 @@
+{{Grimoire spell|imagename=Is x1banish.gif
+|spellname=Banishment
+|casterlevel=[[Cleric]] 6, [[Grimoire domains#Domains to be added|Portal]] 6, [[Grimoire domains#Domains to be added|Retribution]] 6, [[Sorcerer]] / [[Wizard (class)|Wizard]] 7
+|innatelevel=6
+|school=[[Abjuration]]
+|descriptors=None
+|components=V, S
+|range=Short
+|immunities=None
+|savingthrow=[[Will]] negates
+|spellresistance=Yes
+|targettype=One or more extraplanar creatures within a 15 ft. radius of the target
+|duration=Instantaneous
+|description=A more powerful version of ''[[Dismissal (grimoire)|dismissal]]'', the caster can affect up to 2HD per caster level of extraplanar creatures, banishing them back to their home plane.
+}}
+
+== Notes ==
+*{{Grimoire spell change|pagename=[[Banishment]]}}
+{{g_clr}}
+{{g_sorwiz}}

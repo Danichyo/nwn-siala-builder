@@ -1,0 +1,61 @@
+'''Detect mode''' represents a creature actively trying to find something that is hidden, using the [[listen]], [[search]], and [[spot]] skills. (When not using this mode, a creature is considered to be passively noticing things that are hidden, represented by halving their detection skills.) It is not possible to run in this mode, and if combined with other situations that prohibit running, the creature's [[movement rate]] is reduced below a normal walk.
+It is toggled on and off with the "Detect" option (rightmost) from the "Special Abilities" submenu (leftmost) in the radial menu (speed dial: 046).
+
+[[Elf|Elves]] receive the [[keen sense]] feat, which causes them to always receive the benefits of detect mode, but without a movement speed decrease.
+
+A creature that is standing still gains the benefits of detect mode, even if not actually in that mode.
+
+Some players, particularly [[roleplay]]ers, use this mode to force their characters to not run. There are other ways to prevent running (shift-click to move, for example), but detect mode may be the most convenient method for non-elven characters.
+
+== Details ==
+
+The workings of detect mode are hardcoded, but a couple of posts by the game's programmers in the official forums have revealed much of the hidden workings of detection.<ref>[http://nwn.bioware.com/forums/viewtopic.html?topic=549835&forum=42&sp=15#4835662 Some BioWarians discussed the normally hidden components of detect mode] (There is more than one BioWare post.)</ref> The details are as follows.
+
+'''Passive (default) mode'''<br>
+:''Trap detection radius:'' 3.33 [[meter]]s
+:''Trap detection rate:'' 6 seconds (every [[round]])
+:''Trap detection roll:'' [[d20]] + full skill ''(since at least version 1.68; probably a bug)''
+:''Spot/listen roll:'' d10 + half skill
+
+'''Active (detect) mode'''<br>
+:''Trap detection radius:'' 6.66 meters
+:''Trap detection rate:'' 3 seconds (twice per round)
+:''Trap detection roll:'' d20 + full skill
+:''Spot/listen roll:'' d20 + full skill
+
+'''Stealth checks'''<br>
+:''Player detects stealth:'' 5 times per second
+:''NPC detects stealth:'' 4 seconds<br>
+:''Creatures roll for hide/move silently/spot/listen:'' every 6 seconds
+'''Listen/Move Silently:'''
+* Automatically cannot detect silenced creatures 
+* Can only detect invisible (or when you're blind) creatures within the max attack range.
+* Cannot hear sanctuaried creatures
+* If there is something between you and the target (including creatures) there's a modifier of +5 DC for every 40cm of thickness in outdoor areas
+* In indoor areas, if the LOS is blocked and the target is within 4 tiles (dfs search) there's a modifier of +2 DC
+* Area listen check modifiers
+* +10 DC if you are in combat
+* +5 DC if the target is standing still
+* -5 DC if you are standing still 
+* +1 DC for every 3 meters of distance to the target 
+* Relative size modifiers (Tiny: +8, Small: +4, Medium: 0, Large: -4, Huge: -8)
+* Favoured enemy bonuses
+
+'''Spot/Hide In Shadows:'''
+* Automatically cannot detect invisible creatures
+* Automatically cannot detect anything while blinded
+* Area spot check modifiers
+* During Night, if you do not have a light on you (including weapon lights and darkvision) there is a +5 DC modifier
+* During Night, if the target has a light on them, there is a -10 DC modifier
+* For stealthed players only, there is a +5 DC if they are in the back arc
+* +10 DC if you are in combat
+* +5 DC if the target is standing still
+* -5 DC if you are standing still
+* Relative size modifiers (Tiny: +8, Small: +4, Medium: 0, Large: -4, Huge: -8)
+* Favoured enemy bonuses
+
+The detect rate is shorter than the rate of making rolls in part because there are situational modifiers that can change between rolls. When a roll is made, the unmodified result is recorded for use with all checks that are performed before the next roll is made.
+
+== References ==
+<references />
+[[Category:Skills| Detect]]

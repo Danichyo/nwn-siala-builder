@@ -1,0 +1,26 @@
+{{feat
+|type=general
+|prereq=[[dexterity]] 13+, [[intelligence]] 13+, [[expertise]], [[dodge]], [[mobility]], [[spring attack]], [[base attack bonus]] +4
+|reqfor=[[improved whirlwind attack]], [[weapon master]]
+|desc=The character performs a full attack action, and makes one melee attack at full base attack bonus against each opponent within 5 feet.
+|use=selected
+|icon=ife_x2wwndatt.gif
+|bonus1=champion of Torm
+|bonus2=fighter
+}}
+
+== Notes ==
+
+* Requires [[Hordes of the Underdark]].
+* A character performing a whirlwind attack cannot be [[flank]]ed.
+* It is not possible to execute a [[sneak attack]] or a [[death attack]] when using this feat.
+* If whirlwind attack is used against exactly three targets, the attacker will lock up, becoming unable to attack or perform actions. This bug only occurs when the game ([[server]] in multiplayer) is running under Linux or the Mac operating system. (It had been a bug under Windows as well, but was fixed for that operating system.)
+* Some multiplayer servers disable this feat because some builders believe it contributes to lag.
+
+=== Previous versions ===
+
+* Prior to version 1.69, the attacks were not made with the full base attack bonus; each successive attack had a cumulative -5 modifier to the attack bonus.
+
+== Custom content notes ==
+
+* ''script:'' <code>x2_s2_whirl</code>

@@ -1,0 +1,9 @@
+{{feat
+|type=class
+|prereq=[[assassin]] 1, [[blackguard]] 1
+|desc=The character is trained in the use of [[poison (item)|poison]] and never has to make a [[dexterity]] check when applying poison to a blade.
+|use=automatic
+|icon=ife_x2usepoison.gif
+|class1=assassin
+|class2=blackguard
+}}

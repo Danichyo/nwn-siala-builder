@@ -1,0 +1,55 @@
+'''Description:''' ([[prestige class|PRESTIGE CLASS]])  The Duelist is a nimble, intelligent fighter trained in making precise attacks with light weapons, such as the [[rapier]]. Also known as the swashbuckler, the Duelist always takes full advantage of his quick reflexes and wits in a fight. Rather than wearing bulky armor, Duelists feel that the best way to protect themselves is to not get hit at all. 
+
+'''[[Hit die]]''':  d10
+
+'''Proficiencies''': weapons ([[weapon proficiency (martial)|martial]], [[weapon proficiency (simple)|simple]])
+
+'''[[Skill point]]s''': 4 + [[intelligence]] modifier
+
+'''Skills''': [[bluff]], [[discipline]], [[iaijutsu focus]], [[jump]], [[listen]], [[parry]], [[perform]], [[spot]], [[tumble]]
+
+'''[[Saving throw|Primary saving throw(s)]]''': [[reflex]]
+
+'''[[Base attack bonus|Base attack bonus progression]]''':  1 BAB per level
+
+== Requirements ==
+
+'''[[Base attack bonus]]''': +6 
+
+'''[[Skill]]s''': [[tumble]] 5 Ranks, [[perform]] 3 ranks
+
+'''[[Feat]]s''': [[dodge]], [[mobility]], [[weapon finesse]], weapon proficiency ([[weapon proficiency (martial)|martial]], [[weapon proficiency (simple)|simple]], or [[weapon proficiency (rogue)|rogue]])
+
+== Special abilities & feats ==
+*Level 1 [[Canny defense]]
+*Level 2 [[Thug]]
+*Level 3 [[Spring attack]]
+*Level 4 [[Grace]] (+2) 
+*Level 5 [[Precise strike]] (+1d4) 
+*Level 6 [[Acrobatic attack]] (+2) 
+*Level 7 [[Elaborate parry]] 
+*Level 8 [[Improved initiative]] 
+*Level 9 [[Deflect arrows]] 
+*Level 10 Precise strike (+2d4) 
+
+
+==Epic duelist ==
+You have become the epitome of graceful, precise lethality. In your hands, a light piercing weapon transforms into a glittering blur of razor sharp steel able to turn any blow and strike past any defense. 
+
+
+*Level 13 Acrobatic attack (+4)
+*Level 15 Precise strike (+3d4) 
+*Level 20 Precise strike (+4d4), acrobatic attack (+6)
+*Level 25 Precise strike (+5d4) 
+*Level 27 Acrobatic attack (+8)
+*Level 30 Precise strike (+6d4)
+
+
+'''Bonus feats''':  13, 16, 19, 22, 25, 28
+
+'''Epic bonus feats''':  [[blinding speed]], [[epic prowess]], [[epic reputation]], [[epic skill focus]], [[epic weapon focus]], [[epic reflexes]], [[improved whirlwind attack]], [[superior initiative]], [[greater two-weapon fighting]], [[great dexterity]]
+
+==Notes==
+*Requires the [[PRC Expansion Pack]].
+*A duelist loses canny defense, precise strike, and grace while wearing any armor or shield.
+[[Category:PRC classes]]

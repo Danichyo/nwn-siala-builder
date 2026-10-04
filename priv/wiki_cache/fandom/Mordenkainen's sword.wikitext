@@ -1,0 +1,20 @@
+{{spell
+|icon=is_mordswrd.gif
+|magelevel=7
+|innatelevel=7
+|school=[[transmutation]]
+|components=VS
+|range=s
+|area=point
+|save=none
+|spellresistance=no
+|duration=1 [[round]] / level
+|line=Weapon summons
+|line1=Shelgarn's persistent blade
+|line7=Mordenkainen's sword
+|line9=Black blade of disaster
+|desc=The caster summons a powerful, sword-wielding [[helmed horror (summon)|helmed horror]] that acts as a faithful and loyal servant.}}
+
+==Custom content notes==
+*''script:'' <code>NW_S0_MordSwrd</code>
+[[category:summoning]]

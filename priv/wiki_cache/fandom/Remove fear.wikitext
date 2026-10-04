@@ -1,0 +1,20 @@
+{{spell
+|icon=is_rmvfear.gif
+|clericlevel=1
+|innatelevel=1
+|school=[[abjuration]]
+|components=VS
+|range=s
+|area=large
+|areanote=, 1 creature / 4 levels
+|save=harmless
+|spellresistance=no
+|duration=10 [[turn]]s
+|counters=<del>[[fear (spell)|fear]]</del>
+|desc=All [[fear]] effects are removed from allies within the area of effect. The targets also gain a +4 bonus to [[saving throw]]s against fear [[spell]]s and [[effect]]s for the duration of the spell.}}
+
+==Notes==
+* Due to a .2da bug, ''fear'' is not an additional [[counterspell]] of this spell.
+
+==Custom content notes==
+*''script:'' <code>NW_S0_RmvFear.nss</code>

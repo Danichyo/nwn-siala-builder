@@ -1,0 +1,12 @@
+'''Type of Feat''': [[General]]
+
+'''Prerequisite''': [[Dex]] 13, [[Point Blank Shot]]
+
+'''Specifics''': You may spend a [[round]] to aim a target, and receive a +2 to [[attack roll]] the next round. You may aim for up to 3 consecutive rounds, gaining a maximum of +6, but you only make a single attack.
+
+'''Use''': Selected.
+
+==Notes==
+*Added in the [[PRC Expansion Pack]].
+
+[[Category:PRC feats]]

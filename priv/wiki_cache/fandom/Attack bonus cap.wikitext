@@ -1,0 +1,6 @@
+The '''attack bonus cap''' in [[Neverwinter Nights]] is +20, the maximum bonus to [[attack roll]]s a character can gain through magic.
+This includes bonuses on a weapon ([[enhancement bonus]] and [[attack bonus (item property)|attack bonus]]), as well as bonuses from all [[spell]]s and spell-like abilities. (In particular, ''[[true strike]]'' by itself reaches the cap.)
+
+Passive [[feat]]s (ones that a player does not need to specifically activate) do not count towards the cap, nor do combat feats (those activated for a single attack, such as [[smite evil]], as well as [[combat mode]]s, albeit no combat modes provide a bonus to attack). The remaining activated feats do count towards the cap, as they technically fall into the category of spell-like abilities.
+
+[[category:Game rules]]

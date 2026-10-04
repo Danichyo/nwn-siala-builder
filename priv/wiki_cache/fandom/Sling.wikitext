@@ -1,0 +1,23 @@
+{{Weapon|imagefile=Sling.jpg
+  |weaponname=Sling
+  |weapondescription=The '''sling''' is an ancient [[weapon]]; a simple construction that is little more than a small pouch attached to a leather or fabric strip, combined with [[bullet|suitable ammunition]].
+  |weight=1
+  |cost=1
+  |damage=1d4
+  |critical=x2
+  |damagetype=[[bludgeoning damage|Bludgeoning]]
+  |size=Small
+  |proficiency=[[Weapon proficiency (druid)|Druid]]<br/>&nbsp;[[Weapon proficiency (monk)|Monk]]<br/>&nbsp;[[Weapon proficiency (simple)|Simple]] <br/>&nbsp;[[Weapon proficiency (rogue)|Rogue]] 
+  |category=
+}}
+
+==Notes==
+* Slings can be used with a [[shield]].
+* Like [[bow]]s, the sling is automatically [[mighty]] +0, granting no bonus damage for high [[strength]] (in the absence of an explicit ''mighty'' property), but enforcing a damage penalty for low strength.
+* A sling is considered a [[throwing weapon]] for the [[good aim]] feat.
+
+==Toolset==
+* Slings are listed in the [[sling blueprint category]] on the [[item palette]] in the [[Toolset]].
+[[Category:Ranged weapons]]
+[[Category:Simple weapons]]
+[[Category:Throwing weapons]]

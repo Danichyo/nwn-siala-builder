@@ -1,0 +1,30 @@
+{{feat
+|epic=yes
+|type=general
+|prereq=21st level, [[dexterity]] 25+, <del>[[dodge]]</del>, [[tumble]] 30 [[skill rank|rank]]s, [[improved evasion]], [[defensive roll]]
+|desc=The character avoids the first attack each [[round]].
+|use=automatic
+|icon=ife_x2epicdodge.gif
+|bonus1=rogue
+|bonus2=shadowdancer
+}}
+
+==Notes==
+
+*Requires [[Hordes of the Underdark]].
+*The in-game description incorrectly lists ''dodge'' as a prerequisite.
+* The combat round is from the dodger's perspective; "first" is relative to when the dodger begins a round of combat.
+*This feat causes a character to automatically avoid the first ''successful'' attack in a round, not simply the first attack, where a successful attack is one that would deal physical damage after accounting for damage [[immunity]], [[damage resistance|resistance]] and [[damage reduction|reduction]].
+** Due to a bug, an unsuccessful [[attack of opportunity]] or [[riposte]] can trigger the use of ''epic dodge''.
+* Occasionally (when combined with [[parry]]), epic dodge may be shifted to a different successful attack in the same [[flurry]] as the first successful attack. The end result is typically the same, though.
+*The ''defensive roll'' and ''improved evasion'' requirements imply a [[player character|PC]] must have one of the following class level combinations in order to qualify for ''epic dodge'':
+** 13 [[rogue]] levels,
+** 10 [[shadowdancer]] levels,
+** 10 rogue and 5 shadowdancer levels,
+** 9 [[monk]] and 10 rogue levels, or
+** 9 monk and 5 shadowdancer levels.
+
+===Older versions===
+
+*Prior to version 1.69, only a single rank in [[tumble]] was required.
+* Prior to 1.88.8193.36-11, this feat could trigger against an unsuccessful attack if that attack used a feat, such as  ''[[ki damage]]'', ''[[called shot]]'', or ''[[knockdown]]''.

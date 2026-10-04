@@ -1,0 +1,30 @@
+{{spell
+|icon=is_grspturn.gif
+|magelevel=9
+|innatelevel=9
+|school=[[abjuration]]
+|components=VS
+|range=p
+|area=caster
+|save=none
+|spellresistance=no
+|duration=1 [[round]] / level
+|counters=<del>[[greater spell breach]]</del>
+|line=Spell mantle
+|line5=lesser spell mantle
+|line7=spell mantle
+|line9=greater spell mantle
+|desc=Creates a barrier around the caster that [[spell level absorption|absorbs]] all incoming spells. It can absorb up to 1[[d12]]+10 levels of spells before collapsing.}}
+
+== Notes ==
+
+* Mantles do not absorb all spells, just the ones that check spell resistance.
+* This spell replaces earlier castings of itself, and it also displaces earlier castings of ''lesser spell mantle'' and ''spell mantle''.
+*The empowered version of ''[[spell mantle]]'' also occupies a level 9 [[spell slot]] but absorbs 13-24 spell levels before collapsing (more than the 11-22 absorbed by this spell). Mages with the [[empower spell]] feat &mdash; particularly [[sorcerer]]s, who have a limited spell selection &mdash; may want to use ''spell mantle'' (empowered) instead of this spell.
+* Due to a .2da bug, ''greater spell breach'' is not an additional [[counterspell]] of this spell.
+
+== Custom content notes ==
+* ''script:'' <code>NW_S0_GrSpMant</code>
+==External links==
+*{{FRW}}
+* {{NWN2W|Spell Mantle, Greater}}

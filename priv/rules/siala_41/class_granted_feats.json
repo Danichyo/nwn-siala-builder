@@ -1,0 +1,20 @@
+{
+  "_layer": "siala_41",
+  "_note": "Сиальская половина `vanilla/class_granted_feats.json` (задача 4.27): записи ложатся поверх ванильных по ключу `feat` (`Loader.Layers.merge/3` — тот же приём, что у `feat_resistance_bonuses.json` и `overrides.json`). Здесь лежит только отличие шарда; запись, которая ни на что не легла, роняет сборку. Источник отличий — хак шарда (`priv/hak/2da/`, `kind: \"hak\"`): что исполняет клиент Сиалы.",
+  "grants": [
+    {
+      "feat": "mount_actions",
+      "classes": [],
+      "status": "verified",
+      "quote": "166 FEAT_HORSE_MENU 1089 3 60 0",
+      "source": {
+        "kind": "hak",
+        "table": "cls_feat_barb.2da",
+        "row": 166,
+        "sha1": "a410772d36a9e279d0b6050a92d7537ca95c9a76",
+        "fetched": "2026-08-27"
+      },
+      "note": "Ваниль выдаёт Mount actions на 1-м уровне всех 11 базовых классов (cls_feat_*.2da базовой игры, List 3, GrantedOnLevel 1). Хак шарда присылает свои копии всех 11 таблиц, и в каждой та же строка FEAT_HORSE_MENU (FeatIndex 1089, List 3) стоит с GrantedOnLevel 60 и OnMenu 0: cls_feat_barb.2da:166 (цитата — эта строка целиком), cls_feat_bard.2da:169, cls_feat_cler.2da:107, cls_feat_druid.2da:172, cls_feat_fight.2da:343, cls_feat_monk.2da:157, cls_feat_pal.2da:193, cls_feat_rang.2da:156, cls_feat_rog.2da:123, cls_feat_sorc.2da:143, cls_feat_wiz.2da:118. Уровень класса 60 на Сиале недостижим (кап персонажа 41), из радиального меню фит убран, — значит, в пределах капа его не выдаёт никто, и `classes: []` записывает ровно это, а не догадку: будь кап выше 60, запись пришлось бы переписать (тест сверяет обе половины с таблицами).\n\n⚠️ Лошади на Сиале есть — навык «Верховая езда» работает с экспаншена 23.09.2023, у Паладина и Чёрного стража свои поправки езды, — но ездят там системой шарда, а не ванильным меню Mount Actions. Паладинского Summon Mount в cls_feat_pal.2da хака нет вовсе (в базовой игре — строка 197, уровень 5); это другой фит и другая находка, этой записью не тронут."
+    }
+  ]
+}

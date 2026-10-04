@@ -1,0 +1,26 @@
+{{feat
+|epic=yes
+|type=combat
+|prereq=21st level
+|desc=The character's skill at combat grows and he gains a +1 bonus to all [[attack roll|attacks]].
+|use=automatic
+|icon=ife_x2epicprow.gif
+|bonus1=arcane archer
+|bonus2=barbarian
+|bonus3=blackguard
+|bonus4=champion of Torm
+|bonus5=dwarven defender
+|bonus6=fighter
+|bonus7=paladin
+|bonus8=ranger
+|bonus9=red dragon disciple
+|bonus10=weapon master
+}}
+
+==Notes==
+*Requires [[Hordes of the Underdark]].
+*Epic prowess works, but the bonus is not always listed on the [[character sheet]] &mdash; especially with [[ranged weapon]]s. The bonus will always be used in combat though.
+
+=== PnP comparison ===
+
+* The [[pencil-and-paper]] version of this feat could be taken multiple times, but the ''Neverwinter Nights'' version can be taken only once.

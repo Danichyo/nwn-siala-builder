@@ -1,0 +1,103 @@
+{
+  "_layer": "vanilla",
+  "_hand_written": true,
+  "_note": "Домены клирика — 19 значений, из которых при взятии ПЕРВОГО уровня Cleric выбираются ровно два (`priv/rules/vanilla/class_choices.json`). Список собран руками (не `mix wiki.parse`) со страниц `priv/wiki_cache/fandom/*.wikitext` (19 файлов `<Имя> domain.wikitext`, все Category:Cleric domains) — их ровно 19, сверено `ls`. Общая страница `Domain` (revid 68018) перечисляет те же 19 в таблице и подтверждает счёт дословно: «Each cleric chooses two of these domains when the first clerical level is taken».\n\n⚠️ РЕШЕНИЕ Dan (03.08.2026, AGENT_QUEUE §3.14): что каждый домен ДАЁТ — особая способность, список заклинаний по кругам — в расчёт не идёт вообще. Заклинания клирика мы не моделируем (у него нет `spells_known`, только `spells_per_day`), так что объявлять нечего, а особые способности — отдельная механика, которую решено не разбирать. Здесь лежит ТОЛЬКО список имён для выбора и его источник; таблица «домен × круг → заклинания» с общей страницы `Domain` сознательно не перенесена.\n\nПроверено по вики Сиалы (`priv/wiki_cache/siala/`): страница `Священник` (раздел «Домены») говорit «Некоторые Домены Священник переработаны» и ссылается на категорию — то есть меняются ЧИСЛА особых способностей у части доменов (нашлось 7 сиальских страниц: Animal, Healing, Magic, Plant, Sun, Trickery, War), но не имена и не количество/уровень выбора. Это подтверждает решение Dan независимо: даже если бы способности считались, у нас всё равно не было бы для них полного набора сиальских правок (12 из 19 доменов сиальских страниц не имеют вовсе).",
+
+  "domains": [
+    {
+      "id": "air",
+      "name": "Air",
+      "source": { "wiki": "fandom", "page": "Air domain", "revid": 68745, "fetched": "2026-08-01" }
+    },
+    {
+      "id": "animal",
+      "name": "Animal",
+      "source": { "wiki": "fandom", "page": "Animal domain", "revid": 66891, "fetched": "2026-08-01" }
+    },
+    {
+      "id": "death",
+      "name": "Death",
+      "source": { "wiki": "fandom", "page": "Death domain", "revid": 66892, "fetched": "2026-08-01" }
+    },
+    {
+      "id": "destruction",
+      "name": "Destruction",
+      "source": { "wiki": "fandom", "page": "Destruction domain", "revid": 66893, "fetched": "2026-08-01" }
+    },
+    {
+      "id": "earth",
+      "name": "Earth",
+      "source": { "wiki": "fandom", "page": "Earth domain", "revid": 66894, "fetched": "2026-08-01" }
+    },
+    {
+      "id": "evil",
+      "name": "Evil",
+      "source": { "wiki": "fandom", "page": "Evil domain", "revid": 66895, "fetched": "2026-08-01" }
+    },
+    {
+      "id": "fire",
+      "name": "Fire",
+      "source": { "wiki": "fandom", "page": "Fire domain", "revid": 66896, "fetched": "2026-08-01" }
+    },
+    {
+      "id": "good",
+      "name": "Good",
+      "source": { "wiki": "fandom", "page": "Good domain", "revid": 66897, "fetched": "2026-08-01" }
+    },
+    {
+      "id": "healing",
+      "name": "Healing",
+      "source": { "wiki": "fandom", "page": "Healing domain", "revid": 66898, "fetched": "2026-08-01" }
+    },
+    {
+      "id": "knowledge",
+      "name": "Knowledge",
+      "source": { "wiki": "fandom", "page": "Knowledge domain", "revid": 66899, "fetched": "2026-08-01" }
+    },
+    {
+      "id": "magic",
+      "name": "Magic",
+      "source": { "wiki": "fandom", "page": "Magic domain", "revid": 66900, "fetched": "2026-08-01" }
+    },
+    {
+      "id": "plant",
+      "name": "Plant",
+      "source": { "wiki": "fandom", "page": "Plant domain", "revid": 66901, "fetched": "2026-08-01" }
+    },
+    {
+      "id": "protection",
+      "name": "Protection",
+      "source": { "wiki": "fandom", "page": "Protection domain", "revid": 66902, "fetched": "2026-08-01" }
+    },
+    {
+      "id": "strength",
+      "name": "Strength",
+      "source": { "wiki": "fandom", "page": "Strength domain", "revid": 66903, "fetched": "2026-08-01" }
+    },
+    {
+      "id": "sun",
+      "name": "Sun",
+      "source": { "wiki": "fandom", "page": "Sun domain", "revid": 66904, "fetched": "2026-08-01" }
+    },
+    {
+      "id": "travel",
+      "name": "Travel",
+      "source": { "wiki": "fandom", "page": "Travel domain", "revid": 66905, "fetched": "2026-08-01" }
+    },
+    {
+      "id": "trickery",
+      "name": "Trickery",
+      "source": { "wiki": "fandom", "page": "Trickery domain", "revid": 66906, "fetched": "2026-08-01" }
+    },
+    {
+      "id": "war",
+      "name": "War",
+      "source": { "wiki": "fandom", "page": "War domain", "revid": 71019, "fetched": "2026-08-01" }
+    },
+    {
+      "id": "water",
+      "name": "Water",
+      "source": { "wiki": "fandom", "page": "Water domain", "revid": 66908, "fetched": "2026-08-01" }
+    }
+  ]
+}

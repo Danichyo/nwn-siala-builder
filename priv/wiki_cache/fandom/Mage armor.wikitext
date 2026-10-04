@@ -1,0 +1,31 @@
+{{spell
+|icon=is_magearm.gif
+|bardlevel=1
+|magelevel=1
+|domain=magic
+|domainlevel=1
+|innatelevel=1
+|school=[[conjuration]]
+|immunity=force
+|components=VS
+|range=t
+|area=single
+|save=harmless
+|spellresistance=no
+|duration=1 [[hour]] / level
+|line=Mage armors
+|line1=mage armor
+|line10=epic mage armor
+|desc=The selected target gains the following bonuses to his [[armor class|AC]]: +1 [[natural armor bonus|natural armor]], +1 [[dodge bonus|dodge]], +1 [[deflection bonus|deflection]], and +1 [[armor bonus|enhancement]]. The dodge bonus [[stack]]s with other dodge bonuses to AC, but the other bonuses do not stack with bonuses of the same type.}}
+
+== Notes ==
+
+* As a character acquires enchanted equipment, the effectiveness of this spell goes down, due to the non-stacking bonuses. At higher levels, typically only the dodge bonus has an effect, and even that is wasted if the +20 dodge bonus cap has been reached.
+* Earlier ''mage armors'' (but not [[shadow conjuration|shadow variants]]) are removed from the target when this is cast.
+
+== Custom content notes ==
+
+* ''script:'' <code>NW_S0_MageArm</code>
+==External links==
+* {{FRW}}
+* {{NWN2W|Mage Armor}}

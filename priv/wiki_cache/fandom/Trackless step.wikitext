@@ -1,0 +1,24 @@
+{{feat
+|type=class
+|prereq=[[ranger]] 1, [[druid]] 3
+|desc=This feat grants a +4 competence bonus to [[hide]] and [[move silently]] checks when in wilderness areas.
+|use=automatic
+|icon=ife_trackstep.gif
+|class1=druid
+|class2=ranger
+}}
+
+==Notes==
+*A "wilderness area" is defined to be an [[area]] that has been flagged as "exterior", "natural", and "above ground" [[terrain type]]. This may or may not correspond to what appears to be wilderness.
+
+==Builder notes==
+'''Item feat:''' No, but it can be added with custom content.
+
+==Custom content notes==
+'''Removable:''' yes
+
+'''Reusable:''' yes
+
+'''Script:''' hardcoded
+
+*This feat can be added to [[iprp_feats.2da]] to make it available as an item feat.

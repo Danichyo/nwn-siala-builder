@@ -1,0 +1,44 @@
+{{spell
+|icon=is_x2elecloop.gif
+|magelevel=2
+|innatelevel=2
+|school=[[evocation]]
+|components=VS
+|range=s
+|area=small
+|save=[[reflex]] 1/2 (see below)
+|spellresistance=yes
+|immunity=electricity, ''mind-affecting''
+|duration=instantaneous
+|desc=You create a small stroke of lightning that cycles through all creatures in the [[area of effect]]. The spell deals 1[[d6]] points of [[electrical damage|damage]] per 2 caster levels (maximum 5d6). Those who fail their reflex saves must succeed at a [[will]] save or be [[stunned]] for 1 [[round]].}}
+
+{|class="wikitable" style="text-align:center"
+!Caster level!!Damage per cast
+|-
+| 3
+| 1d6
+|-
+| 4
+| 2d6
+|-
+| 6
+| 3d6
+|-
+| 8
+| 4d6
+|-
+| 10+
+| 5d6
+|}
+
+==Notes==
+
+*Requires [[Hordes of the Underdark]].
+* The spell description is missing the descriptor (mind-affecting) for the will save.
+* A creature with [[improved evasion]] may be wrongly subject to the will save, even when the reflex save is successful. This occurs when the pre-save damage to that creature is 1 (which implies caster level only 3).
+
+==Custom content notes==
+* ''script:'' <code>X2_S0_ElecLoop</code>
+==External links==
+* {{FRW}}
+* {{NWN2W|Gedlee's Electric Loop}}

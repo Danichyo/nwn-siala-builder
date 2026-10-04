@@ -1,0 +1,16 @@
+{{feat
+|type=general
+|prereq=[[intelligence]] 13+, [[expertise]]
+|desc=A character with this feat can make defensive attacks, gaining a +10 bonus to [[armor class|AC]] but receiving a -10 penalty to [[attack roll]]s.
+|use=combat mode
+|icon=ife_x1impexp.gif
+|bonus1=champion of Torm
+|bonus2=fighter
+}}
+
+==Notes==
+*Added in the [[expansion pack]]s.
+*This feat does not replace [[expertise]], allowing a character with both feats to choose the lesser attack penalty of ''expertise'' instead of the larger AC bonus of ''improved expertise''.
+*By default, NWN allows spellcasting while using ''improved expertise''. However, [[BioWare]] included a switch to disable it via scripting using [[spellhook]]ing.
+**Under the default behavior, this can be a useful feat for casters who do not make attacks, as they will gain the AC benefit at effectively no cost.
+*This combat mode cannot be used while wielding a [[ranged weapon]].

@@ -1,0 +1,7 @@
+A '''flail''' is a [[melee]] [[weapon]] similar to a [[club]] with the inclusion of a chain connecting the handle to the striking surface. It inflicts [[bludgeoning damage]].
+[[Neverwinter Nights]] includes two types of flails &mdash; the [[light flail]] and the [[heavy flail]].
+
+Flails originated as farm implements, used for threshing grain. When farmers were called to fight, they discovered that flails were also useful for threshing opponents.
+A variant in which the long striking surface is replaced by a spiked ball would have use only as a weapon, but might also have less basis in history. Regardless of its historical roots, the spiked ball variant is classified as a [[morningstar]] within Neverwinter Nights.
+[[Category:Blunt weapons]]
+[[Category:Weapons]]

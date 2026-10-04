@@ -1,0 +1,5 @@
+'''Monster feats''' are [[feat]]s that are not normally available to [[player character]]s. These exist to represent some extraordinary capabilities of certain creatures.
+
+== See also ==
+*[[:Category:Monster feats]]
+[[category:feats| Monster feat]]

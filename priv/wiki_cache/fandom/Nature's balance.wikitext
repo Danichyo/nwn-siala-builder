@@ -1,0 +1,40 @@
+{{spell
+|icon=is_naturebal.gif
+|druidlevel=8
+|innatelevel=8
+|school=[[transmutation]]
+|components=VS
+|range=p
+|area=large
+|save=[[will]] negates
+|spellresistance=no
+|duration=instant
+|desc=All enemies within the [[area of effect]] have their [[spell resistance]] lowered by 1[[d4]] for every 5 caster levels. All allies within the area of effect are healed for 3d8 [[hit point]]s, +1 point per caster level.}}
+{|class="wikitable" style="text-align:center"
+ |-
+   !caster level!!SR lowered
+ |-
+   | 15-19 || 3d4
+ |-
+   | 20-24 || 4d4
+ |-
+   | 25-29 || 5d4
+ |-
+   | 30-34 || 6d4
+ |-
+   | 35-39 || 7d4
+ |-
+   | 40    || 8d4
+|}
+
+== Notes ==
+*Spell resistance is lowered for caster level / 3 [[round]]s.
+*[[Undead]], if friendly, are healed by this spell.
+
+=== Previous versions ===
+* Prior to version 1.69, the spell resistance penalty was erroneously reduced for each affected enemy beyond the first.
+
+== Custom content notes ==
+* ''script:'' <code>NW_S0_NatureBal</code>
+==External links==
+*{{FRW}}

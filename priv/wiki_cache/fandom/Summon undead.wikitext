@@ -1,0 +1,22 @@
+'''See also:''' [[create undead]]
+{{feat
+|type=class
+|prereq=[[pale master]] 4
+|desc=The pale master can [[summon]] an [[undead]] creature twice per day as a spell-like ability.
+The [[class level|level]] of the pale master determines the type of undead that is summoned:
+* Level 4 and 5: [[ghoul (summon)|ghoul]]
+* Level 6: [[shadow]]
+* Level 7: [[ghast (summon)|ghast]]
+* Level 8: [[wight]]
+* Level 9: [[wraith]]
+|use=selected
+|icon=ife_x2spsumded.gif
+|class=pale master
+}}
+
+==Notes==
+*Requires [[Hordes of the Underdark]].
+*This feat lasts 14 [[hour]]s + 1 per caster level.
+
+== Builder notes ==
+* ''script:'' <code>X2_S2_SumUndead.nss</code>

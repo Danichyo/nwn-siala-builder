@@ -1,0 +1,17 @@
+'''Description:''' Clerics who take the Animal domain are able to summon more powerful allies.[[Image:Id animal.gif|right|Animal]]
+
+== Domain special abilities ==
+
+Able to [[summon]] more powerful creatures using ''[[summon creature I]]'' through ''[[summon creature VIII|VIII]]''.
+
+== Bonus spells ==
+
+* Level 2 [[cat's grace]]
+* Level 3 [[true seeing (spell)|true seeing]]
+* Level 5 [[polymorph self]]
+
+== Notes ==
+
+* In this context, "more powerful" means the creature from the next spell up. That is, this domain causes ''summon creature I'' to function as ''summon creature II'' normally does, and so on. (Spell descriptions are not affected though.) This is likely the reason why ''summon creature IX'' is not affected by this domain.
+* The summoning spells do not need to be cast from the clerical [[spellbook]] in order to be affected by this domain. A ''summon creature'' spell cast as another class (if multiclassed) or from an item will summon the more powerful creature for clerics of this domain.
+[[category:cleric domains]]

@@ -1,0 +1,15 @@
+{{feat
+|type=class
+|prereq=[[purple dragon knight]] 3
+|desc=Once per day, the purple dragon knight may cast the [[fear (spell)|fear spell]] with a [[caster level]] equal to his [[character level]].
+|use=selected
+|icon=ife_x3_pdkfear.gif
+|class1=purple dragon knight
+}}
+
+== Notes ==
+*Added in patch 1.69.
+*The DC for the spell is 10 + purple dragon knight level + [[strength]] modifier (DC 127 if the strength modifier is negative). The character level determines the number of rounds the effect lasts.
+
+== Custom content notes ==
+*''script:'' <code>X3_S2_pdk_Fear</code>

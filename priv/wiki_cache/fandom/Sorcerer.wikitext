@@ -1,0 +1,466 @@
+[[Image:Ir sorcerer.gif|right|Sorcerer icon]]
+'''Description:''' Sorcerers are [[arcane]] spellcasters who manipulate magic energy with imagination and talent rather than studious discipline. They have no books, no mentors, no theories - just raw power that they direct at will. Sorcerers know fewer spells than [[wizard]]s do and acquire them more slowly, but they can cast individual spells more often and have no need to prepare their incantations ahead of time. Also unlike wizards, sorcerers cannot specialize in a [[spell school|school of magic]]. Since sorcerers gain their powers without undergoing the years of rigorous study that wizards go through, they have more time to learn fighting skills and are proficient with simple weapons.
+
+'''Alignment restrictions:''' none
+
+'''[[Hit die]]:''' d4
+
+'''Proficiencies:''' armor (robes), weapons ([[weapon proficiency (simple)|simple]])
+
+'''[[Skill point]]s:''' 2 + [[int]] modifier ( (2 + int modifier) * 4 at 1st level)
+
+'''Skills:''' [[concentration]], [[craft armor]], [[craft trap]], [[craft weapon]], [[heal (skill)|heal]], [[lore]], [[spellcraft]]
+
+'''Unavailable feats:'''
+[[curse song]], [[divine might]], [[divine shield]], [[extra music]], [[extra turning]], [[lingering song]], [[weapon specialization]]
+<br />These [[general feat]]s cannot be selected when taking a level of sorcerer.
+
+'''[[Saving throw|Primary saving throw(s)]]:''' [[will]]
+
+'''[[Base attack bonus]]:''' +1/2 levels
+
+'''Spellcasting:''' [[Arcane]] ([[spell failure]] from armor is a factor), [[charisma]]-based (a base charisma score of 10 + the spell's level is required to cast a spell, [[bonus spells]] are based on modified charisma, and the charisma modifier affects spell [[difficulty class|DCs]]), and [[spontaneous cast]] (no spell preparation required).
+
+[[Image:Sorcerer.jpg|Sorcerer]]
+
+== Special abilities & feats ==
+
+*Level 1 [[summon familiar]]
+
+== Spells ==
+
+
+
+
+
+
+
+{| border="2" style="background:#efefef; color:#000000; border-collapse:collapse;"
+|- style="background:#c0c0c0"
+!colspan=3|Cantrips
+|- align=left valign=top
+|
+*[[Acid splash]]
+*[[Daze]]
+*[[Electric jolt]]
+|
+*[[Flare]]
+*[[Light]]
+|
+*[[Ray of frost]]
+*[[Resistance]]
+|-style="background:#ffffff"
+!colspan=3|&nbsp;
+|- style="background:#c0c0c0"
+!1st level spells
+!2nd level spells
+!3rd level spells
+|- align=left valign=top
+|
+*[[Burning hands]]
+*[[Charm person]]
+*[[Color spray]]
+*[[Endure elements]]
+*[[Expeditious retreat]]
+*[[Grease]]
+*[[Horizikaul's boom]]
+*[[Ice dagger]]
+*[[Identify]]
+*[[Ironguts]]
+*[[Mage armor]]
+*[[Magic missile]]
+*[[Magic weapon]]
+*[[Negative energy ray]]
+*[[Protection from alignment]]
+*[[Ray of enfeeblement]]
+*[[Scare]]
+*[[Shelgarn's persistent blade]]
+*[[Shield (spell)|Shield]]
+*[[Sleep (spell)|Sleep]]
+*[[Summon creature I]]
+*[[True strike]]
+|
+*[[Balagarn's iron horn]]
+*[[Blindness/deafness]]
+*[[Bull's strength]]
+*[[Cat's grace]]
+*[[Cloud of bewilderment]]
+*[[Combust]]
+*[[Continual flame]]
+*[[Darkness (spell)|Darkness]]
+*[[Death armor]]
+*[[Eagle's splendor]]
+*[[Endurance]]
+*[[Flame weapon]]
+*[[Fox's cunning]]
+*[[Gedlee's electric loop]]
+*[[Ghostly visage]]
+*[[Ghoul touch]]
+*[[Invisibility (spell)|Invisibility]]
+*[[Knock]]
+*[[Lesser dispel]]
+*[[Melf's acid arrow]]
+*[[Owl's wisdom]]
+*[[Resist elements]]
+*[[See invisibility]]
+*[[Stone bones]]
+*[[Summon creature II]]
+*[[Tasha's hideous laughter]]
+*[[Ultravision]]
+*[[Web]]
+|
+*[[Clairaudience/clairvoyance]]
+*[[Clarity]]
+*[[Dispel magic]]
+*[[Displacement]]
+*[[Find traps]]
+*[[Fireball]]
+*[[Flame arrow]]
+*[[Greater magic weapon]]
+*[[Gust of wind]]
+*[[Haste (spell)|Haste]]
+*[[Hold person]]
+*[[Invisibility sphere]]
+*[[Keen edge]]
+*[[Lightning bolt]]
+*[[Magic circle against alignment]]
+*[[Mestil's acid breath]]
+*[[Negative energy burst]]
+*[[Protection from elements]]
+*[[Scintillating sphere]]
+*[[Slow (spell)|Slow]]
+*[[Stinking cloud]]
+*[[Summon creature III]]
+*[[Vampiric touch]]
+|-style="background:#ffffff"
+!colspan=3|&nbsp;
+|- style="background:#c0c0c0"
+!4th level spells
+!5th level spells
+!6th level spells
+|-align=left valign=top
+|
+*[[Bestow curse]]
+*[[Charm monster]]
+*[[Confusion]]
+*[[Contagion]]
+*[[Elemental shield]]
+*[[Enervation]]
+*[[Evard's black tentacles]]
+*[[Fear (spell)|Fear]]
+*[[Ice storm]]
+*[[Improved invisibility]]
+*[[Isaac's lesser missile storm]]
+*[[Lesser spell breach]]
+*[[Minor globe of invulnerability]]
+*[[Phantasmal killer]]
+*[[Polymorph self]]
+*[[Remove blindness/deafness]]
+*[[Remove curse]]
+*[[Shadow conjuration]]
+*[[Stoneskin]]
+*[[Summon creature IV]]
+*[[Wall of fire]]
+|
+*[[Animate dead]]
+*[[Ball lightning]]
+*[[Bigby's interposing hand]]
+*[[Cloudkill]]
+*[[Cone of cold]]
+*[[Dismissal]]
+*[[Dominate person]]
+*[[Energy buffer]]
+*[[Feeblemind]]
+*[[Firebrand]]
+*[[Greater shadow conjuration]]
+*[[Hold monster]]
+*[[Lesser mind blank]]
+*[[Lesser planar binding]]
+*[[Lesser spell mantle]]
+*[[Mestil's acid sheath]]
+*[[Mind fog]]
+*[[Summon creature V]]
+|
+*[[Acid fog]]
+*[[Bigby's forceful hand]]
+*[[Chain lightning]]
+*[[Circle of death]]
+*[[Ethereal visage]]
+*[[Flesh to stone]]
+*[[Globe of invulnerability]]
+*[[Greater dispelling]]
+*[[Greater spell breach]]
+*[[Greater stoneskin]]
+*[[Isaac's greater missile storm]]
+*[[Legend lore]]
+*[[Mass haste]]
+*[[Planar binding]]
+*[[Shades]]
+*[[Stone to flesh]]
+*[[Summon creature VI]]
+*[[Tenser's transformation]]
+*[[True seeing (spell)|True seeing]]
+*[[Undeath to death]]
+|-style="background:#ffffff"
+!colspan=3|&nbsp;
+|- style="background:#c0c0c0"
+!7th level spells
+!8th level spells
+!9th level spells
+|-align=left valign=top
+|
+*[[Banishment]]
+*[[Bigby's grasping hand]]
+*[[Control undead]]
+*[[Delayed blast fireball]]
+*[[Finger of death]]
+*[[Great thunderclap]]
+*[[Mordenkainen's sword]]
+*[[Power word, stun]]
+*[[Prismatic spray]]
+*[[Protection from spells]]
+*[[Shadow shield]]
+*[[Spell mantle]]
+*[[Summon creature VII]]
+|
+*[[Bigby's clenched fist]]
+*[[Blackstaff]]
+*[[Create undead]]
+*[[Greater planar binding]]
+*[[Greater sanctuary]]
+*[[Horrid wilting]]
+*[[Incendiary cloud]]
+*[[Mass blindness/deafness]]
+*[[Mass charm]]
+*[[Mind blank]]
+*[[Premonition]]
+*[[Summon creature VIII]]
+*[[Sunburst]]
+|
+*[[Bigby's crushing hand]]
+*[[Black blade of disaster]]
+*[[Dominate monster]]
+*[[Energy drain]]
+*[[Gate]]
+*[[Greater spell mantle]]
+*[[Meteor swarm]]
+*[[Mordenkainen's disjunction]]
+*[[Power word, kill]]
+*[[Shapechange]]
+*[[Summon creature IX]]
+*[[Time stop]]
+*[[Wail of the banshee]]
+*[[Weird]]
+|}
+
+== Level progression ==
+
+{| border=2 style="background:#efefef; color:#000000; border-collapse:collapse"
+|- style="background:#c0c0c0"
+!rowspan=2|Lvl
+!rowspan=2|BAB
+!colspan=3|Saves
+!rowspan=2|Feats
+!rowspan=2|HP range
+!rowspan=22 style="background:#ffffff"|&nbsp;
+!colspan=10|Base spells per day
+!rowspan=22 style="background:#ffffff"|&nbsp;
+!colspan=10|Known spells
+|- style="background:#c0c0c0"
+!Fort
+!Ref
+!Will
+
+!0
+!1st
+!2nd
+!3rd
+!4th
+!5th
+!6th
+!7th
+!8th
+!9th
+!0
+!1st
+!2nd
+!3rd
+!4th
+!5th
+!6th
+!7th
+!8th
+!9th
+|- align=center
+|1st || +0 || +0 || +0 || +2 ||[[summon familiar]] ||2-4
+|5 ||3 ||— ||— ||— ||— ||— ||— ||— ||—
+|4 ||2 || - || - || - || - || - || - || - || -
+|- align=center
+|2nd || +1 || +0 || +0 || +3 || ||4-8
+|6 ||4 ||— ||— ||— ||— ||— ||— ||— ||—
+|5 ||2 || - || - || - || - || - || - || - || -
+|- align=center
+|3rd || +1 || +1 || +1 || +3 || ||6-12
+|6 ||5 ||— ||— ||— ||— ||— ||— ||— ||—
+|5 ||3 || - || - || - || - || - || - || - || -
+|- align=center
+|4th || +2 || +1 || +1 || +4 || ||8-16
+|6 ||6 ||3 ||— ||— ||— ||— ||— ||— ||—
+|6 ||3 ||1 || - || - || - || - || - || - || -
+|- align=center
+|5th || +2 || +1 || +1 || +4 || ||10-20
+|6 ||6 ||4 ||— ||— ||— ||— ||— ||— ||—
+|6 ||4 ||2 || - || - || - || - || - || - || -
+|- align=center
+|6th || +3 || +2 || +2 || +5 || ||12-24
+|6 ||6 ||5 ||3 ||— ||— ||— ||— ||— ||—
+|7 ||4 ||2 ||1 || - || - || - || - || - || -
+|- align=center
+|7th || +3 || +2 || +2 || +5 || ||14-28
+|6 ||6 ||6 ||4 ||— ||— ||— ||— ||— ||—
+|7 ||5 ||3 ||2 || - || - || - || - || - || -
+|- align=center
+|8th || +4 || +2 || +2 || +6 || ||16-32
+|6 ||6 ||6 ||5 ||3 ||— ||— ||— ||— ||—
+|7 ||5 ||3 ||2 ||1 || - || - || - || - || -
+|- align=center
+|9th || +4 || +3 || +3 || +6 || ||18-36
+|6 ||6 ||6 ||6 ||4 ||— ||— ||— ||— ||—
+|7 ||5 ||4 ||3 ||2 || - || - || - || - || -
+|- align=center
+|10th || +5 || +3 || +3 || +7 || ||20-40
+|6 ||6 ||6 ||6 ||5 ||3 ||— ||— ||— ||—
+|7 ||5 ||4 ||3 ||2 ||1 || - || - || - || -
+|- align=center
+|11th || +5 || +3 || +3 || +7 || ||22-44
+|6 ||6 ||6 ||6 ||6 ||4 ||— ||— ||— ||—
+|7 ||5 ||5 ||4 ||3 ||2 || - || - || - || -
+|- align=center
+|12th || +6/+1 || +4 || +4 || +8 || ||24-48
+|6 ||6 ||6 ||6 ||6 ||5 ||3 ||— ||— ||—
+|7 ||5 ||5 ||4 ||3 ||2 ||1 || - || - || -
+|- align=center
+|13th || +6/+1 || +4 || +4 || +8 || ||26-52
+|6 ||6 ||6 ||6 ||6 ||6 ||4 ||— ||— ||—
+|7 ||5 ||5 ||4 ||4 ||3 ||2 || - || - || -
+|- align=center
+|14th || +7/+2 || +4 || +4 || +9 || ||28-56
+|6 ||6 ||6 ||6 ||6 ||6 ||5 ||3 ||— ||—
+|7 ||5 ||5 ||4 ||4 ||3 ||2 ||1 || - || -
+|- align=center
+|15th || +7/+2 || +5 || +5 || +9 || ||30-60
+|6 ||6 ||6 ||6 ||6 ||6 ||6 ||4 ||— ||—
+|7 ||5 ||5 ||4 ||4 ||4 ||3 ||2 || - || -
+|- align=center
+|16th || +8/+3 || +5 || +5 || +10 || ||32-64
+|6 ||6 ||6 ||6 ||6 ||6 ||6 ||5 ||3 ||—
+|7 ||5 ||5 ||4 ||4 ||4 ||3 ||2 ||1 || -
+|- align=center
+|17th || +8/+3 || +5 || +5 || +10 || ||34-68
+|6 ||6 ||6 ||6 ||6 ||6 ||6 ||6 ||4 ||—
+|7 ||5 ||5 ||4 ||4 ||4 ||3 ||3 ||2 || -
+|- align=center
+|18th || +9/+4 || +6 || +6 || +11 || ||36-72
+|6 ||6 ||6 ||6 ||6 ||6 ||6 ||6 ||5 ||3
+|7 ||5 ||5 ||4 ||4 ||4 ||3 ||3 ||2 ||1
+|- align=center
+|19th || +9/+4 || +6 || +6 || +11 || ||38-76
+|6 ||6 ||6 ||6 ||6 ||6 ||6 ||6 ||6 ||4
+|7 ||5 ||5 ||4 ||4 ||4 ||3 ||3 ||3 ||2
+|- align=center
+|20th || +10/+5 || +6 || +6 || +12 || ||40-80
+|6 ||6 ||6 ||6 ||6 ||6 ||6 ||6 ||6 ||6
+|7 ||5 ||5 ||4 ||4 ||4 ||3 ||3 ||3 ||3
+|}
+
+''Bonus [[spell slot]]s come from items and high charisma.''
+
+As a rule of thumb, sorcerers can cast spell levels up to half their class level (rounded down).
+
+[[Image:ife x2epsorc.gif|right|Epic sorcerer]]
+
+==Epic sorcerer==
+
+The epic sorcerer is a near mythic being. But still the need for ever-greater power never ceases and the sorcerer pushes on, exploring and mastering the magical.
+
+'''Hit die:''' d4
+
+'''Skill points:''' 2 + int modifier
+
+'''Bonus feats:''' The epic sorcerer gains a bonus feat every three levels after 20th. In other words, at levels 23, 26, 29, 32, 35, and 38.
+
+'''Epic sorcerer bonus feats:''' [[automatic quicken spell]], [[automatic silent spell]], [[automatic still spell]], [[epic energy resistance]], [[epic spell focus]], [[epic spell penetration]], [[epic spell: dragon knight]], [[epic spell: epic mage armor]], [[epic spell: epic warding]], [[epic spell: greater ruin]], [[epic spell: hellball]], [[epic spell: mummy dust]], [[great charisma]], [[improved combat casting]]
+
+'''Unavailable epic feats:'''
+[[bane of enemies]],
+[[construct shape]], [[dragon shape]],
+[[epic weapon specialization]], [[great smiting]],
+[[improved ki strike 4]], [[improved ki strike 5]], [[improved sneak attack]],
+[[improved spell resistance]], [[improved stunning fist]],
+[[lasting inspiration]], [[mighty rage]], [[outsider shape]],
+[[planar turning]], [[terrifying rage]], [[thundering rage]], [[undead shape]]
+<br />These general [[epic feat]]s cannot be selected when taking a level of sorcerer.
+
+=== Epic sorcerer level progression ===
+
+{| border=2 style="background:#efefef; color:#000000; border-collapse:collapse"
+|- style="background:#c0c0c0"
+!&nbsp; Lvl &nbsp;
+!Feats
+!HP range
+|- align=center
+|21st ||align=left| ||42-84
+|- align=center
+|22nd ||align=left| ||44-88
+|- align=center
+|23rd ||align=left|bonus feat ||46-92
+|- align=center
+|24th ||align=left| ||48-96
+|- align=center
+|25th ||align=left| ||50-100
+|- align=center
+|26th ||align=left|bonus feat ||52-104
+|- align=center
+|27th ||align=left| ||54-108
+|- align=center
+|28th ||align=left| ||56-112
+|- align=center
+|29th ||align=left|bonus feat ||58-116
+|- align=center
+|30th ||align=left| ||60-120
+|- align=center
+|31st ||align=left| ||62-124
+|- align=center
+|32nd ||align=left|bonus feat ||64-128
+|- align=center
+|33rd ||align=left| ||66-132
+|- align=center
+|34th ||align=left| ||68-136
+|- align=center
+|35th ||align=left|bonus feat ||70-140
+|- align=center
+|36th ||align=left| ||72-144
+|- align=center
+|37th ||align=left| ||74-148
+|- align=center
+|38th ||align=left|bonus feat &nbsp; ||76-152
+|- align=center
+|39th ||align=left| ||78-156
+|- align=center
+|40th ||align=left| ||80-160
+|}
+
+== Prestige class tips ==
+
+* Sorcerers are ideally suited to becoming [[red dragon disciple]]s.
+* Non-good sorcerers may want to consider becoming a [[pale master]]. Though less useful to the sorcerer than to the wizard, this class provides many useful defensive abilities.
+
+== Notes ==
+
+*Sorcerers receive spells one level later than wizards. For example, to cast [[spell level|level]] 2 spells, wizard [[class level|level]] 3 is sufficient while sorcerer level 4 is required.
+*Sorcerers can wear armor without risking arcane spell failure if they choose the [[automatic still spell]] feats. In addition to the still spell feats, many sorcerers also take one or more levels as a [[blackguard]] or [[paladin]] to gain the [[armor proficiency (heavy)]] feat, as these classes have skills which take advantage of their already high charisma.
+* "Sorcerer" was incorrectly translated to "Hexenmeister" (warlock) in the German version of the game.
+
+==External Links==
+* {{FRW}}
+[[Category:classes]]

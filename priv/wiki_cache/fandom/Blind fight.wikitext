@@ -1,0 +1,16 @@
+{{feat
+|type=general
+|desc=This feat grants the character the ability to fight well, even if [[blind]]ed or against [[invisible]] creatures. The character gets to re-roll its miss chance percentile one time to see if it actually hits. Furthermore, invisible creatures get no bonus to hit the character in melee.
+|use=automatic
+|icon=ife_x1blifig.gif
+|bonus1=champion of Torm
+|bonus2=fighter
+}}
+
+==Notes==
+
+* Added in the [[expansion pack]]s.
+* This feat effectively squares the effect of all concealment (reducing 50% to 25% and 10% to 1%). Furthermore, it negates all attacker [[miss chance]]s (e.g. from blindness or [[darkness]]).
+* The bonus to attack that invisible creatures normally get is +2. This same bonus is also normally given to creatures attacking a blind creature. Both sources of this bonus are negated (in melee) when the target has ''blind fight''.
+* This feat affects both normal and [[touch attack]]s (though the modifiers to attack rolls that this feat negates are never applied to touch attacks).
+* This feat prevents one from losing AC (due to being caught [[flat-foot]]ed) when attacked by a hidden melee attacker, provided the attacker is [[listen|heard]]. (If the attacker is [[spot]]ted, the defender can avoid being flat-footed without this feat.) It does not, however, negate any other condition for being caught flat-footed, nor does it prevent the other effects of being flat-footed (such as being subject to [[sneak attack]]s).

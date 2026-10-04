@@ -1,0 +1,85 @@
+{{Weapon|imagefile=Warhammer.jpg
+  |weaponname=Warhammer
+  |weapondescription=Originally adapted from the tools of laborers and craftsmen, the '''warhammer''' is a far-heavier variant of the sledge and is no longer suitable for anything but combat.
+  |weight=8
+  |cost=12
+  |damage=1d8
+  |critical=x3
+  |damagetype=[[bludgeoning damage|bludgeoning]]
+  |size=Medium
+  |proficiency=[[weapon proficiency (martial)|martial]]
+  |category=[[Category:Blunt weapons]] [[Category:Martial weapons]]
+}}
+
+==Toolset==
+* Warhammers are listed under the [[hammer blueprint category]] of the [[item palette]] in the [[Toolset]].
+
+== Fiendfoe ==
+A divine champion of [[Selune]], Ashen Harcall, wielded this warhammer against the fiendish forces of darkness many times. His last mission sent him into the bowels of the [[Underdark]], searching for news of a possible [[outsider]] invasion. No word of him has reached the church and they fear him dead.
+
+*AC bonus: +5 [[deflection bonus]] versus [[outsider]]s
+*[[Enhancement bonus]]: +5
+*Enhancement bonus: +10 versus outsiders
+*Use limitation: [[champion of Torm]]
+*[[Item level restriction|Required level]]: 23
+
+'''Note:''' Requires [[Hordes of the Underdark]].
+
+== Hammer of Justice ==
+The zealous but good-hearted warrior known only as "The Law" gained fame when he created this set of magic weapons to arm the forces of law and discipline. Each was fueled by his burning desire to eradicate chaotic behavior and, as such, they became powerful tools in the maintenance of order.
+
+*Enhancement bonus: +1
+*Enhancement bonus: +2 versus [[chaos]]
+*Required level: 7
+
+== Hammer of the Wisp ==
+A clan of svirfneblin deep within the Underdark created the '''Hammers of the Wisp''' to guard against vicious [[drow]] hunting parties. They hoped to model an item that could erupt with light, slowing or repelling their enemy. They were initially successful, and a dark elf group broke ranks the first time the weapons were used. No record of the deep gnome clan exists after that, however, and it is unlikely they survived the drow reprisal.
+
+*Enhancement bonus: +2
+*Light: normal (blue)
+*[[On-hit]]: [[fear]] ([[DC]]=14) (50% / 2 [[round]]s)
+*Required level: 11
+
+== Hammer of Thunderbolts ==
+The [[dwarf|dwarven]] smith Silverblade forged the first of these hammers&mdash;purportedly combining a masterfully crafted warhammer with a ''girdle of giant strength'' and ''gauntlets of ogre power''&mdash;as a gift for his military-bound son. Sadly, the son fell before the hammer's completion and, in grief, Silverblade took it up himself, dying in valiant battle. Recently, the dwarf Barun reassembled the device, leading to the creation of additional variants by other master smiths.
+
+*[[Damage bonus]]: +[[dice|d6]] [[electrical damage]]
+*Enhancement bonus: +5
+*On-hit: [[Stunned|stun]] (DC=14) (75% / 1 round)
+*Required level: 19
+
+== Rift Hammer ==
+During the [[Time of Troubles]], the walls between dimensions seemed particularly thin, and many creatures normally confined to other [[plane]]s walked the face of [[Toril]]. Unfamiliar items appeared as well, including several of these weapons found after portals or rifts were sighted. The true origins of the rift hammers have never been explained, and superstitious folk refuse even to hold them for fear they retain the taint of the lower planes.
+
+*Damage bonus: +d6 [[sonic damage]]
+*Enhancement bonus: +1
+*Required level: 8
+
+'''Greater version:'''
+
+*Damage bonus: +d8 sonic damage
+*Enhancement bonus: +6
+*Required level: 21
+
+== Rune Hammer +1 ==
+This weapon bears the mark of the dwarf [[Marrok]], Master Blacksmith of [[Neverwinter]]'s Shining Knight Arms and Armor. He forged it early in 1373 DR, to aid the heroes who sought to free his quarantined city from the virulent grasp of the so-called [[Wailing Death]].
+
+*Enhancement bonus: +1
+*[[Spell resistance]]: 10
+*Required level: 6
+
+== Rune Hammer +2 ==
+This weapon bears the mark of the dwarf [[Barun Silverblade|Barun]], a Master Blacksmith who worked from a makeshift forge in the [[Uthgardt]] village of Beorunna's Well. He forged it late in 1373 DR, to aid the war effort against [[Aribeth|Lady Aribeth the Betrayer]], who was then marching against the northern city of Neverwinter and the Lords' Alliance.
+
+*Enhancement bonus: +3
+*Spell resistance: 14
+*Required level: 15
+
+== Rune Hammer +8 ==
+Glittering with silver runes, capable of absorbing powerful [[spell]]s, this mighty war hammer was the holy artifact of a dwarven tribe known as the Broodhull Clan. For centuries the Broodhulls ruled the mountains of Vilhon Reach. Then, in only a single year, the entire clan of over two hundred dwarves disappeared entirely. Only their empty halls remain, although some claim that the ghosts of the past can still be heard, echoing through what became their tomb.
+
+*Enhancement bonus: +8
+*Spell resistance: 16
+*Required level: 23
+
+'''Note:''' Requires [[Hordes of the Underdark]].

@@ -1,0 +1,237 @@
+[[Image:Ir paladin.gif|right|Paladin]]
+'''Description:''' Paladins take their adventures seriously, and even a mundane mission is, in the heart of the paladin, a personal test - an opportunity to demonstrate bravery, to learn tactics, and to do good in the world. Divine power protects these warriors of virtue, warding off harm, protecting them from disease, healing them and their allies, and guarding against fear. Divine power also guides their sword arms, making them among the most effective warriors against undead and evil outsiders. Many of the paladin's special abilities also benefit from a high Charisma score.
+
+'''Alignment restrictions:''' [[lawful good]] only
+
+'''[[Hit die]]:''' d10
+
+'''Proficiencies:''' armor ([[Armor Proficiency (Light)|light]], [[Armor Proficiency (Medium)|medium]], [[Armor Proficiency (Heavy)|heavy]]), [[Shield Proficiency|shields]], weapons ([[Weapon Proficiency (Martial)|martial]], [[Weapon Proficiency (Simple)|simple]])
+
+'''[[Skill point]]s:''' 2 + [[int]] modifier ( (2 + int modifier) * 4 at 1st level)
+
+'''Skills:''' [[concentration]], [[craft armor]], [[craft trap]], [[craft weapon]], [[discipline]], [[Heal (skill)|heal]], [[lore]], [[parry]], [[persuade]], [[ride]], [[taunt]]
+
+'''Unavailable feats:'''
+[[curse song]], [[extra music]], [[lingering song]], [[quicken spell]], [[weapon specialization]]
+<br />These [[general feat]]s cannot be selected when taking a level of paladin.
+
+'''[[Saving throw|Primary saving throw(s)]]:''' [[fortitude]]
+
+'''[[Base attack bonus]]:''' +1/level
+
+'''Spellcasting:''' [[Divine]] ([[spell failure]] from armor is ignored), [[wisdom]]-based (a base wisdom score of 10 + the spell's level is required to cast a spell, [[bonus spells]] are based on modified wisdom, and the wisdom modifier affects spell [[difficulty class|DC]]s), and requires preparation.
+
+[[Image:Paladin.jpg|Paladin]]
+
+==Spells==
+
+{| border=2 style="background:#efefef; color:#000000; border-collapse:collapse"
+|- style="background:#c0c0c0"
+!1st level spells
+!2nd level spells
+!3rd level spells
+!4th level spells
+|- align=left valign=top
+|
+*[[Bless]]
+*[[Bless weapon]]
+*[[Cure light wounds]]
+*[[Deafening clang]]
+*[[Divine favor]]
+*[[Endure elements]]
+*[[Magic weapon]]
+*[[Protection from alignment]]&nbsp;
+*[[Resistance]]
+*[[Virtue]]
+|
+*[[Aid]]
+*[[Aura of glory]]
+*[[Bull's strength]]
+*[[Eagle's splendor]]
+*[[Remove paralysis]]&nbsp;
+*[[Resist elements]]
+|
+*[[Cure moderate wounds]]
+*[[Dispel magic]]
+*[[Greater magic weapon]]
+*[[Magic circle against alignment]]&nbsp;
+*[[Prayer]]
+*[[Remove blindness/deafness]]
+|
+*[[Cure serious wounds]]
+*[[Death ward]]
+*[[Freedom of movement]]&nbsp;
+*[[Holy sword]]
+*[[Neutralize poison]]
+|}
+
+==Level progression==
+
+{| border=2 style="background:#efefef; color:#000000; border-collapse:collapse" 
+|- style="background:#c0c0c0"
+!rowspan=2|Lvl
+!rowspan=2|BAB
+!colspan=3|Saves
+!rowspan=2|Feats
+!rowspan=2|HP range
+!rowspan=22 style="background:#ffffff"|&nbsp;
+!colspan=4|Base spells per day
+|- style="background:#c0c0c0"
+!Fort
+!Ref
+!Will
+
+!1st
+!2nd
+!3rd
+!4th
+|- align=center
+|1st ||+1 ||+2 ||+0 ||+0 ||align=left|[[divine grace]], [[divine health]], [[lay on hands]] &nbsp; 
+|5-10 ||- ||- ||- ||- 
+|- align=center 
+|2nd ||+2 ||+3 ||+0 ||+0 ||align=left|[[aura of courage]], [[smite evil]] 
+|10-20 ||- ||- ||- ||- 
+|- align=center 
+|3rd ||+3 ||+3 ||+1 ||+1 ||align=left|[[Remove disease (feat)|remove disease]], [[turn undead]] 
+|15-30 ||- ||- ||- ||- 
+|- align=center 
+|4th ||+4 ||+4 ||+1 ||+1 ||align=left| 
+|20-40 ||0 ||- ||- ||- 
+|- align=center 
+|5th ||+5 ||+4 ||+1 ||+1 ||align=left|[[summon mount]]
+|25-50 ||0 ||- ||- ||- 
+|- align=center 
+|6th ||+6/+1 ||+5 ||+2 ||+2 ||align=left| 
+|30-60 ||1 ||- ||- ||-
+|- align=center 
+|7th ||+7/+2 ||+5 ||+2 ||+2 ||align=left| 
+|35-70 ||1 ||- ||- ||- 
+|- align=center 
+|8th ||+8/+3 ||+6 ||+2 ||+2 ||align=left| 
+|40-80 ||1 ||0 ||- ||- 
+|- align=center 
+|9th ||+9/+4 ||+6 ||+3 ||+3 ||align=left| 
+|45-90 ||1 ||0 ||- ||- 
+|- align=center 
+|10th ||+10/+5 ||+7 ||+3 ||+3 ||align=left| 
+|50-100 ||1 ||1 ||- ||- 
+|- align=center 
+|11th ||+11/+6/+1 ||+7 ||+3 ||+3 ||align=left| 
+|55-110 ||1 ||1 ||0 ||- 
+|- align=center 
+|12th ||+12/+7/+2 ||+8 ||+4 ||+4 ||align=left| 
+|60-120 ||1 ||1 ||1 ||- 
+|- align=center 
+|13th ||+13/+8/+3 ||+8 ||+4 ||+4 ||align=left| 
+|65-130 ||1 ||1 ||1 ||- 
+|- align=center 
+|14th ||+14/+9/+4 ||+9 ||+4 ||+4 ||align=left| 
+|70-140 ||2 ||1 ||1 ||0 
+|- align=center 
+|15th ||+15/+10/+5 ||+9 ||+5 ||+5 ||align=left| 
+|75-150 ||2 ||1 ||1 ||1 
+|- align=center 
+|16th ||+16/+11/+6/+1 ||+10 ||+5 ||+5 ||align=left| 
+|80-160 ||2 ||2 ||1 ||1 
+|- align=center 
+|17th ||+17/+12/+7/+2 ||+10 ||+5 ||+5 ||align=left| 
+|85-170 ||2 ||2 ||2 ||1 
+|- align=center 
+|18th ||+18/+13/+8/+3 ||+11 ||+6 ||+6 ||align=left| 
+|90-180 ||3 ||2 ||2 ||1 
+|- align=center 
+|19th ||+19/+14/+9/+4 ||+11 ||+6 ||+6 ||align=left| 
+|95-190 ||3 ||3 ||3 ||2 
+|- align=center 
+|20th ||+20/+15/+10/+5&nbsp; ||+12 ||+6 ||+6 ||align=left| 
+|100-200 ||3 ||3 ||3 ||3 
+|}
+''Being able to cast 0 spells of a certain level per day means the paladin cannot cast spells of that level unless bonus [[spell slot]]s of the appropriate level are granted by a high wisdom.''
+
+[[Image:ife x2eppal.gif|right|Epic paladin]]
+
+==Epic paladin==
+Standing at the forefront of the battle against chaos and evil in the world, the epic paladin shines as a beacon of hope to all who fight the good fight.
+
+'''Hit die:''' d10
+
+'''Skill points:''' 2 + int modifier
+
+'''Bonus feats:''' The epic paladin gains a bonus feat every three levels after 20th. In other words, at levels 23, 26, 29, 32, 35, and 38.
+
+'''Epic paladin bonus feats:''' [[armor skin]], [[devastating critical]], [[epic prowess]], [[epic reputation]], [[epic spell focus]], [[epic toughness]], [[epic weapon focus]], [[great smiting]], [[greater spell focus]], [[improved combat casting]], [[improved critical]] ([[whip]] only), [[overwhelming critical]], [[perfect health]], [[planar turning]]
+<br />''The inclusion of improved critical (whip) in this list is likely a bug.''
+
+'''Unavailable epic feats:'''
+[[automatic quicken spell]], [[automatic silent spell]], [[automatic still spell]], [[bane of enemies]],
+[[construct shape]], [[dragon shape]], [[epic spell penetration]],
+[[epic spell: dragon knight]], [[epic spell: epic mage armor]], [[epic spell: epic warding]], [[epic spell: greater ruin]], [[epic spell: hellball]], [[epic spell: mummy dust]],
+[[epic weapon specialization]],
+[[improved ki strike 4]], [[improved ki strike 5]], [[improved sneak attack]],
+[[improved spell resistance]], [[improved stunning fist]],
+[[lasting inspiration]], [[mighty rage]], [[outsider shape]],
+[[terrifying rage]], [[thundering rage]], [[undead shape]]
+<br />These general [[epic feat]]s cannot be selected when taking a level of paladin.
+
+===Epic paladin level progression===
+
+{| border=2 style="background:#efefef; color:#000000; border-collapse:collapse" 
+|- style="background:#c0c0c0"
+!&nbsp; Lvl &nbsp;
+!Feats
+!HP range
+|- align=center
+|21st ||align=left| ||105-210
+|- align=center
+|22nd ||align=left| ||110-220
+|- align=center
+|23rd ||align=left|bonus feat ||115-230
+|- align=center
+|24th ||align=left| ||120-240
+|- align=center
+|25th ||align=left| ||125-250
+|- align=center
+|26th ||align=left|bonus feat ||130-260
+|- align=center
+|27th ||align=left| ||135-270
+|- align=center
+|28th ||align=left| ||140-280
+|- align=center
+|29th ||align=left|bonus feat ||145-290
+|- align=center
+|30th ||align=left| ||150-300
+|- align=center
+|31st ||align=left| ||155-310
+|- align=center
+|32nd ||align=left|bonus feat ||160-320
+|- align=center
+|33rd ||align=left| ||165-330
+|- align=center
+|34th ||align=left| ||170-340
+|- align=center
+|35th ||align=left|bonus feat ||175-350
+|- align=center
+|36th ||align=left| ||180-360
+|- align=center
+|37th ||align=left| ||185-370
+|- align=center
+|38th ||align=left|bonus feat &nbsp; ||190-380
+|- align=center
+|39th ||align=left| ||195-390
+|- align=center
+|40th ||align=left| ||200-400
+|}
+
+== Prestige class tips ==
+* The [[champion of Torm]] prestige class improves upon the paladin's already considerable melee and defensive abilities.
+
+==Notes==
+*[[Improved critical]] ([[whip]]) can be taken as epic paladin bonus feat (most likely a bug).
+*A single level of paladin is used in some charisma-based [[bard]] (this is, however, impossible without an alignment change) and [[sorcerer]] character builds. In addition to improving all saving throws with divine grace, the paladin's weapon and armor proficiencies can be helpful. Sorcerers sometimes take a level in paladin very late in order to maximize the discipline skill as it is a cross class skill for sorcerers. (Maximizing discipline skill is a common practice in character building which allows the player to decrease the likelihood of being victim of [[knockdown]] during combat.)
+
+=== Pencil and paper ===
+*In the [[pencil-and-paper]] version (and in ''[[Neverwinter Nights 2]]''), the paladin has an effective [[caster level]] only half his [[class level]], giving the NWN version a significant improvement.
+
+==External Links==
+* {{FRW}}
+[[Category:Classes]]

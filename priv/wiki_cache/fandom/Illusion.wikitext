@@ -1,0 +1,48 @@
+[[Image:Is illusion.gif|right|Illusion]]
+
+Spells from the '''illusion''' [[spell school]] are used to alter perception and generate illusions.
+
+This school is traditionally a favorite of [[gnome]]s, so [[player character]]s of that race automatically receive [[spell focus]] in illusion, regardless of whether or not they can cast spells. (This tradition dates back to the first edition of (Advanced) [[Dungeons & Dragons]], when gnomes could be illusionists but not more general magic-users.)
+
+'''Prohibited school:''' [[enchantment]]<br />
+'''Prohibited to:''' diviners and enchanters
+
+== Spells ==
+
+The illusion spells are the following, organized by [[innate level]].
+Since [[wizard]]s have a greater interest in spell schools than other classes (because they can specialize in a school), the spell that is not a wizard spell is ''in italics''.
+
+<u>Level 1</u>
+*[[Color spray]]
+
+<u>Level 2</u>
+*[[Continual flame]]
+*[[Ghostly visage]]
+*[[Invisibility (spell)|Invisibility]]
+*''[[Silence (spell)|Silence]]''
+
+<u>Level 3</u>
+*[[Displacement]]
+*[[Invisibility sphere]]
+
+<u>Level 4</u>
+*[[Improved invisibility]]
+*[[Phantasmal killer]]
+*[[Shadow conjuration]] (uses base school of spell)
+
+<u>Level 5</u>
+*[[Ethereal visage]]
+*[[Greater shadow conjuration]] (uses base school of spell)
+
+<u>Level 6</u>
+*[[Shades]] (uses base school of spell)
+
+<u>Level 7</u>
+*[[Shadow shield]]
+
+<u>Level 8</u>
+*[[Mass blindness/deafness]]
+
+<u>Level 9</u>
+*[[Weird]]
+[[category:spell schools]]

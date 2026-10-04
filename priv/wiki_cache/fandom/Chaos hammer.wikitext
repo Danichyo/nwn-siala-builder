@@ -1,0 +1,20 @@
+{{Grimoire spell|imagename=Is chaosham.jpg
+|spellname=Chaos Hammer
+|casterlevel=[[Grimoire chaos|Chaos]] 4
+|innatelevel=4
+|school=[[Evocation]]
+|descriptors=Chaotic
+|components=V, S
+|range=Medium
+|immunities=None
+|savingthrow=[[Will]] partial
+|spellresistance=Yes
+|targettype=20 ft. radius burst
+|duration=Instantaneous
+|description=The caster unleashes chaotic power to smite his enemies. The power takes the form of a multicolored explosion of leaping, ricocheting energy. Only lawful and neutral (not chaotic) creatures are harmed by the spell.<br>
+<br>
+This spell deals 1d8 points of damage per two caster levels (max 5d8) to lawful creatures and staggers (dazes) them for 1d6 rounds.  A successful will save reduces the damage by half and negates the stagger (daze) effect.<br>
+<br>
+The spell only deals half damage against creatures who are not lawful or chaotic, and does not stagger them.  A successful Will save reduces the damage to one quarter.
+}}
+{{g_chaos}}

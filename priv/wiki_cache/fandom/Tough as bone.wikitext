@@ -1,0 +1,12 @@
+{{feat
+|type=class
+|prereq=[[pale master]] 7
+|desc=The pale master becomes immune to [[stunned|stun]], hold, and [[paralyze|paralyzation]].
+|use=automatic
+|icon=ife_x2sptghbne.gif
+|class=pale master
+}}
+
+==Notes==
+*Requires [[Hordes of the Underdark]].
+*Though the description may seem to imply three immunities, the feat provides two: stun and paralyzation. There is no ''separate'' immunity to the hold line of spells (though it is effective against them), the [[immobilize]] effect, etc.

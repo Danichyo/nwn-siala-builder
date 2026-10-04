@@ -1,0 +1,22 @@
+{{spell
+|icon=is_findtrap.gif
+|bardlevel=3
+|clericlevel=2
+|magelevel=3
+|innatelevel=<s>2</s> 3
+|school=[[divination]]
+|components=VS
+|range=p
+|area=<strike>colossal</strike> 30 [[meter]] radius
+|save=harmless
+|spellresistance=no
+|duration=instant
+|desc=All [[trap]]s within the [[area of effect]] become known to the caster of this spell and are disarmed.}}
+
+== Notes ==
+
+* The innate level is incorrectly reported as 2 by the in-game description.
+* This spell reveals and disarms even those traps set to be undetectable and undisarmable.
+
+== Custom content notes ==
+* ''script:'' <code>NW_S0_FindTrap</code>

@@ -1,0 +1,27 @@
+{{feat
+|type=class
+|prereq=[[druid]] 2
+|desc=The character is immune to the ''[[grease]]'', ''[[web]]'', and [[entangle (spell)|''entangle'']] spells.
+|use=automatic
+|icon=ife_woodstride.gif
+|class=druid
+}}
+
+== Notes ==
+
+* This feat also makes a character immune to ''[[vine mine]]'' (entangle and hamper movement), as well as the monster abilities ''[[bebilith web]]'' and ''[[web bolt]]''.
+
+==Builder notes==
+'''Item feat:''' No, but it can be added with custom content.
+
+*This feat is implemented within spell [[script]]s.
+
+==Custom content notes==
+'''Removable:''' yes
+
+'''Reusable:''' yes
+
+'''Script:''' <code>nw_s0_entanglec</code>, <code>nw_s0_greasea</code>, <code>nw_s0_greasec</code>, <code>nw_s0_weba</code>,<code>nw_s0_webc</code>, <code>nw_s1_bltweb</code>, <code>x2_s1_bebweba</code>, <code>x2_s1_bebwebc</code>, <code>x2_s0_vinementc</code>, <code>x2_s0_vinemhmpa</code>, and <code>x2_s0_vinemhmpc</code>
+
+*This feat can be added to [[iprp_feats.2da]] to make it available as an item feat.
+* Custom spell scripts need to specifically check for this feat, if those spells are supposed to be included among ''woodland stride'''s immunities.

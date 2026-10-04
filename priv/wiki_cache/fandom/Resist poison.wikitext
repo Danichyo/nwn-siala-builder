@@ -1,0 +1,9 @@
+{{feat
+|type=general
+|desc=The character gains a +4 bonus on [[fortitude]] [[saving throw]]s against [[poison]].
+|use=automatic
+|icon=ife_x1respos.gif
+}}
+
+==Notes==
+*Added in the [[expansion pack]]s.

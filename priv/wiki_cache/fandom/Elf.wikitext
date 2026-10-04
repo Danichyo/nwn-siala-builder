@@ -1,0 +1,27 @@
+[[Image:Elf.jpg|left|Elf]]
+'''Elves''' are known for their poetry, song, and magical arts, but when danger threatens they show great skill with [[weapon]]s and strategy. Elves can live to be over 700 years old, and by [[human]] standards are slow to make friends and enemies, and even slower to forget them. Elves are slim and stand 4 1/2 to 5 1/2 feet tall. They tend to be pale-skinned and dark-haired with deep green eyes. They have no facial or body hair, prefer comfortable clothes, and possess unearthly grace. Many other races find them hauntingly beautiful. 
+
+Elven [[ability]] adjustments: +2 [[Dex]], -2 [[Con]]
+
+[[Favored class]] ([[Wizard]]): A [[Class#Multiclassing|multiclass]] elf's wizard class does not count when determining whether he suffers an [[Multiclass penalty|XP penalty for multiclassing]].
+
+==Special Abilities==
+*[[Immunity to Sleep|Sleeplessness]]: [[Immunity|Immune]] to [[spell]]s and effects of the '[[Sleep]]' subtype.
+*[[Hardiness vs. Enchantments]]: +2 racial bonus on [[saving throw]]s against [[mind-affecting]] spells.
+*[[Weapon Proficiency (Elf)|Bonus Proficiencies]] ([[Longsword]], [[Rapier]], [[Shortbow]], [[Longbow]])
+*[[Skill Affinity (Listen)]]: +2 racial bonus to [[listen]] checks.
+*[[Skill Affinity (Search)]]: +2 racial bonus to [[Search]] checks.
+*[[Skill Affinity (Spot)]]: +2 racial bonus to [[Spot]] checks.
+*[[Keen Sense]]s: Elves make active Search checks automatically and with no [[movement penalty|movement penalties]].
+*[[Low-light Vision]]: Allows them to see better than normal in the dark.
+
+==PC default biography==
+"Wanderlust has recently lured you to enter human lands against your family's advice, and your own better judgment. You plan to show these short-lived [[human]]s and filthy [[dwarf|dwarves]] what a real elf is made of."
+
+
+==Notes==
+*Often stereotyped as slightly effeminate and artistically-inclined.
+*The elf race is sometimes chosen because of its [[weapon proficiency (elf)|bonus weapon proficiencies]]. This can be helpful for some [[druid]]s because the druid has no selectable weapon proficiency feats.
+*While not implemented in NWN by default, the [[Forgotten Realms]] setting includes seven types of elven [[subrace]]s in addition to moon elves (the default in NWN): [[drow]], [[sun elf|sun elves]], [[wild elf|wild elves]], [[wood elf|wood elves]], [[aquatic elf|aquatic elves]], [[avariel]] and [[star elf|star elves]].
+[[category:races]]
+[[category:playable races]]

@@ -1,0 +1,28 @@
+{{spell
+|icon=is_dismissal.gif
+|bardlevel=4
+|clericlevel=4
+|magelevel=5
+|innatelevel=4
+|school=[[abjuration]]
+|components=VS
+|range=s
+|area=colossal
+|save=[[will]] negates
+|spellresistance=yes
+|duration=instant
+|counters=<del>[[gate]]</del>
+|line=Unsummoning
+|line4=dismissal
+|line6=banishment
+|desc=All [[summon]]ed creatures, [[animal companion]]s, and [[familiar]]s belonging to enemy spellcasters are unsummoned within the [[area of effect]].}}
+
+== Notes ==
+* This spell has a +6 bonus to the saving throw [[difficulty class|DC]].
+* "Enemy spellcasters" is misleading, as all characters who fall under the "[[area of effect#Targeting|standard hostile]]" targeting scheme can have their associates dismissed. Thus, depending on the [[PvP setting|PvP]] and [[difficulty setting]]s, associates of party members &ndash; and even of this spell's caster &ndash; might be dismissed.
+* This spell is the only one that can directly unsummon (as opposed to dispelling) the [[black blade of disaster (summon)|black blade of disaster]] (or any custom summons that are flagged as [[plot]]).
+*The spell may be targeted within the described range and a visual effect will play at the target point, but the actual dismissal is centered on the caster, so creatures more than 10 meters away will not be affected.
+* Due to a .2da bug, ''gate'' is not an additional [[counterspell]] of this spell.
+
+== Custom content notes ==
+* ''script:'' <code>NW_S0_Dismissal</code>

@@ -1,0 +1,20 @@
+[[Image:Isk x2inti.gif|right|Intimidate]]
+The character can use this skill to get a bully to back down or make a prisoner give him the information he wants.
+*'''Ability''': [[charisma]]
+
+*'''Classes''': [[assassin]], [[barbarian]], [[blackguard]], [[purple dragon knight]], [[rogue]], [[weapon master]]
+
+*'''[[Cross-class skill|Cross-class]]''': yes
+
+*'''[[untrained skill check|Requires training]]''': no
+
+*'''Check''': The character can use this skill to change others' behavior with a successful check.
+
+*'''Use''': Selected in dialog
+
+==Notes==
+*Requires [[Hordes of the Underdark]].
+*Not as commonly used as the [[persuade]] skill by module designers.
+*The weapon master prestige class requires 4 ranks in intimidate.
+*Determines the DC of the [[terrifying rage]] feat.
+[[Category:Skills]]

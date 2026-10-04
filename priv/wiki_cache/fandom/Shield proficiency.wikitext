@@ -1,0 +1,33 @@
+{{feat
+|type=general
+|desc=A character with this feat has the training required to use a [[shield]].
+|use=automatic. All ''(base)'' classes except [[monk]]s, [[rogue]]s, [[sorcerer]]s, and [[wizard]]s have this feat for free.
+|icon=ife_sh_prof.gif
+|class1=arcane archer
+|class2=barbarian
+|class3=bard
+|class4=blackguard
+|class5=champion of Torm
+|class6=cleric
+|class7=druid
+|class8=dwarven defender
+|class9=fighter
+|class10=paladin
+|class11=ranger
+}}
+
+==Notes==
+*Creatures may not simultaneously use a shield and a [[two-handed weapon]].
+*[[Tower shield]]s additionally require that the wielder be [[size modifier|medium-sized]] or larger. (In particular, [[gnome]]s and [[halfling]]s may not use tower shields, even with this feat.)
+
+==Builder notes==
+'''Item feat:''' yes
+
+==Custom content notes==
+'''Removable:''' yes
+
+'''Reusable:''' yes
+
+'''Script:''' [[baseitems.2da]]
+
+*This requirement for equipping a shield can be removed in [[baseitems.2da]].

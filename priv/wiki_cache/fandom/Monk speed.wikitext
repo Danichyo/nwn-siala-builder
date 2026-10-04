@@ -1,0 +1,29 @@
+{{feat
+|type=class
+|prereq=[[monk]] 3
+|desc=Monks move more quickly than other classes, and this ability improves with [[experience point|experience]].
+|use=automatic
+|icon=ife_monkend.gif
+|class=monk
+}}
+
+==Notes==
+*A monk's [[movement rate]] increases by 10% for every 3 levels starting with level 3.
+**The bonus percentage is based on the base speed (defined in [[creaturespeed.2da]]) rather than the current speed.
+*This ability does not work while wearing armor or using a shield.
+*The speed bonus stacks with [[haste]] and [[movement speed increase]] effects. It does not, however, stack with [[barbarian fast movement]].
+*This feat also increases the movement speed effect cap to 3.0 + monk speed bonus, (those without the feat will have their speed capped at 1.5 as obtainable from haste).  This allows the monk speed to go beyond the normal 50% maximum.
+
+==Builder notes==
+'''Item feat:''' No, but it can be added with custom content.
+
+* The NWScript constant for this feat is FEAT_MONK_ENDURANCE (representing a pre-release name for this feat).
+
+==Custom content notes==
+'''Removable:''' yes
+
+'''Reusable:''' Partially: The speed bonus is not reusable, but the movement speed effect cap at 3.0 can be used by non-monks if the feat is obtained through leveling up.
+
+'''Item feat''' Only works for monks: By adding this feat to [[iprp_feats.2da]], monks of level one and two can benefit from the higher movement speed cap, and higher level monks additionally gain the speed bonus based on monk level.  The latter case would only have relevance if the monk class feats were changed to deny the feat at the intended level.
+
+'''Script:''' hardcoded

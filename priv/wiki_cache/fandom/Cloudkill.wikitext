@@ -1,0 +1,36 @@
+{{spell
+|icon=is_cloudkill.gif
+|magelevel=5
+|innatelevel=5
+|school=[[conjuration]]
+|components=VS
+|range=l
+|area=large
+|save=[[fortitude]] special
+|spellresistance=yes
+|immunity=''death''
+|duration=1 [[round]] / 2 levels
+|desc=A billowing cloud of noxious vapors settles over the area. Its effects vary according to the [[hit dice]] of the affected creatures:}}
+{|class="wikitable"
+! hit dice !! effects
+|-
+| 1-3 || instant death
+|-
+| 4-6 || fortitude save or death
+|-
+| 7+  || 1d10 [[acid damage]]/round
+|}
+
+== Notes ==
+* Creatures that enter the cloud will suffer 1d10 acid damage and a 50% [[movement speed decrease]]. (For targets with '''less''' than 7 hit dice, a simple fortitude save&mdash;not versus death&mdash;negates the speed decrease.)
+* Creatures that block the death effect (from immunity to [[death magic]]) will not suffer the movement speed decrease nor the initial acid damage. This is likely an oversight.
+* The per round acid damage is rolled once each round, not once per target, and it applies regardless of hit dice.
+
+== Custom content notes ==
+* ''impact script:'' <code>NW_S0_CloudKill</code>
+* ''OnEnter script:'' <code>NW_S0_CloudKillA</code>
+* ''OnExit script:'' <code>NW_S0_CloudKillB</code>
+* ''OnHearbeat script:'' <code>NW_S0_CloudKillC</code>
+
+==External Links==
+* {{FRW}}

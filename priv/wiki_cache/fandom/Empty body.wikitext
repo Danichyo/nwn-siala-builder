@@ -1,0 +1,18 @@
+{{feat
+|type=class
+|prereq=[[monk]] 18
+|desc=The monk is given 50% [[concealment]].
+|use=selected
+|icon=ife_emptybod.gif
+|class1=monk
+}}
+
+== Notes ==
+
+*''Empty body'' can be used twice per [[day]].
+*The duration is one [[round]] per monk level.
+* The concealment is applied as a [[supernatural effect]].
+* Reactivating this ability while a previous use is still active has no effect.
+
+== Custom content notes ==
+*''script:'' <code>NW_S2_Empty</code>

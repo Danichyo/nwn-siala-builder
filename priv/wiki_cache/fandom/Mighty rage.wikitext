@@ -1,0 +1,25 @@
+{{feat
+|epic=yes
+|type=general
+|prereq=21st level, [[strength]] 21+, [[constitution]] 21+, [[greater rage]] (6x per day)
+|desc=When the character rages, they gain +8 to [[strength]] and [[constitution]] and a +4 morale bonus to [[will]] saves. These bonuses replace the [[barbarian rage|normal rage]] bonuses.
+|use=<del>combat mode</del> ''selected''
+|icon=ife_x2mightrage.gif
+|bonus1=barbarian
+}}
+
+==Notes==
+
+*Requires [[Hordes of the Underdark]].
+*The duration is the barbarian's constitution modifier (before the rage) plus 11 rounds.
+*This feat's prerequisites require barbarian level 20. (This is when the feat called "greater rage (6x per day)" is acquired.)
+* ''Mighty rage'' does not replace ''greater rage''; it is a separate ability that can be activated three times per day. However, ''mighty rage'' has no effect if activated while ''greater rage'' in effect. (The reverse works though &ndash; one can use ''mighty rage'' then ''barbarian rage'' to get the effects of both.)
+*Unlike normal rage, mighty rage does not give an [[armor class]] penalty.
+*Like a normal rage, mighty rage can be improved by [[terrifying rage]] and [[thundering rage]] feats.
+*[[Ability]] bonuses are [[ability cap|capped]] at +12, so a barbarian with bonuses from [[item]]s, [[spell]]s or [[potion]]s might not gain the full ability bonuses from ''mighty rage''.
+*This feat can only be selected when leveling as a [[barbarian]].
+
+==Custom content notes==
+*A custom class must have this feat in their feat list, or that class will not be able to select it as a general feat.
+* ''script:'' <code>X2_S2_MghtyRage</code>
+[[category:feats restricted by class, epic]]

@@ -1,0 +1,14 @@
+{{feat
+|type=class
+|prereq=[[blackguard]] 4
+|desc=Whenever the character makes a successful attack against an opponent who is [[flat-foot]]ed, cannot see them, or who is in combat with someone else, the character's blow delivers extra damage. This extra damage is +1[[d6]] at fourth level and an additional +1d6 every three [[class level|level]]s thereafter. This extra damage is not multiplied in the case of a [[critical hit]].
+|use=automatic. Monsters of the [[construct]] and [[undead]] types are immune to sneak attacks, as are any creatures that are immune to critical hits.
+|icon=ife_sneakhit.gif
+|class=blackguard
+}}
+
+==Notes==
+*Added in the [[expansion pack]]s.
+*Sneak attacks can be made with ranged weapons if within 30 feet of the target.
+*The damage bonus from this feat [[stack]]s with that from the [[rogue]]'s [[sneak attack]] and [[assassin]]'s [[death attack]].
+*As of Enhanced Edition patch 1.74, [[Uncanny Dodge]] II provides immunity to flanking sneak attacks under certain class level checks between the attacker and defender. See the Uncanny Dodge article for more information.

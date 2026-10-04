@@ -1,0 +1,25 @@
+{{otheruses|the spell|the bolt (monster ability) dealing electrical damage|Lightning bolt (monster ability)}}
+
+{{spell
+|icon=is_lightnbolt.gif
+|magelevel=3
+|innatelevel=3
+|school=[[evocation]]
+|components=VS
+|range=m
+|area=chain of targets in a straight line
+|save=[[reflex]] 1/2
+|spellresistance=yes
+|immunity=electricity
+|duration=instant
+|line=Lightning
+|line3=Lightning bolt
+|line6=Chain lightning
+|desc=The caster fires a bolt of lightning that passes through all
+creatures in a straight line from the caster. The bolt does 1[[d6]] points of [[electrical damage]] per caster level, to a maximum of 10d6.}}
+
+==Custom content notes==
+*''script:'' <code>nw_s0_lghtnbolt</code>
+
+==External Links==
+* {{FRW}}

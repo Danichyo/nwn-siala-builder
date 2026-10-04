@@ -1,0 +1,20 @@
+{{Grimoire spell|imagename=Is x1divfav.gif
+|spellname=Divine Favor
+|casterlevel=[[Cleric]] 1, [[Paladin]] 1
+|innatelevel=1
+|school=[[Evocation]]
+|descriptors=None
+|components=V, S
+|range=Personal
+|immunities=None
+|savingthrow=None
+|spellresistance=No
+|targettype=Caster
+|duration=1 [[turn]]
+|description=The caster gains a +1 bonus to attack and weapon damage rolls for every three caster levels (at least +1, to a maximum of +6).
+}}
+
+== Notes ==
+*{{Grimoire spell change|pagename=[[Divine favor]]}}
+{{g_clr}}
+{{g_pal}}

@@ -1,0 +1,104 @@
+<div style="display:block; float:right">[[Image:Is polyself.gif|right|Polymorph self]]<br /><div style="display:block; float:right; text-align:right">
+[[Image:Is polyfey.gif|Polymorph, fey]]
+[[Image:Is polyspider.gif|Polymorph, giant spider]]
+[[Image:Is polytroll.gif|Polymorph, troll]]
+[[Image:Is polyhulk.gif|Polymorph, umber hulk]]
+[[Image:Is polyzomb.gif|Polymorph, zombie]]
+</div></div>
+{{spell
+|rangerlevel=4
+|magelevel=4
+|domain=animal
+|domainlevel=5
+|innatelevel=4 (''special'')
+|school=[[transmutation]]
+|components=V
+|range=p
+|area=caster
+|save=harmless
+|spellresistance=no
+|duration=1 [[turn]] / level
+|line=Polymorph
+|line4=polymorph self
+|line9=shapechange
+|desc=The caster is able to [[polymorph|turn himself into]] one of the following forms: giant spider, troll, umber hulk, pixie, zombie.}}
+
+== Notes ==
+
+* While ''polymorph self'' officially has an innate level of 4, each of the subspells that can be cast have an innate level of 3.  Crafting feats and [[use magic device]] checks will still use 4 for the innate level.
+* Casting this spell interferes with additional spellcasting; see [[polymorph]] for details.
+* No items merge into any form.
+* In zombie form, a character is treated as [[undead]] in a few aspects. For example, ''[[harm]]'' and ''[[heal (spell)|heal]]'' have reversed effects, and the character can be [[turn undead|turned]] by clerics. However, the caster does not receive the typical undead immunities like immunity to [[critical hit]]s or [[sneak attack]]s.
+* No form grants any [[Feat|feats]]. Notably, pixie form (unlike regular [[Pixie|pixies]] and [[Pixie (familiar)|pixie familiars]]) will not have [[weapon finesse]], unless the caster otherwise has it.
+
+== Form properties ==
+
+The new [[strength]], [[dexterity]], [[constitution]], and [[creature weapon]] damage for each form is listed in the following table, along with the [[dodge bonus]] to [[armor class]], [[size category]], [[hit point]]s bonus, and any special abilities gained.
+(The number of damage figures in the damage column indicates the number of creature weapons, not the number of attacks per round.)
+
+{|class="compacttable"
+ |-
+   !Form
+   !Str
+   !Dex
+   !Con
+   !Size
+   !AC
+   !HP
+   !Damage
+   !Special
+ |-
+   |[[Giant spider form|Giant spider]]
+   |style="text-align:center;"|19
+   |style="text-align:center;"|17
+   |style="text-align:center;"|12
+   |large
+   |style="text-align:center;"| +5
+   |style="text-align:center;"| +20
+   |1d8+4&nbsp;(bite)
+   |on hit: poison: [[large spider venom]]<br />[[freedom]]
+ |-
+   |[[Pixie form|Pixie]]
+   |style="text-align:center;"|10
+   |style="text-align:center;"|24
+   |style="text-align:center;"|10
+   |small
+   |style="text-align:right;"| +5
+   |style="text-align:center;"| -
+   |1d4&nbsp;(claw)
+   |immunity: spell school: [[enchantment]]<br />immunity: spells by level (level 3 or lower)
+ |-
+   |[[Troll form|Troll]]
+   |style="text-align:center;"|23
+   |style="text-align:center;"|14
+   |style="text-align:center;"|23
+   |large
+   |style="text-align:right;"| +5
+   |style="text-align:right;"| +10
+   |1d6+6/1d6+6/1d6+6<br />(claw/claw/bite)
+   |[[regeneration]] +5
+ |-
+   |[[Umber hulk form|Umber hulk]]
+   |style="text-align:center;"|23
+   |style="text-align:center;"|15
+   |style="text-align:center;"|19
+   |large
+   |style="text-align:right;"| +7
+   |style="text-align:right;"| +30
+   |2d4+6/2d4+6/2d8+6<br />(claw/claw/bite)
+   |[[true seeing]]
+ |-
+   |[[Zombie form|Zombie]]
+   |style="text-align:center;"|14
+   |style="text-align:center;"|14
+   |style="text-align:center;"|14
+   |medium
+   |style="text-align:center;"| -
+   |style="text-align:right;"| +40
+   |1d6+2&nbsp;(slam)
+   |[[damage resistance]]:<br />&nbsp;&nbsp;10/- (bludgeoning, piercing, and slashing)
+|}
+
+== Custom content notes ==
+
+* ''script:'' <code>NW_S0_PolySelf</code>

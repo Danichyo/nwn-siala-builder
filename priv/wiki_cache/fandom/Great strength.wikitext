@@ -1,0 +1,13 @@
+{{feat
+|epic=yes
+|type=general
+|prereq=21st level
+|desc=The character gains +1 to their [[strength]]. This may be taken multiple times, to a maximum bonus of +10.
+|use=automatic
+|icon=ife_x2grstr1.gif
+}}
+
+==Notes==
+
+*Requires [[Hordes of the Underdark]].
+*Effectively, this feat can only be taken seven times, as there are only seven epic general feats, and no class has this as a [[bonus feat]].

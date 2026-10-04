@@ -1,0 +1,23 @@
+{{spell
+|icon=is_rmvparal.gif
+|clericlevel=2
+|paladinlevel=2
+|innatelevel=2
+|school=[[conjuration]]
+|components=VS
+|range=s
+|area=large
+|areanote=, 1 creature /  4 levels
+|save=harmless
+|spellresistance=no
+|duration=instant
+|counters=<del>[[hold person]]</del>
+|desc=All [[paralysis]] and hold effects are removed from allies within the [[area of effect]].}}
+
+== Notes ==
+
+* Paralysis can also be removed by ''[[restoration]]'' and ''[[freedom of movement]]''.
+*Due to a .2da bug, ''remove paralysis'' is not an additional [[counterspell]] of ''hold person''.
+
+==Custom content notes==
+* ''script:'' <code>NW_S0_RmvParal</code>

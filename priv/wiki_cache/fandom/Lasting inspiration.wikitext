@@ -1,0 +1,22 @@
+{{feat
+|epic=yes
+|type=general
+|prereq=21st level, [[perform]] ''25'', [[bard song]]
+|desc=This [[feat]] allows the effects of bardic music to last ten times longer.
+|use=automatic
+|icon=ife_x2lastinsp.gif
+|bonus1=bard
+|bonus2=Harper scout
+}}
+
+==Notes==
+*Requires [[Hordes of the Underdark]].
+*This feat [[stack]]s with [[lingering song]], but the former is applied first; so with both feats, the duration is 105 [[round]]s.
+*The bard song requirement is specifically the level 20 bard song feat, so this feat cannot be taken with fewer bard levels (but can be taken at bard level 20).
+*Because of the required [[perform]] level, this feat cannot actually be taken until [[character level]] 22.
+*Only bards and [[Harper scout]]s can take the feat.
+
+==Custom content notes==
+*A custom class must have this feat in their feat list, or that class will not be able to select it as a general feat.
+
+[[category:feats restricted by class, epic]]

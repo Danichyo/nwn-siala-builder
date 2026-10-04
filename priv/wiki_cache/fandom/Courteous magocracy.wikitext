@@ -1,0 +1,12 @@
+{{feat
+|type=general
+|prereq=Can only take this feat at first level.
+|desc=The character gains a +2 bonus on [[lore]] checks and [[spellcraft]] checks.
+|use=automatic
+|icon=ife_x1court.gif
+}}
+
+==Notes==
+*Added in the [[expansion pack]]s.
+
+[[category:first level feats]]

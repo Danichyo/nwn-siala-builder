@@ -1,0 +1,39 @@
+{{spell
+|icon=is_x2glphward.gif
+|clericlevel=3
+|innatelevel=3
+|school=[[abjuration]]
+|components=VS
+|range=s
+|area=large
+|save=[[reflex]] 1/2
+|spellresistance=yes
+|immunity=sonic
+|duration=1 [[turn]] / level
+|desc=The caster creates a small, magical zone that can detect the passage of enemy creatures. When the field is activated, it explodes, doing 1[[d8]] points of [[sonic damage]] per two caster levels to all creatures within the [[area of effect]] (to a maximum of 5d8). After being triggered, the glyph dissipates.}}
+{|class="wikitable"
+!Caster level!!Damage per cast
+|-
+|align=center|5||align=center|2d8
+|-
+|align=center|6||align=center|3d8
+|-
+|align=center|8||align=center|4d8
+|-
+|align=center|10+||align=center|5d8
+|}
+
+==Notes==
+*Requires [[Hordes of the Underdark]].
+*Because of a bug the spell [[DC]] is fixed at 14. ''See [[Talk:Glyph of warding#DC_bug|here]] for a fix.''
+
+==Custom content notes==
+*''impact script:'' <code>X2_S0_GlphWard.nss</code>
+*''OnEnter script:'' <code>X2_S0_GlphWardA.nss</code>
+*''placeable:'' x2_plc_glyph (Glyph of Warding)
+**''OnHearbeat script:'' <code>x2_o0_glyphhb.nss</code>
+**''OnUserDefined script:'' <code>x2_o0_glyphude.nss</code>
+*''secondary impact script:'' <code>x2_s0_glphwardx.nss</code> (spell 764)
+
+==External Links==
+* {{FRW}}

@@ -1,0 +1,18 @@
+{{spell
+|icon=is_x1shield.gif
+|magelevel=1
+|innatelevel=1
+|school=[[abjuration]]
+|components=VS
+|range=p
+|area=caster
+|save=none
+|spellresistance=no
+|duration=1 [[turn]] / level
+|desc=The caster gains a +4 [[deflection bonus]] to [[armor class|AC]]. The caster is also immune to the spell [[magic missile]] for the duration of the ''shield''.}}
+
+==Notes==
+*Added in the [[expansion pack]]s.
+
+==Custom content notes==
+*''script:'' <code>x0_s0_shield.nss</code>

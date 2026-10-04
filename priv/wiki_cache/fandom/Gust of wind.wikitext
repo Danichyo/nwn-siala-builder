@@ -1,0 +1,26 @@
+{{spell
+|icon=is_x1gustwind.gif
+|bardlevel=3
+|magelevel=3
+|innatelevel=3
+|school=[[evocation]]
+|components=VS
+|range=m
+|area=huge
+|save=[[fortitude]] negates
+|spellresistance=yes
+|duration=instant
+|desc=This spell creates a blast of air that [[prone|knocks down]] any creatures failing their [[saving throw]]s. It is also powerful enough to disperse any cloudlike [[area of effect]] spells (such as [[cloudkill]]) that are in the path of the wind gust.}}
+
+==Notes==
+*Added in the [[expansion pack]]s.
+*The duration of the knockdown effect is 3 [[round]]s.
+*The "cloudlike" area of effect spells that this spell can disperse are [[acid fog]], [[cloud of bewilderment]], cloudkill, [[creeping doom]], [[incendiary cloud]], [[mind fog]], and [[stinking cloud]].
+*This spell is very useful for escaping a horde of pitiful enemies.
+
+===Previous versions===
+*Prior to version 1.69, ''gust of wind'' dispersed all areas of effect, not just the cloudlike ones. This made it one of the best third level spells, particularly in high-magic settings.
+*Prior to version 1.69, auras such [[battletide]] and [[magic circle against alignment]] were included in the areas of effects that could be dispersed, if this spell targeted the target of those spells.
+
+==Custom content notes==
+*''script:'' <code>x0_s0_gustwind.nss</code>

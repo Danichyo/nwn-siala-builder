@@ -1,0 +1,12 @@
+{{feat
+|type=class
+|prereq=[[Harper scout]] 2
+|desc=A Harper scout at second level is able to cast [[sleep (spell)|sleep]] once per day.
+|use=selected
+|icon=ife_x1hsleep.gif
+|class=Harper scout
+}}
+
+==Notes==
+*This spell has a DC of 10 + (Harper scout Level) + ([[dexterity]] [[ability modifier|modifier]]). If the dexterity modifier is negative, the spell will have a DC of 127.
+*Added in the [[expansion pack]]s.

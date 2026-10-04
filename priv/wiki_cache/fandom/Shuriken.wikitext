@@ -1,0 +1,19 @@
+{{Weapon|imagefile=Shuriken.jpg
+  |weaponname=Shuriken
+  |weapondescription='''Shuriken''' are light, easy to conceal, and while they do little damage individually, they can be thrown very quickly.
+  |weight=0
+  |cost=1
+  |damage=1d3
+  |critical=x2
+  |damagetype=[[piercing damage|Piercing]]
+  |size=Tiny
+  |proficiency=[[Weapon proficiency (exotic)|Exotic]]<br/>&nbsp;[[Weapon proficiency (monk)|Monk]]
+  |category=[[Category:Throwing weapons]] [[Category:Tiny weapons]] [[Category:Exotic weapons]]
+}}
+
+==Notes==
+* A shuriken's damage is unaffected by its wielder's [[strength]] unless given an explicit [[mighty]] property. So characters with less than 10 strength will not have a damage penalty when wielding most shurikens. In this respect, shurikens behave like [[crossbow]]s, not like the other thrown weapons ([[throwing axe]] and [[dart]]).
+* Shurikens can be used with [[shield]]s.
+
+==Toolset==
+* Shurikens are listed in the [[throwing blueprint category]] on the [[item palette]] of the [[toolset]].

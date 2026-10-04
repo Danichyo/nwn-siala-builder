@@ -1,0 +1,16 @@
+{{Grimoire spell|imagename=is_fogcld.jpg
+|spellname=Fog Cloud
+|casterlevel=[[Sorcerer]] / [[Wizard (class)|Wizard]] 2
+|innatelevel=2
+|school=[[Conjuration ]]
+|descriptors=Water
+|components=V, S
+|range=Medium (100 ft + 10 ft/level)
+|immunities=None
+|savingthrow=None
+|spellresistance=No
+|targettype=Fog that spreads in a 30-ft radius, 20 ft high
+|duration=10 turns/level
+|description=A bank of fog billows out from a point you designate.  This spell is indistinguishable from the spell Cloudkill, except that it causes no damage. The fog cloud does provide concealment to those within it even as it impairs the vision of those inside.
+}}
+{{g_sorwiz}}

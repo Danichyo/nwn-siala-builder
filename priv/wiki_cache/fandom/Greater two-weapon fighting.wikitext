@@ -1,0 +1,13 @@
+'''Type of feat:''' general
+
+'''Prerequisite:''' [[ambidexterity]], [[two-weapon fighting]], [[improved two-weapon fighting]], and a [[base attack bonus]] of +15 or higher
+
+'''Required for:''' [[perfect two-weapon fighting]]
+
+'''Specifics:''' You are a master at fighting two-handed. While using greater two weapon fighting a player can make an additional [[attack per round]], but takes a -2 penalty to all attacks.
+
+'''Use:''' automatic
+
+==Notes==
+*Added in the [[PRC Expansion Pack]].
+[[Category:PRC feats]]

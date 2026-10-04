@@ -1,0 +1,31 @@
+{{spell
+|icon=is_x1bala.gif
+|bardlevel=1
+|magelevel=2
+|innatelevel=2
+|school=<del>[[transmutation]]</del> <ins>''[[enchantment]]''</ins>
+|immunity=<del>sonic</del>
+|components=VS
+|range=p
+|area=colossal
+|spellresistance=yes
+|duration=instant
+|desc=The caster creates a deep, resonant vibration that shakes all creatures in the area of effect from their feet if they fail a [[strength]] check (as if the caster had a strength of 20). Every creature that falls will be [[prone|knocked down]] for one [[round]].}}
+
+==Notes==
+
+*Added in the [[expansion pack]]s.
+*The strength check of this spell is (creature's strength + d20) vs. (20 + d20). Ties go to the creature. The creature's strength is its actual strength score rather than strength modifier, e.g., a creature with 20 strength would get 20 + d20 rather than 5 + d20 to oppose the knockdown.
+*Despite its description, this spell belongs to the [[enchantment]] school. ''(Possibly a bug.)''
+* This spell is erroneously flagged as not being hostile, which allows it to be used in some cases where only non-hostile spells are supposed to be allowed.
+*The "sonic" descriptor mentioned in-game is not used by this spell.
+
+===Previous versions===
+
+*Prior to version 1.69, this spell did not have a somatic [[component]], so it could be cast while wearing full armor and shield, ignoring arcane [[spell failure]].
+
+==Custom content notes==
+*''Script:'' <code>x0_s0_ironhorn.nss</code>
+==External links==
+* {{FRW}}
+* {{NWN2W|Balagarn's Iron Horn}}

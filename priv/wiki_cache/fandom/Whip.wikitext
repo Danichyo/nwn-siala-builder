@@ -1,0 +1,77 @@
+{{Weapon|imagefile=Whip.jpg
+  |weaponname=Whip
+  |weapondescription=While a '''whip''' is not capable of inflicting substantial damage in combat, it can be very useful for disarming enemies, leaving them vulnerable to attacks by other [[weapon]]s.<br />While wielding a whip, a [[character]] gets the [[disarm]] feat for free.
+  |weight=3
+  |cost=1
+  |damage=1d2
+  |critical=x2
+  |damagetype=[[slashing damage|slashing]]
+  |size=Small
+  |proficiency=[[Weapon proficiency (exotic)|exotic]]
+  |category=[[Category:Exotic weapons]]
+}}
+
+== Notes ==
+
+* Requires [[Hordes of the Underdark]].
+* Whips cannot be wielded in the [[off-hand]] without using a modified [[baseitems.2da]].
+* The free disarm feat is implemented as an item property on all standard whips. It is possible to create a whip without this item property. (The item property does not increase the base value of the weapon it is on.)
+* Whips benefit from the [[weapon finesse]] [[feat]].
+
+==Toolset==
+
+*Whips are listed under the [[exotic blueprint category]] of the [[item palette]] in the [[toolset]].
+
+== Specific whips ==
+
+'''Deathcoil:'''
+This sleek coil of hardened leather slithers in your grasp and reeks of dark magic. The previous owner used it against his own undead minions, healing them through the negative damage the whip delivers.
+
+''Special properties''
+
+Damage bonus: 1[[d10]] [[negative energy damage]]
+
+[[Enhancement bonus]]: +5
+
+Only usable by: [[blackguard]]
+
+Only usable by: [[evil]]
+
+Use: [[negative energy burst]] (10) 1 use/day
+
+'''Epic Shocking Whip:'''
+Crafted from the skin of a shocker lizard, the Shocking Whip is capable of unleasing a burst of electrical energy when hitting, causing heavy damage and potentially stunning the target for a short period of time.
+
+''Special properties''
+
+Damage bonus: 2d8 [[electrical damage]]
+
+Enhancement bonus: +5
+
+[[On-hit]]: [[stunned|stun]] DC=26 10% / 4 [[round]]s
+
+'''Hellish Whip:'''
+Used usually by the hellish Erinyes, these whips inflict fire damage on hit.
+
+''Special properties''
+
+Enhancement bonus: +2
+
+On-hit: flaming weapon properties ([[fire damage]]) level 10
+
+'''Shocking Whip:'''
+Crafted from the skin of a shocker lizard, the Shocking Whip is capable of unleasing a burst of electrical energy when hitting, causing heavy damage and potentially stunning the target for a short period of time.
+
+''Special properties''
+
+Damage bonus: 1d6 electrical damage
+
+Enhancement bonus: +3
+
+On-hit: stun DC=22 10% / 4 [[round]]s
+
+'''Whip +1''' through '''Whip +7:'''
+
+''Special properties''
+
+Enhancement bonus: +X, per the name

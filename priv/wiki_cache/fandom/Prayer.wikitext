@@ -1,0 +1,23 @@
+{{spell
+|icon=is_prayer.gif
+|clericlevel=3
+|paladinlevel=3
+|innatelevel=3
+|school=[[conjuration]]
+|components=VS
+|range=p
+|area=colossal
+|areanote=, caster
+|save=harmless
+|spellresistance=yes
+|duration=1 [[round]] / level
+|counters=<del>[[bestow curse]]</del>
+|desc=All allies within the [[area of effect]] gain +1 to [[attack bonus|attack]] and damage rolls, [[skill check]]s, and [[saving throw]]s. Enemies receive -1 penalties to the same.}}
+
+== Notes ==
+*The bonus to attack provided by this spell counts towards the +20 [[attack bonus cap]].
+* Friendly [[non-player character]]s and characters in the caster's [[party]] receive the beneficial effects. All others are subject to "standard hostile" [[area of effect#Targeting|targeting]] for the negative effects. This may cause neutral characters to go hostile.
+*Due to a .2da bug, ''prayer'' is not an additional [[counterspell]] of ''bestow curse''.
+
+==Custom content notes==
+*''script:'' <code>NW_S0_Prayer.nss</code>

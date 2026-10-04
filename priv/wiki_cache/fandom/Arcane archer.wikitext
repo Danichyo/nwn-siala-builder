@@ -1,0 +1,168 @@
+[[Image:Ir archer.gif|right|Arcane archer icon]]
+'''Description''': ([[prestige class|PRESTIGE CLASS]])
+Master of the elven warbands, the arcane archer is a warrior skilled in using magic to supplement his combat prowess.
+
+'''[[Hit dice]]''': d8
+
+'''Proficiencies''': all [[weapon proficiency (simple)|simple]] and [[weapon proficiency (martial)|martial]] weapons,  [[armor proficiency (light)|light]] and [[armor proficiency (medium)|medium]] armor, and [[shield proficiency|shields]]
+
+'''[[Skill point]]s''': 4 + [[int]] modifier
+
+'''Skills''': [[craft armor]], [[craft trap]], [[craft weapon]], [[heal (skill)|heal]], [[hide]], [[listen]], [[lore]], [[move silently]], [[ride]], [[spot]]
+
+'''Unavailable feats:'''
+[[brew potion]], [[craft wand]], [[curse song]],
+[[deflect arrows]], [[divine might]], [[divine shield]], [[extra music]],
+[[extra turning]], [[lingering song]], [[quicken spell]], [[scribe scroll]],
+[[spell focus]], [[weapon specialization]]
+<br />These [[general feat]]s cannot be selected when taking a level of arcane archer.
+
+'''[[Saving throw|Primary saving throw(s)]]''': [[fortitude]], [[reflex]]
+
+'''[[Base attack bonus]]: +1/level
+
+[[Image:ArcaneArcher.jpg|Arcane archer]]
+
+==Requirements==
+To qualify as an arcane archer, a character must fulfill all of the following criteria: 
+
+'''[[Base attack bonus]]''': +6
+
+'''Feats''': [[weapon focus]] ([[longbow]] or [[shortbow]]), [[point blank shot]]
+
+'''Race''': [[elf]] or [[half-elf]]
+
+'''Spellcasting''': <s>Able to cast first level arcane spells</s> <i>A level of [[bard]], [[sorcerer]], or [[wizard]]</i>
+
+==Level progression==
+
+{| border=2 style="background:#efefef; color:#000000; border-collapse:collapse" 
+|- style="background:#c0c0c0"
+
+!rowspan=2|Lvl 
+!rowspan=2|BAB 
+!colspan=3|Saves 
+!rowspan=2|Feats 
+!rowspan=2|HP range 
+!rowspan=12 style="background:#ffffff"|&nbsp; 
+!rowspan=2|Arrow <br> enchantment
+!rowspan=2|Imbued arrow <br> explosion damage
+
+|- style="background:#c0c0c0"
+
+!Fort 
+!Ref 
+!Will 
+
+|- align=center 
+||1st ||+1 ||+2 ||+2 ||+0 ||align=left|[[enchant arrow]] ||4-8 ||+1 ||- 
+|- align=center 
+||2nd ||+2 ||+3 ||+3 ||+0 ||align=left|[[imbue arrow]] ||8-16 ||+1 ||10d6 
+|- align=center 
+||3rd ||+3 ||+3 ||+3 ||+1 ||align=left| ||12-24 ||+2 ||10d6 
+|- align=center 
+||4th ||+4 ||+4 ||+4 ||+1 ||align=left|[[seeker arrow]] I ||16-32 ||+2 ||10d6 
+|- align=center 
+||5th ||+5 ||+4 ||+4 ||+1 ||align=left| ||20-40 ||+3 ||10d6 
+|- align=center 
+||6th ||+6 ||+5 ||+5 ||+2 ||align=left|seeker arrow II&nbsp;||24-48 ||+3 ||10d6 
+|- align=center 
+||7th ||+7 ||+5 ||+5 ||+2 ||align=left| ||28-56 ||+4 ||10d6 
+|- align=center 
+||8th ||+8 ||+6 ||+6 ||+2 ||align=left|[[hail of arrows]] ||32-64 ||+4 ||10d6 
+|- align=center 
+||9th ||+9 ||+6 ||+6 ||+3 ||align=left| ||36-72 ||+5 ||10d6 
+|- align=center  
+||10th&nbsp;||+10 ||+7 ||+7 ||+3 ||align=left|[[arrow of death]] ||40-80 ||+5 ||10d6 
+|}
+
+==Tip: becoming an arcane archer==
+*[[Fighter]]s, [[ranger]]s, [[paladin]]s, and [[barbarian]]s ''(add an arcane class then)'' become arcane archers to add a little magic to their combat abilities.
+*Conversely, [[wizard]]s and [[sorcerer]]s may take this [[prestige class]] to add combat capabilities to their repertoires.
+
+[[Image:ife x2eparcher.gif|right|Epic arcane archer]]
+
+==Epic arcane archer==
+The epic arcane archer is the living extension of her bow. Lesser beings can only gape in awe at the wonders she can achieve.
+
+'''Hit die:''' d8
+
+'''Skill points:''' 4 + int modifier
+
+'''Bonus feats:''' The epic arcane archer gains a bonus feat every four levels. In other words, at levels 14, 18, 22, 26, and 30.
+
+'''Epic bonus feats:''' [[blinding speed]], [[devastating critical]] (longbow, shortbow), [[epic prowess]], [[epic reflexes]], [[epic toughness]], [[epic weapon focus]] (longbow, shortbow), [[great dexterity]], [[improved combat casting]], [[overwhelming critical]] (longbow, shortbow)
+
+'''Unavailable epic feats:'''
+[[automatic quicken spell]], [[automatic silent spell]], [[automatic still spell]], [[bane of enemies]],
+[[construct shape]], [[dragon shape]], [[epic spell penetration]],
+[[epic spell: dragon knight]], [[epic spell: epic mage armor]], [[epic spell: epic warding]], [[epic spell: greater ruin]], [[epic spell: hellball]], [[epic spell: mummy dust]],
+[[epic weapon specialization]], [[great smiting]],
+[[improved ki strike 4]], [[improved ki strike 5]], [[improved sneak attack]],
+[[improved spell resistance]], [[improved stunning fist]],
+[[lasting inspiration]], [[mighty rage]], [[outsider shape]],
+[[planar turning]], [[terrifying rage]], [[thundering rage]], [[undead shape]]
+<br />These general [[epic feat]]s cannot be selected when taking a level of arcane archer.
+
+===Epic arcane archer level progression===
+
+{| border=2 style="background:#efefef; color:#000000; border-collapse:collapse" 
+|- style="background:#c0c0c0"
+
+!&nbsp;Lvl&nbsp; 
+!Feats 
+!HP range 
+!rowspan=21 style="background:#ffffff"|&nbsp; 
+!Arrow <br> enchantment
+!Imbue arrow <br> explosion damage
+
+|- align=center 
+||11th ||align=left| ||44-88 ||+6 ||10d6 
+|- align=center 
+||12th ||align=left| ||48-96 ||+6 ||11d6 
+|- align=center 
+||13th ||align=left| ||52-104 ||+7 ||11d6
+|- align=center 
+||14th ||align=left|bonus feat ||56-112 ||+7 ||12d6 
+|- align=center 
+||15th ||align=left| ||60-120 ||+8 ||12d6 
+|- align=center 
+||16th ||align=left| ||64-128 ||+8 ||13d6 
+|- align=center 
+||17th ||align=left| ||68-136 ||+9 ||13d6 
+|- align=center 
+||18th ||align=left|bonus feat ||72-144 ||+9 ||14d6 
+|- align=center 
+||19th ||align=left| ||76-152 ||+10 ||14d6 
+|- align=center 
+||20th ||align=left| ||80-160 ||+10 ||15d6 
+|- align=center 
+||21st ||align=left| ||84-168 ||+11 ||15d6 
+|- align=center 
+||22nd ||align=left|bonus feat ||88-176 ||+11 ||16d6 
+|- align=center 
+||23rd ||align=left| ||92-184 ||+12 ||16d6 
+|- align=center 
+||24th ||align=left| ||96-192 ||+12 ||17d6 
+|- align=center 
+||25th ||align=left| ||100-200 ||+13 ||17d6 
+|- align=center 
+||26th ||align=left|bonus feat ||104-208 ||+13 ||18d6 
+|- align=center 
+||27th ||align=left| ||108-216 ||+14 ||18d6 
+|- align=center 
+||28th ||align=left| ||112-224 ||+14 ||19d6 
+|- align=center 
+||29th ||align=left| ||116-232 ||+15 ||19d6 
+|- align=center 
+||30th ||align=left|bonus feat &nbsp; ||120-240 ||+15 ||20d6 
+|}
+
+=== Special ===
+'''Enchant arrow''': For every two levels beyond 9th, the potency of the arrows fired by the arcane archer increases by +1.
+
+==Notes==
+*Requires [[Shadows of Undrentide]].
+*Some documentation states that the ability to cast level 1 spells is required to be an arcane archer, but that is incorrect. Only a single level of any arcane class is needed. For example, bards don't get level 1 spells until their second level, but only one bard level is needed to become an arcane archer. The same applies to wizards with 10 or lower [[intelligence]] and to sorcerers with 10 or lower [[charisma]].
+[[Category:prestige classes]]
+[[Category:classes]]

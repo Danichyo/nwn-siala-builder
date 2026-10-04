@@ -1,0 +1,36 @@
+{{DEFAULTSORT:Summon creature VIIII}}
+{{spell
+|icon=is_summon9.gif
+|clericlevel=9
+|druidlevel=9
+|magelevel=9
+|innatelevel=9
+|school=[[conjuration]]
+|components=VS
+|range=s
+|area=point
+|save=none
+|spellresistance=no
+|duration=24 [[hour]]s
+|line=Summon creature
+|line1=summon creature I
+|line2=summon creature II
+|line3=summon creature III
+|line4=summon creature IV
+|line5=summon creature V
+|line6=summon creature VI
+|line7=summon creature VII
+|line8=summon creature VIII
+|line9=summon creature IX
+|desc=The caster [[summon]]s a random elder [[elemental]] to be a faithful and loyal servant.}}
+
+== Notes ==
+
+* The creatures potentially summoned by this spell are [[elder air elemental]]s, [[elder fire elemental]]s, and [[elder water elemental]]s.
+* This spell used to include [[elder earth elemental]]s as a possible summons, but their girth often caused problems navigating dungeons.
+
+== Custom content notes ==
+
+* ''script:'' <code>NW_S0_Summon</code>
+
+[[category:summoning]]

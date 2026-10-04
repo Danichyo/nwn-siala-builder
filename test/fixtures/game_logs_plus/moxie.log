@@ -1,0 +1,248 @@
+[CHAT WINDOW TEXT] [Fri Sep 18 00:17:18] Command detected: .билд+
+[CHAT WINDOW TEXT] [Fri Sep 18 00:17:18] Открываю билд окно
+[CHAT WINDOW TEXT] [Fri Sep 18 00:17:18] 
+------------------------------------------------
+    CHARACTER BUILD: Мокси
+    Current: 4 MNK / 35 CLR / 1 ROG / 1 RNG
+------------------------------------------------
+
+CURRENT ABILITIES: STR 20 DEX 22 CON 22 INT 16 WIS 48 CHA 8
+COMBAT STATS: AB 31 AC 72 Fort 50 Refl 45 Will 63
+SKILLS WITH RANKS:
+  Concentration 44, Discipline 44, Search 7
+  Spellcraft 30, Spot 44, UMD 33
+  Tumble 40
+
+(WHITE) ABILITIES: STR 8 DEX 10 CON 10 INT 16 WIS 26 CHA 8
+RACE: Elf
+ALIGNMENT: Lawful Good
+
+------------------------------------------------
+LEVEL 1: MONK
+  FEATS: Cleave, Improved Unarmed Strike, Stunning Fist, Weapon Proficiency (simple), Flurry of Blows, Immunity To Sleep, Hardiness vs. Enchantments, Skill Affinity (Listen), Skill Affinity (Search), Skill Affinity (Spot), Keen Sense, Low-light Vision, Дух Сиалы, Владение клинковым оружием
+  SKILLS: Discipline +4
+------------------------------------------------
+LEVEL 2: CLERIC
+  FEATS: Armor Proficiency (heavy), Armor Proficiency (light), Armor Proficiency (medium), Shield Proficiency, Turn Undead, War Domain Powers, Travel Domain Powers
+------------------------------------------------
+LEVEL 3: CLERIC
+  FEATS: Expertise
+------------------------------------------------
+LEVEL 4: CLERIC
+  ABILITY: +1 WIS
+------------------------------------------------
+LEVEL 5: CLERIC
+------------------------------------------------
+LEVEL 6: CLERIC
+  FEATS: Improved Expertise
+------------------------------------------------
+LEVEL 7: CLERIC
+------------------------------------------------
+LEVEL 8: CLERIC
+  ABILITY: +1 WIS
+------------------------------------------------
+LEVEL 9: CLERIC
+  FEATS: Spell Focus (Necromancy)
+------------------------------------------------
+LEVEL 10: CLERIC
+------------------------------------------------
+LEVEL 11: CLERIC
+------------------------------------------------
+LEVEL 12: CLERIC
+  ABILITY: +1 WIS
+  FEATS: Greater Spell Focus (Necromancy)
+------------------------------------------------
+LEVEL 13: CLERIC
+------------------------------------------------
+LEVEL 14: CLERIC
+------------------------------------------------
+LEVEL 15: CLERIC
+  FEATS: Maximize Spell
+------------------------------------------------
+LEVEL 16: CLERIC
+  ABILITY: +1 WIS
+------------------------------------------------
+LEVEL 17: CLERIC
+------------------------------------------------
+LEVEL 18: CLERIC
+  FEATS: Quicken Spell
+------------------------------------------------
+LEVEL 19: CLERIC
+------------------------------------------------
+LEVEL 20: MONK
+  ABILITY: +1 WIS
+  FEATS: Deflect Arrows
+------------------------------------------------
+LEVEL 21: CLERIC
+  FEATS: Epic Character, Great Wisdom I
+------------------------------------------------
+LEVEL 22: CLERIC
+------------------------------------------------
+LEVEL 23: CLERIC
+  FEATS: Epic Cleric
+------------------------------------------------
+LEVEL 24: CLERIC
+  ABILITY: +1 WIS
+  FEATS: Great Wisdom II
+------------------------------------------------
+LEVEL 25: CLERIC
+  FEATS: Great Wisdom III
+------------------------------------------------
+LEVEL 26: CLERIC
+------------------------------------------------
+LEVEL 27: CLERIC
+  FEATS: Automatic Quicken Spell I
+  SKILLS: Spellcraft +30
+------------------------------------------------
+LEVEL 28: CLERIC
+  ABILITY: +1 WIS
+  FEATS: Automatic Quicken Spell II
+------------------------------------------------
+LEVEL 29: CLERIC
+------------------------------------------------
+LEVEL 30: CLERIC
+  FEATS: Automatic Quicken Spell III
+------------------------------------------------
+LEVEL 31: CLERIC
+  FEATS: Great Wisdom IV
+------------------------------------------------
+LEVEL 32: CLERIC
+  ABILITY: +1 WIS
+------------------------------------------------
+LEVEL 33: CLERIC
+  FEATS: Great Wisdom V
+------------------------------------------------
+LEVEL 34: CLERIC
+  FEATS: Great Wisdom VI
+------------------------------------------------
+LEVEL 35: CLERIC
+------------------------------------------------
+LEVEL 36: CLERIC
+  ABILITY: +1 WIS
+  FEATS: Great Wisdom VII
+------------------------------------------------
+LEVEL 37: MONK
+  FEATS: Monk Speed, Still Mind
+------------------------------------------------
+LEVEL 38: MONK
+  FEATS: Monk AC Bonus
+  SKILLS: Discipline +37, Tumble +40
+------------------------------------------------
+LEVEL 39: ROGUE
+  FEATS: Sneak Attack (+1d6), Epic Skill Focus (Spot)
+  SKILLS: Spot +42, UMD +33
+------------------------------------------------
+LEVEL 40: CLERIC
+  ABILITY: +1 WIS
+  FEATS: Great Wisdom VIII
+------------------------------------------------
+LEVEL 41: RANGER
+  FEATS: Toughness, Trackless Step, Dual-Wield, Epic Spell Focus (Necromancy)
+  SKILLS: Concentration +44, Discipline +3, Search +7, Spot +2
+------------------------------------------------
+
+
+
+[CHAT WINDOW TEXT] [Fri Sep 18 00:17:18] Build sent to! Мокси
+[CHAT WINDOW TEXT] [Fri Sep 18 00:17:18] === Equipped: Мокси ===
+MINI SET PIECES: 0
+CRAFT ITEMS: 3
+[HEAD] Шлем Света Сагры
+  [1] Cast Spell (Unique Power) 13
+  [2] Skill Bonus (Spot) 10
+  [3] Skill Bonus (Listen) 10
+  [4] Saving Throw Bonus (Universal) 3
+  [5] Ability Bonus (Wisdom) 3
+  [6] Bonus Feat (Alertness)
+  [7] Bonus Spell Slot of Level (Cleric) 3
+  [8] Bonus Spell Slot of Level (Cleric) 4
+  [9] Bonus Spell Slot of Level (Cleric) 5
+  [10] Use Limitation: Class (Cleric)
+[CHEST] Одеяние Света Сагры [BaseAC:0]
+  [1] Ability Bonus (Constitution) 3
+  [2] Ability Bonus (Strength) 3
+  [3] Ability Bonus (Wisdom) 3
+  [4] AC Bonus 6
+  [5] Bonus Spell Slot of Level (Cleric) 6
+  [6] Bonus Spell Slot of Level (Cleric) 7
+  [7] Bonus Spell Slot of Level (Cleric) 8
+  [8] Damage Reduction (+7) 2
+  [9] Saving Throw Bonus (Universal) 3
+  [10] Skill Bonus (Discipline) 6
+  [11] Use Limitation: Class (Cleric)
+  [12] On Hit Cast Spell (Unique Power (OnHit))
+[BOOTS] Сапоги Света Сагры
+  [1] Ability Bonus (Constitution) 3
+  [2] Ability Bonus (Strength) 3
+  [3] AC Bonus 6
+  [4] Bonus Feat (Empower Spell)
+  [5] Bonus Spell Slot of Level (Cleric) 7
+  [6] Bonus Spell Slot of Level (Cleric) 8
+  [7] Saving Throw Bonus (Universal) 3
+  [8] Skill Bonus (Concentration) 6
+  [9] Skill Bonus (Discipline) 6
+  [10] Use Limitation: Class (Cleric)
+[ARMS] Перчатки Мокси (Gauntlet) [BaseItem:36] [CRAFT]
+  [1] Cast Spell (Unique Power Self Only) 13
+  [2] Saving Throw Bonus (Universal) 4
+  [3] Ability Bonus (Dexterity) 4
+  [4] Quality (65535) 15
+  [5] Cast Spell (Unique Power) 13
+[RIGHTHAND] Меч Света Сагры (Greatsword) [BaseItem:13]
+  [1] Cast Spell (Greater Spell Breach (11)) 12
+  [2] Bonus Feat (Epic Spell Focus (Evocation))
+  [3] Bonus Feat (Improved Combat Casting)
+  [4] Bonus Spell Slot of Level (Cleric) 7
+  [5] Bonus Spell Slot of Level (Cleric) 8
+  [6] Bonus Spell Slot of Level (Cleric) 9
+  [7] Immunity: Damage Type (Bludgeoning) 8
+  [8] Immunity: Damage Type (Piercing) 8
+  [9] Immunity: Damage Type (Slashing) 8
+  [10] Light (0) 3 [1]
+  [11] On Hit Cast Spell (Word of Faith) 39
+  [12] Regeneration (0) 10
+  [13] Skill Bonus (Concentration) 10
+  [14] Skill Bonus (Discipline) 10
+  [15] Use Limitation: Class (Cleric)
+  [16] Visual Effect (Holy)
+[CLOAK] Плащ Боевого Священника
+  [1] Ability Bonus (Wisdom) 4
+  [2] Bonus Feat (Extend Spell)
+  [3] Bonus Feat (Greater Spell Penetration)
+  [4] Bonus Spell Slot of Level (Cleric) 5
+  [5] Bonus Spell Slot of Level (Cleric) 6
+  [6] Saving Throw Bonus (Universal) 2
+  [7] Cast Spell (Unique Power Self Only) 13
+[LEFTRING] Кольцо Мокси [CRAFT]
+  [1] Cast Spell (Unique Power Self Only) 13
+  [2] Ability Bonus (Constitution) 5
+  [3] Ability Bonus (Strength) 3
+  [4] Saving Throw Bonus (Universal) 1
+  [5] Damage Resistance (Divine) 15
+  [6] Quality (65535) 15
+[RIGHTRING] Кольцо Света Сагры
+  [1] Ability Bonus (Dexterity) 3
+  [2] Ability Bonus (Wisdom) 3
+  [3] Bonus Feat (Extend Spell)
+  [4] Bonus Spell Slot of Level (Cleric) 9
+  [5] Saving Throw Bonus (Universal) 3
+  [6] Skill Bonus (Concentration) 6
+  [7] Skill Bonus (Discipline) 6
+  [8] Use Limitation: Class (Cleric)
+[NECK] Амулет Света Сагры
+  [1] AC Bonus 6
+  [2] Skill Bonus (Concentration) 6
+  [3] Saving Throw Bonus (Universal) 3
+  [4] Ability Bonus (Strength) 3
+  [5] Ability Bonus (Constitution) 3
+  [6] Bonus Spell Slot of Level (Cleric) 5
+  [7] Bonus Spell Slot of Level (Cleric) 6
+  [8] Bonus Spell Slot of Level (Cleric) 7
+  [9] Use Limitation: Class (Cleric)
+[BELT] Пояс Мокси [CRAFT]
+  [1] Cast Spell (Unique Power Self Only) 13
+  [2] AC Bonus 5
+  [3] Ability Bonus (Dexterity) 6
+  [4] Ability Bonus (Constitution) 1
+  [5] Quality (65535) 8
+

@@ -1,0 +1,18 @@
+{{Grimoire spell|imagename=Is anigrow.jpg
+|spellname=Animal growth
+|casterlevel=[[druid]] 5, [[ranger]] 4, [[sorcerer]] / [[wizard]] 5
+|innatelevel=4
+|school=[[transmutation]]
+|descriptors=none
+|components=V, S
+|range=medium
+|immunities=none
+|savingthrow=[[fortitude]] negates
+|spellresistance=yes
+|targettype=up to one [[animal]]/2 levels, within a 15 ft radius spread
+|duration= 1 [[turn]]/level
+|description=This alteration changes each animal's size category to the next larger, grants it a +8 size bonus to [[strength]] and a +4 size bonus to [[constitution]] (and thus an extra 2 [[hit point]]s per [[hit die]]), and imposes a &minus;2 size penalty to [[dexterity]]. The creature's existing natural armor bonus increases by 2. The size change also affects the animal's size modifiers to [[armor class]] and [[attack roll]]s, and affects its base damage.
+}}
+{{g_drd}}
+{{g_rgr}}
+{{g_sorwiz}}

@@ -1,0 +1,27 @@
+{{Grimoire spell|imagename=Is curmodw.gif
+|spellname=Cure Moderate Wounds
+|casterlevel=[[Bard]] 2, [[Cleric]] 2, [[Druid]] 3, [[Healing domain (grimoire)|Healing]] 2, [[Ranger]] 3, [[Paladin]] 3
+|innatelevel=2
+|school=[[Conjuration]] ([[Spell subschool|Healing]])
+|descriptors=None
+|components=V, S
+|range=[[Touch attack|Touch]]
+|immunities=Positive
+|savingthrow=[[Will]] half
+|spellresistance= Yes
+|targettype=Single living creature
+|duration=Instant
+|description=The target creature is healed for 2d8 points of damage, +1 point per caster level (to a maximum of +10). Healing spells have a reverse effect on [[undead]], harming instead of healing them. A successful touch attack must first be made when this spell is used against undead.  
+
+This spell does not affect [[construct]]s.
+}}
+
+== Notes ==
+*{{Grimoire spell change|pagename=[[Cure moderate wounds]]}}
+{{g_bard}}
+{{g_clr}}
+{{g_drd}}
+{{g_healing}}
+{{g_rgr}}
+{{g_pal}}
+{{g_subhea}}

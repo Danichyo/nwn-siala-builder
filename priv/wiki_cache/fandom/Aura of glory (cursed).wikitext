@@ -1,0 +1,21 @@
+{{spell
+|icon=is_x1aurglo.jpg
+|innatelevel=2
+|school=[[transmutation]]
+|components=VS
+|range=p
+|area=colossal
+|immunity=mind-affecting
+|duration=1 [[turn]] / level
+|desc=The caster channels divine power to gain a +2 [[charisma]]
+bonus. All allies near the caster gain a +6 bonus to their [[saving throw]]s
+versus [[fear]].}}
+
+== Notes ==
+*Allies also receive 1[[d4]] healing. This healing is rolled once for all allies, not once per ally.
+* The "cursed" aspect is that the caster has a 40% chance of being afflicted with [[devil chills]].
+
+== Custom content notes ==
+* ''script:'' <code>x2_s0_auraglory</code>
+*This spell can be assigned to a [[spellbook]] by editing [[spells.2da]].
+[[Category:Non-class spells]]

@@ -1,0 +1,28 @@
+{{feat
+|type=general
+|reqfor=[[circle kick]], [[deflect arrows]], [[stunning fist]]
+|desc=Armed opponents no longer get [[attack of opportunity|attacks of opportunity]] against the character when he makes an [[unarmed strike|unarmed attack]].
+|use=automatic. Monks receive this feat for free at level 1.
+|icon=ife_cripple.gif
+|class1=monk
+|bonus1=champion of Torm
+|bonus2=fighter
+}}
+
+== Notes ==
+
+* Equipping an item in the [[gloves or bracers slot]] has the same result of stopping the attack of opportunity incurred by unarmed attacks. This often reduces the usefulness of this feat to just serving as a prerequisite for other feats.
+
+==Builder notes==
+
+'''Item feat:''' No, but it can be added with custom content.
+
+== Custom content notes ==
+
+'''Removable:''' yes
+
+'''Reusable:''' yes
+
+'''Script:''' hardcoded
+
+*This feat can be added to [[iprp_feats.2da]] to make it available as an item feat.

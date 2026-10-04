@@ -1,0 +1,28 @@
+{{spell
+|icon=is_x1bigby4.gif
+|magelevel=8
+|innatelevel=8
+|school=[[evocation]]
+|components=VS
+|range=l
+|area=single
+|save=[[fortitude]]
+|spellresistance=yes
+|duration=1 [[round]] / level
+|line=Bigby's hands
+|line5=Bigby's interposing hand
+|line6=Bigby's forceful hand
+|line7=Bigby's grasping hand
+|line8=Bigby's clenched fist
+|line9=Bigby's crushing hand
+|desc=A giant hand appears and attacks the target, once each round for the duration of the spell. Each hit causes 1d8+11 points of [[bludgeoning damage]] to the target and if they fail their [[saving throw]] they are [[stunned]] for that round as well.}}
+
+== Notes ==
+
+* Added in the [[expansion pack]]s.
+* The spell hits upon a successful check: d20 + caster [[ability modifier]] + [[caster level]] + 10 vs. [[armor class]].
+* For this check, casters with wizard levels use their [[intelligence]] modifier, and all other casters use [[charisma]].
+* While the bonus to saves from [[spellcraft]] usually does not apply to spells with a duration, it does apply to (only) the first save rolled against this spell (as that occurs as the spell is cast, rather than after a delay).
+
+==Custom content notes==
+*''Script:'' <code>x0_s0_bigby4</code>

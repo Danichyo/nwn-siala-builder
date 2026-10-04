@@ -1,0 +1,55 @@
+{{feat
+|type=class
+|prereq=[[shifter]] 7
+|desc=At seventh level, a shifter may [[polymorph|shift]] into various humanoid forms. A shifter may do this three times per day.
+|use=selected
+|icon=ife_x2humanshp.gif
+|class1=shifter
+}}
+
+== Notes ==
+
+*Requires [[Hordes of the Underdark]].
+*The forms are drow warrior, kobold commando, and lizardman. These are replaced by stronger epic versions at shifter level 17.
+*At shifter level 13, unlimited uses of this ability are gained via [[infinite greater wildshape|infinite humanoid shape]].
+*This form of shapeshifting cannot be [[dispel]]led.
+*Only the highest AC bonus from items will merge.
+*[[Off-hand]] weapon properties never merge, nor do properties from bracers/gauntlets/gloves.
+*The kobold commando has a bonus to setting traps, but trap kits (like most other items) cannot be used while shifted. Similarly, the form has a use poison bonus feat, but a shifted PC will be unable to use a [[Poison (item)|poison item]] to apply poison to a weapon.
+*The kobold commando shape provides the [[sneak attack]] ability. This will not [[stack]] with a character's sneak attack from [[rogue]] levels, but it will stack with a [[sneak attack, blackguard|blackguard's sneak attack]] or an [[assassin]]'s [[death attack]].
+*The drow warrior shape changes a shifter's race to [[elf]] for the duration of the shift, which can cause a [[multiclass penalty]] for a shifter with a second [[base class]] (in addition to the necessary [[druid]]), even if no such penalty exists for the shifter's original race.
+*The constitution score while in (epic) drow warrior form reflects the -2 penalty of the elven race and discounts the bonus/penalty of a shifter's normal race. However, this change is cosmetic only (appearing only on the character sheet) and does not affect the stats based upon constitution (hit points, fortitude save, and concentration) unless the constitution score is in any way subsequently changed. Such subsequent changes to the constitution score include those resulting from item merge, later potion buffs, and spell expiration.
+
+== Non-epic forms ==
+
+The following table shows the character's new [[strength]], [[dexterity]], [[constitution]] and [[AC]] (before applying item bonuses).
+{| class="compacttable"
+|-
+!Shape!!Str!!Dex!!Con!!AC!!HP!!To hit!!Attacks!!Special!!Unarmed!!Merge
+|-
+| [[drow warrior form|drow warrior]]||18||21||(-2)*||23 (+8 [[dodge bonus]], +5 dex)|| +30||[[BAB]] +7||''+3 drow venomblade:''<br />1d8+4 (19-20/x2), +3&nbsp;physical damage, [[on-hit]]: [[poison]] ([[DC]]&nbsp;16, 1d2&nbsp;strength damage)||[[spell resistance]]&nbsp;26; [[darkness (shifter)|darkness]]; +2&nbsp;save vs. poison||no||weapon, armor, items
+|-
+| [[lizardfolk whipmaster form|lizardfolk whipmaster]]||16||20|| -||24 (+9 dodge, +5 dex)|| +35||BAB +6||''+3 shocking whip:''<br />1d2+3 (20/x2), +1d6&nbsp;[[electrical damage]], +3&nbsp;[[slashing damage]], on-hit: [[stunned|stun]] (10% of hits, DC&nbsp;22, 4&nbsp;rounds)||[[disarm]], [[alertness]], [[ambidexterity]], [[weapon proficiency (exotic)]], [[freedom]], [[damage reduction]]&nbsp;5/+1, [[acid damage|acid]] [[damage resistance]]&nbsp;5/-, [[listen]]&nbsp;+4, [[discipline]]&nbsp;+10, immunity to poison, [[saving throw]]s +2 (universal)||no||weapon, armor, items
+|-
+| [[kobold commando form|kobold commando]]|| -||22|| -||27 (+10 dodge, +6 dex, +1 [[size modifier]])|| +10||BAB +10||''+3 kobold commando sword:''<br />1d6 (19-20/x2), +3&nbsp;slashing damage, on-hit: poison (DC&nbsp;18, 1d2&nbsp;strength damage)||[[hide in plain sight]], [[weapon finesse]], [[dodge]], [[use poison]], [[alertness]], [[darkvision]], [[sneak attack]] +2d6, [[freedom]], [[hide]]&nbsp;+10, listen&nbsp;+5, [[move silently]]&nbsp;+10, [[open lock]]&nbsp;+7, [[set trap]]&nbsp;+7, [[spot]]&nbsp;+5, [[tumble]]&nbsp;+10||no||weapon, armor, items
+|}
+* The drow's darkness ability is limited to one use per day, plus one use for every ten shifter levels. This limit is imposed via scripting and is not reported in the graphical user interface.
+
+
+== Epic forms ==
+
+The following improved humanoid shapes are gained at shifter level 17. (Usage of the darkness ability has the same daily limit as in the non-epic form.)
+{| class="compacttable"
+|-
+!Shape!!Str!!Dex!!Con!!AC!!HP!!To hit!!Attacks!!Special!!Unarmed!!Merge
+|-
+| [[epic drow warrior form|epic drow warrior]]||22||24||(-2)*||30 (+13 dodge, +7 dex)|| +66||BAB +12||''+6 frozen drow blade:''<br />1d8+6 (19-20/x2), +2d4 [[cold damage]], +6&nbsp;slashing damage, on-hit: [[freeze]] (caster level 15; DC 25)||spell resistance 30, [[darkness (shifter)|darkness]], [[cleave]], dodge, [[weapon proficiency (martial)]], darkvision, [[improved evasion]]||no||weapon, armor, items
+|-
+| [[epic lizardfolk whipmaster form|epic lizardfolk whipmaster]]||21||20|| -||27 (+12 dodge, +5 dex)|| +75||BAB +10||''+5 epic shocking whip:'' 1d2+5 (20/x2), +2d8 electrical damage, +5&nbsp;slashing damage, on-hit: stun (10% of hits, DC 26, 4&nbsp;rounds)||disarm, alertness, ambidexterity, weapon finesse, weapon proficiency (exotic), [[whirlwind attack]], freedom, damage reduction&nbsp;15/+5, acid damage resistance 15/-, listen&nbsp;+8, discipline&nbsp;+15, immunity to poison, saving throws +4 (universal)||no||weapon, armor, items
+|-
+| [[epic kobold commando form|epic kobold commando]]|| -||25|| -||31 (+13 dodge, +7 dex, +1 size modifier)|| +70||BAB +14||''+6 kobold commando sword:''<br />1d6 (19-20/x2), +2d4 acid damage, +6 slashing damage, [[massive critical]]s&nbsp;2d6, on-hit: poison (DC 24, 1d2 dexterity damage)||hide in plain sight, weapon finesse, dodge, use poison, improved evasion, darkvision, sneak attack +5d6, [[invisibility (shifter)|invisibility]], freedom, hide&nbsp;+10, listen&nbsp;+5, move silently&nbsp;+10, open lock&nbsp;+7, set trap&nbsp;+7, spot&nbsp;+5, tumble&nbsp;+10||no||weapon, armor, items
+|}
+
+== Custom content notes ==
+
+* ''script:'' <code>X2_S2_GWildShp</code>

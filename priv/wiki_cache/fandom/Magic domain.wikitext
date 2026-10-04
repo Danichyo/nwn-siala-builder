@@ -1,0 +1,9 @@
+'''Description:''' Clerics who take the Magic domain gain access to an improved list of bonus spells.[[Image:Id magic.gif|right|Magic]]
+== Bonus Spells ==
+* Level 1 [[Mage armor]]
+* Level 2 [[Melf's acid arrow]]
+* Level 3 [[Negative energy burst]]
+* Level 4 [[Stoneskin]]
+* Level 5 [[Ice storm]]
+
+[[Category:Cleric domains]]
